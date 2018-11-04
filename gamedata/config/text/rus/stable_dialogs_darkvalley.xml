@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+
+<!--NEW-->
+ <string id="sz_leader_di_0">
+    <text>Чем вы тут вообще промышляете?</text>
+ </string>
+ <string id="sz_leader_di_1">
+    <text>Чем-чем... Кроликов разводим, гы-гы...</text>
+ </string>
+ <string id="sz_leader_di_2">
+    <text>А по-другому зарабатывать не научились?</text>
+ </string>
+ <string id="sz_leader_di_3">
+    <text>Так, я что-то не понял...</text>
+ </string>
+ <string id="sz_leader_di_4">
+    <text>Не кипятись, я всего лишь спросил.</text>
+ </string>
+ <string id="sz_leader_di_5">
+    <text>К нему тут, понимаешь, со всей душой, а он с вопросами дурацкими лезет! Во народ тугой попёр!</text>
+ </string>
+ <string id="sz_leader_di_6">
+    <text>Ладно, пойду лучше, а то я смотрю, мне здесь уже не так рады, как в первый раз.</text>
+ </string>
+ 
+ <!--OLD-->
+ <string id="dibil2_0"> 
+ <text>Привёл я твоих дружков.</text> 
+ </string> 
+ <string id="dibil2_1"> 
+ <text>Вот и славно. Значит, слушай, код от двери - 4578. Понял? Ну а мы повеселимся чуток... С Барменом я общался. И вправду, у тебя задание от него. Что ж, рад был помочь, хе-хе. Только смотри, лаба - жуткое место...</text> 
+ </string> 
+ <string id="dibil2_2"> 
+ <text>Ну, пока.</text> 
+ </string> 
+
+
+
+
+ <string id="dibil_0"> 
+ <text>Здaрова, Слизень дал добро, идём на их базу.</text> 
+ </string> 
+ <string id="dibil_1"> 
+ <text>Фух, пошли, дорогу мы знаем, только сопроводи нас.</text> 
+ </string> 
+ <string id="dibil_2"> 
+ <text>Хорошо.</text> 
+ </string> 
+ <string id="ds_kvest"> 
+ <text>Конечно, это только начало, приятель!</text>  
+ </string>
+
+
+
+   <string id="slizen_dialog_0">
+     <text>Здарова, это ты прислал мне сообщение? Что за базар?</text>
+  </string>
+   <string id="slizen_dialog_1">
+     <text>Так, во-первых: ты кто такой, чтобы тут шариться, a? Это наше место, и у сталкеров тут дорог нет.</text>
+  </string>
+   <string id="slizen_dialog_2">
+     <text>Спокойно, я по заданию от Бармена. Ищу некую лабораторию, не слышал о такой?</text>
+  </string>
+   <string id="slizen_dialog_3">
+     <text>От Бармена, говоришь? Хм... Ну ладно... Лабораторию, говоришь? Ёпте, да что ты там забыл, приятель?</text>
+  </string>
+   <string id="slizen_dialog_4">
+    <text>Говорю же, задание у меня. Так ты знаешь, где находится вход?</text>
+  </string>
+   <string id="slizen_dialog_5">
+    <text>Хе, я то знаю, и скажу даже - он там, на севере. Но дело в том, что так просто ты туда не попадёшь... Код доступа знаю только я, поэтому выбора у тебя как бы нет. Значит, слушай, тут одни придурки с Кордона решили в крутых поиграть. Припёрлись сюда втроём монстрятину местную пошугать, ха. Ну и в итоге застряли они, уже вторые сутки тут засели, отбиваются вроде. Сигнал СОС нам раз двести уже отправляли... Короче, сходи туда и приведи этих придурков к нам в лагерь, проведём им воспитательную беседу с пацанами. Ха. Они тут на востоке, прямо за мной должны быть.</text>
+  </string>
+   <string id="slizen_dialog_6">
+    <text>Ладно.</text>
+   </string>
+  <string id="slizen_dialog_7">
+    <text>Давай, топай. Потом посмотрим, что с тобой делать.</text>
+  </string>
+
+	<string id="val_escort_captive_dialog_11">
+		<text>Бандиты... с-суки, вели меня на старую фабрику. Не знаю, что там со мной собирались делать, но одного парня, которого отвели туда до меня, я так больше и не видел.\nУ них есть ещё один наш, Серёга. Его держат в подвале... там здание такое... большое, недостроенное. Помоги ему, ладно? А то они его тоже...</text>
+	</string>
+	<string id="val_escort_captive_dialog_2">
+		<text>Не знаешь, что у них там на фабрике?</text>
+	</string>
+	<string id="val_escort_captive_dialog_21">
+		<text>Я мало что слышал. Знаю только, что у Борова, пахана ихнего, есть часть ключа от входа в подземелье, которое там находится. Лаборатория там раньше была какая-то, что ли... Ещё они между собой трепались, что Боров очень хотел бы туда пробраться, только без второй части ключа хрен что выходит.\nЭто... ты ежели соваться туда вздумал - не советую. Бандюков полно.</text>
+	</string>
+	<string id="val_escort_captive_dialog_211">
+		<text>Ясно. Спасибо, учту.</text>
+	</string>
+	<string id="val_escort_captive_dialog_3">
+		<text>Попробую помочь вашему парню.</text>
+	</string>
+	<string id="val_escort_captive_dialog_41">
+		<text>Напарника моего жалко... Хороший товарищ был. Но всё равно, я тебе обязан.</text>
+	</string>
+	<string id="val_escort_captive_dialog_411">
+		<text>Бывает.</text>
+	</string>
+	<string id="val_escort_captive_dialog_51">
+		<text>Спасибо за помощь!</text>
+	</string>
+	<string id="val_escort_captive_dialog_511">
+		<text>Пока.</text>
+	</string>
+	<string id="val_escort_captive_dialog_61">
+		<text>Ты на людей чхать хотел... О чём мне с тобой говорить?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21">
+		<text>Спасибо, брат! Отбили моего напарника! Вот, возьми - от чистого сердца.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_2111">
+		<text>Договорились.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_212">
+		<text>Ты, наверное, неплохо знаешь эти места. Что здесь есть интересного?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_2121">
+		<text>На севере - лагерь бандитов. На востоке - фабрика старая. На юго-западе - заброшенная свиноферма, а невдалеке от неё ворота какие-то... Даже не знаю, что там, не ходил за них.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21211">
+		<text>Можешь про лагерь бандитов поподробнее?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_212111">
+		<text>Ну, что поподробнее... Обосновались они в здании таком недостроенном прямо на север отсюда. Главным у них Боров - скотина, каких поискать. Нас как раз сюда и послали, чтоб его прикончить.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21212">
+		<text>А что на фабрике творится?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_212121">
+		<text>Что удалось разузнать, так это то, что там есть вход в какие-то подземные помещения. Только охраняют его бандюки здорово.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_2121211">
+		<text>Подземелье какое? Что там внутри?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21212111">
+		<text>Вот чего не знаю, того не знаю: мы туда не совались. Единственное - известно, что у Борова есть половина ключа от входа.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21213">
+		<text>Настоящая свиноферма? И свиньи там есть?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_212131">
+		<text>Слюнки потекли, так отбивных захотелось, да? Так по всей Зоне кабаны бегают! Съешь такого - глядишь, светиться будешь в темноте, фонарик не понадобится! Ладно, шучу, шучу... Ферма заброшена давно, там какие-то сталкеры обосновались. Только не понравились они мне, а я своему предчувствию доверять привык.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21214">
+		<text>А что за ворота такие?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_212141">
+		<text>Да не пойму я что-то. Ворота как ворота, только закрытые и охраняются хорошо. Мы туда не совались.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_21215">
+		<text>Понял, спасибо.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_212151">
+		<text>Всегда пожалуйста! Обращайся, если что.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_213">
+		<text>В разведку всего вдвоём пошли?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_2131">
+		<text>Ещё один был, Серёга. Не знаю я, куда он пропал, ничего не слышал... Наверное, банда его пришила-таки.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_214">
+		<text>Счастливо.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_31">
+		<text>Эх, друг... дружище, как же я теперь?.. Спасибо, брат - ты хоть помочь пытался. А я своё слово держу.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_41">
+		<text>Спасибо, за помощь! Что ты хотел узнать ещё?</text>
+	</string>
+	<string id="val_escort_nap1_dialog_61">
+		<text>Ты отказался помочь, когда я просил. Вали отсюда, не о чем нам разговаривать...</text>
+	</string>
+	<string id="val_escort_nap1_dialog_611">
+		<text>Пока.</text>
+	</string>
+	<string id="val_prisoner_hello_11">
+		<text>Эй, друг! Помоги! Я разведчик "Долга". Помоги выбраться!..</text>
+	</string>
+	<string id="val_prisoner_hello_111">
+		<text>Постараюсь.</text>
+	</string>
+	<string id="val_prisoner_hello_112">
+		<text>Ничем не могу тебе помочь.</text>
+	</string>
+	<string id="val_prisoner_hello_21">
+		<text>Спасибо, брат! Я теперь твой должник. Смотри, что я узнал - может, пригодится, мало ли... Боров - это у них заводила, припас у себя много всякого добра. Есть у него часть ключа от подземелья на старой фабрике. Охранники мои трепались, что там раньше какая-то лаборатория была. Только пробраться к Борову нелегко.</text>
+	</string>
+	<string id="val_prisoner_hello_211">
+		<text>Спасибо за информацию.</text>
+	</string>
+	<string id="val_prisoner_hello_2111">
+		<text>Пора выбираться к своим. Хорошо бы отсюда живым уйти...</text>
+	</string>
+	<string id="val_prisoner_hello_21111">
+		<text>Удачи.</text>
+	</string>
+	<string id="val_prisoner_hello_31">
+		<text>Уходить надо отсюдова, а то бандюки могут невзначай заглянуть! Хотел чего? Только побыстрей!..</text>
+	</string>
+	<string id="val_prisoner_hello_311">
+		<text>Нет, ничего.</text>
+	</string>
+	<string id="val_prisoner_hello_41">
+		<text>Эй, друг! Там на стене есть переключатель - он открывает дверь решётки.</text>
+	</string>
+	<string id="val_prisoner_hello_411">
+		<text>Хорошо, я посмотрю.</text>
+	</string>
+	<string id="val_rob_dialog_11">
+		<text>Слушай, классная пушка нужна? Я возле Янтаря нашёл кой-что... тайник там был, одним словом. Среди всякого там гауссовка лежала. Отличная, тебе доложу, штука: за сто метров любого - наповал. Могу уступить, если интересуешься. За восемьсот всего, через две минуты вынесу!</text>
+	</string>
+	<string id="val_rob_dialog_111">
+		<text>Держи деньги.</text>
+	</string>
+	<string id="val_rob_dialog_112">
+		<text>Нет, спасибо, не хочу.</text>
+	</string>
+	<string id="val_rob_dialog_113">
+		<text>Да не надо. С деньгами напряг.</text>
+	</string>
+	<string id="val_rob_dialog_21">
+		<text>Достал деньги? Только давай быстрей, а то тут у меня уже спрашивали... Скоро должны прийти.</text>
+	</string>
+	<string id="val_rob_dialog_3">
+		<text>Отлично. Подожди здесь, я сейчас вынесу.</text>
+	</string>
+	<string id="val_rob_dialog_31">
+		<text>Жду.</text>
+	</string>
+	<string id="val_sos_dialog_11">
+		<text>Чувак, дай аптечку!</text>
+	</string>
+	<string id="val_sos_dialog_111">
+		<text>Держи.</text>
+	</string>
+	<string id="val_sos_dialog_112">
+		<text>Извини, нет у меня аптечки.</text>
+	</string>
+	<string id="val_sos_dialog_21">
+		<text>Спасибо, друг - выручил ты меня, нет слов. Если живы будем и ещё доведется свидеться - постараюсь свой долг вернуть. Сейчас разве что информацией интересной поделиться получится. Значит, на юг отсюда есть ферма, там вольные сталкеры обосновались. Так вот, один из них продаёт гаусс совсем по дешёвке, за восемьсот. Я сам собирался купить, и на тебе - в такую лажу попал... Так что, если есть деньжата, вперёд.</text>
+	</string>
+	<string id="val_sos_dialog_211">
+		<text>Спасибо за информацию.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_4111">
+		<text>Я твой должник, а долги я возвращаю. Идём.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_41111">
+		<text>Отлично. Теперь мы всех порвем.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_4112">
+		<text>Извини, у меня другие планы.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_41121">
+		<text>Что ж, тогда удачи тебе.</text>
+	</string>
+	<string id="val_escort_nap1_dialog_412">
+		<text>Пока.</text>
+	</string>
+</string_table>
