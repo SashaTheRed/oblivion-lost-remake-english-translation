@@ -4,6 +4,9 @@ Welcome to the page of an English translation of *[Oblivion Lost Remake](https:/
 A list of all files with detailed progress can be found below.
 
 ---
+- **[config](gamedata/config)**
+	- [localization.ltx](gamedata/config/localization.ltx)
+		- done
 - **[config/text/eng](gamedata/config/text/eng)**
 	- [mp_st_speechmenu.xml](gamedata/config/text/eng/mp_st_speechmenu.xml)
 		- done
@@ -188,4 +191,7 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_others.xml](gamedata/config/text/eng/ui_st_others.xml)
 		- incomplete
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
+		- incomplete
+- **[scripts](gamedata/scripts)**
+	- [nick.script](gamedata/scripts/nick.script)
 		- incomplete

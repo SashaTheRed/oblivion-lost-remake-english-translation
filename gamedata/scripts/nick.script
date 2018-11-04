@@ -1,0 +1,1573 @@
+function precond_bablo_varka_silgrav(actor,npc)
+    return actor:money() > 5000
+end
+
+
+
+function give_bablo_varka_silgrav(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,5000,"out")
+end
+
+
+function daem_silgrav(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "af_gold_fish","in")
+end
+
+
+function precond_artshar()
+     return nik_dialog.item_much("af_electra_moonlight",1) ~= false    
+end
+
+
+function precond_patrons()
+     return nik_dialog.item_much("ammo_5.45x39_fmj",1) ~= false    
+end
+
+
+function precond_spiralka()
+     return nik_dialog.item_much("af_compas",1) ~= false    
+end
+
+
+function precond_mergera()
+     return nik_dialog.item_much("atifact_merger",1) ~= false    
+end
+
+
+
+function daem_atifact_merger(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "atifact_merger","in")
+end
+
+
+
+function precond_golovi()
+     return nik_dialog.item_much("af_dummy_glassbeads",3) ~= false    
+end
+
+
+
+function otdaem_golovi()
+nik_dialog.out_item_much("af_dummy_glassbeads",3)
+end
+
+
+
+
+
+function precond_ribka()
+     return nik_dialog.item_much("af_gold_fish",1) ~= false    
+end
+
+
+function otdaem_ribka()
+nik_dialog.out_item_much("af_gold_fish",1)
+end
+
+
+
+
+
+function precond_chdoki()
+     return nik_dialog.item_much("doki_dla_ch",1) ~= false    
+end
+
+
+
+function otdaem_chdoki()
+nik_dialog.out_item_much("doki_dla_ch",1)
+end
+
+
+
+function precond_glaz()
+     return nik_dialog.item_much("glaz_fila",1) ~= false    
+end
+
+
+
+
+function precond_kalasha()
+     return nik_dialog.item_much("wpn_ak74",1) ~= false    
+end
+
+
+function otdaem_kalasha()
+nik_dialog.out_item_much("wpn_ak74",1)
+end
+
+
+
+function hmm_cod(actor)
+	if has_alife_info("nasel_tainik_strelka_rostok") then
+		db.actor:give_info_portion("aaa_cod_je")
+	end
+end
+
+
+function precond_dok_holodilnik()
+     return nik_dialog.item_much("jabin_holodilnik",1) ~= false    
+end
+
+
+
+function otdaem_dok_holodilnik()
+nik_dialog.out_item_much("jabin_holodilnik",1)
+end
+
+
+
+function daem_dok_holodilnik(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "jabin_holodilnik","in")
+end
+
+
+
+function precond_nojs_dla_barmena()
+     return nik_dialog.item_much("wpn_knife_m1",1) ~= false    
+end
+
+function otdaem_nojs_dla_barmena()
+nik_dialog.out_item_much("wpn_knife_m1",1)
+end
+
+
+
+function precond_pda_mg()
+     return nik_dialog.item_much("device_pda_uchenyh_deadcity",1) ~= false    
+end
+
+
+function otdaem_pda_mg()
+nik_dialog.out_item_much("device_pda_uchenyh_deadcity",1)
+end
+
+
+
+
+function daem_kombez_yan_zab(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "ecolog_outfit","in")
+end
+
+
+function otdaem_kulon_zeny()
+nik_dialog.out_item_much("amulet_karlikov",1)
+end
+
+
+function precond_kulon_zeny()
+     return nik_dialog.item_much("amulet_karlikov",1) ~= false    
+end
+
+
+function precond_zablik_doks()
+     return nik_dialog.item_much("olr_zablikov_doki",1) ~= false    
+end
+
+
+function otdaem_zablik_doks()
+nik_dialog.out_item_much("olr_zablikov_doki",1)
+end
+
+
+function actor_set_dolg(actor, npc)
+	--printf("ACTOR NOW IN [monolit] COMMUNITY")
+	if db.actor then
+		db.actor:set_character_community("dolg", 0, 0)
+	end
+	return true
+end
+
+function actor_set_dolg_equip(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "wpn_spas12","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_12x70_buck","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_12x70_buck","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_12x70_buck","in") 
+end
+
+
+function precond_gravishot()
+     return nik_dialog.item_much("wpn_shotgra",1) ~= false    
+end
+
+
+
+function give_dve_hachki(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "ammo_bolts","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_bolts","in")
+end
+
+
+
+function give_gravshotgum(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "wpn_shotgra","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_bolts","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_bolts","in")
+ dialogs.relocate_item_section(second_speaker, "ammo_bolts","in") 
+ dialogs.relocate_item_section(second_speaker, "amulet_karlikov","in")
+end
+
+
+function give_gravshotgumonly(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "wpn_shotgra","in")
+end
+
+
+
+function reputation_up_fivetousand(stalker, player) 
+ db.actor:change_character_reputation(db.actor:character_reputation() + 1000) 
+end
+
+
+function precond_graviart()
+     return nik_dialog.item_much("wpn_art_gra",1) ~= false    
+end
+
+function otdaem_graviart()
+nik_dialog.out_item_much("wpn_art_gra",1)
+end
+
+
+function give_graviart(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "wpn_art_gra","in") 
+end
+
+
+
+function killlll_rabogo()
+local npc,obj
+	for i=0,65534 do 
+        npc = level.object_by_id(i)
+        if npc and npc:name() == "lvl5_bar_stalker_0038" then 
+            obj = alife():object(npc:id())
+        amk_particle.amk_particle({
+				particle="weapons\\generic_weapon03",
+				pos=npc:position(),
+				sound=[[weapons\pm_shoot]]
+			})
+           
+        end
+    end
+end
+
+
+
+function give_raboy_ap_barm(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "medkit_scientic","in") 
+end
+
+
+function na_apteku_raboy(first_speaker, second_speaker)  
+nik_dialog.out_item_much("medkit_scientic",1)
+end
+
+
+-- стартовые параметры ГГ
+function start_actor_params()
+    local STbron = db.actor:object("stalker_outfit") 
+    STbron:set_condition(0.2)
+end
+
+function start_actor_params_food()
+if db.actor then
+db.actor.satiety  = -0.5
+end
+end
+
+-- стартовые параметры ГГ
+
+function yasiik_dwa_have()
+     return nik_dialog.item_much("agro_case_02",1) ~= false    
+end
+
+function akim_give_money_kompensacia(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,500,"out")
+end
+
+
+function have_first_aatr()
+     return nik_dialog.item_much("af_blood",1) ~= false    
+end
+
+function have_first_yaas()
+     return nik_dialog.item_much("agro_case_01",1) ~= false    
+end
+
+function na_glaz(first_speaker, second_speaker)  
+ dialogs.relocate_item_section(second_speaker, "glaz_fila","in") 
+end
+
+function main_friend(npc)
+npc:set_relation(game_object.friend, db.actor)
+end
+
+function give_glaz()
+nik_dialog.out_item_much("glaz_fila",1)
+end
+
+
+function have_pzrk()
+     return nik_dialog.item_much("wpn_igla",1) ~= false    
+end
+
+function give_pzrk()
+nik_dialog.out_item_much("wpn_igla",1)
+end
+
+
+function give_pattys_bablo (first_speaker, second_speaker) 
+ dialogs.relocate_money(first_speaker, 5000, "in") 
+ end
+
+
+
+-- удаляем фейк прибор спавним норм прибор
+function device_remove_prib()
+    local ooItem = db.actor:object("fake_pribor_jaba") 
+    if ooItem then
+        alife():release(alife():object(ooItem:id()), true)
+                  amk.spawn_item_in_inv("sleep_bag")
+    end
+end
+
+
+
+
+
+function cit_drop_actor_inventory(actor)
+	inv_box_2 = level_object_by_sid(18029)
+	out_object = actor
+	in_object = inv_box_2
+		actor:inventory_for_each(transfer_object_item) 
+end
+
+function cross_off_yan()
+        db.actor:set_camera_fov(95)
+end
+
+function cross_on_yan()
+        db.actor:set_camera_fov(67.5)
+end
+
+
+--------------------------Убийство новиса---------------------------------------------------
+
+
+--' удаляем старейшину оне
+function del_stareisina_one()
+  local se_obj = alife():object("lvl4u_darklab_stalker_0023")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем сасаку три
+function del_sasaka_tretio()
+  local se_obj = alife():object("lvl6_rostok_bloodsucker_strong_0002")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем сасаку два
+function del_sasaka_dvario()
+  local se_obj = alife():object("lvl6_rostok_bloodsucker_strong_0001")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем сасаку один
+function del_sasaka_odin()
+  local se_obj = alife():object("lvl6_rostok_bloodsucker_strong")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем ворота москвич
+function del_vorota_moskv()
+  local se_obj = alife():object("lvl7_yantar_physic_object_0588")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем ворота лада
+function del_vorota_lada()
+  local se_obj = alife():object("lvl5_bar_physic_object_0754")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем ворота заз
+function del_vorota_zaz()
+  local se_obj = alife():object("lvl5_bar_physic_object_0753")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем зяблика зону
+function grazn_yan()
+  local se_obj = alife():object("lvl7_yantar_space_restrictor_0037")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем первый ящик
+function delete_yasik_oneer()
+  local se_obj = alife():object("lvl1_escape_give_yashik_kvest_1_item")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем кошака
+function pidornuli_koshaka()
+  local se_obj = alife():object("lvl11_deadcity_m_cat_e")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем дверь за тайником
+function ros_tainik_del()
+  local se_obj = alife():object("lvl6_rostok_physic_object_0203")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем дверь за ножом
+function ros_noj_del()
+  local se_obj = alife():object("lvl6_rostok_physic_object_0202")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем дверь в МГ
+function del_mgg_door()
+  local se_obj = alife():object("lvl11_deadcity_physic_object_0192")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем зяблика в баре
+function bar_zablik_sp()
+  local se_obj = alife():object("bar_bar_visitors_3_2_0002")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем камаз бармена
+function kamaz_barmena()
+  local se_obj = alife():object("lvl5_bar_m_car_0004")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+
+--' удаляем проходящего зомби на янтаре
+function del_yana_zzz()
+  local se_obj = alife():object("lvl7_yantar_stalker_0043")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+
+--' удаляем маникен дробовика
+function del_manik_gravdrobo()
+  local se_obj = alife():object("lvl4u_darklab_physic_object_0450")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем дениса БАР
+function del_den_bar()
+  local se_obj = alife():object("lvl5_bar_stalker_0039")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем дениса
+function del_denisa()
+  local se_obj = alife():object("lvl4u_darklab_stalker_0024")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем заграду 2
+function del_zagrada_quest_one()
+  local se_obj = alife():object("lvl4u_darklab_physic_object_0502")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем заграду 1
+function del_zagrada_quest_oneone()
+  local se_obj = alife():object("lvl4u_darklab_physic_object_0503")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем зомби манекена
+function zom_udalalam()
+  local se_obj = alife():object("lvl4u_darklab_physic_object_0472")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем командира зону
+function remove_wolf_zone()
+  local se_obj = alife():object("comandir_4")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем командира
+function remove_wolfff()
+  local se_obj = alife():object("lvl1_escape_stalker_0002")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем сосыча росток cut
+function remove_krovo_rostok()
+  local se_obj = alife():object("lvl6_rostok_bloodsucker_strong_0000")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем маникен ГГ сарко
+function remove_gg_sarko()
+  local se_obj = alife():object("lvl15_sarcofag_stalker_0002")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем маникен ГГ свамп
+function remove_gg_swamp()
+  local se_obj = alife():object("lvl8_swamp_stalker_0013")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем маникен Бурара
+function burart_udaalaem()
+  local se_obj = alife():object("lvl4u_darklab_physic_object_0435")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем маникен ГГГ
+function remove_gg()
+  local se_obj = alife():object("lvl1_escape_physic_object_0131")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем нож жабы
+function delete_nosh_stol()
+  local se_obj = alife():object("lvl1_escape_physic_object_0130")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+--' удаляем друга фила
+function remove_kebab()
+  local se_obj = alife():object("lvl2_garbage_stalker_0031")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем камаз заграду
+function kamaz_zagra_zfohssd()
+  local se_obj = alife():object("lvl2_garbage_physic_object_0010")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем новиса
+function lider_verd_zfohssd()
+  local se_obj = alife():object("lvl1_escape_stalker_0024")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем забор росток
+function delete_ros_zabor()
+  local se_obj = alife():object("lvl6_rostok_physic_object_0110")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+function killlll_seregu()
+local npc,obj
+	for i=0,65534 do 
+        npc = level.object_by_id(i)
+        if npc and npc:name() == "lvl5_bar_stalker" then 
+            obj = alife():object(npc:id())
+        npc:kill(npc)
+        amk_particle.amk_particle({
+				particle="monsters\\pseudo_phantom_birth_00",
+				pos=npc:position(),
+				sound=[[monsters\young_bloodsucker\attack_]]
+			})
+           
+        end
+    end
+end
+
+
+--------------------------Убийство ветеранов---------------------------------------------------
+
+function lider_gl_zfoh()
+local npc,obj
+	for i=0,65534 do 
+        npc = level.object_by_id(i)
+        if npc and npc:name() == "lvl5_bar_stalker_0031" then 
+            obj = alife():object(npc:id())
+        npc:kill(npc)
+        amk_particle.amk_particle({
+				particle="monsters\\pseudo_phantom_birth_00",
+				pos=npc:position(),
+				sound=[[monsters\young_bloodsucker\attack_]]
+			})
+           
+        end
+    end
+end
+
+function lider_gl_zfoh2()
+local npc,obj
+	for i=0,65534 do 
+        npc = level.object_by_id(i)
+        if npc and npc:name() == "bar_bar_visitors_3_3_0000" then 
+            obj = alife():object(npc:id())
+        npc:kill(npc)
+        amk_particle.amk_particle({
+				particle="monsters\\pseudo_phantom_birth_00",
+				pos=npc:position(),
+				sound=[[monsters\young_bloodsucker\attack_]]
+			})
+           
+        end
+    end
+end
+
+function lider_gl_zfoh3()
+local npc,obj
+	for i=0,65534 do 
+        npc = level.object_by_id(i)
+        if npc and npc:name() == "bar_bar_visitors_3_3_0001" then 
+            obj = alife():object(npc:id())
+        npc:kill(npc)
+        amk_particle.amk_particle({
+				particle="monsters\\pseudo_phantom_birth_00",
+				pos=npc:position(),
+				sound=[[monsters\young_bloodsucker\attack_]]
+			})
+           
+        end
+    end
+end
+
+function lider_gl_zfoh4()
+local npc,obj
+	for i=0,65534 do 
+        npc = level.object_by_id(i)
+        if npc and npc:name() == "bar_bar_visitors_3_3" then 
+            obj = alife():object(npc:id())
+        npc:kill(npc)
+        amk_particle.amk_particle({
+				particle="monsters\\pseudo_phantom_birth_00",
+				pos=npc:position(),
+				sound=[[monsters\young_bloodsucker\attack_]]
+			})
+           
+        end
+    end
+end
+
+--------------------------Убийство ветеранов---------------------------------------------------
+
+-- злится и пытаестя силой отобрать документы
+function actor_enemy(actor, npc)
+	npc:set_relation(game_object.enemy, actor)
+end
+
+
+-- испортился фонарь
+function device_torch_bad()
+    local oItem = db.actor:object("device_torch") or db.actor:object("fake_device_torch")
+    if oItem then
+        alife():release(alife():object(oItem:id()), true)
+                  amk.spawn_item_in_inv("torch_m12")
+    end
+end
+
+
+
+--  OLR 2 ------------------------------------
+
+
+
+
+
+function horror_voice(actor, npc)
+	local sound_obj_l		= xr_sound.get_safe_sound_object( [[affects\horror_l]] )
+        local sound_obj_r		= xr_sound.get_safe_sound_object( [[affects\horror_r]] )
+        
+		sound_obj_l:play_no_feedback(actor, sound_object.s2d, 0, vector():set(-1, 0, 1), 1.0)
+		sound_obj_r:play_no_feedback(actor, sound_object.s2d, 0, vector():set( 1, 0, 1), 1.0)
+end
+
+
+
+function money_give_vosemsot (first_speaker, second_speaker) 
+ dialogs.relocate_money(first_speaker, 800, "in") 
+ end
+
+
+--проверка арта в рюкзаке
+
+function black_angel_have(actor,npc)
+    return actor:money() > 1000
+end
+
+
+function dva_k_have(actor,npc)
+    return actor:money() > 2000
+end
+
+function for_k_have(actor,npc)
+    return actor:money() > 5000
+end
+
+
+function vos_k_have(actor,npc)
+    return actor:money() > 8000
+end
+
+function pat_k_have(actor,npc)
+    return actor:money() > 15000
+end
+
+
+
+function akim_give_money(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,1000,"out")
+end
+
+function dva_give_money(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,2000,"out")
+end
+
+function for_give_money(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,5000,"out")
+end
+
+function vos_give_money(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,8000,"out")
+end
+
+function pat_give_money(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,15000,"out")
+end
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+function reputation_up_5000(stalker, player) 
+ db.actor:change_character_reputation(db.actor:character_reputation() + 5000) 
+ end
+
+function reputation_up_500(stalker, player) 
+ db.actor:change_character_reputation(db.actor:character_reputation() + 500) 
+ end
+
+
+
+
+-- Удаление объекта по имени
+function del_so(name)
+	local sim = alife()
+	local se_obj = sim:object(name)
+	if se_obj ~= nil then
+		sim:release(se_obj, true)
+	end
+end
+
+
+
+--' удаляем мертвеца 1
+function del_mer_one()
+  local se_obj = alife():object("lvl4_darkdolina_stalker_0020")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем мертвеца 2
+function del_mer_two()
+  local se_obj = alife():object("lvl4_darkdolina_stalker_0018")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' удаляем мертвеца 3
+function del_mer_tri()
+  local se_obj = alife():object("lvl4_darkdolina_stalker_0019")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+
+
+--' удаляем rafik_yan
+function del_rafik()
+  local se_obj = alife():object("lvl7_yantar_m_car_0000")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем kazm_agro
+function kazm_agro()
+  local se_obj = alife():object("lvl3_agroprom_physic_object_0092")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем жабу с кордона
+function delete_escape_jaba()
+  local se_obj = alife():object("escape_trader_0000")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем алкаша с каморки
+function delete_alkash_bar()
+  local se_obj = alife():object("lvl5_bar_physic_object_0377")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем алкаша с каморки2
+function delete_alkash_bar2()
+  local se_obj = alife():object("lvl5_bar_physic_object_0446")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем командора
+function delete_escape_wolf()
+  local se_obj = alife():object("lvl1_escape_stalker_0002")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+---------------------------------------------------------------
+
+--' удаляем уч варлаб 1 
+function delete_uch_war_1()
+  local se_obj = alife():object("lvl17_warlab_stalker_0000")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем уч варлаб 2 
+function delete_uch_war_2()
+  local se_obj = alife():object("lvl17_warlab_stalker_0002")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' удаляем уч варлаб 3 
+function delete_uch_war_3()
+  local se_obj = alife():object("lvl17_warlab_stalker_0001")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+---------------------------------------------------------------
+
+--' удаляем сосааку
+function delete_sosakasaas()
+  local se_obj = alife():object("sosich")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+---------------------------------------------------------------
+--' зону слизней
+function delete_sliz_zona()
+  local se_obj = alife():object("slizni_save")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+
+--' cлизня с калашом
+function delete_sliz_kalash()
+  local se_obj = alife():object("lvl4_darkdolina_stalker_0005")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' придурка 1
+function delete_sliz_prid1()
+  local se_obj = alife():object("lvl4_darkdolina_stalker_0004")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' придурка 2
+function delete_sliz_prid2()
+  local se_obj = alife():object("lvl4_darkdolina_stalker")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+--' придурка 3
+function delete_sliz_prid3()
+  local se_obj = alife():object("lvl4_darkdolina_stalker_0003")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+
+---------------------------------------------------------------
+
+
+
+function actor_set_monolit(actor, npc)
+	--printf("ACTOR NOW IN [monolit] COMMUNITY")
+	if db.actor then
+		db.actor:set_character_community("monolith", 0, 0)
+	end
+	return true
+end
+
+
+-- варлаб шатай экран ------------------------------------
+
+--function Run_Vibros()
+--level.set_weather("stancia")
+--local snd_obj = xr_sound.get_safe_sound_object([[ambient\earthquake]])
+--snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+--level.add_cam_effector("camera_effects\\earthquake.anm", 1974, true, "")
+
+
+function Run_Vibros()
+
+level.set_weather_fx ("surge_day")
+level.add_pp_effector ("vibros.ppe", 1974, false)
+local snd_obj = xr_sound.get_safe_sound_object([[anomaly\dezodor]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function clear_vibros()
+    level.remove_pp_effector(1974)
+end
+
+--  варлаб шатай экран ------------------------------------
+
+
+function zov_monolita_pda()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("PDA\\nНовый контакт","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
+local snd_obj = xr_sound.get_safe_sound_object([[characters_voice\scenario\sarcofag\o_soznanie_call]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function zaba_ab_note()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Жаба\\nДа, и ещё.. У тебя в ПДА имеется специальный блокнот для заметок. Можешь писать туда свои записи, если найдешь чего интересного..","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(5000, 15000),15000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+
+function barm_sms_prcpntr()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Профессор\\nСталкер, в городе наблюдается большая активность ПСИ излучения, которая блокирует проход к станции.. Мы засекли большую группу контролёров где-то в центре города.., возможно она мешает пройти. Рекомендую использовать артефакт Мёртвая Голова и даже не один в той области. ","ui\\ui_iconsTotal",Frect():set(660,108,165,108),math.random(1000, 13000),15000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function njvis_oka_sch()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Неизвестный сталкер\\nСталкер, подойди дело есть.. Я тут, у склона горы..","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function oobrataan()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Зябликов:".."\\n".."%c[255,160,160,160]Спасибо, за помощь.. Мне нужно побыть одному..".."".."\n", nil, "default", 30000)
+end
+
+
+
+
+function potkluchil_mg_izl()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Лидер Свободы:".."\\n".."%c[255,160,160,160]Опа! Кажется излучение спало! Молодец, смог сталкер.. Чёрт, кажется у нас гости..".."".."\n", nil, "freedom", 30000)
+end
+
+
+
+
+function a_cod_dvery_ros()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Стрелок\\nХм.. кажется вспомнил код от двери своего тайника на Ростоке.. Код: 3781","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function prisad_nahui()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]Присядь пока приятель..".."".."\n", nil, "default", 10000)
+end
+
+
+
+function gr_lid_haha()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Лидер Греха:".."\\n".."%c[255,160,160,160]Ха-ха-ха...".."".."\n", nil, "default", 20000)
+end
+
+
+
+function car_barmen_bardachok()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]В бардачке машины лежит путевой журнал - водитель занимался перевозками оборудования и персонала из одной лаборатории в другую. Есть накладные, список оборудования, - однажды подобрал раненого возле лагеря военных сталкеров отвез к ученым..".."".."\n", nil, "default", 20000)
+end
+
+
+function zomb_zametka_lab()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]Хм.. Страно.. Моё фото. И задание убить..".."".."\n", nil, "default", 10000)
+end
+
+
+
+function zomb_zametka_agro()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]Хм.. Страно.. Тут моя фотография! И задание убить.. Кажется у кого-то на меня какие то счёты.".."".."\n", nil, "default", 10000)
+end
+
+
+
+function swapm_dok_hello()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Доктор:".."\\n".."%c[255,160,160,160]Я ждал тебя, сталкер..".."".."\n", nil, "default", 10000)
+end
+
+
+function swapm_mess_hello()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]Что? Доктор?!..".."".."\n", nil, "default", 10000)
+end
+
+
+
+function daaaa_vot()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Даа! Вот оно!".."".."\n", nil, "default", 20000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr\sms_ser\1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function basement_seryy_dee_dee_dee()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Пришли. Вводи код - 9783".."".."\n", nil, "default", 20000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr\sms_ser\2]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+ 
+
+function basement_seryy_dee_dee()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Мм.. Нет, явно не здесь. Что ж, значит он он всё же там. Пойдём.".."".."\n", nil, "default", 20000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr\sms_ser\3]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function basement_seryy_dee()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Чёрт, он труп.. Ладно, возвращайся, есть одна зацепка.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr\sms_ser\4]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function ohran_zdoher()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Профессор:".."\\n".."%c[255,160,160,160]Что с охранником?. Чёрт возьми... Придётся нанимать нового.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function dol_sms_two_mertv()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Пилот военных:".."\\n".."%c[255,160,160,160]Седьмой, как слышно? Начинаю высадку. Профессор сказал об этом районе.".."".."\n", nil, "default", 10000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function dol_sms_one_mertv()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мертвец:".."\\n".."%c[255,160,160,160]Так-так, кто тут у нас? Давай сюда, медленно..".."".."\n", nil, "default", 10000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function car_olr()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Транспорт:".."\\n".."%c[255,180,180,180]Управление: WASD. Переключение передач - LShift, Alt. Ручной тормоз - Space.".."".."\n", nil, "default", 20000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function flacke()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Вольфрам:".."\\n".."%c[255,160,160,160]Ей, сталкер! Скорей к нам, мы на втором этаже комплекса.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function turn_arena_lamps_off_yan_tip()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Система освещения бункера:".."\\n".."%c[255,160,160,160]Питание отключено.".."".."\n", nil, "default", 10000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function basement_seryy()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Мессер, зайди ко мне, дело есть.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function messer_fonar_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]Чёрт, какого..? Что с фонарём?".."".."\n", nil, "default", 30000)
+end
+
+
+function barman_group_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Бармен:".."\\n".."%c[255,160,160,160]Что с группой? Чёрт.. Мессер..".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\geiger_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function proffes_aftrbrain_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Профессор:".."\\n".."%c[255,160,160,160]Зайдите к нам в бункер, мы отблагодарим вас за то что вы сделали.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function seiy_2_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Сдохни сука!.".."".."\n", nil, "default", 30000)
+end
+
+function seiy_1_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[255,160,160,160]Оба-на... Ты слышал? Соседняя комната.".."".."\n", nil, "default", 30000)
+end
+
+function chaes_1_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Журналист:".."\\n".."%c[255,160,160,160]Стрелок, выход к генераторам находится за станцией. Ты можешь заметить рядом с ним колонну техники.. Будь осторожнее там.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_news]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function radar_ant_off_sms()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Бармен\\nГоворит Бармен! Приборы не фиксируют излучения с севера, дорога на припять открыта. Мессер, если ты будешь ещё у нас, знай что мы ценим то что ты сделал. Зайди если сможешь.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function kol()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Неизвестный сталкер:".."\\n".."%c[255,160,160,160]Сталкер, зайди ко мне в здание школы, нужно поговорить.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\geiger_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function tele3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Журналист:".."\\n".."%c[255,160,160,160]Отлично. Теперь слушай. Проход на Генераторы свободен. Монолит больше не удерживает его. Он находится за АЭС. Удачи тебе Стрелок, надеюсь ты найдёшь что ты искал.".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\medik_2]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function tele2()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Журналист\\nСтрелок.. Похоже всё пошло не по плану. Монолит не даёт проникнуть в центр управления. Послушай, в той лаборатории под Радаром есть скрытое помещение. Из тех записей что ты мне отдал, понятно что именно там находится управление питанием Монолита. Доберись туда и отключи его. Код от двери - 5489. Да, и сталкеры сейчас будут к тебе не благосклонны. ","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function tele()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Журналист\\nНе поддавайся на искушение Стрелок, помни что это всего лишь иллюзия. Путь к Генераторам ведёт телепорт в помещении с Монолитом, найди его и зайди в него.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+function varlab_1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Стрелок:".."\\n".."%c[255,160,160,160]Похоже на запасной выход из лаборатории..".."".."\n", nil, "default", 30000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\medik_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function radar_door()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."ПДА:".."\\n".."%c[255,160,160,160]Обнаружен новый контакт.".."".."\n", nil, "default", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_tip]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function jurnl()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Журналист\\nЯ буду на территории где хозяйничает группировка свобода, найдёшь меня в одном из домов на окраине города.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function spasipo_freed()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Патруль:".."\\n".."%c[255,160,160,160]Ох, спасибо приятель, незнаю чтобы без тебя делали!.".."".."\n", nil, "freedom", 20000)
+end
+
+
+function slizen()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Звуковое сообщение: Неизвестный сталкер".."\\n".."%c[255,160,160,160]Э, слышь, браток, подойди-ка сюда. Это как бы наша територия. Перетереть надо.".."".."\n", nil, "stalker", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr\slizen\sms]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function poeh()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."неизвестный сталкер:".."\\n".."%c[255,160,160,160]Мессер, я буду ждать тебя в своём доме на Болотах. Приходи, поговорим.".."".."\n", nil, "default", 80000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function zaba_zovet()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Жаба:".."\\n".."%c[255,160,160,160]Подойди ко мне, поговорить надо".."".."\n", nil, "trader", 40000)
+end
+
+function zaba_art_garb()
+local sactor = alife():actor()
+local cactor = level.object_by_id(sactor.id)
+cactor:give_game_news("Жаба\\nМессер, в ангаре в разрушенных складских помещениях есть один специфический артефакт. Принеси мне его.","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(1000, 3000),5000)
+local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+--  варлаб шатай экран ------------------------------------
+
+
+
+
+
+
+-- даём бабло 
+function money_give (first_speaker, second_speaker) 
+ dialogs.relocate_money(first_speaker, 700, "in") 
+end
+
+-- даём бабло 2
+function money_give2 (first_speaker, second_speaker) 
+ dialogs.relocate_money(first_speaker, 500, "in") 
+end
+
+
+-- даём бабло 2
+function money_give_pisot (first_speaker, second_speaker) 
+ dialogs.relocate_money(first_speaker, 500, "in") 
+end
+
+
+-- открываем хату за квест на сосыча 
+         function hata ()
+         db.actor:give_info_portion ("door_forse")
+        end
+
+-- квесты кордона ------------------------------------
+
+
+
+
+
+-- имеет бабло 30к
+
+function have_money_30000(actor,npc)
+    return actor:money() > 30000
+end
+
+
+
+
+
+--
+function main_g ()
+         db.actor:give_info_portion ("radar_de_done")
+end
+
+
+-- изымание 
+
+function give_money_30000(actor, npc)    
+    dialogs.relocate_money(actor, 30000, "out")
+end
+
+
+
+-- отдай (работает, но вещь остаётся в инвентаре)
+function esc_pda_done(first_speaker, second_speaker)
+dialogs.relocate_item_section(first_speaker, "wpn_pm", "out")
+end
+
+-- пистол отдай (работает, но вещь остаётся в инвентаре)
+function otday_pist (npc, actor)
+ dialogs.relocate_item_section(npc, "wpn_pm", "out")
+end
+
+-- 
+function have_a_pist (stalker, player)
+ return stalker:object ("wpn_pm") ~= nil
+end
+
+
+
+
+
+
+-- имеет чумодан
+
+--Тогда в диалоге этот прекондишн будет выглядеть:
+--    <precondition>nick_dialog.chemodan_have</precondition>
+
+function chemodan_have(first_speaker, second_speaker)
+      return first_speaker:object("chemodan") ~= nil
+end
+
+
+
+
+-- давай подлечу
+
+function heal_actor()
+  db.actor.health = 1;
+end
+
+
+
+
+-- скрипт для наличия итема 
+
+function have_af_baloon_1 ()
+ return have_item_namber ("wpn_pm",1) ~= false
+ end
+
+
+-- скрипт для наличия итема
+
+function delete_some_somth(section, count)
+    news_manager.relocate_item(db.actor, "out", section, count)
+    db.actor:iterate_inventory(
+        function(dummy, item)
+            if (count > 0) and (item:section() == section) then
+                alife():release(alife():object(item:id()))
+                count = count - 1
+            end
+        end,
+    db.actor)
+end
+
+
+
+
+function have_item_namber(itm,need_namber)
+local actor=db.actor
+items_count=0
+itemin=itm
+actor:iterate_inventory(cheking_item,actor)
+    if items_count>=need_namber then
+        return true
+    else
+        return false
+    end
+end
+
+
+
+
+
+
+
+
+
+
