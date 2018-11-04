@@ -188,3 +188,4 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_others.xml](gamedata/config/text/eng/ui_st_others.xml)
 		- incomplete
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
+		- incomplete
