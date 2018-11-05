@@ -901,32 +901,32 @@
 
 
 <string id="555_tader_0"> 
- <text>Я от Жабы, вот патроны. Что это за вояка?</text> 
+ <text>Toad sent me; he gave me some rounds to give you for some artifact. What is that dead soldier doing here?</text> 
  </string> 
  <string id="555_tader_1"> 
- <text>Да один из патруля... видимо, отбился. Столько они крови сталкеров попили, суки... Вот пускай в следующий раз будут знать, как карательные операции устраивать. Вот, держи артефакт. Кстати, а правда, что ты единственный выживший из "грузовика смерти"?</text> 
+ <text>He was someone from one of the patrols - he apparently got lost. So many stalkers killed in cold blood by these bastards. Someone should tell the army how to organize their criminal operations better. Here, here's that artifact Toad wanted. Tell me, is it true that you are the only one from the Death Truck who survived?</text> 
  </string> 
  <string id="555_tader_2"> 
- <text>Правда.</text> 
+ <text>I am.</text> 
  </string> 
  <string id="555_tader_3"> 
- <text>Да, здорово тебя, парень, покорежило. Ну, беги уже к Жабе.</text>  
+ <text>Alright. Go finish your business with Toad. Good luck.</text>  
  </string>
 
 
 
 
 <string id="5555_tader_0"> 
- <text>Я забрал артефакт у сталкера за мостом. Вот он.</text> 
+ <text>I've got the artifact you want.</text> 
  </string> 
  <string id="5555_tader_1"> 
- <text>Отлично, теперь я могу поделиться с тобой информацией. Считай, своё спасение ты откупил.</text> 
+ <text>Great, now I can share the information you want with you. Your debt is paid off.</text> 
  </string> 
  <string id="5555_tader_2"> 
- <text>А есть ещё задания?</text> 
+ <text>Are there any jobs?</text> 
  </string> 
  <string id="5555_tader_3"> 
- <text>Ну, бог с тобой! У меня, пожалуй, будет для тебя ещё одно поручение, и ты волен будешь идти куда хочешь.</text>  
+ <text>Of course! I've got one more job for you, then you can go wherever you want.</text>  
  </string>
 
 
@@ -935,28 +935,28 @@
 
 
 <string id="6_dialog_0">
-     <text>О каком деле ты говоришь?</text>
+     <text>What's the job?</text>
   </string>
    <string id="6_dialog_1">
-     <text>Поступила информация, что на территории НИИ "МедПрибор" есть какие-то документы, которые помогут проникнуть к центру Зоны.</text>
+     <text>I have received information about the Medpribor Institute. Someone told me about some documents there that may be helpful in reaching the center of the Zone. I'll pay you if you get them from there.</text>
   </string>
    <string id="6_dialog_2">
-     <text>Центр Зоны?</text>
+     <text>Can you tell me about the center of the Zone?</text>
   </string>
    <string id="6_dialog_3">
-     <text>Легендарное место. Клондайки артефактов и прочие чудеса - всё это там. Даже ходит легенда о неком Исполнителе желаний. Говорят, что некий Стрелок смог попасть в центр и пропал там.</text>
+     <text>It's said to be a legendary place. There's an El Dorado of artifacts and other miracles there, and the Wish Granter is said to be there. It's rumored that Strelok reached the center and disappeared.</text>
   </string>
    <string id="6_dialog_4">
-    <text>Стрелок был в центре?</text>
+    <text>Strelok made it to the center?</text>
   </string>
    <string id="6_dialog_5">
-    <text>Да, хотя я этому особо не верю. Значит, первая твоя серьёзная вылазка. Тебе нужно найти на территории НИИ некие документы и принести мне. Всё ясно?</text>
+    <text>Yes, although personally I don't believe it. I'm giving you your first major task. You need to get into Medpribor and find these documents. Am I clear?</text>
   </string>
    <string id="6_dialog_6">
-    <text>Не совсем, но я думаю, что справлюсь.</text>
+    <text>Not really, but I think I can handle it.</text>
    </string>
   <string id="6_dialog_7">
-    <text>Деловой подход. В общем, пойдёшь на север, выйдешь на Свалку. Там сейчас довольно спокойно, хотя бандюки шляются. Будь осторожен. Со Свалки на НИИ ведут две дороги на запад - одна дыра в заборе и главная дорога, чуть севернее. Пути перехода отмечены у тебя на миникарте. Что ж, вперёд, сталкер.</text>
+    <text>I like your attitude. Alright, if you go north, you'll get to the Garbage. It's been pretty quiet there for now, though some bandits have been reported in that area. Be careful. From the Garbage to Medpribor, there are two routes to the west. One is a hole in a fence - the other is the main road, which is a little further north. All of the transitions for that area have marked on your minimap. Best of luck, stalker!</text>
   </string> 
 
 
@@ -966,77 +966,72 @@
 
 
 <string id="6_propusk_0">
-<text>Привет, вот нашёл какой-то ящик.</text>
+<text>Hey, I found some kind of suitcase from Medpribor.</text>
 </string>
 <string id="6_propusk_1">
-<text>Так, хм, это они. Так, тут написано, что это первая часть, а вторая находится на блокпосту на Кордоне...</text>
+<text>You've found the documents. Let me review them for a minute.. hmm, this says this is the first part; the second is at the blockpost here in the Cordon.</text>
 </string>
 <string id="6_propusk_2">
-<text>И что ты предлагаешь?</text>
+<text>What do you suggest?</text>
 </string>
 <string id="6_propusk_3">
-<text>А ты ещё не понял? Нужно выкрасть ещё один ящик, который у вояк тут на кордоне. Рекомендую подождать до ночи, ночью основная часть вояк на боковой. Сам ящик должен быть в каморке командира. Да, и огромная просьба: не шуми, сделай всё тихо-мирно, без шума. У меня могут быть серьёзные проблемы.</text>
+<text>You haven't figured it out? You have to steal a second suitcase from the blockpost station that leads into the Cordon. I suggest you wait until night, when most of the soldiers are asleep. The case should be with the commanding officer. I want you to do this carefully - do not make any noise and or confusion, because I will put my foot up your ass if you do. I don't want any trouble with the army.</text>
 </string>
 
 
 
 
 <string id="7_propusk_0">
-<text>Я выкраду этот ящик.</text>
+<text>I'll try to get the other suitcase.</text>
 </string>
 <string id="7_propusk_1">
-<text>Отлично. Рекомендую действовать скрытно, вояки хоть и патрулируют, но делают это явно от балды, ибо смену они не видели уже давно. Да и действовать можно ночью - поспать они любят.</text>
+<text>>Perfect. Even though soldiers patrol that area, some of them do their job while drunk as a skunk - so it might be hard for some of them to see you. Still, I strongly suggest that you do this at night.</text>
 </string>
 <string id="7_propusk_2">
-<text>Понял.</text>
+<text>Got it.</text>
 </string>
 <string id="7_propusk_3">
-<text>Да, и смотри, убивать вояк можно только в крайнем случае, мне лишние проблемы с ними не нужны.</text>
+<text>Okay. Only shoot back as a last resort. Like I said: I don't need any more problems with the army.</text>
 </string>
 
 
 <string id="77_propusk_0">
-<text>Получай свой ящик.</text>
+<text>Here, take this suitcase.</text>
 </string>
 <string id="77_propusk_1">
-<text>Так. Ага, картина начинает выстраиваться, военные явно что-то ищут в центре. Тут много всяких карт и научных бумаг... Пожалуй, тебе стоит показать эти бумаги Бармену.</text>
+<text>Perfect! It's all starting to come together. The army is clearly looking for something here.. yeah, they've collected a lot of scientific papers and maps. I think you have to show these documents to Barkeep.</text>
 </string>
 <string id="77_propusk_2">
-<text>Бармену? Где это?</text>
+<text>'Barkeep'? Where can I find him?</text>
 </string>
 <string id="77_propusk_3">
-<text>В баре "Сталкер", что за Свалкой. Значит, иди туда и покажи ему эти бумаги. Он лучше сможет понять, что к чему здесь.</text>
+<text>You can find him at the "Stalker" bar. You can get to it through the northern checkpoint at the Garbage. Go out there and show him the papers. He understands what they mean better than I do.</text>
 </string>
 
 	<string id="escape_talk_about_escape__00">
-		<text>Привет.</text>
+		<text>Hello.</text>
 	</string>
 
 
 
 <string id="escape_talk_about_escape__0">
-		<text>Расскажи мне об этом месте.</text>
+		<text>Can you tell me anything about this place?</text>
 	</string>
 
 	<string id="escape_talk_about_escape__10">
-		<text>Это дорога в Зону. В погребе за деревенькой возле
-		армейского блокпоста найдешь торговца. Соваться на блокпост и попадаться на
-		глаза солдатам не советую, у них приказ стрелять без предупреждения... Убивать
-		солдат нельзя, только в крайнем случае. За каждого убитого торговцу приходится
-		расплачиваться, и он не будет доволен таким раскладом. На равнинах крупные стаи
-		слепых псов, соваться к ним новичкам опасно. Иногда сюда забегают мутанты.</text>
+		<text>This is the path to the Zone. In the the lit basement that isn't blocked off here, you will find the local trader. I advise you not to approach the blockpost and fight the soldiers - they're instructed to shoot without warning. Killing military soldiers is not recommended, unless if it's a last resort. Every time you kill a soldier, the trader has to pay compensation, so he won't be happy with you if you make trouble. Novices must be careful here, there's herds of blind dogs moving around. You can find other mutants if you take the time to look for them.</text>
 	</string>
 
 	<string id="escape_talk_about_escape__1">
-		<text>Спасибо.</text>
+		<text>Alright. Thank you for taking the time to share some important info with me.</text>
 	</string>
 
 	<string id="escape_talk_about_escape__2">
-		<text>А что там дальше, по дороге на север?</text>
+		<text>Tell me, what's up north?</text>
 	</string>
 
 	<string id="escape_talk_about_escape__21">
-		<text>Там Свалка. Мрачное место. Местами из-за мусора пройти невозможно.</text>
+		<text>The Garbage, that’s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking.</text>
 	</string>
 
 
@@ -1054,457 +1049,457 @@
 
 
 	<string id="esc_bridge_soldiers_start_11">
-		<text>Здесь проход воспрещён, сталкер.</text>
+		<text>This area is off limits, stalker.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_12">
-		<text>Мне надо дальше.</text>
+		<text>But I need to go there.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_13">
-		<text>А нельзя!\nНо если очень хочется... то можно. Например, за пятьсот денег.</text>
+		<text>Tough luck. Unless if you REALLY need to go, then the price is 500.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_14">
-		<text>Держи.</text>
+		<text>Here, take this money.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_15">
-		<text>Теперь слушай сюда. Мы час делаем вид, что кроме комаров и бабочек тут ничего не порхало. А дальше - не обессудь.</text>
+		<text>Now listen up. We'll pretend for a moment it's nothing but mosquitoes and butterflies around here. What happens beyond this point is your own damn business.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_21">
-		<text>Шагай, шагай отсюда! Не задерживайся, пока мы добрые.</text>
+		<text>Alright, keep moving! Get your ass outta here, before we change our mind.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_24">
-		<text>Денег у меня нет.</text>
+		<text>I don't have that kind of money.</text>
 	</string>
 	<string id="esc_bridge_soldiers_start_25">
-		<text>Тогда гуляй, откуда пришёл. Разживёшься - приходи. А решишь пробраться втихаря - как собаку пристрелим.</text>
+		<text>Then go back where you came from and get it. And don't you try and sneak past us, you hear? Trust me, it's not worth dying for.</text>
 	</string>
 	<string id="esc_lager_no_talk_11">
-		<text>Меченый, шёл бы ты отсюда... Не уйдешь добром - поможем, как сможем.</text>
+		<text>Get out of here, Messer. Walk away or crawl away; the choice is yours.</text>
 	</string>
 	<string id="esc_lager_no_talk_111">
-		<text>Что это на вас нашло?</text>
+		<text>What's got into you?</text>
 	</string>
 	<string id="esc_lager_no_talk_21">
-		<text>Здаров! Чего надо?</text>
+		<text>Hello! Do you need anything?</text>
 	</string>
 	<string id="esc_lager_no_talk_31">
-		<text>Тут тебя старший наш хотел видеть. Но это не значит, что тебе здесь рады. Проходи, не задерживайся.</text>
+		<text>Our boss here wanted to see you. But that doesn't make you a welcome guest. Keep moving.</text>
 	</string>
 	<string id="esc_provodnik_start_11">
-		<text>Здравствуй, брат.</text>
+		<text>Hello, brother.</text>
 	</string>
 	<string id="esc_provodnik_start_12">
-		<text>Проводник, мне нужно встретиться с Доктором.</text>
+		<text>Guide, I need to see Doctor.</text>
 	</string>
 	<string id="esc_provodnik_start_13">
-		<text>Смотри-ка... Ты откуда знаешь о Докторе?</text>
+		<text>How do you know about Doctor?</text>
 	</string>
 	<string id="esc_provodnik_start_14">
-		<text>Меня послал Призрак. Помоги мне срочно связаться с Доктором.</text>
+		<text>Ghost sent me. Help me get in touch with Doctor. It's urgent.</text>
 	</string>
 	<string id="esc_provodnik_start_15">
-		<text>Так бы сразу и сказал. \nДоктор - в тайнике группы Стрелка. Если ты тот, за которого себя выдаёшь, то место знаешь сам.</text>
+		<text>Well, why didn't you say so! Doctor is in Strelok's hiding place. If you are who you say you are, you probably know where it is.</text>
 	</string>
 	<string id="esc_provodnik_start_16">
-		<text>Спасибо.</text>
+		<text>Thank you.</text>
 	</string>
 	<string id="esc_provodnik_start_21">
-		<text>Здравствуй, брат.</text>
+		<text>Hello, brother.</text>
 	</string>
 	<string id="esc_stalker_talk_level_0">
-		<text>Не расскажешь мне об этом месте?</text>
+		<text>Could you tell me more about this place?</text>
 	</string>
 	<string id="esc_stalker_talk_level_1">
-		<text>Здесь - дорога в Зону. Соваться на блокпост и попадаться на глаза солдатам не советую: у них приказ стрелять по нашему брату без предупреждения. По пути на север будет разрушенный мост, только там тоже стационарный блокпост. На открытом месте здесь собаки стаями бегают, новичкам туда соваться опасно. Иногда ещё мутанты забредают.</text>
+		<text>This is the road to the Zone. If I were you, I wouldn't get too close to the army outpost or let those soldiers see you - they've got orders to shoot on sight. Further up North there's a broken bridge, but they've set up an outpost there too. Open areas are crawling with wild dogs, so it's not a safe place for rookies. Oh, and a pack of mutants shows up every now and then.</text>
 	</string>
 	<string id="esc_stalker_talk_level_10">
-		<text>А как с солдатами у моста быть? Нужно ведь дальше пройти.</text>
+		<text>What about the soldiers at the bridge? I've got to get past them somehow.</text>
 	</string>
 	<string id="esc_stalker_talk_level_11">
-		<text>Значит, есть два варианта. Первый: если попадёшь на дежурство Кузнецова, так он денежку сильно любит. Глядишь, и пропустит. Ну, а если с финансами у тебя туго, или кто другой дежурит, тогда есть обходной путь. Идёшь слева от моста вдоль железнодорожной насыпи - главное только, смотри, чтоб они тебя не заметили! Там увидишь небольшой туннель, он под насыпью проходит. И ещё - учти, там зомби иногда шастают.</text>
+		<text>Alright, you've got two options. If Kuznetsov is on duty, keep in mind that he is quite fond of money. Good chance he'll let you through for a bribe. But if you're low on cash or if it's someone else's shift, there is a different way. Go on the left side of the bridge, along the railway. Just make sure they don't see you! You'll come across a small tunnel that goes through the embankment. And another thing: you might also land a date with some zombies down there.</text>
 	</string>
 	<string id="esc_stalker_talk_level_2">
-		<text>А что дальше на север, за блокпостом?</text>
+		<text>What's further up North beyond the army outpost?</text>
 	</string>
 	<string id="esc_stalker_talk_level_21">
-		<text>Свалка там, вот что... Мрачное место. Местами из-за фонящего мусора пройти невозможно.</text>
+		<text>The Garbage, that’s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking.</text>
 	</string>
 	<string id="escape_factory_assault_start_31">
-		<text>Привет. Ты, наверное, тот малый, о котором Волк говорил? В общем, смотри, бандитов, в принципе, немного. Вот только мы своей толпой туда вряд ли тихо проберёмся. На втором этаже бандюг сидит, все подходы пасёт. Если бы не он - мы бы их, как следует, наказали.</text>
+		<text>Hello. Wolf has already sent word of you. You got any questions?</text>
 	</string>
 	<string id="escape_factory_assault_start_311">
-		<text>Сколько бандитов в лагере?</text>
+		<text>Yes. How many bandits in the camp?</text>
 	</string>
 	<string id="escape_factory_assault_start_3111">
-		<text>Человек семь-восемь. Двое в районе ворот, двое в правом здании у костра, один на втором этаже в здании слева. По двору ещё временами кто-то шляется... а так, вроде, все. Ну, что скажешь?</text>
+		<text>Seven or eight people. Two by the gate, two more in the building to the right near the fire, and another two in the one to the left - that's where they're keeping Nimble. Someone usually hangs around the yard as well. That's  about it. Shall we say a prayer and go?</text>
 	</string>
 	<string id="escape_factory_assault_start_31111">
-		<text>Предлагаю вместе напасть на фабрику.</text>
+		<text>Let's go. Round up your men.</text>
 	</string>
 	<string id="escape_factory_assault_start_311111">
-		<text>Не, мы своими шкурами рисковать не будем. И не думай, что мы боимся. Мы вообще никогда не боимся. Ну разве только изредка... может быть, и сейчас немного страшно... Ну ладно, ладно, боимся. А ты бы не боялся трезвым лезть на окопавшихся на фабрике бандитов? Вот то-то и оно... Если бы ты нам предложил водки для храбрости, то тогда, пожалуйста, а так - нет.</text>
+		<text>No, we do not risk their asses, and we never will. Just don't think we're afraid. We're not afraid of anything. Well, maybe sometimes.. perhaps it won't go well Okay, we are afraid of how hellish this fight is going to be. Would you be afraid to take on the bandits? You know, if you on rely on vodka for courage, please share some.</text>
 	</string>
 	<string id="escape_factory_assault_start_3111111">
-		<text>Держите водку. И будьте готовы атаковать в любой момент.</text>
+		<text>Keep the bottle. And be ready to attack at any moment!</text>
 	</string>
 	<string id="escape_factory_assault_start_31111111">
-		<text>Готовы хоть сейчас в атаку. Только дай команду.</text>
+		<text>We can attack now. Just give the command!</text>
 	</string>
 	<string id="escape_factory_assault_start_311111111">
-		<text>Начнём. Поднимай своих.</text>
+		<text>Here we go. Gather your men!</text>
 	</string>
 	<string id="escape_factory_assault_start_311111112">
-		<text>Нет, подождём ещё немного.</text>
+		<text>No, wait a minute.</text>
 	</string>
 	<string id="escape_factory_assault_start_3111112">
-		<text>У меня водки нет.</text>
+		<text>I don't have any vodka!</text>
 	</string>
 	<string id="escape_factory_assault_start_31111121">
-		<text>Но мы тоже не дураки, чтобы туда трезвыми лезть.</text>
+		<text>We'd be fools to fight sober!</text>
 	</string>
 	<string id="escape_factory_assault_start_311111211">
-		<text>Сейчас, подожди, принесу водку.</text>
+		<text>Okay, wait, I'll bring a bottle.</text>
 	</string>
 	<string id="escape_factory_assault_start_311111212">
-		<text>Ай, хрен с вами! Сам попробую зачистить этот АТП.</text>
+		<text>To hell with you! I will try to clean up the park myself!</text>
 	</string>
 	<string id="escape_factory_assault_start_31112">
-		<text>Попробую сам, чтобы шума не поднимать.</text>
+		<text>No. We'd make too much noise. I'll go on my own.</text>
 	</string>
 	<string id="escape_factory_assault_start_311121">
-		<text>Ну гляди. Если что, кричи... Рэмбо, блин.</text>
+		<text>Well, do as you please. Shout if something is up... To hell with you, Rambo wannabe!</text>
 	</string>
 	<string id="escape_factory_assault_start_11">
-		<text>Пошли, начистим бандитам рыло.</text>
+		<text>Let's go, it's time to kill some bandits!</text>
 	</string>
 	<string id="escape_factory_assault_start_21">
-		<text>Водку принёс?</text>
+		<text>You brought vodka?</text>
 	</string>
 	<string id="escape_factory_assault_start_211">
-		<text>Нет, пока.</text>
+		<text>Not yet.</text>
 	</string>
 	<string id="escape_factory_assault_start_22">
-		<text>О, я вижу, ты принёс нам "огненную воду". Ну, если так пойдёт и дальше, то мы не только бандитов из фабрики выгоним, да мы всю Зону зачистим!</text>
+		<text>Ho-ho, you've brought some firewater! With this, we'll be able to not just clear out the bandits from the factory, but the whole Zone!</text>
 	</string>
 	<string id="escape_factory_assault_start_222">
-		<text>Не, погодите. "Огненная вода" не для вас.</text>
+		<text>No, wait. This firewater is not for you.</text>
 	</string>
 	<string id="escape_factory_assault_start_223">
-		<text>Я передумал. Попробую сам зачистить АТП.</text>
+		<text>I changed my mind. I'll try to clear out the park myself.</text>
 	</string>
 	<string id="escape_factory_assault_start_41">
-		<text>Уж настрелялись, так настрелялись... Думаю, Волк будет доволен.</text>
+		<text>We went hunting and hunt we did. I bet Wolf will be pleased.</text>
 	</string>
 	<string id="escape_factory_assault_start_51">
-		<text>Ещё не всех положили! Ищите этих уродов, валите их!..</text>
+		<text>There's more of 'em! Find the bastards and take them down!</text>
 	</string>
 	<string id="escape_factory_assault_start_61">
-		<text>Ну, мужик, это ты знатно дал! Взял, и всех порешил, нам ничего не оставил. Если б сам не видел - не поверил бы! Крут, крут, ёлки-палки!..</text>
+		<text>Whoa, man! Now that was something! You wiped them out and left nothing for us. I'd never believe it if I hadn't seen it with my own eyes! That blew me away, man...</text>
 	</string>
 	<string id="escape_factory_assault_start_71">
-		<text>Ну и где штабеля поверженных врагов? Эх, ты! Ничего не умеешь, кроме как языком трепать... Вали отсюда!</text>
+		<text>So, where are the piles of enemies you killed? You talk the talk, but you don't walk the walk. Get lost!</text>
 	</string>
 	<string id="escape_factory_assault_start_711">
-		<text>Подожди, ещё не вечер!</text>
+		<text>Wait, it's not evening yet!</text>
 	</string>
 	<string id="escape_fox_hello_dialog_2">
-		<text>Извини, браток, только шёл бы ты сейчас с миром отсюда, а? Я тут человека одного жду...</text>
+		<text>Sorry, brother, but could you go somewhere else? I'm waiting here to meet someone.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_21">
-		<text>У меня пара вопросов.</text>
+		<text>I've got a couple of questions.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_211">
-		<text>Ладно, спрашивай.</text>
+		<text>Ok, ask away.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_2111">
-		<text>Лис, расскажи мне о Зоне. Где бывал? Что видел?</text>
+		<text>What can you tell me about the Zone?</text>
 	</string>
 	<string id="escape_fox_hello_dialog_21111">
-		<text>Ну, знаешь! Тут нескольких дней не хватит, а время моё стоит недешёво! Да и нету его у меня сейчас...\nВведу тебя коротко в курс дела, а дальше сам разбирайся. Свалка - в трёх километрах на север отсюда - место, куда почти весь радиоактивный хлам со станции свозили. Сильная радиация, аномалий по колено; как следствие - артефактов тоже много... не очень ценных, правда. Остерегайся бандитов и не собачься с патрулями "Долга". На запад от Свалки - район НИИ "МедПрибор". В плане артефактов место хреновенькое, так что делать там особо нечего. А на востоке - Тёмная долина. Фиг его знает... странно там. Вроде и тихо, разве только швали вроде бандитов хватает. Только не всё так просто, как кажется, нюхом чую. Ну а дальше за Свалкой - территория завода "Росток" - сердце сталкерства. Там много опытных ребят встретишь, они тебе подробней и расскажут.</text>
+		<text>That's all you wanna know? Take a week off and then come back to see me. Look, my time ain't cheap and I'm kinda busy right now. Here are the basics and then you're on your own. About three kilometers north of here, you'll find the Garbage. That's the place they used to dump all the radioactive waste from the station. High radiation levels, anomalies all over the place, so there are loads of artifacts to be found there... but not very valuable. Just beware of the gangs and don't cross the Duty patrols. West of the Garbage is the former Medpribor Research Institute. Little in terms of artifacts there, so you can skip it. And to the east, there's the Dark Valley. Who knows... That's a pretty weird place. It seems quiet enough, apart from a bunch of gangsters roaming around. But I got a feeling there's more to it than meets the eye. Oh, and there's the Rostok factory right beyond the Garbage. That's stalker territory. You'll find lots of clued-in folks there, they'll tell you the rest.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_211111">
-		<text>А чего больше всего остерегаться в этих краях?</text>
+		<text>What's there to be wary of in the Zone?</text>
 	</string>
 	<string id="escape_fox_hello_dialog_2111111">
-		<text>Меченый, ты выглядишь опытным, а вопросы задаешь дурацкие. Всего остерегаться! Это же Зона, ты чего, совсем уже?! Впрочем, на Свалке по ночам стали кровососы появляться, раньше так далеко от центра их не замечали. Гадость редкостная. Их и днём-то иногда трудно заметить, а ночью, так вообще глына.</text>
+		<text>Do you look for experienced stalkers and ask them stupid questions? You need to beware of everything here. It is the Zone after all, got it? Anyway, at night, in the Garbage, there's some unique artifacts that have began appearing recently. Previously no one had seen these so far from the center. Rare stuff. They're difficult to notice during the day, but even more so at night!</text>
 	</string>
 	<string id="escape_fox_hello_dialog_21111111">
-		<text>Спасибо за информацию.</text>
+		<text>Thanks for the information.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_2113">
-		<text>Передумал я. Спасибо.</text>
+		<text>I've changed my mind. Thanks.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_3">
-		<text>Так, теперь я тебя внимательно слушаю.</text>
+		<text>Thanks. Ok, now I'm listening very carefully.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_31">
-		<text>Торговец сказал, что у тебя есть информация о Стрелке.</text>
+		<text>Toad told me you might know something about Strelok.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_311">
-		<text>И с чего это им все в последнее заинтересовались? Ну, сказать, что я его лично знал - так совру, не было такого. Опыт "общения", правда, кое-какой есть: как-то его группа моих ребят обстреляла. Никто не пострадал - они явно других ждали, так что дальше разошлись мирно. Поматерили друг друга через овраг, и разошлись. Серый, мой брательник, сейчас в ангаре на Свалке - я тебе скину координаты, пообщаешься. Он о Стрелке больше знает. \nКстати, на выходе поосторожнее - там компашка бандитов обосновалась, новичков грабят.</text>
+		<text>Why is everyone taking such a keen interest in him lately? Ok, I can't say I know him personally. We did "communicate" though: my guys took some shots at him once. No one got hurt - it was clear his party had been waiting for someone else, so we parted in peace. Cussed each other out across a ravine and went on our separate ways. Seriy, my brother, is now in the hangar at the Garbage - I'll dish you his coordinates so you two can have a chat. He knows more about Strelok. Be careful at the exit, a small gang has settled down in those parts. By the way, I got a few monsters chasing me and it doesn't look like they've given up yet. You mind helping me deal with them? It's a walk in the park really.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_3111">
-		<text>Спасибо за информацию, учту.</text>
+		<text>Thanks for the info, I appreciate it.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_111">
-		<text>Спасибо тебе мужик! Ты как тут оказался-то?</text>
+		<text>Thank you buddy! How did you get here?</text>
 	</string>
 	<string id="escape_fox_hello_dialog_1111">
-		<text>Я от торговца, ты ему должен кое-что передать.</text>
+		<text>Toad sent me, apparently you have something for him.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_11111">
-		<text>А, это ты. Да, торговец меня уже предупредил насчёт тебя. Вот держи, и постарайся это не потерять. Важная информация. \nСлышь, мужик, я тут на хвосте стаю псов привёл, помоги отстрелять их, потом я отвечу на все твои вопросы?</text>
+		<text>Oh, it's you. Yes, the dealer told me you'd come. I have to hold this spot and try not to lose it. This is very important. One more thing, some mutants are after me, they've probably been hunting me down for hours. Can you help me kill them? I'll answer all of your questions if you do!</text>
 	</string>
 	<string id="escape_fox_hello_dialog_111111">
-		<text>По рукам.</text>
+		<text>Deal.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_5">
-		<text>Сталкер, аптечку! Дай аптечку!</text>
+		<text>A medkit! Gimme a medkit!</text>
 	</string>
 	<string id="escape_fox_hello_dialog_55">
-		<text>На, держи.</text>
+		<text>Here you are.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_56">
-		<text>Нет у меня аптечки. Сожалею.</text>
+		<text>Don't have one. Sorry.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_61">
-		<text>Слышь, приятель, ты меня дважды уже выручил, а я таких вещей не забываю. Возьми вот... уж чем богат!</text>
+		<text>Hey, man, you saved me twice, and that's not something I forget. Take this, that's all I got!</text>
 	</string>
 	<string id="escape_fox_hello_dialog_611">
-		<text>Спасибо.</text>
+		<text>Thank you.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_71">
-		<text>Чувствую, сейчас нагрянут твари! Будь наготове.</text>
+		<text>I think that the mutants are approaching! Be alert!</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_121">
-		<text>Тут тебя старший наш хотел видеть. Но это не значит, что тебе здесь рады. Проходи, не задерживайся.</text>
+		<text>Our boss here wanted to see you. But that doesn't make you a welcomed guest. Keep moving.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_2">
-		<text>Стой, Меченый! Сейчас в лагере никто с тобой говорить не станет.</text>
+		<text>Wait, Messer! No one at the camp is gonna to talk to you right now.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_21">
-		<text>Почему?</text>
+		<text>Why?</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_212">
-		<text>Это ж каким надо идиотом быть, чтобы с пассажиром из "грузовика смерти" трепаться! Ты докажи сперва, что с тобой дело иметь можно.</text>
+		<text>What kind of idiot would chat with a former passenger of the "death truck"? First, you gotta prove you're OK to deal with.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_2121">
-		<text>Какой "грузовик смерти"? Не помню ничего... не помню.</text>
-	</string>
+		<text>What "death truck?" What are you talking about?</text>
+		</string>
 	<string id="escape_lager_guard_start_dialog_21211">
-		<text>Да кто его знает... но дрянь редкостная. Мало, что хуже этого бывает... \nВообще, не с тобой на эту тему разговаривать! Пусть я суеверный, а только тебе, Меченый, лучше отвалить прям счас по-хорошему.</text>
+		<text>Ah, hell only knows what it really is. But whatever it is, it's bad, about as bad as it gets. Why am I talking to you about this anyway! Maybe I'm just superstitious, but you, Messer, should really take a hike before something happens to you.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_2122">
-		<text>Что сделать, чтобы мне поверили?</text>
+		<text>What can I do to make people believe me?</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_21221">
-		<text>Пусть тебя Торговец проверит, а мы понаблюдаем. Если ты нормальный, за ствол попусту не хватаешься и вообще с головой дружишь, то общий язык всегда найдём, не переживай.</text>
+		<text>Pass Toad's test while we watch. If you're alright - if you're not trigger-happy and you use your head - then we'll definitely find some common ground. Don't you worry.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_22">
-		<text>Ладно, пусть будет так.</text>
+		<text>Alright, so be it.</text>
 	</string>
 	<string id="escape_lager_guard_start_dialog_3">
-		<text>Привет, Меченый. Что нужно?</text>
+		<text>Hello, Messer. What do you want?</text>
 	</string>
 	<string id="escape_lager_leader_hello_11">
-		<text>Сталкер... Погоди, не стреляй!</text>
+		<text>>Hold your fire, stalker!</text>
 	</string>
 	<string id="escape_lager_leader_hello_111">
-		<text>Что за?! Ты кто такой? Ты живой вообще?</text>
+		<text>What the?! Who are you? Are you alive?</text>
 	</string>
 	<string id="escape_lager_leader_hello_1111">
-		<text>Живой... Хех. Даже не знаю, что тебе ответить... Вроде и жив, а вроде и нет...</text>
+		<text>'Alive'.. heh. I don't know what to tell you. I can't tell if this is the Zone, or the afterlife.</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111">
-		<text>Что с тобой произошло?</text>
+		<text>What happened to you?</text>
 	</string>
 	<string id="escape_lager_leader_hello_111111">
-		<text>Помню только яркую вспышку... Это произошло месяца два, может, три назад. Может, больше... Очнулся у Доктора, того, что на болоте обосновался. Был я у него недели две. Он сказал, что я попал под мощный выброс и чудом спасся. Теперь вот тут скрываюсь. Народа здесь мало, простые сталкеры сюда редко заглядывают, а помимо собак тут никого и нет, кроме... Был тут в городе один добрый человек, Журналист. Я был у него пару раз. Что-то искал он тут, документы с собой таскал какие-то.</text>
+		<text>I only remember a bright flash.. It happened about two, maybe three months ago. Perhaps even more. I woke up in the Doctor's shack in the swamps. I was with him for two weeks. He said I was caught by a powerful blowout, and I was miraculously saved by something, or someone. Now I'm hiding here. There are very few people here; ordinary stalkers seldom look in here, and besides a few dogs, there’s nothing here except... There was a good man here in the city: Journalist. I visited him a couple of times. He was looking for something here; he carried some documents on him.</text>
 	</string>
 	<string id="escape_lager_leader_hello_1111111">
-		<text>Расскажи подробнее о нём.</text>
+		<text>Can you tell me more about Doctor?</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111111">
-		<text>Слушай, я здесь уже неделю торчу, и кроме крыс ничего не ел совсем. Вот принесёшь мне человеческой еды - скажем, два батона хлеба, расскажу тебе всё, что знаю. Я бы и сам сходил, да свободовцы меня не сильно любят. Понимаешь?</text>
+		<text>Look, I've been here a week, and I haven't eaten anything but rats. If you bring me real food, say: two loaves of bread, I'll tell you everything I know. I would do this myself, but the Freedomers here don’t like me, you know?</text>
 	</string>
 	<string id="escape_lager_leader_hello_111111111">
-		<text>Хорошо.</text>
+		<text>Alright.</text>
 	</string>
 	<string id="escape_lager_leader_hello_1111112">
-		<text>Пока.</text>
+		<text>Bye.</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111121">
-		<text>Жаль. Ну заходи как-нибудь...</text>
+		<text>That’s sad. Well, come back sometime..</text>
 	</string>
 	<string id="escape_lager_leader_hello_21">
-		<text>Ну что?</text>
+		<text>Well?</text>
 	</string>
 	<string id="escape_lager_leader_hello_31">
-		<text>Да ты страшный человек, Меченый! Лучше тебе на дороге не попадаться.</text>
+		<text>You're a real killer, Messer! I wouldn't want to stand in your way. Ever!</text>
 	</string>
 	<string id="escape_lager_leader_hello_311">
-		<text>Есть немного.</text>
+		<text>Yup, something like that.</text>
 	</string>
 	<string id="escape_lager_leader_hello_3111">
-		<text>Вот, держи от нас на память. \nИ ещё - спасибо тебе громадное за помощь. Спасли мы молодняк, Меченый.</text>
+		<text>Here, I hope you won't forget about us. And by the way... a million thanks for the help. We saved the young ones, Messer.</text>
 	</string>
 	<string id="escape_lager_leader_hello_41">
-		<text>Здарова, Мессер. Рад тебя видеть!</text>
+		<text>Hello, Messer. Good to see you!</text>
 	</string>
 	<string id="escape_lager_leader_hello_411">
-		<text>И тебе привет.</text>
+		<text>Hello to you.</text>
 	</string>
 	<string id="escape_lager_leader_hello_412">
-		<text>Кстати, а куда Волк подевался?</text>
+		<text>Do you know where Wolf went?</text>
 	</string>
 	<string id="escape_lager_leader_hello_4121">
-		<text>Да он тут недавно получил от одного из проходивших сталкеров какое-то послание, тут же собрался, схватил ящик с динамитом и ломанулся вглубь Зоны. Я как раз от ранения оклёмывался на Кордоне, он и попросил меня присмотреть за молодняком.</text>
+		<text>Oh, he got a message from a stalker who was passing by. He packed his things, grabbed a box of dynamite and went deep in the Zone. I'm still getting back in shape after the wounds I got at the Cordon so he asked me to look after the kids.</text>
 	</string>
 	<string id="escape_lager_volk_info_0">
-		<text>У меня есть вопросы.</text>
+		<text>I've got questions.</text>
 	</string>
 	<string id="escape_lager_volk_info_1">
-		<text>Спрашивай, постараюсь помочь.</text>
+		<text>Go ahead, I'll try to help.</text>
 	</string>
 	<string id="escape_lager_volk_info_10">
-		<text>Спасибо.</text>
+		<text>Thank you.</text>
 	</string>
 	<string id="escape_lager_volk_info_2">
-		<text>Что ты знаешь о Зоне?</text>
+		<text>What do you know about the Zone?</text>
 	</string>
 	<string id="escape_lager_volk_info_21">
-		<text>Много чего знаю. Спрашивай конкретнее.</text>
+		<text>I know many things. Can you be more specific?</text>
 	</string>
 	<string id="escape_lager_volk_info_211">
-		<text>Что в центре Зоны?</text>
+		<text>What's in the center of the Zone?</text>
 	</string>
 	<string id="escape_lager_volk_info_2111">
-		<text>Да уж, вопросец... Я на него два года ответ найти пытаюсь! Только путь в центр, да чтобы живым вернуться, так и не нашёл. Несколько раз с друзьями пытались прорваться. Сам еле-еле вернулся, а друзья - не все... \nСпросишь, какого мы туда вообще полезли? За мечтой полезли. Желания свои исполнить.</text>
+		<text>Ahem, that's a question alright... I've been looking for the answer for two years! I still haven't found a way to the center, at least not one I could take and come back alive. My friends and I tried to break through a couple of times. I barely made it back, but my friends - well, some did, some didn't...  You'll ask why we went there at all. We were chasing our dreams, trying to make them come true.</text>
 	</string>
 	<string id="escape_lager_volk_info_21111">
-		<text>Мечты исполняются?</text>
+		<text>Can dreams come true?</text>
 	</string>
 	<string id="escape_lager_volk_info_211111">
-		<text>Есть такая легенда красивая об Исполнителе желаний. Вроде бы, есть в центре Зоны место, где исполняются любые, даже самые невероятные, прихоти. Только знаешь, что скажу? Я точно знаю, что в центре Зоны до фига шансов загнуться, а в Исполнитель этот уже не верю. Не рискуй попусту. Не советую.</text>
+		<text>There is this beautiful story about a Wish-Granting Machine. They say there is a spot in the center of the Zone where any desires can come true, no matter how bizarre. But you know what? I know for a fact there's lots of ways to kick the bucket in the center of the Zone, and I don't believe in the Wish-Granting Machine anymore. Don't take that risk. I wouldn't.</text>
 	</string>
 	<string id="escape_lager_volk_info_212">
-		<text>Откуда взялась Зона?</text>
+		<text>How did the Zone come to be?</text>
 	</string>
 	<string id="escape_lager_volk_info_2121">
-		<text>Здесь повторно бабахнуло в 2006-м, вот она и появилась. Знаю, что на ответ не тянет. Только мало кто знает истину, если вообще тут такие есть.</text>
+		<text>There was another explosion here in 2006. That's how it came about. I know that's not a real answer. Very few know the whole truth, if anyone at all.</text>
 	</string>
 	<string id="escape_lager_volk_info_213">
-		<text>Что тебя привело в Зону?</text>
+		<text>What brought you to the Zone?</text>
 	</string>
 	<string id="escape_lager_volk_info_2131">
-		<text>Я на шахте работал, так её закрыли как убыточную. Денег - ноль, перспектив никаких. А тут пошли слухи, что в Зоне можно разбогатеть сказочно. Кой-какой опыт за плечами у меня был, вот и решил рискнуть. Не могу сказать, что разбогател, однако деньжата действительно завелись. Да это история самая обычная, многие здесь так оказались...</text>
+		<text>I used to work in a mine before they closed it down. I had no money and nothing to look forward to. Then I heard some rumors about the fabulous riches hidden inside the Zone. I had some experience under my belt, so I thought, "What the hell?". Can't say I've become rich, but some cash came my way, that's for sure. This is a typical story; most of us got here the same way.</text>
 	</string>
 	<string id="escape_lager_volk_info_214">
-		<text>Что самое опасное в Зоне?</text>
+		<text>What's the most dangerous thing in the Zone?</text>
 	</string>
 	<string id="escape_lager_volk_info_2141">
-		<text>Это сложно сказать. Здесь столько всего опасного и неизвестного, что просто возможности нет со всем столкнуться. Да и без того с головой хватает. Мне вот "плоть" на ноге палец откусила, волосы от излучения начали сыпаться, "жаркой" ногу правую приложило... Хреновая штука - "жарка". А то, раз нос к носу с кровососом столкнулся - хоть не вспоминай... В общем, говорить можно сколько угодно. Только, пока не испытаешь этого дела на себе - хрен поймёшь. Короче, совет только один - осторожность. Всегда и везде.</text>
+		<text>Hard to say. There are so many dangers and surprises, you just can't run into all of them. There's more than enough for one person anyway. I got one toe bitten off, my hair is falling out from the radiation, and half my leg got fried in a Scorcher... Things there are real bad. Another time I happened to come face to face with a bloodsucker - there's a meeting I'd like to forget. So, we can talk all you like, but until you''ll never kow until you experience it on your own. The only advice I can give is beware - everywhere and always.</text>
 	</string>
 	<string id="escape_lager_volk_info_3">
-		<text>Слышал что-нибудь о Стрелке?</text>
+		<text>Have you heard about a guy called Strelok?</text>
 	</string>
 	<string id="escape_lager_volk_info_31">
-		<text>Кажется, сталкер из крутых. Лично не знаком - ну так я давно уже близко к центру не лазил, а здесь, на окраине, в основном только зелёные бродят. Найди кого-нибудь, кто постоянно в глубине Зоны толчётся, поговори с ним.</text>
+		<text>I seem to remember he's one of the tough ones. Never actually met the man. Well, I haven't come close to the center in a while and all we get here is rookies. You should find someone who hangs out deep in the Zone and have a chat with him.</text>
 	</string>
 	<string id="escape_lager_volk_info_4">
-		<text>Что ты знаешь о "грузовиках смерти"?</text>
+		<text>What do you know about "death trucks"?</text>
 	</string>
 	<string id="escape_lager_volk_info_41">
-		<text>Ничего не знаю, и знать не хочу! \nИзвини, я в курсе насчёт тебя... Слишком от этого мистикой прёт. А в здешних краях поживёшь с месяц - на всю жизнь суеверным станешь, хочешь не хочешь. Мертвецы в кузове, мертвецы за рулём... Кто, откуда, зачем? Одна надежда, что хоть не с того света.</text>
+		<text>I know nothing and that's fine by me, thank you!  Sorry, I know about your situation. Too much mysticism about it. You spend a month in these parts and you can't help but become superstitious about life. Dead people in the trunk, dead people behind the wheel... Who are they, where did they come from and why? I can only hope they didn't rise up from the grave.</text>
 	</string>
 	<string id="escape_lager_volk_talk_11">
-		<text>Привет. Зачем пришёл?</text>
+		<text>Hi. Why are you here?</text>
 	</string>
 	<string id="escape_lager_volk_talk_111">
-		<text>Привет. Мне нужен Шустрый. Не подскажешь, где его найти?</text>
+		<text>Hi. I need to see Nimble. Would you know where I could find him?</text>
 	</string>
 	<string id="escape_lager_volk_talk_1111">
-		<text>С Шустрым скверное дело приключилось... Тут неподалёку на его группу бандиты напали, и Шустрого увели с собой, он только и успел, что SOS скинуть. Его напарники, похоже, накрылись. Ребята сообщили, что бандюки сейчас в старом АТП, что за дорогой.</text>
+		<text>Nimble got a raw deal. His group was attacked by some bandits a little ways from here. All he could do was send me an SOS message. It looked like his pals went under. My guys told me these bastards are now at the old car park, the one across the road.</text>
 	</string>
 	<string id="escape_lager_volk_talk_11111">
-		<text>Вы своих из плена не вызволяете? Не по-дружески как-то... Или слабо?</text>
+		<text>You don't rescue your own people from prison? Not what I would call friendly. Or is it that you're just too weak to do it?</text>
 	</string>
 	<string id="escape_lager_volk_talk_111111">
-		<text>Эх, врезать бы тебе, да толку?.. Не так всё просто. Людей у меня мало, да и те сплошняком новички. Не могу я рисковать. Если мы этот лагерь потеряем, всем нормальным сталкерам худо придётся. А ты сам что? Если не струсишь, от помощи не откажусь, не гордый. Так как, поможешь с бандюками разобраться?</text>
+		<text>I'd bop you one, but what's the use? It's not that simple. I got too few people, and even those I got are mostly rookies. I can't take that risk. If we lose this camp, things will get even worse for all the stalkers out there. And what about yourself? If you aren't too scared, I won't let my pride make me say no to a helping hand. So, will you help me deal with these thugs?</text>
 	</string>
 	<string id="escape_lager_volk_talk_1111111">
-		<text>Предлагаешь в одиночку?</text>
+		<text>Think I could do it alone?</text>
 	</string>
 	<string id="escape_lager_volk_talk_11111111">
-		<text>Да нет, так ты фиг справишься. Разведчики мои - бойцы что надо. Сейчас они как раз тех уродов пасут. Вместе вы, в принципе, имеете неплохие шансы. Ну так что? Или всё же слабо?</text>
+		<text>Nah, you stand no chance on your own. My scouts are good soldiers and right now they're right behind those freaks. Together you can make a run for it. What do you think? You got the guts?</text>
 	</string>
 	<string id="escape_lager_volk_talk_111111111">
-		<text>Я попробую.</text>
+		<text>I'll try.</text>
 	</string>
 	<string id="escape_lager_volk_talk_1111111111">
-		<text>Уважаю! Вот тебе оружие и припасы, координаты парней я тебе скинул. Насчёт тебя сейчас предупрежу.</text>
+		<text>Way to go! Alright, I gave you the guys' coordinates. I'll let them know about you right now.</text>
 	</string>
 	<string id="escape_lager_volk_talk_111111112">
-		<text>Не слабо. Но не пойду.</text>
+		<text>I got the guts, but I won't go.</text>
 	</string>
 	<string id="escape_lager_volk_talk_111111121">
-		<text>Значит, таки слабо... Ну и вали к чёртовой бабушке!</text>
+		<text>Yeah, like hell you do. Fine, get lost!</text>
 	</string>
 	<string id="escape_lager_volk_talk_12">
-		<text>Привет. Мне передали, что ты одного из наших от смерти спас. Спасибо тебе. Держи артефакт в знак нашей благодарности.</text>
+		<text>Hello. I was told that you rescued one of ours. Thank you. As a token of gratitude accept this artifact.</text>
 	</string>
 	<string id="escape_lager_volk_talk_121">
-		<text>Спасибо.</text>
+		<text>Thank you.</text>
 	</string>
 	<string id="escape_lager_volk_talk_13">
-		<text>Как ты побрался мимо охраны!? Тебе нельзя в лагерь, Меченый! Уходи пока цел!</text>
+		<text>You didn't help my boys out? You can't stay in the camp, Messer. Leave while you still can.</text>
 	</string>
 	<string id="escape_lager_volk_talk_21">
-		<text>Ну, как дела продвигаются?</text>
+		<text>So, how's it going?</text>
 	</string>
 	<string id="escape_lager_volk_talk_211">
-		<text>Навели с твоими ребятами порядок на АТП. Кстати, держи подарок. Извини, что без праздничной упаковки.</text>
+		<text>Your guys and I made it a-ok at the car park.</text>
 	</string>
 	<string id="escape_lager_volk_talk_2111">
-		<text>Отлично! Поздравлю "друзей" шикарным фейерверком. Вот, держи - лично от меня.</text>
+		<text>That's awesome, man! Here, take this. That's my personal reward for you.</text>
 	</string>
 	<string id="escape_lager_volk_talk_212">
-		<text>Я прошерстил АТП. Там уже чисто. Да, кстати, держи подарок. Извини, что без праздничной упаковки.</text>
+		<text>We went over the car park with a fine-toothed comb. It's all clear now.</text>
 	</string>
 	<string id="escape_lager_volk_talk_2121">
-		<text>Ого! Ребята говорят, ты дал жару, что надо! Да-а... Поздравлю "друзей" шикарным фейерверком. Вот, держи немного денег... Это так, на память, не считая огромной благодарности. Кроме того, есть тут у меня ещё кое-что...</text>
+		<text>Wow! My men tell me you gave them a real beating! Here, take this money.. Just a memento, not counting our huge gratitude. Plus, I got something else for you here...</text>
 	</string>
 	<string id="escape_lager_volk_talk_21211">
-		<text>Здорово.</text>
+		<text>Hey.</text>
 	</string>
 	<string id="escape_lager_volk_talk_213">
-		<text>В процессе.</text>
+		<text>I'm working on it.</text>
 	</string>
 	<string id="escape_lager_volk_talk_2131">
-		<text>Держи меня в курсе, ладно?</text>
+		<text>Keep me posted, ok?</text>
 	</string>
 	<string id="escape_lager_volk_talk_31">
-		<text>Не могу сейчас болтать. Отвали.</text>
+		<text>I can't waste time on idle chit-chat. Take a hike.</text>
 	</string>
 	<string id="escape_lager_volk_talk_311">
-		<text>Понял, не дурак.</text>
+		<text>I got that, I'm not stupid.</text>
 	</string>
 	<string id="escape_lager_volk_talk_41">
-		<text>Привет, Меченый. Какими судьбами?</text>
+		<text>Hello, Messer. What's the occasion?</text>
 	</string>
 	<string id="escape_lager_volk_talk_51">
-		<text>Что расскажешь, сталкер?</text>
+		<text>Tell me something new, stalker.</text>
 	</string>
 	<string id="escape_lager_volk_talk_511">
-		<text>Да нечего особо рассказывать... На АТП бандиты были, пришлось немного почистить, там же нашёл и динамит. Кстати, если нужен, могу отдать. А так, вроде, и всё.</text>
+		<text>What can I tell you. There were bandits at the car park, so we did some cleaning up. That's about it.</text>
 	</string>
 	<string id="escape_lager_volk_talk_5111">
-		<text>Ай да скромняга! Слушай, ну раз ты бандюков уделал, да ещё и подарок мне такой приволок, то не могу я тебя просто так отпустить!..</text>
+		<text>You aren't the bragging kind, are you? Look, since you've dealt with these thugs, I can't just let you go like that...</text>
 	</string>
     <string id="escape_lager_volk_job_0">
-        <text>Got any work you need doing?</text>
+        <text>You do not have any special case work?</text>
     </string>
     <string id="escape_lager_volk_job_1">
-        <text>Я давно уже в Зоне. Сыт этим всем по горло. Решил завязать. Есть у меня дела и во "внешнем мире". На последок подарок хочу оставить кое-кому из друзей. Мои ребята несли его мне, да бандиты их порешили. Так вот подарочек надобно вернуть. Мне уже неохота перед дорогой домой шкурой рисковать. А ты - новенький, деньги наверняка нужны. А я заплачу пару тысяч. Так что... Бандиты эти сейчас обосновались на фабрике.</text>
+        <text>I have long been in the Zone. I have been over the top of her head. I decided to leave this place and take care of things for the perimeter. Before leaving, I would like to make a gift "friends". My boys were carrying it to me, but it fell into the hands of bandits. You need to recover a gift. I do not want, just before returning home, expose your skin. And you - you're a rookie, the money will definitely need. I'll pay a few thousand. So ... the bandits are now in the factory.</text>
     </string>
     <string id="escape_lager_volk_job_11">
         <text>Хорошо, по рукам. Скажи только, что принести нужно.</text>

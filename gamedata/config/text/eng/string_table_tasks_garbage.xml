@@ -1,48 +1,48 @@
-	<string id="gar_car_graveyard_quest">
-		<text>Ответить на призыв о помощи</text>
+	<string id="gar_angar">
+		<text>Abandoned hangar.</text>
 	</string>
-	<string id="gar_defend_garbage">
-		<text>Уничтожить рейд бандитов</text>
+	<string id="gar_bandit_agr">
+		<text>Bandit camp by the exit from Agroprom.</text>
 	</string>
-	<string id="gar_dialog_hellcar">
-		<text>Предложить свою помощь лидеру нейтралов</text>
+	<string id="gar_bandit_post">
+		<text>Bandit base on the road to Agroprom.</text>
 	</string>
-	<string id="gar_dialog_hellcar_1">
-		<text>Предложить свою помощь Бесу</text>
+	<string id="gar_bandits_leader">
+		<text>Bandit raid led by the boss.</text>
 	</string>
-	<string id="gar_hellcar_alive">
-		<text>Поговорить с Бесом</text>
+	<string id="gar_boars_nest">
+		<text>Horde of boars.</text>
 	</string>
-	<string id="gar_help_dymon">
-		<text>Отбить рейд бандитов</text>
+	<string id="gar_car_graveyard">
+		<text>Vehicle scrapyard.</text>
 	</string>
-	<string id="gar_help_tunnel_newbie">
-		<text>Помочь новичку со свалки</text>
+	<string id="gar_dogs_in_forest">
+		<text>Dog-infested forest</text>
 	</string>
-	<string id="gar_kill_bandits">
-		<text>Уничтожить рейд бандитов</text>
+	<string id="gar_dolg_blokpost">
+		<text>Duty checkpoint on the road to the Bar.</text>
 	</string>
-	<string id="gar_kill_boars">
-		<text>Помочь заставе Долга</text>
+	<string id="gar_hellcar">
+		<text>A group of neutral stalkers calling for help.</text>
 	</string>
-	<string id="gar_kill_boars_1">
-		<text>Убить кабанов</text>
+	<string id="gar_newbie">
+		<text>A scared and tired rookie.</text>
 	</string>
-	<string id="gar_kill_boars_2">
-		<text>Поговорить с командиром заставы</text>
+	<string id="gar_secret1">
+		<text>The rookie's secret stash.</text>
 	</string>
-	<string id="gar_kill_boars_descr">
-		<text>Долг: "Всем приём, говорит застава Долга на Свалке. Из Тёмной долины по направлению к Бару идёт волна мутантов. Всем, кто поможет отстрелять нечисть, признательность с нашей стороны гарантируем. Слово Долга."</text>
+	<string id="gar_seriy">
+		<text>Seriy's group.</text>
 	</string>
-	<string id="gar_kill_boars_main">
-		<text>Квест для прохода на Бар</text>
+	<string id="gar_swamp">
+		<text>The Grimpen Mire.</text>
 	</string>
-	<string id="garbage_meet_stalker_1">
-		<text>Узнать у Серого о Стрелке</text>
+	<string id="gar_trash1">
+		<text>Piles of rubbish with anomalies and artifacts.</text>
 	</string>
-	<string id="graveyard_raid_text">
-		<text>Бес: "Бандитское отродье пытается получить контроль над Свалкой. Здесь полчаса назад была драка. Троих уродов мы положили. Остальные братки отступили, но явно вот-вот вернутся с подкреплением. Нас мало и лишний ствол не помешает. Если поможешь нам уничтожить их подкрепление, то я в долгу не останусь."</text>
+	<string id="gar_tunnel">
+		<text>Railroad tunnel.</text>
 	</string>
-	<string id="help_for_neitrals_text">
-		<text>На кладбище машин произошла перестрелка между нейтралами и бандитами. Нейтралы отбились, но зовут на помощь.</text>
+	<string id="gar_wounded_help">
+		<text>SOS signal. Probably a wounded stalker.</text>
 	</string>

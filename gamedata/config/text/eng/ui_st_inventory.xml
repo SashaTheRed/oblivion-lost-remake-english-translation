@@ -1,267 +1,267 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_activate_artefact">
-		<text>активировать артефакт</text>
+		<text>activate artifact</text>
 	</string>
 	<string id="st_attach_gl_to_rifle">
-		<text>прицепить гранатомёт к винтовке</text>
+		<text>attach grenade launcher to rifle</text>
 	</string>
 	<string id="st_attach_scope_to_pistol">
-		<text>прицепить прицел к пистолету</text>
+		<text>attach scope to pistol</text>
 	</string>
 	<string id="st_attach_scope_to_rifle">
-		<text>прицепить прицел к винтовке</text>
+		<text>attach scope to rifle</text>
 	</string>
 	<string id="st_attach_silencer_to_pistol">
-		<text>прицепить глушитель к пистолету</text>
+		<text>attach silencer to pistol</text>
 	</string>
 	<string id="st_attach_silencer_to_rifle">
-		<text>прицепить глушитель к винтовке</text>
+		<text>attach silencer to rifle</text>
 	</string>
 	<string id="st_base_cost">
-		<text>цена</text>
+		<text>price</text>
 	</string>
 	<string id="st_condition">
-		<text>состояние</text>
+		<text>condition</text>
 	</string>
 	<string id="st_detach_gl">
-		<text>отсоединить гранатомёт</text>
+		<text>dismount grenade launcher</text>
 	</string>
 	<string id="st_detach_scope">
-		<text>отсоединить прицел</text>
+		<text>dismount scope</text>
 	</string>
 	<string id="st_detach_silencer">
-		<text>отсоединить глушитель</text>
+		<text>dismount silencer</text>
 	</string>
 	<string id="st_dress_outfit">
-		<text>надеть костюм</text>
+		<text>put on the suit</text>
 	</string>
 	<string id="st_drop">
-		<text>выбросить</text>
+		<text>drop</text>
 	</string>
 	<string id="st_drop_all">
-		<text>выбросить всё</text>
+		<text>drop everything</text>
 	</string>
 	<string id="st_eat">
-		<text>съесть</text>
+		<text>eat</text>
 	</string>
 	<string id="st_move_on_belt">
-		<text>повесить на пояс</text>
+		<text>attach to belt</text>
 	</string>
 	<string id="st_move_to_bag">
-		<text>убрать в рюкзак</text>
+		<text>move to backpack</text>
 	</string>
 	<string id="st_move_to_slot">
-		<text>переместить в слот</text>
+		<text>move to slot</text>
 	</string>
 	<string id="st_sell_item">
-		<text>продать предмет</text>
+		<text>sell item</text>
 	</string>
 	<string id="st_undress_outfit">
-		<text>снять костюм</text>
+		<text>take off the suit</text>
 	</string>
 	<string id="st_unload_magazine">
-		<text>разрядить</text>
+		<text>unload</text>
 	</string>
 	<string id="st_use">
-		<text>использовать</text>
+		<text>use</text>
 	</string>
 	<string id="st_weight">
-		<text>вес</text>
+		<text>weight</text>
 	</string>
 	<string id="ui_inv_accuracy">
 		<text>_</text>
 	</string>
 	<string id="ui_inv_bag">
-		<text>Рюкзак</text>
+		<text>Backpack</text>
 	</string>
 	<string id="ui_inv_belt">
-		<text>Пояс</text>
+		<text>Belt</text>
 	</string>
 	<string id="ui_inv_cancel">
-		<text>Отмена</text>
+		<text>Cancel</text>
 	</string>
 	<string id="ui_inv_clear">
-		<text>Очистить</text>
+		<text>Clear</text>
 	</string>
 	<string id="ui_inv_damage">
 		<text>_</text>
 	</string>
 	<string id="ui_inv_description">
-		<text>Описание</text>
+		<text>Description</text>
 	</string>
 	<string id="ui_inv_drop">
-		<text>Сброс</text>
+		<text>Take out</text>
 	</string>
 	<string id="ui_inv_equipment">
-		<text>Оборудование</text>
+		<text>Equipment</text>
 	</string>
 	<string id="ui_inv_exit">
-		<text>Выход</text>
+		<text>Exit</text>
 	</string>
 	<string id="ui_inv_granades_rifle">
-		<text>Купить гранаты для подствольника (E)</text>
+		<text>Buy grenades for the launcher (E)</text>
 	</string>
 	<string id="ui_inv_handling">
 		<text>_</text>
 	</string>
 	<string id="ui_inv_heavy_weapons">
-		<text>Тяжелое</text>
+		<text>Heavy</text>
 	</string>
 	<string id="ui_inv_items_list">
-		<text>Список вещей</text>
+		<text>List of items</text>
 	</string>
 	<string id="ui_inv_money">
-		<text>Деньги</text>
+		<text>Money</text>
 	</string>
 	<string id="ui_inv_ok">
 		<text>OK</text>
 	</string>
 	<string id="ui_inv_outfit_burn_protection">
-		<text>Ожог</text>
+		<text>Burn</text>
 	</string>
 	<string id="ui_inv_outfit_chemical_burn_protection">
-		<text>Хим. ожог</text>
+		<text>Chemical burn</text>
 	</string>
 	<string id="ui_inv_outfit_explosion_protection">
-		<text>Взрыв</text>
+		<text>Explosion</text>
 	</string>
 	<string id="ui_inv_outfit_fire_wound_protection">
-		<text>Пулестойкость</text>
+		<text>Bulletproof cap</text>
 	</string>
 	<string id="ui_inv_outfit_params">
-		<text>Параметры защиты</text>
+		<text>Parameters</text>
 	</string>
 	<string id="ui_inv_outfit_radiation_protection">
-		<text>Радиация</text>
+		<text>Radiation</text>
 	</string>
 	<string id="ui_inv_outfit_shock_protection">
-		<text>Электрошок</text>
+		<text>Electric shock</text>
 	</string>
 	<string id="ui_inv_outfit_strike_protection">
-		<text>Удар</text>
+		<text>Impact</text>
 	</string>
 	<string id="ui_inv_outfit_telepatic_protection">
-		<text>Телепат.</text>
+		<text>Telepathy</text>
 	</string>
 	<string id="ui_inv_outfit_wound_protection">
-		<text>Разрыв</text>
+		<text>Rupture</text>
 	</string>
 	<string id="ui_inv_outfits">
-		<text>Костюмы</text>
+		<text>Suits</text>
 	</string>
 	<string id="ui_inv_personal">
-		<text>Костюм</text>
+		<text>Suit</text>
 	</string>
 	<string id="ui_inv_pistols">
-		<text>Пистолеты</text>
+		<text>Pistols</text>
 	</string>
 	<string id="ui_inv_primary_weapons">
-		<text>Основное</text>
+		<text>Primary</text>
 	</string>
 	<string id="ui_inv_rate_of_fire">
 		<text>_</text>
 	</string>
 	<string id="ui_inv_rest">
-		<text>Отдохнуть</text>
+		<text>Rest</text>
 	</string>
 	<string id="ui_inv_rifles">
-		<text>Автоматы</text>
+		<text>Assault rifles</text>
 	</string>
 	<string id="ui_inv_shop">
-		<text>Магазин</text>
+		<text>Shop</text>
 	</string>
 	<string id="ui_inv_shotguns">
-		<text>Ружья</text>
+		<text>Shotguns</text>
 	</string>
 	<string id="ui_inv_sniper_rifles">
-		<text>Снайперское</text>
+		<text>Sniper</text>
 	</string>
 	<string id="ui_inv_time">
-		<text>Время</text>
+		<text>Time</text>
 	</string>
 	<string id="ui_inv_total_money">
-		<text>Всего денег</text>
+		<text>Total money</text>
 	</string>
 	<string id="ui_inv_weight">
-		<text>Вес</text>
+		<text>Weight</text>
 	</string>
 	<string id="ui_inv_ammo_pistol">
-		<text>Купить базовые патроны для пистолета (Q)</text>
+		<text>Buy basic ammo for pistol (Q)</text>
 	</string>
 	<string id="ui_inv_ammo_rifle">
-		<text>Купить патроны для винтовки (W)</text>
+		<text>Buy ammo for rifle (W)</text>
 	</string>
 	<string id="ui_inv_granadelauncher_rifle">
-		<text>Купить подствольник для винтовки (D)</text>
+		<text>Buy grenade launcher for rifle (D)</text>
 	</string>
 	<string id="ui_inv_granades">
-		<text>Гранаты</text>
+		<text>Grenades</text>
 	</string>
 	<string id="ui_inv_scope_rifle">
-		<text>Купить оптический прицел для винтовки (S)</text>
+		<text>Buy optic scope for rifle (S)</text>
 	</string>
 	<string id="ui_inv_silencer_pistol">
-		<text>Купить глушитель для пистолета (A)</text>
+		<text>Buy silencer for pistol (A)</text>
 	</string>
 	<string id="ui_inv_silencer_rifle">
-		<text>Купить глушитель для винтовки (F)</text>
+		<text>Buy silencer for rifle (F)</text>
 	</string>
 	<string id="ui_inv_last_buy">
-		<text>Купить последний приобретённый набор</text>
+		<text>Buy previous set</text>
 	</string>
 	<string id="ui_inv_sell_items(X)">
-		<text>Продать все вещи из рюкзака (X)</text>
+		<text>Sell all items from backpack (X)</text>
 	</string>
 	<string id="ui_st_preset_stored_to">
-		<text>Приобретённый набор сохранён как</text>
+		<text>Purchased set saved as</text>
 	</string>
 	<string id="ui_inv_preset1(F1)">
-		<text>Набор 1 (F1)</text>
+		<text>Preset 1 (F1)</text>
 	</string>
 	<string id="ui_inv_preset2(F2)">
-		<text>Набор 2 (F2)</text>
+		<text>Preset 2 (F2)</text>
 	</string>
 	<string id="ui_inv_preset3(F3)">
-		<text>Набор 3 (F3)</text>
+		<text>Preset 3 (F3)</text>
 	</string>
 	<string id="ui_inv_last_buy(F4)">
-		<text>Предыдущий (F4)</text>
+		<text>Last items (F4)</text>
 	</string>
 	<string id="ui_inv_default(F5)">
-		<text>Стартовый (F5)</text>
+		<text>Default items (F5)</text>
 	</string>
 	<string id="ui_st_preset_def">
-		<text>Стартовый набор</text>
+		<text>Default items</text>
 	</string>
 	<string id="ui_inv_reset_items(C)">
-		<text>Очистить (C)</text>
+		<text>Reset items (C)</text>
 	</string>
 	<string id="ui_inv_cant_buy_item">
-		<text>Невозможно купить оружие</text>
+		<text>Can't buy item</text>
 	</string>
 	<string id="ui_inv_rank_restr">
-		<text>Ограничение по рангу</text>
+		<text>Rank restriction</text>
 	</string>
 	<string id="ui_inv_not_enought_money">
-		<text>Недостаточно денег</text>
+		<text>Insufficient money</text>
 	</string>
 	<string id="ui_inv_count_restr">
-		<text>Ограничение по количеству</text>
+		<text>Amount restrictions</text>
 	</string>
 	<string id="ui_inv_has">
-		<text>сейчас</text>
+		<text>is now</text>
 	</string>
 	<string id="ui_inv_need">
-		<text>необходимо</text>
+		<text>required</text>
 	</string>
 	<string id="ui_inv_you_already_have">
-		<text>Уже есть</text>
+		<text>You already have</text>
 	</string>
 	<string id="ui_st_err_gs_not_available">
-		<text>Онлайн услуги S.T.A.L.K.E.R. недоступны.</text>
+		<text>Online Services for S.T.A.L.K.E.R. are not available.</text>
 	</string>
 	<string id="ui_st_err_sb_master_server_conn_fail">
-		<text>Невозможно присоединиться к мастер-серверу</text>
+		<text>Unable to connect to master server</text>
 	</string>
 </string_table>

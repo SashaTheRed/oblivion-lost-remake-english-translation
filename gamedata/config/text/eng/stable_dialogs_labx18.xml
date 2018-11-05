@@ -1,114 +1,114 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="dar_explorer_dialog_1">
-		<text>Задание у меня.</text>
+		<text>I'm on a mission.</text>
 	</string>
 	<string id="dar_explorer_dialog_11">
-		<text>Хм. А что за задание? Что-то ищешь? Или, может быть, уже нашел? Слыхал, здесь добра полным полно...</text>
+		<text>Hmm. What kind of mission? Are you looking for something? Or have you found it already? I've heard there's lots of goodies in here...</text>
 	</string>
 	<string id="dar_explorer_dialog_111">
-		<text>Извини, рассказать не могу, да и некогда.</text>
+		<text>I'm sorry, I can't tell you and I don't have the time anyway.</text>
 	</string>
 	<string id="dar_explorer_dialog_1111">
-		<text>Да погоди ты убегать. Набегаешься ещё... А что нашел? Я ведь тоже здесь не просто так таскаюсь.</text>
+		<text>Wait up, don't run yet. You'll have enough opportunities for that... What did you find? Myself, I'm not hanging around here for nothing, you know.</text>
 	</string>
 	<string id="dar_explorer_dialog_11111">
-		<text>Это моё дело, что я нашел.</text>
+		<text>What I found is my business.</text>
 	</string>
 	<string id="dar_explorer_dialog_11112">
-		<text>Нашел документы X18, Бармен обещал хорошо заплатить.</text>
+		<text>I found some documents from X18. The Barkeep promised to pay me well for them.</text>
 	</string>
 	<string id="dar_explorer_dialog_112">
-		<text>Нет, ничего не нашел.</text>
+		<text>No, I haven't found anything.</text>
 	</string>
 	<string id="dar_explorer_dialog_2">
-		<text>Сам не знаю, как сюда занесло, убраться бы отсюда поскорее.</text>
+		<text>I don't even know how I wound up here. I'd love to be off as soon as possible.</text>
 	</string>
 	<string id="dar_explorer_dialog_21">
-		<text>Ничего интересного не находил случайно? Говорят, здесь можно найти информацию об экспериментах. За это хорошо платят...</text>
+		<text>You haven't found anything worthwhile here, have you? They say there's some information about scientific experiments. They're worth some good money...</text>
 	</string>
 	<string id="dar_explorer_dialog_211">
-		<text>Нет, не находил.</text>
+		<text>No, I haven't.</text>
 	</string>
 	<string id="dar_explorer_dialog_2111">
-		<text>Да?.. А если хорошо подумать? Скрываешь от меня что-нибудь?</text>
+		<text>Yeah?.. And what if you think really well about it? Are you hiding something from me?</text>
 	</string>
 	<string id="dar_explorer_dialog_21111">
-		<text>Нет.</text>
+		<text>No.</text>
 	</string>
 	<string id="dar_explorer_dialog_21112">
-		<text>Что за вопросы?</text>
+		<text>What kind of question is that?</text>
 	</string>
 	<string id="dar_explorer_dialog_21113">
-		<text>Ты мне угрожаешь?</text>
+		<text>Are you threatening me?</text>
 	</string>
 	<string id="dar_explorer_dialog_212">
-		<text>К чёрту всю эту информацию, я тут еле живой остался.</text>
+		<text>To hell with all that information. I'm barely staying alive in here.</text>
 	</string>
 	<string id="dar_explorer_dialog_2121">
-		<text>Ну ладно, беги. Вдруг что найдешь - я не далеко...</text>
+		<text>Alright then, off you go. If you find something - I'll be around...</text>
 	</string>
 	<string id="dar_explorer_dialog_25">
-		<text>Послушай, дружище, я в этой самой Зоне прошел через огонь, аномалии и монстров и до сих пор жив, как ты видишь! Так что не указывай мне, что говорить, а что нет. Я пришел за документами. И без них не уйду. Если они при тебе, то советую тебе мне их отдать, иначе ты останешься в этой яме навсегда! Усек?</text>
+		<text>Listen, pal, I've made it through fire, anomalies and monsters in this stinking Zone and as you can see I'm still alive! So don't you tell me what I can or cannot say. I've come here for the documents and I won't leave without them. If they're on you, I advise you to hand them over or rest in peace in this hole! Got it?</text>
 	</string>
 	<string id="dar_explorer_dialog_251">
-		<text>Ясно.</text>
+		<text>Got it.</text>
 	</string>
 	<string id="dar_explorer_dialog_2511">
-		<text>Если ты мне врёшь - у тебя будут проблемы, если ты что-то задумал - у тебя будут проблемы, если ты мне подсунешь какую-то гадость - у тебя будут проблемы. Короче, у тебя одна большая проблема - и тебе нужно очень постараться, чтобы её решить! А теперь ещё раз для тупых: ты нашёл документы?</text>
+		<text>If you're lying to me, you're in deep shit. If you've are thinking of screwing me, you're in deep shit, and if you try to shove me some crap, you're in deep shit. In fact, you're so deep in shit that you'll have to swim very hard to keep afloat! Now, let me try one more time for the idiots in the assistance: have you found the documents?</text>
 	</string>
 	<string id="dar_explorer_dialog_2521">
-		<text>Вот и хорошо, и в следующий раз выбирай выражения. А теперь иди. Вдруг что найдешь - я не далеко...</text>
+		<text>Alrighty, and next time, watch your mouth. You may go now. In case you find something, I'll be around...</text>
 	</string>
 	<string id="dar_explorer_dialog_253">
-		<text>Разговор закончен, убирайся с дороги.</text>
+		<text>This conversation is over. Get out of my way.</text>
 	</string>
 	<string id="dar_explorer_dialog_26">
-		<text>У меня нет никаких документов.</text>
+		<text>I don't have any documents.</text>
 	</string>
 	<string id="dar_explorer_dialog_271">
-		<text>Так то лучше, дружок. А теперь давай мне всю информацию, что нашёл. Все до одного документа. И не вздумай со мной шутить - иначе это будет твоя последняя шутка...</text>
+		<text>That's much better, chum. Now give me all the information you've got, every little thing to the last scrap of paper. And don't even think of pulling anything funny 'cause that joke would be your last...</text>
 	</string>
 	<string id="dar_explorer_dialog_51">
-		<text>Стой, тебе говорят! Я в этой дыре не просто так таскаюсь. Не валяй дурака, выкладывай что нашел. Поделимся если что...</text>
+		<text>I'm telling you, stop! I'm not roaming around this rat hole for nothing. Stop horsing around and tell me what you've found. We could even split it...</text>
 	</string>
 	<string id="dar_explorer_dialog_511">
-		<text>Делиться я ничем не собираюсь.</text>
+		<text>I'm not sharing anything.</text>
 	</string>
 	<string id="dar_explorer_dialog_5111">
-		<text>Ну-ну, вали... Да вот только один совет - смотри под ноги, не споткнись, сталкер!</text>
+		<text>Uh-huh, sod off now... I got one last advice for you - watch your step, stalker, you'll need it!</text>
 	</string>
 	<string id="dar_explorer_dialog_512">
-		<text>Ты мне угрожаешь?</text>
+		<text>Are you threatening me?</text>
 	</string>
 	<string id="dar_explorer_dialog_5121">
-		<text>Ладно, ладно тебе, не кипятись... Просто любопытно, а ты сразу за ствол! Никаких больше расспросов. Просто будь осторожнее, и всё.</text>
+		<text>OK, OK, cool it... Soon as I get curious, you're grabbing your gun! No more questions. Just be careful, that's all.</text>
 	</string>
 	<string id="dar_explorer_dialog_61">
-		<text>Документы, значит... Это именно то, за чем я пришёл, к твоему сведению. А сейчас ты мне их отдашь и побежишь, куда бежал. Ты меня понял?</text>
+		<text>Documents, huh... Just so you know, that's exactly what I came here for. And now you will hand them over and get on your way. Understood?</text>
 	</string>
 	<string id="dar_explorer_dialog_6111">
-		<text>что-нибудь предложу.</text>
+		<text>I'll offer something</text>
 	</string>
 	<string id="dar_explorer_dialog_6121">
-		<text>Слушай, дружище, не морочь мне голову. Давай договоримся. Я нормально тебе отвалю, не пожалеешь.</text>
+		<text>Look, man, stop screwing with my brain. Let's make a deal. I'll give you a nice chunk of money - you won't be sorry.</text>
 	</string>
 	<string id="dar_explorer_dialog_6131">
-		<text>Послушай, мне вкрай необходимы эти документы. Давай посмотрим, что там у тебя - я думаю мы договоримся...</text>
+		<text>Listen, my life depends on these documents. Let's see what you got - I think we can come to an agreement...</text>
 	</string>
 	<string id="dar_explorer_dialog_8011">
-		<text>Темно здесь, ни хрена не видно. Бюреры кругом... И зачем я согласился?! Ты то как сюда попал?</text>
+		<text>It's so dark here, I can't see a damn thing. Burers all around... Why did I ever agree to do this?! What about you, how did you wind up here?</text>
 	</string>
 	<string id="dar_explorer_dialog_8021">
-		<text>Иди своей дорогой, сталкер.</text>
+		<text>Keep walking, stalker.</text>
 	</string>
 	<string id="dar_explorer_dialog_8031">
-		<text>Терпеть не могу, когда разговор прерывают. Короче, я пришёл за важными документами. Если ты что-нибудь находил - выкладывай, иначе у тебя будут проблемы. Если ты ничего не находил - проваливай и не забирай моё время.</text>
+		<text>I hate it when someone interrupts when I speak. Anyway, I came here for some important documents. If you've found something, spill it out or you'll be in trouble. If you haven't found anything, get lost and stop wasting my time.</text>
 	</string>
 	<string id="dar_explorer_dialog_8041">
-		<text>Терпеть не могу, когда разговор прерывают! Выкладывай документы, если не хочешь остаться здесь навсегда.</text>
+		<text>I hate it when someone interrupts when I speak. Gimme those documents if you don't want to part with your life.</text>
 	</string>
 	<string id="dar_explorer_dialog_9">
-		<text>Учту.</text>
+		<text>I'll remember that.</text>
 	</string>
 </string_table>

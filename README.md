@@ -13,37 +13,37 @@ A list of all files with detailed progress can be found below.
 	- [stable_bio_name.xml](gamedata/config/text/eng/stable_bio_name.xml)
 		- incomplete
 	- [stable_dialogs.xml](gamedata/config/text/eng/stable_dialogs.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_aes.xml](gamedata/config/text/eng/stable_dialogs_aes.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_agroprom.xml](gamedata/config/text/eng/stable_dialogs_agroprom.xml)
 		- incomplete
 	- [stable_dialogs_bar.xml](gamedata/config/text/eng/stable_dialogs_bar.xml)
 		- incomplete
 	- [stable_dialogs_darkvalley.xml](gamedata/config/text/eng/stable_dialogs_darkvalley.xml)
-		- incomplete
+		- in progress
 	- [stable_dialogs_deadcity.xml](gamedata/config/text/eng/stable_dialogs_deadcity.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_escape.xml](gamedata/config/text/eng/stable_dialogs_escape.xml)
 		- incomplete
 	- [stable_dialogs_garbage.xml](gamedata/config/text/eng/stable_dialogs_garbage.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_labx18.xml](gamedata/config/text/eng/stable_dialogs_labx18.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_military.xml](gamedata/config/text/eng/stable_dialogs_military.xml)
 		- incomplete
 	- [stable_dialogs_pripyat.xml](gamedata/config/text/eng/stable_dialogs_pripyat.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_radar.xml](gamedata/config/text/eng/stable_dialogs_radar.xml)
-		- incomplete
+		- done
 	- [stable_dialogs_yantar.xml](gamedata/config/text/eng/stable_dialogs_yantar.xml)
 		- incomplete
 	- [stable_dialog_manager.xml](gamedata/config/text/eng/stable_dialog_manager.xml)
 		- incomplete
 	- [stable_dialog_manager_uni.xml](gamedata/config/text/eng/stable_dialog_manager_uni.xml)
-		- incomplete
+		- done
 	- [stable_game_credits.xml](gamedata/config/text/eng/stable_game_credits.xml)
-		- incomplete
+		- done
 	- [stable_generate_fnames.xml](gamedata/config/text/eng/stable_generate_fnames.xml)
 		- done
 	- [stable_generate_snames.xml](gamedata/config/text/eng/stable_generate_snames.xml)
@@ -51,15 +51,15 @@ A list of all files with detailed progress can be found below.
 	- [stable_statistic_caption.xml](gamedata/config/text/eng/stable_statistic_caption.xml)
 		- incomplete
 	- [stable_stories.xml](gamedata/config/text/eng/stable_stories.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_aes.xml](gamedata/config/text/eng/stable_storyline_info_aes.xml)
 		- done
 	- [stable_storyline_info_agroprom.xml](gamedata/config/text/eng/stable_storyline_info_agroprom.xml)
 		- incomplete
 	- [stable_storyline_info_bar-rostok.xml](gamedata/config/text/eng/stable_storyline_info_bar-rostok.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_bar.xml](gamedata/config/text/eng/stable_storyline_info_bar.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_darkvalley.xml](gamedata/config/text/eng/stable_storyline_info_darkvalley.xml)
 		- incomplete
 	- [stable_storyline_info_deadcity.xml](gamedata/config/text/eng/stable_storyline_info_deadcity.xml)
@@ -73,15 +73,15 @@ A list of all files with detailed progress can be found below.
 	- [stable_storyline_info_pripyat.xml](gamedata/config/text/eng/stable_storyline_info_pripyat.xml)
 		- incomplete
 	- [stable_storyline_info_radar.xml](gamedata/config/text/eng/stable_storyline_info_radar.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_sarcofag.xml](gamedata/config/text/eng/stable_storyline_info_sarcofag.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_yantar.xml](gamedata/config/text/eng/stable_storyline_info_yantar.xml)
 		- incomplete
 	- [stable_task_manager.xml](gamedata/config/text/eng/stable_task_manager.xml)
 		- incomplete
 	- [stable_treasure_manager.xml](gamedata/config/text/eng/stable_treasure_manager.xml)
-		- incomplete
+		- done
 	- [string_table_enc_equipment.xml](gamedata/config/text/eng/string_table_enc_equipment.xml)
 		- incomplete
 	- [string_table_enc_mutants.xml](gamedata/config/text/eng/string_table_enc_mutants.xml)
@@ -113,7 +113,7 @@ A list of all files with detailed progress can be found below.
 	- [string_table_mapspots_deadcity.xml](gamedata/config/text/eng/string_table_mapspots_deadcity.xml)
 		- done
 	- [string_table_mapspots_escape.xml](gamedata/config/text/eng/string_table_mapspots_escape.xml)
-		- incomplete
+		- done
 	- [string_table_mapspots_garbage.xml](gamedata/config/text/eng/string_table_mapspots_garbage.xml)
 		- done
 	- [string_table_mapspots_military.xml](gamedata/config/text/eng/string_table_mapspots_military.xml)
@@ -137,7 +137,7 @@ A list of all files with detailed progress can be found below.
 	- [string_table_tasks_escape.xml](gamedata/config/text/eng/string_table_tasks_escape.xml)
 		- incomplete
 	- [string_table_tasks_garbage.xml](gamedata/config/text/eng/string_table_tasks_garbage.xml)
-		- incomplete
+		- done
 	- [string_table_tasks_military.xml](gamedata/config/text/eng/string_table_tasks_military.xml)
 		- done
 	- [string_table_tasks_radar.xml](gamedata/config/text/eng/string_table_tasks_radar.xml)
@@ -147,51 +147,51 @@ A list of all files with detailed progress can be found below.
 	- [string_table_tasks_yantar.xml](gamedata/config/text/eng/string_table_tasks_yantar.xml)
 		- done
 	- [string_table_tips.xml](gamedata/config/text/eng/string_table_tips.xml)
-		- incomplete (has an equivalent Russian file in *Shadow of Chernobyl* but none in English)
+		- done
 	- [string_table_tips_agroprom.xml](gamedata/config/text/eng/string_table_tips_agroprom.xml)
 		- done
 	- [string_table_tips_bar-rostok.xml](gamedata/config/text/eng/string_table_tips_bar-rostok.xml)
-		- incomplete
+		- done
 	- [string_table_tips_darkvalley.xml](gamedata/config/text/eng/string_table_tips_darkvalley.xml)
 		- done
 	- [string_table_tips_escape.xml](gamedata/config/text/eng/string_table_tips_escape.xml)
-		- incomplete
+		- done
 	- [string_table_tips_garbage.xml](gamedata/config/text/eng/string_table_tips_garbage.xml)
-		- incomplete
+		- done
 	- [string_table_tips_military.xml](gamedata/config/text/eng/string_table_tips_military.xml)
-		- incomplete
+		- done
 	- [string_table_tips_radar.xml](gamedata/config/text/eng/string_table_tips_radar.xml)
-		- incomplete
+		- done
 	- [string_table_tips_sarcofag.xml](gamedata/config/text/eng/string_table_tips_sarcofag.xml)
-		- incomplete
+		- done
 	- [string_table_tips_yantar.xml](gamedata/config/text/eng/string_table_tips_yantar.xml)
 		- done
 	- [string_table_tutorial.xml](gamedata/config/text/eng/string_table_tutorial.xml)
-		- incomplete
+		- done
 	- [string_table_ui.xml](gamedata/config/text/eng/string_table_ui.xml)
-		- incomplete
+		- done (needs revision)
 	- [ui_mm_efx.xml](gamedata/config/text/eng/ui_mm_efx.xml)
 		- incomplete
 	- [ui_mp_teamdesc.xml](gamedata/config/text/eng/ui_mp_teamdesc.xml)
-		- incomplete
+		- done
 	- [ui_st_inventory.xml](gamedata/config/text/eng/ui_st_inventory.xml)
-		- incomplete
+		- done
 	- [ui_st_keybinding.xml](gamedata/config/text/eng/ui_st_keybinding.xml)
-		- incomplete
+		- done (needs revision)
 	- [ui_st_mapdesc.xml](gamedata/config/text/eng/ui_st_mapdesc.xml)
-		- incomplete
+		- done
 	- [ui_st_mm.xml](gamedata/config/text/eng/ui_st_mm.xml)
-		- incomplete
+		- done (needs revision)
 	- [ui_st_mm_mp.xml](gamedata/config/text/eng/ui_st_mm_mp.xml)
 		- done
 	- [ui_st_mp.xml](gamedata/config/text/eng/ui_st_mp.xml)
-		- incomplete
+		- done
 	- [ui_st_other.xml](gamedata/config/text/eng/ui_st_other.xml)
-		- incomplete
+		- done (needs revision)
 	- [ui_st_others.xml](gamedata/config/text/eng/ui_st_others.xml)
-		- incomplete
+		- done
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
-		- incomplete
+		- done
 - **[scripts](gamedata/scripts)**
 	- [nick.script](gamedata/scripts/nick.script)
 		- incomplete

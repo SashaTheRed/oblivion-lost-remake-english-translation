@@ -1,75 +1,75 @@
 	<string id="bar_darklab_documents_txt">
-		<text>Бармен: "По тем документам, которые ты принес с Агропрома, кое-что начинает проясняться, но данных не хватает. Есть информация о некоем "выжигателе мозгов", который преграждает путь на север, но что это такое - никому не известно. Также упоминается некая лаборатория X18, описания сходятся с заброшенными подземными помещениям в Темной Долине. Что там творится неизвестно, да к тому же бандиты сейчас в темной долине свою базу основали.\n Как раз недавно отправились туда несколько разведчиков-долговцев, пока от них никаких вестей.\n Для того чтобы проникнуть в лабораторию тебе понадобится два электронных ключа, один я тебе дам, а второй придётся забрать у Борова, лидера бандитов. \n\n Итак, тебе надо забрать второй ключ от лаборатории у Борова. Затем проникнуть в лабораторию и достать документы."</text>
+		<text>Barkeep: "According to the documents you brought from Agroprom, things are starting to clear up, but some data is missing. There is evidence to suggest the presence of a Brain Scorcher which blocks the road to the North, but no one knows exactly what it is. Also, there is mention of Lab X18 whose description matches that of abandoned underground structures in the Dark Valley. Its present activity is unknown and besides, bandits have now set up their base in the Dark Valley.\n Several Duty scouts went there very recently, but so far there is no news from them.\n To get inside the lab, you will need two electronic keys; I will give you one, but the second one you will have to take from Borov, the bandit leader. \n\n So, you need to take the second key to the lab from Borov, then sneak inside the lab and get the documents.</text>
 	</string>
 	<string id="bar_darklab_documents2_txt">
-		<text>Необходимо найти документы об исследованиях, проводившихся в лаборатории X-18. Они могут пролить свет на "выжигатель мозгов".</text>
+		<text>It's necessary to find the documents about the researches previously done in lab x-18. They can shed some light on the "Brain Scorcher".</text>
 	</string>
 	<string id="dar_codedoor_1_txt">
-		<text>Путь вглубь лаборатории прегражден дверью с кодовым замком. Необходимо найти кого-то, кто знает код.</text>
+		<text>A combination lock is blocking the way into the depths of the lab. You must find someone who knows the combination.</text>
 	</string>
 	<string id="dar_codedoor_2_txt">
-		<text>Ещё одна дверь, за ней что-то есть, это факт. Необходимо отыскать код для этой двери.</text>
+		<text>There is another door, and there certainly is something behind it. You must discover the code that opens this door.</text>
 	</string>
 	<string id="dar_document1">
-		<text>Начало эксперимента</text>
+		<text>The beginning of the experiment</text>
 	</string>
 	<string id="dar_document2">
-		<text>Вторая стадия эксперимента</text>
+		<text>The second stage of the experiment</text>
 	</string>
 	<string id="dar_document3">
-		<text>Отчет охраны</text>
+		<text>Security report</text>
 	</string>
 	<string id="dar_document4">
-		<text>Нападение на персонал</text>
+		<text>Attack on the personnel</text>
 	</string>
 	<string id="dar_document5">
-		<text>Завершение эксперимента</text>
+		<text>The last stage of the experiment</text>
 	</string>
 	<string id="documents_1">
-		<text>Неделю назад было принято решение повысить интенсивность излучения на подопытных. В первые дни изменений не обнаружено. Спустя несколько дней с ними начались странные метаморфозы: уменьшение волосяного покрова, повышенная агрессивность. Несколько подопытных были буквально затоптаны насмерть своими сородичами.</text>
+		<text>A week ago it was decided to increase the intensity of radiation on the test subjects. No changes were detected in the first few days. After several days strange metamorphoses started to occur: hair loss, heightened aggressiveness. Several subjects were literally trampled by their peers.</text>
 	</string>
 	<string id="documents_2">
-		<text>Состояние подопытных стабилизировалось. Волосяной покров составляет около 10% от первоначального. Заметно выросли когти и зубы. Вспышки активности носят скорее случайный характер и не направлены на себе подобных. Старший лаборант Бурнов А. Н. высказал предположение, что это может свидетельствовать об увеличении интеллекта. Было решено испытать на подопытных пси-излучение новой модуляции.</text>
+		<text>Subjects' condition has stabilized. The amount of hair is now 10% of the original amount. Their claws and teeth have grown considerably. Bursts of activity exhibit seemingly random behaviour and are not directed at their peers. Senior lab technician A.N. Burnov speculated that this may indicate an increase in the subjects' intellect. It was decided to test the new modulation of psi-emissions on the subjects.</text>
 	</string>
 	<string id="documents_3">
-		<text>Начальник охраны: Вчера охранник Глебов Г.Р. ради шутки кинул подопытным кусок мяса. Они разорвали и съели его в считанные секунды. После этого несколько особей пытались вырваться из клеток. Так из-за этого лаборанты не смогли взять плановую дозу анализов. Несмотря на то, что Глебов Г.Р. поступил необдуманно, предлагаю снабдить обслуживающий персонал пневматическим оружием для самозащиты в случае экстренных ситуаций.</text>
+		<text>Chief of Security: Yesterday security guard G.P. Glebov tossed a piece of meat to the subjects just for fun. They tore apart and devoured it in mere seconds. Subsequently several individuals tried to break out of the cells. Because of this, lab technicians were unable to obtain the necessary test samples. Although G.P. Glebov's actions were ill-considered, I propose that maintenance personnel be equipped with airguns for adequate protection in the event of emergencies.</text>
 	</string>
 	<string id="documents_4">
-		<text>Начальник охраны: Вчера эксперимент чуть не вышел из-под контроля. Вырвалось десятка два подопытных, разнесли в щепки две комнаты лаборатории. Хорошо хоть исследовательский персонал успел закрыться наверху. Нам было приказано зачистить помещение главной лаборатории. В результате лаборатории трое из охранников пострадали от укусов. Надеюсь, что с ними всё будет нормально. Поскорее бы они закончили свои эксперименты.</text>
+		<text>Chief of Security: Yesterday the experiment almost got out of control. Two dozen test subjects broke out and vandalised two laboratory rooms. Fortunately, the research personnel were able to lock themselves up upstairs. We were ordered to clear the main laboratory room. In the course of the operation, three guards suffered bites. Hopefully, they will be OK. I wish the experiment is soon over.</text>
 	</string>
 	<string id="documents_5">
-		<text>Вчера в эксперименте на подопытных было испробовано пси-излучение новой модуляции. Создалось впечатление, что им просто выжгло мозги. С трудом могу себе представить, как это излучение может подействовать на человека. Мы опробовали все типы излучений. Результаты совпадают с данными из других лабораторий. Эксперимент можно считать завершенным. Думаю, что через неделю мы будем готовы к проведению эксперимента на более крупных существах.</text>
+		<text>Yesterday we delivered a new modulation of psi-emissions to the test subjects. It appeared as though their brains simply got roasted. I can hardly imagine how this emission would affect humans. We have tested every type of emission and the results match those obtained in other laboratories. The experiment can now be considered complete. Presumably, in one week's time, we will be ready to conduct the experiment on larger creatures.</text>
 	</string>
 	<string id="LabX18 first key">
-		<text>Код допуска 2го уровня</text>
+		<text>2nd level access code</text>
 	</string>
 	<string id="LabX18 second key">
-		<text>Код допуска 1го уровня</text>
+		<text>1st level access code</text>
 	</string>
 	<string id="LabX18_information">
-		<text>Информация из X-18</text>
+		<text>Information from X18</text>
 	</string>
 	<string id="pass_to_1st_door">
-		<text>Отлично, Коллега. Я рад, что Вы получили доступ 2го уровня. Наконец Вы узнаете, чем занимается наша лаборатория. Ваш код доступа - 1243. Зав. лаборатории Х-18, Калугин Петр Ильич.</text>
+		<text>Excellent, Colleague. I'm glad that you've received 2nd level access. At last you will find out what goes on in our laboratory. Your access code is 1243. Chief of Laboratory X-18, Piotr Ilyitch Kalugin.</text>
 	</string>
 	<string id="pass_to_2nd_door">
-		<text>Коллега, напоминаю, что Вы с завтрашнего дня приступаете к обслуживанию резервуаров в центральной лаборатории. Необходимо проверять их с периодичностью в два часа. Обо всем докладывать мне лично. Код к центральной лаборатории: 9524. Зав. лаборатории Х-18, Калугин Петр Ильич.</text>
+		<text>Dear colleague, may I remind you that starting tomorrow you will attend to the container in the central laboratory room. You must inspect the containers every two hours. Report everything directly to me. The code to the central laboratory room is 9524. Chief of Laboratory X18, Piotr Ilyitch Kalugin.</text>
 	</string>
 	<string id="sl_x18_dream_name">
-		<text>Странный сон</text>
+		<text>A strange dream</text>
 	</string>
 	<string id="sl_x18_dream_text">
-		<text>Приснился странный сон. Громада Чернобыльской станции в полумраке. Всё выглядит мирно. Появляется одинокий человек. Я вижу его со спины на фоне станции. Начинает дуть ветер. Внезапно море крыс начинает разбегаются от станции в разные стороны. Человек, стоит ко мне спиной и стреляет в крыс. Вдруг раздается окрик: «Стрелок!». Человек вздрагивает, застывает на мгновение и медленно начинает поворачиваться ко мне, но...за миг до того как я увидел бы его лицо, я проснулся..что значит этот сон? не знаю.. Но мне кажется, это то, что я когда-то видел.</text>
+		<text>I had a strange dream. The colossal Chernobyl power plant emerges in the twilight. Everything looks peaceful. A lonely man appears. I see him from behind against the background of the plant. The wind starts to blow. Suddenly hordes of rats begin to skitter away from the station in all directions. The man, with his back still turned to me, shoots at the rats. There is an abrupt scream: "Strelok!". The man shudders, freezes for a moment, then starts to turn slowly in my direction, but... just an instant before I am to get a glance at his face, I wake up. What does this dream mean? I don't know, but I think it's something I have seen before.</text>
 	</string>
 	<string id="val_captive_help_txt">
-		<text>Долговец Пуля просит помочь ему освободить напарника, попавшего в плен к бандитам. Его должны скоро конвоировать на заброшенную фабрику.</text>
+		<text>Duty member Bullet wants me to rescue his partner who was captured by bandits. He is soon to be escorted to the deserted factory.</text>
 	</string>
 	<string id="val_prisoner_help_art_txt">
-		<text>Долговец: "У них есть ещё один наш, Серёга. Его держат в подвале... там здание такое... большое, недостроенное. Помоги ему, ладно? А то они его тоже..."</text>
+		<text>Dutyer: "They have another one of ours: Serega. They're keeping him in the cellar...there's a large building there...not finished...Help him out, okay? Or they'll put an end to him too..."</text>
 	</string>
 	<string id="val_x18_conclusion">
-		<text>Лаборатория Х18</text>
+		<text>Lab X18</text>
 	</string>
 	<string id="val_x18_conclusion_txt">
-		<text>М-да...невеселое это место лаборатория Х18...и ее нынешние обитатели...даже не думал что такая нечисть может существовать на свете. Нашёл какие-то документы...Из них мало что понял - это некие технические спецификации на какие-то блоки к излучателям Кайманова. Но вот что интересно блоки эти предназначались для другой лаборатории с кодом Х16 и, судя по всему, тоже засекреченной.</text>
+		<text>Hell... Lab X18 wasn't fun...and its current residents...I didn't think things like that existed. I found some documents...I didn't understand much of what was written in there except that they contained technical specifications for some components for Kaimanov emitters. What's interesting is that the parts were destined for another lab with the codename X16 and it's probably a secret one too.</text>
 	</string>

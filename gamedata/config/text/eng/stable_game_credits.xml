@@ -4,625 +4,620 @@
 		<text>Oblivion Lost Remake</text>
 	</string>
 	<string id="st_producer">
-		<text>Продюсер</text>
+		<text>Producer</text>
 	</string>
 	<string id="st_gsc">
-		<text>Сергей "-GSC-" Григорович</text>
+		<text>Sergiy “-GSC-” Grygorovych</text>
 	</string>
 	<string id="st_project_lead">
-		<text>Лидер проекта</text>
+		<text>Project Lead</text>
 	</string>
 	<string id="st_bolshakov">
-		<text>Антон Большаков</text>
+		<text>Anton Bolshakov</text>
 	</string>
 	<string id="st_lead_designer">
-		<text>Ведущие дизайнеры</text>
+		<text>Lead Designer</text>
 	</string>
 	<string id="st_prokhorov">
-		<text>Андрей "Prof" Прохоров</text>
+		<text>Andrew “Prof” Prokhorov</text>
 	</string>
 	<string id="st_yuriy_negrobov">
-		<text>Юрий Негробов</text>
+		<text>Yuriy Negrobov</text>
 	</string>
 	<string id="st_lead_programmers">
-		<text>Ведущие программисты</text>
+		<text>Lead Programmers</text>
 	</string>
 	<string id="st_shyshkovtsov">
-		<text>Олесь Шишковцов</text>
+		<text>Oles Shyshkovtsov</text>
 	</string>
 	<string id="st_maksymchuk">
-		<text>Александр Максимчук</text>
+		<text>Alexander Maksymchuk</text>
 	</string>
 	<string id="st_iassenev">
-		<text>Дмитрий Ясенев</text>
+		<text>Dmitriy Iassenev</text>
 	</string>
 	<string id="st_kolomiets">
-		<text>Андрей Коломиец</text>
+		<text>Andrew Kolomiets</text>
 	</string>
 	<string id="st_art_department">
-		<text>ОТДЕЛ ГРАФИКИ</text>
+		<text>ART DEPARTMENT</text>
 	</string>
 	<string id="st_level_design">
-		<text>Дизайн</text>
+		<text>Level</text>
 	</string>
 	<string id="st_level_design2">
-		<text>уровней</text>
+		<text>Design</text>
 	</string>
 	<string id="st_tkachenko">
-		<text>Андрей "Rainbow"</text>
+		<text>Andrew “Rainbow”</text>
 	</string>
 	<string id="st_tkachenko2">
-		<text>Ткаченко</text>
+		<text>Tkachenko</text>
 	</string>
 	<string id="st_kurbatov">
-		<text>Сергей "Mike"</text>
+		<text>Sergey "Mike"</text>
 	</string>
 	<string id="st_kurbatov2">
-		<text>Курбатов</text>
+		<text>Kurbatov</text>
 	</string>
 	<string id="st_tuz">
-		<text>Вениамин</text>
+		<text>Veniamin</text>
 	</string>
 	<string id="st_tuz2">
-		<text>Туз</text>
+		<text>Tuz</text>
 	</string>
 	<string id="st_demidenko">
-		<text>Ким</text>
+		<text>Kim</text>
 	</string>
 	<string id="st_demidenko2">
-		<text>Демиденко</text>
+		<text>Demidenko</text>
 	</string>
 	<string id="st_zaitsev">
-		<text>Евгений </text>
+		<text>Evgeniy</text>
 	</string>
 	<string id="st_zaitsev2">
-		<text>Зайцев</text>
+		<text>Zaitsev</text>
 	</string>
 	<string id="st_pavlenko">
-		<text>Александр "SU-27"</text>
+		<text>Alexander “SU-27”</text>
 	</string>
 	<string id="st_pavlenko2">
-		<text>Павленко</text>
+		<text>Pavlenko</text>
 	</string>
 	<string id="st_efimov">
-		<text>Владимир А.</text>
+		<text>Vladimir A.</text>
 	</string>
 	<string id="st_efimov2">
-		<text>Ефимов </text>
+		<text>Efimov</text>
 	</string>
 	<string id="st_shpilevoy">
-		<text>Дмитрий </text>
+		<text>Dmitriy</text>
 	</string>
 	<string id="st_shpilevoy2">
-		<text>Шпилевой </text>
+		<text>Shpilevoy</text>
 	</string>
 	<string id="st_suprun">
-		<text>Богдан </text>
+		<text>Bogdan</text>
 	</string>
 	<string id="st_suprun2">
-		<text>Супрун</text>
+		<text>Suprun</text>
 	</string>
 	<string id="st_karmalskiy">
-		<text>Сергей "Karma"</text>
+		<text>Sergiy “Karma”</text>
 	</string>
 	<string id="st_karmalskiy2">
-		<text>Кармальский</text>
+		<text>Karmalskiy</text>
 	</string>
 	<string id="st_petrovskiy">
-		<text>Юрий "Jip"</text>
+		<text>Yuriy “Jip”</text>
 	</string>
 	<string id="st_petrovskiy2">
-		<text>Петровский</text>
+		<text>Petrovskiy</text>
 	</string>
 	<string id="st_shelekhov">
-		<text>Максим "ghouL"</text>
+		<text>Maxim “ghouL”</text>
 	</string>
 	<string id="st_shelekhov2">
-		<text>Шелехов</text>
+		<text>Shelekhov</text>
 	</string>
 	<string id="st_pshenichniy">
-		<text>Александр "LEX"</text>
+		<text>Alexander “LEX”</text>
 	</string>
 	<string id="st_pshenichniy2">
-		<text>Пшеничный</text>
+		<text>Pshenichniy</text>
 	</string>
 	<string id="st_grabovskiy">
-		<text>Ярослав </text>
+		<text>Yaroslav</text>
 	</string>
 	<string id="st_grabovskiy2">
-		<text>Грабовский</text>
+		<text>Grabovskiy</text>
 	</string>
 	<string id="st_karpenko">
-		<text>Евгений "Frodo"</text>
+		<text>Eugene “Frodo”</text>
 	</string>
 	<string id="st_karpenko2">
-		<text>Карпенко</text>
+		<text>Karpenko</text>
 	</string>
 	<string id="st_animation">
-		<text>Анимация</text>
+		<text>Animation</text>
 	</string>
 	<string id="st_lead_animator">
-		<text>Ведущий аниматор</text>
+		<text>Lead Animator</text>
 	</string>
 	<string id="st_animators">
-		<text>Аниматоры</text>
+		<text>Animators</text>
 	</string>
 	<string id="st_vladimir_korunchak">
-		<text>Владимир </text>
+		<text>Vladimir</text>
 	</string>
 	<string id="st_vladimir_korunchak2">
-		<text>Корунчак</text>
+		<text>Korunchak</text>
 	</string>
 	<string id="st_kravcova">
-		<text>Валерия </text>
+		<text>Valeria</text>
 	</string>
 	<string id="st_kravcova2">
-		<text>Кравцова</text>
+		<text>Kravcova</text>
 	</string>
 	<string id="st_sergiy_volchanov">
-		<text>Сергей </text>
+		<text>Sergiy</text>
 	</string>
 	<string id="st_sergiy_volchanov2">
-		<text>Волчанов</text>
+		<text>Volchanov</text>
 	</string>
 	<string id="st_olga_volchanova">
-		<text>Ольга </text>
+		<text>Olga</text>
 	</string>
 	<string id="st_olga_volchanova2">
-		<text>Волчанова </text>
+		<text>Volchanova</text>
 	</string>
 	<string id="st_character_models">
-		<text>Модели персонажей</text>
+		<text>Character Models</text>
 	</string>
 	<string id="st_character_models2">
 		<text>Models</text>
 	</string>
 	<string id="st_goncharenko">
-		<text>Слава "Glory"</text>
+		<text>Slava “Glory”</text>
 	</string>
 	<string id="st_goncharenko2">
-		<text>Гончаренко</text>
+		<text>Goncharenko</text>
 	</string>
 	<string id="st_konovalchuk">
-		<text>Руслан </text>
+		<text>Ruslan</text>
 	</string>
 	<string id="st_konovalchuk2">
-		<text>Коновальчук</text>
+		<text>Konovalchuk</text>
 	</string>
 	<string id="st_textures">
-		<text>Текстуры</text>
+		<text>Textures</text>
 	</string>
 	<string id="st_podorvaniy">
-		<text>Анатолий </text>
+		<text>Anatoliy</text>
 	</string>
 	<string id="st_podorvaniy2">
-		<text>Подорваный </text>
+		<text>Podorvaniy</text>
 	</string>
 	<string id="st_kovach">
-		<text>Александр </text>
+		<text>Alexander</text>
 	</string>
 	<string id="st_kovach2">
-		<text>Ковач</text>
+		<text>Kovach</text>
 	</string>
 	<string id="st_art">
-		<text>Интерфейс и графика</text>
+		<text>Art</text>
 	</string>
 	<string id="st_lukash">
-		<text>Виктор </text>
+		<text>Victor</text>
 	</string>
 	<string id="st_lukash2">
-		<text>Лукаш</text>
+		<text>Lukash</text>
 	</string>
 	<string id="st_khivrenko">
-		<text>Иван </text>
+		<text>Ivan</text>
 	</string>
 	<string id="st_khivrenko2">
-		<text>Хивренко </text>
+		<text>Khivrenko</text>
+	</string>
+	<string id="st_ui_art">
+		<text>UI</text>
+	</string>
+	<string id="st_ui_art2">
+		<text>Art</text>
 	</string>
 	<string id="st_nesin">
-		<text>Роман </text>
+		<text>Roman</text>
 	</string>
 	<string id="st_nesin2">
-		<text>Несин</text>
+		<text>Nesin</text>
 	</string>
 	<string id="st_troekurova">
-		<text>Ольга </text>
+		<text>Olga</text>
 	</string>
 	<string id="st_troekurova2">
-		<text>Троекурова</text>
+		<text>Troekurova</text>
 	</string>
 	<string id="st_kotov">
-		<text>Владимир </text>
+		<text>Vladimir</text>
 	</string>
 	<string id="st_kotov2">
-		<text>Котов</text>
+		<text>Kotov</text>
 	</string>
-
 	<string id="st_programming_department">
-		<text>ОТДЕЛ ПРОГРАММИРОВАНИЯ</text>
+		<text>PROGRAMMING</text>
+	</string>
+	<string id="st_programming_department2">
+		<text>DEPARTMENT</text>
+	</string>
+	<string id="st_programming_department_full">
+		<text>PROGRAMMING DEPARTMENT</text>
 	</string>
 	<string id="st_engine">
-		<text>Движок</text>
+		<text>Engine</text>
 	</string>
 	<string id="st_shyshkovtsov_render">
-		<text>Олесь Шишковцов</text>
+		<text>Oles Shyshkovtsov</text>
 	</string>
 	<string id="st_shyshkovtsov_render2">
-		<text>- Рендер</text>
+		<text>- Render</text>
 	</string>
 	<string id="st_maksymchuk_editors">
-		<text>Александр Максимчук</text>
+		<text>Alexander Maksymchuk</text>
 	</string>
 	<string id="st_maksymchuk_editors2">
-		<text>- Редакторы</text>
+		<text>- Editors</text>
 	</string>
 	<string id="st_iassenev_ai">
-		<text>Дмитрий Ясенев</text>
+		<text>Dmitriy Iassenev</text>
 	</string>
 	<string id="st_iassenev_ai2">
-		<text>- ИИ/Симуляция</text>
+		<text>- AI/Alife</text>
 	</string>
 	<string id="st_kolomiets_gameplay">
-		<text>Андрей Коломиец</text>
+		<text>Andrew Kolomiets</text>
 	</string>
 	<string id="st_kolomiets_gameplay2">
-		<text>- Наполнение</text>
+		<text>- Gameplay</text>
 	</string>
 	<string id="st_maximov">
-		<text>Виталий Максимов</text>
+		<text>Vitaly Maximov</text>
 	</string>
 	<string id="st_maximov2">
-		<text>- Сетевая игра</text>
+		<text>- Network</text>
 	</string>
 	<string id="st_slipchenko">
-		<text>Константин Слипченко</text>
+		<text>Konstantin Slipchenko</text>
 	</string>
 	<string id="st_slipchenko2">
-		<text>- Физика</text>
+		<text>- Physics</text>
 	</string>
 	<string id="st_gemeitsev">
-		<text>Сергей Жемейцев</text>
+		<text>Sergiy Gemeitsev</text>
 	</string>
 	<string id="st_gemeitsev2">
-		<text>- ИИ монстров</text>
+		<text>- Monsters' AI</text>
 	</string>
 	<string id="st_ivantsov_optimization">
-		<text>Сергей Иванцов</text>
+		<text>Serguei Ivantsov</text>
 	</string>
 	<string id="st_ivantsov_optimization2">
-		<text>- Оптимизация</text>
+		<text>- Optimization</text>
 	</string>
 	<string id="st_dobronravin">
-		<text>Юрий Добронравин</text>
+		<text>Yuriy Dobronravin</text>
 	</string>
 	<string id="st_dobronravin2">
-		<text>- Наполнение, Интерфейс</text>
+		<text>- Gameplay, UI</text>
 	</string>
 	<string id="st_gameplay_tools">
-		<text>Инструментарий</text>
-	</string>
-	<string id="st_gameplay_tools2">
-		<text>наполнения игры и скрипты</text>
+		<text>Gameplay Tools and Scripts</text>
 	</string>
 	<string id="st_didenko">
-		<text>Руслан </text>
+		<text>Ruslan</text>
 	</string>
 	<string id="st_didenko2">
-		<text>Диденко</text>
+		<text>Didenko</text>
 	</string>
 	<string id="st_chugai">
-		<text>Александр </text>
+		<text>Alexander</text>
 	</string>
 	<string id="st_chugai2">
-		<text>Чугай</text>
+		<text>Chugai</text>
 	</string>
 	<string id="st_fidrya">
-		<text>Андрей </text>
+		<text>Andrew</text>
 	</string>
 	<string id="st_fidrya2">
-		<text>Фидря</text>
+		<text>Fidrya</text>
 	</string>
 	<string id="st_khryptul">
-		<text>Олег </text>
+		<text>Oleg</text>
 	</string>
 	<string id="st_khryptul2">
-		<text>Хриптул</text>
+		<text>Khryptul</text>
 	</string>
 	<string id="st_eugene_negrobov">
-		<text>Евгений </text>
+		<text>Eugene</text>
 	</string>
 	<string id="st_eugene_negrobov2">
-		<text>Негробов</text>
+		<text>Negrobov</text>
 	</string>
 	<string id="st_plichko">
-		<text>Александр </text>
+		<text>Alexander</text>
 	</string>
 	<string id="st_plichko2">
-		<text>Пличко</text>
+		<text>Plichko</text>
 	</string>
 	<string id="st_tunduk">
-		<text>Владимир </text>
+		<text>Vladimir</text>
 	</string>
 	<string id="st_tunduk2">
-		<text>Тундук</text>
+		<text>Tunduk</text>
 	</string>
 	<string id="st_additional_programming">
-		<text>Дополнительное программирование </text>
+		<text>Additional Programming</text>
+	</string>
+	<string id="st_additional_programming2">
+		<text>Programming</text>
 	</string>
 	<string id="st_nikolaev">
-		<text>Андрей </text>
+		<text>Andrew</text>
 	</string>
 	<string id="st_nikolaev2">
-		<text>Николаев </text>
+		<text>Nikolaev</text>
 	</string>
 	<string id="st_vinnichenko">
-		<text>Сергей </text>
+		<text>Sergiy</text>
 	</string>
 	<string id="st_vinnichenko2">
-		<text>Винниченко</text>
+		<text>Vinnichenko</text>
 	</string>
 	<string id="st_reutsky">
-		<text>Виктор </text>
+		<text>Victor</text>
 	</string>
 	<string id="st_reutsky2">
-		<text>Реутский</text>
+		<text>Reutsky</text>
 	</string>
 	<string id="st_marchenko">
-		<text>Роман </text>
+		<text>Roman</text>
 	</string>
 	<string id="st_marchenko2">
-		<text>Марченко </text>
+		<text>Marchenko</text>
 	</string>
-
 	<string id="st_gamedesign_department">
-		<text>ОТДЕЛ</text>
+		<text>GAMEDESIGN</text>
 	</string>
 	<string id="st_gamedesign_department2">
-		<text>ГЕЙМ-ДИЗАЙНА</text>
+		<text>DEPARTMENT</text>
 	</string>
 	<string id="st_sityanov">
-		<text>Алексей </text>
+		<text>Alexey</text>
 	</string>
 	<string id="st_sityanov2">
-		<text>Сытьянов</text>
+		<text>Sityanov</text>
 	</string>
 	<string id="st_aristov">
-		<text>Вячеслав "must_die"</text>
+		<text>Vyacheslav “must_die”</text>
 	</string>
 	<string id="st_aristov2">
-		<text>Аристов</text>
+		<text>Aristov</text>
 	</string>
 	<string id="st_veretiannikov">
-		<text>Иван "E1"</text>
+		<text>Ivan „E1“</text>
 	</string>
 	<string id="st_veretiannikov2">
-		<text>Веретянников</text>
+		<text>Veretiannikov</text>
 	</string>
 	<string id="st_verpahovskiy">
-		<text>Андрей </text>
+		<text>Andrey</text>
 	</string>
 	<string id="st_verpahovskiy2">
-		<text>Верпаховский</text>
+		<text>Verpahovskiy</text>
 	</string>
 	<string id="st_volvach">
-		<text>Денис </text>
+		<text>Denis</text>
 	</string>
 	<string id="st_volvach2">
-		<text>Волвач</text>
+		<text>Volvach</text>
 	</string>
 	<string id="st_dushynsky">
-		<text>Петр </text>
+		<text>Peter</text>
 	</string>
 	<string id="st_dushynsky2">
-		<text>Душинский</text>
+		<text>Dushynsky</text>
 	</string>
 	<string id="st_konstantinov">
-		<text>Юрий </text>
+		<text>Yuriy</text>
 	</string>
 	<string id="st_konstantinov2">
-		<text>Константинов</text>
+		<text>Konstantinov</text>
 	</string>
 	<string id="st_kuzmin">
-		<text>Константин </text>
+		<text>Konstantin</text>
 	</string>
 	<string id="st_kuzmin2">
-		<text>Кузьмин</text>
+		<text>Kuzmin</text>
 	</string>
 	<string id="st_lekhno">
-		<text>Дмитрий "Krondor"</text>
+		<text>Dmitriy „Krondor“</text>
 	</string>
 	<string id="st_lekhno2">
-		<text>Лехно</text>
+		<text>Lekhno</text>
 	</string>
 	<string id="st_nekhaychuk">
-		<text>Константин </text>
+		<text>Konstantin</text>
 	</string>
 	<string id="st_nekhaychuk2">
-		<text>Нехайчук</text>
+		<text>Nekhaychuk</text>
 	</string>
 	<string id="st_shyshkin">
-		<text>Роман </text>
+		<text>Roman</text>
 	</string>
 	<string id="st_shyshkin2">
-		<text>Шишкин</text>
+		<text>Shyshkin</text>
 	</string>
 	<string id="st_sound_producer">
-		<text>Звукорежиссер</text>
+		<text>Sound Producer</text>
 	</string>
 	<string id="st_kuzmenko">
-		<text>Дмитрий Кузьменко</text>
+		<text>Dmitry Kuzmenko</text>
 	</string>
 	<string id="st_original_music">
-		<text>Музыка</text>
+		<text>Original Music</text>
 	</string>
 	<string id="st_mooze">
 		<text>MoozE</text>
 	</string>
 	<string id="st_additional_music">
-		<text>Дополнительная музыка</text>
+		<text>Additional Music</text>
 	</string>
 	<string id="st_firelake">
 		<text>FireLake</text>
 	</string>
 	<string id="st_holler">
-		<text>Маркус Холлер</text>
+		<text>Marcus Holler</text>
 	</string>
 	<string id="st_addaraya">
 		<text>Addaraya</text>
 	</string>
 	<string id="st_localization_department">
-		<text>Локализация</text>
+		<text>LOCALIZATION DEPARTMENT</text>
 	</string>
 	<string id="st_kuchma">
-		<text>Евгений 'Smile' Кучма</text>
-	</string>
-	<string id="st_textwork">
-		<text>Работа с текстами</text>
+		<text>Eugene ‘Smile’ Kuchma</text>
 	</string>
 	<string id="st_litvinenko">
-		<text>Владимир Литвиненко</text>
+		<text>Vladimir Litvinenko</text>
 	</string>
 	<string id="st_qa_department">
-		<text>ОТДЕЛ КОНТРОЛЯ КАЧЕСТВА</text>
+		<text>QA DEPARTMENT</text>
 	</string>
 	<string id="st_dyukov">
-		<text>Петр </text>
+		<text>Petr</text>
 	</string>
 	<string id="st_dyukov2">
-		<text>Дюков</text>
+		<text>Dyukov</text>
 	</string>
 	<string id="st_krivets">
-		<text>Дмитрий </text>
+		<text>Dmitriy</text>
 	</string>
 	<string id="st_krivets2">
-		<text>Кривец</text>
+		<text>Krivets</text>
 	</string>
 	<string id="st_scripal">
-		<text>Юрий </text>
+		<text>Yury</text>
 	</string>
 	<string id="st_scripal2">
-		<text>Скрипаль</text>
+		<text>Scripal</text>
 	</string>
 	<string id="st_bragin">
-		<text>Кирилл </text>
+		<text>Kiril</text>
 	</string>
 	<string id="st_bragin2">
-		<text>Брагин </text>
+		<text>Bragin</text>
 	</string>
 	<string id="st_naprasniy">
-		<text>Денис </text>
+		<text>Denis</text>
 	</string>
 	<string id="st_naprasniy2">
-		<text>Напрасный </text>
+		<text>Naprasniy</text>
 	</string>
 	<string id="st_pr_department">
-		<text>PR ОТДЕЛ</text>
+		<text>PR DEPARTMENT</text>
 	</string>
 	<string id="st_yavorsky">
-		<text>Олег 'Yava' Яворский</text>
+		<text>Oleg ‘Yava’ Yavorsky</text>
 	</string>
 	<string id="st_yeltyshev">
-		<text>Валентин 'Atem' Елтышев</text>
+		<text>Valentin ‘Atem’ Yeltyshev</text>
 	</string>
 	<string id="st_ananyev">
-		<text>Денис 'Blackbird' Ананьев</text>
+		<text>Denis ‘Blackbird’ Ananyev</text>
 	</string>
 	<string id="st_besarab">
-		<text>Юрий 'Gagarin' Бесараб</text>
+		<text>Yury ‘Gagarin’ Besarab</text>
 	</string>
 	<string id="st_terlyuk">
-		<text>Сергей Терлюк</text>
-	</string>
-	<string id="st_reclama">
-		<text>Рекламные материалы</text>
-	</string>
-	<string id="st_nesin_reclama">
-		<text>Роман Несин</text>
-	</string>
-	<string id="st_troekurova_reclama">
-		<text>Ольга Троекурова</text>
-	</string>
-	<string id="st_khivrenko_reclama">
-		<text>Иван Хивренко</text>
+		<text>Sergey Terlyuk</text>
 	</string>
 	<string id="st_sales_department">
-		<text>ОТДЕЛ ПРОДАЖ</text>
+		<text>SALES DEPARTMENT</text>
 	</string>
 	<string id="st_grushko">
-		<text>Сергей Грушко</text>
+		<text>Sergiy Grushko</text>
 	</string>
 	<string id="st_boyko">
-		<text>Виктория Бойко</text>
+		<text>Victoria Boyko</text>
 	</string>
 
 	<string id="st_russian_voice">
-		<text>Актеры</text>
+		<text>Voice Actors (Russian)</text>
 	</string>
 	<string id="st_vilkov">
-		<text>Александр  </text>
+		<text>Aleksandr </text>
 	</string>
 	<string id="st_vilkov2">
-		<text>Вилков</text>
+		<text>Vilkov</text>
 	</string>
 	<string id="st_bogush">
-		<text>Анатолий </text>
+		<text>Anatoliy</text>
 	</string>
 	<string id="st_bogush2">
-		<text> Богуш</text>
+		<text> Bogush</text>
 	</string>
 	<string id="st_podubinskiy">
-		<text>Андрей  </text>
+		<text>Andrey </text>
 	</string>
 	<string id="st_podubinskiy2">
-		<text>Подубинский</text>
+		<text>Podubinskiy</text>
 	</string>
 	<string id="st_girich">
-		<text>Анжелика  </text>
+		<text>Angelika </text>
 	</string>
 	<string id="st_girich2">
-		<text>Гирич</text>
+		<text>Girich</text>
 	</string>
 	<string id="st_malukha">
-		<text>Евгений  </text>
+		<text>Evgeniy </text>
 	</string>
 	<string id="st_malukha2">
-		<text>Малуха</text>
+		<text>Malukha</text>
 	</string>
 	<string id="st_german">
-		<text>Григорий  </text>
+		<text>Grigoriy </text>
 	</string>
 	<string id="st_german2">
-		<text>Герман</text>
+		<text>German</text>
 	</string>
 	<string id="st_rozin">
-		<text>Иван  </text>
+		<text>Ivan </text>
 	</string>
 	<string id="st_rozin2">
-		<text>Розин</text>
+		<text>Rozin</text>
 	</string>
 	<string id="st_borisenok">
-		<text>Юрий  </text>
+		<text>Juriy </text>
 	</string>
 	<string id="st_borisenok2">
-		<text> Борисенок</text>
+		<text> Borisenok</text>
 	</string>
 	<string id="st_stalchuk">
-		<text>Олег  </text>
+		<text>Oleg </text>
 	</string>
 	<string id="st_stalchuk2">
-		<text>Стальчук</text>
+		<text>Stalchuk</text>
 	</string>
 	<string id="st_gofurov">
-		<text>Руслан  </text>
+		<text>Ruslan </text>
 	</string>
 	<string id="st_gofurov2">
-		<text>Гофуров</text>
+		<text>Gofurov</text>
 	</string>
 	<string id="st_tereschuk">
-		<text>Владимир  </text>
+		<text>Vladimir </text>
 	</string>
 	<string id="st_tereschuk2">
-		<text>Терещук</text>
+		<text>Tereschuk</text>
 	</string>
 
 
@@ -1934,20 +1929,19 @@
 	</string>
 
 
-
 	<!-- SPECIAL THANKS -->
 
 	<string id="st_special_thanks">
-		<text>Отдельная благодарность:</text>
+		<text>Special thanks:</text>
 	</string>
 	<string id="st_thanks_avdeev">
-		<text>Владимиру Авдееву</text>
+		<text>Vladimir Avdeev</text>
 	</string>
 	<string id="st_special_thanks_1">
 		<text>Sveta</text>
 	</string>
 	<string id="st_special_thanks_2">
-		<text>Ладимир</text>
+		<text>Ladimir</text>
 	</string>
 	<string id="st_special_thanks_3">
 		<text>Menno Wittebrood</text>
@@ -1956,197 +1950,200 @@
 		<text>Jason Meyer</text>
 	</string>
 
+
 	<string id="st_thanks_chernobyl">
-		<text>Генеральному директору ЧАЭС Игорю Грамоткину,</text>
+		<text>Alexander Novikov, Igor Gramotkin</text>
 	</string>
 	<string id="st_thanks_chernobyl2">
-		<text>заместителю технического директора по безопасности ЧАЭС Александру Новикову</text>
+		<text>and the rest of Chernobyl Power Plant staff</text>
 	</string>
 	<string id="st_thanks_chernobyl3">">
-		<text>а также остальному персоналу и администрации Чернобыльской Электростанции за поддержку</text>
+		<text>and administration for their support</text>
 	</string>
 	<string id="st_thanks_administration">
-		<text>Администрации Зоны отчуждения за разрешение</text>
+		<text>Chernobyl Exclusion Zone Administration</text>
 	</string>
 	<string id="st_thanks_administration2">
-		<text>проводить наши сумасшедшие исследования</text>
+		<text>for allowing us to do our crazy explorations</text>
 	</string>
 	<string id="st_thanks_chernobylinterinform">
-		<text>Римме Киселице  , Марине Поляковой</text>
+		<text>Rimma Kiselitsa  , Marina Polyakova</text>
 	</string>
 	<string id="st_thanks_chernobylinterinform2">
-		<text>и остальному персоналу агентства </text>
+		<text>and the rest of Chernobylinterinform agency staff</text>
 	</string>
 	<string id="st_thanks_chernobylinterinform3">
-		<text>Чернобыльинтеринформ за заботу,</text>
+		<text>for taking good care of us and feeding us</text>
 	</string>
 	<string id="st_thanks_chernobylinterinform4">
-		<text>обилие информации и за сытные обеды</text>
+		<text>with ample info and nourishing lunches</text>
 	</string>
-
 	<string id="st_line_horiz">
 		<text>________________</text>
 	</string>
 	<string id="st_line_vert">
 		<text>|</text>
 	</string>
- 	<string id="st_thanks_naumov">
-		<text>Александру Наумову за огромный информационный  </text>
+	<string id="st_thanks_naumov">
+		<text>Alexander Naumov for his great</text>
 	</string>
 	<string id="st_thanks_naumov2">
-		<text>вклад и за его благородную миссию</text>
+		<text>informational input and his noble mission</text>
 	</string>
-
 	<string id="st_thanks_merregnon">
-		<text>Томасу Боэкеру, Маркусу Холлеру</text>
+		<text>Thomas Boecker, Markus Holler</text>
 	</string>
 	<string id="st_thanks_merregnon2">
-		<text>и студии Merregnon® Studios</text>
+		<text>and the rest of Merregnon® Studios</text>
 	</string>
 	<string id="st_thanks_merregnon3">
 		<text>(http://merregnon-studios.com/)</text>
 	</string>
 	<string id="st_thanks_merregnon4">
-		<text>в целом за их работу по созданию</text>
+		<text>for their efforts on creating</text>
 	</string>
 	<string id="st_thanks_merregnon5">
-		<text>великолепной оркестровой музыки для нас</text>
+		<text>some great orchestral music for us</text>
 	</string>
 	<string id="st_thanks_firelake">
-		<text>Группе FIRELAKE (www.firelake.kiev.ua)</text>
+		<text>FIRELAKE band (www.firelake.kiev.ua)</text>
 	</string>
 	<string id="st_thanks_firelake2">
-		<text>и их друзьям Addaraya за роковые темы</text>
+		<text>and their friends Addaraya</text>
 	</string>
 	<string id="st_thanks_firelake3">
-		<text>и за поддержку в разработке</text>
+		<text>for the rocking sound-tracks</text>
 	</string>
 	<string id="st_thanks_fanbase">
-		<text>-= ФАНАТАМ! =-</text>
+		<text>-= FAN-BASE! =-</text>
 	</string>
 	<string id="st_thanks_fanbase2">
-		<text>От всего сердца благодарим Вакуара "HeadHunter" Тарика,</text>
+		<text>We thank heartily Waquar “HeadHunter” Tariq,</text>
 	</string>
 	<string id="st_thanks_fanbase3">
-		<text>Алексея "Don Reba" Бадалова, Эмиль aka Redrick,</text>
+		<text>Alexey “Don Reba” Badalov, Emile aka Redrick,</text>
 	</string>
 	<string id="st_thanks_fanbase4">
-		<text>Петера Съобера, Pixel, Michi, nasa800, LPKorn3324,</text>
+		<text>Peter Sjoberg, Pixel, Michi, nasa800, LPKorn3324,</text>
 	</string>
 	<string id="st_thanks_fanbase5">
 		<text>Leks, Cpcat, Rad-X, Sosed, Amoki, Claws,</text>
 	</string>
 	<string id="st_thanks_fanbase6">
-		<text>Siro/Dennis, Никласа Ридевинга, Отто Бааманна</text>
+		<text>Siro/Dennis, Nicklas Ridewing, Otto Bahmann </text>
 	</string>
 	<string id="st_thanks_fanbase7">
-		<text>и Майка Брешнайдера, cractus01, Марселя Клеффманна,</text>
+		<text>and Mike Bretschneider, cractus01, Marcel Kleffmann,</text>
 	</string>
 	<string id="st_thanks_fanbase8">
-		<text>Николая Дашевского, Abe, Антона Бровко, Mario, fen1x,</text>
+		<text>Nikolay Dashevsky, Abe, Anton Brovko, Mario, fen1x,</text>
 	</string>
 
 	<string id="st_thanks_fanbase9">
-		<text>Диму Кудрявцева, Рубена Коса, Лева Соколова aka Davinci,</text>
+		<text>Dima Kudryavcev, Ruben Cos, Soeren Haraldsted,</text>
 	</string>
 	<string id="st_thanks_fanbase10">
-		<text>Максима Попенкера, Алексей Шоленберг, DEICIDE[NBF],</text>
+		<text>Lev Sokolov aka Davinci, Max Popenker, Matthias Krahenbuhl,</text>
 	</string>
 	<string id="st_thanks_fanbase11">
-		<text>Круглов Павел aka BuHHu-nyx, Малыхин Алексей, Holoduk,</text>
+		<text>DEICIDE[NBF], Martin Diermayr, Markus Rothhammer, Stefan Aumann</text>
 	</string>
 	<string id="st_thanks_fanbase12">
-		<text>Вячеслав Романченко, Ян Олешковский aka Mad Dog,</text>
+		<text>Stefan Herr (BADBOY) P-90, Blake Sherrill, THOMAS KRAUSE,</text>
 	</string>
 	<string id="st_thanks_fanbase13">
-		<text>Samael aka Ариманов, RVCool, Lestat, Сергей Пивин, Gall,</text>
+		<text>Jeremias "aevirex" Yehdegho, Holoduk, Vyacheslav Romanchenko,</text>
 	</string>
 	<string id="st_thanks_fanbase14">
-		<text>Critic, Дмитрий “DoN Rumata” Козлов, Кондратьев С.А.,</text>
+		<text>Yan Oleshkovskiy aka Mad Dog, Samael aka Arimanov, RVCool,</text>
 	</string>
 	<string id="st_thanks_fanbase15">
-		<text>Дмитрий Калинин, Макс Тарасов, Андрей Рогозин aka Raga,</text>
+		<text>Lestat, Sergey Pivin, Gall, Critic, Dmitriy “DoN Rumata” Kozlov,</text>
 	</string>
 	<string id="st_thanks_fanbase16">
-		<text>Михаил Алесич, Пъедимон Алессандро, Bad, Marf, Vantala,</text>
+		<text>Kondratiev S.A., Dmitriy Kalinin, Max Tarasov, Andrey Rogozin aka Raga,</text>
 	</string>
 	<string id="st_thanks_fanbase17">
-		<text>Behringer, DA_Star, STALKER Sanek, Дейв Миллер (P R E Y),</text>
+		<text>Michael Alesich, Piedimonte Alessandro, Bad, Marf, Vantala,</text>
+	</string>
+	<string id="st_thanks_fanbase18">
+		<text>Behringer, DA_Star, STALKER Sanek, Dave Miller (P R E Y)</text>
 	</string>
 
-	<string id="st_thanks_fanbase18">
+	<string id="st_thanks_fanbase19">
 		<text>Goodspeed, Ian_C, Grisly Silence, Midnight Rambler, Dale Oleverio,</text>
 	</string>
-	<string id="st_thanks_fanbase19">
+	<string id="st_thanks_fanbase20">
 		<text>ruintertained, UltimateGecko, Snowgim, Franz La Zerte, Chickenballz,</text>
 	</string>
 
-	<string id="st_thanks_fanbase20">
-		<text>Алана Ногуейра да Гаму и всех остальных многочисленных</text>
-	</string>
 	<string id="st_thanks_fanbase21">
-		<text>поклонников по всему миру, которые страстно поддерживали </text>
+		<text>Alan Nogueira da Gama and so many more of you </text>
 	</string>
 	<string id="st_thanks_fanbase22">
-		<text>S.T.A.L.K.E.R. на протяжении всех этих лет</text>
+		<text>around the globe who passionately supported</text>
+	</string>
+	<string id="st_thanks_fanbase23">
+		<text>S.T.A.L.K.E.R. through all these years</text>
 	</string>
 	<string id="st_thanks_all">
-		<text>От всей команды ОГРОМНОЕ СПАСИБО всем тем,</text>
+		<text>From the entire team THANKS to all of you who</text>
 	</string>
 	<string id="st_thanks_all2">
-		<text>кто помогал появиться на свет проекту S.T.A.L.K.E.R.</text>
+		<text>ever helped us make S.T.A.L.K.E.R. happen</text>
 	</string>
 	<string id="st_thanks_all3">
-		<text>и поддерживал нас, несмотря ни на что!</text>
+		<text>and encouraged us no matter what!</text>
 	</string>
 	<string id="st_thanks_all4">
-		<text>Ваши благие дела не будут забыты!</text>
+		<text>Your good efforts will not be forgotten!</text>
 	</string>
 
+
 	<string id="st_thanks_license1">
-		<text>Мы хотели бы выразить огромную признательность следующим Open-source проектам:</text>
+		<text>We would like to say our big thanks to open-source projects:</text>
 	</string>
 
 	<string id="st_thanks_license2">
-		<text>ode.org за физический движок (Open Dynamic Engine, ODE)</text>
+		<text>ode.org for physics engine (Open Dynamic Engine, ODE)</text>
 	</string>
 	<string id="st_thanks_license3">
-		<text>lua.org за язык скриптования (Lua)</text>
+		<text>lua.org for scripting language (Lua)</text>
 	</string>
 	<string id="st_thanks_license4">
-		<text>luajit.luaforge.net за оптимизирующий на лету компилятор Lua (LuaJIT)</text>
+		<text>luajit.luaforge.net for just-in-time Lua compiler (LuaJIT)</text>
 	</string>
 	<string id="st_thanks_license5">
-		<text>www.rasterbar.com/products/luabind.html за компоновочную библиотеку Lua (Luabind)</text>
+		<text>www.rasterbar.com/products/luabind.html for Lua binding library (Luabind)</text>
 	</string>
 	<string id="st_thanks_license6">
-		<text>xiph.org за видео (Theora) и аудио (Vorbis) кодеки</text>
+		<text>xiph.org for video (Theora) and audio (Vorbis) codecs</text>
 	</string>
 	<string id="st_thanks_license7">
-		<text>jrsoftware.org за инсталлятор (Inno Setup)</text>
+		<text>jrsoftware.org for installer (Inno Setup)</text>
 	</string>
 	<string id="st_thanks_license8">
-		<text>openal.org за аудио библиотеку (OpenAL)</text>
+		<text>openal.org for audio library (OpenAL)</text>
 	</string>
 	<string id="st_thanks_license9">
-		<text>boost.org за библиотеку шаблонов (Boost)</text>
+		<text>boost.org for template library (Boost)</text>
 	</string>
 	<string id="st_thanks_license10">
-		<text>sourceforge.net/projects/loki-lib за библиотеку шаблонов (Loki)</text>
+		<text>sourceforge.net/projects/loki-lib for template library (Loki)</text>
 	</string>
 	<string id="st_thanks_license11">
 		<text>Don Clugston (codeproject.com/cpp/FastDelegate.asp http://www.codeproject.com/cpp/FastDelegate.asp)</text>
 	</string>
 	<string id="st_thanks_license12">
-		<text>за его библиотеку fastdelegate (fastdelegate)</text>
+		<text>for his fastdelegate library (fastdelegate)</text>
 	</string>
 
 	<string id="st_thanks_license13">
-		<text>intelle-soft.com за бесплатную библиотеку отлавливания глюков BugTrap</text>
+		<text>intelle-soft.com for free bug catching library BugTrap</text>
 	</string>
 
 	<string id="st_thanks_license14">
-		<text>Отдельная благодарность компаниям, которые помогали нам с оптимизацией игры:</text>
+		<text>Also thanks to the companies who helped with game's optimization:</text>
 	</string>
 
 	<string id="st_thanks_license15">
@@ -2159,13 +2156,5 @@
 		<text>nVidia</text>
 	</string>
 
-        <string id="st_ui_art">
-		<text>Интерфейс</text>
-	</string>
-	<string id="st_ui_art2">
-		<text>пользователя</text>
-	</string>
-	<string id="st_programming_department_full">
-		<text>ОТДЕЛ ПРОГРАММИРОВАНИЯ</text>
-	</string>
+
 </string_table>

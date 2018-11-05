@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="id_mp_money">
-		<text>Деньги</text>
+		<text>Money</text>
 	</string>
 	<string id="mm_mp_pda_hunt">
-		<text>Бонус за КПК</text>
+		<text>PDA bonus</text>
 	</string>
 	<string id="st_drink">
-		<text>выпить</text>
+		<text>drink</text>
 	</string>
 	<string id="st_mp_direct_ip">
-		<text>Прямой IP</text>
+		<text>Direct IP</text>
 	</string>
 	<string id="ui_mm_default">
-		<text>По умолчанию</text>
+		<text>Default</text>
 	</string>
 	<string id="ui_mm_detail_density">
-		<text>Плотность травы</text>
+		<text>Grass density</text>
 	</string>
 	<string id="ui_mm_r2_sun">
-		<text>Тень от солнца</text>
+		<text>Sun shadow</text>
 	</string>
 	<string id="ui_mm_r2_sun_details">
-		<text>Тень травы</text>
+		<text>Grass shadow</text>
 	</string>
 	<string id="ui_mm_render_2">
-		<text>Рендер-2</text>
+		<text>Render 2</text>
 	</string>
 	<string id="ui_pda_details">
-		<text># /детали</text>
+		<text># /details</text>
 	</string>
 	<string id="ui_st_btn_cancel">
-		<text>Отмена</text>
+		<text>Cancel</text>
 	</string>
 	<string id="ui_st_btn_no">
-		<text>Нет</text>
+		<text>No</text>
 	</string>
 	<string id="ui_st_btn_ok">
-		<text>ОК</text>
+		<text>OK</text>
 	</string>
 	<string id="ui_st_btn_yes">
-		<text>Да</text>
+		<text>Yes</text>
 	</string>
 	<string id="ui_st_cant_run_r2">
-		<text>Вы не можете запустить второй рендер на вашем компьютере</text>
+		<text>You can't run Render 2 on your PC</text>
 	</string>
 	<string id="ui_st_conn_invalid_host">
-		<text>Ошибка соединения: неверный хост</text>
+		<text>Connection error: Invalid host</text>
 	</string>
 	<string id="ui_st_conn_invalid_pass">
-		<text>Ошибка соединения: неверный пароль</text>
+		<text>Connection error: Invalid password</text>
 	</string>
 	<string id="ui_st_conn_rejected_server">
-		<text>Ошибка соединения: соединение прервано сервером</text>
+		<text>Connection error: connection rejected by server</text>
 	</string>
 	<string id="ui_st_conn_sess_full">
-		<text>Ошибка соединения: сервер заполнен</text>
+		<text>Connection error: session is full</text>
 	</string>
 	<string id="ui_st_days">
-		<text>дн.</text>
+		<text>Days</text>
 	</string>
 	<string id="ui_st_error">
-		<text>Ошибка</text>
+		<text>Error</text>
 	</string>
 	<string id="ui_st_file_exist_owerwrite_q">
-		<text>Файл с таким именем уже существует. Перезаписать?</text>
+		<text>The file with this name already exists. Do you want to overwrite it?</text>
 	</string>
 	<string id="ui_st_file_name_is_empty">
-		<text>Имя файла пустое</text>
+		<text>The file name is empty</text>
 	</string>
 	<string id="ui_st_hours">
-		<text>час.</text>
+		<text>hr.</text>
 	</string>
 	<string id="ui_st_leave">
-		<text>Уйти</text>
+		<text>Leave</text>
 	</string>
 	<string id="ui_st_mins">
-		<text>мин.</text>
+		<text>mins</text>
 	</string>
 	<string id="ui_st_months">
-		<text>мес.</text>
+		<text>months</text>
 	</string>
 	<string id="ui_st_params">
-		<text>Параметры</text>
+		<text>Parameters</text>
 	</string>
 	<string id="ui_st_secs">
-		<text>сек.</text>
+		<text>sec.</text>
 	</string>
 	<string id="ui_st_select_one_map">
-		<text>Пожалуйста, выберите хотя бы одну карту</text>
+		<text>Please select at least one map</text>
 	</string>
 	<string id="ui_st_take_all">
-		<text>Взять всё</text>
+		<text>Take all</text>
 	</string>
 	<string id="ui_st_time_remains">
-		<text>Осталось</text>
+		<text>Remaining</text>
 	</string>
 	<string id="ui_st_trade">
-		<text>Торговать</text>
+		<text>Trade</text>
 	</string>
 	<string id="ui_st_voting_disabled">
-		<text>Голосование отключено</text>
+		<text>Voting is disabled</text>
 	</string>
 	<string id="ui_st_want_to_leave_game_q">
-		<text>Вы действительно хотите покинуть игру?</text>
+		<text>Do you really want to leave the game?</text>
 	</string>
 	<string id="ui_st_your_items">
-		<text>Вещи Мессера</text>
+		<text>Your items</text>
 	</string>
 	<string id="st_game_over_press_jump">
-		<text>Нажмите ($$ACTION_JUMP$$) для выхода в главное меню</text>
+		<text>press ($$ACTION_JUMP$$) to exit to main menu</text>
 	</string>
 	<string id="st_level">
-		<text>Уровень</text>
+		<text>Level</text>
 	</string>
 	<string id="st_opening_stream">
 		<text>Opening stream</text>
@@ -172,85 +172,82 @@
 		<text>CLIENT: Loading sectors and portals</text>
 	</string>
 	<string id="ui_st_conn_version_differs">
-		<text>Ошибка соединения: Отличаются версии.</text>
+		<text>Connection error: Different version.</text>
 	</string>
 	<string id="ui_st_conn_cdkey_invalid">
-		<text>Ошибка соединения: Неверный CD-Key.</text>
+		<text>Connection error: Invalid CD-Key.</text>
 	</string>
 	<string id="ui_st_conn_cdkey_in_use">
-		<text>Ошибка соединения: Такой CD-Key уже используется.</text>
+		<text>Connection error: CD-Key already in use.</text>
 	</string>
 	<string id="ui_st_conn_cdkey_disabled">
-		<text>Ошибка соединения: Ваш CD-Key заблокирован. Свяжитесь со службой поддержки.</text>
+		<text>Connection error: Your CD-Key is disabled. Contact customer's service.</text>
 	</string>
 	<string id="ui_st_conn_new_patch">
-		<text>Доступен новый патч. \n Версия: %s\n %s\n Хотите загрузить его сейчас?</text>
+		<text>New patch is available.\n Version: %s\n Location: %s\nDo you want to download it now?</text>
 	</string>
 	<string id="ui_st_conn_no_new_patch">
-		<text>Нет новых патчей</text>
+		<text>No new patches available now</text>
 	</string>
 	<string id="ui_mm_delete_existing_file_q">
-		<text>Вы действительно хотите удалить файл?</text>
+		<text>You really want to delete file?</text>
 	</string>
 	<string id="st_game_paused">
-		<text>ПАУЗА</text>
+		<text>PAUSE</text>
 	</string>
 	<string id="st_bolt">
-		<text>Болт</text>
+		<text>Bolt</text>
 	</string>
 	<string id="st_items">
-		<text>Предметы</text>
+		<text>Items</text>
 	</string>
 	<string id="st_video">
-		<text>Графика</text>
+		<text>Graphics</text>
 	</string>
 	<string id="st_audio">
-		<text>Звук</text>
+		<text>Sound</text>
 	</string>
 	<string id="st_game">
-		<text>Игра</text>
+		<text>Game</text>
 	</string>
 	<string id="st_controll">
-		<text>Управление</text>
+		<text>Controls</text>
 	</string>
 	<string id="ui_st_connecting_to_masterserver">
-		<text>Присоединение к мастер-серверу</text>
+		<text>Trying to connect to master server</text>
 	</string>
 	<string id="mp_only_one_voting">
-		<text>Разрешено только одно активное голосование</text>
+		<text>Only one active voting allowed</text>
 	</string>
 	<string id="ui_st_patch_download_success">
-		<text>Патч успешно скачан. Установить?</text>
+		<text>Patch was successfully downloaded. Do you want to install it?</text>
 	</string>
 	<string id="ui_st_patch_download_error">
-		<text>Невозможно скачать патч.</text>
+		<text>Unable to download the patch.</text>
 	</string>
 	<string id="ui_st_load_game_confirm">
-		<text>Загрузка игры приведет к потере несохраненных данных. Желаете продолжить?</text>
-	</string>
-	<string id="ui_st_invalid_saved_game">
-		<text>Не совпадает версия сохранённой игры или сохранённая игра испорчена.</text>
+		<text>Loading game will cause losing non-saved data. Proceed?</text>
 	</string>
 	<string id="ui_mm_r2_tonemap">
-	    <text>Адаптация зрения</text>
+	    <text>Vision adaption</text>
     </string>
 	<string id="ui_mm_r2_tonemap_middlegray">
-	    <text>Интенсивность HDR</text>
+	    <text>HDR intensity</text>
     </string>
     <string id="ui_mm_r2_sun_lumscale">
-	    <text>Яркость света солнца</text>
+	    <text>Sun brightness</text>
     </string>
     <string id="ui_mm_r2_sun_lumscale_amb">
-	    <text>Фоновая освещенность</text>
+	    <text>Background lighting</text>
     </string>
 	<string id="ui_mm_r2_mblur">
-	    <text>Размытие при движении</text>
+	    <text>Motion blur</text>
     </string>
 	<string id="ui_st_freeplay_dialog">
-		<text>Вы хотите завершить игру?</text>
+		<text>Would you like to end the game?</text>
 	</string>
 	<string id="ui_st_sleep_dialog">
-		<text>Вы действительно хотите лечь спать?</text>
+		<text>Would you like to lay down and sleep?</text>
 	</string>
 	<string id="health">
 		<text>HEALTH</text>
@@ -262,30 +259,30 @@
 		<text>VEHICLE</text>
 	</string>
 	<string id="ui_mm_cam_fov">
-	    <text>Угол обзора (FOV)</text>
+	    <text>Field of view</text>
 	</string>
 
 	<string id="ui_mm_hud_fov">
-	    <text>Подстройка рук</text>
+	    <text>HUD field of view</text>
     	</string>
 
 	<string id="ui_mm_mouse_ui_sense">
-	    <text>Чувствительность в меню</text>
+	    <text>Mouse sensitivty in menu</text>
 	</string>
 
 	<string id="st_Barrel">
-	    <text>Бочка</text>
+	    <text>Barrel</text>
 	</string>
 
 	<string id="st_Kanistra">
-	    <text>Канистра с соляркой</text>
+	    <text>Canister with fuel</text>
 	</string>
 
 	<string id="st_Fuelcan">
-	    <text>Баллон</text>
+	    <text>Balloon</text>
 	</string>
 
 	<string id="st_Bombochka">
-	    <text>Бомбочка</text>
+	    <text>Bomb</text>
 	</string>
 </string_table>
