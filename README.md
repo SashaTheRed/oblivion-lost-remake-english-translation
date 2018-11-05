@@ -7,11 +7,52 @@ A list of all files with detailed progress can be found below.
 - **[config](gamedata/config)**
 	- [localization.ltx](gamedata/config/localization.ltx)
 		- done
+- **[config\gameplay](gamedata/config/gameplay)**
+	- [-character_desc_general_olr25.xml](gamedata/config/gameplay/-character_desc_general_olr25.xml)
+		- done
+	- [character_desc_agroprom.xml](gamedata/config/gameplay/character_desc_agroprom.xml)
+		- done
+	- [character_desc_bandit.xml](gamedata/config/gameplay/character_desc_bandit.xml)
+		- done
+	- [character_desc_bar.xml](gamedata/config/gameplay/character_desc_bar.xml)
+		- done
+	- [character_desc_dar.xml](gamedata/config/gameplay/character_desc_dar.xml)
+		- done
+	- [character_desc_darkvalley.xml](gamedata/config/gameplay/character_desc_darkvalley.xml)
+		- done
+	- [character_desc_deadcity.xml](gamedata/config/gameplay/character_desc_deadcity.xml)
+		- done
+	- [character_desc_ecolog.xml](gamedata/config/gameplay/character_desc_ecolog.xml)
+		- done
+	- [character_desc_escape.xml](gamedata/config/gameplay/character_desc_escape.xml)
+		- done
+	- [character_desc_general.xml](gamedata/config/gameplay/character_desc_general.xml)
+		- done
+	- [character_desc_killer.xml](gamedata/config/gameplay/character_desc_killer.xml)
+		- done
+	- [character_desc_military.xml](gamedata/config/gameplay/character_desc_military.xml)
+		- done
+	- [character_desc_monolit.xml](gamedata/config/gameplay/character_desc_monolit.xml)
+		- done
+	- [character_desc_pripyat.xml](gamedata/config/gameplay/character_desc_pripyat.xml)
+		- done
+	- [character_desc_simulation.xml](gamedata/config/gameplay/character_desc_simulation.xml)
+		- done
+	- [character_desc_soldier.xml](gamedata/config/gameplay/character_desc_soldier.xml)
+		- done
+	- [character_desc_stalker.xml](gamedata/config/gameplay/character_desc_stalker.xml)
+		- done
+	- [character_desc_svoboda.xml](gamedata/config/gameplay/character_desc_svoboda.xml)
+		- done
+	- [character_desc_yantar.xml](gamedata/config/gameplay/character_desc_yantar.xml)
+		- done
+	- [character_desc_zombied.xml](gamedata/config/gameplay/character_desc_zombied.xml)
+		- done
 - **[config/text/eng](gamedata/config/text/eng)**
 	- [mp_st_speechmenu.xml](gamedata/config/text/eng/mp_st_speechmenu.xml)
 		- done
 	- [stable_bio_name.xml](gamedata/config/text/eng/stable_bio_name.xml)
-		- incomplete
+		- done (needs revision)
 	- [stable_dialogs.xml](gamedata/config/text/eng/stable_dialogs.xml)
 		- done
 	- [stable_dialogs_aes.xml](gamedata/config/text/eng/stable_dialogs_aes.xml)
@@ -25,7 +66,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_deadcity.xml](gamedata/config/text/eng/stable_dialogs_deadcity.xml)
 		- done
 	- [stable_dialogs_escape.xml](gamedata/config/text/eng/stable_dialogs_escape.xml)
-		- incomplete
+		- in progress
 	- [stable_dialogs_garbage.xml](gamedata/config/text/eng/stable_dialogs_garbage.xml)
 		- done
 	- [stable_dialogs_labx18.xml](gamedata/config/text/eng/stable_dialogs_labx18.xml)
@@ -193,5 +234,7 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
 		- done
 - **[scripts](gamedata/scripts)**
+	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
+		- incomplete
 	- [nick.script](gamedata/scripts/nick.script)
 		- incomplete
