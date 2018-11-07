@@ -1496,160 +1496,160 @@
 		<text>You aren't the bragging kind, are you? Look, since you've dealt with these thugs, I can't just let you go like that...</text>
 	</string>
     <string id="escape_lager_volk_job_0">
-        <text>You do not have any special case work?</text>
+        <text>Got any work you need doing?</text>
     </string>
     <string id="escape_lager_volk_job_1">
-        <text>I have long been in the Zone. I have been over the top of her head. I decided to leave this place and take care of things for the perimeter. Before leaving, I would like to make a gift "friends". My boys were carrying it to me, but it fell into the hands of bandits. You need to recover a gift. I do not want, just before returning home, expose your skin. And you - you're a rookie, the money will definitely need. I'll pay a few thousand. So ... the bandits are now in the factory.</text>
+        <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. The last thing I want to do here is to leave a gift for one of my friends. My guys were on their way here, bringing him to me, but the bandits did away with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But you… You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. So… The bandits have settled down in the factory.</text>
     </string>
     <string id="escape_lager_volk_job_11">
-        <text>Хорошо, по рукам. Скажи только, что принести нужно.</text>
+        <text>Okay. We have a deal. Just tell me what I need to bring them.</text>
     </string>
     <string id="escape_lager_volk_job_111">
-        <text>Договорились. А подарок... да ничего особенного, ящик динамита... Если нужна помощь - то там рядом с фабрикой наши ребята в засаде сидят, бандитов караулят. Обратись к ним - они помогут. Оружие у тебя есть, так что всё, действуй.</text>
+        <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. You have a weapon, so go. Get moving.</text>
     </string>
     <string id="escape_lager_volk_job_112">
-        <text>Договорились. А подарок... да ничего особенного, ящик динамита... Если нужна помощь - то там рядом с фабрикой наши ребята в засаде сидят, бандитов караулят. Обратись к ним - они помогут. Вот тебе, держи пистолет и патроны. Всё, действуй.</text>
+        <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. Here's a pistol and some ammo for you. Now go. Get moving.</text>
     </string>
     <string id="escape_lager_volk_job_12">
-        <text>Не-е, за своим подарком сам бегай.</text>
+        <text>Hand them the "gift" by yourself.</text>
     </string>
     <string id="escape_lager_volk_job_121">
-        <text>А что так, страшно стало? Ну да ладно, я не в обиде.</text>
+        <text>What, are you scared? Well, all right. I won't blame you.</text>
     </string>
 	<string id="escape_shustryi_start_11">
-		<text>Вот это спасибо, брат! Вот это выручил! Даже не знаю, как и благодарить тебя...</text>
+		<text>Thanks, brother! You did us a great service! I don't even know how to thank you…</text>
 	</string>
 	<string id="escape_shustryi_start_111">
-		<text>Да не напрягайся, делов-то... Слушай, а ты как тут оказался?</text>
+		<text>Don't get too excited; just doing my job. Hey, how did you end up here?</text>
 	</string>
 	<string id="escape_shustryi_start_1111">
-		<text>Мы с мужиками Волку ящичек один несли, а эти урки, чтоб их... нас уже ждали. Вот откуда они узнали, понятия не имею. Ну, дальше сам понимаешь, что было: пошла стрельба, туда сюда, так я и оказался здесь.</text>
+		<text>I was getting a stash for Wolf with the other guys, and these assholes… They were already waiting for us. I have no idea how they found out about us. And after that, you can guess where it went: we had a shootout, and I ended up here.</text>
 	</string>
 	<string id="escape_shustryi_start_11111">
-		<text>Понятно. Что дальше-то делать будешь?</text>
+		<text>I see. What will you do now?</text>
 	</string>
 	<string id="escape_shustryi_start_111111">
-		<text>Да в лагерь, к своим пойду. Устал я, сил нет, спать хочу. Всё-таки не каждый день приходиться побывать в плену у бандитов. Кстати, я быкам наплёл про схрон с артефактами, так они одного туда отправили. Схрон там действительно имеется, только артефакт там всего один. Если хочешь, дам тебе координаты.</text>
+		<text>I'm gonna head back to the camp. I wanna see my guys. I'm tired, I have no energy, and I wanna sleep. It's not every day that you get taken hostage by bandits. By the way, I told the thugs a nice little story about a cache full of artifacts, and they ordered one guy to go there. The cache exists, but it's only got one artifact. I can give you its coordinates if you want.</text>
 	</string>
 	<string id="escape_shustryi_start_21">
-		<text>Дороги бархатом, сталкер!</text>
+		<text>Have a safe trip, stalker!</text>
 	</string>
 	<string id="escape_shustryi_start_311">
-		<text>А давай.</text>
+		<text>Sure, thanks.</text>
 	</string>
 	<string id="escape_shustryi_start_3111">
-		<text>Только не забудь: там зверья всякого много. И с бандюком, который туда отправился тоже не с совочком, ты будь осторожен. Спасибо, мужик.</text>
+		<text>But don't forget: there's lots of wild animals there. Besides, the gangster they sent is armed with more than a scoop and a shovel, so be careful. Thanks, man.</text>
 	</string>
 	<string id="escape_shustryi_start_31111">
-		<text>И тебе спасибо.</text>
+		<text>Thanks to you, too.</text>
 	</string>
 	<string id="escape_shustryi_start_311111">
-		<text>Да не за что. Удачи!</text>
+		<text>Sure, no problem. Good luck!</text>
 	</string>
 	<string id="escape_shustryi_start_41">
-		<text>Помоги, сталкер...</text>
+		<text>Help me, stalker...</text>
 	</string>
 	<string id="escape_shustryi_start_411">
-		<text>Подожди, тут бандиты!</text>
+		<text>Wait! There are bandits here!</text>
 	</string>
 	<string id="escape_shustryi_start_51">
-		<text>Помоги... помираю...</text>
+		<text>Help... I'm dying...</text>
 	</string>
 	<string id="escape_shustryi_start_511">
-		<text>Держи аптечку.</text>
+		<text>Take this medkit.</text>
 	</string>
 	<string id="escape_shustryi_start_5111">
-		<text>Спасибо!</text>
+		<text>Thanks!</text>
 	</string>
 	<string id="escape_shustryi_start_512">
-		<text>Извини, ничем помочь не могу.</text>
+		<text>Sorry. I can't help you.</text>
 	</string>
 	<string id="escape_trader_deadcity_map_0">
-		<text>Жаба, тебя карта Светлого луча не интересует?</text>
+		<text>Toad, would a map of Shining Path interest you?</text>
 	</string>
 	<string id="escape_trader_deadcity_map_1">
-		<text>Интересует, конечно! Я заплачу за неё 25000 рублей.</text>
+		<text>Of course it would! I'll pay you 25,000 for it.</text>
 	</string>
 	<string id="escape_trader_deadcity_map_11">
-		<text>По рукам. Держи карту.</text>
+		<text>Deal. Take the map.</text>
 	</string>
 	<string id="escape_trader_deadcity_map_12">
-		<text>Не, как-нибудь в другой раз.</text>
+		<text>Nah. Some other time.</text>
 	</string>
 	<string id="escape_trader_done_blockpost_box_0">
-		<text>Задание выполнил. Вот ящик с блокпоста.</text>
+		<text>Mission complete. Here's the box from the army outpost.</text>
 	</string>
 	<string id="escape_trader_done_blockpost_box_2">
-		<text>Вот молодчага! Удружил. Хотя, конечно, "спасибом" сыт не будешь... Значит, держи три... или нет, две тыщи тугриков - и мы в расчёте! \nКстати, зольды же ведь пропажу обнаружат обязательно - так тут такой кипеш начнётся... Так что, вали-ка ты отсюда побыстрее на повышенной скорости.</text>
+		<text>Good! You were a great help. But, of course a "thank you" won't buy you a piece of bread. Here's three... wait, two thousand pieces of eight and we're square!  By the way, the soldiers will certainly notice something missing, so things are going to heat up. You better get going, and the faster, the better.</text>
 	</string>
 	<string id="escape_trader_jobs_0">
-		<text>Спецзадания есть?</text>
+		<text>Got any special missions for me?</text>
 	</string>
 	<string id="escape_trader_jobs_1">
-		<text>Нет, ничего нет.</text>
+		<text>Nope, not a thing.</text>
 	</string>
 	<string id="escape_trader_jobs_12">
-		<text>Какие спецзадания? Ты ещё со старым не справился!</text>
+		<text>What special missions? You haven't even finished the last one!</text>
 	</string>
 	<string id="escape_trader_jobs_5">
-		<text>В общем, тут такое дело... На блокпост из глубины Зоны передали ящик с отчётом одной из экспедиций, что к северу ходила. Днём охраняют его так, будто он чистым плутонием наполнен, а по ночам почему-то не больше двух охранников оставляют.</text>
+		<text>Well, here's the deal... A box containing the reports made by an expedition that went deep North into the Zone has been taken to the army outpost. By day, it's guarded as if it was filled with pure plutonium, but for some reason at night they only leave two guards.</text>
 	</string>
 	<string id="escape_trader_jobs_51">
-		<text>Продолжай.</text>
+		<text>Go on.</text>
 	</string>
 	<string id="escape_trader_jobs_511">
-		<text>Проберись втихаря на блокпост да изыми для меня этот ящик. А уж я для тебя ничего не пожалею... в разумных пределах. Возьмешься, нет?</text>
+		<text>Sneak into the outpost quietly and "recover" the box. Do that and I'll pay you anything...within reason. Will you do it?</text>
 	</string>
 	<string id="escape_trader_jobs_5111">
-		<text>Попробую.</text>
+		<text>I'll try.</text>
 	</string>
 	<string id="escape_trader_jobs_51111">
-		<text>Ну так я денежку готовлю - ты ведь меня, Меченый, ещё ни разу не подводил. Только это... шуму не наделай, ладно? А то нам всем тут небо с овчинку покажется, если вояки обидятся.</text>
+		<text>I'll get the cash ready - you haven't let me down once. Just one other thing... keep it low profile. If the military gets pissed off we're all in for a lot of trouble..</text>
 	</string>
 	<string id="escape_trader_jobs_52">
-		<text>Нет. Пока браться не буду.</text>
+		<text>No, I can't take it on yet.</text>
 	</string>
 	<string id="escape_trader_jobs_521">
-		<text>Да ладно, чего ты? Там не блокпост, а название одно! Десяток срочников полупьяных с прапором!.. Ладно. Но я на тебя, Меченый, между прочим, сильно рассчитывал.</text>
+		<text>C'mon man, it's not as bad as it sounds. A bunch of drunk recruits green as grass with a single NCO...Well, OK, but I was really counting on you, Marked One...</text>
 	</string>
 	<string id="escape_trader_jobs_6">
-		<text>Меченый, я тут поразмыслил на досуге и хочу тебе кое-что предложить... Тебе, по большому счёту, нужно искать Стрелка, так ведь?</text>
+		<text>Listen, Marked One... I've done some thinking, and here's what I'd like to offer... Generally speaking, what you really need is to find Strelok. Right?</text>
 	</string>
 	<string id="escape_trader_jobs_61">
-		<text>Допустим.</text>
+		<text>Let's assume I do.</text>
 	</string>
 	<string id="escape_trader_jobs_611">
-		<text>В общем, я тут по Стрелку узнал кой-чего. И вправду, есть такой сталкер. Говорят, дорогу на север Зоны нашёл. А места там нетронутые, натуральный Клондайк... м-да... \nВ общем, я помогаю тебе его искать - но, как ты понимаешь, не за красивые глаза. Придётся отрабатывать. С другой стороны, всем будет хорошо: ты своего Стрелка замочишь, а заодно и узнаешь, что с тобой стряслось. А я узна... ну, в смысле, свою выгоду от нашего сотрудничества тоже поимею. А? Лады?</text>
+		<text>Anyway, here's the thing about Strelok. There's a stalker that goes by this name. They say he's found a path to the northern reaches of the Zone. And that is a virgin area, a real goldmine for artifacts... Yeah... Anyway, I can help you find him... However... As you can imagine, it won't be a free ride. You'll have to work it off... But in the long run we will both benefit: You're going to waste that Strelok fella and find out what's happened to you... And I'll find... well, I mean... I'll get my share of our mutual profit, he-he... So what do you say? Deal?</text>
 	</string>
 	<string id="escape_trader_jobs_6111">
-		<text>Продолжай.</text>
+		<text>Go on.</text>
 	</string>
 	<string id="escape_trader_jobs_61111">
-		<text>Да, серьёзный ты мужик, сразу видно. Нам такие люди нужны. \nМы с другими торговцами тут расследование одно проводим. Хотим найти путь на север, к центру Зоны, только там кто-то или что-то проходу мешает. Хрен его знает, как твой Стрелок проскользнуть смог... Понимаешь, есть там одно место, где мозги закипают. Жуткая штука... м-да... Но, ближе к делу. Те пацаны, которых с вертушки положили, наблюдали за военными тут недалеко. И, судя по всему, вояки в здании бывшего НИИ "МедПрибор" что-то нашли. Очень серьёзное что-то. Думаю, это как-то связано с центром Зоны. Так вот: всё, что военные накопали, пока что лежит где-то на третьем этаже здания института. Охраняется, конечно, куда же без этого... Только оно нам здорово нужно. Понял, о чём я?</text>
+		<text>Alright, listen... You mean business, I can see that... And I... I mean, we need guys like you. We're doing sort of an investigation with some other traders. We want to open up the path to the North, to the center of the Zone. And near the center someone or something is trying to hamper our progress... How the heck this Strelok managed to sneak through, I don't know... You see, there's this one area where your brain starts boiling. An eerie place... Anyway, to cut a long story short - a couple of guys have been spying on them grunts for me, not far from here. Apparently, the ones at the MedPribor Research Institute, have dug up something. Something major. I'm positive it has something to do with the center of the Zone. Anyway, whatever they've dug up, it's secured somewhere on the third floor of the Institute. And we really need this stuff. You see what I mean?</text>
 	</string>
 	<string id="escape_trader_jobs_611111">
-		<text>Кажется, понял.</text>
+		<text>I think so.</text>
 	</string>
 	<string id="escape_trader_jobs_6111111">
-		<text>Как только выйдешь с добычей с территории "МедПрибора", тут же неси её Бармену. Он заправляет делами в баре "Сталкер" - это на территории бывшего завода "Росток".</text>
+		<text>Once you have the briefcase, don't bring it here. Take it straight to the Barman. He runs the Stalker bar. I'll upload the coordinates and all the data you need to your PDA. Clear?</text>
 	</string>
 	<string id="escape_trader_jobs_61111111">
-		<text>Понял.</text>
+		<text>Gotcha.</text>
 	</string>
 	<string id="escape_trader_jobs_611111111">
-		<text>Координаты и необходимую инфу я тебе закачаю на КПК. А если на словах объяснять, так пойдёшь на север через Свалку, а потом повернёшь на запад, и через пару километров выйдешь прямо к "МедПрибору". На Свалке артефактов, кстати, как грибов после дождя, хотя фонит тоже по полной программе. Так что, советую прикупить у меня антирада или водочки. А то будешь потом светиться вроде новогодней ёлки... хе-хе. Шутка юмора! Ну, удачи.</text>
+		<text>You'll have to go North through the Garbage, then turn West. You'll end up at the MedPribor Research Institute after a few kilometers. And be careful, the radiation level is way too high at the Garbage. So I suggest you cough up for some antirad or vodka. Well, good luck.</text>
 	</string>
 	<string id="escape_trader_jobs_6112">
-		<text>Нет уж, спасибо. Я лучше как-нибудь сам.</text>
+		<text>No, thanks. I'll do better on my own.</text>
 	</string>
 	<string id="escape_trader_jobs_61121">
-		<text>Да ты пойми, сам ты сгинешь тут в Зоне. А если не сгинешь, то, уж точно, прошлое своё не скоро найдёшь. А у меня связи, информаторы. К тому же, я, ведь, не бесплатно предлагаю на меня работать, а за хорошие бабки! Так что не раздумывай, для тебя сплошная выгода. А я человек слова, поверь! Торговцу тут по-другому нельзя, вмиг на тот свет отправят.</text>
+		<text>Understand that you'll disappear on your own here in the Zone. And if you don't disappear, then you certainly won't find out about your past anytime soon. And I have networks; informers. And you should know that I'm not suggesting you work for free; I've got some good stuff to offer! So think twice. You've got nothing to lose. And I'm a man of my word! Trust me! If I wasn't, I wouldn't be doing what I do.</text>
 	</string>
 	<string id="escape_trader_jobs_611211">
-		<text>Это меняет дело.</text>
+		<text>That changes things.</text>
 	</string>
 	<string id="escape_trader_jobs_611212">
-		<text>Нет, я своё уже сказал и в помощи не нуждаюсь.</text>
+		<text>No. I've made my decision, and I don't need any of your help.</text>
 	</string>
 	<string id="escape_trader_jobs_6112121">
 		<text>Всё с тобой понятно, Меченый. Я тебе наводку на Лиса дал, а ты и рад стараться, узнал про своего Стрелка, а меня кинуть решил! Ну-ну... Топай, Зона ещё скажет своё слово, поверь. Вмиг ко мне прибежишь!</text>
@@ -1661,37 +1661,37 @@
 		<text>Топай, топай! Умничать в другом месте будешь. А здесь, к твоему сведению, Зона отчуждения, полная всякой нечисти! Ну ничего, ещё узнаешь что это такое и каково здесь одному живётся, сразу по-другому заговоришь.</text>
 	</string>
 	<string id="escape_trader_dynamite_0">
-		<text>Что за работа?</text>
+		<text>What kind of work?</text>
 	</string>
 	<string id="escape_trader_dynamite_1">
-		<text>До меня дошли слухи, что где-то на АТП завалялся ящик с динамитом. Ну вот, собственно, нужно принести этот ящик.</text>
+		<text>I've heard that there's a stash of dynamites somewhere in the vehicle station. See, you need to bring that stash to me.</text>
 	</string>
 	<string id="escape_trader_dynamite_11">
-		<text>Хорошо, я согласен.</text>
+		<text>OK, I agree.</text>
 	</string>
 	<string id="escape_trader_dynamite_111">
-		<text>Отлично, я тебе отметил на карте. Принесёшь динамит, получишь награду.</text>
+		<text>Great. I've marked it on your map. Bring me the dynamite and you'll get a reward.</text>
 	</string>
 	<string id="escape_trader_dynamite_12">
-		<text>Нет, как-нибудь в другой раз.</text>
+		<text>No. Some other time.</text>
 	</string>
 	<string id="escape_trader_dynamite_121">
-		<text>Ну что ж, дело твоё, надумаешь, приходи.</text>
+		<text>Well, okay. Your choice. If you change your mind, talk to me.</text>
 	</string>
 	<string id="escape_trader_done_dynamite_0">
-		<text>Задание выполнил, вот динамит.</text>
+		<text>Mission complete. Here's the dynamite.</text>
 	</string>
 	<string id="escape_trader_done_dynamite_1">
-		<text>Отлично, Меченый! Вот твоя награда.</text>
+		<text>Great job, Marked One! Here's your reward.</text>
 	</string>
 	<string id="escape_trader_start_dialog_111">
-		<text>Значит, вот что, Меченый. Тут мои ребята возвращались с задания и пропали. Один из них - звать Шустрый - нёс мне кой-какую инфу... И пропали совсем рядом, под боком, потому что мост прошли. Не знаю, что и думать. Решили кому другому инфу скинуть или сидят водку глушат? Короче: найди Шустрого, живого или мертвого - главное, чтобы флешка при нём была. Принесёшь мне. Шустрый был из людей Волка - а этот тут, в лагере. Спроси его: наверняка что-то знает.</text>
+		<text>Got a job for you, Marked One... I want you to find a stalker called Nimble, he was carrying some very important information. He disappeared somewhere near the bridge. Find him, dead or alive - I don't care, I need the flash drive with the info. Visit Wolf from the local camp, and ask him. He certainly knows where that guy can be.</text>
 	</string>
 	<string id="escape_trader_start_dialog_1111">
-		<text>Это всё?</text>
+		<text>Is that it?</text>
 	</string>
 	<string id="escape_trader_start_dialog_171">
-		<text>Здарова, Меченый. Что новенького расскажешь?</text>
+		<text>Hey Marked One, what's up?</text>
 	</string>
 	<string id="escape_trader_start_dialog_181">
 		<text>Меченый, ты чего здесь делаешь? Я же тебе ясно сказал - дуй к вагончику!</text>

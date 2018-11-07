@@ -1,210 +1,210 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="item_case_esc_desc">
-		<text>Кейс с документами. Сделан из огнеупорного материала.</text>
+		<text>Fireproof briefcase with documents.</text>
 	</string>
 	<string id="item_decoder_desc">
-		<text>Нечто вроде мощной электронной отмычки. Похоже, что она создавалась с целью взломать какой-то специфический электронный замок. Как ни странно, конструкция не подразумевает универсальности - оно создавалось для конкретного замка и не способно взламывать какие-либо другие коды.</text>
+		<text>Powerful electronic lockpick. Strangely enough, it does not seem to be an all-purpose thieves' instrument. Rather, it seems to have been created with a specific electronic lock in mind and can't be used to override anything else.</text>
 	</string>
 	<string id="item_decoder_name">
-		<text>Декодер</text>
+		<text>Decoder</text>
 	</string>
 	<string id="item_detector_yantar_desc">
-		<text>Устройство для замеров пси-излучения.</text>
+		<text>Psi-emission detector</text>
 	</string>
 	<string id="item_detector_yantar_name">
-		<text>Сенсор ПП-4а</text>
+		<text>PP-4a sensor</text>
 	</string>
 	<string id="item_dec_doc_desc">
-		<text>Полиэтиленовый файл с документами.</text>
+		<text>Plastic document file.</text>
 	</string>
 	<string id="item_dec_doc_name">
-		<text>Расшифровка документов из Х18</text>
+		<text>Decoding of documents from X18</text>
 	</string>
 	<string id="item_doc_x16_desc">
-		<text>Документы по установке «пси-мозг».</text>
+		<text>Documents about the "Psi-Brain" mechanism.</text>
 	</string>
 	<string id="item_doc_x16_name">
-		<text>Документы из лаборатории Х16</text>
+		<text>Documents from Lab X16</text>
 	</string>
 	<string id="item_doc_x18_name">
-		<text>Документы из лаборатории Х18</text>
+		<text>Documents from Lab X18</text>
 	</string>
 	<string id="item_doc_x18_desc">
-		<text>Толстая стопка научных бумаг. Сплошные термины, формулы и диаграммы. Без учёной степени по биологии сложно что-то в них понять.</text>
+		<text>A thick pile of scientific documents. Terms, formulas, and a number of diagrams.  You'd need a degree in biology to understand a word of what it says.</text>
 	</string>
 	<string id="item_doc_x18p1_name">
-		<text>Документы из Х18 часть1</text>
+		<text>Documents from Lab X18, part 1</text>
 	</string>
 	<string id="item_doc_x18p2_name">
-		<text>Документы из Х18 часть2</text>
+		<text>Documents from Lab X18, part 2</text>
 	</string>
 	<string id="item_doc_x18p3_name">
-		<text>Документы из Х18 часть3</text>
+		<text>Documents from Lab X18, part 3</text>
 	</string>
 	<string id="item_doc_x18p4_name">
-		<text>Документы из Х18</text>
+		<text>Documents from Lab X18</text>
 	</string>
 	<string id="item_doc_x18p5_name">
-		<text>Документы из Х18 часть5</text>
+		<text>Documents from Lab X18, part 5</text>
 	</string>
 	<string id="item_docs_hiden_pri_desc">
-		<text>Потёртая рукопись в кожаной обложке. Написана самим Стрелком. Судя по заглавиям, в ней раскрываются некоторые загадки Зоны.</text>
+		<text>Worn manuscript in leather binding. Written by Strelok himself. Judging by the headings alone, it might explain some of the Zone's secrets.</text>
 	</string>
 	<string id="item_docs_hiden_pri_name">
-		<text>Документы из Припяти</text>
+		<text>Documents from the secret stash in Pripyat</text>
 	</string>
 	<string id="item_dolg_arhive_documents_desc">
-		<text>Архивная папка. В такой папке очень удобно хранить документы.</text>
+		<text>An archive folder. Very useful for keeping documents.</text>
 	</string>
 	<string id="item_dolg_arhive_documents_name">
-		<text>Архивная папка Долга</text>
+		<text>Duty archive folder</text>
 	</string>
 	<string id="item_dynamite_esc_desc">
-		<text>Тяжёлый деревянный ящик, с надписями "Взрывоопасно" на нескольких языках.</text>
+		<text>A heavy wooden crate with the word "Explosives" written in several languages</text>
 	</string>
 	<string id="item_dynamite_esc_name">
-		<text>Ящик с динамитом</text>
+		<text>Crate of explosives</text>
 	</string>
 	<string id="item_diplomat_esc_desc">
-		<text>Обыкновенный старый дипломат, в который можно положить всё, что угодно.</text>
+		<text>Ordinary old briefcase that can hold many things.</text>
 	</string>
 	<string id="item_diplomat_esc_name">
-		<text>Дипломат с инструментами</text>
+		<text>Briefcase with tools</text>
 	</string>
 	<string id="item_flash_crazy_mil_desc">
-		<text>Флеш-диск - удобное устройство для переноса информации.</text>
+		<text>Flash drive - convenient way to store and transfer information.</text>
 	</string>
 	<string id="item_flash_crazy_mil_name">
-		<text>Флешка сумасшедшего</text>
+		<text>The crazy stalker's flash drive</text>
 	</string>
 	<string id="item_flash_eco_rost_desc">
-		<text>Флеш-диск - удобное устройство для переноса информации.</text>
+		<text>Flash drive - convenient way to store and transfer information.</text>
 	</string>
 	<string id="item_flash_eco_rost_name">
-		<text>Флешка профессора Круглова</text>
+		<text>Professor Kruglov's flash drive</text>
 	</string>
 	<string id="item_flash_esc_desc">
-		<text>Флеш-диск - удобное устройство для переноса информации.</text>
+		<text>Flash drive - convenient way to store and transfer information.</text>
 	</string>
 	<string id="item_flash_esc_name">
-		<text>Флешка Лиса</text>
+		<text>Fox's flash drive</text>
 	</string>
 	<string id="item_flash_gslinger_agro_desc">
-		<text>Флеш-диск - удобное устройство для переноса информации.</text>
+		<text>Flash drive - convenient way to store and transfer information.</text>
 	</string>
 	<string id="item_flash_gslinger_agro_name">
-		<text>Флешка Стрелка</text>
+		<text>Strelok's flash drive</text>
 	</string>
 	<string id="item_borov_flash_desc">
-		<text>Флеш-диск - удобное устройство для переноса информации.</text>
+		<text>Flash drive - convenient way to store and transfer information.</text>
 	</string>
 	<string id="item_borov_flash_name">
-		<text>Информация о лаборатории X18</text>
+		<text>Information about Lab X18</text>
 	</string>
 	<string id="item_key_x18_desc">
-		<text>Электронный ключ от подземной лаборатории Х-18.</text>
+		<text>Electronic key to the underground Lab X18.</text>
 	</string>
 	<string id="item_key_x18_name">
-		<text>Ключ Борова</text>
+		<text>Borov's key</text>
 	</string>
 	<string id="item_key_1_x18_name">
-		<text>Ключ Бармена</text>
+		<text>Barkeep's key</text>
 	</string>
 	<string id="item_krot_flash">
-		<text>Флешка Крота</text>
+		<text>Mole's flash drive</text>
 	</string>
 	<string id="item_war_key_desc">
-		<text>Электронный ключ от двери в главной лаборатории.</text>
+		<text>Electronic key to the door in the main laboratory.</text>
 	</string>
 	<string id="item_war_key_1_name">
-		<text>Электронный ключ №1</text>
+		<text>Electronic key #1</text>
 	</string>
 	<string id="item_war_key_2_name">
-		<text>Электронный ключ №2</text>
+		<text>Electronic key #2</text>
 	</string>
 	<string id="item_war_key_3_name">
-		<text>Электронный ключ №3</text>
+		<text>Electronic key #3</text>
 	</string>
 	<string id="item_pda_deserter_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_deserter_name">
-		<text>КПК Дезертира</text>
+		<text>Deserter's PDA</text>
 	</string>
 	<string id="item_pda_lucky_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_lucky_name">
-		<text>КПК Счастливчика</text>
+		<text>Lucky's PDA</text>
 	</string>
 	<string id="item_pda_killer_leader_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_killer_leader_name">
-		<text>КПК лидера наёмников</text>
+		<text>Mercenary leader's PDA</text>
 	</string>
 	<string id="item_pda_tiran_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_tiran_name">
-		<text>КПК Тирана</text>
+		<text>Tyran's PDA</text>
 	</string>
 	<string id="item_pda_sniper_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_sniper_name">
-		<text>КПК Снайпера</text>
+		<text>Sniper's PDA</text>
 	</string>
 	<string id="item_pda_vp_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_vp_name">
-		<text>КПК Василия Петровича</text>
+		<text>Vasiliy Petrovich's PDA</text>
 	</string>
 	<string id="item_svoboda_leader_pda_desc">
-		<text>Миниатюрный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Miniature personal assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_svoboda_leader_pda_name">
-		<text>КПК Лукаша</text>
+		<text>Lukash's PDA</text>
 	</string>
 	<string id="item_svoboda_pda_desc">
-		<text>Карманный персональный компьютер, принадлежащий сталкеру из группировки «Свобода». Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant belonging to a Freedom stalker. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_svoboda_pda_name">
-		<text>КПК свободовца</text>
+		<text>Freedomer's PDA</text>
 	</string>
 	<string id="item_dolg_pda_desc">
-		<text>Карманный персональный компьютер, принадлежащий сталкеру из группировки «Долг». Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant belonging to a Duty stalker. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_dolg_pda_name">
-		<text>КПК долговца</text>
+		<text>Dutyer's PDA</text>
 	</string>
 	<string id="item_quest_case_02_desc">
-		<text>Кейс с документами. Сделан из огнеупорного материала.</text>
+		<text>A fireproof briefcase with documents.</text>
 	</string>
 	<string id="item_quest_case_02_name">
-		<text>Документы военных</text>
+		<text>Military documents</text>
 	</string>
 	<string id="item_case_esc_name">
-		<text>Документы с блокпоста</text>
+		<text>Documents from the outpost</text>
 	</string>
 	<string id="yan_bad_psy_helmet_desc">
-		<text>Настроенный прототип, разработанный учёными для защиты от пси-излучения</text>
+		<text>Prototype developed by scientists to protect people from psi-emissions. Not adjusted.</text>
 	</string>
 	<string id="yan_bad_psy_helmet_name">
-		<text>Экспериментальный эмулятор мозговых волн (BRAIN-6)</text>
+		<text>Not adjusted psi-helmet.</text>
 	</string>
 	<string id="yan_good_psy_helmet_desc">
-		<text>Настроенный прототип, разработанный учёными для защиты от пси-излучения</text>
+		<text>Functional prototype developed by scientists to protect people from psi-emissions</text>
 	</string>
 	<string id="yan_good_psy_helmet_name">
-		<text>Экспериментальный эмулятор мозговых волн (BRAIN-6)</text>
+		<text>Functional psi-helmet</text>
 	</string>
 	<string id="item_pda_jaw_zam_desc">
-		<text>Карманный персональный компьютер. Незаменимое устройство в Зоне.</text>
+		<text>Personal digital assistant. Indispensable in the Zone.</text>
 	</string>
 	<string id="item_pda_jaw_zam_name">
-		<text>КПК Зама "Челюсти"</text>
+		<text>"Jaw" deputy's PDA</text>
 	</string>
 </string_table>

@@ -124,7 +124,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_treasure_manager.xml](gamedata/config/text/eng/stable_treasure_manager.xml)
 		- done
 	- [string_table_enc_equipment.xml](gamedata/config/text/eng/string_table_enc_equipment.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_enc_mutants.xml](gamedata/config/text/eng/string_table_enc_mutants.xml)
 		- incomplete
 	- [string_table_enc_social.xml](gamedata/config/text/eng/string_table_enc_social.xml)
@@ -134,15 +134,15 @@ A list of all files with detailed progress can be found below.
 	- [string_table_enc_weapons.xml](gamedata/config/text/eng/string_table_enc_weapons.xml)
 		- incomplete
 	- [string_table_enc_zone.xml](gamedata/config/text/eng/string_table_enc_zone.xml)
-		- incomplete
+		- in progress
 	- [string_table_general.xml](gamedata/config/text/eng/string_table_general.xml)
-		- incomplete
+		- in progress
 	- [string_table_includes.xml](gamedata/config/text/eng/string_table_includes.xml)
-		- incomplete (has an equivalent Russian file in *Shadow of Chernobyl* but none in English)
+		- done
 	- [string_table_items.xml](gamedata/config/text/eng/string_table_items.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_level_tips.xml](gamedata/config/text/eng/string_table_level_tips.xml)
-		- incomplete
+		- done
 	- [string_table_mapspots_aes.xml](gamedata/config/text/eng/string_table_mapspots_aes.xml)
 		- done
 	- [string_table_mapspots_agroprom.xml](gamedata/config/text/eng/string_table_mapspots_agroprom.xml)
@@ -164,19 +164,19 @@ A list of all files with detailed progress can be found below.
 	- [string_table_mapspots_radar.xml](gamedata/config/text/eng/string_table_mapspots_radar.xml)
 		- done
 	- [string_table_outfit.xml](gamedata/config/text/eng/string_table_outfit.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_tasks_aes.xml](gamedata/config/text/eng/string_table_tasks_aes.xml)
 		- done
 	- [string_table_tasks_agroprom.xml](gamedata/config/text/eng/string_table_tasks_agroprom.xml)
 		- done
 	- [string_table_tasks_bar.xml](gamedata/config/text/eng/string_table_tasks_bar.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_tasks_darkvalley.xml](gamedata/config/text/eng/string_table_tasks_darkvalley.xml)
 		- done
 	- [string_table_tasks_deadcity.xml](gamedata/config/text/eng/string_table_tasks_deadcity.xml)
 		- done
 	- [string_table_tasks_escape.xml](gamedata/config/text/eng/string_table_tasks_escape.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_tasks_garbage.xml](gamedata/config/text/eng/string_table_tasks_garbage.xml)
 		- done
 	- [string_table_tasks_military.xml](gamedata/config/text/eng/string_table_tasks_military.xml)

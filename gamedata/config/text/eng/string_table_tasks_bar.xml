@@ -1,245 +1,245 @@
 	<string id="bar_bring_hunter_rifle">
-		<text>Вернуть охотнику ружьё</text>
+		<text>Return the hunter's rifle</text>
 	</string>
 	<string id="bar_bring_pda_lucky">
-		<text>Принести КПК лидера Бармену</text>
+		<text>Bring the leader's PDA to the Barkeep</text>
 	</string>
 	<string id="bar_crazy_veterans_quest">
-		<text>Уничтожить безумных ветеранов</text>
+		<text>Kill the mad veterans</text>
 	</string>
 	<string id="bar_dolg_test_quest">
-		<text>Проверка для вступления в "Долг"</text>
+		<text>Test to join Duty</text>
 	</string>
 	<string id="bar_dolg_bring_document">
-		<text>Найти в ангаре архивные документы и принести их капитану Иванцову</text>
+		<text>Find the archived documents in the hangar and bring them to Captain Ivantsov</text>
 	</string>
 	<string id="bar_dolg_base_rules">
-		<text>Отметиться у начальника охраны "Долга"</text>
+		<text>Register at the Duty guard commander</text>
 	</string>
 	<string id="bar_dolg_base_rules_fin">
-		<text>Вернуться к Бармену</text>
+		<text>Return to the Barkeep</text>
 	</string>
 	<string id="bar_dolg_base_rules_talk">
-		<text>Найти начальника охраны "Долга" и отметиться у него</text>
+		<text>Find the Duty guard commander and register yourself</text>
 	</string>
 	<string id="bar_dolg_bring_rg6">
-		<text>Добыть РГ-6 для генерала Воронина</text>
+		<text>Get an Bulldog 6 for General Voronin</text>
 	</string>
 	<string id="bar_dolg_community_quest">
-		<text>Вступление в группировку "Долг"</text>
+		<text>Join the Duty faction</text>
 	</string>
 	<string id="bar_dolg_community_quest_prisyaga">
-		<text>Принять присягу</text>
+		<text>Swear the oath</text>
 	</string>
 	<string id="bar_dolg_community_quest_recomendation">
-		<text>Получить рекомендацию капитана Иванцова</text>
+		<text>Get a reference from Captain Ivantsov</text>
 	</string>
 	<string id="bar_dolg_community_quest_vernost">
-		<text>Доказать свою верность "Долгу"</text>
+		<text>Prove your loyalty to Duty</text>
 	</string>
 	<string id="bar_dolg_find_cook">
-		<text>Втереться в доверие к повару Свободы и узнать, где хранится РГ-6</text>
+		<text>Earn the Freedom cook's trust and find out where the RG-6 is stored</text>
 	</string>
 	<string id="bar_dolg_find_rg6">
-		<text>Проникнуть на территорию группировки "Свобода", найти и выкрасть РГ-6</text>
+		<text>Infiltrate the Freedom base, find and steal an RG-6</text>
 	</string>
 	<string id="bar_dolg_info_gain">
-		<text>Найти перехваченную информацию о лаборатории X-18</text>
+		<text>Find the intercepted information about Lab X18</text>
 	</string>
 	<string id="bar_dolg_kill_tiran">
-		<text>Убить Тирана, предводителя отряда</text>
+		<text>Kill Tyran, the leader of the squad</text>
 	</string>
 	<string id="bar_dolg_return_info">
-		<text>Вернуть информацию о лаборатории X-18 генералу Воронину</text>
+		<text>Return information about Lab X18 to General Voronin</text>
 	</string>
 	<string id="bar_dolg_return_rg6">
-		<text>Принести РГ-6 генералу Воронину</text>
+		<text>Bring the RG-6 to General Voronin</text>
 	</string>
 	<string id="bar_dolg_rg6_quest">
-		<text>Задание для вступления в "Долг"</text>
+		<text>Mission required to join Duty</text>
 	</string>
 	<string id="bar_dolg_svoboda_ambush_quest">
-		<text>Уничтожить наёмников</text>
+		<text>Eliminate the Mercs</text>
 	</string>
 	<string id="bar_dolg_svoboda_ambush_return">
-		<text>Отдать нашивки генералу Воронину</text>
+		<text>Give the stripes to General Voronin</text>
 	</string>
 	<string id="bar_dolg_tiran_pda">
-		<text>Взять КПК Тирана</text>
+		<text>Take Tyran's PDA</text>
 	</string>
 	<string id="bar_dolg_svoboda_leader_kill_quest">
-		<text>Уничтожение лидера группировки "Свобода"</text>
+		<text>Eliminate the leader of Freedom faction</text>
 	</string>
 	<string id="mil_svoboda_leader_kill">
-		<text>На территории военной базы найти и уничтожить лидера группировки "Свобода"</text>
+		<text>Find and eliminate the leader of the Freedom faction in the territory of the military base</text>
 	</string>
 	<string id="mil_svoboda_leader_stripe">
-		<text>Забрать личные вещи лидера, как доказательство его смерти</text>
+		<text>Take the leader's personal belongings as proof of his death</text>
 	</string>
 	<string id="bar_dolg_svoboda_leader_kill_return">
-		<text>Вернуться к генералу Воронину с вещами лидера "Свободы"</text>
+		<text>Return to General Voronin with the properties of the leader of Freedom</text>
 	</string>
 	<string id="bar_hunter_find_rifle">
-		<text>Найти фамильное ружьё</text>
+		<text>Find the family rifle</text>
 	</string>
 	<string id="bar_hunter_return_rifle">
-		<text>Вернуть ружьё охотнику в баре</text>
+		<text>Return the rifle to the hunter at the Bar</text>
 	</string>
 	<string id="bar_hunter_rifle">
-		<text>Найти фамильное ружьё</text>
+		<text>Find the family rifle</text>
 	</string>
 	<string id="bar_kill_crazy_veterans">
-		<text>Убить лидера ветеранов</text>
+		<text>Kill the leader of the veterans</text>
 	</string>
 	<string id="bar_kill_crazy_veterans_pda">
-		<text>Взять КПК их лидера</text>
+		<text>Take their leader's PDA</text>
 	</string>
 	<string id="bar_kill_veterans">
-		<text>Уничтожить лагерь сумасшедших ветеранов</text>
+		<text>Destroy the mad veterans' camp</text>
 	</string>
 	<string id="bar_radar_deactivate">
-		<text>Отключить "Выжигатель Мозгов"</text>
+		<text>Turn off the Brain Scorcher</text>
 	</string>
 	<string id="bar_resque_information">
-		<text>Встретиться с Кругловым</text>
+		<text>Meet Kruglov</text>
 	</string>
 	<string id="bar_resque_information_2">
-		<text>Вывести Круглова на Янтарь</text>
+		<text>Lead Kruglov to Yantar</text>
 	</string>
 	<string id="bar_resque_scientific_follow">
-		<text>Вывести Круглова к выходу на Янтарь</text>
+		<text>Lead Kruglov to the exit to Yantar</text>
 	</string>
 	<string id="bar_resque_scientific_information">
 		<text>...</text>
 	</string>
 	<string id="bar_resque_scientific_information_bring">
-		<text>Поговорить с Кругловым</text>
+		<text>Talk to Kruglov</text>
 	</string>
 	<string id="bar_resque_scientific_information_get">
-		<text>Пробиться к Круглову</text>
+		<text>Get through to Kruglov</text>
 	</string>
 	<string id="bar_resque_scientific_information_get_2">
-		<text>Поговорить с профессором Кругловым</text>
+		<text>Talk to professor Kruglov</text>
 	</string>
 	<string id="bar_x16_documents">
-		<text>Расшифровать документы</text>
+		<text>Decode the documents</text>
 	</string>
 	<string id="bring_x16_documents">
-		<text>Принести документы Бармену</text>
+		<text>Bring the documents to the Barkeep</text>
 	</string>
 	<string id="deactivate_radar_now">
-		<text>Отключить установку</text>
+		<text>Deactivate the machine</text>
 	</string>
 	<string id="find_and_deactivate_radar">
-		<text>Найти вход в бункер управления</text>
+		<text>Find the entrance to the control bunker</text>
 	</string>
 	<string id="get_to_antennas">
-		<text>Добраться до антенн</text>
+		<text>Reach the antennae</text>
 	</string>
 	<string id="Kruglov_research">
-		<text>Исследования Круглова</text>
+		<text>Kruglov's research</text>
 	</string>
 	<string id="look_for_x16_lab">
-		<text>Найти документы Х-16</text>
+		<text>Find the X16 documents</text>
 	</string>
 	<string id="wpn-winchester_m1">
-		<text>Боевой Чейзер</text>
+		<text>Combat Chaser</text>
 	</string>
 	<string id="x16_yantar">
-		<text>Поговорить с учёными</text>
+		<text>Talk to the scientists</text>
 	</string>
 	<string id="give_documents_on_decoding">
-		<text>Отдать учёным документы на расшифровку</text>
+		<text>Give the documents to the scientists for decoding</text>
 	</string>
 	<string id="take_decoding_documents">
-		<text>Забрать расшифрованные документы</text>
+		<text>Take the decoded documents</text>
 	</string>
 	<string id="bring_decoding_documents">
-		<text>Принести расшифрованные документы Бармену</text>
+		<text>Bring the decoded documents to the Barkeep</text>
 	</string>
     <string id="ros_help_svoboda_receive_info">
-        <text>Помочь "Свободе"</text>
+        <text>Help Freedom</text>
     </string>
     <string id="ros_help_svoboda_receive_info_0">
-        <text>Помочь "Свободе" получить результаты исследования учёных</text>
+        <text>Help Freedom get the results of the scientists' research</text>
     </string>
     <string id="ros_help_svoboda_receive_info_1">
-        <text>Помочь "Свободе" получить результаты исследований профессора Круглова</text>
+        <text>Help Freedom get the results of Professor Kruglov's research</text>
     </string>
 	<string id="bar_ryaboy_job">
-		<text>Встреча с психом</text>
+		<text>Meeting a psycho</text>
 	</string>
 	<string id="bar_ryaboy_job_0">
-		<text>Получить информацию о "Выжигателе" от Рябого</text>
+		<text>Get information about the Brain Scorcher from Spotty</text>
 	</string>
 	<string id="bar_lisiy_talk">
-		<text>Поговорить с Лысым</text>
+		<text>Talk to Baldy</text>
 	</string>
 	<string id="bar_lisiy_talk_0">
-		<text>Поговорить со сталкером по прозвищу "Лысый"</text>
+		<text>Talk to the stalker called Baldy</text>
 	</string>
 	<string id="bar_barman_kruglov_flash">
-        <text>Спасти исследования учёных</text>
+        <text>Save the scientists' research</text>
     </string>
     <string id="bar_barman_kruglov_flash_0">
-        <text>Необходимо не допустить попадания результатов исследования учёных в чужие руки</text>
+        <text>It's necessary not to let the results of the scientists' research fall into the wrong hands</text>
     </string>
     <string id="bar_barman_kruglov_flash_1">
-        <text>Получить от профессора Круглова результаты исследований</text>
+        <text>Receive the research results from professor Kruglov</text>
     </string>
     <string id="bar_barman_kruglov_flash_2">
-        <text>Передать их Бармену в баре "Сталкер"</text>
+        <text>Give them to the Barkeep at the Stalker bar</text>
     </string>
 	<string id="bar_dolg_borov_quest">
-		<text>Убить Борова и вернуть украденную информацию</text>
+		<text>Kill Borov and return the stolen information</text>
 	</string>
 	<string id="bar_dolg_kill_borov">
-		<text>Найти в Тёмной долине Борова и убить его</text>
+		<text>Find Borov in the Dark Valley and kill him</text>
 	</string>
 	<string id="bar_dolg_info_gain">
-		<text>Найти перехваченную информацию о лаборатории X-18</text>
+		<text>Find the intercepted information about Lab X18</text>
 	</string>
 	<string id="bar_dolg_return_info">
-		<text>Вернуть информацию о лаборатории X-18 генералу Воронину</text>
+		<text>Return the information about Lab X18 to General Voronin</text>
 	</string>
 	<string id="bar_deserter_quest">
-		<text>Убить военнослужащего</text>
+		<text>Kill the soldier</text>
 	</string>
 	<string id="bar_deserter_kill">
-		<text>Убить военного на болотах</text>
+		<text>Kill the soldier in the swamps</text>
 	</string>
 	<string id="bar_kill_deserter">
-		<text>Убить военного</text>
+		<text>Kill the soldier</text>
 	</string>
 	<string id="bar_kill_deserter_pda">
-		<text>Взять КПК военного</text>
+		<text>Take the soldier's PDA</text>
 	</string>
 	<string id="bar_bring_pda_deserter">
-		<text>Отнести КПК Бармену</text>
+		<text>Give the PDA to the Barkeep</text>
 	</string>
 	<string id="bar_night_sniper_quest">
-		<text>Таинственный снайпер</text>
+		<text>Mysterious sniper</text>
 	</string>
 	<string id="bar_night_sniper_quest_0">
-		<text>Помочь долговцу выполнить задание</text>
+		<text>Help the Dutyer complete the task</text>
 	</string>
 	<string id="bar_night_sniper_quest_1">
-		<text>Убить снайпера на башне</text>
+		<text>Kill the sniper in the tower</text>
 	</string>
 	<string id="bar_night_sniper_quest_2">
-		<text>Забрать КПК снайпера</text>
+		<text>Take the sniper's PDA</text>
 	</string>
 	<string id="bar_night_sniper_quest_3">
-		<text>Отнести КПК долговцу</text>
+		<text>Give the PDA to the Dutyer</text>
 
         <string id="esc_test_prinesti_vodku">
-        <text>Принести бутылку водки</text>
+        <text>Bring the vodka bottle</text>
     </string>
     <string id="esc_test_prinesti_vodku_1">
-        <text>Найти водку на чердаке у Волка</text>
+        <text>Find the vodka in the cellar near Wolf</text>
     </string>
     <string id="esc_test_prinesti_vodku_2">
-        <text>Принести бутылку водки Жабе</text>
+        <text>Bring the vodka bottle to Toad</text>
     </string>
  
 	</string>

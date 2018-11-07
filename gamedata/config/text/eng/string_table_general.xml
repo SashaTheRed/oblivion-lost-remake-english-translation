@@ -3,79 +3,79 @@
 
 
 	<string id="ui_mm_gamma1">
-		<text>Стандартно</text>
+		<text>Standard</text>
 	</string>
 
 	<string id="ui_mm_gamma2">
-		<text>Билдогамма</text>
+		<text>Build gamma</text>
 	</string>
 
 	<string id="car_task_moskv_tx">
-		<text>Купленный Москвич</text>
+		<text>Purchased Moskvich</text>
 	</string>
 
 
 	<string id="car_task_lada_tx">
-		<text>Купленная Лада</text>
+		<text>Purchased Lada</text>
 	</string>
 
 
 	<string id="car_task_zapor_tx">
-		<text>Купленный Запорожец</text>
+		<text>Purchased Zaporozhets</text>
 	</string>
 
 	<string id="from_dc_to_swamp">
-		<text>На Болота</text>
+		<text>To the Swamps</text>
 	</string>
 
 	<string id="zaebalsukableat">
-		<text>Здравствуйте, у нас тут небольшая проблема с экспедицией пропавшей на Тихих холмах... Сигнал с ними был утрачен в районе базы... Вы не могли бы проверить то место?</text>
+		<text>Hello. We have a little problem with a lost expedition in the Silent Hills... Their signal was lost near the base... Could you go and check that area?</text>
 	</string>
 
 	<string id="vhem_delo_ska">
-		<text>Здравствуйте, в чём проблема?</text>
+		<text>Hello. What's the problem?</text>
 	</string>
 
 
 
 	<string id="def_trade_1_1">
-		<text>Хочешь поторговать?</text>
+		<text>Wanna trade?</text>
 	</string>
 	
 	<string id="def_trade_1_2">
-		<text>Да.</text>
+		<text>Yes.</text>
 	</string>
 	
 	<string id="def_trade_1_3">
-		<text>Нет.</text>
+		<text>No.</text>
 	</string>
 	
 	<string id="def_save_me_1_1">
-		<text>Нужна помощь!</text>
+		<text>I need help!</text>
 	</string>
 	
 	<string id="def_save_me_1_2">
-		<text>Да.</text>
+		<text>Yes.</text>
 	</string>
 	
 	<string id="def_save_me_1_3">
-		<text>Нет.</text>
+		<text>No.</text>
 	</string>
 	
 	<string id="def_out_you_1_1">
-		<text>Уходи отсюда.</text>
+		<text>Get out of here.</text>
 	</string>
 	
 	<string id="def_out_you_1_2">
-		<text>Да.</text>
+		<text>Yes.</text>
 	</string>
 	
 	<string id="def_out_you_1_3">
-		<text>Нет.</text>
+		<text>No.</text>
 	</string>
 	
 	<string id="def_by_1_1">
-		<text>Бывай!</text>
+		<text>Bye!</text>
 	</string>
 	
 
@@ -607,180 +607,180 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 <string id="warfare">
-		<text>Так.. Мы думаем сделать рейд на Тихие холмы. Эти тёмные явно там что-то затевают, поэтому нам нужно сделать небольшую разведку. Деревня на западе холмов подходит для маскировки. Проблема в том, что там завёлся контроллёр. Его необходимо уничтожить.</text>
+		<text>Так.. Мы думаем сделать рейд To the Silent Hills. Эти тёмные явно там что-то затевают, поэтому нам нужно сделать небольшую разведку. Деревня на западе холмов подходит для маскировки. Проблема в том, что там завёлся контроллёр. Его необходимо уничтожить.</text>
 	</string>
 
 <string id="lvl16_generators_level_changer">
-		<text>В Лабораторию</text>
+		<text>To the lab</text>
 	</string>
 
 <string id="lvl14_stancia_level_changer_0001">
-		<text>На Генераторы</text>
+		<text>To Generators</text>
 	</string>
 
 <string id="lvl14_stancia_level_changer_0001">
-		<text>На Генераторы</text>
+		<text>To Generators</text>
 	</string>
 
 <string id="lvl14_stancia_level_changer_0000">
-		<text>В Саркофаг</text>
+		<text>Into the sarcophagus</text>
 	</string>
 
 <string id="lvl14_stancia_level_changer">
-		<text>На Припять</text>
+		<text>To Pripyat</text>
 	</string>
 
 <string id="lvl13_prip_level_changer_0000">
-		<text>На ЧАЭС</text>
+		<text>To Chernobyl NPP</text>
 	</string>
 
 <string id="lvl13_prip_level_changer">
-		<text>На Радар</text>
+		<text>To the Red Forest</text>
 	</string>
 
 <string id="lvl11_deadcity_level_changer_0000">
-		<text>На Болота</text>
+		<text>To the Swamps</text>
 	</string>
 
 <string id="lvl11_deadcity_level_changer">
-		<text>На озеро Янтарь</text>
+		<text>To Lake Yantar</text>
 	</string>
 
 <string id="lvl11_deadcity_level_changer_0001">
-		<text>На Тихие холмы</text>
+		<text>To the Silent Hills</text>
 	</string>
 
 
 <string id="lvl10_radar_level_changer">
-		<text>На Тихие холмы</text>
+		<text>To the Silent Hills</text>
 	</string>
 
 <string id="lvl10_radar_level_changer_0000">
-		<text>В Лабораторию</text>
+		<text>To the lab</text>
 	</string>
 
 <string id="lvl10_radar_level_changer_0001">
-		<text>На Припять</text>
+		<text>To Pripyat</text>
 	</string>
 
 <string id="lvl9_military_level_changer">
-		<text>На Радар</text>
+		<text>To the Red Forest</text>
 	</string>
 
 <string id="lvl9_military_level_changer_0000">
-		<text>В город Светлый луч</text>
+		<text>To the town of Shining Path</text>
 	</string>
 
 <string id="lvl10_military_level_changer">
-		<text>В бар "Сталкер"</text>
+		<text>To the Stalker bar</text>
 	</string>
 
 <string id="lvl8_swamp_level_changer">
-		<text>На озеро Янтарь</text>
+		<text>To Lake Yantar</text>
 	</string>
 
 <string id="lvl8_swamp_level_changer_0000">
-		<text>В город Светлый луч</text>
+		<text>To the town of Shining Path</text>
 	</string>
 
 <string id="lvl7_yantar_level_changer_0002">
-		<text>В город Светлый луч</text>
+		<text>To the town of Shining Path</text>
 	</string>
 
 <string id="lvl7_yantar_level_changer">
-		<text>В бар "Сталкер"</text>
+		<text>To the Stalker bar</text>
 	</string>
 
 <string id="lvl7_yantar_level_changer_0000">
-		<text>На НИИ "МедПрибор"</text>
+		<text>To MedPribor Research Institute</text>
 	</string>
 
 <string id="lvl7_yantar_level_changer_0001">
-		<text>На Болота</text>
+		<text>To the Swamps</text>
 	</string>
 
 <string id="lvl5_bar_level_changer_0001">
-		<text>На Тихие холмы</text>
+		<text>To the Silent Hills</text>
 	</string>
 
 <string id="lvl5_bar_level_changer_0002">
-		<text>На завод "Росток"</text>
+		<text>To the Rostok factory</text>
 	</string>
 
 <string id="lvl5_bar_level_changer">
-		<text>На завод "Росток"</text>
+		<text>To the Rostok factory</text>
 	</string>
 
 <string id="lvl5_bar_level_changer_0000">
-		<text>На озеро Янтарь</text>
+		<text>To Lake Yantar</text>
 	</string>
 
 <string id="lvl6_rostok_level_changer">
-		<text>В бар "Сталкер"</text>
+		<text>To the Stalker bar</text>
 	</string>
 
 
 
 
 <string id="lvl5bar_level_prefix_level_changer">
-		<text>На Свалку</text>
+		<text>To the Garbage</text>
 	</string>
 
 <string id="level_prefix_level_changer_glue">
-		<text>На ЧАЭС</text>
+		<text>To Chernobyl NPP</text>
 	</string>
 
 <string id="lvl4_darkdolina_level_changer">
-		<text>В Лабораторию</text>
+		<text>To the lab</text>
 	</string>
 
 <string id="lvl4_darkdolina_level_changer_0001">
-		<text>На Свалку</text>
+		<text>To the Garbage</text>
 	</string>
 
 <string id="lvl4_darkdolina_level_changer_0000">
-		<text>На Свалку</text>
+		<text>To the Garbage</text>
 	</string>
 
 <string id="lvl3_agroprom_level_changer_0001">
-		<text>На озеро Янтарь</text>
+		<text>To Lake Yantar</text>
 	</string>
 
 
 <string id="lvl3_agroprom_level_changer">
-		<text>На Свалку</text>
+		<text>To the Garbage</text>
 	</string>
 
 <string id="lvl3_agroprom_level_changer_0000">
-		<text>На Свалку</text>
+		<text>To the Garbage</text>
 	</string>
 
 <string id="lvl2_garbage_level_changer_0001">
-		<text>В Тёмную долину</text>
+		<text>To the Dark Valley</text>
 	</string>
 
 <string id="lvl2_garbage_level_changer_0004">
-		<text>В Тёмную долину</text>
+		<text>To the Dark Valley</text>
 	</string>
 
 <string id="lvl2_garbage_level_changer_0003">
-		<text>В бар "Сталкер"</text>
+		<text>To the Stalker bar</text>
 	</string>
 
 <string id="lvl2_garbage_level_changer_0000">
-		<text>На НИИ "МедПрибор"</text>
+		<text>To MedPribor Research Institute</text>
 	</string>
 
 <string id="lvl2_garbage_level_changer_0002">
-		<text>На НИИ "МедПрибор"</text>
+		<text>To MedPribor Research Institute</text>
 	</string>
 
 <string id="lvl2_garbage_level_changer">
-		<text>На Кордон</text>
+		<text>To the Cordon</text>
 	</string>
 
 <string id="lvl1_escape_level_changer">
-		<text>На Свалку</text>
+		<text>To the Garbage</text>
 	</string>
 
 <string id="esc_kv_atr_1">
@@ -788,7 +788,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 <string id="neutral">
-		<text>Сталкер</text>
+		<text>Stalker</text>
 	</string>
 
 <string id="caes_barman">
@@ -853,7 +853,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 	<string id="gen_find_exit_lab_d_name">
-		<text>Найти вход в лабораторию.</text>
+		<text>Найти вход To the lab.</text>
 	</string>
 	<string id="gen_find_exit_lab_d_text">
 		<text>Где-то на территории Генераторов располагается главная лаборатория "О-Сознания". Нужно отыскать вход в эту лабораторию.</text>
@@ -896,286 +896,286 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 	<string id="actor">
-		<text>Одиночка</text>
+		<text>Loner</text>
 	</string>
 	<string id="actor_dolg">
-		<text>Долг</text>
+		<text>Duty</text>
 	</string>
 	<string id="actor_freedom">
-		<text>Свобода</text>
+		<text>Freedom</text>
 	</string>
 	<string id="arena_enemy">
-		<text>Противник</text>
+		<text>Enemy</text>
 	</string>
 	<string id="bad">
-		<text>плохо</text>
+		<text>bad</text>
 	</string>
 	<string id="bandit">
-		<text>Бандит</text>
+		<text>Bandit</text>
 	</string>
 	<string id="Bio">
-		<text>Биографии</text>
+		<text>Biography</text>
 	</string>
 	<string id="dolg">
-		<text>Долг</text>
+		<text>Duty</text>
 	</string>
 	<string id="ecolog">
-		<text>Эколог</text>
+		<text>Ecologist</text>
 	</string>
 	<string id="stranger">
-		<text>Неизвестный</text>
+		<text>Stranger</text>
 	</string>
 	<string id="enemy">
-		<text>враг</text>
+		<text>enemy</text>
 	</string>
 	<string id="excellent">
-		<text>отлично</text>
+		<text>excellent</text>
 	</string>
 	<string id="exo_outfit_name_m1">
-		<text>Экзоскелет ПНБ-4УЗ</text>
+		<text>Exoskeleton PNB-4UZ</text>
 	</string>
 	<string id="experienced">
-		<text>опытный</text>
+		<text>Experienced</text>
 	</string>
 	<string id="Found_PDA">
-		<text>Электронные носители</text>
+		<text>Found PDA</text>
 	</string>
 	<string id="freedom">
-		<text>Свобода</text>
+		<text>Freedom</text>
 	</string>
 	<string id="friendly">
-		<text>друг</text>
+		<text>friend</text>
 	</string>
 	<string id="good">
-		<text>хорошо</text>
+		<text>good</text>
 	</string>
 	<string id="indifferent">
-		<text>нейтрал</text>
+		<text>neutral</text>
 	</string>
 	<string id="killer">
-		<text>Убийца</text>
+		<text>Merc</text>
 	</string>
 	<string id="lvl1_escape">
-		<text>Кордон</text>
+		<text>Cordon</text>
 	</string>
 	<string id="lvl2_garbage">
-		<text>Свалка</text>
+		<text>Garbage</text>
 	</string>
 	<string id="lvl3_agroprom">
-		<text>НИИ "МедПрибор"</text>
+		<text>MedPribor Research Institute</text>
 	</string>
 	<string id="lvl4_darkdolina">
-		<text>Тёмная долина</text>
+		<text>Dark Valley</text>
 	</string>
 	<string id="lvl5_bar">
-		<text>Бар "Сталкер"</text>
+		<text>Stalker bar</text>
 	</string>
 	<string id="lvl6_rostok">
-		<text>Завод "Росток"</text>
+		<text>"Rostok" factory</text>
 	</string>
 	<string id="lvl9_military">
-		<text>Тихие холмы</text>
+		<text>Silent Hills</text>
 	</string>
 	<string id="lvl7_yantar">
-		<text>Озеро Янтарь</text>
+		<text>Lake Yantar</text>
 	</string>
 	<string id="lvl11_deadcity">
-		<text>Светлый луч</text>
+		<text>Shining Path</text>
 	</string>
 	<string id="lvl10_radar">
-		<text>Радар</text>
+		<text>Red forest</text>
 	</string>
 	<string id="lvl12_radar_bunker">
-		<text>Секретная лаборатория</text>
+		<text>Secret lab</text>
 	</string>
 	<string id="lvl13_prip">
-		<text>Припять</text>
+		<text>Pripyat</text>
 	</string>
 	<string id="lvl14_stancia">
-		<text>ЧАЭС</text>
+		<text>Chernobyl NPP</text>
 	</string>
 	<string id="lvl8_swamp">
-		<text>Болота</text>
+		<text>Swamps</text>
 	</string>
 	<string id="lvl16_generators">
-		<text>Генераторы</text>
+		<text>Generators</text>
 	</string>
 	<string id="lvl17_warlab">
-		<text>Военная лаборатория</text>
+		<text>Monolith War Lab</text>
 	</string>
 	<string id="master">
-		<text>мастер</text>
+		<text>expert</text>
 	</string>
 	<string id="military">
-		<text>Военный</text>
+		<text>Military</text>
 	</string>
 	<string id="monolith">
-		<text>Монолит</text>
+		<text>Monolith</text>
 	</string>
 	<string id="neutral">
-		<text>нейтрал</text>
+		<text>neutral</text>
 	</string>
 	<string id="deadbody">
-		<text>труп</text>
+		<text>body</text>
 	</string>
 	<string id="novice">
-		<text>новичок</text>
+		<text>Rookie</text>
 	</string>
 	<string id="st_no_active_task">
-		<text>Нет активного задания</text>
+		<text>No active task</text>
 	</string>
 	<string id="st_time_till_surge">
-		<text>Таймер выброса</text>
+		<text>Blowout timer</text>
 	</string>
 	<string id="stalker">
-		<text>Одиночка</text>
+		<text>Loner</text>
 	</string>
 	<string id="terrible">
-		<text>ужасно</text>
+		<text>terrible</text>
 	</string>
 	<string id="trader">
-		<text>Торговец</text>
+		<text>Trader</text>
 	</string>
 	<string id="ui_st_community">
-		<text>группа</text>
+		<text>group</text>
 	</string>
 	<string id="ui_st_price">
-		<text>Цена</text>
+		<text>Price</text>
 	</string>
 	<string id="ui_st_rank">
-		<text>ранг</text>
+		<text>rank</text>
 	</string>
 	<string id="ui_st_relation">
-		<text>отношение</text>
+		<text>attitude</text>
 	</string>
 	<string id="ui_st_reputation">
-		<text>репутация</text>
+		<text>reputation</text>
 	</string>
 	<string id="very_bad">
-		<text>оч. плохо</text>
+		<text>Very bad</text>
 	</string>
 	<string id="very_good">
-		<text>оч. хорошо</text>
+		<text>very good</text>
 	</string>
 	<string id="veteran">
-		<text>ветеран</text>
+		<text>veteran</text>
 	</string>
 	<string id="zombied">
-		<text>зомби</text>
+		<text>Zombified</text>
 	</string>
 	<string id="Btn_Cancel">
-		<text>Отменить</text>
+		<text>Cancel</text>
 	</string>
 	<string id="Btn_No">
-		<text>Нет</text>
+		<text>No</text>
 	</string>
 	<string id="Btn_OK">
 		<text>OK</text>
 	</string>
 	<string id="Btn_Yes">
-		<text>Да</text>
+		<text>Yes</text>
 	</string>
 	<string id="global_map">
-		<text>Карта Зоны</text>
+		<text>Map of the Zone</text>
 	</string>
 	<string id="st_autosave">
-		<text>Автосохранение...</text>
+		<text>Autosave</text>
 	</string>
 	<string id="st_game_over">
-		<text>Игра окончена</text>
+		<text>Game over</text>
 	</string>
 	<string id="st_item_used">
-		<text>Использовано</text>
+		<text>Used</text>
 	</string>
 	<string id="st_not_enough_money">
-		<text>Недостаточно денег</text>
+		<text>Not enough money</text>
 	</string>
 	<string id="st_not_enough_money_npc">
-		<text>У НПС недостаточно денег</text>
+		<text>The NPC does not have enough money</text>
 	</string>
 	<string id="ui_st_opponent_items">
-		<text>Рюкзак</text>
+		<text>Backpack</text>
 	</string>
 	<string id="st_search_treasure">
-		<text>Обыскать($$ACTION_USE$$)</text>
+		<text>Search ($$ACTION_USE$$)</text>
 	</string>
 	<string id="inventory_item_use">
-		<text>Поднять предмет ($$ACTION_USE$$)</text>
+		<text>Pick up item ($$ACTION_USE$$)</text>
 	</string>
 	<string id="ui_mm_check_updates">
-		<text>Обновления</text>
+		<text>Game updates</text>
 	</string>
 	<string id="ui_mm_alternative">
-		<text>Альтернатива</text>
+		<text>Alternative</text>
 	</string>
 	<string id="ui_inv_health">
-		<text>Здоровье</text>
+		<text>Health</text>
 	</string>
 	<string id="ui_inv_radiation">
-		<text>Радиация</text>
+		<text>Radiation</text>
 	</string>
 	<string id="ui_inv_satiety">
-		<text>Голод</text>
+		<text>Hunger</text>
 	</string>
 	<string id="ui_inv_power">
-		<text>Энергия</text>
+		<text>Energy</text>
 	</string>
 	<string id="ui_inv_bleeding">
-		<text>Кровотечение</text>
+		<text>Bleeding</text>
 	</string>
 	<string id="st_detail_list_for_foo">
-		<text>Детальный список статистики.</text>
+		<text>Detailed list of statistics.</text>
 	</string>
 	<string id="st_mp_say_to_all">
-		<text>Всем</text>
+		<text>To all</text>
 	</string>
 	<string id="st_mp_say_to_team">
-		<text>Команде</text>
+		<text>To team</text>
 	</string>
 	<string id="st_knife">
-		<text>Нож</text>
+		<text>Knife</text>
 	</string>
 	<string id="st_mp_disabled_voting">
-		<text>Голосование недоступно на этом сервере.</text>
+		<text>Voting is not available on this server.</text>
 	</string>
 	<string id="st_mp_no_current_voting">
-		<text>Сейчас нет активных голосований.</text>
+		<text>No active votings.</text>
 	</string>
 	<string id="st_mp_ready">
-		<text>готов</text>
+		<text>ready</text>
 	</string>
 	<string id="st_mp_voting_succeed">
-		<text>Голосование прошло успешно!</text>
+		<text>Voting succeeded!</text>
 	</string>
 	<string id="st_mp_voting_failed">
-		<text>Голосование провалено!</text>
+		<text>Voting failed!</text>
 	</string>
 	<string id="l03u_agr_underground">
-		<text>Подземелья "МедПрибора"</text>
+		<text>Agroprom Underground</text>
 	</string>
-	<string id="lvl4u_darklab">
-		<text>Нет данных</text>
+	<string id="l04u_labx18">
+		<text>Lab X-18</text>
 	</string>
 	<string id="l08u_brainlab">
-		<text>Лаборатория X-16</text>
+		<text>Lab X-16</text>
 	</string>
-	<string id="lvl12_radar_bunker">
-		<text>Бункер Радара</text>
+	<string id="l10u_bunker">
+		<text>Lab X-10</text>
 	</string>
-	<string id="lvl15_sarcofag">
-		<text>Саркофаг</text>
+	<string id="l12u_sarcofag">
+		<text>Sarcophagus</text>
 	</string>
 	<string id="l12u_control_monolith">
-		<text>Бункер управления</text>
+		<text>Monolith control</text>
 	</string>
 	<string id="anomaly_zone">
-		<text>Аномальная зона</text>
+		<text>Anomalous zone</text>
 	</string>
 	<string id="radioactive_zone">
-		<text>Радиоактивная зона</text>
+		<text>Radioactive zone</text>
 	</string>
         <string id="sky">
-		<text>Чистое Небо</text>
+		<text>Clear Sky</text>
 	</string>
 
 	<string id="aes_sergeant_diallog_0">
@@ -1316,7 +1316,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 	<string id="jornal_3_description_olr">
-		<text>Документы с НИИ "МедПрибор" ч.2. Вторая часть из двух. Отчет об исследовательских работах НИИ "Медприбор". Отчет о передаче био-отходов на свалку. Список материалов необходимых для испытаний. Перечисление исследовательских корпусов, которые находились до катастрофы на территории закрытой зоны. Описание, чем занимались, количество персонала и т.д. Отчет о совместном с психотронной лабораторией эксперименте. Документы об эвакуации сотрудников НИИ во время катастрофы. Cодержит отсылку к ангару на Свалке. Коллекторы. Сточные трубы подземелья.</text>
+		<text>Документы с НИИ "МедПрибор" ч.2. Вторая часть из двух. Отчет об исследовательских работах НИИ "Медприбор". Отчет о передаче био-отходов To the Garbage. Список материалов необходимых для испытаний. Перечисление исследовательских корпусов, которые находились до катастрофы на территории закрытой зоны. Описание, чем занимались, количество персонала и т.д. Отчет о совместном с психотронной лабораторией эксперименте. Документы об эвакуации сотрудников НИИ во время катастрофы. Cодержит отсылку к ангару на Свалке. Коллекторы. Сточные трубы подземелья.</text>
 	</string>
 
 

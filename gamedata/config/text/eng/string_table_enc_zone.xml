@@ -3,23 +3,23 @@
 
 
 	<string id="Zone">
-		<text>"Зона"</text>
+		<text>"Zone"</text>
 	</string>
 
 	<string id="Zone/Anomalies">
-		<text>Зона/Аномалии</text>
+		<text>Zone/Anomalies</text>
 	</string>
 
 	<string id="Zone/Locations">
-		<text>Зона/Локации</text>
+		<text>Zone/Locations</text>
 	</string>
 
 	<string id="Zone/Artifacts">
-		<text>Зона/Артефакты</text>
+		<text>Zone/Artifacts</text>
 	</string>
 
 	<string id="Zone/Zone-story">
-		<text>Зона/История Зоны</text>
+		<text>Zone/Story of the Zone</text>
 	</string>
 
 	<string id="af-ameba-mica">
@@ -47,7 +47,7 @@
 		<text>"Дезинтегратор"</text>
 	</string>
 	<string id="af-dummy-dummy">
-		<text>"Пустышка"</text>
+		<text>Shell</text>
 	</string>
 	<string id="af-dummy-glassbeads">
 		<text>"Мёртвая голова"</text>
@@ -107,187 +107,187 @@
 		<text>НИИ "МедПрибор"</text>
 	</string>
 	<string id="Ameba">
-		<text>"Холодец"</text>
+		<text>Fruit punch</text>
 	</string>
 	<string id="Anomalies">
-		<text>Аномалии</text>
+		<text>Anomalies</text>
 	</string>
 	<string id="Artifacts">
-		<text>Артефакты</text>
+		<text>Artifacts</text>
 	</string>
 	<string id="Bald">
-		<text>"Трамплин"</text>
+		<text>Springboard</text>
 	</string>
 	<string id="Bar">
-		<text>Бар</text>
+		<text>Bar</text>
 	</string>
 	<string id="Darkdolina">
-		<text>Тёмная долина</text>
+		<text>Dark Valley</text>
 	</string>
 	<string id="Deadcity">
-		<text>Удалено</text>
+		<text>Erased</text>
 	</string>
 	<string id="Electra">
-		<text>"Электра"</text>
+		<text>Electro</text>
 	</string>
 	<string id="enc_weapons1_wpn-winchester_m1">
-		<text>Модификация Чейзера. В подствольную ёмкость для патронов был встроен небольшой фрагмент артефакта "Грави", ориентированный таким образом, чтобы увеличивать скорость полета пули.</text>
+		<text>Variation of the Chaser. A small fragment of the artifact "Gravi" was built into the barrell, positioned in such a way as to increase the speed of the bullet's flight.</text>
 	</string>
 	<string id="enc_zone_anomalies_ameba">
-		<text>Образование не ясной до конца природы. При контакте с телом наносит травмы, сходные с эффектом воздействия сильной кислоты. Образует три вида артефактов: «Слизь», «Слизняка», «Слюду».</text>
+		<text>An anomaly of unknown nature. On contact inflicts injuries similar to the effects of a strong acid. Forms three types of artifacts: Slime, Slug, and Mica.</text>
 	</string>
 	<string id="enc_zone_anomalies_bald">
-		<text>Одна из первых зафиксированных аномалий. Наносит ударные повреждения переменным гравитационным полем. На одном месте находится в среднем неделю, в течение «жизни» меняя силу воздействия. Результат встречи с "трамплином" может быть разным - от небольших синяков и ушибов до мгновенной смерти. В дневное время достаточно легко обнаруживается по искажениям воздуха над ней, кружащейся листве, а также характерным пятнам на земле красно-бурого цвета. Фиксируется любыми видами детекторов, а также с помощью подброшенных в неё различных предметов. Образует три вида артефактов: «Медузу», «Каменный цветок» и «Ночную звезду».</text>
+		<text>One of the first anomalies ever recorded - an unstable gravitational field inflicting shock damage to anyone within its radius. Remains active for a week on average. The amount of damage inflicted changes during its lifetime, ranging from minor bruises, through serious wounds, to instant death. Easy to spot in daylight. Accompanied by air fluctuation above the anomaly, dancing leaves and distinctive crimson-colored stains on the ground. Picked up by all types of detectors, the Springboard can also be revealed by throwing objects into it. Forms three types of artifacts: Jellyfish, Stone Flower and Night Star.</text>
 	</string>
 	<string id="enc_zone_anomalies_electra">
-		<text>Аномальное образование диаметром около 10 метров, накапливающее статическое электричество. Потревоженная аномалия взрывается десятком мини-молний, причём поражение током для любого живого существа почти всегда смертельно. Характерной особенностью "электры" является видимый над ней днём голубоватый туман. Ночью легко обнаруживается любыми видами детекторов или с помощью бросания металлических предметов. Образует три вида артефактов: «Бенгальский огонь», «Вспышку» и «Лунный свет».</text>
+		<text>An anomalous formation, roughly 10 meters in diameter, accumulating large quantities of static electricity. When triggered, the anomaly bursts out in dozens of miniature lightnings, causing electric shock nearly always lethal to all living beings. Recognizable by the bluish fog hovering above it in daylight. At nighttime, the Electro can be revealed using any type of detector or by throwing metal objects into the anomaly. Forms three types of artifacts: Sparkler, Flash and Moonlight.</text>
 	</string>
 	<string id="enc_zone_anomalies_fuzz">
-		<text>Аномально видоизменившаяся растительность. При быстром приближении живого существа выбрасывает облачко частиц, которые в случае контакта с открытой или слабо защищённой кожей серьёзно травмируют последнюю. На медленно движущиеся объекты не реагирует. Образует три вида артефактов (возможно, это семена): «Колючку», «Кристальную колючку», «Морского ежа».</text>
+		<text>One of the Zone's examples of mutated vegetation. Reacts to rapidly approaching living beings by discharging a cloud of projectiles severely injuring uncovered or lightly protected skin upon contact. Does not react to slowly moving targets. Forms three types of artifacts (possibly its seeds): Thorn, Crystal Thorn and Urchin.</text>
 	</string>
 	<string id="enc_zone_anomalies_gravi">
-		<text>Аномалия предположительно гравитационной природы. В момент активизации со страшной силой втягивает в себя всё, что находится в радиусе 10-15 метров. При попадании в центр "воронки" шансов выжить нет: тело и животного, и человека будет сжато в плотный комок, а затем разорвано в момент так называемой разрядки. В течение всего периода существования - в среднем это около недели - аномалия не меняет места своего проявления; может быть визуально обнаружена днём по характерному движению воздуха над ней, кружащейся листве, фрагментам расчленённых трупов и характерному тёмному пятну на земле в центре. Ночью крайне опасна, поскольку обнаруживается лишь детекторами или с помощью бросания металлических предметов. Образует три вида артефактов: «Выверт», «Грави» и «Золотую рыбку».</text>
+		<text>An anomaly of presumably gravitational nature. When triggered, the tremendous power of the Vortex drags everything within the radius of 10-15 meters towards center. Victims drawn into the core have no chance of survival: their bodies are quickly constricted into a tight lump, only to be blown up in a powerful discharge of energy a moment later. The anomaly remains stationary throughout its lifetime (a week on average). Easily recognizable in daylight by the air fluctuation above, dancing leaves, fragments of dismembered corpses lying around and a distinctive dark stain in the center. Highly dangerous at night since it can be revealed only by means of a detector or by throwing metal objects into it. Forms three types of artifacts: Wrenched, Gravi and Goldfish.</text>
 	</string>
 	<string id="enc_zone_anomalies_lift">
-		<text>Безвредная для здоровья гравитационная аномалия, позволяющая на некоторое время забыть о законах тяготения. В локальном объеме диаметром в несколько метров земное притяжения значительно снижено. Образует артефакт «Плёнка».</text>
+		<text>A harmless anomaly, temporarily negating normal gravity. Manifests itself as an area - usually several meters in diameter - where Earth's gravitational pull is greatly reduced. Forms the Pellicle artifact.</text>
 	</string>
 	<string id="enc_zone_anomalies_meat">
-		<text>Название обусловлено эффектом поднятия в воздух любого живого существа с последующей раскруткой до огромной скорости. Природа "карусели" пока не исследована до конца. Обнаруживается по лёгкому пылевому вихрю и разбросанным фрагментам тел вокруг. Очень важно не упустить момент начала втягивания в аномальный вихрь и не попасть в зону максимально сильного эффекта в центре - только тогда есть шанс отделаться минимальными травмами. Образует три вида артефактов: «Кровь камня», «Ломоть мяса» и «Душу».</text>
+		<text>The anomaly snatches its victims up in the air and spins them at a breakneck speed. The exact nature of the Whirligig remains unknown. The anomaly can be recognized by a light whirlwind of dust above and by body fragments scattered in the vicinity. Victims caught on its outer rim - far enough from the maximum effect zone at the center - can escape the Whirligig with relatively minor injuries. Forms three types of artifacts: Stone Blood, Meat chunk and Soul.</text>
 	</string>
 	<string id="enc_zone_anomalies_radioactive">
-		<text>Зона повышенного уровня - более 50 мкР/ч - радиации. Необходимо избегать длительного нахождения в подобных местах.</text>
+		<text>An area of increased radiation - over 50 mR/h. Staying in a radiation zone for longer periods of time is strongly discouraged.</text>
 	</string>
 	<string id="enc_zone_anomalies_time">
-		<text>Аномалию, которую по праву можно назвать маленьким чудом: в объёме диаметром в несколько метров течение времени многократно замедляется. Отрицательного воздействия на здоровье, судя по всему, не оказывает, но выбраться из неё нелегко. Интересно, что в центре "машины времени" обычно находится артефакт "Мамины бусы", при изъятии которого аномалия прекращает своё существование.</text>
+		<text>A true miracle of an anomaly: an area several meters in diameter where the time flow is significantly slower than usual. Appears to have no negative effect on human health. However, the Time Machine can be very difficult to get out of. Interestingly, removing Mama's Beads - an artifact usually found in the center of the anomaly - causes the Time Machine to disappear.</text>
 	</string>
 	<string id="enc_zone_anomalies_zharka">
-		<text>В неактивном состоянии выглядит как едва видимое облако горячего воздуха, однако при попадании в зону действия любого предмета или живого существа образует компактную зону, разогретую до температуры около 1500К. Ночью может быть обнаружена только мощными детекторами или с помощью бросания металлических предметов. Образует три вида артефактов: «Капли», «Огненный шар» и «Кристалл».</text>
+		<text>While inactive, the anomaly manifests itself as a barely visible cloud of hot air. When triggered by an object or a living being it instantly heats up to lethal temperatures approaching 1500K. At nighttime, it can be revealed by powerful detectors or by throwing metal objects into the trigger area. Forms three types of artifacts: Droplets, Fireball and Crystal.</text>
 	</string>
 	<string id="enc_zone_artifact_af-ameba-mica">
-		<text>Состоит из жидкого металла аномального происхождения. Образуется после Выброса, держится недолго, после чего испаряется.</text>
+		<text>Anomaly “Fruit punch” is able to create such an artifact at the rarest, most extreme collection of physical conditions. The result is a semi-transparent, hard object. A rare and expensive artifact.</text>
 	</string>
 	<string id="enc_zone_artifact_af-ameba-slime">
-		<text>Дешёвые артефакты в виде металлических обломков и строительного мусора. Полезных свойств не имеет. Интересны исследователям только для замеров радиации.</text>
+		<text>It is certain that this artifact is created by the anomaly called "Fruit punch". When carried on the best, the wounds bleed less, although the body of its owner becomes more vulnerable to various burns.</text>
 	</string>
 	<string id="enc_zone_artifact_af-ameba-slug">
-		<text>Дешёвые артефакты в виде металлических обломков и строительного мусора. Полезных свойств не имеет. Интересны исследователям только для замеров радиации.</text>
+		<text>Formed by the "Fruit punch" anomaly. The negative qualities of this artifact are compensated by the fact that it heightens the coagulation quality of blood. It’s not often that one runs into such an artifact, and they pay well for it too.</text>
 	</string>
 	<string id="enc_zone_artifact_af-blood">
-		<text>Уникальный артефакт. Результат взаимодействия «Чёрной колючки» и «Мясорубки». Редко появляется в скоплениях аномалий.</text>
+		<text>You can find this artifact near the anomaly “Whirligig”. It is quite an ugly reddish object made out of pressed together and curiously bent polymerized remnants of plants, soil, and bones. Quite widespread and not very effective.</text>
 	</string>
 	<string id="enc_zone_artifact_af-cristall">
-		<text>Появляется в скоплениях аномалий. Защита от потери сознания, восстановление сил, экранируют от пси-воздействий.</text>
+		<text>Is created when heavy metals fall into the Burner anomaly. This artifact eliminates radiation wonderfully. It is highly valued by stalkers and hard to find.</text>
 	</string>
 	<string id="enc_zone_artifact_af-cristall-flower">
-		<text>Рождается в аномалии «Трамплин». Такой артефакт можно найти в немногих участках Зоны. Вкрапления металлических соединений дают красивую игру света. Рассматривание этого артефакта в свете костра ночью замечательно успокаивает.</text>
+		<text>Born in the Springboard anomaly. This artifact is found in only a few areas of the Zone. The bits of metallic compounds create a beautiful light play. It is very calming to study this artifact at night by the fire.</text>
 	</string>
 	<string id="enc_zone_artifact_af-drops">
-		<text>Формируется аномалией «Жарка» при высоких температурах. Внешне выглядит как почерневшее каплевидное образование с глянцевой поверхностью, покрытое трещинами.</text>
+		<text>Formed in the anomaly “Burner” at high temperatures. From the exterior looks like a tear-like shade compound with a glossy surface, covered in cracks.</text>
 	</string>
 	<string id="enc_zone_artifact_af-dummy-battery">
-		<text>Супер-артефакт электро-магнитной природы. Направленное поле дезинтеграции. Происхождение этой вещи окутано завесой научной тайны. Понятно, что в его состав входят диэлектрические элементы, но при каких физических условиях он формируется - науке не известно. Позволяет переносить дополнительные 4 килогамма веса.</text>
+		<text>The origin of this object is shrouded in scientific mystery. It’s clear that it’s made in part by di-electric elements, but science does not know the physical conditions in which it is formed.</text>
 	</string>
 	<string id="enc_zone_artifact_af-dummy-dummy">
-		<text>При ношении этого артефакта денатурализация белков проходит медленнее. Другими словами, плоть устойчивее к высоким температурам и меньше обгорает. Сама по себе, это дорогая и редкостная вещь.</text>
+		<text>When wearing this artifact the denaturalization of proteins happens slower. In other words, the flesh is able to endure higher temperatures and burns less. In itself it is an expensive and rare thing.</text>
 	</string>
 	<string id="enc_zone_artifact_af-dummy-glassbeads">
-		<text>Супер-артефакт второго уровня. Появляется в скоплениях аномалий. Уровень аномальной энергетики: очень высокий. Стоимость: очень высокая. Распространённость: очень низкая.</text>
+		<text>Wonderful artifact. Keep it safe - it's good because it only has positive qualities. Scientists can't figure out how to create such an artifact in laboratory conditions.</text>
 	</string>
 	<string id="enc_zone_artifact_af-dummy-pellicle">
-		<text>Этот артефакт настолько редок, что многие исследователи даже не догадываются, что такая субстанция может существовать в естественных условиях. Отторгает едкие химические компоненты.</text>
+		<text>This artifact is so rare that many researchers can't even imagine that such a substance can exist in a natural setting. Emmits acidic chemical components.</text>
 	</string>
 	<string id="enc_zone_artifact_af-dummy-spring">
-		<text>Суперартефакт с нестабильной гравитацией. Метательный объект после удара об пол или препятствие "выстреливается" в живое тело. После попадания "выстреливается" в следующее живое тело, до тех пор, пока не упадет или не ударится о неживой объект. После чего артефакт можно будет поднять.</text>
+		<text>According to the opinion of some researchers-theorists, this artifact is a hybrid between Batteries and Shell.</text>
 	</string>
 	<string id="enc_zone_artifact_af-electra-flash">
-		<text>Крупный летающий пух, при попадании на тело оставляет тяжелые ожоги. Скапливается в низинах, ямах и впадинах. При ветре или взрыве поднимается в воздух. Сыпется из нароста «жгучего пуха».</text>
+		<text>"Electro" sometimes births this artifact. Stalkers readily use it because of its good qualities. Not a bad price and a good external look make this artifact appealing to collectors.</text>
 	</string>
 	<string id="enc_zone_artifact_af-electra-moonlight">
-		<text>Вырожденный случай активности аномалии «Электра». Видимо, такую замечательную округлую форму можно получить, если подвергнуть аномалию термовоздействию. Дорогой артефакт.</text>
+		<text>Degenerate case of the activity of the Electro anomaly. It seems that such a wonderful round form is created when the anomaly is subjected to thermal influences. Expensive artifact.</text>
 	</string>
 	<string id="enc_zone_artifact_af-electra-sparkler">
-		<text>Находится около аномалий типа «Электра». Довольно распространенный и недорогой артефакт. Тем не менее, ценится среди исследователей Зоны за его свойства.</text>
+		<text>Found near the Electro type of anomaly. Quite widespread and inexpensive artifact. But still it is valued among the researchers in the Zone for its qualities.</text>
 	</string>
 	<string id="enc_zone_artifact_af-fireball">
-		<text>Артефакт термического происхождения. Прозрачная переливающаяся сфера.</text>
+		<text>Crystallizes in the anomaly Burner. Fights well with radioactivity, though the heightened rate of energy exchange wears out the muscles of the moving apparatus. Won't be able to run for long. Artifact emmits heat.</text>
 	</string>
 	<string id="enc_zone_artifact_af-fuzz-kolobok">
-		<text>Когда держишь эту загадку Зоны в руках, чувствуешь, как кожа грубеет и становится менее чувствительной. Пробить пулей ее всё ещё легко, а вот порезать - гораздо сложнее.</text>
+		<text>When you hold this mystery of the Zone in your hands, you feel how your skin becomes tougher and less sensitive. You can still shoot through it with a bullet, but it's much more difficult to cut through.</text>
 	</string>
 	<string id="enc_zone_artifact_af-gold-fish">
-		<text>Порождается аномалией «Воронка». Элементарный артефакт с направленной магнитно-гравитационной аномалией. Позволяет переносить дополнительные 12 кг.</text>
+		<text>An artifact formed in the Vortex anomaly. Is activated by the heat of the body. Decide what's worse: radiation or knife wounds, and chose the lesser of the two evils. In any case you can sell the artifact for good profit.</text>
 	</string>
 	<string id="enc_zone_artifact_af-gravi">
-		<text>Элементарный артефакт с направленной магнитно-гравитационной аномалией. Имеет разновидность с более выраженными аномальными свойствами - «Сильный гравитационный артефакт». Позволяет переносить дополнительные 8 килогамм веса.</text>
+		<text>Can spot it near anomalies such as "Vortex" or in the hands of another stalker. While wearing it a certain amount of radiation is stored in the body while the rest of it is scattered in the radial direction away from the body. A good price.</text>
 	</string>
 	<string id="enc_zone_artifact_af-medusa">
-		<text>Элементарный артефакт гравитационной природы. Имеет форму тора, чем и объясняется его название. Известно, как минимум, две разновидности этого артефакта - обычный и «Стеклянный бублик».</text>
+		<text>Is formed in the Springboard. Forms a weak protective field whose side effect is a slight radiation. The artifact is widespread and notvery valuable.</text>
 	</string>
 	<string id="enc_zone_artifact_af-mincer-meat">
-		<text>Элементарный артефакт органической природы. Пучок жестких волокон лишайника грязно-ржавого цвета. Полезных свойств не имеет. Объект продажи.</text>
+		<text>Manufactured by the Whirligig anomaly. Causes increased cell growth. On the other hand, the newly formed cells are much more receptive to the effects of physical uranium. The artifact doesn't show up very often, but it's hard to call it rare.</text>
 	</string>
 	<string id="enc_zone_artifact_af-night-star">
-		<text>Различный металлический хлам, долгое время провалявшийся в гравитационных аномалиях, приобрёл способность создавать направленное магнитное поле высокой интенсивности. Данный экземпляр представляет собой обломок зубчатого вала редуктора.</text>
+		<text>This wonderful artifact is formed by the anomaly Springboard. The use of the artifact demands the neutralization of deadly radiation. Expensive and rare, this artifact is extremely interesting for scientific expeditions and other research activity in the Zone.</text>
 	</string>
 	<string id="enc_zone_artifact_af-rusty-kristall">
-		<text>Кристаллизируется в аномалии «Жгучий пух». Выводит радиацию из организма естественным путем. То есть, через уши вместе с некоторым количеством крови. Возможна потеря крови и через другие отверстия. Попадается нечасто и довольно эффективен, чем заслужил себе стабильную цену на рынке артефактов.</text>
+		<text>Crystallizes in the anomaly Burnt Fuzz. Naturally takes out the radiation from the organism. That is, through the ears along with some amount of blood. Blood loss is possible also through over openings. Widespread and quite effective, which is the cause for the stable pricein the artifact market.</text>
 	</string>
 	<string id="enc_zone_artifact_af-rusty-sea-urchin">
-		<text>Аномалия «Жгучий пух» очень редко порождает такой артефакт. Повышается кровяное давление, организм избавляется от большого количества красных кровяных телец. Временно экранируют от пси-воздействий, слепые псы «теряют след».</text>
+		<text>The anomaly Burnt Fuzz very rarely gives rise to this artifact. Blood pressure rises, the body gets rid of a large amount of red blood cells. Temporarily shields from psy-effects. Blind dogs "lose track."</text>
 	</string>
 	<string id="enc_zone_artifact_af-rusty-thorn">
-		<text>Результат взаимодействия аномалии «Жгучий пух» и тела невнимательного сталкера. Шипастый артефакт колет тело владельца, как бы его не крепить. Но он же помогает очищению организма от радионуклидов. Довольно распространенный и дешевый.</text>
+		<text>The result of the interaction between the anomaly Burnt Fuzz and the body of a careless stalker. The Thorn artifact pokes the body of its owner, no matter what. But it also helps clean the body of radionucliodes. Quite widespread and cheap.</text>
 	</string>
 	<string id="enc_zone_artifact_af-soul">
-		<text>Очень редко попадается рядом с аномалиями «Карусель». Найти такой артефакт удается лишь единицам, и мало кто его вообще видел. Он имеет приятную форму и не менее приятную цену.</text>
+		<text>Very rarely found artifact, located near the Whirligig anomaly. Only a very few manage to find this artifact, and few have even seen it. It has a nice shape and an equally nice price.</text>
 	</string>
 	<string id="enc_zone_artifact_af-vyvert">
-		<text>Находится около аномалий типа «Воронка». При контакте с телом распространяет направленное излучение, повышающее выносливость. Такой артефакт найти не сложно, потому и деньги за него дают небольшие. Позволяет переносить дополнительные 4 килогамма веса.</text>
+		<text>Located in the anomaly called "Vortex". When it touches the body it disseminates the directed of the radiation, protecting from scratches or wounds made by weapons. This artifact isn't hard to find, that's why they don't pay much for it.</text>
 	</string>
 	<string id="enc_zone_locations_agroprom">
-		<text>Странная местность. Если углубиться в неё, то выйдешь на сильно загрязнённую радиацией равнину. Расположенное там мелкое озеро до краёв забито обломками техники. Ещё можно посетить старый институт и фабрику, однако в последнее время там что-то слишком часто стали мелькать военные.</text>
+		<text>A strange, heavily contaminated area. Should you wander deeper into it, you will see a shallow lake, crammed shore-to-shore with abandoned equipment and other debris. You can also check out the abandoned Institute and the factory, though the military have been hanging around there quite a lot recently.</text>
 	</string>
 	<string id="enc_zone_locations_bar">
-		<text>Группировка "Долг" расчистила на окраине этой "Дикой территории" местечко себе под базу и позволяет сталкерам здесь отдохнуть. Своего рода оазис. Есть здание универмага, в котором разместился бар "Сталкер": в нём собираются сталкеры со всей Зоны. Заправляет в баре местный торговец, так что, здесь можно не только пообщаться, но и продать-купить почти всё, что угодно. На север от бара находится военная база, на юг - Свалка.</text>
+		<text>The Duty faction have set up camp on the plain's edge and they always welcome stalkers in need of rest. A desert oasis of sorts - a place completely devoid of anomalies and mutants. Be sure to check out the 100 Rads bar in the vaults - it's a meeting point for stalkers from all over the Zone. The bar is run by the local trader, so if you're interested in selling or buying wares apart from the local gossip - that's the place to go to. North of the bar is the military base, with the Garbage to the South.</text>
 	</string>
 	<string id="enc_zone_locations_darkdolina">
-		<text>Здесь всегда мрачно и туманно, часто идёт дождь. В Тёмной долине можно разжиться неплохими артефактами, а можно и быстро распрощаться с жизнью. Здесь много матёрых сталкеров - они пришли сюда за ценными артефактами; есть и бандиты. Можно поискать вход в расположенную где-то здесь подземную лабораторию, только оттуда никто не возвращался, и что такое там прячется, никому как следует не известно.</text>
+		<text>Always gloomy, always misty and always rainy. Stalkers venturing into the Dark Valley are likely to find valuable artifacts, instant death, or both. A place frequented by some of the most experienced old-timers, though you may also stumble upon some common bandits. There's supposed to be an underground lab around there somewhere, so it might be worth to look for a hidden entrance along the way. No one has returned from there alive though and no one can tell for sure just what nasty surprises await you there.</text>
 	</string>
 	<string id="enc_zone_locations_escape">
-		<text>Своего рода предбанник Зоны, первое место, куда попадают новички, обживаясь понемногу. В погребе за деревенькой возле армейского блокпоста обитает торговец - с ним полезно потолковать. Соваться на блокпост и попадаться на глаза солдатам не резон: у них приказ стрелять без предупреждения; с другой стороны, некоторые за деньги готовы мгновенно подобреть, особенно, если рядом нет начальства. Убивать солдат очень не рекомендуется, разве только в случае прямой угрозы для жизни.</text>
+		<text>Think of it as the Zone's antechamber - it's a good place for rookies to get their head around. You'll find a trader in the vaults at the back of the village, next to the army outpost. Don't miss the chance to talk to him. You'd be advised to steer clear of the outpost itself, however. You don't want the soldiers to catch a sight of you - most of them shoot first and don't bother asking questions later. Yet, as always, there are some who can be bribed as long as the top brass is looking the other way. Attacking the soldiers is not recommended, unless they pose a direct threat.</text>
 	</string>
 	<string id="enc_zone_locations_garbage">
-		<text>Огромное техническое кладбище: сюда ещё после первой аварии свезли горы радиоактивного хлама. Есть остатки старых построек, встречаются мутанты. Здесь, как и у самого периметра, много новичков - а рядом крутятся бандиты, всегда ищущие кусок пожирнее и чтобы без особых хлопот. Можно найти немного артефактов, но лучше надолго не задерживаться - есть места и поинтереснее. Если идти на восток, то выйдешь к "Дикой территории"; на западе - проход в НИИ; на севере - дорога к бару "Сталкер".</text>
+		<text>A vast machinery graveyard. Right after the first accident whole heaps of radioactive waste were dumped there. Mostly ruins of old buildings infested with mutants. Much like the outskirts of the Zone, the place swarms with rookie stalkers, with an occasional bandit loitering around, always on the lookout for freebies. Some artifacts to be found here, but most of them are just not worth the effort. You'll be better off elsewhere. Going North, you will get to the Wild Territory, West lays the entrance to the Dark Valley, with the road to the Agroprom Research Institute to the East.</text>
 	</string>
 	<string id="enc_zone_locations_military-loc">
-		<text>Заброшенная армейская база рядом с разваливающейся деревенькой и небольшим болотцем. Деревенька - место довольно жуткое: мутантами так и кишит, одних кровососов поди сосчитай. Сюда редко сталкеры суются, чаще обходят десятой дорогой. Если дальше в Зону от базы идти - попадёшь прямо к Выжигателю мозгов: он путь к Припяти и ЧАЭС наглухо перекрывает.</text>
+		<text>A deserted army base next to a dilapidated hamlet and a small marsh. The village is an eerie place literally swarming with mutants - the bloodsuckers alone are legion. Stalkers do their best to keep away from it, even if it means going extra kilometers around it. The anarchists from the Freedom faction have settled down in the army base. The road connecting the base to the Zone is guarded by the Brain Scorcher, which blocks the way to Pripyat and the Chernobyl NPP.</text>
 	</string>
 	<string id="enc_zone_locations_pripiat">
-		<text>Город мутантов. Родина контроллёров, кровососов и армий зомби. Стаи разнообразных мутантов рождаются здесь. Уничтожить всех невозможно. Остаётся надеяться только на скрытные перемещения.</text>
+		<text>This used to be a town built for engineers working at the Chernobyl NPP. Quite a big place once, it is a ghost town now with mutants and zombies as the only residents. There seems to be no way to get in there: the Brain Scorcher is blocking the way.</text>
 	</string>
 	<string id="enc_zone_locations_radar">
-		<text>Все, кто попадают под действие антенны, зомбируются. Получившиеся зомби бредут по направлению к антенне, где и гибнут со временем от голода, радиации или от агрессии других зомби. Подходы усеяны мертвыми телами, а в окрестностях бродят зомбированные мутанты и сталкеры, время от времени сражаясь друг с другом.</text>
+		<text>A dreadful place. Easy to vanish without a trace there, no matter how lucky you have been in life so far. Whoever gets close to the Brain Scorcher immediately goes insane, turns into a zombie and starts stalking the Zone restlessly. A human shell is all that’s left. No-one has ever returned with a sound mind.</text>
 	</string>
 	<string id="enc_zone_locations_rostok">
-		<text>Довольно крупный завод был, от которого теперь остались одни руины. В них нашло свой конец много сталкеров: развелось там нечисти всякой, словно сходится она туда со всей Зоны. По слухам, правда, что-то очень важное на этом заводе есть, так что желающих попытать счастья всегда в достатке.</text>
+		<text>The Wild Territory used to be the site of a rather large manufacturing plant, currently in ruins. Many stalkers met their death there: the place is swarming with all sorts of monsters. The beasts are literally streaming over there from the entire Zone. It is said that something of great importance is hidden at this site, so there are always plenty of daredevils willing to try their luck.</text>
 	</string>
 	<string id="enc_zone_locations_stancia">
-		<text>Бывшая атомная станция, о которой хоть раз слышал каждый. Это - самое сердце Зоны. Если верить легендам, где-то там находится некая штука, способная выполнить любое желание - её называют Монолитом.</text>
+		<text>The site of the world-famous nuclear power plant. This is the heart of the Zone. If you believe the legends, this is also the site of the Monolith - a mysterious thing capable of granting any wish.</text>
 	</string>
 	<string id="enc_zone_locations_yantar">
-		<text>На озере несколько островков из наваленного индустриального мусора и полуразрушенных зданий. Каменные остовы торчат из ядовитой воды. Озеро мертвое, в нем ничего не может жить, попадание в озеро приводит к сильным кислотным ожогам. В резиновых сапогах можно ходить по небольшой глубине. В центре озера несколько крупных островов из мусора и остовов зданий. К ним ведут несколько тропок по мелководью. В самом крупном есть спуск в незатопленный подвал.</text>
+		<text>The legendary lake in the sector of the same name dried up a long ago, leaving a shallow swamp in its place. The place is morbid and sodden with death. Great dangers await any adventurous soul foolish enough to get near it. Anyone who dares to go too far goes insane. Zombie drones are rambling around the whole sector, waiting for new victims. If you walk around the lake and past the zombies, you’ll end up at the scientists' camp, where the eggheads brought there by choppers are doing some research. You can have a chat with them; they buy artifacts and could even send you on a mission.</text>
 	</string>
 	<string id="enc_zone_zone-story_story-2006">
-		<text>Армейские части, возглавляемые отрядами военных сталкеров, выступили крупной экспедицией внутрь Зоны. Цель – прорваться к эпицентру Зоны и уничтожить причину появления смертельных аномальных полей или хотя бы узнать причину и последствия этих проявлений. Вся армейская экспедиция, насчитывающая около 1000 солдат, сталкеров и техников, практически полностью погибла. Отдельные группы осели на территории Зоны безо всякой надежды на спасение…</text>
+		<text>The contaminated zone was aglow with the brightest of lights, almost unbearable to the human eye. You could virtually see the clouds in the sky turning into vapor. After a moment of dead silence there came rattling thunder, and then the earth shook. People fell to the ground, screwing up their eyes and covering their ears. Those who could still stand ran for their lives. It looked as though all the nuclear fuel buried under the Sarcophagus had suddenly exploded. The next day the army cordoned off the new Zone. The satellites helped to establish that the epicenter of the explosion was not actually in the vicinity of the NPP reactors, but about half a kilometer away. It is believed that the personnel of the station died at once, though many people still remained within the cordoned area. The rescue operation soon proved a pointless endeavor, as all the people and machinery sent deep into the area would die or malfunction immediately. A little while after the disaster, the Zone diameter hopped out by a few more kilometers. Most of the government troops guarding the border line and the research teams stationed there perished instantly. Panic stricken, people took to flight. The residents of nearby towns and villages were hastily evacuated. An enormous danger is looming over the world and we can only guess what its full impact may be.</text>
 	</string>
 	<string id="enc_zone_zone-story_story-2008">
-		<text>Чернобыльский научно-исследовательский институт парапсихологии (НИИП). Является центральным исследовательским корпусом бывшего Союза. Различные отделы разбросаны по территории бывшего СССР. Откуда регулярно поступали материалы для исследований. Основные цели - изучение и развитие паранормальных способностей человека. Приоритет – проработка новой концепции отношений человека и государства. Создание нового социума, основанного на общем сознании трудовых масс. Коллективизм нового уровня – полноценный коллективный разум, охватывающий все области человеческой деятельности и включающий всех граждан стран союзников.</text>
+		<text>Two years have passed since the disaster in the contaminated zone around Chernobyl NPP. Skyrocketing deathtoll, countless people missing, dead cattle, decaying buildings, maimed forests... Until this day scientists have no explanation as to what exactly happened in Chernobyl. Meanwhile, some inconceivable anomalies were discovered in the area, and the Zone keeps expanding. Rare expeditions encounter mutated species of animals exhibiting unbelievable abilities.</text>
 	</string>
 	<string id="enc_zone_zone-story_story-2010">
-		<text>По следам отчаянных одиночек-сталкеров за широкомасштабное изучение Зоны опять берутся научные экспедиции. Однако внутри охраняемого армией периметра уже имеется множество "неучтённых лиц" - вплоть до браконьеров и бандитов. В основной своей массе сталкеры путешествуют по Зоне в поисках разнообразных аномальных образований - так называемых артефактов ­ за которые нередко выручают неплохие деньги.</text>
+		<text>Following in the tracks of those foolhardy loners who call themselves the stalkers, research expeditions are once again embarking on an in-depth study of the Zone. However, the perimeter guarded by the army has other, dangerous inhabitants now - from common poachers to the worst bandit scum. Most of the stalkers roam the Zone in search of anomalies and the so-called artifacts for which they gain quite a profit.</text>
 	</string>
 	<string id="enc_zone_zone-story_story-raid">
-		<text>Среди местного населения появились слухи о том, что ЧАЭС была батарейкой секретных правительственных лабораторий. Взрыв произошёл вследствие перегрузки во время эксперимента. </text>
+		<text>The army, including special forces headed by paramilitary stalker detachments, launched a massive raid deep into the Zone. Their objective was to break through to the Chernobyl NPP and wipe out the cause of anomalous fields or at least obtain first-hand information on the current state of affairs. This endeavor, involving over a thousand people and heavy machinery, was a complete failure. Isolated groups of survivors were forced to settle within the Zone with slender hopes of rescue.</text>
 	</string>
 	<string id="af-compas">
 		<text>"Спираль"</text>
@@ -296,69 +296,69 @@
 		<text>Артефакт причудливой формы, напоминающий спираль.</text>
 	</string>
 	<string id="Escape">
-		<text>Кордон</text>
+		<text>Cordon</text>
 	</string>
 	<string id="Fuzz">
-		<text>"Жгучий пух"</text>
+		<text>Burnt Fuzz</text>
 	</string>
 	<string id="Garbage">
-		<text>Свалка</text>
+		<text>Garbage</text>
 	</string>
 	<string id="Gravi">
-		<text>"Воронка"</text>
+		<text>Vortex</text>
 	</string>
 	<string id="Lift">
-		<text>"Лифт"</text>
+		<text>Elevator</text>
 	</string>
 	<string id="Locations">
-		<text>Локации</text>
+		<text>Locations</text>
 	</string>
 	<string id="Meat">
-		<text>"Карусель"</text>
+		<text>Whirligig</text>
 	</string>
 	<string id="Military-loc">
-		<text>Армейские склады</text>
+		<text>Military warehouses</text>
 	</string>
 	<string id="Pripiat">
-		<text>Припять</text>
+		<text>Pripyat</text>
 	</string>
 	<string id="Radar">
-		<text>Радар</text>
+		<text>Red Forest</text>
 	</string>
 	<string id="Radioactive">
-		<text>Очаг радиоактивности</text>
+		<text>Source of radioactivity</text>
 	</string>
 	<string id="Rostok">
-		<text>Завод "Росток"</text>
+		<text>Rostok factory</text>
 	</string>
 	<string id="Stancia">
-		<text>ЧАЭС</text>
+		<text>Chernobyl NPP</text>
 	</string>
 	<string id="Story-2006">
-		<text>2006 год, 12 апреля, 14:33.</text>
+		<text>2006, April 12, 14:33</text>
 	</string>
 	<string id="Story-2008">
-		<text>2008 год</text>
+		<text>Year 2008</text>
 	</string>
 	<string id="Story-2010">
-		<text>2010 год</text>
+		<text>Year 2010</text>
 	</string>
 	<string id="Story-raid">
-		<text>Прорыв в Зону.</text>
+		<text>Army raid into the Zone.</text>
 	</string>
 	<string id="Time_machine">
-		<text>"Машина времени"</text>
+		<text>Time Machine</text>
 	</string>
 	<string id="Yantar">
-		<text>Янтарь</text>
+		<text>Yantar</text>
 	</string>
 	<string id="Zharka">
-		<text>"Жарка"</text>
+		<text>Burner</text>
 	</string>
 	<string id="Zone">
-		<text>Зона</text>
+		<text>The Zone</text>
 	</string>
 	<string id="Zone-story">
-		<text>История Зоны</text>
+		<text>History of the Zone</text>
 	</string>
 </string_table>
