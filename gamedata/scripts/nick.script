@@ -1118,7 +1118,7 @@ end
 function zov_monolita_pda()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("PDA\\nНовый контакт","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
+cactor:give_game_news("PDA\\nNew contact","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
 local snd_obj = xr_sound.get_safe_sound_object([[characters_voice\scenario\sarcofag\o_soznanie_call]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1128,7 +1128,7 @@ end
 function zaba_ab_note()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Жаба\\nДа, и ещё.. У тебя в ПДА имеется специальный блокнот для заметок. Можешь писать туда свои записи, если найдешь чего интересного..","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(5000, 15000),15000)
+cactor:give_game_news("Toad\\nДа, и ещё.. У тебя в ПДА имеется специальный блокнот для заметок. Можешь писать туда свои записи, если найдешь чего интересного..","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(5000, 15000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1139,7 +1139,7 @@ end
 function barm_sms_prcpntr()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Профессор\\nСталкер, в городе наблюдается большая активность ПСИ излучения, которая блокирует проход к станции.. Мы засекли большую группу контролёров где-то в центре города.., возможно она мешает пройти. Рекомендую использовать артефакт Мёртвая Голова и даже не один в той области. ","ui\\ui_iconsTotal",Frect():set(660,108,165,108),math.random(1000, 13000),15000)
+cactor:give_game_news("Professor\\nСталкер, в городе наблюдается большая активность ПСИ излучения, которая блокирует проход к станции.. Мы засекли большую группу контролёров где-то в центре города.., возможно она мешает пройти. Рекомендую использовать артефакт Мёртвая Голова и даже не один в той области. ","ui\\ui_iconsTotal",Frect():set(660,108,165,108),math.random(1000, 13000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1149,7 +1149,7 @@ end
 function njvis_oka_sch()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Неизвестный сталкер\\nСталкер, подойди дело есть.. Я тут, у склона горы..","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
+cactor:give_game_news("Unknown stalker\\nСталкер, подойди дело есть.. Я тут, у склона горы..","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1157,14 +1157,14 @@ end
 
 
 function oobrataan()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Зябликов:".."\\n".."%c[255,160,160,160]Спасибо, за помощь.. Мне нужно побыть одному..".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Zyablikov:".."\\n".."%c[255,160,160,160]Thanks for the help... I need some alone time...".."".."\n", nil, "default", 30000)
 end
 
 
 
 
 function potkluchil_mg_izl()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Лидер Свободы:".."\\n".."%c[255,160,160,160]Опа! Кажется излучение спало! Молодец, смог сталкер.. Чёрт, кажется у нас гости..".."".."\n", nil, "freedom", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Freedom leader:".."\\n".."%c[255,160,160,160]Опа! Кажется излучение спало! Молодец, смог сталкер.. Чёрт, кажется у нас гости..".."".."\n", nil, "freedom", 30000)
 end
 
 
@@ -1173,7 +1173,7 @@ end
 function a_cod_dvery_ros()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Стрелок\\nХм.. кажется вспомнил код от двери своего тайника на Ростоке.. Код: 3781","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Strelok\\nХм.. кажется вспомнил код от двери своего тайника на Ростоке.. Код: 3781","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1251,7 +1251,7 @@ end
 
 
 function ohran_zdoher()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Профессор:".."\\n".."%c[255,160,160,160]Что с охранником?. Чёрт возьми... Придётся нанимать нового.".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Professor:".."\\n".."%c[255,160,160,160]Что с охранником?. Чёрт возьми... Придётся нанимать нового.".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1259,7 +1259,7 @@ end
 
 
 function dol_sms_two_mertv()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Пилот военных:".."\\n".."%c[255,160,160,160]Седьмой, как слышно? Начинаю высадку. Профессор сказал об этом районе.".."".."\n", nil, "default", 10000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Пилот военных:".."\\n".."%c[255,160,160,160]Седьмой, как слышно? Начинаю высадку. Professor сказал об этом районе.".."".."\n", nil, "default", 10000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\contact_1]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1306,13 +1306,13 @@ end
 
 
 function barman_group_sms()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Бармен:".."\\n".."%c[255,160,160,160]Что с группой? Чёрт.. Мессер..".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Barkeep:".."\\n".."%c[255,160,160,160]Что с группой? Чёрт.. Мессер..".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\geiger_8]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 function proffes_aftrbrain_sms()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Профессор:".."\\n".."%c[255,160,160,160]Зайдите к нам в бункер, мы отблагодарим вас за то что вы сделали.".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Professor:".."\\n".."%c[255,160,160,160]Зайдите к нам в бункер, мы отблагодарим вас за то что вы сделали.".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1326,7 +1326,7 @@ news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Ведьмак:".."\\n".."%c[25
 end
 
 function chaes_1_sms()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Журналист:".."\\n".."%c[255,160,160,160]Стрелок, выход к генераторам находится за станцией. Ты можешь заметить рядом с ним колонну техники.. Будь осторожнее там.".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Journalist:".."\\n".."%c[255,160,160,160]Strelok, выход к генераторам находится за станцией. Ты можешь заметить рядом с ним колонну техники.. Будь осторожнее там.".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_news]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1335,20 +1335,20 @@ end
 function radar_ant_off_sms()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Бармен\\nГоворит Бармен! Приборы не фиксируют излучения с севера, дорога на припять открыта. Мессер, если ты будешь ещё у нас, знай что мы ценим то что ты сделал. Зайди если сможешь.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Barkeep\\nBarkeep speaking! Приборы не фиксируют излучения с севера, дорога на припять открыта. Мессер, если ты будешь ещё у нас, знай что мы ценим то что ты сделал. Зайди если сможешь.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 
 function kol()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Неизвестный сталкер:".."\\n".."%c[255,160,160,160]Сталкер, зайди ко мне в здание школы, нужно поговорить.".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Unknown stalker:".."\\n".."%c[255,160,160,160]Сталкер, зайди ко мне в здание школы, нужно поговорить.".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\geiger_8]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 function tele3()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Журналист:".."\\n".."%c[255,160,160,160]Отлично. Теперь слушай. Проход на Генераторы свободен. Монолит больше не удерживает его. Он находится за АЭС. Удачи тебе Стрелок, надеюсь ты найдёшь что ты искал.".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Journalist:".."\\n".."%c[255,160,160,160]Отлично. Теперь слушай. Проход на Генераторы свободен. Монолит больше не удерживает его. Он находится за АЭС. Удачи тебе Strelok, надеюсь ты найдёшь что ты искал.".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\medik_2]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1356,7 +1356,7 @@ end
 function tele2()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Журналист\\nСтрелок.. Похоже всё пошло не по плану. Монолит не даёт проникнуть в центр управления. Послушай, в той лаборатории под Радаром есть скрытое помещение. Из тех записей что ты мне отдал, понятно что именно там находится управление питанием Монолита. Доберись туда и отключи его. Код от двери - 5489. Да, и сталкеры сейчас будут к тебе не благосклонны. ","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
+cactor:give_game_news("Journalist\\nStrelok.. Похоже всё пошло не по плану. Монолит не даёт проникнуть в центр управления. Послушай, в той лаборатории под Радаром есть скрытое помещение. Из тех записей что ты мне отдал, понятно что именно там находится управление питанием Монолита. Доберись туда и отключи его. Код от двери - 5489. Да, и сталкеры сейчас будут к тебе не благосклонны. ","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),5000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1366,7 +1366,7 @@ end
 function tele()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Журналист\\nНе поддавайся на искушение Стрелок, помни что это всего лишь иллюзия. Путь к Генераторам ведёт телепорт в помещении с Монолитом, найди его и зайди в него.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Journalist\\nНе поддавайся на искушение Strelok, помни что это всего лишь иллюзия. Путь к Генераторам ведёт телепорт в помещении с Монолитом, найди его и зайди в него.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1374,14 +1374,14 @@ end
 
 
 function varlab_1()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Стрелок:".."\\n".."%c[255,160,160,160]Похоже на запасной выход из лаборатории..".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Strelok:".."\\n".."%c[255,160,160,160]Похоже на запасной выход из лаборатории..".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\medik_1]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 
 function radar_door()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."ПДА:".."\\n".."%c[255,160,160,160]Обнаружен новый контакт.".."".."\n", nil, "default", 40000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."ПДА:".."\\n".."%c[255,160,160,160]Обнаружен New contact.".."".."\n", nil, "default", 40000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_tip]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1390,37 +1390,37 @@ end
 function jurnl()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Журналист\\nЯ буду на территории где хозяйничает группировка свобода, найдёшь меня в одном из домов на окраине города.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Journalist\\nЯ буду на территории где хозяйничает группировка свобода, найдёшь меня в одном из домов на окраине города.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 
 function spasipo_freed()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Патруль:".."\\n".."%c[255,160,160,160]Ох, спасибо приятель, незнаю чтобы без тебя делали!.".."".."\n", nil, "freedom", 20000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Patrol:".."\\n".."%c[255,160,160,160]Ох, спасибо приятель, незнаю чтобы без тебя делали!.".."".."\n", nil, "freedom", 20000)
 end
 
 
 function slizen()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Звуковое сообщение: Неизвестный сталкер".."\\n".."%c[255,160,160,160]Э, слышь, браток, подойди-ка сюда. Это как бы наша територия. Перетереть надо.".."".."\n", nil, "stalker", 40000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Voice message: Unknown stalker".."\\n".."%c[255,160,160,160]Э, слышь, браток, подойди-ка сюда. Это как бы наша територия. Перетереть надо.".."".."\n", nil, "stalker", 40000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr\slizen\sms]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 function poeh()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."неизвестный сталкер:".."\\n".."%c[255,160,160,160]Мессер, я буду ждать тебя в своём доме на Болотах. Приходи, поговорим.".."".."\n", nil, "default", 80000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."unknown stalker:".."\\n".."%c[255,160,160,160]Мессер, я буду ждать тебя в своём доме на Болотах. Приходи, поговорим.".."".."\n", nil, "default", 80000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
 
 function zaba_zovet()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Жаба:".."\\n".."%c[255,160,160,160]Подойди ко мне, поговорить надо".."".."\n", nil, "trader", 40000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Toad:".."\\n".."%c[255,160,160,160]Подойди ко мне, поговорить надо".."".."\n", nil, "trader", 40000)
 end
 
 function zaba_art_garb()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Жаба\\nМессер, в ангаре в разрушенных складских помещениях есть один специфический артефакт. Принеси мне его.","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(1000, 3000),5000)
+cactor:give_game_news("Toad\\nМессер, в ангаре в разрушенных складских помещениях есть один специфический артефакт. Принеси мне его.","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(1000, 3000),5000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end

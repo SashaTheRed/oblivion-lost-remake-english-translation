@@ -48,6 +48,8 @@ A list of all files with detailed progress can be found below.
 		- done
 	- [character_desc_zombied.xml](gamedata/config/gameplay/character_desc_zombied.xml)
 		- done
+	- [dialogs_escape.xml](gamedata/config/gameplay/dialogs_escape.xml)
+		- done
 - **[config/text/eng](gamedata/config/text/eng)**
 	- [mp_st_speechmenu.xml](gamedata/config/text/eng/mp_st_speechmenu.xml)
 		- done
@@ -58,9 +60,9 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_aes.xml](gamedata/config/text/eng/stable_dialogs_aes.xml)
 		- done
 	- [stable_dialogs_agroprom.xml](gamedata/config/text/eng/stable_dialogs_agroprom.xml)
-		- incomplete
+		- done (needs revision from lines 1–61 and 390–end)
 	- [stable_dialogs_bar.xml](gamedata/config/text/eng/stable_dialogs_bar.xml)
-		- incomplete
+		- in progress (all SoC dialogue reused)
 	- [stable_dialogs_darkvalley.xml](gamedata/config/text/eng/stable_dialogs_darkvalley.xml)
 		- in progress
 	- [stable_dialogs_deadcity.xml](gamedata/config/text/eng/stable_dialogs_deadcity.xml)
@@ -132,7 +134,7 @@ A list of all files with detailed progress can be found below.
 	- [string_table_enc_vehicles.xml](gamedata/config/text/eng/string_table_enc_vehicles.xml)
 		- incomplete
 	- [string_table_enc_weapons.xml](gamedata/config/text/eng/string_table_enc_weapons.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_enc_zone.xml](gamedata/config/text/eng/string_table_enc_zone.xml)
 		- in progress
 	- [string_table_general.xml](gamedata/config/text/eng/string_table_general.xml)
@@ -235,6 +237,6 @@ A list of all files with detailed progress can be found below.
 		- done
 - **[scripts](gamedata/scripts)**
 	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
-		- incomplete
+		- done (needs revision)
 	- [nick.script](gamedata/scripts/nick.script)
-		- incomplete
+		- in progress

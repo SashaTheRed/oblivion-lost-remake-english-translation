@@ -73,7 +73,7 @@
 		<text>Stalker suit from the Monolith faction. The producer is unknown. Its protective properties are slightly worse then those of the PSZ-9a military bulletproof vest. Its structure is similar to the suit popular with neutral stalkers which combines a bulletproof vest and a radiation protection suit. It provides good protection from gunfire. Its level of anomaly protection is low due to the absence of an air filtering system.</text>
 	</string>
 	<string id="monolit_outfit_description_m">
-		<text>An improved version of the Monolith suit. Sewn into the hood are several special plates that protect from psy-emissions.
+		<text>An improved version of the Monolith suit. Several special plates that protect from psy-emissions are sewn to the hood.</text>
 	</string>
 	<string id="monolit_outfit_name">
 		<text>Monolith suit</text>
@@ -100,13 +100,13 @@
 		<text>Light bulletproof vest</text>
 	</string>
 	<string id="protection_outfit_description">
-		<text>High quality modified Scientific EX-04 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions.\n \nProperties:\Protects the body from severe chemical damage. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.\n \nSpecifics:\nBecomes unusable with prolonged use - damaged and torn.</text>
+		<text>High quality modified Scientific EX-04 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions.\n \nDetails:\Protects the body from severe chemical damage. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.\n \nNote:\nDuring extended periods of use the suit tears through and gradually deteriorates beyond use.</text>
 	</string>
 	<string id="protection_outfit_name">
 		<text>Scientific EXP-4</text>
 	</string>
 	<string id="scientific_outfit_description">
-		<text>Properties: Protects from fire, acid, gases, a variety of anomalous effects and Burnt Fuzz. Increases protection from physical damage. Carries two oxygen tanks.\n \nSpecifics:\nBecomes unusable with prolonged use - damaged and torn.</text>
+		<text>Details: Protects the body from fire, acid, toxic gas, various anomalies, Burnt Fuzz and physical damage. Equipped with two oxygen bottles.\n \nNote:\nDuring extended periods of use the suit tears through and gradually deteriorates beyond use.</text>
 	</string>
 	<string id="scientific_outfit_name">
 		<text>Protective suit</text>
