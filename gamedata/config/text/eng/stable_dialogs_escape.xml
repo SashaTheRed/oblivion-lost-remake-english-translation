@@ -2047,59 +2047,60 @@
 	<string id="escape_trader_talk_level_51">
 		<text>Ох ты и нудный! Ну ферма себе, как ферма. Свиньи там ещё до перестройки все передохли.</text>
 	</string>
+	
 	<string id="tutorial_wounded_give_medkit_1">
-		<text>Пока да... кровь хлещет. Аптечку дай, а?</text>
+		<text>I'm ok... bleeding all over though. Gimme a medkit, will ya?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_121">
-		<text>Спасибо, брат!</text>
+		<text>Thanks, bro!</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_2">
-		<text>Держи.</text>
+		<text>Here, take it.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_21">
-		<text>Спасибо, друг. Ещё б чуток, и... Я твой должник.</text>
+		<text>Thanks, friend. A little longer and I would've... I owe you one.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_211">
-		<text>Что вообще стряслось? Вам что, жить надоело?! Вы зачем по вертолёту стрелять-то начали?</text>
+		<text>What the hell happened? Are you bored of being alive?! Why did you guys start shooting at that chopper?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_2111">
-		<text>Да с задания Жабы шли... Подумали, что это за нами погоня. Вот и начали по нему стрелять. Кто ж знал, что он просто с базы летел? Хотя... Не со стороны блокпоста появился...\nЕщё эти чёртовы вояки, со своими способами "оплаты" нахождения в Зоне. Отобрали последнее, суки.</text>
+		<text>A group of helicopters were coming back from a job... We thought that they were after us. So we started shooting at it. Who could've known, that it was simply flying back to base? Although... It didn't appear from the right side of the blockpost.... \nAnd those damn soldiers, with their own "payments" to stay in the zone. They took out the last ones, assholes.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_21111">
-		<text>Ничего себе! Это ж, какое должно быть задание, что аж могли вертолёт в погоню послать? И что вояки отобрали?</text>
+		<text>No way! What kind of mission would require to send a helicopter to pursue? And what did the soldiers took away?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_211111">
-		<text>Ох, друг... Рассказчик из меня сейчас, как из портянки. Я тебе инфу на КПК скину, сам потом почитаешь. А сейчас оклемаюсь чуток, да в лагерь почапаю. Я народу обязательно расскажу, что ты мне помог! Спасибо ещё раз.</text>
+		<text>Ah, friend... I won't turn into a narrator. I'm going to send you the info to your PDA, you can read up on it later. Right now I'm going to rest a bit, in the stalker camp. I'll tell everyone that you've helped me! Thanks again.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_2111111">
-		<text>Ну, давай тогда. Поправляйся.</text>
+		<text>Well, alright then. I hope you get better soon.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_3">
-		<text>Извини, брат. Нету аптечки.</text>
+		<text>Sorry, bro. I don't have any medkits.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_31">
-		<text>На телах посмотри... У ребят из нашей группы должны... должны быть.</text>
+		<text>Look at the bodies... People from our group should... should be here.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_5111">
-		<text>Помалу. Жить буду. Ёлки, до сих пор на бронежилет не накопил. А без него вглубь Зоны идти - дохлый номер.</text>
+		<text>Little by little, I'll live. Jeez, my bulletproof vest is still standing. Without it, going deep into the zone is a death wish.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_6">
-		<text>Ч-чёрт, хреново-то как... помираю...</text>
+		<text>D-damn, I don't want to... die like this...</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_61">
-		<text>Ты как, живой?</text>
+		<text>Still alive?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_7">
-		<text>Уф-ф...</text>
+		<text>Ugh, ughh...</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_8">
-		<text>Ну, как ты?</text>
+		<text>So, how are you?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_9">
-		<text>Да ты всё равно подохнешь, чё на тебя аптечку тратить.</text>
+		<text>You're still going to die, why should I bother spending a medkit on you?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_91">
-		<text>Ну и сволочь же ты. Разве не понимаешь, что в следующий раз на моём месте можешь быть ты?</text>
+		<text>You bastard! Don't you understand that next time you'll be in my place?!</text>
 	</string>
 	<string id="esc_mechanic_dialog_0">
 		<text>Привет! С чем пожаловал? Сломалось что-то?</text>
