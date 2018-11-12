@@ -424,7 +424,7 @@
 		<text>Weapon comes with an integrated silencer. Many parts are replaced with lighter analogues, which makes the weapon significantly lighter.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
 	</string>
 	<string id="enc_weapons1_wpn-lr300">
-		<text>The latest development of the Z-M Weapons company owned by Allan Zitta. Allan is well known for his extensive experience in developing new pistols based on Colt Ì1911. The LR-300 is a new stage in the AR-15's development. LR-300 stands for 'Light Rifle of effective fire up 300 meters'. The upper and lower receiver support a new type of interconnecting operation-rod gas system, which allows for a short barrel and folding stock, giving the weapon its compact profile. One of the features of its new gas system is its diverted recoil , which helps to keep the weapon on target with no muzzle climb.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
+		<text>The latest development of the Z-M Weapons company owned by Allan Zitta. Allan is well known for his extensive experience in developing new pistols based on Colt M1911. The LR-300 is a new stage in the AR-15's development. LR-300 stands for 'Light Rifle of effective fire up 300 meters'. The upper and lower receiver support a new type of interconnecting operation-rod gas system, which allows for a short barrel and folding stock, giving the weapon its compact profile. One of the features of its new gas system is its diverted recoil , which helps to keep the weapon on target with no muzzle climb.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
 	</string>
 	<string id="enc_weapons1_wpn-lr300_m1">
 		<text>Modification of storming weaponry for firing single shots. It was assumed that it was going to be used as a cheap analog to the sniper rifle.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
@@ -652,7 +652,7 @@
 		<text>RG-6</text>
 	</string>
 	<string id="wpn-rg6_m1">
-		<text>RG-6 Ì203</text>
+		<text>RG-6 M203</text>
 	</string>
 	<string id="wpn-rpg7">
 		<text>RPG-7V</text>
@@ -700,7 +700,7 @@
 		<text>Walther P99</text>
 	</string>
 	<string id="wpn-walther_m1">
-		<text>Walther 9õ18</text>
+		<text>Walther 9x18</text>
 	</string>
 	<string id="wpn-wincheaster1300">
 		<text>Winchester-1300</text>
@@ -736,7 +736,7 @@
 		<text>APS</text>
 	</string>
         <string id="enc_weapons1_wpn-aps">
-		<textA Stechkin machine pistol. It has an effective range of 100 meters, and it has a magazine capacity of twenty rounds.\n \n Ammunition:\n standard 9x18mm,\n improved 9x18mm +P+,\n armor-piercing 9x18mm PBP.</text>
+		<text>A Stechkin machine pistol. It has an effective range of 100 meters, and it has a magazine capacity of twenty rounds.\n \n Ammunition:\n standard 9x18mm,\n improved 9x18mm +P+,\n armor-piercing 9x18mm PBP.</text>
         </string>
 
 	<string id="new_vgm-93">

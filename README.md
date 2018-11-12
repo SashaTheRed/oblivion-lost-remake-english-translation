@@ -74,15 +74,15 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_labx18.xml](gamedata/config/text/eng/stable_dialogs_labx18.xml)
 		- done
 	- [stable_dialogs_military.xml](gamedata/config/text/eng/stable_dialogs_military.xml)
-		- incomplete
+		- in progress
 	- [stable_dialogs_pripyat.xml](gamedata/config/text/eng/stable_dialogs_pripyat.xml)
 		- done
 	- [stable_dialogs_radar.xml](gamedata/config/text/eng/stable_dialogs_radar.xml)
 		- done
 	- [stable_dialogs_yantar.xml](gamedata/config/text/eng/stable_dialogs_yantar.xml)
-		- incomplete
+		- in progress
 	- [stable_dialog_manager.xml](gamedata/config/text/eng/stable_dialog_manager.xml)
-		- incomplete
+		- in progress
 	- [stable_dialog_manager_uni.xml](gamedata/config/text/eng/stable_dialog_manager_uni.xml)
 		- done
 	- [stable_game_credits.xml](gamedata/config/text/eng/stable_game_credits.xml)
@@ -90,49 +90,49 @@ A list of all files with detailed progress can be found below.
 	- [stable_generate_fnames.xml](gamedata/config/text/eng/stable_generate_fnames.xml)
 		- done
 	- [stable_generate_snames.xml](gamedata/config/text/eng/stable_generate_snames.xml)
-		- incomplete
+		- done
 	- [stable_statistic_caption.xml](gamedata/config/text/eng/stable_statistic_caption.xml)
-		- incomplete
+		- done
 	- [stable_stories.xml](gamedata/config/text/eng/stable_stories.xml)
 		- done
 	- [stable_storyline_info_aes.xml](gamedata/config/text/eng/stable_storyline_info_aes.xml)
 		- done
 	- [stable_storyline_info_agroprom.xml](gamedata/config/text/eng/stable_storyline_info_agroprom.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_bar-rostok.xml](gamedata/config/text/eng/stable_storyline_info_bar-rostok.xml)
 		- done
 	- [stable_storyline_info_bar.xml](gamedata/config/text/eng/stable_storyline_info_bar.xml)
 		- done
 	- [stable_storyline_info_darkvalley.xml](gamedata/config/text/eng/stable_storyline_info_darkvalley.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_deadcity.xml](gamedata/config/text/eng/stable_storyline_info_deadcity.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_escape.xml](gamedata/config/text/eng/stable_storyline_info_escape.xml)
-		- incomplete
+		- in progress
 	- [stable_storyline_info_garbage.xml](gamedata/config/text/eng/stable_storyline_info_garbage.xml)
-		- incomplete
+		- in progress
 	- [stable_storyline_info_military.xml](gamedata/config/text/eng/stable_storyline_info_military.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_pripyat.xml](gamedata/config/text/eng/stable_storyline_info_pripyat.xml)
-		- incomplete
+		- done
 	- [stable_storyline_info_radar.xml](gamedata/config/text/eng/stable_storyline_info_radar.xml)
 		- done
 	- [stable_storyline_info_sarcofag.xml](gamedata/config/text/eng/stable_storyline_info_sarcofag.xml)
 		- done
 	- [stable_storyline_info_yantar.xml](gamedata/config/text/eng/stable_storyline_info_yantar.xml)
-		- incomplete
+		- in progress
 	- [stable_task_manager.xml](gamedata/config/text/eng/stable_task_manager.xml)
-		- incomplete
+		- done
 	- [stable_treasure_manager.xml](gamedata/config/text/eng/stable_treasure_manager.xml)
 		- done
 	- [string_table_enc_equipment.xml](gamedata/config/text/eng/string_table_enc_equipment.xml)
 		- done (needs revision)
 	- [string_table_enc_mutants.xml](gamedata/config/text/eng/string_table_enc_mutants.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_enc_social.xml](gamedata/config/text/eng/string_table_enc_social.xml)
-		- incomplete
+		- in progress
 	- [string_table_enc_vehicles.xml](gamedata/config/text/eng/string_table_enc_vehicles.xml)
-		- incomplete
+		- done (needs revision)
 	- [string_table_enc_weapons.xml](gamedata/config/text/eng/string_table_enc_weapons.xml)
 		- done (needs revision)
 	- [string_table_enc_zone.xml](gamedata/config/text/eng/string_table_enc_zone.xml)
@@ -214,7 +214,7 @@ A list of all files with detailed progress can be found below.
 	- [string_table_ui.xml](gamedata/config/text/eng/string_table_ui.xml)
 		- done (needs revision)
 	- [ui_mm_efx.xml](gamedata/config/text/eng/ui_mm_efx.xml)
-		- incomplete
+		- done (reused from **[op2ogse](https://github.com/dsh2dsh/op2ogse)**)
 	- [ui_mp_teamdesc.xml](gamedata/config/text/eng/ui_mp_teamdesc.xml)
 		- done
 	- [ui_st_inventory.xml](gamedata/config/text/eng/ui_st_inventory.xml)

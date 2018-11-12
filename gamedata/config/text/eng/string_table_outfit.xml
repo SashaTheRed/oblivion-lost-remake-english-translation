@@ -100,7 +100,7 @@
 		<text>Light bulletproof vest</text>
 	</string>
 	<string id="protection_outfit_description">
-		<text>High quality modified Scientific EX-04 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions.\n \nDetails:\Protects the body from severe chemical damage. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.\n \nNote:\nDuring extended periods of use the suit tears through and gradually deteriorates beyond use.</text>
+		<text>High quality modified Scientific EX-04 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions.\n \nDetails:\nProtects the body from severe chemical damage. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.\n \nNote:\nDuring extended periods of use the suit tears through and gradually deteriorates beyond use.</text>
 	</string>
 	<string id="protection_outfit_name">
 		<text>Scientific EXP-4</text>
