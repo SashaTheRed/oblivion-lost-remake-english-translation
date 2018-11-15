@@ -236,7 +236,11 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
 		- done
 - **[scripts](gamedata/scripts)**
+	- [meceniy_in_hell.script](gamedata/scripts/meceniy_in_hell.script)
+		- done (needs revision)
 	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
 		- done (needs revision)
+	- [nd_news_main_data.script](gamedata/scripts/nd_news_main_data.script)
+		- in progress
 	- [nick.script](gamedata/scripts/nick.script)
 		- in progress

@@ -259,7 +259,7 @@
 		<text>A finned bullet. It can stabilize in flight, which increases its accuracy. It is designed for the TOZ-34, the BM-16, the Protecta, the Winchester-1300, and the SPAS-12. It has an armor-piercing effect and an increased range. It is effective at a range of up to 150 meters.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-12x76-zhekan">
-		<text>>A round with a heavy naked bullet. It is usually used for big game hunting, but can be used for other purposes. Its heavy bullet does not pierce but actually forces itself through bulletproof vests. It is designed for the TOZ-34, the BM-16, the Protecta, the Winchester-1300, and the SPAS-12. It is effective at a range of up to 100 meters.</text>
+		<text>A round with a heavy naked bullet. It is usually used for big game hunting, but can be used for other purposes. Its heavy bullet does not pierce but actually forces itself through bulletproof vests. It is designed for the TOZ-34, the BM-16, the Protecta, the Winchester-1300, and the SPAS-12. It is effective at a range of up to 100 meters.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-5.45x39-ap">
 		<text>An armor-piercing round for the AIMS-74, the RPK-74, the AKS-74, and the AKS-74U. It has an improved armor-piercing effect, but a decreased stopping effect.</text>
@@ -271,7 +271,7 @@
 		<text>A round with an armor-piercing bullet for the L85, the LR-300, the SIG-550, the M134, the G36, and the FN-2000.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-5.56x45-ss190">
-		<text>>A standard NATO round widely-known under its Belgian SS109 index. It is used with the L85, the LR-300, the SIG-550, the M134, the G36, and the FN-2000.</text>
+		<text>A standard NATO round widely-known under its Belgian SS109 index. It is used with the L85, the LR-300, the SIG-550, the M134, the G36, and the FN-2000.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-7.62x54-7h1">
 		<text>A cheap modification of the sniper round for the SVD, the SVU, the PKM, and the AKM.</text>
@@ -286,7 +286,7 @@
 		<text>A standard round for the PM, the PB, the APS, and the Fort-12. It has a standard core and a full-jacketed bullet. It has a weak armor-piercing effect.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-9x18-pmm">
-		<text>>A round with improved ballistic characteristics for the PM, the PB, the APS, and the Fort-12. Due to the high initial velocity of its bullet, it is much more effective then a standard round. It has a better armor-piercing effect.</text>
+		<text>A round with improved ballistic characteristics for the PM, the PB, the APS, and the Fort-12. Due to the high initial velocity of its bullet, it is much more effective then a standard round. It has a better armor-piercing effect.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-9x18-pbp">
 		<text>A cartridge with armor-piercing characteristics for the PM, the PB, the APS, and the Fort-12.</text>
@@ -295,7 +295,7 @@
 		<text>A standard round for the FN HPSA, the Walther P99, the Beretta 92 FS, the GSH-18, and the HK MP5. It has a full-jacketed bullet with a weak armor-piercing effect.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-9x19-pbp">
-		<text>>An improved round for the FN HPSA, the Walther P99, the Beretta 92 FS, the GSH-18, and the HK MP5. A high-powered round with a hollow-point bullet and an armor-piercing core.</text>
+		<text>An improved round for the FN HPSA, the Walther P99, the Beretta 92 FS, the GSH-18, and the HK MP5. A high-powered round with a hollow-point bullet and an armor-piercing core.</text>
 	</string>
 	<string id="enc_weapons1_ammo_ammo-9x39-ap">
 		<text>An armor-piercing round for the "Groza", the AS "Val", and the "Vintorez". It has a subsonic bullet which due to its special design can penetrate most bulletproof vests at a range of up to 400 meters.</text>
