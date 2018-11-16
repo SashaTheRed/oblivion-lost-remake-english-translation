@@ -331,7 +331,7 @@
 		<text>An offensive hand grenade with a small radius of splinter damage.</text>
 	</string>
 	<string id="enc_weapons1_wpn-abakan">
-		<text>The weapon of the elite troops in the Russian army. It was designed as a replacement for the outdated AK-74. Not only the Abakan’s internal mechanisms but also its receiver and its barrel are movable, which decreases the recoil and increases accuracy.\n \n Ammunition:\n standard 7.62x54mm 7N1,\n armor-piercing 7.62x54mm BP ,\n sniper 7.62x54mmR 7N14.</text>
+		<text>The weapon of the elite troops in the Russian army. It was designed as a replacement for the outdated AK-74. Not only the AbakanÂ’s internal mechanisms but also its receiver and its barrel are movable, which decreases the recoil and increases accuracy.\n \n Ammunition:\n standard 7.62x54mm 7N1,\n armor-piercing 7.62x54mm BP ,\n sniper 7.62x54mmR 7N14.</text>
 	</string>
 	<string id="enc_weapons1_wpn-abakan_m1">
 		<text>Machine gun supplied with a modified optic sight for carrying out sniper fire. The optics embedded into the body of the weapon has a higher resolution than the standard model.\n \n Ammunition:\n standard 7.62x54mm 7N1,\n armor-piercing 7.62x54mm BP ,\n sniper 7.62x54mmR 7N14.</text>
@@ -370,7 +370,7 @@
 		<text>Adopted by the American army and police, as well as many military and police units all over the world. It is also very popular among the criminals for its high-powered round and its high-capacity magazine.\n \n Ammunition:\n standard 9x19mm FMJ,\n improved 9x19mm PB1s.</text>
 	</string>
 	<string id="enc_weapons1_wpn-bm16">
-		<text>A sawn-off BM-16 shotgun. It is lighter and more compact then the original two-barrel shotgun, but it is effective only at a close range. One of the weapons most commonly used by beginners.\n Ammunition:\n 12x70 shot,\n 12x76 slug,\n 12x76 dart.</text>
+		<text>A full-length version of the BM-16 shotgun. Its accuracy and bullet trajectory flatness is good. Suitable for hunting wild boars and larger animals. The BM-16 is often seen in the hands of rookies, and merchants always hold them in stock for sale.\n \n Ammunition:\n 12x70 shot,\n 12x76mm slug,\n 12x76mm dart.</text>
 	</string>
 	<string id="enc_weapons1_wpn-colt_m1">
 		<text>Weapon of hired assassins. Good old reliable Colt, comes with a non-replaceable silencer.\n \n Ammunition:\n standard .45 ACP,\n improved .45 ACP Hydro-Shock.</text>
@@ -397,7 +397,7 @@
 		<text>A German assault rifle. It is a first-grade specimen of the modern weaponry: it is light, reliable, and ergonomic.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
 	</string>
 	<string id="enc_weapons1_wpn-gauss">
-		<text>A super-accurate weapon made by the scientists in the Zone. It is almost noiseless, because instead of gunpowder, it uses the artifact's energy for firing rather than steam gases. In spite of the Gauss gun’s tremendous firepower, the recoil is insignificant. The accuracy and the killing power of this gun exceed those of all other small arms.\n \n Ammunition: Gauss rounds.</text>
+		<text>A super-accurate weapon made by the scientists in the Zone. It is almost noiseless, because instead of gunpowder, it uses the artifact's energy for firing rather than steam gases. In spite of the Gauss gunÂ’s tremendous firepower, the recoil is insignificant. The accuracy and the killing power of this gun exceed those of all other small arms.\n \n Ammunition: Gauss rounds.</text>
 	</string>
 	<string id="enc_weapons1_wpn-groza">
 		<text>An assault rifle combined with a grenade launcher. It is a very good type of assault rifle for the Zone conditions: it is compact, reliable, but universal and powerful. The Groza is one of the favorite rifles of the military stalkers.\n \n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5,\n VOG-25 and VOG-25P grenades for the grenade launcher.</text>
@@ -415,7 +415,7 @@
 		<text>A knife. Useful for hunting or close-quarters meele combat.</text>
 	</string>
 	<string id="enc_weapons1_wpn-l85">
-		<text>After the British army replaced this rifle with the German-made G36, it appeared in large quantities first on the black market and then in the Zone. The L85’s main advantages are a standard 4-x scope and the high accuracy of the first shot. In burst mode, its accuracy decreases greatly, and the main mechanisms of the rifle are not reliable enough.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
+		<text>After the British army replaced this rifle with the German-made G36, it appeared in large quantities first on the black market and then in the Zone. The L85Â’s main advantages are a standard 4-x scope and the high accuracy of the first shot. In burst mode, its accuracy decreases greatly, and the main mechanisms of the rifle are not reliable enough.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
 	</string>
 	<string id="enc_weapons1_wpn-l85_m1">
 		<text>With a few modifications the effect of the throwing up of the barrel was diminished.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
@@ -424,7 +424,7 @@
 		<text>Weapon comes with an integrated silencer. Many parts are replaced with lighter analogues, which makes the weapon significantly lighter.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
 	</string>
 	<string id="enc_weapons1_wpn-lr300">
-		<text>The latest development of the Z-M Weapons company owned by Allan Zitta. Allan is well known for his extensive experience in developing new pistols based on Colt M1911. The LR-300 is a new stage in the AR-15's development. LR-300 stands for 'Light Rifle of effective fire up 300 meters'. The upper and lower receiver support a new type of interconnecting operation-rod gas system, which allows for a short barrel and folding stock, giving the weapon its compact profile. One of the features of its new gas system is its diverted recoil , which helps to keep the weapon on target with no muzzle climb.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
+		<text>The latest development of the Z-M Weapons company owned by Allan Zitta. Allan is well known for his extensive experience in developing new pistols based on Colt M1911. The LR-300 is a new stage in the AR-15's development. LR-300 stands for 'Light Rifle of effective fire up 300 meters'. The upper and lower receiver support a new type of interconnecting operation-rod gas system, which allows for a short barrel and folding stock, giving the weapon its compact profile. One of the features of its new gas system is its diverted recoil, which helps to keep the weapon on target with no muzzle climb.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
 	</string>
 	<string id="enc_weapons1_wpn-lr300_m1">
 		<text>Modification of storming weaponry for firing single shots. It was assumed that it was going to be used as a cheap analog to the sniper rifle.\n \n Ammunition:\n standard 5.56x45mm SS109,\n armor-piercing 5.56x45mm AP.</text>
@@ -481,7 +481,7 @@
 		<text>A more up-to-date version of the sniper rifle. A compact bullpup model. It is excellent for long trips in the Zone.\n \n Ammunition:\n standard 7.62x54mm 7N1,\n armor-piercing 7.62x54mm BP,\n sniper 7.62x54mm 7N14.</text>
 	</string>
 	<string id="enc_weapons1_wpn-toz34">
-		<text>This hunting rifle is popular but there’s nothing noteworthy about it.\n Ammunition:\n 12x70 shot,\n 12x76 slug,\n 12x76 dart.</text>
+		<text>This hunting rifle is popular but thereÂ’s nothing noteworthy about it.\n Ammunition:\n 12x70 shot,\n 12x76 slug,\n 12x76 dart.</text>
 	</string>
 	<string id="enc_weapons1_wpn-usp">
 		<text>A reliable weapon. As a quality compact close-range weapon, it is very popular among the Zone veterans.\n \n Ammunition:\n standard .45 ACP,\n improved .45 ACP Hydro-Shock.</text>
@@ -716,7 +716,7 @@
 		<text>BM-16</text>
 	</string>
     <string id="enc_weapons_wpn_bm16_full">
-		<text>A full-length version of the BM-16 shotgun. If compared to its sawn-off version, its accuracy and bullet trajectory flatness is superior. Suitable for hunting wild boars and larger animals. The BM-16 is often seen in the hands of rookies, and merchants always hold them in stock for sale.\n \n Ammunition:\n 12x70 shot,\n 12x76mm slug,\n 12x76mm dart.</text>
+		<text>A full-length version of the BM-16 shotgun. Its accuracy and bullet trajectory flatness is good. Suitable for hunting wild boars and larger animals. The BM-16 is often seen in the hands of rookies, and merchants always hold them in stock for sale.\n \n Ammunition:\n 12x70 shot,\n 12x76mm slug,\n 12x76mm dart.</text>
     </string>
 	
 	<string id="wpn-p90_name">
