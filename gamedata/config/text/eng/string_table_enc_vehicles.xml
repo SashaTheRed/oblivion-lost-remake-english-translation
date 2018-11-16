@@ -25,10 +25,10 @@ Door - T\nTurn on/off - $$ACTION_turn_engine$$\nControl - $$ACTION_forward$$,$$A
 	</string>
 	<string id="enc_vehicles_benzin">
 		<text>How to refuel a car.\n
-\nFirst, find or buy a cansiter with fuel. Sit in the car, open the inventory, and click the RMB (right mouse button) on the canister in the inventory. Click “Use.”</text>
+\nFirst, find or buy a cansiter with fuel. Sit in the car, open the inventory, and click the RMB (right mouse button) on the canister in the inventory. Click вЂњUse.вЂќ</text>
 	</string>
 
-<!---------------------------------------- не задействован ------------------------->
+<!---------------------------------------- Г­ГҐ Г§Г Г¤ГҐГ©Г±ГІГўГ®ГўГ Г­ ------------------------->
 	<string id="Uaz">
 		<text>UAZ</text>
 	</string>
@@ -53,7 +53,7 @@ Necessary to work: fuel supply.
 
 <!---------------------------------------- Niva ---------------------------------->
 	<string id="Niva">
-		<text>Нива</text>
+		<text>Niva</text>
 	</string>
 
 <string id="enc_vehicles_niva">
@@ -135,7 +135,7 @@ Necessary to work: fuel supply.
 <text>
 A small truck.\n
 \nValue:  2400 rubles.\n
-Capacity: два человека.\n
+Capacity: two people.\n
 Carrying capacity: 600 kg\n
 Necessary to work: fuel supply.
 </text>
