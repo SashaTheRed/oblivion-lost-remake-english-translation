@@ -42,7 +42,7 @@
 		<name>Unknown stalker</name>
 		<icon>ui_npc_u_stalker_neytral_hood_9</icon>
 		<map_icon x="1" y="0"></map_icon>
-		<bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+		<bio>An experienced stalker. No detailed information is available.</bio>
 
 		<class>Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
@@ -64,7 +64,7 @@
 <specific_character id="stalker_osoznanie" team_default = "1">
 		<name>Osoznanie</name>
                 <icon>ui_npc_u_stalker_neytral_balon_1</icon>
-		<bio>Представитель проекта "О-Сознание".</bio>
+		<bio>A representative of the "C-Consciousness" project.</bio>
 
 		<class>osoznanie</class>
 		<community>neutral</community> <terrain_sect>stalker_terrain</terrain_sect>
