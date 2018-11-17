@@ -487,7 +487,7 @@
 		<text>A reliable weapon. As a quality compact close-range weapon, it is very popular among the Zone veterans.\n \n Ammunition:\n standard .45 ACP,\n improved .45 ACP Hydro-Shock.</text>
 	</string>
 	<string id="enc_weapons1_wpn-val">
-		<text>This weapon is based on the Vintar noiseless sniper rifle, but it has a folding butt, can fire bursts and has a larger magazine. It was originally designed for special forces operating in conditions demanding noiseless and flameless fire.\n \n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
+		<text>This weapon is based on the Vintorez suppressed sniper rifle, but it has a folding butt, can fire bursts and has a larger magazine. It was originally designed for special forces operating in conditions demanding noiseless and flameless fire.\n \n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
 	</string>
 	<string id="enc_weapons1_wpn-val_m1">
 		<text>Differs from the basic model in its ability to add an optical sight PSO-1.\n \n Ammunition:\n standard 9x39mm PAB-9,\n armor-piercing 9x39mm SP-6,\n sniper 9x39mm SP-5.</text>
