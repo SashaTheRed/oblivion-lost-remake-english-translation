@@ -2102,91 +2102,92 @@
 	<string id="tutorial_wounded_give_medkit_91">
 		<text>You bastard! Don't you understand that next time you'll be in my place?!</text>
 	</string>
+	
 	<string id="esc_mechanic_dialog_0">
-		<text>Привет! С чем пожаловал? Сломалось что-то?</text>
+		<text>Welcome! So do you have any complaints? Broke something?</text>
 	</string>
 	<string id="esc_mechanic_dialog_1">
-		<text>А ты, что ли, механик?</text>
+		<text>What are you, a mechanic or something?</text>
 	</string>
 	<string id="esc_mechanic_dialog_11">
-		<text>Да, механик. Могу оружие починить, но только уникальное, обычного сейчас и так полно, купить можно у любого торговца, а уникального нигде не купишь.</text>
+		<text>Ye, a mechanic. I can fix your guns, but only uniques ones, there's already a bunch of common ones, ones you can buy from the usual traders. You can't buy unique guns.</text>
 	</string>
 	<string id="esc_mechanic_dialog_2">
-		<text>Почини оружие из первого слота.</text>
+		<text>Could you fix the gun in my first slot?</text>
 	</string>
 	<string id="esc_mechanic_dialog_21">
-		<text>Починю. Так, дай-ка глянуть... Хм... Ремонт обойдётся тебе в тыщу рублей.</text>
+		<text>I'll fix it. Alright, lemme see... hmm... The repair will cost you a thousand rubles.</text>
 	</string>
 	<string id="esc_mechanic_dialog_22">
-		<text>Починю. Так, дай-ка глянуть... Мда... Совсем оно у тебя потрёпанное! Ремонт обойдётся тебе в три тысячи рублей.</text>
+		<text>I'll fix it. Alright, lemme see.. M'yes.. You've got it all battered up! The repair will cost you three thousand rubles.</text>
 	</string>
 	<string id="esc_mechanic_dialog_2111">
-		<text>Так-с... Ну-ка... Хрясь - брясь... Всё, как новенькое, держи!</text>
+		<text>So... c'mon... Bam-wham, thank you mam... Finally, it's like it's new again, here take it!</text>
 	</string>
 	<string id="esc_mechanic_dialog_3">
-		<text>Почини оружие из второго слота.</text>
+		<text>Could you fix the gun in my second slot?</text>
 	</string>
 	<string id="esc_mechanic_dialog_31">
-		<text>Починю. Так, дай-ка глянуть... Хм... Ремонт обойдётся тебе в три тысячи рублей.</text>
+		<text>I'll fix it. Alright, lemme see... hmm... The repair will cost you a thousand rubles.</text>
 	</string>
 	<string id="esc_mechanic_dialog_32">
-		<text>Починю. Так, дай-ка глянуть... Мда... Совсем оно у тебя потрёпанное! Ремонт обойдётся тебе в девять тысяч рублей.</text>
+		<text>I'll fix it. Alright, lemme see.. M'yes.. You've got it all battered up! The repair will cost you three thousand rubles.</text>
 	</string>
 	<string id="esc_mechanic_dialog_4">
-		<text>А броньку не починишь?</text>
+		<text>Do you do armour repairs too?</text>
 	</string>
 	<string id="esc_mechanic_dialog_41">
-		<text>Починю, да вот только беда, инструментов у меня нет подходящих. Если поможешь, то починю тебе броньку, но только уникальную!</text>
+		<text>Ye, there's only one problem though, I don't have the neccasary tools for that. If you help me, I'll fix your suit up, but only if it's unique!</text>
 	</string>
 	<string id="esc_mechanic_dialog_411">
-		<text>Хорошо, согласен, что нужно сделать?</text>
+		<text>Okay, I'm up for it. What do I need to do?</text>
 	</string>
 	<string id="esc_mechanic_dialog_4111">
-		<text>Один человек уже брался принести мне этот чемоданчик с инструментами, но куда-то пропал... Последний раз сигнал от него шёл со Свалки. Я тебе отметил на карте.</text>
+		<text>One person already took up the job to bring me a case with tools, but he disappeared. The last time I caught his signal was when he was in the Garbage. I marked the exact location on your map.</text>
 	</string>
 	<string id="esc_mechanic_dialog_41111">
-		<text>Я мигом.</text>
+		<text>I'm on it.</text>
 	</string>
 	<string id="esc_mechanic_dialog_412">
-		<text>Нет, извини, времени совсем нет.</text>
+		<text>No, sorry, I don't have any time for that.</text>
 	</string>
 	<string id="esc_mechanic_dialog_4121">
-		<text>Дело твоё.</text>
+		<text>Your choice.</text>
 	</string>
 	<string id="esc_mechanic_dialog_42">
-		<text>Починю. Так, дай-ка глянуть... Хм... Ремонт обойдётся тебе в пять тыщ рублей.</text>
+		<text>I'll fix it. Alright, lemme see... hmm... The repair will cost you a five thousand rubles.</text>
 	</string>
 	<string id="esc_mechanic_dialog_43">
-		<text>Починю. Так, дай-ка глянуть... Мда... Совсем она у тебя потрёпанная! Ремонт обойдётся тебе в пятнадцать тысяч рублей.</text>
+		<text>I'll fix it. Alright, lemme see.. M'yes.. You've got it all battered up! The repair will cost you fifteen thousand rubles.</text>
 	</string>
 	<string id="esc_mechanic_dialog_421">
-		<text>Согласен, вот деньги.</text>
+		<text>Alright, here's the money.</text>
 	</string>
 	<string id="esc_mechanic_dialog_4211">
-		<text>Так-с... Ну-ка... Хрясь - брясь... Всё, как новенькая, держи!</text>
+		<text>So... c'mon... Bam-wham, thank you mam... Finally, it's like it's new again, here take it!</text>
 	</string>
 	<string id="esc_mechanic_dialog_42111">
-		<text>Спасибо!</text>
+		<text>Thanks!</text>
 	</string>
 	<string id="esc_mechanic_dialog_421111">
-		<text>Носи на здоровье!</text>
+		<text>Wear it in good health!</text>
 	</string>
 	<string id="esc_mechanic_dialog_422">
-		<text>Извини, с деньгами туго. Как-нибудь в другой раз.</text>
+		<text>Sorry, Извини, I'm short on money. Maybe, some time later.</text>
 	</string>
 	<string id="esc_mechanic_dialog_4221">
-		<text>Ну ничего, в другой раз заглянешь.</text>
+		<text>It's okay, come back later.</text>
 	</string>
 	<string id="esc_mechanic_dialog_44">
-		<text>Починю, а ты чемодан принёс?</text>
+		<text>I'll fix it, did you bring the tool case?</text>
 	</string>
 	<string id="esc_mechanic_dialog_441">
-		<text>Принёс, вот держи!</text>
+		<text>Yep, here take it!</text>
 	</string>
 	<string id="esc_mechanic_dialog_442">
-		<text>Нет, ещё не принёс.</text>
+		<text>No, I haven't brought it yet.</text>
 	</string>
 	<string id="esc_mechanic_dialog_5">
-		<text>До встречи.</text>
+		<text>See you.</text>
 	</string>
 </string_table>
