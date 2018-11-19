@@ -325,7 +325,7 @@
 
 
 <game_task id="esc_test_vodka_task">
-        	<title>Find the Toz-34</title> <!-- заголовок квеста -->
+        	<title>Find the TOZ-34</title> <!-- Г§Г ГЈГ®Г«Г®ГўГ®ГЄ ГЄГўГҐГ±ГІГ  -->
         	<objective>
             		<text>Bring the TOZ-34</text>
             		<icon>ui_iconsTotal_find_item</icon>
@@ -356,7 +356,7 @@
  <objective> 
  <text>Kill the bloodsucker</text> 
  <map_location_type hint="Bloodsucker">green_location</map_location_type> 
- <object_story_id>10003</object_story_id> -- стори айди 
+ <object_story_id>10003</object_story_id> -- Г±ГІГ®Г°ГЁ Г Г©Г¤ГЁ 
  <infoportion_complete>sokolov_kvest_have</infoportion_complete> 
  </objective> 
  <objective> 
