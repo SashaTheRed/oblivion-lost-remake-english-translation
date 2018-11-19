@@ -55,11 +55,11 @@ A list of all files with detailed progress can be found below.
 	- [tasks_agroprom.xml](gamedata/config/gameplay/tasks_agroprom.xml)
 		- incomplete
 	- [tasks_bar.xml](gamedata/config/gameplay/tasks_bar.xml)
-		- incomplete
+		- done
 	- [tasks_darkvalley.xml](gamedata/config/gameplay/tasks_darkvalley.xml)
 		- incomplete
 	- [tasks_escape.xml](gamedata/config/gameplay/tasks_escape.xml)
-		- incomplete
+		- done
 	- [tasks_military.xml](gamedata/config/gameplay/tasks_military.xml)
 		- incomplete
 	- [tasks_yantar.xml](gamedata/config/gameplay/tasks_yantar.xml)
@@ -78,7 +78,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_bar.xml](gamedata/config/text/eng/stable_dialogs_bar.xml)
 		- in progress (all SoC dialogue reused)
 	- [stable_dialogs_darkvalley.xml](gamedata/config/text/eng/stable_dialogs_darkvalley.xml)
-		- in progress
+		- done
 	- [stable_dialogs_deadcity.xml](gamedata/config/text/eng/stable_dialogs_deadcity.xml)
 		- done
 	- [stable_dialogs_escape.xml](gamedata/config/text/eng/stable_dialogs_escape.xml)
@@ -140,7 +140,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_treasure_manager.xml](gamedata/config/text/eng/stable_treasure_manager.xml)
 		- done
 	- [string_table_enc_equipment.xml](gamedata/config/text/eng/string_table_enc_equipment.xml)
-		- done (needs revision)
+		- done
 	- [string_table_enc_mutants.xml](gamedata/config/text/eng/string_table_enc_mutants.xml)
 		- done (needs revision)
 	- [string_table_enc_social.xml](gamedata/config/text/eng/string_table_enc_social.xml)
@@ -251,7 +251,7 @@ A list of all files with detailed progress can be found below.
 		- done
 - **[scripts](gamedata/scripts)**
 	- [meceniy_in_hell.script](gamedata/scripts/meceniy_in_hell.script)
-		- done (needs revision)
+		- in progress
 	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
 		- done (needs revision)
 	- [nd_news_main_data.script](gamedata/scripts/nd_news_main_data.script)
