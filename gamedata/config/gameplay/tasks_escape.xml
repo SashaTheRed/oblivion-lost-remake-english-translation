@@ -1,28 +1,28 @@
 
 <game_task id="esc_zam_jab">
-<title>Сделать замеры аномальных полей</title>
+<title>Take measurements of the anomalous fields</title>
 <objective>
-<text>Сделать замеры аномальных полей</text>
+<text>Take measurements of the anomalous fields</text>
 <icon>ui_iconsTotal_tutorial_help_wounded</icon>
 <infoportion_complete>esc_zam_jab_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Прийти на место</text>
-<map_location_type hint="Аномальное поле">blue_location</map_location_type>
+<text>Get to the field</text>
+<map_location_type hint="Anomalous field">blue_location</map_location_type>
 <object_story_id>val_sacrifice_victim</object_story_id>
 <infoportion_complete>esc_zam_jab_prisel</infoportion_complete>
 <infoportion_set_complete>esc_zam_jab_prisel</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Сделать замер аномального поля</text>
+<text>Take measurements of the anomalous fields</text>
 <infoportion_complete>esc_zam_jab_sdelal</infoportion_complete> 
 </objective>
 
 <objective>
-<text>Поговорить с Жабой</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Talk to Toad</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>esc_zam_jab_done</infoportion_complete> 
 </objective>
@@ -42,24 +42,24 @@
 
 
 <game_task id="esc_olr_1">
-<title>Посылка для Жабы</title>
+<title>Bring the container to Toad</title>
 <objective>
-<text>Посылка для Жабы</text>
+<text>Bring the container to Toad</text>
 <icon>ui_iconsTotal_esc_dinamit_to_volk</icon>
 <infoportion_complete>esc_olr_1_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Прийти на место, оставить контейнер и взять другой</text>
-<map_location_type hint="Контейнер для Жабы">blue_location</map_location_type>
+<text>Go to the indicated spot, leave the decoy container there and take the container that Toad needs</text>
+<map_location_type hint="The container that Toad wants">blue_location</map_location_type>
 <object_story_id>Escape_anomaly_field</object_story_id>
 <infoportion_complete>esc_olr_1_have</infoportion_complete>  
 <infoportion_set_complete>esc_olr_1_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Принести контейнер</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Bring the container to Toad</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>esc_olr_1_done</infoportion_complete> 
 </objective>
@@ -74,24 +74,24 @@
 
 
 <game_task id="bar_dolg_propusk">
-<title>Принести артефакт</title>
+<title>Find the artifact</title>
 <objective>
-<text>Найти артефакт</text>
+<text>Find the artifact</text>
 <icon>ui_iconsTotal_artefact</icon>
 <infoportion_complete>bar_dolg_propusk_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Найти артефакт Жабе</text>
-<map_location_type hint="Артефакт">green_location</map_location_type>
+<text>Find the artifact for Toad</text>
+<map_location_type hint="Artifact">green_location</map_location_type>
 <object_story_id>Escape_Tutorial_Artefact</object_story_id>
 <function_complete>esc.art_1_have</function_complete>
 <infoportion_set_complete>bar_dolg_propusk_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Принести артефакт</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Bring the artifact to Toad</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>bar_dolg_propusk_done</infoportion_complete> 
 </objective>
@@ -100,30 +100,30 @@
 
 
 <game_task id="olr_3">
-<title>Встретиться со сталкером</title>
+<title>Meet with the stalker</title>
 <objective>
-<text>Встретиться со сталкером под мостом</text>
+<text>Meet with the stalker</text>
 <icon>ui_iconsTotal_tutorial_help_wounded</icon>
 <infoportion_complete>kv_3_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Поговорить с Диггером</text>
+<text>Talk to Digger</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_complete>kv_3_prisel</infoportion_complete>
 <infoportion_set_complete>kv_3_prisel</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Идти за Диггером</text>
-<map_location_type hint="Диггер">blue_location</map_location_type>
+<text>Follow Digger</text>
+<map_location_type hint="Digger">blue_location</map_location_type>
 <object_story_id>Escape_bridge_stalkers</object_story_id>
 <infoportion_complete>kv_3_ubil</infoportion_complete> 
 </objective>
 
 <objective>
-<text>Поговорить с Жабой</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Talk to Toad</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>kv_3_done</infoportion_complete> 
 </objective>
@@ -140,17 +140,17 @@
 
 
 <game_task id="olr_4">
-<title>Пропавший командир отделения</title>
+<title>Missing army officer</title>
 <objective>
-<text>Спасти капитана</text>
+<text>Save the Captain</text>
 <icon>ui_iconsTotal_esc_dinamit_to_volk</icon>
 <infoportion_complete>kv_4_done</infoportion_complete>
 <infoportion_fail>komandir_zdoh_nahui</infoportion_fail>
 </objective>
 
 <objective>
-<text>Поговорить с Капитаном</text>
-<map_location_type hint="Капитан">blue_location</map_location_type>
+<text>Talk to the captain</text>
+<map_location_type hint="Captain">blue_location</map_location_type>
 <object_story_id>esc_kuznetsov</object_story_id>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_complete>kv_4_bazar</infoportion_complete>
@@ -158,18 +158,18 @@
 </objective>
 
 <objective>
-<text>Убить монстра</text>
+<text>Kill the mutant</text>
 <infoportion_complete>kv_4_ubil_kontr</infoportion_complete> 
 </objective>
 
 <objective>
-<text>Сопроводить командира</text>
+<text>Escort the captain</text>
 <infoportion_complete>kv_4_prisel</infoportion_complete> 
 </objective>
 
 <objective>
-<text>Поговорить с Жабой</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Talk to Toad</text>
+<map_location_type hint="toaD">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>kv_4_done</infoportion_complete> 
 </objective>
@@ -183,16 +183,16 @@
 
 
 <game_task id="esc_olr_5">
-<title>Торговый обмен</title>
+<title>A transaction</title>
 <objective>
-<text>Посылка</text>
+<text>Package</text>
 <icon>ui_iconsTotal_esc_blockpost_case_to_trader</icon>
 <infoportion_complete>olr_5_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Передать Хорьку боеприпасы</text>
-<map_location_type hint="Хорёк">blue_location</map_location_type>
+<text>Give the ammo to Ferret</text>
+<map_location_type hint="Ferret">blue_location</map_location_type>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <object_story_id>escape_provodnik</object_story_id>
 <infoportion_complete>olr_5_have</infoportion_complete>  
@@ -200,8 +200,8 @@
 </objective>
 
 <objective>
-<text>Принести артефакты от Хорька</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Bring Ferret's artifact</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>olr_5_done</infoportion_complete> 
 </objective>
@@ -216,24 +216,24 @@
 
 
 <game_task id="esc_olr_6">
-<title>Принести документы с "МедПрибора"</title>
+<title>Bring the documents from MedPribor</title>
 <objective>
-<text>Принести документы</text>
+<text>Bring the papers</text>
 <icon>ui_iconsTotal_esc_help_wounded_from_raid</icon>
 <infoportion_complete>medyasik_done</infoportion_complete>
 <article>agr_task_case</article>
 </objective>
 
 <objective>
-<text>Найти документы военных</text>
+<text>Find the army documents</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <function_complete>esc.medyasik_1_have</function_complete>
 <infoportion_set_complete>medyasik_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Принести документы Жабе</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Bring the docs to Toad</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>medyasik_done</infoportion_complete> 
 </objective>
@@ -247,23 +247,23 @@
 
 
 <game_task id="esc_olr_7">
-<title>Принести документы с блокпоста</title>
+<title>Bring the documents from the blockpost</title>
 <objective>
-<text>Принести документы</text>
+<text>Bring the docs</text>
 <icon>ui_iconsTotal_esc_help_wounded_from_raid</icon>
 <infoportion_complete>medyasik_2_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Принести документы</text>
+<text>Bring the documents</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <function_complete>esc.medyasik_2_have</function_complete>
 <infoportion_set_complete>medyasik_2_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Принести документы Жабе</text>
-<map_location_type hint="Жаба">blue_location</map_location_type>
+<text>Bring the documents to Toad</text>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>medyasik_2_done</infoportion_complete> 
 </objective>
@@ -274,15 +274,15 @@
 
 
 <game_task id="esc_to_bar">
-<title>Поговорить с Барменом</title>
+<title>Talk to Barkeep</title>
 <objective>
-<text>Поговорить с Барменом</text>
+<text>Talk to Barkeep</text>
 <icon>ui_iconsTotal_bar_barman_job</icon>
 <infoportion_complete>kvest_bar_1_dialog_start</infoportion_complete>
 </objective>
 
 <objective>
-<text>Поговорить с Барменом о найденных документах</text>
+<text>Talk to Barkeep about the documents you found</text>
 <infoportion_set_complete>kvest_bar_1_dialog_start</infoportion_set_complete>
 <infoportion_complete>kvest_bar_1_dialog_start</infoportion_complete>  
 </objective>
