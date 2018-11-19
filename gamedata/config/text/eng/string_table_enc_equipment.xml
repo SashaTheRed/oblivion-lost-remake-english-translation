@@ -2,15 +2,15 @@
 <string_table>
 
 	<string id="Equipment/Food">
-		<text>Equipment/food</text>
+		<text>Equipment/Food</text>
 	</string>
 
 	<string id="Equipment/Medi">
-		<text>Equipment/medicine</text>
+		<text>Equipment/Medicine</text>
 	</string>
 
 	<string id="Equipment/Devic">
-		<text>Equipment/devices</text>
+		<text>Equipment/Devices</text>
 	</string>
 
 	<string id="Antirad">
@@ -35,13 +35,13 @@
 		<text>Bread</text>
 	</string>
 	<string id="cit_killers_documents_desc">
-		<text>Plastic file with documents.</text>
+		<text>File with documents.</text>
 	</string>
 	<string id="cit_killers_documents_name">
 		<text>Mercenary documents</text>
 	</string>
 	<string id="cit_deadcity_maps_desc">
-		<text>A detailed map of Shining Path including Merc and bandit positions. Anomaly and mutant clusters are also outlined on it.</text>
+		<text>A detailed map of Shining Path. It includes merc and bandit positions, along with marked places showing where mutants and anomalous zones are.</text>
 	</string>
 	<string id="cit_deadcity_maps_name">
 		<text>Map of Shining Path</text>
@@ -53,7 +53,7 @@
 		<text>Doctor's key</text>
 	</string>
 	<string id="Conserva">
-		<text>Tin can</text>
+		<text>Tourist's Delight</text>
 	</string>
 	<string id="Detect1">
 		<text>Anomaly detector (DA-2)</text>
@@ -80,16 +80,16 @@
 		<text>A red S.C.A.P.E suit with an airtight helmet. Weight: 11kg. Description: Protects the body from fire, acid, toxic gas, various anomalies, Burnt Fuzz and physical damage. Equipped with two oxygen bottles. Note: During extended periods of use the suit tears through and gradually deteriorates beyond use.</text>
 	</string>
 	<string id="enc_equipment_devic_binocul1">
-		<text>Military field binoculars</text>
+		<text>Military field binoculars.</text>
 	</string>
 	<string id="enc_equipment_devic_detect1">
-		<text>A device that detects anomalous fields and disturbances. When reacting positively, it gives off clicks, and the red light turns on. \n - does not detect all anomalies \n - works unstably; errors may appear</text>
+		<text>A device for detecting anomaly fields and disturbances. Notifies of their presence with a sound. Needs to be attached to the belt and turned on to operate correctly.</text>
 	</string>
 	<string id="enc_equipment_devic_detect2">
-		<text>DA-2 anomaly detector. \nA device that detects anomalous fields and disturbances. During detection, it gives off a series of beeps. The device must be placed on the user's belt to work. \nNumber of detectable zones - 3. \nDetection radius 10m.</text>
+		<text>DA-2 anomaly detector. \nThe DA-2 is a simple detector - when anomalies are nearby, it starts generating high pitched tones. The closer the user is to the anomaly, the louder the tones will be. It will also warn the user with a flashing red light. Needs to be attached to the belt and turned on to operate correctly. \nThe DA-2 doesn't detect all anomalies and typically only responds to strong, concentrated anomalous formations - artifacts. \nDetection radius: 10 meters.</text>
 	</string>
 	<string id="enc_equipment_devic_detect3">
-		<text>UDA-14a universal anomaly detector. \nA device that detects anomalous fields and disturbances as well as areas with radioactive contamination. During detection, it gives off a series of beeps and marks the anomaly on the screen. The device must be placed on the user's belt to work. \nNumber of detectable zones - 4. \nDetection radius 15m.</text>
+		<text>UDA-14a universal anomaly detector. \nThe UDA-14a is a much more advanced anomaly detector. It displays anomalies on its built-in screen, and it gives information on their intensity, size and height. Needs to be attached to the belt and turned on to operate correctly. \nDetection radius: 15 meters.</text>
 	</string>
 	<string id="enc_equipment_devic_device-PDA1">
 		<text>Personal digital assistant - indispensable in the Zone.</text>
@@ -101,7 +101,7 @@
 		<text>A powerful flashlight. Battery recharge time has been reduced thanks to a modernized transformer.</text>
 	</string>
 	<string id="enc_equipment_energydrink">
-		<text>Used in diagnostic medical kits with injectors. Oral administration is also possible.</text>
+		<text>An opioid-based medication used to treat pain, used by many stalkers in the Zone as a quick fix. However, it can be habit-forming, and taking it with alcohol can have adverse effects.</text>
 	</string>
 	<string id="enc_equipment_food_bread1">
 		<text>Hard to say who manages to bake these loaves in the Zone, but the bread isn't contaminated and is perfectly edible. Well, at least none of the stalkers have complained about it.</text>
@@ -119,22 +119,22 @@
 		<text>Reduces the effects of radiation.</text>
 	</string>
 	<string id="enc_equipment_medi_bandage1">
-		<text>Bandages. Help stop bleeding.</text>
+		<text>Bandages. Helps stop bleeding.</text>
 	</string>
 	<string id="enc_equipment_medi_medkit1">
 		<text>An all-purpose medkit. Used to treat injuries of various types and severities - wounds, burns, poisonings, etc.</text>
 	</string>
 	<string id="enc_equipment_medi_medkit2">
-		<text>A specialized medical set to fight against physical damage and blood loss. In it is included a component for blood coagulation, antibiotics, immunal stimulators, and painkillers - 1 antirad, 1 medicine capsule, 1 bandage.</text>
+		<text>A specialized medical set to fight against physical damage and blood loss. In it is included a component for blood coagulation, antibiotics, immunal stimulators, and painkillers.</text>
 	</string>
 	<string id="enc_equipment_medi_medkit3">
 		<text>Medical set, designed especially for work in the Zone. The set includes means of healing wounds as well as means of eliminating radionucleodes from the body. Prevents the development of radiowave sickness and lowers the dose of accumulated radiation.</text>
 	</string>
 	<string id="energy_drink_name">
-		<text>Medicine capsules</text>
+		<text>Vicodin</text>
 	</string>
 	<string id="energy_drink_short_name">
-		<text>Medicine capsules</text>
+		<text>Vicodin</text>
 	</string>
 	<string id="Equipment">
 		<text>Gear and food</text>
@@ -174,7 +174,7 @@
 		<text>Scientific EXP-4</text>
 	</string>
 	<string id="Vodka">
-		<text>Vodka</text>
+		<text>Cossack's vodka</text>
 	</string>
 	<string id="st_detector">
 		<text>Anomaly detector</text>
@@ -195,13 +195,13 @@
 		<text>Guitar</text>
 	</string>
 	<string id="enc_equipment_item_guitar">
-		<text>Ordinary six-string guitar. Stalkers like to play melodies while sitting by a fire.</text>
+		<text>Ordinary six-string guitar. Stalkers love to play various songs near campfires.</text>
 	</string>
 	<string id="harmonica">
 		<text>Harmonica</text>
 	</string>
 	<string id="enc_equipment_item_harmonica">
-		<text>Ordinary harmonica. The simplest musical instrument in the Zone.</text>
+		<text>An ordinary harmonica. The simplest musical instrument in the Zone.</text>
 	</string>
 	<string id="Dimanit">
 		<text>Dynamite</text>
