@@ -4,79 +4,79 @@
 
 <!--NEW-->
  <string id="sz_leader_di_0">
-    <text>Чем вы тут вообще промышляете?</text>
+    <text>What do you folks do here, anyway?</text>
  </string>
  <string id="sz_leader_di_1">
-    <text>Чем-чем... Кроликов разводим, гы-гы...</text>
+    <text>We rob rookies like you. He-he...</text>
  </string>
  <string id="sz_leader_di_2">
-    <text>А по-другому зарабатывать не научились?</text>
+    <text>Can't you earn money in a different way?</text>
  </string>
  <string id="sz_leader_di_3">
-    <text>Так, я что-то не понял...</text>
+    <text>Why do you care? It's not your business.</text>
  </string>
  <string id="sz_leader_di_4">
-    <text>Не кипятись, я всего лишь спросил.</text>
+    <text>Don't get mad, I'm only asking a simple question.</text>
  </string>
  <string id="sz_leader_di_5">
-    <text>К нему тут, понимаешь, со всей душой, а он с вопросами дурацкими лезет! Во народ тугой попёр!</text>
+    <text>Goddamnit. You let one guy live and even wish him best of luck, and he comes back right after and starts asking dumb questions!</text>
  </string>
  <string id="sz_leader_di_6">
-    <text>Ладно, пойду лучше, а то я смотрю, мне здесь уже не так рады, как в первый раз.</text>
+    <text>Alright, alright, I'm leaving now. I see you don't want me around here anymore.</text>
  </string>
  
  <!--OLD-->
  <string id="dibil2_0"> 
- <text>Привёл я твоих дружков.</text> 
+ <text>I've brought your friends.</text> 
  </string> 
  <string id="dibil2_1"> 
- <text>Вот и славно. Значит, слушай, код от двери - 4578. Понял? Ну а мы повеселимся чуток... С Барменом я общался. И вправду, у тебя задание от него. Что ж, рад был помочь, хе-хе. Только смотри, лаба - жуткое место...</text> 
+ <text>Good job. Now listen, the code to the laboratory is 4578. 4578. Got it? Okay. I talked to Barkeep and yeah, you are working for him after all. Before you go down there, I have to warn you, though... The lab is a terrifying place... Best of luck to you, stalker.</text> 
  </string> 
  <string id="dibil2_2"> 
- <text>Ну, пока.</text> 
+ <text>Goodbye.</text> 
  </string> 
 
 
 
 
  <string id="dibil_0"> 
- <text>Здaрова, Слизень дал добро, идём на их базу.</text> 
+ <text>Greetings, Slug wants to see you, we're going to their base.</text> 
  </string> 
  <string id="dibil_1"> 
- <text>Фух, пошли, дорогу мы знаем, только сопроводи нас.</text> 
+ <text>Let's go then. We know the way, just lead us.</text> 
  </string> 
  <string id="dibil_2"> 
- <text>Хорошо.</text> 
+ <text>Alright.</text> 
  </string> 
  <string id="ds_kvest"> 
- <text>Конечно, это только начало, приятель!</text>  
+ <text>Of course, that's only the beginning, my friend!</text>  
  </string>
 
 
 
    <string id="slizen_dialog_0">
-     <text>Здарова, это ты прислал мне сообщение? Что за базар?</text>
+     <text>Hello, were you the one who sent me that message? How can I help you?</text>
   </string>
    <string id="slizen_dialog_1">
-     <text>Так, во-первых: ты кто такой, чтобы тут шариться, a? Это наше место, и у сталкеров тут дорог нет.</text>
+     <text>Yes, first things first though: Who are you and what are you doing here? This is our territory and stalkers ain't welcome here.</text>
   </string>
    <string id="slizen_dialog_2">
-     <text>Спокойно, я по заданию от Бармена. Ищу некую лабораторию, не слышал о такой?</text>
+     <text>Calm down, I have a job from Barkeep. I'm looking for a lab, have you heard anything about it?</text>
   </string>
    <string id="slizen_dialog_3">
-     <text>От Бармена, говоришь? Хм... Ну ладно... Лабораторию, говоришь? Ёпте, да что ты там забыл, приятель?</text>
+     <text>From Barkeep, you say? Hmmm... OK. So you're looking for a lab? Why? Did you lose something in there?</text>
   </string>
    <string id="slizen_dialog_4">
-    <text>Говорю же, задание у меня. Так ты знаешь, где находится вход?</text>
+    <text>I just said I have a job to do. Do you know where the entrance to that lab is, by any chance?</text>
   </string>
    <string id="slizen_dialog_5">
-    <text>Хе, я то знаю, и скажу даже - он там, на севере. Но дело в том, что так просто ты туда не попадёшь... Код доступа знаю только я, поэтому выбора у тебя как бы нет. Значит, слушай, тут одни придурки с Кордона решили в крутых поиграть. Припёрлись сюда втроём монстрятину местную пошугать, ха. Ну и в итоге застряли они, уже вторые сутки тут засели, отбиваются вроде. Сигнал СОС нам раз двести уже отправляли... Короче, сходи туда и приведи этих придурков к нам в лагерь, проведём им воспитательную беседу с пацанами. Ха. Они тут на востоке, прямо за мной должны быть.</text>
+    <text>Hmm, yes I do, and I will even tell where it is to you. It's in the big complex in the northern part of the valley. Thing is, the door is locked by a code, so it won't be easy to get in there. But, I can help you if you do some stuff for me. I know the entry code, so you don't really have a choice. Let's cut to the chase - a couple of rookies from the Cordon decided to play around and hunt the local wildlife. I think it's safe to say that the hunt didn't go as planned considering that they've been sitting on the roadside for 2 days now and are barely repelling the mutant attacks. We're constantly getting SOS signals from them. Go there and bring those dumbasses here. We'll have a talk with them. You'll find them in the east, at the cliff.</text>
   </string>
    <string id="slizen_dialog_6">
-    <text>Ладно.</text>
+    <text>Alright.</text>
    </string>
   <string id="slizen_dialog_7">
-    <text>Давай, топай. Потом посмотрим, что с тобой делать.</text>
+    <text>Alright, go now. We'll talk about the lab thing later.</text>
   </string>
 
 	<string id="val_escort_captive_dialog_11">
