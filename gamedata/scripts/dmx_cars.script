@@ -1,0 +1,220 @@
+--[[-----------------------------------------------------------------------------------------------
+ File         : dmx_cars.script
+ Description  : Функции машин
+ Copyright    : DMX MOD
+ Author       : Shadows & Charsi (система отлова нахождения в машине, сигнализация) & Macron (Бинокль,Фонарь,Оптимизация для OLR)
+ Date         : 12.04.2011
+ Last edit    : 06.08.2017
+
+-- +  убирание прицела и изменение fov когда ГГ в авто 
+--От родного скрипта юзается спидометр и фикс подвешенных машин после загрузки 
+-- (hi_flyer)
+--]]-----------------------------------------------------------------------------------------------
+
+local opt_fov = false --использовать ли фичу ОЛР. (fov, прицел)
+
+local car_id, current_car = 0
+local hud = get_hud()
+local snd_btr_war, snd_police, snd_radio
+
+function on_vehicle_enter()
+    if opt_fov then cross_off() end
+	car_speedometer()
+        fuel_metr()
+        hide_torch()   --прячем(выключаем) фонарь в инвентарь, чтобы в автомобилях выключался и вообще не мешал обзору (см ниже)
+        --hide_bino()  --прячем бинокль в инвентарь и обратно, чтобы при сейв-лоаде не вылезал (уже не надо)
+	hide_avtomat() --прячем автоматы,нож,бинокль
+	--show_bino()
+	--if inside_section_car() == "vehicle_moskvitch_police" then car_physic_fix(current_car) end --вроде для OLR не нужно
+	--car_physic_fix(current_car) --вроде для OLR не нужно --включаем только здесь и на on_vehicle_exit(). Если включать через bind_stalker, то трясет каждую секунду пока машина не взорвется.
+	return not (current_car and current_car:get_car():engaged())
+end
+
+function on_vehicle_exit()
+	--car_physic_fix(current_car) --вроде для OLR не нужно
+	--show_bino() --возвращем бинокль в 4 слот (уже не надо)
+	if opt_fov then cross_on() end
+        hud:RemoveCustomStatic("hud_fuel_background")
+	hud:RemoveCustomStatic("hud_fuel_pointer")
+	hud:RemoveCustomStatic("hud_speedometer_background")
+	hud:RemoveCustomStatic("hud_speedometer_pointer")
+	--if snd_btr_war then snd_btr_war:stop() snd_btr_war = nil end --вроде для OLR не нужно
+	--if snd_police then snd_police:stop() snd_police = nil car_stroboscope(false) end --вроде для OLR не нужно
+	car_id = 0
+	show_torch()  --возвращаем фонарь, когда вылезаем из авто
+end
+
+function on_vehicle_input(id)
+        car_information()
+	car_id = id
+	current_car = level.object_by_id(car_id)
+	level.add_call(on_vehicle_enter, on_vehicle_exit)
+end
+
+function actor_inside_car()
+	return car_id > 0
+end
+
+function inside_section_car()
+	return car_id > 0 and current_car and current_car:section() or ""
+end
+
+---------------
+-- fuel_metr
+---------------
+function fuel_metr()
+	local fuel = current_car and current_car:get_fuel()
+	local background = hud:GetCustomStatic("hud_fuel_background")
+	local pointer = hud:GetCustomStatic("hud_fuel_pointer")
+	if background and pointer then
+		background:wnd():SetFont(GetFontGraffiti19Russian())
+		background:wnd():SetText(math.floor(fuel*1.0).." Liters of Fuel")
+		pointer:wnd():SetFont(GetFontGraffiti19Russian())
+		pointer:wnd():SetHeading(-21.99-0.6*0.154*fuel)
+	else
+		hud:AddCustomStatic("hud_fuel_background")
+		hud:AddCustomStatic("hud_fuel_pointer")
+	end
+end
+
+
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+--Дергаем бинокль из 4 слота в инвентарь и обратно, когда садимся в автомобиль (вверху на 24 строчке грузится hide_bino).
+--В результате он остается в слоте, как обычно. Но в руках на руле при сейв-лоаде и смене локации уже не появляется. 
+--Скриптовые методы move_to_ruck/move_to_slot вроде доступны только для движка пропатченного через Xray Extensions.
+--Для простого 1.0006 можно в инвентарь через dmx_mod.drop_item_to_inventory(4), а как обратно в слот - хрен знает.
+--by Macron 2017
+
+--function hide_bino()
+--	local oItem = db.actor:item_in_slot(4)
+--	if oItem and oItem:section() == "wpn_binoc" and dmx_cars.actor_inside_car() then
+--	db.actor:move_to_ruck(db.actor:item_in_slot(4))
+--	--db.actor:move_to_slot(db.actor:object("wpn_binoc"))
+--	--db.actor:move_to_ruck(db.actor:item_in_slot(4))
+--	end
+--end
+
+function hide_avtomat()
+	local active_item = db.actor:active_item()
+ 	if active_item and active_item:section()~= "bolt" and dmx_cars.actor_inside_car() then --and active_item:section()~= "wpn_knife" then
+	db.actor:move_to_ruck(active_item)
+	db.actor:move_to_slot(active_item)
+ 	end
+end
+
+
+---------------------------------------------------------------
+
+--Убираем фонарь из 9 слота в инвентарь, когда садимся в автомобиль (вверху на 25 строчке грузится hide_torch).
+--Скриптовые методы move_to_ruck/move_to_slot вроде доступны только для движка пропатченного через Xray Extensions.
+--by Macron 2017
+
+
+function hide_torch()
+	local oItem = db.actor:item_in_slot(9)
+	if oItem and oItem:section() == "device_torch" and dmx_cars.actor_inside_car() then
+	--dmx_mod.drop_item_to_inventory(9)
+	db.actor:move_to_ruck(db.actor:item_in_slot(9))
+	--db.actor:move_to_slot(db.actor:object("device_torch"))
+	end
+end
+
+function show_torch()
+	local oItem = db.actor:object("device_torch") --/ определяем предмет у ГГ
+		if oItem then --/ у ГГ есть предмет
+		db.actor:move_to_slot(db.actor:object("device_torch"))
+		end
+end
+---------------------------------------------------------------
+--уже не надо
+--function show_bino()
+--	local oItem = db.actor:object("wpn_binoc") --/ определяем предмет у ГГ
+--		if oItem then --/ у ГГ есть предмет
+--		db.actor:move_to_slot(db.actor:object("wpn_binoc"))
+--		end
+--end
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+
+---------------
+-- Убираем Прицел в Авто -- и меняем фов
+---------------
+
+function cross_off()
+      --get_console():execute("hud_crosshair 0")
+  	db.actor:get_camera_fov()
+        db.actor:set_camera_fov(80)
+end
+
+function cross_on()
+      --get_console():execute("hud_crosshair 1")
+	db.actor:restore_camera_fov()
+      --db.actor:set_camera_fov(67.5)
+end
+
+---------------
+-- Спидометр --
+---------------
+function car_speedometer()
+	local speed = current_car and current_car:get_car():CurrentVel():magnitude() or 0
+	local background = hud:GetCustomStatic("hud_speedometer_background")
+	local pointer = hud:GetCustomStatic("hud_speedometer_pointer")
+	if background and pointer then
+		background:wnd():SetFont(GetFontGraffiti19Russian())
+		background:wnd():SetText(math.floor(speed*3.6).." KM/H")
+		pointer:wnd():SetFont(GetFontGraffiti19Russian())
+		pointer:wnd():SetHeading(-21.99-0.6*0.154*speed)
+	else
+		hud:AddCustomStatic("hud_speedometer_background")
+		hud:AddCustomStatic("hud_speedometer_pointer")
+	end
+end
+
+
+------------------------
+-- Туториал машин --
+------------------------
+function car_information()
+	local car = inside_section_car()
+	if car and not has_alife_info("car_olr_info") then
+		db.actor:give_info_portion("car_olr_info")
+	end
+end
+
+----------------
+-- Стробоскоп -- --вроде для OLR не нужно
+----------------
+--function car_stroboscope(type)
+--	if inside_section_car() == "vehicle_moskvitch_police" then
+--		local stroboscope = current_car:get_physics_shell():get_joint_by_bone_name("top_flasher")
+--		xr_logic.mob_capture(current_car, true)
+--		if type == true then
+--			stroboscope:set_max_force_and_velocity(100, 4, 1)
+--			action(current_car, object("top_light", object.activate), cond(cond.time_end, time_infinite))
+--		elseif type == false then
+--			stroboscope:set_max_force_and_velocity(0, 0, 0)
+--			action(current_car, object("top_light", object.deactivate), cond(cond.time_end, time_infinite))
+--		end
+--	end
+--end
+
+
+--------------------------------------------------
+-- Исправление подвешенных машин после загрузки --
+--------------------------------------------------
+function car_physic_fix(obj)
+	--if obj:clsid() == clsid.car_s and obj:section() ~= "vehicle_btr" then
+	if obj:clsid() == clsid.car_s  then
+		local h = hit()
+		h.draftsman = obj
+		h.type = hit.strike
+		h.direction = vector()
+		h.power = 0.0001
+		h.impulse = 0.0001
+		obj:hit(h)
+	end
+end
