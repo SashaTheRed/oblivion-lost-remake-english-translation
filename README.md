@@ -261,4 +261,5 @@ A list of all files with detailed progress can be found below.
 		- in progress
 	- [nick.script](gamedata/scripts/nick.script)
 		- in progress
-
+	- [olr_sleep.script](gamedata/scripts/olr_sleep.script)
+		- in progress
