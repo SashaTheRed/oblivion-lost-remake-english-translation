@@ -88,7 +88,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_labx18.xml](gamedata/config/text/eng/stable_dialogs_labx18.xml)
 		- done
 	- [stable_dialogs_military.xml](gamedata/config/text/eng/stable_dialogs_military.xml)
-		- in progress
+		- done
 	- [stable_dialogs_pripyat.xml](gamedata/config/text/eng/stable_dialogs_pripyat.xml)
 		- done
 	- [stable_dialogs_radar.xml](gamedata/config/text/eng/stable_dialogs_radar.xml)
