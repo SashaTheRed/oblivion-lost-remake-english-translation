@@ -258,3 +258,5 @@ A list of all files with detailed progress can be found below.
 		- in progress
 	- [nick.script](gamedata/scripts/nick.script)
 		- in progress
+	- [dmx_cars](gamedata/scripts/dmx_cars)
+		- done
