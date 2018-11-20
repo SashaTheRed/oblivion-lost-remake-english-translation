@@ -250,6 +250,8 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
 		- done
 - **[scripts](gamedata/scripts)**
+	- [dmx_cars.script](gamedata/scripts/dmx_cars.script)
+		- done
 	- [meceniy_in_hell.script](gamedata/scripts/meceniy_in_hell.script)
 		- in progress
 	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
@@ -258,5 +260,4 @@ A list of all files with detailed progress can be found below.
 		- in progress
 	- [nick.script](gamedata/scripts/nick.script)
 		- in progress
-	- [dmx_cars](gamedata/scripts/dmx_cars)
-		- done
+
