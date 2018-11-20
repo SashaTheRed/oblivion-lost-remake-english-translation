@@ -4,44 +4,44 @@
 
 
    <string id="g_bhar_0">
-     <text>×òî-òî åù¸?</text>
+     <text>Anything else?</text>
   </string>
    <string id="g_bhar_1">
-     <text>×òî æ, òû ïîêàçàë, ÷òî òâîè íàìåðåíèÿ â ïîèñêå òîãî, ÷òî òû èùåøü, âåñüìà òâåðäû.</text>
+     <text>Well, you've shown that your resolve to accomplish whatever you want is strong!</text>
   </string>
    <string id="g_bhar_2">
-     <text>Òû ïðàâ. Íó è ÷òî ïðèêàæåøü äåëàòü â ýòîò ðàç?</text>
+     <text>You're right. What do you want me to do now?</text>
   </string>
    <string id="g_bhar_3">
-     <text>Íàì íóæíî "ñûðü¸".,. Íå ïðîäîâîëüñòâèå, íåò. È äàæå íå àðòåôàêòû. Ñûðü¸..</text>
+     <text>We need resources. And I don't mean food or artifacts. Resources.</text>
   </string>
    <string id="g_bhar_4">
-    <text>Î ÷¸ì òû ãîâîðèøü?</text>
+    <text>What are you talking about?</text>
   </string>
    <string id="g_bhar_5">
-    <text>Î ïëîòè..</text>
+    <text>I'm talking about flesh..</text>
   </string>
    <string id="g_bhar_6">
-    <text>Òû èìååøü ââèäó ìóòèðîâàâøóþ ïëîòü? ×òî, âàì íóæíî ïîéìàòü ñâèíüþ?</text>
+    <text>You want me to bring you a mutated pig?</text>
    </string>
   <string id="g_bhar_7">
-    <text>Íåò, òû íå òàê ïîíÿë, ñòàëêåð. Íàì íóæíà ì¸ðòâàÿ ïëîòü ìåëêèõ æèâîòíûõ. Ïðèíåñè íåñêîëüêî òóøåê êðûñ è âîðîí. Äóìàþ, ýòîãî áóäåò äîñòàòî÷íî äëÿ íàñ.</text>
+    <text>No, you misunderstood me, stalker. We need corpses of dead small animals. Bring me a few bodies of dead rats and birds, preferably crows. I think that will be enough for us.</text>
   </string> 
 
 
 
 
       <string id="gdhs_0"> 
- <text>Ìîæåøü çàáèðàòü ñâîþ "æèâíîñòü".</text> 
+ <text>Here, take these.. "resources".</text> 
  </string> 
  <string id="gdhs_1"> 
- <text>Îòëè÷íî..</text> 
+ <text>Great work.</text> 
  </string> 
  <string id="gdhs_2"> 
- <text>Íàäåþñü, òåïåðü ÿ ìîãó çàáðàòü äîêóìåíòû?</text> 
+ <text>I hope I can take my papers now?</text> 
  </string> 
  <string id="gdhs_3"> 
- <text>Äà... äà. ×òî æ, òû ñâîþ ðàáîòó âûïîëíèë. Äîêóìåíòû â êîìíàòå íà âòîðîì ýòàæå. Äâåðü îòêðûòà. È äà... íå ìåëüòåøè òóò ïîä íîãàìè.</text> 
+ <text>Yes, yes. You did your task. You'll find the documents on the first floor. The door's open. Just do it quick and don't stay here for long.</text> 
  </string> 
 
 
@@ -52,117 +52,117 @@
 
 
 
-<!--Òåêñòû äèàëîãîâ ñ Æóðíàëèñòîì-->
+<!--������ �������� � �����������-->
     <string id="what_for_went_to_zone_0">
-	    <text>ß ñëûøàë, òû ÷òî-òî èùåøü â Çîíå. Íå ðàññêàæåøü îá ýòîì ïîïîäðîáíåå?</text>
+	    <text>I heard you're looking for something in the Zone. Can you tell me about what you're looking for, exactly?</text>
 	</string>
 	<string id="what_for_went_to_zone_1">
-	    <text>Ïðèìåðíî ïîëãîäà íàçàä ñëó÷èëñÿ êðóïíûé èíöèäåíò. Êàê òû çíàåøü, âîêðóã ×åðíîáûëüñêîé Çîíû Îò÷óæäåíèÿ ìíîãî íàñåë¸ííûõ ïóíêòîâ. Òàê âîò, îäíàæäû äåòè âñåõ îêðåñòíûõ ïîñåëåíèé óøëè âãëóáü Çîíû è íå âåðíóëèñü. ß ïûòàëñÿ âûÿñíèòü, ÷òî ñ íèìè ñëó÷èëîñü, íî áåçðåçóëüòàòíî...</text>
+	    <text>About half a year ago, a serious event took place. As you probably know, there are many settlements around the Chernobyl Exclusion Zone. On one night, all the children from those settlements went into the Zone and never came back. I tried to find out what happened to them, but I haven't had any results...</text>
 	</string>
 	<string id="what_for_went_to_zone_2">
-	    <text>Ó ìåíÿ áûëî âèäåíèå â øêîëå Ïðèïÿòè. ß âèäåë ìóæ÷èíó è ðåáåíêà. Ïîòîì âòîðîé ñòàë ìóòàíòîì, ÿ î÷íóëñÿ è, íå ïîâåðèøü, ðÿäîì îêàçàëñÿ êàðëèê. Íó, óáèë ÿ åãî, â îáùåì.</text>
+	    <text>I've had some sort of a hallucination at the school in Pripyat. I saw a man and a child. Then the latter turned into a mutant. I woke up after I saw that, and you won't believe what I'm gonna tell you next - a dwarf was standing next to me! I killed him just in case, though.</text>
 	</string>
 	<string id="what_for_went_to_zone_3">
-	    <text>Õì... ýòî ïðîÿñíÿåò íåêîòîðûå ïîäðîáíîñòè.</text>
+	    <text>Hm... I guess that explains some details....</text>
 	</string>
 	<string id="what_for_went_to_zone_4">
-	    <text>Íàäåþñü...</text>
+	    <text>I hope.</text>
 	</string>
 	<string id="what_try_do_0">
-	    <text>×òî òû ñîáèðàåøüñÿ äåëàòü äàëüøå?</text>
+	    <text>What are you going to do now?</text>
 	</string>
 	<string id="what_try_do_1">
-	    <text>Íó, íà Áîëüøóþ çåìëþ ìíå òî÷íî íåëüçÿ - ïîñëå òîãî, êàê ÿ ðàññêàçàë ëþäÿì î òîì, ÷òî ïðîèçîøëî ñ äåòüìè, îíè ìíå ïîêîÿ íå äàäóò.</text>
+	    <text>Well, I can't go back to the outside world. When I told people what happened to the kids they wouldn't give me a moment of peace.</text>
 	</string>
 	<string id="what_try_do_2">
-	    <text>À òóò, â Çîíå?</text>
+	    <text>And what about the Zone?</text>
 	</string>
 	<string id="what_try_do_3">
-	    <text>ß çäåñü è îñòàíóñü... Ïðèâûê óæå ê ìåñòíîé æèçíè. Õîòÿ ïðèâûêíóòü ê íåé íåëüçÿ, íàâåðíîå ïðîñòî àäàïòèðîâàëñÿ.</text>
+	    <text>I'm gonna stay here... I got used to the local life. Although, I'm not sure if that's a good thing or a bad thing, heh. I guess you can say I just adapted.</text>
 	</string>
 	<string id="what_try_do_4">
-	    <text>Ïîíÿòíî...</text>
+	    <text>Alright then.</text>
 	</string>
 
    <string id="j_bar_0">
-     <text>Ïðèâåò, Ñòðåëîê.</text>
+     <text>Greetings, Strelok.</text>
   </string>
    <string id="j_bar_1">
-     <text>Æóðíàëèñò?!</text>
+     <text>Journalist?!</text>
   </string>
    <string id="j_bar_2">
-     <text>Äà. ß ãîòîâ îòâåòèòü íà òâîè âîïðîñû.</text>
+     <text>Yes, it is me. I am ready to answer your questions.</text>
   </string>
    <string id="j_bar_3">
-     <text>×òî ñî ìíîé ïðîèçîøëî âî âðåìÿ ïåðâîé âûëàçêè ê öåíòðó?</text>
+     <text>What happened to me during the first raid  to the center?</text>
   </string>
    <string id="j_bar_4">
-    <text>Òû ñ ãðóïïîé ñòàëêåðîâ îòïðàâèëñÿ ê öåíòðó ÷åðåç Ïðèïÿòü. Ñðàçó æå ïîñëå ïåðâîãî áîëüøîãî âçðûâà. Âû øëè ñëåäîì çà ãðóïïîé âîåííûõ. Ïîñëå ïðîèçîø¸ë âòîðîé âçðûâ. ×òî áûëî äàëåå, ÿ íå çíàþ. Çíàþ òîëüêî òî, ÷òî òû êàêèì-òî îáðàçîì âûæèë è áûë îòïðàâëåí íà "ãðóçîâèêå ñìåðòè" íàçàä íà áàðüåð.</text>
+    <text>You and a group of stalkers went to the center of the Zone through Pripyat. That was right after the first big explosion. You were following the military guys. Then the second explosion happened. I dunno what happened after that. One thing I know however is that you survived both the second explosion, and the Death Truck crash.</text>
   </string>
    <string id="j_bar_5">
-    <text>×òî òû çíàåøü î ×¸ðíîì Ìîíîëèòå?</text>
+    <text>What do you know about the Black Monolith?</text>
   </string>
    <string id="j_bar_6">
-    <text>×¸ðíûé Ìîíîëèò, îí æå Èñïîëíèòåëü æåëàíèé... Çíàåøü, íåêîòîðûå âåùè íà ñàìîì äåëå ÿâëÿþòñÿ ñîâñåì äðóãèìè â äåéñòâèòåëüíîñòè, íåæåëè êàæóòñÿ íà ïåðâûé âçãëÿä. Ìîíîëèò - ýòî âñåãî ëèøü èëëþçèÿ... îðóæèå â ðóêàõ òåõ, êòî ñòîèò çà òåì, ÷òî òâîðèòñÿ çäåñü. Öåíòð Çîíû íàõîäèòñÿ íå íà ×ÀÝÑ, à çà íåé, è âñå çàãàäêè ìîæíî ðàçãàäàòü òàì. Äóìàþ, åñëè òû äîáåð¸øüñÿ äî Ìîíîëèòà, ìû ñìîæåì ïîíÿòü, êàê íàéòè âûõîä ê öåíòðó Çîíû.</text>
+    <text>The Black Monolith is the Wish Granter. You know, some things are completely different in reality compared to what we thought they were. The Monolith is just an illusion. It's a tool in the hands of those who are responsible for this mess. Their base is somewhere behind the powerplant. I think that if you somehow managed to get to the Monolith, it would allow us to get to those people.</text>
    </string>
   <string id="j_bar_7">
-    <text>ß îòïðàâëÿþñü â Ñàðêîôàã!</text>
+    <text>I guess I'm going to the sarcophagus!</text>
   </string> 
 
 
 
       <string id="gds_0"> 
- <text>Ñòàëêåðû ìåðòâû.</text> 
+ <text>The stalkers are dead.</text> 
  </string> 
  <string id="gds_1"> 
- <text>×òî-íèáóäü óäàëîñü óçíàòü èç èõ ðàçãîâîðà?</text> 
+ <text>Have you learned any information from them?</text> 
  </string> 
  <string id="gds_2"> 
- <text>Äà. Îíè ñîáèðàëèñü øòóðìîâàòü âàøó áàçó.</text> 
+ <text>They wanted to attack your base.</text> 
  </string> 
  <string id="gds_3"> 
- <text>Ãëóïöû! Ó íèõ è òàê áû íå áûëî øàíñîâ...</text> 
+ <text>Idiots. They wouldn't stand a chance.</text> 
  </string> 
 
 
 
 
        <string id="mil_secret">
-		<text>Íåèçâåñòíûé ñòàëêåð: Åñëè âñþ íî÷ü ïðîñèäåòü â âîäîíàïðîíîé áàøíå, òî îáÿçàòåëüíî ÷òî-òî ñëó÷èòñÿ...</text>
+		<text>Unknown stalker: Some say that if you spend the entire night in the water tower, something is bound to happen...</text>
 	</string>
 
 
         <string id="mg_svob_hello">
-		<text>Ñâîáîäà: Ñòàëêåð, òû íàõîäèøüñÿ íà íàøåé òåððèòîðèè, ÷óäèòü çäåñü íèêàê íåëüçÿ. Åñëè åñòü æåëàíèå ïîäçàðàáîòàòü - ìèëîñòè ïðîñèì íà íàøó áàçó.</text>
+		<text>Freedom: Stalker, you are on Freedom territory. Our law and rules apply here. If you are looking for work - come to our HQ.</text>
 	</string>
 
 
 
 
       <string id="ds_0"> 
- <text>Âàø ëèäåð ñêàçàë ïîãîâîðèòü ñ òîáîé. ×òî çà ðàáîòà?</text> 
+ <text>Your leader wanted me to talk to you. What's the job?</text> 
  </string> 
  <string id="ds_1"> 
- <text>Ñëóøàé, òóò ó íàñ îòðÿä âîçâðàùàåòñÿ èç ðåéäà ñ ßíòàðÿ, è ôèãíÿ êàêàÿ-òî, ñèãíàë ïðîïàë çäåñü â ðàéîíå øêîëû. Áîþñü, êàê áû íe êîíòðîëë¸ð áûë... Ñõîäèøü, ïðîâåðèøü?</text> 
+ <text>Look, a squad of ours was coming back from Yantar. For reasons unknown their PDA signal dissapeared around the school. I fear that a controller got them. Can you go and check?</text> 
  </string> 
  <string id="ds_2"> 
- <text>ß áåðóñü.</text> 
+ <text>Alright, I'm gonna do it.</text> 
  </string> 
  <string id="ds_3"> 
- <text>Â äðóãîé ðàç.</text> 
+ <text>I think I'm gonna pass.</text> 
  </string> 
 
  <string id="as_0"> 
- <text>Îòðÿä çàõâàòèë êîíòðîëë¸ð. ß ñìîã åãî ãðîõíóòü, à ðåáÿòà âàøè èäóò íà áàçó, öåëû è íåâðåäèìû.</text> 
+ <text>The controller's dead. I managed to save your people. They should be coming to the base any time now.</text> 
  </string> 
  <string id="as_1"> 
- <text>¨ëêè... Ñïàñèáî òåáå, âèäèìî ñ ßíòàðÿ çà íèìè ñëåäèë åù¸. Òî-òî îíè ãîâîðèëè, ÷òî ïåðåäàò÷èê ó íèõ âñ¸ âðåìÿ áàðàõëèò...</text> 
+ <text>Jesus... I guess that he was following them from Yantar itself. They constantly were complaining about their equipment going nuts and about their heads hurting a bit. Thank you very much, Messer.</text> 
  </string> 
  <string id="as_2"> 
- <text>Äåéñòâèòåëüíî.</text> 
+ <text>No problem.</text> 
  </string> 
  <string id="ds_kvest"> 
- <text>Ïðîâåðèòü îòðÿä ñâîáîäîâöåâ</text>  
+ <text>Find out what happened to the Freedom squad</text>  
  </string>
 
 
@@ -170,29 +170,29 @@
 
 
       <string id="ds2_0"> 
- <text>Åñòü åù¸ ðàáîòà?</text> 
+ <text>Is there any more work you want done?</text> 
  </string> 
  <string id="ds2_1"> 
- <text>Ìû òóò ðàñøèðÿòüñÿ äóìàåì, à â çäàíèè íàïðîòèâ êàêàÿ-òî õðåíü òâîðèòñÿ. Òî ñò¸êëà âñå âûëåòÿò, òî îðóæèå èç ðóê ó ïàòðóëÿ âûðâåò ÷óòü ëè íå ñ êèñòÿìè. ×òî-òî íåëàäíîå òàì. Ó íàñ ëþäåé ñåé÷àñ ìàëî, äà è èäòè òóäà íèêòî íå õî÷åò, à òû ïàðåíü ñìåëûé, çàðåêîìåíäîâàë ñåáÿ õîðîøî. Íó êàê, ïðîâåðèøü?</text> 
+ <text> We're looking to expand our base, but there is some strange shit happening in the building across the street. Shit like glass breaking out of nowhere, weapons falling out of our men's hands... There's something in there. I don't have many people under my command right now and nobody is up for the task. You've already proven that you are a brave stalker. So, can you go there and check?</text> 
  </string> 
  <string id="ds2_2"> 
- <text>ß áåðóñü.</text> 
+ <text>Sure.</text> 
  </string> 
  <string id="ds2_3"> 
- <text>Â äðóãîé ðàç.</text> 
+ <text>Maybe later.</text> 
  </string> 
 
  <string id="as2_0"> 
- <text>Â çäàíèè îáèòàëà òðîéêà ïîëòåðãåéñòîâ. Òåïåðü ïîíÿòíî, ïî÷åìó òàì ïðîèñõîäèëî âñ¸ òî, î ÷¸ì òû òîëêîâàë. Áîëüøå îíè âàñ íå ïîáåñïîêîÿò.</text> 
+ <text>There were a couple of poltergeists in that building. Now it's clear why weird shit was happening around there.</text> 
  </string> 
  <string id="as2_1"> 
- <text>Áëàãîäàðþ çà ïîìîùü, ñòàëêåð.</text> 
+ <text>That's what I thought. Take this, you've earned it.</text> 
  </string> 
  <string id="as2_2"> 
- <text>Äà íå çà ÷òî.</text> 
+ <text>Thank you.</text> 
  </string> 
  <string id="ds2_kvest"> 
- <text>Ïðîâåðèòü çäàíèå</text>  
+ <text>Inspect the strange building</text>  
  </string>
 
 
@@ -382,7 +382,7 @@
 		<text>Where can I find artifacts in this area?</text>
 	</string>
 	<string id="mil_cook_common5_505">
-		<text>That's easy! Artifacts... We got artifacts up to our ears! You know the radioactive swamp? No? Doesnt matter. It's there. I mean, the artifacts. Are there. You just stop flapping about. Take it easy. Eh? Artifacts... he-he-he... artifacts-shmartifacts...</text>
+		<text>That's easy! Artifacts... We got artifacts up to our ears! You know the radioactive swamp? No? Doesn�t matter. It's there. I mean, the artifacts. Are there. You just stop flapping about. Take it easy. Eh? Artifacts... he-he-he... artifacts-shmartifacts...</text>
 	</string>
 	<string id="mil_cook_common6_0">
 		<text>OK. Take care.</text>
@@ -952,7 +952,7 @@
 		<text>Since you helped our guys at the Barrier, you can count on getting some rest on our territory, as well as our help. Oh, and my personal appreciation - a bit of legal tender for you - from this moment on, I'm enlisting you in our group.</text>
 	</string>
 	<string id="mil_leader_start_dialog_10002">
-		<text>Ðàç òû ïîìîã ðåáÿòàì íà Áàðüåðå, ìîæåøü ðàññ÷èòûâàòü íà îòäûõ íà íàøåé òåððèòîðèè è íàøó ïîìîùü. Íó, à îò ìåíÿ ëè÷íî - íåìíîãî äåíçíàêîâ...</text>
+		<text>Considering you helped us at the barrier you can rest at our base. ANd here's some personal gratitude of mine - some cash.</text>
 	</string>
 	<string id="mil_leader_start_dialog_1001">
 		<text>Hey, stalker. What do you need?</text>
@@ -979,7 +979,7 @@
 		<text>Good luck, stalker.</text>
 	</string>
 	<string id="mil_leader_start_dialog_15001">
-		<text>Õðåíîâî, ÷òî ìû íå óäåðæàëè «Áàðüåð», òû äàæå íå ïðåäñòàâëÿåøü, íàñêîëüêî ýòî õðåíîâî! Ïðèä¸òñÿ îòïðàâëÿòü íîâûõ áîéöîâ íà «Áàðüåð», òåáÿ ýòî òîæå êàñàåòñÿ!</text>
+		<text>Fuck, we lost the barrier! You can't even imagine how shitty of a situation we are in right now! We'll have to send new troops to the barrier, that includes you!</text>
 	</string>
 	<string id="mil_leader_start_dialog_1200">
 		<text>I've already dealt with them.</text>
@@ -1030,7 +1030,7 @@
 		<text>Got it.</text>
 	</string>
 	<string id="mil_leader_start_dialog_16001">
-		<text>Êàêîãî õðåíà! ×òî ó âàñ òàì ïðîèçîøëî?! Òû, ñëó÷àåì, íå äîëãîâñêèé øïèîí?! Çíà÷èò òàê, òû îäèí ïîéä¸øü íà õóòîð è ðàçáåð¸øüñÿ ñ äîëãîâöàìè, èíà÷å ÿ ðàçáåðóñü ñ òîáîé!</text>
+		<text>������ �����! ��� � ��� ��� ���������?! ��, �������, �� ���������� �����?! ������ ���, �� ���� ������ �� ����� � ���������� � ����������, ����� � ��������� � �����!</text>
 	</string>
 	<string id="mil_leader_start_dialog_2001">
 		<text>I told you to go talk to Max.</text>
@@ -1039,7 +1039,7 @@
 		<text>So, the assignment is complete... Good, good. I've got another one for you!</text>
 	</string>
 	<string id="mil_leader_start_dialog_30011">
-		<text>Çíà÷èò, òû íå äîëãîâñêèé øïèîí. Ãì... Äà è â îäèíî÷êó âñåõ ïîëîæèë! Èíòåðåñíî... Çíà÷èò, íà òåáÿ ìîæíî ïîëîæèòüñÿ. Â òàêîì ñëó÷àå ó ìåíÿ äëÿ òåáÿ åñòü ðàáîòà.</text>
+		<text>������, �� �� ���������� �����. ��... �� � � �������� ���� �������! ���������... ������, �� ���� ����� ����������. � ����� ������ � ���� ��� ���� ���� ������.</text>
 	</string>
 	<string id="mil_leader_start_dialog_3002">
 		<text>Hrm... What is it?</text>
@@ -1105,49 +1105,49 @@
 		<text>I've told you - go to the Barrier.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_0">
-		<text>Êàðòà Ñâåòëîãî ëó÷à íå íóæíà?</text>
+		<text>Do you by any chance need the map of the Shining Path?</text>
 	</string>
 	<string id="mil_leader_deadcity_map_1">
-		<text>Êîíå÷íî, íóæíà, ÷òî çà âîïðîñ?!</text>
+		<text>Yes, I do.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_11">
-		<text>Ñêîëüêî çàïëàòèøü?</text>
+		<text>How much are you willing to pay?</text>
 	</string>
 	<string id="mil_leader_deadcity_map_111">
-		<text>Äâàäöàòü òûù â ðóáëÿõ.</text>
+		<text>20000 RU.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_1111">
-		<text>Èä¸ò, âîò êàðòà.</text>
+		<text>Sounds good to me. Here's your map.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_11111">
-		<text>Îòëè÷íî, äåðæè äåíüãè.</text>
+		<text>Great, here's your cash.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_1112">
-		<text>Ïîíÿòíî, ñïàñèáî.</text>
+		<text>Alright, thanks.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_11121">
-		<text>Ñòîé, ó òåáÿ åñòü êàðòà?!</text>
+		<text>Wait, do you have the map?</text>
 	</string>
 	<string id="mil_leader_deadcity_map_111211">
-		<text>Íåò, ïðîñòî èíòåðåñîâàëñÿ öåíîé.</text>
+		<text>Nah, I just wanted to know the price.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_12">
-		<text>Âîò îíà, äåðæè.</text>
+		<text>Here it is, take it.</text>
 	</string>
 	<string id="mil_leader_deadcity_map_121">
-		<text>×òî?! Êàðòó íàø¸ë? Íó òû äà¸øü, Ìå÷åíûé! Îòëè÷íî, òåïåðü ìû áóäåì çíàòü, ãäå íàõîäèòñÿ áàçà íà¸ìíèêîâ. \nÂîò, äåðæè, ýòè 20000 ðóáëåé òâîè!</text>
+		<text>What?! You found the map? Well God damn me! Great, now we will know where the Merc base is located  at. \nHere's your 20k rubles.</text>
 	</string>
 	<string id="mil_max_dialog_11001">
-		<text>Õðåíîâî-òî êàê... Ó òåáÿ àïòå÷êà åñòü?</text>
+		<text>Oh crap... do you have a medkit?</text>
 	</string>
 	<string id="mil_max_dialog_110011">
-		<text>Åñòü. Äåðæè.</text>
+		<text>I do. Here.</text>
 	</string>
 	<string id="mil_max_dialog_1100111">
-		<text>Ñïàñèáî, ÷óâàê!</text>
+		<text>Thank you friend!</text>
 	</string>
 	<string id="mil_max_dialog_110012">
-		<text>Èçâèíè, íåòó.</text>
+		<text>I'm sorry, but I don't have one.</text>
 	</string>
 	<string id="mil_max_dialog_10001">
 		<text>We'll talk after we take down those Duty assholes.</text>
@@ -1237,10 +1237,10 @@
 		<text>Good luck, then. Don't forget - there's an old minefield, but with the help of a few good old bolts you can go around any mine.</text>
 	</string>
 	<string id="mil_max_dialog_4008">
-        <text>À ñàì ÷åãî íå ñõîäèøü?</text>
+        <text>� ��� ���� �� �������?</text>
     </string>
     <string id="mil_max_dialog_4009">
-        <text>Ëóêàø çàïðåòèë ê íåìó ñîâàòüñÿ - ëþäåé è òàê ìàëî.</text>
+        <text>����� �������� � ���� �������� - ����� � ��� ����.</text>
     </string>
 	<string id="mil_max_dialog_5001">
 		<text>So, what did you learn? What happened to that psycho?</text>
@@ -1273,55 +1273,55 @@
 		<text>OK.</text>
 	</string>
     <string id="mil_max_dialog_common1_0">
-        <text>Ðàññêàæè ìíå î äåðåâíå.</text>
+        <text>�������� ��� � �������.</text>
     </string>
     <string id="mil_max_dialog_common1_1">
-        <text>Äåðåâíÿ? Ìåðçêîå ìåñòî. Ðàíüøå òàì âîäèëèñü êàáàíû, ñîáàêè, ïëîòè, â îáùåì - âñÿêàÿ ìåëþçãà. Ìû òóäà çà àðòåôàêòàìè õîäèëè. Ñåé÷àñ ìàëî êòî çíàåò, ÷òî òàì òâîðèòñÿ. Îòêóäà-òî ïðîëåçëè êðîâîñîñû, ýòî òî÷íî èçâåñòíî, ïî íî÷àì òàì âîîáùå íàõîäèòüñÿ ïðîòèâîïîêàçàíî. Ïîñëåäíÿÿ íàøà ýêñïåäèöèÿ òóäà ïîãèáëà â ïîëíîì ñîñòàâå, çà èñêëþ÷åíèåì îäíîãî ïàðíÿ, ó êîòîðîãî ïîëíîñòüþ ñîðâàëî êðûøó.</text>
+        <text>�������? ������� �����. ������ ��� �������� ������, ������, �����, � ����� - ������ �������. �� ���� �� ����������� ������. ������ ���� ��� �����, ��� ��� ��������. ������-�� �������� ���������, ��� ����� ��������, �� ����� ��� ������ ���������� ���������������. ��������� ���� ���������� ���� ������� � ������ �������, �� ����������� ������ �����, � �������� ��������� ������� �����.</text>
     </string>
     <string id="mil_max_dialog_common2_0">
-        <text>×òî òóò çà ìåñòíîñòü?</text>
+        <text>��� ��� �� ���������?</text>
     </string>
     <string id="mil_max_dialog_common2_1">
-        <text>Äà âñåãî ïîíåìíîãó. Äåðåâíÿ çàáðîøåííàÿ, áîëîòî, ïîëå àðòåôàêòîâ... À ÷òî òåáÿ èíòåðåñóåò?</text>
+        <text>�� ����� ���������. ������� �����������, ������, ���� ����������... � ��� ���� ����������?</text>
     </string>
     <string id="mil_max_dialog_common2_100">
-        <text>Íó, òû æå ñàì âèäåë.</text>
+        <text>��, �� �� ��� �����.</text>
     </string>
     <string id="mil_max_dialog_common2_2">
-        <text>×òî çà äåðåâíÿ?</text>
+        <text>��� �� �������?</text>
     </string>
     <string id="mil_max_dialog_common2_3">
-        <text>Äåðåâíÿ? Ìåðçêîå ìåñòî. Ðàíüøå òàì âîäèëèñü êàáàíû, ñîáàêè, ïëîòè, â îáùåì - âñÿêàÿ ìåëþçãà. Ìû òóäà çà àðòåôàêòàìè õîäèëè. Ñåé÷àñ ìàëî êòî çíàåò, ÷òî òàì òâîðèòñÿ. Îòêóäà-òî ïðîëåçëè êðîâîñîñû, ýòî òî÷íî èçâåñòíî, ïî íî÷àì òàì âîîáùå íàõîäèòüñÿ ïðîòèâîïîêàçàíî. Ïîñëåäíÿÿ íàøà ýêñïåäèöèÿ òóäà ïîãèáëà â ïîëíîì ñîñòàâå, çà èñêëþ÷åíèåì îäíîãî ïàðíÿ, ó êîòîðîãî ïîëíîñòüþ ñîðâàëî êðûøó.</text>
+        <text>�������? ������� �����. ������ ��� �������� ������, ������, �����, � ����� - ������ �������. �� ���� �� ����������� ������. ������ ���� ��� �����, ��� ��� ��������. ������-�� �������� ���������, ��� ����� ��������, �� ����� ��� ������ ���������� ���������������. ��������� ���� ���������� ���� ������� � ������ �������, �� ����������� ������ �����, � �������� ��������� ������� �����.</text>
     </string>
     <string id="mil_max_dialog_common2_4">
-        <text>Áîëîòî? È ÷òî òàì?</text>
+        <text>������? � ��� ���?</text>
     </string>
     <string id="mil_max_dialog_common2_5">
-        <text>Êîãäà-òî áûëî îçåðîì, ðûáà òàì âîäèëàñü, à ñåé÷àñ â áîëîòî ïðåâðàòèëîñü. Ðàäèàöèÿ òàì íåñëàáàÿ, íèêàêàÿ çàùèòà íå ïîìîãàåò. Ïîñëåäíèé, êòî òóäà ñîâàëñÿ, ïîìåð â ìó÷åíèÿõ, òàêóþ äîçó ñõëîïîòàë.</text>
+        <text>�����-�� ���� ������, ���� ��� ��������, � ������ � ������ ������������. �������� ��� ��������, ������� ������ �� ��������. ���������, ��� ���� �������, ����� � ��������, ����� ���� ���������.</text>
     </string>
     <string id="mil_max_dialog_common2_6">
-        <text>À ÷åãî îí ïîï¸ð íà áîëîòî?</text>
+        <text>� ���� �� ���� �� ������?</text>
     </string>
     <string id="mil_max_dialog_common2_7">
-        <text>Äà ñèäèò òàì áðàòîê îäèí, ñîâåðøåííî áåç áàøíè. Âûæèë â äåðåâíå íî÷üþ, âîò êðûøà è ñîðâàëàñü. Îí êàêèì-òî ÷óäîì òóäà ïðîø¸ë, òàì âîÿêè êîãäà-òî çàìèíèðîâàëè âñ¸, à îí êàê-òî ïðîø¸ë ê äîìèêó íà áîëîòå è ñèäèò òàì - îòñòðåëèâàåò âñåõ, êòî ñìååò ïðèáëèæàòüñÿ.</text>
+        <text>�� ����� ��� ������ ����, ���������� ��� �����. ����� � ������� �����, ��� ����� � ���������. �� �����-�� ����� ���� ������, ��� ����� �����-�� ������������ ��, � �� ���-�� ������ � ������ �� ������ � ����� ��� - ������������ ����, ��� ����� ������������.</text>
     </string>
     <string id="mil_max_dialog_common2_8">
-        <text>Àðòåôàêòû? Èíòåðåñíî. Ýòî ãäå?</text>
+        <text>���������? ���������. ��� ���?</text>
     </string>
     <string id="mil_max_dialog_common2_80">
-        <text>Íà ñåâåðî-çàïàäå îò áàçû, â äåðåâíå. Íî íå ñîâåòóþ òóäà ñîâàòüñÿ, òàì ïîÿâèëèñü êðîâîñîñû. Ìîãóò ïîïðîáîâàòü òåáÿ íà îáåä.</text>
+        <text>�� ������-������ �� ����, � �������. �� �� ������� ���� ��������, ��� ��������� ���������. ����� ����������� ���� �� ����.</text>
     </string>
     <string id="mil_max_dialog_common2_9">
-        <text>À êóäà äîðîãè âåäóò?</text>
+        <text>� ���� ������ �����?</text>
     </string>
     <string id="mil_max_dialog_common2_90">
-        <text>Îòñþäà ìîæíî íà "Ðîñòîê" ïîïàñòü, äà òû, íàâåðíîå, îòòóäà è ïðèø¸ë. Ê ñåâåðó âûõîä íà Ðàäàð, íî òóäà ìàëî êòî õîäèò - íèêòî íå õî÷åò çàêîí÷èòü ñâîþ æèçíü â êà÷åñòâå ðàñòåíèÿ. Íåïîäàë¸êó äîðîãà, ðàíüøå âåëà â Ñâåòëûé ëó÷  áàçó íà¸ìíèêîâ, íî ïîñëå î÷åðåäíîãî âûáðîñà, äîðîãó çàâàëèëî, òåïåðü òóäà íå ïðîéòè. Ïåðåä âûõîäîì îñòàëñÿ ïîñò íà¸ìíèêîâ, ñòðåëÿþò, êîãî íè óâèäÿò, òàì åñòü ÷åì ïîæèâèòüñÿ.</text>
+        <text>������ ����� �� "������" �������, �� ��, ��������, ������ � ������. � ������ ����� �� �����, �� ���� ���� ��� ����� - ����� �� ����� ��������� ���� ����� � �������� ��������. ��������� ������, ������ ���� � ������� ��� � ���� ��������, �� ����� ���������� �������, ������ ��������, ������ ���� �� ������. ����� ������� ������� ���� ��������, ��������, ���� �� ������, ��� ���� ��� ����������.</text>
     </string>
     <string id="mil_max_dialog_common3_0">
-        <text>À ãäå òóò ìîæíî ïàòðîíû êóïèòü èëè ñòâîë?</text>
+        <text>� ��� ��� ����� ������� ������ ��� �����?</text>
     </string>
     <string id="mil_max_dialog_common3_1">
-        <text>Â ãëàâíîì çäàíèè, íà ïåðâîì ýòàæå, ñëåâà ñèäèò Ñêðÿãà. Îí ó íàñ çàíèìàåòñÿ âñåé òîðãîâëåé. Ìîæåøü åìó òàêæå è àðòåôàêòû ïðåäëîæèòü.</text>
+        <text>� ������� ������, �� ������ �����, ����� ����� ������. �� � ��� ���������� ���� ���������. ������ ��� ����� � ��������� ����������.</text>
     </string>
 	<string id="mil_patrol_dialog1_0">
 		<text>Man, you're in the Freedom base! Relax, make yourself at home!</text>
@@ -1570,13 +1570,13 @@
 		<text>So, what have you brought with you?</text>
 	</string>
 	<string id="mil_trader_pda_reward_0">
-		<text>Î÷åðåäíàÿ ïàðòèÿ ÊÏÊ - â òâî¸ì ðàñïîðÿæåíèè.</text>
+		<text>Another  shipment of PDAs.</text>
 	</string>
 	<string id="mil_trader_pda_reward_1">
-		<text>À òû íåïëîõî ïîòðóäèëñÿ.</text>
+		<text>Good job.</text>
 	</string>
 	<string id="mil_trader_pda_reward_11">
-		<text>Åù¸ áû.</text>
+		<text>Thanks.</text>
 	</string>
 	<string id="mil_zoneguard_common1_0">
 		<text>Is there a cook around here?</text>
@@ -1618,7 +1618,7 @@
 		<text>We'll see.</text>
 	</string>
 	<string id="mil_zoneguard_common2_5">
-		<text>Äà áûë ïðåöåäåíò - åãî ÷óòü áûëî íå ãðîõíóë êàêîé-òî íà¸ìíèê. Ñ òåõ ïîð è ïåðåñòðàõîâûâàåìñÿ.</text>
+		<text>In the pat a Merc nearly  blew his head off. From now on then we try not to take risks.</text>
 	</string>
 	<string id="mil_zoneguard_common2_6">
 		<text>Got it. Thanks.</text>
@@ -1645,7 +1645,7 @@
 		<text>OK, you can go.</text>
 	</string>
 	<string id="mil_zoneguard_dialog_2">
-		<text>Êàê äåëà?</text>
+		<text>��� ����?</text>
 	</string>
 	<string id="mil_zoneguard_dialog_20">
 		<text>So-so. Keep out, don't bother me.</text>
@@ -1687,25 +1687,25 @@
 		<text>Go to the main building and you'll find it on the first floor.</text>
 	</string>
 	<string id="mil_zoneguard_dialog_6">
-        <text>Ñòîé!!!</text>
+        <text>Halt!</text>
     </string>
     <string id="mil_zoneguard_dialog_601">
-        <text>Ñòîþ!</text>
+        <text>Alright!</text>
     </string>
     <string id="mil_zoneguard_dialog_602">
-        <text>Ïàðîëü?</text>
+        <text>Password!</text>
     </string>
     <string id="mil_zoneguard_dialog_603">
-        <text>Áîìîïàãëàâèáëè.</text>
+        <text>Bomba-pagla-vybli.</text>
     </string>
     <string id="mil_zoneguard_dialog_604">
-        <text>×åãî???</text>
+        <text>What???</text>
     </string>
     <string id="mil_zoneguard_dialog_605">
-        <text>Áîìîïàãëàâèáëè.</text>
+        <text>Bomba-pagla-vybli.</text>
     </string>
     <string id="mil_zoneguard_dialog_606">
-        <text>Íå, íå òîò...</text>
+        <text>No, that's not it?</text>
     </string>
 	<string id="mil_zoneguard_dialog_607">
 		<text>Talking horse?</text>
@@ -1774,7 +1774,7 @@
 		<text>Yep, I am.</text>
 	</string>
 	<string id="mil_zoneguard_dialog_6208">
-		<text>A bit more difficult now! OK... What's the round capacity of a cartridge that goes into the Russian submachine gun Bizon?</text>
+		<text>A bit more difficult now! OK... What's the round capacity of a magazine that goes into the Russian submachine gun Bizon?</text>
 	</string>
 	<string id="mil_zoneguard_dialog_6300">
 		<text>Twenty-five.</text>
