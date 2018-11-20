@@ -10,6 +10,8 @@ A list of all files with detailed progress can be found below.
 - **[config\ui](gamedata/config/ui)**
 	- [ui_artefact_merger_wnd.xml](gamedata/config/ui/ui_artefact_merger_wnd.xml)
 		- done
+	- [ui_old_sleep_wnd.xml](gamedata/config/ui/ui_old_sleep_wnd.xml)
+		- done
 - **[config\gameplay](gamedata/config/gameplay)**
 	- [-character_desc_general_olr25.xml](gamedata/config/gameplay/-character_desc_general_olr25.xml)
 		- done
