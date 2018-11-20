@@ -7,6 +7,7 @@ A list of all files with detailed progress can be found below.
 - **[config](gamedata/config)**
 	- [localization.ltx](gamedata/config/localization.ltx)
 		- done
+- **[config\ui](gamedata/config/ui)**	
 - **[config\gameplay](gamedata/config/gameplay)**
 	- [-character_desc_general_olr25.xml](gamedata/config/gameplay/-character_desc_general_olr25.xml)
 		- done
