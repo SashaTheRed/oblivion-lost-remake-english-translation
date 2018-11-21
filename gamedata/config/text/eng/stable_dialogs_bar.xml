@@ -410,22 +410,22 @@
  <text>Alright..</text> 
  </string> 
  <string id="hjopdodddkz_01"> 
- <text>Тот сталкер вроде поправляется. Он сказал, что шёл группой с города зомби... Может, он член какой-то группировки? Сходи-ка в Светлый луч к свободовцам, да разузнай насчёт него, потом возвращайся...</text> 
+ <text>The stalker is getting better. He said that he came from the city with a group of people. Maybe he's a member of some faction? Go to the Shining Path and ask around the local clan, maybe they know something.</text> 
  </string> 
 
 
 
  <string id="zzhjopdodddkz_0"> 
- <text>Listen, I'm looking for an old man.</text> 
+ <text>Listen, have you ever heard about Veteran?</text> 
  </string> 
  <string id="zzhjopdodddkz_1"> 
- <text>Чего? Ну знаю, да. Он пропал на Радаре недавно с группой...</text> 
+ <text>Who? Ohhh, that guy. Yeah I know him. He dissapeared along with a group at the Radar.</text> 
  </string> 
  <string id="zzhjopdodddkz_2"> 
- <text>The Doctor is living at the swamps.</text> 
+ <text>He's alive and currently is at the swamp Doctor.</text> 
  </string> 
  <string id="zzhjopdodddkz_01"> 
- <text>Ёлки... Мы уже с ним попрощались, а тут... Ну новость... Что ж, передай Доктору нашу благодарность. Думаю, те сведения, что он узнал там, нам будут полезны.</text> 
+ <text>Goddamn... and we already said goodbye to him, and now this... that's some good news! Well, tell the doc that we are extremely thankful. I think that the info he got there will be very useful.</text> 
  </string> 
 
 
@@ -443,16 +443,16 @@
  <text>You wanted to share information related to someone I'm looking for, right?</text> 
  </string> 
  <string id="nnnnnikz_01"> 
- <text>Ну слушай... Ты же Стрелка ищешь, так? Короче говоря, слышал я тут в баре от одного сталкера в халате... или плаще каком-то... сильно потрёпанном, что Стрелок имел тайники в нескольких местах. Вроде как на НИИ и тут, в подземельях "Ростока"... Наши парни сейчас там роют. Возможно, что и закрытая часть туннелей стала доступна сейчас...</text> 
+ <text>Alright... You're looking for Strelok, right? Long story short, I heard from some stalker at the bar who was wearing some worn-out coat that Strelok had stashes all around the place. He supposedly had one at Med-Pribor and here, in the Rostok underground. Our boys are currently diggin' there and it is possible that the part of the tunnel that was closed before is now accessible. </text> 
  </string> 
 
 
 
  <string id="nloudmoth_0"> 
- <text>Is there any other work?</text> 
+ <text>Is there any work you want done?</text> 
  </string> 
  <string id="nloudmoth_1"> 
- <text>Да. Нужно найти в подвале завода "Росток" нож, который потерял сталкер. Сейчас там сталкеры подвалы разгребают после того, как ты убил того кровососа. И один мой знакомый вместе с ними. Потерял он его вроде в одной из комнат подземелий.</text> 
+ <text>Yes. You need to find a knife in the Rostok underground that my friend lost. After you took care of that bloodsucker stalkers began swarming the place looking for shit. My friend was one of them, he lost the knife in one of the rooms.</text> 
  </string> 
  <string id="nloudmoth_2"> 
  <text>I'll go take a look. What about payment?</text> 
@@ -464,7 +464,7 @@
 
 
  <string id="loudmoth_0"> 
- <text>How are you, stalker? Did you send out that SOS?</text> 
+ <text>How are you, stalker? Were you the one who sent that SOS message?</text> 
  </string> 
  <string id="loudmoth_1"> 
  <text>Yes, I need help.. fuck, I escaped from that military base. There's no military there.. the people there aren't human.</text> 
@@ -473,7 +473,7 @@
  <text>What do you mean?</text> 
  </string> 
  <string id="loudmoth_01"> 
- <text>I was going to the Bar with some friends. They followed us.. and they knocked us out. We were taken to their base, and they planted my friend Seryoga on a pole. Someone who looked like their leader performed some sort of ritual.. after witnessing what they did, I think my brain's all messed up.</text> 
+ <text>I was going to the Bar with some friends. They followed us.. and they knocked us out. We were taken to their base, and they empaled my friend Seryoga on a pole. Someone who looked like their leader performed some sort of ritual.. after witnessing what they did, I think my brain's all messed up.</text> 
  </string> 
 
 
@@ -487,10 +487,10 @@
  <text>I think I found a group of scientists in the city.</text> 
  </string> 
  <string id="duudpomosnikz_1"> 
- <text>What about them? Are they dead?</text> 
+ <text>What about them? Are they ok?</text> 
  </string> 
  <string id="duudpomosnikz_2"> 
- <text>Yes. It seems that they hid in the attic of one of the houses when the city was being sweeped by military stalkers. Here, they had this PDA.</text> 
+ <text>Well, no. They're dead. It seems that they hid in the attic of one of the houses when the city was being sweeped by military stalkers. Here, they had this PDA.</text> 
  </string> 
  <string id="duudpomosnikz_01"> 
  <text>Well, okay. Thank you. Talk to our junior assistant. He might have some work for you... damn it, our groups have had nothing but trouble.</text> 
@@ -499,48 +499,48 @@
 
 
  <string id="zuudpomosnikz_0"> 
- <text>Do you have a job to do?</text> 
+ <text>Do you have any work for me?</text> 
  </string> 
  <string id="zuudpomosnikz_1"> 
- <text>Да, есть одно дело. Неделю назад группа учёных отправилась в Светлый луч для проведения наблюдений и пропала. На поиски посылать некого - нужно найти учёных или их трупы, выявить результаты наблюдений, если таковые имеются.</text> 
+ <text>Nah. Or actually, yeah, there is one thing. A week ago a group of our men went to the Shining Path to study some anomalies there and dissapeared. I don't have anyone to send to rescue them, but you appear to be experienced. You'll need to find them, or their bodies, and find the results of their studies, if there any. </text> 
  </string> 
  <string id="zuudpomosnikz_2"> 
- <text>Хорошо, я попробую найти их.</text> 
+ <text>OK. I'll try to find them.</text> 
  </string> 
  <string id="zuudpomosnikz_01"> 
- <text>Всё, что найдёте, приносите сюда в бункер.</text> 
+ <text>If you find anything bring it here, to the bunker.</text> 
  </string> 
  
 
 
 
  <string id="dpomosnikz_0"> 
- <text>Посмотри, он или нет?</text> 
+ <text>Hey, take a look. It's this one, isn't it?</text> 
  </string> 
  <string id="dpomosnikz_1"> 
- <text>Что? Ты... ты нашёл?! Где?</text> 
+ <text>What? You... You found it?! Where?</text> 
  </string> 
  <string id="dpomosnikz_2"> 
- <text>Мне... его передал кое-кто. Впрочем, не важно, забирай. Я понимаю, эта вещь дорога тебе.</text> 
+ <text>One guy gave it to me. It doesn't matter. Take it. I see that this thing is very precious to you.</text> 
  </string> 
  <string id="dpomosnikz_01"> 
- <text>Сталкер... Даже не знаю, что сказать тебе... Спасибо... Я скажу Профессору, чтобы впустил тебя в бункер.</text> 
+ <text>Stalker... I'm at a loss of words! Thank you! I'll tell the professor to let you in right away!</text> 
  </string> 
 
 
 
 
  <string id="pomosnikz_0"> 
- <text>Здравствуйте...</text> 
+ <text>Greetings.</text> 
  </string> 
  <string id="pomosnikz_1"> 
- <text>А? Чего тебе ещё? Профессор сегодня не принимает. Можешь разворачиваться и валить отсюда.</text> 
+ <text>Huh? What do you want? The professor isn't accepting visitors today. Turn away and get out of here!</text> 
  </string> 
  <string id="pomosnikz_2"> 
- <text>Спокойнее... У меня задание от Бармена... Чего ты нервный такой?</text> 
+ <text>Calm down, Barkeep sent me here. Why are you so nervous?</text> 
  </string> 
  <string id="pomosnikz_3"> 
- <text>Чего?! Да того... нет её, понимаешь? Совсем... Пропала она... в лаборатории этой чёртовой под Тёмной долиной... Эх, хотя бы кулон найти тот, который я подарил ей... Серебряный...</text> 
+ <text>What?! Uh... she... she's gone, don't you get it?! She's completely gone... she dissapeared in that damn lab in the Dark Valley! Ah, if I could only find the pendant that I gave her... a silver one...</text> 
  </string> 
  <string id="pomosnikz_4"> 
  <text>...</text> 
@@ -550,16 +550,16 @@
 
 
  <string id="prpozsskayb_0"> 
- <text>Ну, вроде мы на месте.</text> 
+ <text>Ok, I think this is the place.</text> 
  </string> 
  <string id="prpozsskayb_1"> 
- <text>Да. Спасибо за помощь, Мессер. Держи скафандр, ты его заслужил.</text> 
+ <text>Yup. Thanks for your help, Messer. Here's your suit, you've earned it.</text> 
  </string> 
  <string id="prpozsskayb_2"> 
- <text>Благодарю.</text> 
+ <text>Thanks.</text> 
  </string> 
  <string id="prpozsskayb_01"> 
- <text>Вот, кстати, наш помощник Профессора. Он немного не в себе... У него была жена, но она погибла. У нее был кулон, но его не нашли рядом с телом. Погибла она в какой-то лаборатории под Тёмной долиной... Так он теперь спит и видит этот кулон... Ну ладно... спасибо тебе!</text> 
+ <text>Oh and by the way, you see that guy? That's the main assistant. He's a bit unhinged, so remember to treat him nicely. His wife died recently... She got a pendant from him some time ago, but they didn't find it near her body. She died in some lab at the Valley... now he dreams of that pendant... kinda  creepy, huh? Anyways, once again, thanks for your help!</text> 
  </string> 
 
 
@@ -567,51 +567,51 @@
 
 
  <string id="pozsskayb_0"> 
- <text>Привет... Зябликов? Что случилось?</text> 
+ <text>Greetings, Zyablikov? What's going on?</text> 
  </string> 
  <string id="pozsskayb_1"> 
- <text>Привет ещё раз. Слушай, Мессер, проводишь меня до лагеря? Путь я знаю.</text> 
+ <text>Hello. Listen, Messer, would you lead me to the camp? I know the way.</text> 
  </string> 
  <string id="pozsskayb_2"> 
- <text>Хорошо, пойдём.</text> 
+ <text>Alright, let's go.</text> 
  </string> 
  <string id="pozsskayb_01"> 
- <text>Отлично. Как придём, отдам тебе один из наших скафандров, как и обещал.</text> 
+ <text>Great! When we get there I'll give you one of the suits.</text> 
  </string> 
 
 
 
 
  <string id="zsskayb_0"> 
- <text>Вот документы.</text> 
+ <text>Here's the documents.</text> 
  </string> 
  <string id="zsskayb_1"> 
- <text>Так-так... ничего не понимаю. Что за лаборатория? Он жив? Почему нам ничего не сообщили? Что происходит?</text> 
+ <text>Uh huh... huh... I don't understand anything! What laboratory? He's alive? Why didn't nobody tell us? What is going on here?</text> 
  </string> 
  <string id="zsskayb_2"> 
- <text>Успокойся. Что насчёт комбинезона?</text> 
+ <text>Calm down, doc. What about my suit?</text> 
  </string> 
  <string id="zsskayb_01"> 
- <text>Извини я... переволновался немного. Мне пора возвращаться на Янтарь. При случае, зайди в лагерь учёных, чтобы забрать костюм.</text> 
+ <text>Sorry, I guess I got a bit carried away. It's time to go back to Yantar. Come to the mobile lab for your suit.</text> 
  </string> 
 
 
 
 
       <string id="zcddaqiyorbar_0"> 
- <text>Здрав буди. Что за костюм на тебе? Научный?</text> 
+ <text>Greetings. What's that suit you're wearing? Did you get it from the eggheads?</text> 
  </string> 
  <string id="zcddaqiyorbar_1"> 
- <text>Да, специальный. Герметичный. От любой химии защитит. Хочешь такой же? За одну услугу.</text> 
+ <text>Yes, it's a scientific suit. Fully waterproof. It will protect you from even the worst chemical anomalies! Want one? I'll get you one if you do something for me.</text> 
  </string> 
  <string id="zcddaqiyorbar_2"> 
- <text>Какую?</text> 
+ <text>What do you want?</text> 
  </string> 
  <string id="zcddaqiyorbar_3"> 
- <text>На заводе у меня в своё время брат работал - Ваня - точнее, Иван Иванович. Я в своё время с ним крепко-крепко поругался, по совсем пустяковому поводу, психанул, уехал надолго. Когда вернулся, узнал, что с завода всех эвакуировали, но Ваня не вернулся. Администрация как-то пыталась отговориться, мол, что он или сбежал, или на производстве погиб, врали с три короба, в общем-то. Семья все нервы выжгла. Позже мне приходит письмо от НИИ, приглашение на участие в экспедиции в Зону. Точнее, в её охране. Я думал отказаться, но мне шепнули, что завод тот тоже в Зоне, да и терять мне уже было нечего. Короче говоря, за то, что ты отправляешься на "Росток" и отыскиваешь документы, в которых может что-то говориться о брате или его самого, или личные вещи, я тебе отдаю костюм. Идёт?</text> 
+ <text>In the past, me and my brother worked together in the factory. His name was Vania. One time we got an argument over one petty issue. Mad as all hell and flustered I got away for a long time. When I came back, I learned that the entire complex was evacuated. But here's the catch - Vania didn't come back. The administration tried to play us like a damn fiddle - they said that he either escaped, or died on duty. Basically, they lied like the devil. The entire family has gone nuts. Then I got a letter from the Research Institute with an offer to take part in an expedition to the Zone. More exactly - to protect it. I wanted to deny the offer, but I've heard that the complex is also in the Zone, and I've had nothing to lose. Long story short - if you go to the Rostok plant and find anything that mentions my brother or maybe even him, I'll give you my suit. Are you up for it?</text> 
  </string>
  <string id="zcddaqiyorbar_4"> 
- <text>Хм... так и быть. Идёт.</text> 
+ <text>Hm... alright. I'll try to find something about him.</text> 
  </string>
 
 
@@ -619,69 +619,69 @@
 
 
       <string id="cddaqiyorbar_0"> 
- <text>Работы нет никакой?</text> 
+ <text>Do you have any jobs for me?</text> 
  </string> 
  <string id="cddaqiyorbar_1"> 
- <text>Есть. Тут на Баре, за заводом площадка есть. Там камаз стоит один любопытный. Нужно бы его привезти сюда, да никто не хочет за дело браться. Всё же "Росток" там совсем рядом, а место так себе, не из приятных.</text> 
+ <text>Yes, there is one. Behind the Rostok plant, near the dam, is some sort of living area. A Kamaz sits there. I want it brought here, but nobody wants to do it. </text> 
  </string> 
  <string id="cddaqiyorbar_2"> 
- <text>Я могу сделать это.</text> 
+ <text>I can try to do it.</text> 
  </string> 
  <string id="cddaqiyorbar_3"> 
- <text>А я смотрю, ты парень лихой... Ну давай. Возле площадки он стоит там, пригоняй его сюда к бару. Об оплате не беспокойся.</text> 
+ <text>I see that you're quite a brave stalker. Ok then. The Kamaz is waiting for you near the living complex. Bring it here, to the bar. Don't worry bout payment, I'll take care of it.</text> 
  </string>
  <string id="cddaqiyorbar_4"> 
- <text>Хорошо.</text> 
+ <text>OK.</text> 
  </string>
 
 
 
  <string id="casskayb_0"> 
- <text>Камаз тут, у бара.</text> 
+ <text>I brought the truck.</text> 
  </string> 
  <string id="casskayb_1"> 
- <text>Молодец... Держи своё. Ничего не было подозрительного? Может какой груз? Или ещё что-то?</text> 
+ <text>Great job, here's your reward. Is the truck alright? Does it have any cargo? Or maybe something else happened?</text> 
  </string> 
  <string id="casskayb_2"> 
- <text>Вроде нет. Разве что кровосос... может с "Ростока"...</text> 
+ <text>No, I don't think so. Except one bloodsucker... it probably came from Rostok.</text> 
  </string> 
  <string id="casskayb_01"> 
- <text>Ну ладно. Машину на стоянку отвезём... Спасибо за помощь.</text> 
+ <text>Alrighty then. I'll get someone to put the truck at the 'parking lot'. Thanks for your help, Messer.</text> 
  </string> 
 
 
 
 
       <string id="ddaqiyorbar_0"> 
- <text>Здравия желаю. Вам нужны новые бойцы?</text> 
+ <text>Greetings! Are you looking for new fighters?</text> 
  </string> 
  <string id="ddaqiyorbar_1"> 
- <text>Ты хочешь пополнить наши ряды? О таком бойце, как ты, можно только мечтать!</text> 
+ <text>You want to join ours ranks? A fighter like you would be a dream!</text> 
  </string> 
  <string id="ddaqiyorbar_2"> 
- <text>Всё верно.</text> 
+ <text>That is right!</text> 
  </string> 
  <string id="ddaqiyorbar_3"> 
- <text>Что ж, мы с радостью тебя примем. Теперь ты официально член Долга. Вот, возьми специальный комплект снаряжения.</text> 
+ <text>If that's so, then we'll happily take you in! You are now officially a member of Duty! Here's your gear.</text> 
  </string>
  <string id="ddaqiyorbar_4"> 
- <text>Служу Долгу!</text> 
+ <text>Glory to Duty!</text> 
  </string>
 
 
 
 
  <string id="sskayb_0"> 
- <text>Слушай, мне тут твоих болтов облучённых нужно. Отсыпешь?</text> 
+ <text>Listen, I need some of your radioactive bolts. You got any?</text> 
  </string> 
  <string id="sskayb_1"> 
- <text>Ну знаешь... Хотя можно, почему бы и нет. С тебя 1000 рублей за 8 шт.</text> 
+ <text>Well, alright, why not. 1000 RU for 8 bolts.</text> 
  </string> 
  <string id="sskayb_2"> 
- <text>Давай, договорились.</text> 
+ <text>Alright, here's the cash.</text> 
  </string> 
  <string id="sskayb_01"> 
- <text>Да ну тебя!</text> 
+ <text>For that kind of price?! Have you gone mad?!</text> 
  </string> 
 
 
@@ -690,10 +690,10 @@
  <text>Hey, what are those boxes you got here? You've got all of these artifacts too.</text> 
  </string> 
  <string id="skayb_1"> 
- <text>Да прикинь, на "Ростоке" нашли свободовцы целых десять ящиков болтов. Да не простых, а каких то облучённых... В общем, вроде как забрать их на Большую землю должны, ну а я пока присматриваю за ними. А насчёт артов - синтезировал я их одно время... Был у меня трансмутатор портативный, даже рецепты в ПДА кой-какие остались вроде... У лидера нашего, кстати, есть все рецепты из известных, если тебя это интересует...</text> 
+ <text>Yeah, imagine this - some Freedomers in Rostok found 10 crates full of bolts! But these aren't regular bolts, they're radioactive bolts...  Basically, this should've been brought outside the perimeter a long time ago, but there's some delays with delivery and shit, so I'm keeping them safe. And about these arts - I managed to synthesize them some time ago. I've had a portable transmutator, and I still have some receipts in my PDA. If you're interested, talk to our leader at the mobile bunker in Yantar.</text> 
  </string> 
  <string id="skayb_2"> 
- <text>Ясно, буду знать...</text> 
+ <text>Alright, good to know. Thanks.</text> 
  </string> 
 
 
