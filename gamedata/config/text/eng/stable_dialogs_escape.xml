@@ -5,90 +5,90 @@
 
 
    <string id="kdenb_head_1">
-    <text>Привет... Ты чего тут делаешь?</text>
+    <text>Hi. What are you doing?</text>
    </string>
 
    <string id="kdenb_head_2">
-    <text>Сталкер, помоги, а... Я тут по Кордону гулял, и в общем... встретил двух... со Свалки. Бандюки, ветераны. Сразу видно, матёрые... У меня калаш был, обычный 74й. Да прикинь, взяли и отобрали! Хорошо хоть не грохнули, только под ноги пальнули, ну я и дал дёру...</text>
+    <text>Help me out here, stalker! I was exploring the Cordon, then suddenly, two bandits jumped me. I instantly realized that they were experienced veterans! I had a Kalashnikov - you know, a simple '74. They shook me down and took it. Thank God they didn't kill me. They just shot at my feet until I ran away.</text>
    </string>
 
    <string id="kdenb_head_3">
-    <text>Так чем помочь то?</text>
+    <text>So, how can I help?</text>
    </string>
 
    <string id="kdenb_head_4">
-    <text>Я за ними проследил немного, они за завод ушли... Слушай... Я видел, ты туда-сюда носишься, как угорелый... Может, заодно устроишь им "тёплый" приём? Мне только автомат нужен, и всё... Хотя, не знаю, есть ли он ещё у них... Ну достань мне обычный 74й калаш, я в долгу не останусь...</text>
+    <text>I followed them quietly so I could figure out where they are. They went to the nearby factory. Listen, I've seen you've been around here for a while. Maybe you can give them a 'warm' and 'friendly' welcome? Please recover my Kalashnikov, that's all I want! I don't know if they still have it, though. If you give it back to me, I will be in your debt!</text>
    </string>
 
 
 
    <string id="skdenb_head_1">
-    <text>Ну держи калаш...</text>
+    <text>Here, I've got your gun. Take it.</text>
    </string>
 
    <string id="skdenb_head_2">
-    <text>Что, нашёл всё же? Ну спасибо, удружил... Я всем скажу, что ты мне помог... </text>
+    <text>You succeeded? Thank you, I will tell everyone that you helped me out!</text>
    </string>
 
    <string id="skdenb_head_3">
-    <text>Нет проблем...</text>
+    <text>No problem.</text>
    </string>
 
    <string id="skdenb_head_4">
-    <text>Я в деревню пойду... Ты заскакивай как-нибудь...</text>
+    <text>I'll go back to the village. I'll be seeing you there.</text>
    </string>
 
 
    <string id="pjaba_esli_alarm_start">
-    <text>Привет...</text>
+    <text>Hello.</text>
    </string>
 
    <string id="pjaba_esli_alarm_0">
-    <text>Ёлки, ты ещё кто?</text>
+    <text>Who are you?</text>
    </string>
 
 
    <string id="pjaba_esli_alarm_1">
-    <text>Это наше место... А что ты тут делаешь?</text>
+    <text>This is our place. What are you doing here?</text>
    </string>
 
 
    <string id="pjaba_esli_alarm_2">
-    <text>Ну дела... У меня задание, документы.</text>
+    <text>I'm on a mission. I have to get some documents, and I've managed to ascertain that they're here.</text>
    </string>
 
 
    <string id="pjaba_esli_alarm_3">
-    <text>Бумаги? Хм, они ни к чему нам совершенно. Но у нас есть кое-что. Дробовик... Тут рядом лежит... Это наша работа... Можешь забрать себе, но только если поможешь... Какой-то сталкер забрёл сюда к нам в лабораторию, прямо в то место, где мы хотим построить наше новое святилище... Но там склад больших ящиков, мы не сможем их перенести... Мы создали кое-что - гравиартефакт, он поможет переносить тяжести.</text>
+    <text>Documents? Hmm, they're absolutely useless to us, but we have something here - this zip gun. Here it is. We'll give it to you only if you help us with something. Some stalker came into our laboratory, and he went right into the place where we want to build our new sanctuary. He went into this room filled with large boxes, which we are not able to move around due to their heavy weight. However, we created a gravitational artifact that can move them easily.</text>
    </string>
 
 
    <string id="pjaba_esli_alarm_4">
-    <text>Ну так и что тебе от меня нужно конкретно?</text>
+    <text>Ok, so what do you want me to do?</text>
    </string>
 
 
    <string id="pjaba_esli_alarm_5">
-    <text>Разбери завал и прогони сталкера. Отметка теперь отображается в твоём компьютере.</text>
+    <text>Move the crates with the artifact and tell the stalker to leave. We marked his location on your PDA.</text>
    </string>
 
 
 
 
    <string id="zdenb_head_1">
-    <text>Ну, я думаю, всё готово.</text>
+    <text>I think everything is ready.</text>
    </string>
 
    <string id="zdenb_head_2">
-    <text>Да... Теперь всё в порядке. Что ж, мы сдержим своё слово.</text>
+    <text>Great, I will keep my word and give you the gun.</text>
    </string>
 
    <string id="zdenb_head_3">
-    <text>Сталкер сказал, что попал сюда через НИИ "МедПрибор"...</text>
+    <text>The stalker said that he came here from the Medpribor Institute.</text>
    </string>
 
    <string id="zdenb_head_4">
-    <text>Вот, забирай. А теперь оставь нас. Хотя, стой, вот ещё кое-что... Этот кулон для нас имеет большую ценность... Береги его, и с тобой всегда будет удача.</text>
+    <text>Here, take this. Now leave us alone.. wait, here's something else. This pendant is of great value for us. Take care of it, and you'll always have good fortune!</text>
    </string>
 
 
@@ -98,19 +98,19 @@
 
 
    <string id="denb_head_1">
-    <text>Здарова, ну как, жив-здоров?</text>
+    <text>Hey, seems like you're alive-and-well.</text>
    </string>
 
    <string id="denb_head_2">
-    <text>Мессер, фух! Да, всё нормально! Добрался до Бара потихоньку... Народу, если что, сказал, что ты парень не промах. Да, кстати, видел троих каких-то чуваков в синих комбезах, когда с лабы выходил. Вроде меня не заметили. Да, и у входа какого-то гопника увидел, пришлось ему отдать кровных за выход из лабы, прикинь? Ну вообще бандиты охренели!</text>
+    <text>Messer? Phew, I'm glad to see you. Alright, I got to the Bar quietly. If anything, I’ve told the people that you’re a good guy. By the way, I saw three guys in blue suits when I left the lab. I don't think they saw me. Also, at the entrance I met a gopnik who demanded payment for a way out of the lab, and therefore I had to give him my hard-earned goods. The bandits have gone insane!</text>
    </string>
 
    <string id="denb_head_3">
-    <text>Ладно, ладно, не стоит благодарности. А вот про троих в синем спец. снаряжении интересно. Нужно будет навести справки.</text>
+    <text>Don't mention it. By the way, those three men in blue, their outfits are.. interesting. It looks like real top-shelf stuff.</text>
    </string>
 
    <string id="denb_head_4">
-    <text>Спасибо тебе. Поверь, репутация у честных сталкеров стоит здесь больше, чем хабар.</text>
+    <text>Thank you! Believe me, a good reputation among honest stalkers is worth more than loot.</text>
    </string>
 
 
@@ -118,31 +118,31 @@
 
 
    <string id="den_head_1">
-    <text>Ну здарова. Я к тебе... В гости!</text>
+    <text>Hey, I'm here to visit you.</text>
    </string>
 
    <string id="den_head_2">
-    <text>Что за? Сталкер! Чёрт! Я думал, ужё всё, кранты... Ты прикинь, на НИИ "МедПрибор" нашёл вход в туннель, шёл долго по нему, может день-два, не помню... И каким-то макаром наткнулся на люк, думал всё, спасён. А тут тебе - на! Непонятно что! Я как залез сюда, люк шкафом завалило, будто специально! А комната эта замурована оказалась. Чёрт, где мы вообще?</text>
+    <text>What the? Another stalker? Damn! I thought it was over, that death was close... Imagine - I found an entrance to a tunnel in Medpribor. I was looking for it during the day for a long time. Maybe for two days? I do not remember. Somehow, I found this hatch and I thought that I was saved, that everything will be fine... and here you are! This doesn't make sense. As soon as I climbed down here, the hatch slammed shut, as if on purpose! And this room was sealed shut. Shit, where even are we?</text>
    </string>
 
    <string id="den_head_3">
-    <text>Не важно. Важно то, что тебе стоит как можно быстрее отсюда убраться, если жить охота. Короче, можешь считать, что сегодня твой день. Выход из лаборатории находится наверху. Проход наверх я зачистил, завал разобран, можешь идти.</text>
+    <text>It doesn't matter. What matters now is that you should get out of here as soon as possible. To keep it short, today's your lucky day. The exit of the lab is at the top. I cleared the area of mutants, so you can go now.</text>
    </string>
 
    <string id="den_head_4">
-    <text>Да... Век не забуду, приятель... Спасибо. Я сейчас в Бар двину, ты туда подтягивайся, если что! Я всем расскажу, что ты помог мне.</text>
+    <text>Yeah...I'll never forget this moment, mate...thank you. I'll go to the Bar now, just like you will later. I will tell everyone that you helped me.</text>
    </string>
 
    <string id="fuck_you_asshole_grehone">
-    <text>Да пошёл ты!</text>
+    <text>Fuck you!</text>
    </string>
 
    <string id="blyaaa_head_1">
-    <text>...голова...</text>
+    <text>My damn head is killing me..</text>
    </string>
 
    <string id="blyaaa_head_2">
-    <text>Что, ты ещё тут?</text>
+    <text>What, you're still here?</text>
    </string>
 
    <string id="blyaaa_head_3">
@@ -150,70 +150,70 @@
    </string>
 
    <string id="blyaaa_head_4">
-    <text>Где мой ящик? Бегом давай!</text>
+    <text>Where's my suitcase? Come on, go fetch it!</text>
    </string>
 
 
 
    <string id="jaba_esli_alarm_0">
-    <text>Фух, вроде достал.</text>
+    <text>Ugh, I got the suitcase.</text>
    </string>
 
 
    <string id="jaba_esli_alarm_1">
-    <text>Мессер! Какого хрена!</text>
+    <text>Messer! What the hell!?</text>
    </string>
 
 
    <string id="jaba_esli_alarm_2">
-    <text>В чём дело то?</text>
+    <text>What?</text>
    </string>
 
 
    <string id="jaba_esli_alarm_3">
-    <text>Твою мать... У меня могут быть серьёзные проблемы из-за тебя теперь! Я же просил, не шуметь! В общем, с тебя компенсация, и не отпирайся, выхода у тебя нет.</text>
+    <text>You son of a whore! I might have serious problems because of you! I asked you nicely to not make any noise! You'll pay for this! And don't deny it, you have no way out!</text>
    </string>
 
 
    <string id="jaba_esli_alarm_4">
-    <text>Ну вышло так, понимаешь...</text>
+    <text>Well, this couldn't have been predicted, you know...</text>
    </string>
 
 
    <string id="jaba_esli_alarm_5">
-    <text>Твою мать... Похоже, придётся сворачивать лавочку.</text>
+    <text>You son of a whore...I think I will have collect some interest.</text>
    </string>
 
 
 
 
    <string id="huli_tebe">
-    <text>Чё надо?</text>
+    <text>What do you need?</text>
    </string>
 
 
    <string id="hooo_zzz">
-    <text>Да! Он самый! Слушай, этот глаз мне один сталкер сделал, один из первых тут в Зоне. Он до сих пор ещё жив и живёт на Болоте. Я смутно помню его дом, но точно знаю, что был там. Он всем помогает... Буквально по кусочкам сталкеров и мутантов собирает... Ну это так, конечно, больше на легенду смахивает... Но я там был. Спасибо тебе, сталкер! Наконец, хоть смогу нормально в рейд на НИИ сходить!</text>
+    <text>Yes! That's it! Thank you, stalker! Finally, I will be able to go to Medpribor!</text>
    </string>
 
 
    <string id="hooo_zzzza">
-    <text>Слушай, этот глаз мне один сталкер сделал, один из первых тут в Зоне. Он до сих пор ещё жив и живёт на Болоте. Я смутно помню его дом, но точно знаю, что был там. Он всем помогает... Буквально по кусочкам сталкеров и мутантов собирает... Ну это так, конечно, больше на легенду смахивает... Но я там был.</text>
+    <text>Listen, stalker, my eye was made by another stalker. He was one of the first to enter the Zone. He is still alive and well in the Swamps. I only vaguely remember his home, but I know that I was there. He helps everyone: stalkers and mutants alike. You can say that this is just a fairytale.. but I was there.</text>
    </string>
 
 
    <string id="hooo_zzzz">
-    <text>Да не за что, друг.</text>
+    <text>No problem, friend.</text>
    </string>
 
 
    <string id="hooo_baby">
-    <text>Интересно... И что ты от меня хочешь?</text>
+    <text>Interesting... and what do you want from me?</text>
    </string>
 
 
   <string id="hooo_baby_2">
-    <text>Нужно забрать его у него. Я и сам пробовал, когда он здесь был. Говорит, мало денег предлагаю, больше просит. Я бы заработал, благо артефакты здесь на Свалке есть, но... Слушай, сбегай к нему, а? Он тут на севере Свалки на блокпосту Долга ошивается. Надави на него как следует. Думаю, с тобой он будет более сговорчив.</text>
+    <text>You need to take my eye from him. I tried getting it from him when he was here. I offered him some money, but he said that I needed more. I would have earned more money since there are many artifacts here at the Garbage, but.. listen, go to him, ok? He's here at the northern Duty checkpoint. Give him hell. I think he'll be more cooperative with you.</text>
   </string> 
 
 
@@ -221,457 +221,457 @@
 
 <!--Simulation-->
  <string id="sim_dialog9_0">
-    <text>Не подскажешь, где артефактов можно поискать?</text>
+    <text>Tell me, where can one find artifacts around here?</text>
  </string>
  <string id="sim_dialog9_1">
-    <text>А ключи от дома и номер счета в банке не нужно?</text>
+    <text>Do you want some house keys? How about a bank account? Do you need those?</text>
  </string>
  <string id="sim_dialog9_2">
-    <text>Было бы неплохо.</text>
+    <text>Yeah, those would be nice.</text>
  </string>
  <string id="sim_dialog9_3">
-    <text>Остришь? Ну остри, остри... мало сейчас артефактов, мало! Вот помню, месяц назад, когда тут вообще почти никого не было, лежали повсюду - бери, не хочу. А сейчас понабежало зеленых... да ещё и подешевело.</text>
+    <text>Are you joking? Just kidding, just kidding...there are little to no artifacts, now. I remember a month ago when there was almost no one here, there were artifacts galore laying everywhere. I didn't want to take them. They're much cheaper now..</text>
  </string>
  <string id="sim_dialog9_4">
-    <text>Ну а если хорошо подумать?</text>
+    <text>Yeah, but could you answer my question?</text>
  </string>
  <string id="sim_dialog9_5">
-    <text>Ну, я такую странность заметил - они появляются в укромных местах, где людей нет, ищи где-нибудь в закоулках, домах, подвалах, стройках.</text>
+    <text>Well, I did notice a pattern - they appear in secluded places, where there are no people. Look for them in back streets, abandoned houses, basements, or construction sites. Y'know, places where no one lives here.</text>
  </string>
  <string id="sim_dialog9_6">
-    <text>Вот уж спасибо, так спасибо.</text>
+    <text>Alright, thanks for the advice.</text>
  </string>
  <string id="sim_dialog8_0">
-    <text>Чем так шокирован?</text>
+    <text>What's so shocking?</text>
  </string>
  <string id="sim_dialog8_1">
-    <text>А? А, да не... ничего.</text>
+    <text>What? Ah, it's no.. nothing.</text>
  </string>
  <string id="sim_dialog8_2">
-    <text>Да ладно тебе, колись.</text>
+    <text>C'mon, talk to me.</text>
  </string>
  <string id="sim_dialog8_11">
-    <text>Ну нет, так нет.</text>
+    <text>It's nothing.</text>
  </string>
  <string id="sim_dialog8_3">
-    <text>Да ё... тут история такая приключилась. Как-то говорю с одним мужиком, ну слово за слово, и тут он выдает: "как вообще можно не заметить электру?"</text>
+    <text>Yes, well.. I've been thinking about something that happened a while ago. One day, I was speaking with someone, and word-for-word, he says "How can one not notice an Electro at all?".</text>
  </string>
  <string id="sim_dialog8_4">
-    <text>Ну и? Действительно, как можно не заметить?</text>
+    <text>Really? How can you not notice them?</text>
  </string>
  <string id="sim_dialog8_5">
-    <text>Так вот. Поговорили, я остался на месте, а он пошёл, скрылся за кучей мусора. Через несколько секунд слышу звук разряда, подбегаю туда, а там только труп обугленный, и электра рядышком.</text>
+    <text>Keep listening. After we finished talking, I stood in the same place after he left. After a few seconds I heard the sound of an Electro discharging. I ran over to the Electro, and the same stalker I spoke to earlier was in the Electro, charred to death.</text>
  </string>
  <string id="sim_dialog8_6">
-    <text>Как так вышло то?</text>
+    <text>How did that happen?</text>
  </string>
  <string id="sim_dialog8_7">
-    <text>Так вот, к чему я это всё... Зона порой может такие штуки провернуть, так что не груби ей. Как-никак, ну уж слышит она, поверь.</text>
+    <text>My point is... The Zone does these things sometimes, so don't offend it. After all, it always listens. Trust me. </text>
  </string>
  <string id="sim_dialog8_8">
-    <text>Тогда беру свои слова назад, если уже не поздно.</text>
+    <text>I'll take back anything negative I've said, as long as it is not too late.</text>
  </string>
  <string id="sim_dialog8_9">
-    <text>Да брехня это всё. Не повезло мужику, да и всё...</text>
+    <text>All of that's bullshit. The poor dude was unlucky, that's all...</text>
  </string>
  <string id="sim_dialog7_0">
-    <text>Чем занимаешься?</text>
+    <text>What are you doing?</text>
  </string>
  <string id="sim_dialog7_1">
-    <text>А тебя это вообще волнует?</text>
+    <text>What's your problem?</text>
  </string>
  <string id="sim_dialog7_2">
-    <text>На жизнь пытаюсь заработать, как и почти все тут. Ну а что ещё то делать, на природу любоваться, грибочки собирать?</text>
+    <text>I'm trying to earn money for a living, like almost everyone here. Besides, what else is there to do? Admire nature and collect some mushrooms? </text>
  </string>
  <string id="sim_dialog7_21">
-    <text>А что, отварить и нормально будет, наверное...</text>
+    <text>Sure. Boil them and they'll be fine, probably...</text>
  </string>
  <string id="sim_dialog7_211">
-    <text>Ага, а потом от язвы страдать. Нет уж...</text>
+    <text>Yeah, and then die from an stomach ulcer. No thanks...</text>
  </string>
  <string id="sim_dialog7_2111">
-    <text>Хех. Ну ладно, пойду грибочков пособираю, ха-ха.</text>
+    <text>Hehe. I'll go pick mushrooms now, haha.</text>
  </string>
  <string id="sim_dialog7_11">
-    <text>Буйный сильно, что ли?</text>
+    <text>Impatient, huh?</text>
  </string>
  <string id="sim_dialog7_111">
-    <text>Отвали по-хорошему, сталкер!</text>
+    <text>Fuck off, stalker!</text>
  </string>
  <string id="sim_dialog7_1111">
-    <text>Ну ладно, я ухожу.</text>
+    <text>Ok, I'm leaving.</text>
  </string>
  <string id="sim_dialog7_1112">
-    <text>А я хочу по-плохому.</text>
+    <text>I'm looking for trouble.</text>
  </string>
  <string id="sim_dialog7_11121">
-    <text>Ну всё, ты меня достал! Сейчас я тебя по земле раскатаю!</text>
+    <text>Okay, now you've pissed me off. Now I'll drop you!</text>
  </string>
  <string id="sim_dialog7_111211">
-    <text>Всё, я ухожу, остынь.</text>
+    <text>Ok, I'm leaving, calm down.</text>
  </string>
  <string id="sim_dialog7_111212">
-    <text>Ну попробуй.</text>
+    <text>Try it.</text>
  </string>
  <string id="sim_dialog6_0">
-    <text>Байку какую-нибудь не расскажешь?</text>
+    <text>Can you tell me a story?</text>
  </string>
  <string id="sim_dialog6_1">
-    <text>Это ты прямо по адресу обратился! Вот ты призраков видел?</text>
+    <text>You came to the right place! Have you ever seen a ghost?</text>
  </string>
  <string id="sim_dialog6_2">
-    <text>Нет.</text>
+    <text>No.</text>
  </string>
  <string id="sim_dialog6_666">
-    <text>Да.</text>
+    <text>Yes.</text>
  </string>
  <string id="sim_dialog6_6661">
-    <text>Ч-ч-т-то?</text>
+    <text>W-w-w-what?</text>
  </string>
  <string id="sim_dialog6_66611">
-    <text>Шучу я, не видал.</text>
+    <text>Just kidding, I've never seen one.</text>
  </string>
  <string id="sim_dialog6_666111">
-    <text>Шутничек, блин! А я вот видел! Шёл как-то вдоль лесополосы, вижу: домик стоит заброшенный, ну туда и направился для ночлега. Зашёл внутрь, всё проверил - чисто. Только хотел к трапезе приступить, тут слышу, дверь открывается! У меня сердце в пятки ушло мгновенно, схватил ствол, направил на дверной проем. Чувствую, холодом таким отвратным веет, что аж дрожь пробирает. Херак, из другой комнаты выплывает прозрачная фигура старика какого-то. ЭТО потопталось, и улетело. Мне, естественно, такой ночлег подавно не сдался, хватанул вещи да рванул подальше. Теперь, блин, в такие лачуги вообще не суюсь...</text>
+    <text>Damn you, joker! I've seen them! While I was walking along the forest belt, I saw an abandoned house. Thinking I could stay there, I headed for it and went in. I looked around and checked everything inside - it was all completely untouched! After I had sat down with something to eat, I heard the door open! I jump to my heels, grab my gun and I ask who's at the doorway. There was a gale of wind - it blew chills up my spine! I scour the house, and in another room I see a ghostly form of an old man. Something spooked him, and he disappeared. Naturally, I took all of my things with me and got of there. I don't dare approach any other cottage now..</text>
  </string>
  <string id="sim_dialog6_3">
-    <text>А я вот видел! Шёл как то вдоль лесополосы, вижу: домик стоит заброшенный, ну туда и направился для ночлега. Зашёл внутрь, всё проверил - чисто. Только хотел к трапезе приступить, тут слышу, дверь открывается! У меня сердце в пятки ушло мгновенно, схватил ствол, направил на дверной проем. Чувствую, холодом таким отвратным веет, что аж дрожь пробирает. Херак, из другой комнаты выплывает прозрачная фигура старика какого-то. ЭТО потопталось, и улетело. Мне, естественно, такой ночлег подавно не сдался, хватанул вещи да рванул подальше. Теперь, блин, в такие лачуги вообще не суюсь...</text>
+    <text>I saw one, joker. While I was walking along the forest belt, I saw an abandoned house. Thinking I could stay there, I headed for it and went in. I looked around and checked everything inside - it was all completely untouched! After I had sat down with something to eat, I heard the door open! I jump to my heels, grab my gun and I ask who's at the doorway. There was a gale of wind - it blew chills up my spine! I scour the house, and in another room I see a ghostly form of an old man. Something spooked him, and he disappeared. Naturally, I took all of my things with me and got of there. I don't dare approach any other cottage now.</text>
  </string>
  <string id="sim_dialog6_4">
-    <text>Фига себе. Интересно всё же, что это за сила такая неведомая...</text>
+    <text>That's... interesting. I've never seen that before.</text>
  </string>
  <string id="sim_dialog6_5">
-    <text>Да гонишь ты, сказочник.</text>
+    <text>You're lying.</text>
  </string>
  <string id="sim_dialog5_0">
-    <text>Ты чего такой вялый?</text>
+    <text>Why are you so grumpy?</text>
  </string>
  <string id="sim_dialog5_1">
-    <text>Таблеточки не найдется? Голова капец раскалывается...</text>
+    <text>Do you have any pills? My head hurts...</text>
  </string>
  <string id="sim_dialog5_2">
-    <text>Да, должна быть. Вот, держи.</text>
+    <text>Yeah, I have some. Here, take this.</text>
  </string>
  <string id="sim_dialog5_10">
-    <text>Есть, но я тебе не дам, и так дефицит.</text>
+    <text>I have some, but I'm not giving you any. Pills are rare.</text>
  </string>
  <string id="sim_dialog5_101">
-    <text>Жмотяра... Ну ничего, Зона тебе всё припомнит.</text>
+    <text>Don't fret, stalker, the Zone's bounties will come to you!</text>
  </string>
  <string id="sim_dialog5_3">
-    <text>Спасибо, сталкер. Нет, ну ты прикинь, а: собирались мы в рейд с другом, так нас прямо в схроне и шибанули. Друга по башке, но ему повезло - не отрубился, так он и притворился отключившимся. А мне и притворяться не прошлось. Всё подчистую выгребли, уроды! Теперь вот, млин, не знаю, что делать. Вчера последнюю сотку на жратву спустил...</text>
+    <text>Thanks, stalker. Let me tell you something; I was getting ready for a raid with a buddy, but we were attacked in our hideout. My friend got shot in the head, but he was lucky - he didn't pass out, so he pretended that he passed out. I didn't have to pretend; I genuinely passed out. Those monsters took everything I had! Now I don't know what to do. Yesterday I used my last hundrd rubles for grub...</text>
  </string>
  <string id="sim_dialog5_31">
-    <text>Держи вот ещё сотыгу, а там придумаешь уж, как заработать.</text>
+    <text>Take these 100 rubles. Try to figure out how to make more money on your own, because I'm not made out of the stuff.</text>
  </string>
  <string id="sim_dialog5_4">
-    <text>Да, печально это всё. Ну ты это... в общем, удачного хабара, сталкер.</text>
+    <text>Yes, that's sad. Here you go...some good loot, stalker.</text>
  </string>
  <string id="sim_dialog5_311">
-    <text>Ух ты, вот уж спасибо, так спасибо! Блин, ну ты крут! Клондайка тебе, да удачи, сталкер!</text>
+    <text>Wow, thank you, thank you very much! You're awesome! I wish you great fortune, stalker!</text>
  </string>
  <string id="sim_dialog5_11">
-    <text>Извиняй, ничего нет.</text>
+    <text>I don't have anything, sorry.</text>
  </string>
  <string id="sim_dialog5_111">
-    <text>Млин... хреново. Ну, на нет и суда нет.</text>
+    <text>Damn...that sucks. Oh well.</text>
  </string>
  <string id="sim_dialog4_0">
-    <text>Здарова.</text>
+    <text>Hey.</text>
  </string>
  <string id="sim_dialog4_1">
-    <text>Хаюшки! За что пить будем?</text>
+    <text>Howdy! What shall we drink to?</text>
  </string>
  <string id="sim_dialog4_2">
-    <text>А мы собирались пить?</text>
+    <text>We were going to drink?</text>
  </string>
  <string id="sim_dialog4_3">
-    <text>Э-э-э-э... нет. Ну ты не стесняйся, я угощаю! Так за что пьем?</text>
+    <text>Uh-uh...no, but don't be shy, it's on me! So what shall we drink to?</text>
  </string>
 
  <string id="sim_dialog4_3a">
-    <text>Э-э-э-э... нет. Ну ты не стесняйся, я угощаю!</text>
+    <text>Uh-uh.. no. Don't be shy, it's on me!</text>
  </string>
 
  <string id="sim_dialog4_3b">
- <text>А за что пьем?</text>
+ <text>Why drink?</text>
  </string>
 
  <string id="sim_dialog4_4">
-    <text>Чтобы у водки исчез её единственный недостаток - её недостаток, хе-хе.</text>
+    <text>So that we can gun down this vodka I have! Vodka is rare stuff in the Zone, so we might as well enjoy it!</text>
  </string>
  <string id="sim_dialog4_5">
-    <text>Эт ты хорошо сказанул. Ну, накатили!</text>
+    <text>Well said, let's drink!</text>
  </string>
  <string id="sim_dialog4_6">
-    <text>Эххх, хорошо пошла! А вот смотри, знаешь что-нибудь о бандитах? А то мне один сталкер про мэнов каких-то темных рассказывал, так я ему не поверил, а проверять, знаешь ли, не тянет.</text>
+    <text>Ah, that went down good! But listen, do you know anything about the bandits? A stalker told me about some men who were pitch black. I didn't believe him, and I don't want to check either, you know?</text>
  </string>
  <string id="sim_dialog4_6a">
-    <text>Эххх, хорошо пошла!</text>
+    <text>Ah, that went down good!</text>
  </string>
  <string id="sim_dialog4_7">
-    <text>Ну ты нашёл, млин, кого спросить! Думаешь, мне хотелось проверять, да?</text>
+    <text>Fuck, you found the right person to ask! You think I want to go check, yes?</text>
  </string>
  <string id="sim_dialog4_8">
-    <text>Не, я тебя понимаю. Знакомый говорил, что они вообще козлы, да и не люди вовсе. На Свалке обосновались они, так что смотри там, аккуратнее!</text>
+    <text>No, I understand you. A friend said that they are actually goats, and not people at all. They settled at the landfill, so look there and be careful!</text>
  </string>
  <string id="sim_dialog4_9">
-    <text>Ладно, разберемся. За водочку спасибо, ну а мне надо далее идти, удачи.</text>
+    <text>Well, I'll figure it out. Thank you for the vodka, I now have to go. Good luck!</text>
  </string>
  <string id="sim_dialog4_9a">
-    <text>За водочку спасибо, ну а мне надо дальше идти, удачи.</text>
+    <text>Thanks for the vodka, but I have to go now, good luck.</text>
  </string>
  <string id="sim_dialog4_9b">
-    <text>Ещё по маленькой?</text>
+    <text>A little bit more?</text>
  </string>
  <string id="sim_dialog4_9c">
-    <text>Эххх, гулять, так гулять!</text>
+    <text>Ah, what a stroll!</text>
  </string>
  <string id="sim_dialog3_0">
-    <text>С чего так радуешься? Аж светишься, прям как яблоко после саркофага.</text>
+    <text>Why are you so happy? You're shining like a radioactive apple in the sarcophagus.</text>
  </string>
  <string id="sim_dialog3_1">
-    <text>Да фортануло мне по крупному с артефактами, сталкер! Интересно?</text>
+    <text>I lucked out with some valuable artifacts, stalker! Interested?</text>
  </string>
  <string id="sim_dialog3_2">
-    <text>Ну, в какой-то мере, хе-хе, да.</text>
+    <text>To some extent, hehe.</text>
  </string>
  <string id="sim_dialog3_3">
-    <text>И ведь это ещё не клондайк был, а аномалия!..</text>
+    <text>It wasn't a fortune, but I got them from a specific anomaly.</text>
  </string>
  <string id="sim_dialog3_4">
-    <text>Что, какая-такая аномалия? Ну-ка, поподробнее с этого момента.</text>
+    <text>What kind of anomaly? Can you share more details?</text>
  </string>
  <string id="sim_dialog3_5">
-    <text>Да, блин, обычная гравитационка, трамплин или воронка, я проверять не стал, как ты понимаешь. В общем, нашёл я её на Свалке рядом с дорогой на Бар. Иду себе такой, иду... Тут оп-па - смотрю, лежит куча артов, и все светятся, как новогодняя ёлка. Ну, я собрал аккуратненько, Бармену загнал. Через пару часов решил сходить проверить, а там ещё арты! Я вот себе нормальный комбез и купил. А то в рваной куртке ходить по Зоне, мягко говоря, не комфортно.</text>
+    <text>Do you know about those gravitational anomalies? The springboard or the whirligig? I don't normally check those, but today, I decided to check some out and... wow! I see a pile of artifacts glowing like a New Year's tree. I took them all and sold them to Barkeep. A couple hours later I decided to check them out again, and there were more artifacts! I bought a stalker suit because walking around in the Zone in just a torn jacket is, to put it mildly, uncomfortable.</text>
  </string>
  <string id="sim_dialog3_6">
-    <text>Да ты ж меня разводишь.</text>
+    <text>You're lying to me.</text>
  </string>
  <string id="sim_dialog3_7">
-    <text>Зуб даю, есть там такая!</text>
+    <text>It happened, I swear!</text>
  </string>
  <string id="sim_dialog3_8">
-    <text>Хорошо, посмотрим...</text>
+    <text>OK, we will see...</text>
  </string>
  <string id="sim_dialog2_0">
-    <text>Ты чего такой помятый?</text>
+    <text>Why are you so grumpy?</text>
  </string>
  <string id="sim_dialog2_1">
-    <text>Ёпте... сталкер, уйди, а... и так башка раскалывается...</text>
+    <text>Damn it...Go away, stalker...my head hurts.</text>
  </string>
  <string id="sim_dialog2_2">
-    <text>Ну лады, не буду мешать.</text>
+    <text>Alright, I won't bother you.</text>
  </string>
  <string id="sim_dialog2_3">
-    <text>Хотя стой... Прикинь, иду такой себе спокойненько по Тёмной долине, тут оп-па - в глазах резко потемнело. Очнулся, смотрю - уже в баре... Что это за хрень такая, не в курсах?</text>
+    <text>Wait.. listen, I was walking around calmly in the Dark Valley, and then suddenly my vision went dark. I woke up a few hours later, looked around, and saw that I was here: the "Stalker" bar...what kind of shit is this?</text>
  </string>
  <string id="sim_dialog2_4">
-    <text>Может и знаю, а может и нет. Слышал я где-то про контроллёров - так это они такое могут сделать. Ничего другого и предположить то не могу.</text>
+    <text>I might know something about this. I've heard about 'controllers' from somewhere, and I've been told they can do things like that to people. Nothing else comes to mind.</text>
  </string>
  <string id="sim_dialog2_5">
-    <text>Про ко-ко-чего?..</text>
+    <text>Co-contro what?</text>
  </string>
  <string id="sim_dialog2_6">
-    <text>Контроллёров.</text>
+    <text>Controller.</text>
  </string>
  <string id="sim_dialog2_7">
-    <text>Во! Надо будет у мужиков узнать, что за сволота такая... ик...</text>
+    <text>I will find out... what is that thing is...hic...</text>
  </string>
  <string id="sim_dialog2_8">
-    <text>Водочка то это, не поможет тебе, наверное. Ну это ты уже сам решишь, бывай.</text>
+    <text>Sipping vodka won't help you with that. Good luck anyway.</text>
  </string>
  <string id="sim_dialog1_0">
-    <text>Чего интересного поведаешь?</text>
+    <text>Do you know anything interesting?</text>
  </string>
  <string id="sim_dialog1_1">
-    <text>Сталкер, ты о карликах чего-нибудь слыхал, не?</text>
+    <text>Have you ever heard about dwarfs, stalker?</text>
  </string>
  <string id="sim_dialog1_2">
-    <text>Слыхал-слыхал... как же.</text>
+    <text>I have.</text>
  </string>
  <string id="sim_dialog1_3">
-    <text>Вот ко мне недавно знакомый вернулся. Говорит, что в рейде своём пытался с отрядом в лабу проникнуть какую-то заброшенную. Ну кое-как влезли через вентиляционные шахты, ну и почти сразу наткнулись на этих тварей.</text>
+    <text>My friend recently visited me. He told me that he along with his squad tried to enter some kind of abandoned laboratory. They somehow entered through the ventilation shaft, and almost immediately encountered these creatures.</text>
  </string>
  <string id="sim_dialog1_4">
-    <text>С чего бы им было лезть в лабораторию, а?</text>
+    <text>Why did they go to the lab?</text>
  </string>
  <string id="sim_dialog1_5">
-    <text>Ну, этого я не знаю, да и не в том суть то. Ты дальше слушай: они там бродили-бродили, и натолкнулись на какой-то зал. Смотрят, а там куча хлама лежит, на вершине которой один такой восседает, а другие вокруг топчутся, бормочут.</text>
+    <text>I don't know why, but that's not the point. Now listen: they walked and walked until they came upon a certain room. In this room, there's a pile of junk in the middle, and there's a dwarf sitting on top of it like its his throne. There were other monsters walking around it in circles, mumbling.</text>
  </string>
  <string id="sim_dialog1_6">
-    <text>Жуть... Стоп, а как же они из лабы вылезли, неужели эти мутанты их не учуяли?</text>
+    <text>That's.. unsettling. But wait, how did they get out of the lab? Didn't the mutants pick up their scent and go after them?</text>
  </string>
  <string id="sim_dialog1_7">
-    <text>Ещё как учуяли! Они как вдарили обратно, уж и не помнят, как вылезли!</text>
+    <text>Of course they did! They ran away in shock after discovering that room, and it took them a good while to find the way back!</text>
  </string>
  <string id="sim_dialog1_8">
-    <text>Интересненько...</text>
+    <text>Interesting...</text>
  </string>
  <string id="sim_dialog1_9">
-    <text>Да чего ты заливаешь то?!</text>
+    <text>You're lying!</text>
  </string>
  <string id="sim_dialog1_10">
-    <text>Ей-богу не вру, сталкер. Вот те крест!</text>
+    <text>I swear to God I'm not lying, stalker! Cross my heart!</text>
  </string>
  <string id="sim_dialog1_11">
-    <text>Всё равно, пока сам не увижу - не поверю! Бывай.</text>
+    <text>I won't believe it until I see it! Goodbye.</text>
  </string>
 
 
 
 
    <string id="derzzx_dialog_0">
-     <text>Слушай, а ничего ещё из заданий нет?</text>
+     <text>Do you have any more jobs?</text>
   </string>
    <string id="derzzx_dialog_1">
-     <text>Есть... В общем, слушай. Тут на Кордоне хоть и относительно спокойно, аномалий не так уж и много, в основном мясорубки да комариные плеши...</text>
+     <text>I do have another. Listen, the Cordon is generally safe and calm. There's not too many anomalies besides some meat grinders and gravitional distortions..</text>
   </string>
    <string id="derzzx_dialog_2">
-     <text>Продолжай.</text>
+     <text>Can you get to the point?</text>
   </string>
    <string id="derzzx_dialog_3">
-     <text>Так вот, дело в том, что возле завода, в котором контроллёр поселился, Диггер видел странную аномалию...</text>
+     <text>Well, the point is that near the factory where the controller was in, Digger saw a strange anomaly..</text>
   </string>
    <string id="derzzx_dialog_4">
-    <text>Так что ты от меня хочешь?</text>
+    <text>What do you want me to do?</text>
   </string>
    <string id="derzzx_dialog_5">
-    <text>Всё просто. Вот, держи прибор. Он измеряет активность аномальных полей. Значит, подходишь к аномалии, активируешь прибор, ждёшь немного, после чего тащишь его обратно с результатами. Всё понял?</text>
+    <text>The job isn't that hard - I need you to use this device that takes measurements of the activity from the anomalous fields. You'll go to the anomaly, activate the device, wait a minute while it does its thing, and then bring it back to me. All clear?</text>
   </string>
    <string id="derzzx_dialog_6">
-    <text>Ну хорошо.</text>
+    <text>Got it.</text>
    </string>
   <string id="derzzx_dialog_7">
-    <text>Вот и славно. Принесёшь результаты, получишь награду.</text>
+    <text>Alright! I'll reward you handsomely if you do the measurements correctly.</text>
   </string> 
 
 
 
 
         <string id="olr_jaba_kill_contrlr">
-            <text>Убить контроллёра</text>
+            <text>Kill Controller</text>
         </string>
         <string id="text_olr_jaba_kill_contrlr">
-            <text>Откуда только гадость такая - контроллёры? Узнаем как-нибудь, а сначала избавимся от них, хе-хе. На заводе завёлся "экземпляр". Справишься?</text>
+            <text>What the hell are these controllers? I guess we'll find out sometime, but first we have to get rid of any that appear. One of them appeared in the factory. Can you go deal with it?</text>
         </string>
         <string id="desc_olr_jaba_kill_contrlr">
-            <text>Жаба заказал убийство контроллёра</text>
+            <text>Toad ordered you to go kill the controller.</text>
         </string>
 
 
         <string id="olr_jaba_one_monstr">
-            <text>Убить Кровососа</text>
+            <text>Kill Bloodsucker</text>
         </string>
         <string id="text_olr_jaba_one_monstr">
-            <text>Кровосос один появился, недалеко от моста. Вообще никого не боится, нападает на всё подряд, уже кучу сталкеров в клочья изорвал. Прибей его как-нибудь, и мы в расчёте.</text>
+            <text>There's a bloodsucker near the bridge. That monster isn't afraid of anyone: it'll attack you regardless of who you are, and many stalkers here are terrified of it. You'll be doing everyone a favor if you kill it, and I don't care how you do it.</text>
         </string>
         <string id="desc_olr_jaba_one_monstr">
-            <text>Жаба заказал убийство бешеного кровососа</text>
+            <text>Toad ordered you to go kill a bloodsucker.</text>
         </string>
 
 
  <string id="pr99_0"> 
- <text>Ну что, ты тут надолго?</text> 
+ <text>How long are you staying here?</text> 
  </string> 
  <string id="pr99_1"> 
- <text>Ха, не знаю. Вояки вон шастают тут прям под носом. Стрёмно тут, короче говоря. Пойду на Свалку, может. Кстати, слышал там группа спецназа пропала какая-то... Да! И прикинь, бюрера на Свалке видели, он иногда возле ангаров трётся. Говорят, какими-то трупаками жонглировал, прикинь? Я слышал, они из подземелий лезут, тех, что в Тёмной долине. Наши туда не ходят, боятся. Но, вроде как, сталкеры там есть, но я мало что об этом знаю.</text> 
+ <text>I don't know. The military stinks at their job, and it's boring here. Maybe I'll leave and go to the Garbage. I also heard that there was a missing special forces unit. Supposedly they've been attacked by Burers - some even say that those Burers were juggling corpses near the hanger. Why the hell do they do that? I heard that they crawl out of the ground in the Dark Valley. The military doesn't go there, they're afraid. Apparently there are some stalkers there, but I don't know much about it.</text> 
  </string> 
  <string id="pr99_2"> 
- <text>Бюрер? Хорошо, буду знать.</text> 
+ <text>Burers? I'll try to be careful there.</text> 
  </string> 
 
  <!--NEW-->
  <string id="esc_about_art_spiral_0">
-    <text>Слушай, а вот штука, которую я тебе принес, "спираль" вроде... Что за шняга такая?</text>
+    <text>Can you look at this artifact that I've got? It's sprial-shaped.. what do you think it is?</text>
  </string>
  <string id="esc_about_art_spiral_1">
-    <text>Если честно, то я и сам не знаю. Но на Большой земле есть много богатых идиотов, которые отвалят за неё огромные деньги. И их не заботит, что от цацки фонит. Это торговца, то есть меня, уже не интересует.</text>
+    <text>To be honest, I don't give a shit. The world is full of idiots who have more money than sense, so they'll buy trinkets like that for a lot of dough. Don't worry about the way it looks. I'm just a trader, so I'm more interested in making money instead of worrying about what makes these artifacts.</text>
  </string>
  <string id="esc_about_art_spiral_2">
-    <text>Меньше знаешь - крепче спишь, Мессер. И вообще, надо ли оно тебе, или так зашёл, лясы точнуть?</text>
+    <text>The less you know, the better you sleep, Messer. Anyway, it's out of sight and out of mind now. Do you need anything, or do you just want to talk?</text>
  </string>
  <string id="esc_about_art_spiral_21">
-    <text>Эээ... ну да, до встречи.</text>
+    <text>Ehh.. goodbye.</text>
  </string>
 
  <string id="esc_about_art_spiral_11">
-    <text>Эээ... ну да, до встречи.</text>
+    <text>Yeah. Goodbye.</text>
  </string>
 
  <string id="esc_about_bar_0">
-    <text>А что-нибудь поподробнее о Баре рассказать можешь?</text>
+    <text>Can you tell me anything about the "Stalker" bar?</text>
  </string>
  <string id="esc_about_bar_1">
-    <text>А по тому, как окрестили то место, не ясно, да? Ну, так и быть, для особенных я поясню. В общем, Бар - территория рядом с заводом "Росток", где стоят дома некогда работавших на производстве людей. Ну, как ты понимаешь, их там сейчас нет. В домах расположено само заведение "Бар", где многие могут затариться необходимым, поговорить, выпить. Также там располагается база группировки "Долг" - строгие ребята.</text>
+    <text>The bar is situated near the Rostok factory. It's next to houses of former employees of the factory. As you know, I don't live there - the houses are largely abandoned. You can eat, drink, relax, or talk to people at the bar. Right next door is the Duty base. The Duty guys are real tough hombres.</text>
  </string>
  <string id="esc_about_bar_2">
-    <text>Выпить, говоришь? Это, конечно, всё очень хорошо, но я туда иду не для бухла, а по делу. Смогу ли я что-нибудь полезного там узнать?</text>
+    <text>Drink, you say? That's nice to know, but I'm not going there for booze - I'm going there for other reasons. Do you think I'll find anything good or useful there?</text>
  </string>
  <string id="esc_about_bar_3">
-    <text>Само собой.</text>
+    <text>Certainly!</text>
  </string>
  <string id="esc_about_bar_4">
-    <text>Тогда прощай, мой... в меру упитанный друг.</text>
+    <text>Good, I'm heading there now. Thank you.</text>
  </string>
  <string id="pr122_0"> 
- <text>Ну что, ты узнал что-нибудь о тех документах, что я нашёл?</text> 
+ <text>Did you hear anything from the documents that I found?</text> 
  </string> 
  <string id="pr122_1"> 
- <text>Да, это был отчёт группы военных, выбиравшихся из центра. Дело в том, что после первого крупного взрыва, после которого началась вся эта чертовщина, военные решили провести крупномасштабную операцию за станцией, на севере. Операция насчитывала более тысячи солдат и несколько дивизий техники. Тут говорится о том, что после того, как вся эта армада подошла к некой местности с неизвестными установками, произошёл второй взрыв... Отчёт содержит доклад о том, что остатки этой группировки осели по всей Зоне. Также документы имеют расписание аномальных полей, это очень ценная информация. Держи своё. </text> 
+ <text>Yes, it was a report from a group of soldiers returning from the center of the Zone. The documents detail a large-scale operation aimed at the Chernobyl reactor, that was conducted by the military after the first major explosion, which helped spawn the Zone. It was composed of more than a thousand soldiers with tanks and air support. When this huge wave of soldiers and vehicles reached their target, a second explosion happened. Afterwards, the survivors of this catastrophe settled into the Zone. The documents also contain specific locations of various anomalies. This is some very valuable information. Here, take this reward!</text> 
  </string> 
  <string id="pr122_2"> 
- <text>Хорошо.</text> 
+ <text>Good.</text> 
  </string> 
 
 
  <string id="pr1_0"> 
- <text>Я тут одни любопытные документы нашёл. Говорил с Жабой - он сказал, что надо к тебе обратиться.</text> 
+ <text>I found these interesting-looking documents. Toad said to give them to you.</text> 
  </string> 
  <string id="pr1_1"> 
- <text>Так, что тут у нас... Ого! Эта информация имеет большую ценность. Информация о прорыве военных к станции... Оставь их у меня - я покажу их своему информатору, он скажет, что можно будет с ними сделать.</text> 
+ <text>Let's see what we have here... ah-ha! This information is of great value. It's info about the military breakthrough to the center. Leave these papers with me, I'll show them to my informant. He'll say what can be done with them.</text> 
  </string> 
  <string id="pr1_2"> 
- <text>Держи.</text> 
+ <text>Take them.</text> 
  </string> 
 
 
  <string id="pr_0"> 
- <text>Жаба, в том ангаре, что на Свалке, я нашёл какие-то документы. В них говорится о крупномасштабной операции военных в центре Зоны.</text> 
+ <text>Toad, I found these documents at the hanger in the Garbage. They're about some sort of large-scale military operation in the center of the Zone.</text> 
  </string> 
  <string id="pr_1"> 
- <text>Что?! Тебя никто не видел?! Они у тебя с собой?  Чёрт, если военные узнают - у меня и у тебя могут быть проблемы... Послушай, мне эти документы ни к чему, а вот Бармену из заведения "Сталкер" они могут быть интересны. Поговори с ним, как будешь в баре.</text> 
+ <text>What?! Did anybody see you take them? Do you have them with you? Hell, if the military finds out, you and I could get into trouble. Listen, I don’t need these documents, but the Barkeep at the "Stalker" bar may be interested in them. Talk about the documents with him when you get there.</text> 
  </string> 
  <string id="pr_2"> 
- <text>Ладно.</text> 
+ <text>Okay. I'll go and talk to him.</text> 
  </string> 
 
 
 
 
    <string id="der_dialog_0">
-     <text>Нашёл я арт.</text>
+     <text>I've found some sort of artifact.</text>
   </string>
    <string id="der_dialog_1">
-     <text>Отлично, ты видел ещё что-нибудь необычное?</text>
+     <text>Did you see anything interesting?</text>
   </string>
    <string id="der_dialog_2">
-     <text>Были несколько трупов военных. Судя по всему, они что-то искали там.</text>
+     <text>I came across several dead soldiers. It looks like that they were looking for something.</text>
   </string>
    <string id="der_dialog_3">
-     <text>Это интересно... Я слышал о том, что военные устраивали некий прорыв к центру.</text>
+     <text>Huh.. I've heard that some soldiers have managed to make it into the center of Zone.</text>
   </string>
    <string id="der_dialog_4">
-    <text>А подробнее можешь рассказать?</text>
+    <text>You can tell me anything about that?</text>
   </string>
    <string id="der_dialog_5">
-    <text>Нет, я об этом мало что знаю. Но, думаю, в баре тебе смогут рассказать об этом больше.</text>
+    <text>I can't, I don't know much about that. I think that Barkeep knows more about that.</text>
   </string>
    <string id="der_dialog_6">
-    <text>Посмотрим... Держи артефакт.</text>
+    <text>Alright. Take this artifact.</text>
    </string>
   <string id="der_dialog_7">
-    <text>Молодец, Мессер! Хорошая работа.</text>
+    <text>Good job, Messer.</text>
   </string> 
 
 
@@ -679,42 +679,42 @@
 
 
    <string id="stader_dialog_0">
-     <text>Что со мной? Голова раскалывается... Где я? Сколько я тебе должен?</text>
+     <text>What's wrong with me? My head is killing me.. where am I?</text>
   </string>
    <string id="stader_dialog_1">
-     <text>Ну что, очнулся?  А что с тебя можно взять... Да к тому же, ты ни черта не помнишь: ни кто ты, ни где ты… А вокруг, мой мальчик, Зона!</text>
+     <text>Ah, you've waken up. Look around my boy, you're in the Zone! I see that you don't remember anything about who you are, or where you are.</text>
   </string>
    <string id="stader_dialog_2">
-     <text>Да, а кто ты?</text>
+     <text>No, I don't. Who you you?</text>
   </string>
    <string id="stader_dialog_3">
-     <text>Торговец я местный, Жабой кличут. Купи-продай, - это по моей части. Принёс тебя сталкер один с "грузовика смерти". Тебя как звать то?</text>
+     <text>I am Toad, a local trader. Buying and selling is my trade. A stalker found you near the Death Truck and brought you to me. What's your name?</text>
   </string>
    <string id="stader_dialog_4">
-    <text>Не помню. При мне были какие-либо вещи?</text>
+    <text>I don't.. remember. Was there anything with me?</text>
   </string>
    <string id="stader_dialog_5">
-    <text>Из вещей - только ПДА c заданием "Убить Стрелка" и нож... Ну если не помнишь ничего, то, наверное, и представления не имеешь, где сейчас находишься. Ты в ЗОНЕ, приятель. Ничего не напоминает? Да нет, это не та зона, где "реальные пацаны" срок мотают. Ладно, перейдём к делу, понемногу освоишься. Я тебя спас, и ты мне должен за своё спасение. Выполнишь для меня несколько заданий, и можешь топать на все стороны. Выбора у тебя нет, ибо без снаряжения ты тут и дня не протянешь. А так, за работу, какую-никакую снарягу тебе подгоню, да и инфой поделюсь... Ну и ладно... Для начала, сгоняй-ка к блокпосту... Отнесёшь запаянный металлический ящичек, оставишь под колючей проволокой, место отмечено на карте. А оттуда заберешь другой... Солдатикам глаза не мозоль, они обязательно попробуют твою шкуру на крепость... Ну что, согласен?</text>
+    <text>The only things you had on yourself was a PDA with a task of "Kill Strelok" written in it and a knife... Yeah, if you don't remember anything, then you probably don't know where you are either. You are in the Zone, my friend! Don't you remember anything? Well, I guess you will get used to things with time, now let's get to work. I saved you, so you must pay off your debt. You'll do some jobs for me, and once you're done, we're even. You have no choice. Without supplies you won't last a day here, and I am the boss of the only store in this area. For good work I will give you equipment, and maybe some useful information. Alright, let's go to work. First things first, you will go to the military checkpoint. You need to leave a decoy metal container there, near the barbed wire, and you need to pick up another one. I'll mark the spot on your PDA. Don't show yourself to the soldiers, unless if your childhood dream was being a living target. Feel up for it?</text>
   </string>
    <string id="stader_dialog_6">
-    <text>А у меня есть выбор?</text>
+    <text>Do I have a choice?</text>
    </string>
   <string id="stader_dialog_7">
-    <text>Пожалуй, что нет... И учти, на блокпост вояк не суйся, они хоть и делают вид, что ничего не замечают, но если всё-таки увидят - пристрелят на месте. Да... и стой, раз имя своё не знаешь, пусть ты будешь Мессером. Ибо с одним ножом, и в Зоне очутиться - это что-то интересное... Ящик за тобой стоит, на лавочке.</text>
+    <text>I already said you don't... and remember, try not to get spotted by the army guys. They only pretend to not give a shit. If they spot you, they will shoot on sight. And another thing, you don't remember your name, right? Well, from now on your name is Messer, because walking around the Zone with nothing but a knife is no small feat. And by the way... a couple of stalkers recently left this area. Perhaps they've left some stuff behind them in the local houses. You can go look around if you want, maybe you'll find some equipment and stuff like that. Alright, enough chit-chat. Take the decoy container with you, it's behind you. Good luck!</text>
   </string>  
 
 
  <string id="stader_0"> 
- <text>Вот, держи свой кейс.</text> 
+ 	<text>Here, I've got your container.</text> 
  </string> 
  <string id="stader_1"> 
- <text>Отлично. Значит, чего-то ты стоишь. Думаю, мы с тобой сработаемся.</text> 
+ 	<text>It seems like that you're worth your salt! I feel like that our cooperation together will be successful.</text> 
  </string> 
  <string id="stader_2"> 
- <text>Я понял тебя...</text> 
+ 	<text>I think so too.</text> 
  </string> 
  <string id="ds_kvest"> 
- <text>Конечно, это только начало, приятель!</text>  
+ 	<text>This is just the beginning, my friend.</text>  
  </string>
 
 
@@ -728,30 +728,30 @@
 
 
 <string id="bar_ohran_propusk_0">
-<text>Что-нибудь ещё?</text>
+	<text>Anything else?</text>
 </string>
 <string id="bar_ohran_propusk_1">
-<text>Так, первое задание ты выполнил, отлично. Задание следующее: тут на вышке, которая на железнодорожном мосту стоит, уже давно один забавный арт лежит. Сталкеры туда лезть не хотят - довольно сильная активность аномалий там. Но я же вижу, что ты парень лихой, поэтому тебе это будет по плечу.</text>
+	<text>You handled your first task well! Here's your next mission: there's some sort of weird artifact at the tower on the railroad bridge. Due to the strong anomalous activity there, stalkers don't go there. I've got a feeling in my gut about you: you seem like someone who can get shit done.</text>
 </string>
 <string id="bar_ohran_propusk_2">
-<text>И что надо делать?</text>
+	<text>What do you want me to do? Do you want me to the that artifact for you?</text>
 </string>
 <string id="bar_ohran_propusk_3">
-<text>Принеси мне этот артефакт. Вот, возьми антирад на всякий случай, мало ли... А, ну и детектор, я думаю, тебе будет как раз кстати.</text>
+	<text>What do you think? Yes, I want you to get me that artifact. Here's some anti-radiation drugs, just in case. Oh, and you'll want this detector.</text>
 </string>
 
 
 <string id="bar_friend_propusk_0">
-<text>Я достал артефакт.</text>
+	<text>I have the artifact you wanted.</text>
 </string>
 <string id="bar_friend_propusk_1">
-<text>Так, хм, всё же выжил. Да ты, парень, определённо не новичок здесь, в Зоне.</text>
+	<text>Hah, you did it. This tells me that aren't a rookie!</text>
 </string>
 <string id="bar_friend_propusk_2">
-<text>Возможно, но я ничего не помню, так что...</text>
+	<text>You might be right, but I don't remember anything!</text>
 </string>
 <string id="bar_friend_propusk_3">
-<text>Ладно, не будем философствовать. Возьми заслуженное.</text>
+	<text>Alright, alright, let's stop talking about that. You've done the mission. Here's your reward.</text>
 </string>
 
 
@@ -759,43 +759,43 @@
 
 
 <string id="3_dialog_0">
-     <text>Мне нужно оружие, что ты хочешь за нормальный ствол?</text>
+     <text>I need a gun, do you have anything?</text>
   </string>
    <string id="3_dialog_1">
-     <text>Ствол? Хм, ну такое у нас имеется. Что, зверьё местное надумал пострелять?</text>
+     <text>Guns? Yeah, I've got some guns. What, do you feel like going around and shooting at the local wildlife?</text>
   </string>
    <string id="3_dialog_2">
-     <text>Ну, знаешь ли, с одним ножом тут как-то стрёмно.</text>
+     <text>You know, it's stupid and dangerous to walk around here with only a knife.</text>
   </string>
    <string id="3_dialog_3">
-     <text>Ха, что, псов, что ли, испугался? Или ворон?</text>
+     <text>Ha, are you scared of dogs or crows?</text>
   </string>
    <string id="3_dialog_4">
-    <text>Слушай, давай ближе к делу.</text>
+    <text>Don't change the topic.</text>
   </string>
    <string id="3_dialog_5">
-    <text>Ладно, тут Диггер со Свалки вернулся. В Зоне два месяца всего, а проявил себя хорошо, и заказы на арты исполняет отлично. Так вот, я сейчас с ним свяжусь, пускай он тебе небольшие стрельбы устроит. Вот, держи ПМ, для начала сойдет. Диггер ждёт тебя тут в подземном переходе, что под дорогой.</text>
+    <text>Okay. Someone going by the name "Digger" recently returned from the Garbage. He's been in the Zone for two months, but he's already shown what he can do: he does artifact retrieval jobs for me perfectly. I'll contact him in a minute and ask him to set up a little training session for you. Take this PM, it'll be enough for now. You'll find Digger at the passage under the road.</text>
   </string>
    <string id="3_dialog_6">
-    <text>Уже отправляюсь к нему.</text>
+    <text>Alright, I'll go see him.</text>
    </string>
   <string id="3_dialog_7">
-    <text>Вот и славно.</text>
+    <text>Great! Good luck.</text>
   </string> 
 
 
 
  <string id="3_tader_0"> 
- <text>Я от Жабы. Он сказал, что ты можешь мне местную фауну показать.</text> 
+ <text>Toad sent me. He said you are setting up a little training session for me.</text> 
  </string> 
  <string id="3_tader_1"> 
- <text>Привет. Допустим, могу. Ну, слушай, тут у завода плоть маячит. Подкрадёмся тихонько, а потом валим её, понял?</text> 
+ <text>Hello. It looks like you'll be able to do what I'm going to teach you. Look, there, at the factory: there's some mutants there. We'll sneak up quietly to them, and then we'll kill those ugly sons-of-bitches. Understood?</text> 
  </string> 
  <string id="3_tader_2"> 
- <text>Да.</text> 
+ <text>Yes.</text> 
  </string> 
  <string id="3_tader_3"> 
- <text>Просто иди за мной, а как подойдем ближе к мутанту - стреляй.</text>  
+ <text>Follow me. Shoot those mutants when we get close enough!</text>  
  </string>
 
 
@@ -803,16 +803,16 @@
 
 
  <string id="33_tader_0"> 
- <text>Встретил я Диггера. У завода плоть появилась. Тут ПМ оказался кстати.</text> 
+ <text>I met with Digger and we killed some mutants. This PM you've given me has proven to be useful.</text> 
  </string> 
  <string id="33_tader_1"> 
- <text>Молодец. Значит, со стволом обращаться можешь.</text> 
+ <text>It seems like that you can handle guns well. Good job.</text> 
  </string> 
  <string id="33_tader_2"> 
- <text>Знаешь, одного "Макара" как-то мало для меня. Что ещё ты можешь мне предложить?</text> 
+ <text>You know, this PM isn't enough for the entirety of the Zone. Are there any other jobs you want me to do so I can earn better equipment?</text> 
  </string> 
  <string id="33_tader_3"> 
- <text>Есть одно дело...</text>  
+ <text>There is something..</text>  
  </string>
 
 
@@ -820,44 +820,44 @@
 
 
 <string id="4_dialog_0">
-     <text>Что за дело?</text>
+     <text>Yeah? What?</text>
   </string>
    <string id="4_dialog_1">
-     <text>Тут вояки рейды устраивают, местность иногда прочёсывают, и дело в том, что последний патруль пропал буквально пару часов назад в районе завода.</text>
+     <text>Army units here conduct raids sometimes - be careful whenever you go near the northern checkpoint. Anyway, the point is that a few hours ago, one of their raids went missing, and their last reported position is at the abandoned factory.</text>
   </string>
    <string id="4_dialog_2">
-     <text>Ты ведь не хочешь сказать, что мне придётся сходить проверить?</text>
+     <text>Are you serious? You want me to go find out what happened to the soldiers?</text>
   </string>
    <string id="4_dialog_3">
-     <text>Ну ты ведь не хочешь голышом по Зоне ходить. Я получаю сигнал СОС от их командира... Сходи и посмотри, выжил ли кто.</text>
+     <text>Yes, I'm serious. You want better gear, right? I'm getting a distress signal from the commander of the raid all the time. Go and see what happened.</text>
   </string>
    <string id="4_dialog_4">
-    <text>Хорошо, ствол дашь посолиднее?</text>
+    <text>Alright. Can I get something better than this pistol?</text>
   </string>
    <string id="4_dialog_5">
-    <text>Ну ты уж словно на свадьбу рядишься, посолиднее ему... Ладно, держи ТОЗ. Знаешь, там в районе завода стали зомби появляться в последнее время. Скорее всего, ими кто-то управляет, так что будь предельно осторожен.</text>
+    <text>You're very funny, Messer. Alright, take this TOZ shotgun. Be careful at the factory, some zombies have appeared there recently. It looks like someone is controlling them.</text>
   </string>
    <string id="4_dialog_6">
-    <text>Управляет ими?</text>
+    <text>Someone is controlling them?</text>
    </string>
   <string id="4_dialog_7">
-    <text>Возможно. Слушай, если поможешь в этом деле с вояками, уж поверь, я буду тебе благодарен.</text>
+    <text>It's possible - this is the Zone, my friend. Listen, if you can help me with this, I'll be grateful for your help.</text>
   </string> 
 
 
 
 
 <string id="44_tader_0"> 
- <text>Это ты, командир? Что случилось?</text> 
+ <text>Are you the commander? What happened here?</text> 
  </string> 
  <string id="44_tader_1"> 
- <text>Аа, чёрт, сталкер... Как он здесь появился?</text> 
+ <text>Agh.. damn.. how did that thing get here, stalker?</text> 
  </string> 
  <string id="44_tader_2"> 
- <text>Кто появился?</text> 
+ <text>What 'thing'?</text> 
  </string> 
  <string id="44_tader_3"> 
- <text>Он здесь! На втором этаже!</text>  
+ <text>That... thing on the second floor! Kill it!</text>  
  </string>
 
 
@@ -866,16 +866,16 @@
 
 
 <string id="444_tader_0"> 
- <text>Командир вояк на базе.</text> 
+ <text>The commander is now back at the military base.</text> 
  </string> 
  <string id="444_tader_1"> 
- <text>Да, я получил подтверждение по рации. Спасибо.</text> 
+ <text>Yes, I was able to confirm that by radio. Thank you!</text> 
  </string> 
  <string id="444_tader_2"> 
- <text>Слушай, а ты обещал поделиться инфой.</text> 
+ <text>Look, you promised to share information that I want.</text> 
  </string> 
  <string id="444_tader_3"> 
- <text>Хорошо, но сначала ещё одно небольшое дельце.</text>  
+ <text>Okay, but first, I need you to do one more job for me.</text>  
  </string>
 
 
@@ -885,16 +885,16 @@
 
 
 <string id="55_tader_0"> 
- <text>Я слушаю.</text> 
+ <text>I'm listening.</text> 
  </string> 
  <string id="55_tader_1"> 
- <text>А теперь, пожалуй, можно сгонять к мосту, это будет посложнее, это уже вглубь Зоны... Там должен объявится Хорёк, вроде он вернулся из рейда, а может просто спер у кого... Так или иначе, он принесет долг. Клювом не щелкай, Хорёк парень ушлый, зазеваешься, и он мигом тебя пристроит обратно в грузовичок, в котором тебя нашли... Но в этот раз, тебя уже вряд ли кто сумеет откачать... Нужно передать ему патроны, а взамен забрать у него артефакт и принести мне.</text> 
+ <text>This is a more complicated job. You will go to a house behind the bridge. There's a stalker there, and he owes me an artifact that he stole from me. You have to get the artifact from him in exchange for some bullets I'm going to give you. That stalker rubs me off as.. odd. He stares out into the distance a lot. You should be careful about what you say to him - if he drags you into trouble, no one will save you this time. I don't need any more grief, so, like I said, be careful with him.</text> 
  </string> 
  <string id="55_tader_2"> 
- <text>Ладно, разберусь.</text> 
+ <text>Alright, I'm leaving. I'll go see him.</text> 
  </string> 
  <string id="55_tader_3"> 
- <text>Он сейчас в домике, что за мостом.</text>  
+ <text>You can find him in the house behind the bridge.</text>  
  </string>
 
 
@@ -1498,14 +1498,14 @@
     <string id="escape_lager_volk_job_0">
         <text>Got any work you need doing?</text>
     </string>
-    <string id="escape_lager_volk_job_1">
-        <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. The last thing I want to do here is to leave a gift for one of my friends. My guys were on their way here, bringing him to me, but the bandits did away with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But you… You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. So… The bandits have settled down in the factory.</text>
+     <string id="escape_lager_volk_job_1">
+        <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. The last thing I want to do here is to leave a gift for one of my friends. My guys were on their way here, bringing him along, but the bandits had their way with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But you… You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. So… The bandits have settled down in the factory.</text>
     </string>
     <string id="escape_lager_volk_job_11">
         <text>Okay. We have a deal. Just tell me what I need to bring them.</text>
     </string>
     <string id="escape_lager_volk_job_111">
-        <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. You have a weapon, so go. Get moving.</text>
+        <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. You already have a weapon, so go. Get moving.</text>
     </string>
     <string id="escape_lager_volk_job_112">
         <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. Here's a pistol and some ammo for you. Now go. Get moving.</text>
@@ -1516,11 +1516,12 @@
     <string id="escape_lager_volk_job_121">
         <text>What, are you scared? Well, all right. I won't blame you.</text>
     </string>
+	
 	<string id="escape_shustryi_start_11">
 		<text>Thanks, brother! You did us a great service! I don't even know how to thank you…</text>
 	</string>
 	<string id="escape_shustryi_start_111">
-		<text>Don't get too excited; just doing my job. Hey, how did you end up here?</text>
+		<text>Don't get too excited, I'm just doing my job. Hey, how did you even end up here?</text>
 	</string>
 	<string id="escape_shustryi_start_1111">
 		<text>I was getting a stash for Wolf with the other guys, and these assholes… They were already waiting for us. I have no idea how they found out about us. And after that, you can guess where it went: we had a shootout, and I ended up here.</text>
@@ -1564,6 +1565,7 @@
 	<string id="escape_shustryi_start_512">
 		<text>Sorry. I can't help you.</text>
 	</string>
+	
 	<string id="escape_trader_deadcity_map_0">
 		<text>Toad, would a map of Shining Path interest you?</text>
 	</string>
@@ -1571,7 +1573,7 @@
 		<text>Of course it would! I'll pay you 25,000 for it.</text>
 	</string>
 	<string id="escape_trader_deadcity_map_11">
-		<text>Deal. Take the map.</text>
+		<text>Deal. Here's the map.</text>
 	</string>
 	<string id="escape_trader_deadcity_map_12">
 		<text>Nah. Some other time.</text>
@@ -1652,7 +1654,7 @@
 		<text>No. I've made my decision, and I don't need any of your help.</text>
 	</string>
 	<string id="escape_trader_jobs_6112121">
-		<text>Всё с тобой понятно, Меченый. Я тебе наводку на Лиса дал, а ты и рад стараться, узнал про своего Стрелка, а меня кинуть решил! Ну-ну... Топай, Зона ещё скажет своё слово, поверь. Вмиг ко мне прибежишь!</text>
+		<text>Everything is clear with you, Messer. I gave a tip about you to Fox. You're glad to try to found out about your Strelok.  Всё с тобой понятно, Меченый. Я тебе наводку на Лиса дал, а ты и рад стараться, узнал про своего Стрелка, а меня кинуть решил! Ну-ну... Топай, Зона ещё скажет своё слово, поверь. Вмиг ко мне прибежишь!</text>
 	</string>
 	<string id="escape_trader_jobs_61121211">
 		<text>То есть, как это, кинуть?! Ты, кажется, говорил, что за моё спасение я должен выполнить пару заданий для тебя, поправь, если я ошибаюсь! Артефакт - раз. Флешка Лиса - два. Ты что, считать разучился?</text>
