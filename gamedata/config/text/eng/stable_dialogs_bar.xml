@@ -350,7 +350,7 @@
  <text>There's a doctor nearby. I think he can help you.</text> 
  </string> 
  <string id="mzdodddkz_01"> 
- <text>A doctor?! Let's go..</text> 
+ <text>A doctor?! Let's go...</text> 
  </string> 
 
 
@@ -373,13 +373,13 @@
  <text>Who are you and where are you from?</text> 
  </string> 
  <string id="dopdodddkz_1"> 
- <text>Me? I'm a veteran. I was part of group of stalkers that was going from Shining Path to the Radar, and we decided to take a shortcut at the old military warehouses. Something's wrong there.. if you go there, your brain gets cooked. I don't know how I got here. I recall seeing the destroyed bridge and having to swim..</text> 
+ <text>Me? I'm a veteran. I was part of group of stalkers that was going from Shining Path to the Radar, and we decided to take a shortcut at the old military warehouses. Something's wrong there.. if you go there, your brain gets cooked. I don't know how I got here. I recall seeing the destroyed bridge and having to swim...</text> 
  </string> 
  <string id="dopdodddkz_2"> 
  <text>I see you have nothing interesting on you. You've got a gun and a radio.. the Doctor needs something so he can take you in. He'll sell one of your things for money for medicine. I'll be taking one of your things.</text> 
  </string> 
  <string id="dopdodddkz_01"> 
- <text>Yeah, okay..</text> 
+ <text>Yeah, okay...</text> 
  </string> 
 
 
@@ -407,10 +407,10 @@
  <text>Good. I need you to do one more errand for me, and then I'll answer your questions.</text> 
  </string> 
  <string id="hjopdodddkz_2"> 
- <text>Alright..</text> 
+ <text>Alright...</text> 
  </string> 
  <string id="hjopdodddkz_01"> 
- <text>The stalker is getting better. He said that he came from the city with a group of people. Maybe he's a member of some faction? Go to the Shining Path and ask around the local clan, maybe they know something.</text> 
+ <text>The stalker is getting better. He said that he came from the city with a group of people. Maybe he's a member of some faction? Go to Shining Path and ask around the local clan, maybe they know something.</text> 
  </string> 
 
 
@@ -502,7 +502,7 @@
  <text>Do you have any work for me?</text> 
  </string> 
  <string id="zuudpomosnikz_1"> 
- <text>Nah. Or actually, yeah, there is one thing. A week ago a group of our men went to the Shining Path to study some anomalies there and dissapeared. I don't have anyone to send to rescue them, but you appear to be experienced. You'll need to find them, or their bodies, and find the results of their studies, if there any. </text> 
+ <text>Nah. Or actually, yeah, there is one thing. A week ago a group of our men went to Shining Path to study some anomalies there and dissapeared. I don't have anyone to send to rescue them, but you appear to be experienced. You'll need to find them, or their bodies, and find the results of their studies, if there any. </text> 
  </string> 
  <string id="zuudpomosnikz_2"> 
  <text>OK. I'll try to find them.</text> 
@@ -764,7 +764,7 @@
  <text>Where did you get that from?! Hide it, quick! You don't show stuff like that around infront of everyone!</text> 
  </string> 
  <string id="bopb_2"> 
- <text>Listen, in there I saw..</text> 
+ <text>Listen, in there I saw...</text> 
  </string> 
  <string id="bopb_3"> 
  <text>Let's go to my office, we'll talk there.</text> 
@@ -827,7 +827,7 @@
 		<text>Good.</text>
 	</string>
 	<string id="mil2_freedom_commander_common2_4">
-		<text>But when I approached the Rostok exit, a Bloodsucker appeared. It looks like he followed me..</text>
+		<text>But when I approached the Rostok exit, a Bloodsucker appeared. It looks like he followed me...</text>
 	</string>
 	<string id="mil2_freedom_commander_common2_5">
 		<text>I see. Well, if it's like that, then I think we can get through to the factory.</text>
@@ -840,7 +840,7 @@
 
 <!-- Тексты диалогов с лидером Долга -->
     <string id="bar_dolg_lider_di_2_0">
-	    <text>Good morning, comrade general!</text>
+	    <text>Good morning, general!</text>
 	</string>
 	<string id="bar_dolg_lider_di_2_1">
 	    <text>What are you doing, stalker? Do you need something?</text>
@@ -1113,7 +1113,7 @@
  <text>Sorry, I don't have the time for this.</text> 
  </string>
 
- <string id="karbar_0"> 
+      <string id="karbar_0"> 
  <text>Hey you, don't you get it?</text> 
  </string> 
  <string id="karbar_1"> 
@@ -1146,8 +1146,7 @@
  <text>I'd like to buy a car.</text> 
  </string> 
  <string id="carbar_1"> 
- <text>
-No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. It's a bit beaten up, but it works. It's in a garage on the Bar territory.\n \nMoskvich - 2000 rubles. Some stalkers managed to bring this from Pripyat. It's nearly brand new! It's at Yantar in the car hangar. \n \nKamaz - 8000 rubles. This is a biggie. It's a solid vehicle, and it has good handling. It's on Bar territory. \n \nLada - 5000 rubles. You'll hit 130 on the road, but don't expect that kind of speed offroad. Also on Bar territory, in one of the garages. \n \nAnd the BTR - 15000 rubles. Don't ask where I got it from. It's on Bar territory. \n \nWhat do you choose? But first, show me that you've got enough money. If you don't have anything, then there's nothing to talk about.</text> 
+ <text>No problem. I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. It's a bit beaten up, but it works. It's in a garage on the Bar territory.\n \nMoskvich - 2000 rubles. Some stalkers managed to bring this from Pripyat. It's nearly brand new! It's at Yantar in the car hangar. \n \nKamaz - 8000 rubles. This is a biggie. It's a solid vehicle, and it has good handling. It's on Bar territory. \n \nLada - 5000 rubles. You'll hit 130 on the road, but don't expect that kind of speed offroad. Also on Bar territory, in one of the garages. \n \nAnd the BTR - 15000 rubles. Don't ask where I got it from. It's on Bar territory. \n \nWhat do you choose? But first, show me that you've got enough money. If you don't have anything, then there's nothing to talk about.</text> 
  </string> 
 
 
@@ -1164,8 +1163,7 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
  </string>
 
   <string id="carbar_kamaz"> 
- <text>I think the Kamaz will work for me.
-</text> 
+ <text>I think the Kamaz will work for me.</text> 
  </string>
 
 
@@ -1175,8 +1173,7 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
 
 
  <string id="carbar_3"> 
- <text>I've changed my mind. Maybe another time.
-</text> 
+ <text>I've changed my mind. Maybe another time.</text> 
  </string> 
 
 
@@ -1533,7 +1530,7 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
      <text>Who's Messer? I don't know any Messer. I know my work and I can always recognize it. Hmm, that scar behind your ear... does it hurt, does it itch?</text>
   </string>
    <string id="doc_bar_3">
-     <text>The only thing that itches me is my memory, or rather the lack there of...</text>
+     <text>The only thing that itches me is my memory, or rather the lack thereof...</text>
   </string>
    <string id="doc_bar_4">
     <text>Well, I guess that's what happens after the Monolith.</text>
@@ -1731,7 +1728,7 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
 
 
 
-----ARENA STUFF BELOW, UNUSED-----
+
 
 
 
@@ -2029,8 +2026,7 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
         <text>Какие правила?</text>
     </string>
     <string id="bar_arena_manager_rules_1">
-        <text>О, правила очень простые. Я их сам придумал. Есть клетка, в неё запускается мутант. Ты платишь деньги, а также выбираешь время, за которое ты убьёшь монстра. Если успеваешь - получаешь выигрыш. Если не успеваешь - деньги я оставляю себе. Если ты умрёшь - обещаю похоронить со всеми почестями. Чем меньше время, которое ты выберешь - тем больше выигрыш.</text>
-    ---ARENA STUFF ABOVE, UNUSED---
+        <text>О, правила очень простые. Я их сам придумал. Есть клетка, в неё запускается мутант. Ты платишь деньги, а также выбираешь время, за которое ты убьёшь монстра. Если успеваешь - получаешь выигрыш. Если не успеваешь - деньги я оставляю себе. Если ты умрёшь - обещаю похоронить со всеми почестями. Чем меньше время, которое ты выберешь - тем больше выигрыш.</text> <!-- unused arena stuff -->
 	</string>
 	<string id="bar_bar_barman_ecolog_flash_done_0">
 		<text>Here is the flash drive professor Kruglov gave me.</text>
@@ -2573,7 +2569,7 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
 		<text>Thanks bro'! I'll never forget that you helped me!</text>
 	</string>
 	<string id="bar_bar_osvedomitel_deadcity_map_0">
-		<text>Are you not interested in the map of the Shining Path?</text>
+		<text>Are you not interested in the map of Shining Path?</text>
 	</string>
 	<string id="bar_bar_osvedomitel_deadcity_map_1">
 		<text>For 10000 rubles.</text>
@@ -3347,10 +3343,10 @@ No problem! I've got several vehicles for sale.\n \nZaphorozets - 1000 rubles. I
 		<text>Can you tell me anything that would be useful to a rookie?</text>
 	</string>
 	<string id="bar_bar_visitors_13_start_7111">
-		<text>Mercs are kinda like Freedom, only worse. At least Freedom have some ideals, but these dogs, they'll do anything for money. Someone really needs to kill 'em all before they drag something really dangerous out of the Zone into the normal world! They're based in the Shining Path and there's a sniper in every tall building, understand? They're not keen on strangers.</text>
+		<text>Mercs are kinda like Freedom, only worse. At least Freedom have some ideals, but these dogs, they'll do anything for money. Someone really needs to kill 'em all before they drag something really dangerous out of the Zone into the normal world! They're based in Shining Path and there's a sniper in every tall building, understand? They're not keen on strangers.</text>
 	</string>
 	<string id="bar_bar_visitors_13_start_71111">
-		<text>I see. Looks like you have to be careful in the Shining Path.</text>
+		<text>I see. Looks like you have to be careful in Shining Path.</text>
 	</string>
 	<string id="bar_bar_visitors_14_start_71">
 		<text>What do you want?</text>

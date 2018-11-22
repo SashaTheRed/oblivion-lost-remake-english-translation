@@ -705,16 +705,16 @@
 
 
  <string id="stader_0"> 
- 	<text>Here, I've got your container.</text> 
+ <text>Here, I've got your container.</text> 
  </string> 
  <string id="stader_1"> 
- 	<text>It seems like that you're worth your salt! I feel like that our cooperation together will be successful.</text> 
+ <text>It seems like that you're worth your salt! I feel like that our cooperation together will be successful.</text> 
  </string> 
  <string id="stader_2"> 
- 	<text>I think so too.</text> 
+ <text>I think so too.</text> 
  </string> 
  <string id="ds_kvest"> 
- 	<text>This is just the beginning, my friend.</text>  
+ <text>This is just the beginning, my friend.</text>  
  </string>
 
 
@@ -728,30 +728,30 @@
 
 
 <string id="bar_ohran_propusk_0">
-	<text>Anything else?</text>
+<text>Anything else?</text>
 </string>
 <string id="bar_ohran_propusk_1">
-	<text>You handled your first task well! Here's your next mission: there's some sort of weird artifact at the tower on the railroad bridge. Due to the strong anomalous activity there, stalkers don't go there. I've got a feeling in my gut about you: you seem like someone who can get shit done.</text>
+<text>You handled your first task well! Here's your next mission: there's some sort of weird artifact at the tower on the railroad bridge. Due to the strong anomalous activity there, stalkers don't go there. I've got a feeling in my gut about you: you seem like someone who can get shit done.</text>
 </string>
 <string id="bar_ohran_propusk_2">
-	<text>What do you want me to do? Do you want me to the that artifact for you?</text>
+<text>What do you want me to do? Do you want me to the that artifact for you?</text>
 </string>
 <string id="bar_ohran_propusk_3">
-	<text>What do you think? Yes, I want you to get me that artifact. Here's some anti-radiation drugs, just in case. Oh, and you'll want this detector.</text>
+<text>What do you think? Yes, I want you to get me that artifact. Here's some anti-radiation drugs, just in case. Oh, and you'll want this detector.</text>
 </string>
 
 
 <string id="bar_friend_propusk_0">
-	<text>I have the artifact you wanted.</text>
+<text>I have the artifact you wanted.</text>
 </string>
 <string id="bar_friend_propusk_1">
-	<text>Hah, you did it. This tells me that aren't a rookie!</text>
+<text>Hah, you did it. This tells me that aren't a rookie!</text>
 </string>
 <string id="bar_friend_propusk_2">
-	<text>You might be right, but I don't remember anything!</text>
+<text>You might be right, but I don't remember anything!</text>
 </string>
 <string id="bar_friend_propusk_3">
-	<text>Alright, alright, let's stop talking about that. You've done the mission. Here's your reward.</text>
+<text>Alright, alright, let's stop talking about that. You've done the mission. Here's your reward.</text>
 </string>
 
 
@@ -1019,7 +1019,12 @@
 	</string>
 
 	<string id="escape_talk_about_escape__10">
-		<text>This is the path to the Zone. In the the lit basement that isn't blocked off here, you will find the local trader. I advise you not to approach the blockpost and fight the soldiers - they're instructed to shoot without warning. Killing military soldiers is not recommended, unless if it's a last resort. Every time you kill a soldier, the trader has to pay compensation, so he won't be happy with you if you make trouble. Novices must be careful here, there's herds of blind dogs moving around. You can find other mutants if you take the time to look for them.</text>
+		<text>This is the path to the Zone. In the the lit basement
+		that isn't blocked off here, you will find the local trader. I advise you not to
+		approach the blockpost and fight the soldiers - they're instructed to shoot without warning. Killing
+		military soldiers is not recommended, unless if it's a last resort. Every time you kill a soldier, the
+		trader has to pay compensation, so he won't be happy with you if you make trouble. Novices must be
+		careful here, there's herds of blind dogs moving around. You can find other mutants if you take the time to look for them.</text>
 	</string>
 
 	<string id="escape_talk_about_escape__1">
@@ -1284,7 +1289,7 @@
 	</string>
 	<string id="escape_lager_guard_start_dialog_2121">
 		<text>What "death truck?" What are you talking about?</text>
-		</string>
+	</string>
 	<string id="escape_lager_guard_start_dialog_21211">
 		<text>Ah, hell only knows what it really is. But whatever it is, it's bad, about as bad as it gets. Why am I talking to you about this anyway! Maybe I'm just superstitious, but you, Messer, should really take a hike before something happens to you.</text>
 	</string>
@@ -1498,7 +1503,7 @@
     <string id="escape_lager_volk_job_0">
         <text>Got any work you need doing?</text>
     </string>
-     <string id="escape_lager_volk_job_1">
+    <string id="escape_lager_volk_job_1">
         <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. The last thing I want to do here is to leave a gift for one of my friends. My guys were on their way here, bringing him along, but the bandits had their way with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But you… You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. So… The bandits have settled down in the factory.</text>
     </string>
     <string id="escape_lager_volk_job_11">
@@ -1516,12 +1521,11 @@
     <string id="escape_lager_volk_job_121">
         <text>What, are you scared? Well, all right. I won't blame you.</text>
     </string>
-	
 	<string id="escape_shustryi_start_11">
 		<text>Thanks, brother! You did us a great service! I don't even know how to thank you…</text>
 	</string>
 	<string id="escape_shustryi_start_111">
-		<text>Don't get too excited, I'm just doing my job. Hey, how did you even end up here?</text>
+		<text>Don't get too excited. I'm just doing my job. Hey, how did you even end up here?</text>
 	</string>
 	<string id="escape_shustryi_start_1111">
 		<text>I was getting a stash for Wolf with the other guys, and these assholes… They were already waiting for us. I have no idea how they found out about us. And after that, you can guess where it went: we had a shootout, and I ended up here.</text>
@@ -1565,7 +1569,6 @@
 	<string id="escape_shustryi_start_512">
 		<text>Sorry. I can't help you.</text>
 	</string>
-	
 	<string id="escape_trader_deadcity_map_0">
 		<text>Toad, would a map of Shining Path interest you?</text>
 	</string>
@@ -1654,7 +1657,7 @@
 		<text>No. I've made my decision, and I don't need any of your help.</text>
 	</string>
 	<string id="escape_trader_jobs_6112121">
-		<text>Everything is clear with you, Messer. I gave a tip about you to Fox. You're glad to try to found out about your Strelok.  Всё с тобой понятно, Меченый. Я тебе наводку на Лиса дал, а ты и рад стараться, узнал про своего Стрелка, а меня кинуть решил! Ну-ну... Топай, Зона ещё скажет своё слово, поверь. Вмиг ко мне прибежишь!</text>
+		<text>Everything is clear with you, Messer. I gave a tip about you to Fox. You're glad to try to found out about your Strelok. Всё с тобой понятно, Меченый. Я тебе наводку на Лиса дал, а ты и рад стараться, узнал про своего Стрелка, а меня кинуть решил! Ну-ну... Топай, Зона ещё скажет своё слово, поверь. Вмиг ко мне прибежишь!</text>
 	</string>
 	<string id="escape_trader_jobs_61121211">
 		<text>То есть, как это, кинуть?! Ты, кажется, говорил, что за моё спасение я должен выполнить пару заданий для тебя, поправь, если я ошибаюсь! Артефакт - раз. Флешка Лиса - два. Ты что, считать разучился?</text>
@@ -2049,7 +2052,6 @@
 	<string id="escape_trader_talk_level_51">
 		<text>Ох ты и нудный! Ну ферма себе, как ферма. Свиньи там ещё до перестройки все передохли.</text>
 	</string>
-	
 	<string id="tutorial_wounded_give_medkit_1">
 		<text>I'm ok... bleeding all over though. Gimme a medkit, will ya?</text>
 	</string>
@@ -2104,7 +2106,6 @@
 	<string id="tutorial_wounded_give_medkit_91">
 		<text>You bastard! Don't you understand that next time you'll be in my place?!</text>
 	</string>
-	
 	<string id="esc_mechanic_dialog_0">
 		<text>Welcome! So do you have any complaints? Broke something?</text>
 	</string>
