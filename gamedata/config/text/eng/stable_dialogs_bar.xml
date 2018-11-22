@@ -8,13 +8,13 @@
  <text>I need a strong gravitational artifact..</text> 
  </string> 
  <string id="gravartsmnb2_1"> 
- <text>Alright. Give me the device the money... so...</text> 
+ <text>Alright. Give me the device and the money.</text> 
  </string> 
  <string id="gravartsmnb2_2"> 
  <text>...</text> 
  </string> 
  <string id="gravartsmnb2_3"> 
- <text>Here, I've got the artifact.</text> 
+ <text>And it's done! Here is the artifact.</text> 
  </string> 
 
 
@@ -24,7 +24,7 @@
  <text>What kind of artifacts do you have here?</text> 
  </string> 
  <string id="gravartsmnb_1"> 
- <text>Yes, I have one device.. it's for artifact transmutation. Currently, it only has the recipe for strong gravitational artifacts inside it. If you take this device and put the needed artifacts inside it, I can do the transmutation. The ingredients for conversion shall be mine - you only need the device itself and 5000 rubles.</text> 
+ <text>Yes, I have a special device... It's for artifact transmutation: if you take this device and put the required artifacts inside it it will turn them into a new artifact, but it currently has only a recipe for a strong gravitational artifact. I can provide the ingredients for the conversion; you only need the device itself and 5000 rubles.</text> 
  </string> 
  <string id="gravartsmnb_2"> 
  <text>After I get the artifacts?</text> 
@@ -121,7 +121,7 @@
  <text>As you expected, the group was taken prisoner by Sin. I managed to save them.</text> 
  </string> 
  <string id="zzzzsnikz_01"> 
- <text>Let me check something.. I'm detecting their signal on my PDA. I think they're already here. Thank you, stalker. You did great! As gratitude, you'll get a car for free. It'll be near a bunker. Thank you again.</text> 
+ <text>Let me check something.. I'm detecting their signal on my PDA. I think they're already here. Thank you, stalker. You did great! As gratitude, I'll give you a car for free. It'll be near the bunker. Thank you again.</text> 
  </string> 
 
 
@@ -131,13 +131,13 @@
  <text>I found what you asked for.</text> 
  </string> 
  <string id="prstugdhs_1"> 
- <text>Really? Well, they're lucky you came by. Haha.</text> 
+ <text>Really? Well, they're lucky you came by, haha.</text> 
  </string> 
  <string id="prstugdhs_2"> 
  <text>Can you release them?</text> 
  </string> 
  <string id="prstugdhs_3"> 
- <text>Yes. We'll let them go soon. We need to do something with them before we let them go..</text> 
+ <text>Yes. We'll let them go soon. We need to do something with them before we let them go.</text> 
  </string> 
 
 
@@ -150,7 +150,7 @@
  <text>Why do you care? We've got a group of scientists in there. They were in the wrong place at the wrong time, heh-heh. They came just in time for our ritual. The heads of those scientists will come in handy.</text> 
  </string> 
  <string id="stugdhs_2"> 
- <text>Wait, you want their heads? No, that's not good. I want them alive. I'll buy them from you.</text> 
+ <text>Wait, you want their heads? No, no, that's not good. I need them alive. I'll buy them from you.</text> 
  </string> 
  <string id="stugdhs_3"> 
  <text>'Buy'? We don't need money. If you really need them alive, bring us three heads and they'll be set free.</text> 
@@ -160,7 +160,7 @@
 
 
  <string id="hhhnikz_0"> 
- <text>Are there any jobs that pay?</text> 
+ <text>Are there any well-paid jobs?</text> 
  </string> 
  <string id="hhhnikz_1"> 
  <text>Mmh, yes. About a month ago, we sent four teams to different corners of the Zone for research. The first group died in the Cordon, somewhere around the tower. You discovered the remains of the second group at Shining Path. Another was killed here at the pillbox near the lake. We don't know much about the fourth one.</text> 
@@ -211,7 +211,7 @@
  <text>Do you have any other work?</text> 
  </string> 
  <string id="yaabneayb_1"> 
- <text>Have you ever heard of the 'Sinners'? They're truly terrifying - you'll know what I mean when you first run into them. It's rumored that they're holed up in the Silent Hills somewhere. People say that their leader isn't even human, and he's supposedly one of the first in stalkers who made it to the Zone. In short, this is one of the oldest groups in the Zone: they've been here since it appeared. Now, I know that at their base in the Hills, there is a vault with various documents inside it. I need you to go there and get me a specific document from that vault. Do you think you can do this for me?</text> 
+ <text>Have you ever heard of the 'Sinners'? They're truly terrifying - you'll know what I mean when you first run into them. It's rumored that they're holed up in the Silent Hills somewhere. People say that their leader isn't even human, and he's supposedly one of the first in stalkers who made it to the Zone. In short, this is one of the oldest groups in the Zone: they've been here since it appeared. Now, I know that at their base in the Hills, there is a vault with various secret documents inside it. I need you to go there and get me a specific document from that vault. Do you think you can do this for me?</text> 
  </string> 
  <string id="yaabneayb_2"> 
  <text>I'll try, but I can't promise anything.</text> 
@@ -223,16 +223,16 @@
 
 
  <string id="mnb_0"> 
- <text>Here, take this file.</text> 
+ <text>Here, take the file.</text> 
  </string> 
  <string id="mnb_1"> 
  <text>You were able to get the document from the vault at the Sinner's base? Good job, stalker. This will really help us in learning more about the Zone.</text> 
  </string> 
  <string id="mnb_2"> 
- <text>What about payment?</text> 
+ <text>What about the payment?</text> 
  </string> 
  <string id="mnb_01"> 
- <text>Yes, certainly. Give me a minute.. here's your money.</text> 
+ <text>Yes, certainly. Give me a minute... Here's your money.</text> 
  </string> 
 
 
@@ -265,7 +265,7 @@
  <text>I found your brother. He's dead. He's in the underground lab at Dark Valley.</text> 
  </string> 
  <string id="zxrpozsskayb_01"> 
- <text>Stalker.. leave me, please... thank you.</text> 
+ <text>Stalker... Could you leave me alone, please? Thank you...</text> 
  </string> 
  <string id="zxrpozsskayb_5"> 
  <text>Alright, I'll leave you alone.</text> 
@@ -309,16 +309,16 @@
 
 
  <string id="svdodddkz_0"> 
- <text>You're from Professor?</text> 
+ <text>You're from the Professor?</text> 
  </string> 
  <string id="svdodddkz_1"> 
  <text>Yes. I'm interested in something...</text> 
  </string> 
  <string id="svdodddkz_2"> 
- <text>You're interested in something? So am I. These dumbass eggheads placed radiation from their damn psy-rig right in front of our base. Not good. Some of our comrades say that the radiation is expanding, and it seems it'll hit our base soon. Those eggheads have some weird shit going on, and we've traced the source to a house that's left to one of the roads at Silent Hills. I don't want to send any of my men there. The radiation there is so intense that all the grass has faded and evaporated. Go there and see if you can turn that shit off. We'll talk later.</text> 
+ <text>You're interested in something? So am I. Those egghead bastards placed a radiation field from their damn psy-rig right in front of our base. Some of our comrades say that the radiation field is expanding, and it seems it'll reach our base soon. Those eggheads have some weird shit going on... We've traced the source to a house that's left to one of the roads at Silent Hills. I don't want to send any of my men there. The radiation there is so intense that all the grass has faded and evaporated. Go there and see if you can turn that shit off. We'll talk afterwards.</text> 
  </string> 
  <string id="svdodddkz_01"> 
- <text>Damn.. okay, I'll do it.</text> 
+ <text>Damn... okay, I'll do it.</text> 
  </string> 
 
 
@@ -326,7 +326,7 @@
 
 
  <string id="dodddkz_0"> 
- <text>Hello. Are you Doctor?</text> 
+ <text>Hello. Are you the Doctor?</text> 
  </string> 
  <string id="dodddkz_1"> 
  <text>Yes. I knew you were coming..</text> 
@@ -335,7 +335,7 @@
  <text>I have a few questions.</text> 
  </string> 
  <string id="dodddkz_01"> 
- <text>Hold on a moment, I need your help first, then I'll help you with your questions. Listen carefully. A stalker wandered into the swamp, and he's already spent half a day at the fishing lodge. I'm worried about him. Bring him here, but don't let him inside. Let him sit on the porch. Grab the first-aid kit from the stove, you might need it. Also, you'll need to take something from him as payment for my services.</text>
+ <text>Hold on a moment, I need your help first, then I'll help you with your questions. Listen carefully: a stalker wandered into the swamp and he's already spent half a day at the fishing lodge. I'm worried about him. Bring him here, but don't let him inside. Let him sit on the porch. Grab the first-aid kit from the stove, you might need it. Also, you'll need to take something from him as payment for my services.</text>
  </string> 
 
 
@@ -344,7 +344,7 @@
  <text>Hey, how are you?</text> 
  </string> 
  <string id="mzdodddkz_1"> 
- <text>Who's there? Stalker? I need help. I.. came from the Radar. The radiation there.. is intense.</text> 
+ <text>Who's there? A stalker? I need help. I.. came from the Radar. The radiation there.. is intense...</text> 
  </string> 
  <string id="mzdodddkz_2"> 
  <text>There's a doctor nearby. I think he can help you.</text> 
@@ -359,13 +359,13 @@
  <text>Doctor, I left him on your porch. He's halfway gone. He says he came from the Radar.</text> 
  </string> 
  <string id="pdodddkz_1"> 
- <text>Let him rest there for a while. Go to him and find out where he's from, what faction he's with, and take a look at his things.</text> 
+ <text>Let him rest there for a while. Go to him and find out where he's from, what faction he's with, and take a careful look at his equipment.</text> 
  </string> 
  <string id="pdodddkz_2"> 
  <text>Ok, got it.</text> 
  </string> 
  <string id="pdodddkz_01"> 
- <text>Wait, there's more. After you're done with the stalker, you need to go see a trader. Toad is his name. He recently settled at the Hills. You need to pick up a strange-looking container that looks a refrigerator from him, and you need to bring it here. You'll get free treatment if you do this for me.</text> 
+ <text>Wait, there's more. After you're done with the stalker, you need to go see a trader. His name is Toad, he recently settled at the Hills. You need to pick up a strange-looking container; it looks something like a small refrigerator. You'll need to bring it here. You'll get free treatment if you do this for me.</text> 
  </string> 
 
 
@@ -373,10 +373,10 @@
  <text>Who are you and where are you from?</text> 
  </string> 
  <string id="dopdodddkz_1"> 
- <text>Me? I'm a veteran. I was part of group of stalkers that was going from Shining Path to the Radar, and we decided to take a shortcut at the old military warehouses. Something's wrong there.. if you go there, your brain gets cooked. I don't know how I got here. I recall seeing the destroyed bridge and having to swim...</text> 
+ <text>Me? I'm Leary. I was part of a group of stalkers that was going from Shining Path to the Radar, and we decided to take a shortcut at the old military warehouses. But something's wrong there... If you go there, your brain gets cooked inside your skull. I don't remember how I got here. I recall seeing the destroyed bridge and having to swim...</text> 
  </string> 
  <string id="dopdodddkz_2"> 
- <text>I see you have nothing interesting on you. You've got a gun and a radio.. the Doctor needs something so he can take you in. He'll sell one of your things for money for medicine. I'll be taking one of your things.</text> 
+ <text>I see you have nothing interesting on you. You've got a gun and a radio... The Doctor needs something, so he can take you in. He'll sell one of your things for money for medicine, while I'll be taking the other as payment.</text> 
  </string> 
  <string id="dopdodddkz_01"> 
  <text>Yeah, okay...</text> 
@@ -416,16 +416,16 @@
 
 
  <string id="zzhjopdodddkz_0"> 
- <text>Listen, have you ever heard about Veteran?</text> 
+ <text>Listen, have you ever heard about Leary?</text> 
  </string> 
  <string id="zzhjopdodddkz_1"> 
- <text>Who? Ohhh, that guy. Yeah I know him. He dissapeared along with a group at the Radar.</text> 
+ <text>Who? Ohhh, that guy. Yeah I know him. He disappeared along with a group at the Radar.</text> 
  </string> 
  <string id="zzhjopdodddkz_2"> 
  <text>He's alive and currently is at the swamp Doctor.</text> 
  </string> 
  <string id="zzhjopdodddkz_01"> 
- <text>Goddamn... and we already said goodbye to him, and now this... that's some good news! Well, tell the doc that we are extremely thankful. I think that the info he got there will be very useful.</text> 
+ <text>Goddamn... and we already said goodbye to him, and now this... That's some good news! Well, tell the doc that we are extremely thankful. I think that the information he got there will be very useful.</text> 
  </string> 
 
 
@@ -437,13 +437,13 @@
  <text>I think I found the knife.</text> 
  </string> 
  <string id="nnnnnikz_1"> 
- <text>Yes, that's it! Thank you, you've been a great help.</text> 
+ <text>Yes, that's it! Thank you, you've helped me a lot.</text> 
  </string> 
  <string id="nnnnnikz_2"> 
  <text>You wanted to share information related to someone I'm looking for, right?</text> 
  </string> 
  <string id="nnnnnikz_01"> 
- <text>Alright... You're looking for Strelok, right? Long story short, I heard from some stalker at the bar who was wearing some worn-out coat that Strelok had stashes all around the place. He supposedly had one at Med-Pribor and here, in the Rostok underground. Our boys are currently diggin' there and it is possible that the part of the tunnel that was closed before is now accessible. </text> 
+ <text>Alright... You're looking for Strelok, right? Long story short, I heard from some stalker at the bar who was wearing some worn-out coat that Strelok had stashes all around the Zone. He supposedly had one at Med-Pribor and here, in the Rostok underground. Our boys are currently diggin' there and it is possible that the part of the tunnel that was closed before is now accessible. </text> 
  </string> 
 
 
@@ -452,7 +452,7 @@
  <text>Is there any work you want done?</text> 
  </string> 
  <string id="nloudmoth_1"> 
- <text>Yes. You need to find a knife in the Rostok underground that my friend lost. After you took care of that bloodsucker stalkers began swarming the place looking for shit. My friend was one of them, he lost the knife in one of the rooms.</text> 
+ <text>Yes. You need to find a knife in the Rostok underground that my friend lost. After you took care of that bloodsucker, stalkers began swarming the place looking for all kinds of shit. My friend was one of them and he lost the knife in one of the rooms.</text> 
  </string> 
  <string id="nloudmoth_2"> 
  <text>I'll go take a look. What about payment?</text> 
@@ -467,19 +467,19 @@
  <text>How are you, stalker? Were you the one who sent that SOS message?</text> 
  </string> 
  <string id="loudmoth_1"> 
- <text>Yes, I need help.. fuck, I escaped from that military base. There's no military there.. the people there aren't human.</text> 
+ <text>Yes, I need help... Fuck, I barely escaped from that military base. There's no military there.. Those "people" there aren't even human!</text> 
  </string> 
  <string id="loudmoth_2"> 
  <text>What do you mean?</text> 
  </string> 
  <string id="loudmoth_01"> 
- <text>I was going to the Bar with some friends. They followed us.. and they knocked us out. We were taken to their base, and they empaled my friend Seryoga on a pole. Someone who looked like their leader performed some sort of ritual.. after witnessing what they did, I think my brain's all messed up.</text> 
+ <text>I was going to the Bar with some friends. They followed us... And somehow they knocked us out. We were taken to their base, and they impaled my friend Seryoga on a pole. Someone who looked like their leader performed some sort of a ritual... I can't forget that terrible sight. I still feel sick thinking about it.</text> 
  </string> 
 
 
 
  <string id="device_pda_uchenyh_deadcity_desc"> 
- <text>The last PDA's last entry: - "Damn, the military is conducting a raid, and they're leaving no stone unturned." There is also information about psy-installations at lake Yantar, the marshes, and Pripyat in the PDA's memory card. There's also something about the "Black Monolith" project, but that information is encrypted.</text> 
+ <text>The last PDA's last entry: - "Damn, the military is conducting a raid, and they're leaving no stone unturned." There is also information about the psy-installations at lake Yantar, the marshes, and Pripyat in the PDA's memory card. There are also mentions of a "Black Monolith" project, but detailed information is encrypted.</text> 
  </string>
 
 
@@ -490,10 +490,10 @@
  <text>What about them? Are they ok?</text> 
  </string> 
  <string id="duudpomosnikz_2"> 
- <text>Well, no. They're dead. It seems that they hid in the attic of one of the houses when the city was being sweeped by military stalkers. Here, they had this PDA.</text> 
+ <text>Well, no. They're dead. It seems that they hid in the attic of one of the houses when the city was being swept by military stalkers. Here, they had this PDA.</text> 
  </string> 
  <string id="duudpomosnikz_01"> 
- <text>Well, okay. Thank you. Talk to our junior assistant. He might have some work for you... damn it, our groups have had nothing but trouble.</text> 
+ <text>Well, okay. Thank you. Talk to our junior assistant. He might have some work for you... Damn it, our groups have had nothing but trouble lately.</text> 
  </string> 
 
 
@@ -502,7 +502,7 @@
  <text>Do you have any work for me?</text> 
  </string> 
  <string id="zuudpomosnikz_1"> 
- <text>Nah. Or actually, yeah, there is one thing. A week ago a group of our men went to Shining Path to study some anomalies there and dissapeared. I don't have anyone to send to rescue them, but you appear to be experienced. You'll need to find them, or their bodies, and find the results of their studies, if there any. </text> 
+ <text>Nah... Or wait, actually yeah, I do. A week ago a group of our men went to Shining Path to study some anomalies there and disappeared. I don't have anyone to send to rescue them, but you appear to be experienced. You'll need to find them, or their bodies, and find the results of their studies, if there any. </text> 
  </string> 
  <string id="zuudpomosnikz_2"> 
  <text>OK. I'll try to find them.</text> 
@@ -534,13 +534,13 @@
  <text>Greetings.</text> 
  </string> 
  <string id="pomosnikz_1"> 
- <text>Huh? What do you want? The professor isn't accepting visitors today. Turn away and get out of here!</text> 
+ <text>Huh? What do you want? The Professor isn't accepting visitors today. Turn around and get out of here!</text> 
  </string> 
  <string id="pomosnikz_2"> 
  <text>Calm down, Barkeep sent me here. Why are you so nervous?</text> 
  </string> 
  <string id="pomosnikz_3"> 
- <text>What?! Uh... she... she's gone, don't you get it?! She's completely gone... she dissapeared in that damn lab in the Dark Valley! Ah, if I could only find the pendant that I gave her... a silver one...</text> 
+ <text>What?! Uh... she... she's gone, don't you get it?! She's completely gone... she disappeared in that damn lab in the Dark Valley! Ah, if I could only find the pendant that I gave her... A silver one...</text> 
  </string> 
  <string id="pomosnikz_4"> 
  <text>...</text> 
@@ -559,7 +559,7 @@
  <text>Thanks.</text> 
  </string> 
  <string id="prpozsskayb_01"> 
- <text>Oh and by the way, you see that guy? That's the main assistant. He's a bit unhinged, so remember to treat him nicely. His wife died recently... She got a pendant from him some time ago, but they didn't find it near her body. She died in some lab at the Valley... now he dreams of that pendant... kinda  creepy, huh? Anyways, once again, thanks for your help!</text> 
+ <text>Oh and by the way, you see that guy? That's the main assistant. He's a bit unhinged, so remember to treat him nicely. His wife died recently... She got a pendant from him some time ago, but they didn't find it near her body. She died in some lab at the Valley... Now he dreams of that pendant... Kinda  creepy, huh? Anyways, once again, thanks for your help!</text> 
  </string> 
 
 
@@ -570,7 +570,7 @@
  <text>Greetings, Zyablikov? What's going on?</text> 
  </string> 
  <string id="pozsskayb_1"> 
- <text>Hello. Listen, Messer, would you lead me to the camp? I know the way.</text> 
+ <text>Hello. Listen, Messer, would you lead me to the camp? I can show you the way.</text> 
  </string> 
  <string id="pozsskayb_2"> 
  <text>Alright, let's go.</text> 
@@ -602,13 +602,13 @@
  <text>Greetings. What's that suit you're wearing? Did you get it from the eggheads?</text> 
  </string> 
  <string id="zcddaqiyorbar_1"> 
- <text>Yes, it's a scientific suit. Fully waterproof. It will protect you from even the worst chemical anomalies! Want one? I'll get you one if you do something for me.</text> 
+ <text>Yes, it's a scientific suit. Fully waterproof. It can protect from even the worst chemical anomalies! Want one? I'll get you one if you do something for me.</text> 
  </string> 
  <string id="zcddaqiyorbar_2"> 
  <text>What do you want?</text> 
  </string> 
  <string id="zcddaqiyorbar_3"> 
- <text>In the past, me and my brother worked together in the factory. His name was Vania. One time we got an argument over one petty issue. Mad as all hell and flustered I got away for a long time. When I came back, I learned that the entire complex was evacuated. But here's the catch - Vania didn't come back. The administration tried to play us like a damn fiddle - they said that he either escaped, or died on duty. Basically, they lied like the devil. The entire family has gone nuts. Then I got a letter from the Research Institute with an offer to take part in an expedition to the Zone. More exactly - to protect it. I wanted to deny the offer, but I've heard that the complex is also in the Zone, and I've had nothing to lose. Long story short - if you go to the Rostok plant and find anything that mentions my brother or maybe even him, I'll give you my suit. Are you up for it?</text> 
+ <text>Me and my brother used to work in the factory. His name was Vania. One time we got into an argument over a petty issue. I got really angry and ran away for a long time. When I finally came back, I learned that the entire complex was evacuated. But here's the catch - Vania didn't come back home. The administration tried to play us like a damn fiddle - they said that he either escaped, or died on duty. Basically, they lied like the devil. The entire family has gone nuts. Then I got a letter from the Research Institute with an offer to take part in an expedition to the Zone. More specifically - to protect it. I wanted to deny the offer, but I've heard that the complex is also in the Zone, and I have nothing to lose. Long story short - if you go to the Rostok plant and find anything that mentions my brother or maybe even him, I'll give you my suit. Are you up for it?</text> 
  </string>
  <string id="zcddaqiyorbar_4"> 
  <text>Hm... alright. I'll try to find something about him.</text> 
@@ -622,7 +622,7 @@
  <text>Do you have any jobs for me?</text> 
  </string> 
  <string id="cddaqiyorbar_1"> 
- <text>Yes, there is one. Behind the Rostok plant, near the dam, is some sort of living area. A Kamaz sits there. I want it brought here, but nobody wants to do it. </text> 
+ <text>Yes, I do. Behind the Rostok plant, near the dam, is some sort of living area. A Kamaz truck sits there. I want it brought here, but nobody wants to do it. </text> 
  </string> 
  <string id="cddaqiyorbar_2"> 
  <text>I can try to do it.</text> 
@@ -640,10 +640,10 @@
  <text>I brought the truck.</text> 
  </string> 
  <string id="casskayb_1"> 
- <text>Great job, here's your reward. Is the truck alright? Does it have any cargo? Or maybe something else happened?</text> 
+ <text>Great job, here's your reward. Is the truck alright? Does it have any cargo left inside? Or maybe something else happened?</text> 
  </string> 
  <string id="casskayb_2"> 
- <text>No, I don't think so. Except one bloodsucker... it probably came from Rostok.</text> 
+ <text>No, everything is all right... Except, there was a bloodsucker... It probably came from Rostok..</text> 
  </string> 
  <string id="casskayb_01"> 
  <text>Alrighty then. I'll get someone to put the truck at the 'parking lot'. Thanks for your help, Messer.</text> 
@@ -656,10 +656,10 @@
  <text>Greetings! Are you looking for new fighters?</text> 
  </string> 
  <string id="ddaqiyorbar_1"> 
- <text>You want to join ours ranks? A fighter like you would be a dream!</text> 
+ <text>You want to join our ranks? We're always searching for brave fighters like you!</text> 
  </string> 
  <string id="ddaqiyorbar_2"> 
- <text>That is right!</text> 
+ <text>Yes, I do!</text> 
  </string> 
  <string id="ddaqiyorbar_3"> 
  <text>If that's so, then we'll happily take you in! You are now officially a member of Duty! Here's your gear.</text> 
@@ -690,7 +690,7 @@
  <text>Hey, what are those boxes you got here? You've got all of these artifacts too.</text> 
  </string> 
  <string id="skayb_1"> 
- <text>Yeah, imagine this - some Freedomers in Rostok found 10 crates full of bolts! But these aren't regular bolts, they're radioactive bolts...  Basically, this should've been brought outside the perimeter a long time ago, but there's some delays with delivery and shit, so I'm keeping them safe. And about these arts - I managed to synthesize them some time ago. I've had a portable transmutator, and I still have some receipts in my PDA. If you're interested, talk to our leader at the mobile bunker in Yantar.</text> 
+ <text>Yeah, imagine this - some Freedomers in Rostok found 10 crates full of bolts! But these aren't regular bolts, they're radioactive bolts...  Basically, this should've been brought outside the perimeter a long time ago, but there's some delays with the delivery and shit, so I'm keeping them safe. And about these artifacts - I managed to synthesize them some time ago. I had a portable transmutator, and I still have some recipes in my PDA. If you're interested, talk to our leader at the mobile bunker in Yantar.</text> 
  </string> 
  <string id="skayb_2"> 
  <text>Alright, good to know. Thanks.</text> 
@@ -703,7 +703,7 @@
  <text>I think I did it, Barkeep.</text> 
  </string> 
  <string id="arpr122_1"> 
- <text>Hold on a second. Some stalkers brought someone from Radar. He seems to be.. not sane. Still, I think we can get some useful information from him that's related to what's going on over there.</text> 
+ <text>Hold on a second. Some stalkers brought someone from Radar. He seems to be... A bit insane. Still, I think we can get some useful information from him that might shed some light on what's going on over there.</text> 
  </string> 
  <string id="arpr122_2"> 
  <text>Alright.</text> 
@@ -740,7 +740,7 @@
 		<text>Get the first aid kit</text>
 	</string>
 	<string id="bar_ryaboy_medik_job_0">
-		<text>Get first aid kit from Barkeep</text>
+		<text>Get the first aid kit from Barkeep</text>
 	</string>
 	<string id="bar_ryaboy_medik_job_1">
 		<text>Give the first aid kit to Spotty</text>
@@ -761,7 +761,7 @@
  <text>Greetings, Barkeep. Is this what you're looking for?</text> 
  </string> 
  <string id="bopb_1"> 
- <text>Where did you get that from?! Hide it, quick! You don't show stuff like that around infront of everyone!</text> 
+ <text>Where did you get that from?! Hide it, quick! You don't show stuff like that around in front of everyone!</text> 
  </string> 
  <string id="bopb_2"> 
  <text>Listen, in there I saw...</text> 
@@ -783,10 +783,10 @@
  <text>Damn.. was there anything else? Was he the only one who died?</text> 
  </string> 
  <string id="qiyorbar_2"> 
- <text>A few Freedom-associated stalkers were killed. It seems to be the work of an Controller, and I think that Conroller decided to follow me.</text> 
+ <text>A few Freedom-associated stalkers were killed. It seems to be the work of a Controller, and I think that Controller decided to follow me.</text> 
  </string> 
  <string id="qiyorbar_3"> 
- <text>Well, in that case we'll do it ourselves. Some Freedomers gave us a tip about a potential stash location. Here, on the bar territory. These are the two places we need to check. Let's go.</text> 
+ <text>Well, in that case we'll have to do it ourselves. Some Freedomers gave us a tip about a potential stash location. Here, on the bar territory. These are the two places we need to check. Let's go.</text> 
  </string>
  <string id="qiyorbar_4"> 
  <text>Alright.</text> 
@@ -802,7 +802,7 @@
  <text>Stalker! You're alive. I don't know how you did it, but here you are. How's your head doing? Are you feeling okay?</text> 
  </string> 
  <string id="iyorbar_2"> 
- <text>Well, mostly. I am feeling a bit off, but I'm alive, and that's what counts. I don't think I'm going to be a zombie that's going to eat your brains anytime soon.</text> 
+ <text>Well, mostly. I am feeling a bit off, but I'm alive, and that's what counts. I don't think I'm going to become a zombie that's going to eat your brains anytime soon.</text> 
  </string> 
  <string id="iyorbar_3"> 
  <text>That's great. Let's get to the point: you plan on going to the center of the Zone, right? I've got something that might be of interest to you. Duty has an "Igla" missile launcher; in the Zone, these are extremely rare. Other stalkers want it, so they keep it under lock and key. If you do a certain job for Duty, you'll get it for free. You need to go to Rostok. There's a warehouse, and on the roof, there's a man from Duty there. Talk to him, and decide if you want to do the job. Simple enough, right? If you do it, the the reward will be worth it.</text> 
@@ -1624,7 +1624,7 @@
  <text>The sucker is dead.</text> 
  </string> 
  <string id="sokolov_kvest_dialog_completed_1"> 
- <text>Messer, damn me, you're alive! I can't believe that you killed that foul beast! I have a reward for you. Do you know where Duty has their headquarters? Across their base is a house. The stalker who occupied it dissapeared a long time ago, I haven't heard of him in years. Here, take the key, you can live there. I haven't been in that house since it's owner dissapeared, either way I don't need it and you've done a great thing. Take it. Ah, I've almost forgot: the leader of Duty wants to see you.</text> 
+ <text>Messer, damn me, you're alive! I can't believe that you killed that foul beast! I have a reward for you. Do you know where Duty has their headquarters? Across their base is a house. The stalker who occupied it disappeared a long time ago, I haven't heard of him in years. Here, take the key, you can live there. I haven't been in that house since it's owner disappeared, either way I don't need it and you've done a great thing. Take it. Ah, I've almost forgot: the leader of Duty wants to see you.</text> 
  </string> 
  <string id="sokolov_kvest_dialog_completed_2"> 
  <text>A house? Interesting. Alright, thanks.</text> 
@@ -1647,7 +1647,7 @@
 		<text>Listen, I am looking for someone. Name's Strelok. Do you know him?</text>
 	</string>
 	<string id="rat_story_info_1">
-		<text>Strelok... Yes, I know something. I saw him and his crew at Med-Pribor once. Rumor has it he's gone missing. Some say that he dissapeared near the power plant, others say that he dissapeared behind it. I don't know exactly. It's kind of a weird thing with that Strelok guy...</text>
+		<text>Strelok... Yes, I know something. I saw him and his crew at Med-Pribor once. Rumor has it he's gone missing. Some say that he disappeared near the power plant, others say that he disappeared behind it. I don't know exactly. It's kind of a weird thing with that Strelok guy...</text>
 	</string>
 	<string id="rat_story_info_100">
 		<text>Thanks.</text>
@@ -2416,7 +2416,7 @@
 		<text>Tell me about the mobile science labs.</text>
 	</string>
 	<string id="bar_bar_barmen_talk_info_71">
-		<text>As you probably know by now, some government organisations are studying the "nature" of the Zone. Rumors say, that them and their experiments caused the Zone itself to appear. Strelok and his crew tried to find out more about the Zone, but he and his entire crew dissapeared. I don't know the truth, I only can guess. Government organisations put mobile laboratories around the Zone, isolated metallic bunkers protected by stalkers. These bunkers are self sufficient and able to work for a couple of months on their own. We keep in touch with one of these bunkers at Yantar. The eggheads are pretty okay guys, they'll share some info, and we help them in times of need. Works for both of us.</text>
+		<text>As you probably know by now, some government organisations are studying the "nature" of the Zone. Rumors say, that them and their experiments caused the Zone itself to appear. Strelok and his crew tried to find out more about the Zone, but he and his entire crew disappeared. I don't know the truth, I only can guess. Government organisations put mobile laboratories around the Zone, isolated metallic bunkers protected by stalkers. These bunkers are self sufficient and able to work for a couple of months on their own. We keep in touch with one of these bunkers at Yantar. The eggheads are pretty okay guys, they'll share some info, and we help them in times of need. Works for both of us.</text>
 	</string>
 	<string id="bar_bar_barmen_talk_info_8">
 		<text>What is the wish granter?</text>
@@ -2650,7 +2650,7 @@
 		<text>OK, I'll buy it. Here's 200.</text>
 	</string>
 	<string id="bar_bar_osvedomitel_trade_info_3111">
-		<text>Strelok along with his group got to the center of the Zone. What they found there is unknown, one thing  we do know is that Strelok dissapeared. I've heard that the Journalist knows what's up with him.</text>
+		<text>Strelok along with his group got to the center of the Zone. What they found there is unknown, one thing  we do know is that Strelok disappeared. I've heard that the Journalist knows what's up with him.</text>
 	</string>
 	<string id="bar_bar_osvedomitel_trade_info_312">
 		<text>No, I changed my mind.</text>
