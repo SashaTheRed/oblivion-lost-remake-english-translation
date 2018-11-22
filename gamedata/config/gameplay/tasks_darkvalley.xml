@@ -1,15 +1,15 @@
 
 <game_task id="find_art_spiral_task">
-<title>Принести артефакт "Спираль"</title>
+<title>Find the Spiral artifact</title>
 <objective>
-<text>Найти артефакт</text>
+<text>Find the artifact</text>
 <icon>ui_iconsTotal_artefact</icon>
 <infoportion_complete>find_art_spiral_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Найти артефакт "Спираль" Жабе</text>
-<map_location_type hint="ангар">blue_location</map_location_type>
+<text>Find the Spiral artifact for Toad</text>
+<map_location_type hint="hangar">blue_location</map_location_type>
 <object_story_id>gar_bandit_post</object_story_id>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_set_complete>find_art_spiral_have</infoportion_set_complete>
@@ -17,8 +17,8 @@
 </objective>
 
 <objective>
-<text>Принести артефакт</text>
-<map_location_type hint="жаба">blue_location</map_location_type>
+<text>Deliver the artifact</text>
+<map_location_type hint="toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>find_art_spiral_done</infoportion_complete> 
 </objective>
@@ -27,16 +27,16 @@
 
 
 <game_task id="slizen_bar">
-<title>Поговорить со сталкером</title>
+<title>Speak to the stalker</title>
 <objective>
-<text>Поговорить со сталкером</text>
+<text>Speak to the stalker</text>
 <icon>ui_iconsTotal_bar_dolg_borov_quest</icon>
 <infoportion_complete>talk_slizen_have</infoportion_complete>
 </objective>
 
 <objective>
-<text>Встретиться с неизвестным сталкером</text>
-<map_location_type hint="Неизвестный сталкер">blue_location</map_location_type>
+<text>Meet the unknown stalker</text>
+<map_location_type hint="Unknown stalker">blue_location</map_location_type>
 <object_story_id>val_borov</object_story_id>
 <infoportion_complete>talk_slizen_have</infoportion_complete>  
 </objective>
@@ -45,30 +45,30 @@
 
 
 <game_task id="ded_olr_1">
-<title>Привести новичков в лагерь Слизней</title>
+<title>Lead the rookies to the Slug camp</title>
 <objective>
-<text>Привести новичков</text>
+<text>Lead the rookies</text>
 <icon>ui_iconsTotal_garbage_meet_stalker</icon>
 <infoportion_complete>ded_1_za</infoportion_complete>
 </objective>
 
 <objective>
-<text>Поговорить со сталкерами</text>
+<text>Speak to the stalkers</text>
 <infoportion_complete>ded_1_have</infoportion_complete>  
 <infoportion_set_complete>ded_1_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Сопроводить сталкеров на базу Чёрных Слизней</text>
-<map_location_type hint="Новички с Кордона">blue_location</map_location_type>
+<text>Escort the stalkers to the Black Slugs base</text>
+<map_location_type hint="Rookies from the Cordon">blue_location</map_location_type>
 <object_story_id>olr_darkvaley_pridurki</object_story_id>
 <infoportion_set_complete>ded_1_done</infoportion_set_complete>
 <infoportion_complete>ded_1_done</infoportion_complete> 
 </objective>
 
 <objective>
-<text>Поговорить со Cлизнем</text>
-<map_location_type hint="Cлизень">blue_location</map_location_type>
+<text>Speak to the Slug</text>
+<map_location_type hint="Slug">blue_location</map_location_type>
 <object_story_id>val_borov</object_story_id>
 <infoportion_complete>ded_1_za</infoportion_complete>  
 <infoportion_set_complete>ded_1_za</infoportion_set_complete>

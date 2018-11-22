@@ -5393,7 +5393,7 @@
 		<visual>actors\stalker_zombi\zombie_fresh_2</visual>
 		<icon>ui_npc_u_zombie_fresh_2</icon>
 		
-		<name>Veteran</name>
+		<name>Leary</name>
 		<map_icon x="1" y="0"></map_icon>
 		<bio></bio>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>

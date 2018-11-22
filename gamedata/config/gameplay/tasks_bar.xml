@@ -8,7 +8,7 @@
 </objective>
 
 <objective>
-<text>Find the stash in the Rostok factory</text>
+<text>Find the stash at the Rostok factory</text>
 <infoportion_complete>nasel_tainik_strelka_rostok</infoportion_complete>  
 </objective>
 </game_task>
@@ -26,13 +26,13 @@
 </objective>
 
 <objective>
-<text>Find the truck behind Rostok</text>
+<text>Find the truck behind the factory</text>
 <infoportion_complete>car_quest_start_info_olr_have</infoportion_complete> 
 <infoportion_set_complete>car_quest_start_info_olr_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Drive the car to the bar</text>
+<text>Drive the car to the Bar</text>
 <infoportion_complete>car_quest_start_info_olr_done</infoportion_complete> 
 <infoportion_set_complete>car_quest_start_info_olr_done</infoportion_set_complete>
 </objective>
@@ -108,9 +108,9 @@
 
 
 <game_task id="razvedka_rostok_task_go">
-<title>Go scout Rostok with the group</title>
+<title>Scout Rostok with the group</title>
 <objective>
-<text>Go scout Rostok with the group</text>
+<text>Scout Rostok with the group</text>
 <icon x="400" y="50" width="50" height="50">ui_iconsTotal_monster_part</icon>
 <infoportion_complete>ros_dead_done</infoportion_complete>
 </objective>
@@ -180,7 +180,7 @@
 </objective>
 
 <objective>
-<text>Talk to the leader of Duty</text>
+<text>Talk to the Duty leader</text>
 <map_location_type hint="Duty leader">blue_location</map_location_type>
 <object_story_id>bar_dolg_general_voronin</object_story_id>
 <infoportion_complete>bar_kvest_dolg2_done</infoportion_complete> 
@@ -275,7 +275,7 @@
 
 
 <game_task id="radar_deac_datel_1">
-<title>Turn off the "Duga-1" installation</title>
+<title>Turn off the Duga-1 installation</title>
 <objective>
 <text>Turn off the installation</text>
 <icon>ui_iconsTotal_rad_get_to_aes</icon>
@@ -325,7 +325,7 @@
 
 
 <game_task id="esc_test_vodka_task">
-        	<title>Find the TOZ-34</title> <!-- Ã§Ã Ã£Ã®Ã«Ã®Ã¢Ã®Ãª ÃªÃ¢Ã¥Ã±Ã²Ã  -->
+        	<title>Find the TOZ-34</title> <!-- çàãîëîâîê êâåñòà -->
         	<objective>
             		<text>Bring the TOZ-34</text>
             		<icon>ui_iconsTotal_find_item</icon>
@@ -356,7 +356,7 @@
  <objective> 
  <text>Kill the bloodsucker</text> 
  <map_location_type hint="Bloodsucker">green_location</map_location_type> 
- <object_story_id>10003</object_story_id> -- Ã±Ã²Ã®Ã°Ã¨ Ã Ã©Ã¤Ã¨ 
+ <object_story_id>10003</object_story_id> -- ñòîðè àéäè 
  <infoportion_complete>sokolov_kvest_have</infoportion_complete> 
  </objective> 
  <objective> 

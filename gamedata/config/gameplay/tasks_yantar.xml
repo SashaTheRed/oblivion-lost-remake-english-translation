@@ -1,15 +1,15 @@
 
 <game_task id="yan_swamp_stalk_talk_doc">
-<title>Поговорить со сталкером на Болоте</title>
+<title>Speak to the stalker in the Swamps</title>
 <objective>
-<text>Поговорить со сталкером на Болоте</text>
+<text>Speak to the stalker in the Swamps</text>
 <icon x="150" y="0" width="50" height="50">ui\ui_icons_task</icon>
 <infoportion_complete>jurnalist_kvest_start</infoportion_complete>
 </objective>
 
 <objective>
-<text>Поговорить со сталкером на Болоте</text>
-<map_location_type hint="Сталкер">blue_location</map_location_type>
+<text>Speak to the stalker in the Swamps</text>
+<map_location_type hint="Stalker">blue_location</map_location_type>
 <object_story_id>val_opendoor_monolith</object_story_id>
 <infoportion_complete>jurnalist_kvest_start</infoportion_complete> 
 </objective>
@@ -18,21 +18,21 @@
 
 
 <game_task id="yan_rush_mon">
-<title>Уничтожить монстров</title>
+<title>Destroy the mutants</title>
 <objective>
-<text>Уничтожить стаю монстров, атакующих лагерь учёных</text>
+<text>Destroy the mutant wave that is attacking the scientist camp</text>
 <icon x="150" y="0" width="50" height="50">ui\ui_icons_task</icon>
 <infoportion_complete>start_mission_yan_mon_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Уничтожить стаю монстров, атакующих лагерь учёных</text>
+<text>Destroy the mutant wave that is attacking the scientist camp</text>
 <infoportion_complete>start_mission_yan_mon_have</infoportion_complete>
 <infoportion_set_complete>start_mission_yan_mon_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Поговорить с Профессором</text>
+<text>Speak to the Professor</text>
 <map_location_type hint="Профессор">blue_location</map_location_type>
 <object_story_id>yan_general_ecolog</object_story_id>
 <infoportion_complete>start_mission_yan_mon_done</infoportion_complete> 
@@ -42,17 +42,17 @@
 
 
 <game_task id="bunker_2_olr">
-<title>Пробраться в бункер</title>
+<title>Get into the bunker</title>
 <objective>
-<text>Пробраться в бункер</text>
+<text>Get into the bunker</text>
 <icon>ui_iconsTotal_yan_kill_brain_task_2</icon>
 <infoportion_complete>aes_antenna_off</infoportion_complete>
 </objective>
 
 <objective>
-<text>Пробраться в бункер и отключить питание Монолита</text>
+<text>Get into the bunker and turn off the Monolith’s power</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
-<map_location_type hint="Питание Монолита">blue_location</map_location_type>
+<map_location_type hint="Monolith power">blue_location</map_location_type>
 <object_story_id>x18_sound_2</object_story_id>
 <infoportion_complete>aes_antenna_off</infoportion_complete>  
 </objective>
@@ -61,31 +61,31 @@
 
 
 <game_task id="sar_go">
-<title>Пробраться в Саркофаг</title>
+<title>Get into the Sarcophagus</title>
 <objective>
-<text>Пробраться в Саркофаг</text>
+<text>Get into the Sarcophagus</text>
 <icon>ui_iconsTotal_sar_monolith_destroy</icon>
 <infoportion_complete>in_sarco</infoportion_complete>
 </objective>
 
 <objective>
-<text>Пробраться в Саркофаг к Чёрному Монолиту</text>
+<text>Get into the Sarcophagus to the Black Monolith</text>
 <infoportion_complete>in_sarco</infoportion_complete>  
 </objective>
 </game_task>
 
 
 <game_task id="jurn_sudb">
-<title>Узнать судьбу Журналиста</title>
+<title>Find out about the fate of Journalist</title>
 <objective>
-<text>Узнать судьбу Журналиста</text>
+<text>Find out about the fate of Journalist</text>
 <icon>ui_iconsTotal_storyline_eliminate_gunslinger</icon>
 <infoportion_complete>jurn_sudb_done</infoportion_complete>
 <article>esc_doctor_meet</article>
 </objective>
 
 <objective>
-<text>Найти сталкера по кличке "Журналист"</text>
+<text>Find the stalker by the name of “Journalist”</text>
 <infoportion_complete>jurn_sudb_done</infoportion_complete>  
 </objective>
 </game_task>
@@ -93,26 +93,26 @@
 
 
 <game_task id="oles_kvest_avto">
-<title>Перегнать рафик с контейнером в деревню</title>
+<title>Drive the van with the container into the village</title>
 <objective>
-<text>Перегнать рафик с контейнером в деревню</text>
+<text>Drive the van with the container into the village</text>
 <icon x="150" y="0" width="50" height="50">ui\ui_icons_task</icon>
 <infoportion_complete>oles_govorim_s_olesem</infoportion_complete>
 <article>descr_yan_kill_brain_2</article>
 </objective>
 
 <objective>
-<text>Привезти контейнер</text>
+<text>Bring the container</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
-<map_location_type hint="Привезти контейнер">blue_location</map_location_type>
+<map_location_type hint="Bring the container">blue_location</map_location_type>
 <object_story_id>yan_zombie_zone_mapspot</object_story_id>
 <infoportion_complete>oles_avto_na_to4ke</infoportion_complete>
 <infoportion_set_complete>oles_avto_na_to4ke</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Поговорить с лидером Чистого Неба</text>
-<map_location_type hint="Лидер Чистого Неба">blue_location</map_location_type>
+<text>Speak to the Clear Sky leader</text>
+<map_location_type hint="Clear Sky leader">blue_location</map_location_type>
 <object_story_id>yan_general_ecolog</object_story_id>
 <infoportion_complete>oles_govorim_s_olesem</infoportion_complete> 
 </objective>
@@ -122,17 +122,17 @@
 
 
 <game_task id="yan_psi_zamery">
-<title>Сделать замеры пси-излучения</title>
+<title>Take measurements of the psy-emissions</title>
 <objective>
-<text>Сделать замеры</text>
+<text>Take measurements</text>
 <icon>ui_iconsTotal_yan_find_scientist</icon>
 <article>descr_yan_find_scientist_semenov</article>
 <infoportion_complete>yan_talk_done_zamery</infoportion_complete>
 </objective>
 
 <objective>
-<text>Встретить учёного</text>
-<map_location_type hint="Встретить учёного">blue_location</map_location_type>
+<text>Meet the scientist</text>
+<map_location_type hint="Meet the scientist">blue_location</map_location_type>
 <object_story_id>yan_specnaz_corpse</object_story_id>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_complete>yan_psi_govorim_s_u4enim</infoportion_complete>
@@ -140,29 +140,29 @@
 </objective>
 
 <objective>
-<text>Сделать замер поля №1</text>
+<text>Take a measurement of field #1</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_complete>yan_go_zamer1_done</infoportion_complete>
 <infoportion_set_complete>yan_go_zamer1_done</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Сделать замер поля №2</text>
+<text>Take a measurement of field #2</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_complete>yan_go_zamer2_done</infoportion_complete>
 <infoportion_set_complete>yan_go_zamer2_done</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Привести учёного в Лагерь</text>
+<text>Bring the scientist into the Camp</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <infoportion_complete>yan_go_home_done</infoportion_complete>
 <infoportion_set_complete>yan_go_home_done</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Поговорить с Профессором</text>
-<map_location_type hint="Профессор">blue_location</map_location_type>
+<text>Speak to the Professor</text>
+<map_location_type hint="Professor">blue_location</map_location_type>
 <object_story_id>yan_general_ecolog</object_story_id>
 <infoportion_complete>yan_talk_done_zamery</infoportion_complete> 
 </objective>
@@ -172,9 +172,9 @@
 
 
 <game_task id="yan_psi_destroy">
-<title>Отключить пси-установку на озере Янтарь</title>
+<title>Turn off the psy-installation at Lake Yantar</title>
 <objective>
-<text>Отключить пси-установку</text>
+<text>Turn off the psy-installation</text>
 <icon>ui_iconsTotal_yan_kill_brain_task</icon>
 <article>descr_yan_kill_brain</article>
 <infoportion_complete>radar_de_done</infoportion_complete>
@@ -182,7 +182,7 @@
 
 
 <objective>
-<text>Отключить пси-установку</text>
+<text>Turn off the psy-installation</text>
 <infoportion_complete>radar_de_done</infoportion_complete> 
 </objective>
 </game_task>
@@ -191,16 +191,16 @@
 
 
 <game_task id="yan_psi_find">
-<title>Найти прототипы пси-оружия</title>
+<title>Find the psy-weapon prototypes</title>
 <objective>
-<text>Найти прототипы</text>
+<text>Find the prototypes</text>
 <icon>ui_iconsTotal_yan_find_vasilyev_task</icon>
 <infoportion_complete>yan_psi_find_done</infoportion_complete>
 <article>descr_yan_find_ghost_task</article>
 </objective>
 
 <objective>
-<text>Найти прототипы пси-оружия</text>
+<text>Find the psy-weapon prototypes</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <function_complete>yan.psy_1</function_complete>
 <function_complete>yan.psy_2</function_complete>
@@ -210,8 +210,8 @@
 </objective>
 
 <objective>
-<text>Принести прототипы Профессору</text>
-<map_location_type hint="Профессор">blue_location</map_location_type>
+<text>Bring the prototypes to the Professor</text>
+<map_location_type hint="Professor">blue_location</map_location_type>
 <object_story_id>yan_general_ecolog</object_story_id>
 <infoportion_complete>yan_psi_find_done</infoportion_complete> 
 </objective>
@@ -221,16 +221,16 @@
 
 
 <game_task id="talk_s_barmeno_sever">
-<title>Поговорить с Барменом</title>
+<title>Speak to the Barkeep</title>
 <objective>
-<text>Поговорить с Барменом</text>
+<text>Speak to the Barkeep</text>
 <icon>ui_iconsTotal_bar_barman_job</icon>
 <infoportion_complete>bar_have</infoportion_complete>
 </objective>
 
 <objective>
-<text>Поговорить с Барменом о пути к центру Зоны</text>
-<map_location_type hint="Бармен">blue_location</map_location_type>
+<text>Speak to the Barkeep about the way to the center of the Zone</text>
+<map_location_type hint="Barkeep">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_set_complete>bar_have</infoportion_set_complete>
 <infoportion_complete>bar_have</infoportion_complete>  

@@ -1,15 +1,15 @@
 
 <game_task id="agr_olr_1">
-<title>Помочь сталкеру</title>
+<title>Help the stalker</title>
 <objective>
-<text>Помочь сталкеру</text>
+<text>Help the stalker</text>
 <icon>ui_iconsTotal_val_sos_help</icon>
 <infoportion_complete>agr_olr_1_done</infoportion_complete>
 <article>article_agr_krot_sos</article>
 </objective>
 
 <objective>
-<text>Ответить на сигнал СОС</text>
+<text>Respond to the distress signal</text>
 <map_location_type hint="Сигнал СОС">blue_location</map_location_type>
 <object_story_id>agr_krot</object_story_id>
 <infoportion_complete>agr_olr_1_done</infoportion_complete>  
@@ -20,9 +20,9 @@
 
 
 <game_task id="agr_olr_2">
-<title>Найти тайник Стрелка</title>
+<title>Find Strelok’s stash</title>
 <objective>
-<text>Найти тайник</text>
+<text>Find the stash</text>
 <icon>ui_iconsTotal_storyline_eliminate_gunslinger</icon>
 <function_complete>esc.fleska_gun_have</function_complete>
 <infoportion_complete>agr_olr_2_done</infoportion_complete>
@@ -30,7 +30,7 @@
 </objective>
 
 <objective>
-<text>Найти тайник на территории завода</text>
+<text>Find the stash around the factory</text>
 <function_complete>esc.fleska_gun_have</function_complete>
 <infoportion_complete>agr_olr_2_done</infoportion_complete>  
 </objective>
@@ -39,9 +39,9 @@
 
 
 <game_task id="infa_7_kuskov">
-<title>Найти информацию о Зоне</title>
+<title>Find information about the Zone</title>
 <objective>
-<text>Найти информацию</text>
+<text>Find the information</text>
 <icon>ui_iconsTotal_rad_get_to_aes</icon>
 <article>storyline_seriy_flash_info</article>
 <function_complete>esc.inf_1</function_complete>
@@ -56,7 +56,7 @@
 
 
 <objective>
-<text>Найти семь частей информации</text>
+<text>Find the seven parts of the information</text>
 <function_complete>esc.inf_1</function_complete>
 <function_complete>esc.inf_2</function_complete>
 <function_complete>esc.inf_3</function_complete>

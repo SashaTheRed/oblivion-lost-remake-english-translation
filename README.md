@@ -56,19 +56,19 @@ A list of all files with detailed progress can be found below.
 	- [dialogs_escape.xml](gamedata/config/gameplay/dialogs_escape.xml)
 		- done
 	- [tasks_aes.xml](gamedata/config/gameplay/tasks_aes.xml)
-		- incomplete
+		- done
 	- [tasks_agroprom.xml](gamedata/config/gameplay/tasks_agroprom.xml)
-		- incomplete
+		- done
 	- [tasks_bar.xml](gamedata/config/gameplay/tasks_bar.xml)
 		- done
 	- [tasks_darkvalley.xml](gamedata/config/gameplay/tasks_darkvalley.xml)
-		- incomplete
+		- done
 	- [tasks_escape.xml](gamedata/config/gameplay/tasks_escape.xml)
 		- done
 	- [tasks_military.xml](gamedata/config/gameplay/tasks_military.xml)
-		- incomplete
+		- done
 	- [tasks_yantar.xml](gamedata/config/gameplay/tasks_yantar.xml)
-		- incomplete
+		- done
 - **[config/text/eng](gamedata/config/text/eng)**
 	- [mp_st_speechmenu.xml](gamedata/config/text/eng/mp_st_speechmenu.xml)
 		- done

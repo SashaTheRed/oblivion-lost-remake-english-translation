@@ -1,22 +1,22 @@
 
 <game_task id="esc_zam_jab">
-<title>Take measurements of the anomalous fields</title>
+<title>Take measurements of the anomaly fields</title>
 <objective>
-<text>Take measurements of the anomalous fields</text>
+<text>Take measurements of the anomaly fields</text>
 <icon>ui_iconsTotal_tutorial_help_wounded</icon>
 <infoportion_complete>esc_zam_jab_done</infoportion_complete>
 </objective>
 
 <objective>
 <text>Get to the field</text>
-<map_location_type hint="Anomalous field">blue_location</map_location_type>
+<map_location_type hint="Anomaly field">blue_location</map_location_type>
 <object_story_id>val_sacrifice_victim</object_story_id>
 <infoportion_complete>esc_zam_jab_prisel</infoportion_complete>
 <infoportion_set_complete>esc_zam_jab_prisel</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Take measurements of the anomalous fields</text>
+<text>Take measurements of the anomaly fields</text>
 <infoportion_complete>esc_zam_jab_sdelal</infoportion_complete> 
 </objective>
 
@@ -50,7 +50,7 @@
 </objective>
 
 <objective>
-<text>Go to the indicated spot, leave the decoy container there and take the container that Toad needs</text>
+<text>Go to the indicated spot, leave the decoy container and take the container that Toad needs</text>
 <map_location_type hint="The container that Toad wants">blue_location</map_location_type>
 <object_story_id>Escape_anomaly_field</object_story_id>
 <infoportion_complete>esc_olr_1_have</infoportion_complete>  
@@ -74,7 +74,7 @@
 
 
 <game_task id="bar_dolg_propusk">
-<title>Find the artifact</title>
+<title>Bring the artifact</title>
 <objective>
 <text>Find the artifact</text>
 <icon>ui_iconsTotal_artefact</icon>
@@ -183,7 +183,7 @@
 
 
 <game_task id="esc_olr_5">
-<title>A transaction</title>
+<title>Transaction</title>
 <objective>
 <text>Package</text>
 <icon>ui_iconsTotal_esc_blockpost_case_to_trader</icon>
@@ -218,14 +218,14 @@
 <game_task id="esc_olr_6">
 <title>Bring the documents from MedPribor</title>
 <objective>
-<text>Bring the papers</text>
+<text>Bring the documents</text>
 <icon>ui_iconsTotal_esc_help_wounded_from_raid</icon>
 <infoportion_complete>medyasik_done</infoportion_complete>
 <article>agr_task_case</article>
 </objective>
 
 <objective>
-<text>Find the army documents</text>
+<text>Find the military documents</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <function_complete>esc.medyasik_1_have</function_complete>
 <infoportion_set_complete>medyasik_have</infoportion_set_complete>
@@ -247,9 +247,9 @@
 
 
 <game_task id="esc_olr_7">
-<title>Bring the documents from the blockpost</title>
+<title>Bring the documents from the outpost</title>
 <objective>
-<text>Bring the docs</text>
+<text>Bring the documents</text>
 <icon>ui_iconsTotal_esc_help_wounded_from_raid</icon>
 <infoportion_complete>medyasik_2_done</infoportion_complete>
 </objective>
@@ -282,7 +282,7 @@
 </objective>
 
 <objective>
-<text>Talk to Barkeep about the documents you found</text>
+<text>Talk to Barkeep about the documents you have found</text>
 <infoportion_set_complete>kvest_bar_1_dialog_start</infoportion_set_complete>
 <infoportion_complete>kvest_bar_1_dialog_start</infoportion_complete>  
 </objective>

@@ -1,21 +1,21 @@
 
 <game_task id="greh_2_task">
-<title>Принести тушки</title>
+<title>Bring the carcasses</title>
 <objective>
-<text>Принести тушки</text>
+<text>Bring the carcasses</text>
 <icon>ui_iconsTotal_found_thing</icon>
 <infoportion_complete>tuski_greh_have_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Настрелять 5 крыс и 3 вороны для лидера Греха</text>
+<text>Shoot down 5 rats and 3 ravens for the Sin leader</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <function_complete>esc.greh_tus_have</function_complete>
 <infoportion_set_complete>tuski_greh_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Принести тушки лидеру</text>
+<text>Bring the carcasses to the leader</text>
 <infoportion_complete>tuski_greh_have_done</infoportion_complete> 
 </objective>
 </game_task>
@@ -28,50 +28,50 @@
 
 
 <game_task id="zombar_find_food">
-<title>Принести еды</title>
+<title>Bring food</title>
 <objective>
-<text>Принести продовольствие</text>
+<text>Bring rations</text>
 <icon>ui_iconsTotal_found_thing</icon>
 <infoportion_complete>bar_baton_propusk_done</infoportion_complete>
 </objective>
 
 <objective>
-<text>Найти два батона для зомби</text>
+<text>Find two batons for the zombie</text>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <function_complete>esc.baton_1_have</function_complete>
 <infoportion_set_complete>bar_baton_propusk_have</infoportion_set_complete>
 </objective>
 
 <objective>
-<text>Принести продовольствие зомби</text>
+<text>Bring rations to the zombie</text>
 <infoportion_complete>bar_baton_propusk_done</infoportion_complete> 
 </objective>
 </game_task>
 
 
 <game_task id="greh_1_start_taskolr"> 
- <title>Уничтожить сталкеров</title> 
+ <title>Destroy the stalkers</title> 
  <objective> 
- <text>Уничтожить сталкеров</text> 
+ <text>Destroy the stalkers</text> 
  <icon>ui_iconsTotal_bar_crazy_veterans_quest</icon> 
  <infoportion_complete>greh_1_start_done</infoportion_complete>  
  </objective> 
 
  <objective> 
- <text>Прибыть на место</text> 
- <map_location_type hint="Уничтожить сталкеров">green_location</map_location_type> 
+ <text>Arrive at the area</text> 
+ <map_location_type hint="Destroy the stalkers">green_location</map_location_type> 
  <object_story_id>aes_sapsan</object_story_id> -- стори айди 
  <infoportion_complete>greh_1_start_have</infoportion_complete> 
  </objective> 
 
  <objective> 
- <text>Подслушать разговор и уничтожить сталкеров</text> 
+ <text>Overhear the conversation and destroy the stalkers</text> 
  <infoportion_complete>greh_kill_start_have</infoportion_complete> 
  </objective> 
 
  <objective> 
- <text>Доложить лидеру группировки "Грех"</text>  
- <map_location_type hint="Греховец">blue_location</map_location_type> 
+ <text>Report to the leader of the Sin faction</text>  
+ <map_location_type hint="Sinner">blue_location</map_location_type> 
  <object_story_id>mil_courier</object_story_id> 
  <infoportion_complete>greh_1_start_done</infoportion_complete> 
  </objective> 
@@ -80,21 +80,21 @@
 
 
 <game_task id="trader_ds_kvest"> 
- <title>Проверить сигнал СОС</title> 
+ <title>Check the distress signal</title> 
  <objective> 
- <text>Проверить сигнал СОС</text> 
+ <text>Check the distress signal</text> 
  <icon>ui_iconsTotal_gar_kill_boars</icon> 
  <infoportion_complete>trader_ds_dialog_dialog_done</infoportion_complete>  
  </objective> 
  <objective> 
- <text>Проверить сигнал СОС от группы свободовцев</text> 
- <map_location_type hint="Контроллёр">green_location</map_location_type> 
+ <text>Check the distress signal from the Freedom group</text> 
+ <map_location_type hint="Controller">green_location</map_location_type> 
  <object_story_id>729</object_story_id> -- стори айди 
  <infoportion_complete>trader_ds_dialog_have</infoportion_complete> 
  </objective> 
  <objective> 
- <text>Доложить торговцу</text>  
- <map_location_type hint="Торговец">blue_location</map_location_type> 
+ <text>Report to the trader</text>  
+ <map_location_type hint="Trader">blue_location</map_location_type> 
  <object_story_id>mil_courier</object_story_id> 
  <infoportion_complete>trader_ds_dialog_dialog_done</infoportion_complete> 
  </objective> 
@@ -103,20 +103,20 @@
 
 
 <game_task id="trader_ds_2_kvest"> 
- <title>Уничтожить мутанта</title> 
+ <title>Destroy the mutant</title> 
  <objective> 
- <text>Уничтожить мутанта в здании Парткома</text> 
+ <text>Destroy the mutant in the Partkom building</text> 
  <icon>ui_iconsTotal_mutant</icon> 
  <infoportion_complete>trader_ds_2_dialog_dialog_done</infoportion_complete>  
  </objective> 
  <objective> 
- <text>Уничтожить мутанта</text> 
- <map_location_type hint="мутант">green_location</map_location_type> 
+ <text>Destroy the mutant</text> 
+ <map_location_type hint="mutant">green_location</map_location_type> 
  <infoportion_complete>trader_ds_2_dialog_have</infoportion_complete> 
  </objective> 
  <objective> 
- <text>Доложить торговцу</text>  
- <map_location_type hint="Торговец">blue_location</map_location_type> 
+ <text>Report to the trader</text>  
+ <map_location_type hint="Trader">blue_location</map_location_type> 
  <object_story_id>mil_courier</object_story_id> 
  <infoportion_complete>trader_ds_2_dialog_dialog_done</infoportion_complete> 
  </objective> 
