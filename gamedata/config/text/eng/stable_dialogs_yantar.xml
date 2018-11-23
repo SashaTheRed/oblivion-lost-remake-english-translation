@@ -5,318 +5,318 @@
 
 
       <string id="jiannar_0"> 
- <text>Профессор, я был в лаборатории под Тёмной долиной...</text> 
+ <text>Professor, I just came back from the Dark Valley lab...</text> 
  </string> 
  <string id="jiannar_1"> 
- <text>Что!? Что Вы там видели? Вы что-нибудь нашли там?</text> 
+ <text>What?! What did you see there? Did you find anything?</text> 
  </string> 
  <string id="jiannar_2"> 
- <text>Несколько мёртвых ваших, судя по всему, сотрудников и некоторое оборудование. Вот, взгляните...</text> 
+ <text>Yes, a couple of dead bodies. They looked like your employees, judging by the suits. There was also some equipment down there. Take a look...</text> 
  </string> 
  <string id="jiannar_3"> 
- <text>Эх... Это моя вина... Что же, давайте, что у Вас есть... Вот, возьмите от меня лично.</text> 
+ <text>Eh... It's my fault... Well, give me what you've got. And here, a personal gift from me.</text> 
  </string>
 
 
 
 
  <string id="jannar_0"> 
- <text>Здравствуйте, Профессор.</text> 
+ <text>Greetings, professor.</text> 
  </string> 
 
  <string id="jannar_1">
- <text>Мессер, неужели, я уже не надеялся встретить Вас живым! Наконец-то, наконец-то мы сможем организовать экспедиции вглубь Зоны. Сколько мы об этом мечтали! Держите, это благодарность от всей нашей экспедиции...</text>
+ <text>Messer, you're alive! I can't believe it! Finally, we will be able to get deeper into the Zone! This is a dream come true! Take this, it's the proof of our gratitude.</text>
  </string>
 
  <string id="jannar_1a">
- <text>Профессор, я...</text>
+ <text>Professor, I...</text>
  </string>
 
  <string id="jannar_1b">
- <text>(Сообщение от охраны): Внимание, на бункер несётся огромная стая мутантов! Кабаны, плоти, ч-ч-чёрт. Профессор, укройтесь!</text>
+ <text>(Message from security): Attention, a giant horde of mutants is approaching the bunker! Boars, flesh and God knows what else! Hide, Professor!</text>
  </string>
 
  <string id="jannar_2"> 
- <text>Кажется, вам нужна моя помощь...</text> 
+ <text>I'm afraid you will need my help.</text> 
  </string> 
  <string id="jannar_3"> 
- <text>Боже мой. Мессер, пожалуйста, помогите им! Мне нужно загерметизировать бункер.</text> 
+ <text>Dear God! Messer, please help our security! I'll have to seal the bunker.</text> 
  </string>
 
  <string id="jannar_4">
- <text>Хорошо, сейчас займусь.</text>
+ <text>Alright, I'll help you.</text>
  </string>
 
 
 
  <string id="jpnnar_0"> 
- <text>Профессор, Вы в порядке?</text> 
+ <text>Professor, is everything alright?</text> 
  </string> 
  <string id="jpnnar_1"> 
- <text>Ох, кажется, да. Откуда они появились, проклятье...</text> 
+ <text>Ooh... I think so. Where the hell did this horde? of mutants come from?</text> 
  </string> 
  <string id="jpnnar_2"> 
- <text>Скорее всего, их привёл контроллёр, возможно, с города...</text> 
+ <text>I think a controller brought them here, probably from the city.</text> 
  </string> 
  <string id="jpnnar_3"> 
- <text>Ну, по крайней мере, стая уничтожена. Примите от нас этот подарок. Я думаю, он Вам будет очень кстати.</text> 
+ <text>Well, at least the horde was neutralized. Please, take this as your reward.</text> 
  </string>
 
 
 <!--Диалоги с главным учёным-->
     <string id="yan_saharov_monsters_0">
-	    <text>Профессор, можете что-нибудь поведать а мутантах Зоны?</text>
+	    <text>Professor, can you tell me something about the mutants of the Zone?</text>
 	</string>
 	<string id="yan_saharov_monsters_1">
-	    <text>Какой вид конкретно Вас интересует? Предупреждаю: могу рассказать далеко не обо всех.</text>
+	    <text>Which species do you want to know about? Also, I don't know of every species, so yeah.</text>
 	</string>
 	<string id="yan_saharov_monsters_11">
-	    <text>Хорошо бы о контроллёрах послушать.</text>
+	    <text>Tell me about the controllers.</text>
 	</string>
 	<string id="yan_saharov_monsters_12">
-	    <text>Мне интересно узнать о зомби.</text>
+	    <text>Tell me about the zombies.</text>
 	</string>
 	<string id="yan_saharov_monsters_13">
-	    <text>Бюреры. Ненавижу бюреров.</text>
+	    <text>Tell me about the burers. I hate burers.</text>
 	</string>
 	<string id="yan_saharov_monsters_14">
-	    <text>Поведайте о псевдогигантах.</text>
+	    <text>Tell me about the pseudogiants.</text>
 	</string>
 	<string id="yan_saharov_monsters_15">
-	    <text>Псевдособаки, и обычные шавки.</text>
+	    <text>Tell me about the pseudodogs, and regular dogs.</text>
 	</string>
 	<string id="yan_saharov_monsters_111">
-	    <text>Существует много версий о происхождении этих мутантов. Самая распространенная гласит, что это жертвы неудачного эксперимента по воздействию на мозг человека. Очень опасны, подчиняют своему влиянию при зрительном контакте. Поэтому встреча на открытом пространстве - почти стопроцентная смерть.</text>
+	    <text>There are many theories about the origin of these mutants. The most popular theory is that they are the result of a failed experiment on the human brain. They're  very dangerous, they can take control of almost anyone if they so much as look at them. Meeting a controller in an open space is an almost certain death.</text>
 	</string>
 	<string id="yan_saharov_monsters_121">
-	    <text>Здесь, на Янтаре, их особенно много. Они - просто оболочки, оставшиеся от людей после длительного воздействия пси-излучателя. На начальных стадиях разложения ещё могут владеть оружием, поэтому наиболее опасны. На более позднем этапе - просто ходячие трупы. Наиболее сложно расправиться с большой группой зомби.</text>
+	    <text>There are many of them, especially here, at Yantar. They're walking shells of humans who underwent prolonged exposure to psi radiation. They're most dangerous in the first stage of degradation because they can carry and use weapons. In later stages they're just walking corpses.</text>
 	</string>
 	<string id="yan_saharov_monsters_131">
-	    <text>Карлики, происхождение которых неизвестно, но, скорее всего, что-то похожее на эксперименты с контроллёрами. Обладают кинетическими способностями, то есть, могут взаимодействовать с предметами на расстоянии. Очень опасные твари, обитают обычно в подземельях.</text>
+	    <text>Dwarves, we don't know anything about their upbringing, but it probably has something to do with experiments on controllers. They posses kinetic powers, which means that they can move objects from a distance without even touching them. Very dangerous creatures, they mostly inhabit underground areas due to their eyes hating light.</text>
 	</string>
 	<string id="yan_saharov_monsters_141">
-	    <text>Пожалуй, одни из самых ужасающих существ в Зоне. Своими размерами пугает даже матёрых сталкеров, зачастую попадаются особи, шкуру которых не пробить даже пулей автоматической винтовки. Тупые ходячие туши, которыми движут только инстинкты.</text>
+	    <text>One of the most disgusting creatures of the Zone. They strike fear into even the most experienced of stalkers by their sheer size, their skin is extremely hard to break through even with rifle bullets. Dumb, giant and extremely aggressive.</text>
 	</string>
 	<string id="yan_saharov_monsters_151">
-	    <text>Во время Второго взрыва многие животные, в том числе и собаки, попали под выплеск огромного количества энергии, в результате мы имеем мутантов. Псевдособаки обычно являются вожаками стаи слепых псов. Встреча с хорошо организованной группой обычно заканчивается гибелью.</text>
+	    <text>During the Second Explosion, many animals, including dogs, were affected by extreme amounts of energy released by the blowouts. They mutated afterwards. Pseudodogs are usually leaders of packs of blind dogs. An encounter with a big group can be tragic. It is important to mention that some pseudodogs have also obtained psionic powers through some unknown means.</text>
 	</string>
 	<string id="yan_saharov_monsters_2">
-	    <text>А ничего меня не интересует.</text>
+	    <text>I'm not interested in that kind of information.</text>
 	</string>
 	<string id="yan_saharov_monsters_3">
-	    <text>Благодарю за информацию.</text>
+	    <text>Thanks for the information.</text>
 	</string>
 	<string id="yan_saharov_monsters_4">
-	    <text>Я хочу узнать ещё кое о ком.</text>
+	    <text>I'd like to know more.</text>
 	</string>
 	<string id="yan_saharov_monsters_5">
 	    <text>...</text>
 	</string>
     <string id="bring_arts_thank">
-	    <text>Вот Ваш гонорар, ещё что-то?</text>
+	    <text>Here is your honorarium. Anything else?</text>
 	</string>
 	<string id="bring_arts_666">
-	    <text>Нет.</text>
+	    <text>No.</text>
 	</string>
 	<string id="bring_arts_0">
-	    <text>Я кое-что принес.</text>
+	    <text>I've brought something.</text>
 	</string>
 	<string id="bring_arts_1">
-	    <text>Что у Вас там?</text>
+	    <text>What is it?</text>
 	</string>
     <string id="bring_arts_101">
-	    <text>Магнит.</text>
+	    <text>Magnet.</text>
 	</string>
 	<string id="bring_arts_102">
-	    <text>Сильный гравитационный артефакт.</text>
+	    <text>Strong gravitational artifact.</text>
 	</string>
 	<string id="bring_arts_103">
-	    <text>Двойная пустышка.</text>
+	    <text>Double Shell.</text>
 	</string>
 	<string id="bring_arts_104">
-	    <text>Черные капли.</text>
+	    <text>Black Drops.</text>
 	</string>
 	<string id="bring_arts_105">
-	    <text>Электрический шар.</text>
+	    <text>Electric Ball.</text>
 	</string>
 	<string id="bring_arts_106">
-	    <text>Ртутный шар.</text>
+	    <text>Mercury Ball.</text>
 	</string>
 	<string id="bring_arts_107">
-	    <text>Мочалка.</text>
+	    <text>Sponge.</text>
 	</string>
 	<string id="bring_arts_108">
-	    <text>Пустышка.</text>
+	    <text>Shell.</text>
 	</string>
 	<string id="bring_arts_109">
-	    <text>Мёртвая голова.</text>
+	    <text>Death's Head.</text>
 	</string>
 	<string id="bring_arts_110">
-	    <text>Иголки.</text>
+	    <text>Needles.</text>
 	</string>
 	<string id="bring_arts_111">
-	    <text>Сильные иголки.</text>
+	    <text>Sharp Needles.</text>
 	</string>
 	<string id="bring_arts_no">
-	    <text>Ой, я ошибся...</text>
+	    <text>I've changed my mind.</text>
 	</string>
 	<string id="what_do_in_zone_0">
-	    <text>Чем вы тут занимаетесь?</text>
+	    <text>What do you do here?</text>
 	</string>
 	<string id="what_do_in_zone_1">
-	    <text>Исследуем явления Зоны с научной точки зрения. Правда, я всё больше понимаю, что это невозможно. Но Вы можете помочь в этом непростом деле, принося нам артефакты.</text>
+	    <text>We study the Zone from a scientific viewpoint. But I'm becoming more and more convinced, that studying it that way is impossible. But, perhaps you could help us by bringing us artifacts. </text>
 	</string>
 	<string id="what_do_in_zone_2">
-	    <text>Всё подряд таскать?</text>
+	    <text>Are you looking for all kinds of artifacts?</text>
 	</string>
 	<string id="what_do_in_zone_3">
-	    <text>Нет, распространённых артефактов не нужно. Нам требуются только самые редкие, наградой не обидим.</text>
+	    <text>No, we don't need common arts. We only need the rarer ones.</text>
 	</string>
 	<string id="what_do_in_zone_4">
-	    <text>Отлично, ждите.</text>
+	    <text>Ok, I'll try to bring some arts.</text>
 	</string>
 <!---->
 
    <string id="o2_bar_0">
-     <text>Я отвёз контейнер.</text>
+     <text>The container is in it's place.</text>
   </string>
    <string id="o2_bar_1">
-     <text>Хорошо. Тебя встретили?</text>
+     <text>Great. Was anyone there?</text>
   </string>
    <string id="o2_bar_2">
-     <text>Да, там был один сталкер. Кстати, что это за деревня?</text>
+     <text>Yeah, there was one stalker. By the way, can you tell me about that village?</text>
   </string>
    <string id="o2_bar_3">
-     <text>Там раньше жили рабочие этого комплекса. Вместе с детьми. Я слышал, что все они в один момент пропали.</text>
+     <text>Workers of this very facility lived there, along with their families. I've heard that they all perished in the blink of an eye.</text>
   </string>
    <string id="o2_bar_4">
-    <text>Это и я знаю. Ты что-нибудь можешь рассказать о Журналисте?</text>
+    <text>Yeah, I've heard that, too. Listen, do you know anything about the Journalist?</text>
   </string>
    <string id="o2_bar_5">
-    <text>Да, есть такой сталкер. Он пропал несколько месяцев назад, искал информацию о Зоне.</text>
+    <text>There goes a stalker by that name. He went missing a couple months ago looking for information about the Zone.</text>
   </string>
    <string id="o2_bar_6">
-    <text>Ясно.</text>
+    <text>OK.</text>
    </string>
   <string id="o2_bar_7">
-    <text>Ещё раз спасибо, Мессер.</text>
+    <text>Once again, thanks for your help, Messer.</text>
   </string> 
 
    <string id="o_bar_0">
-     <text>Что за работа?</text>
+     <text>What is the job?</text>
   </string>
    <string id="o_bar_1">
-     <text>Нужно отвезти рафик с контейнером в деревню.</text>
+     <text>You need to drive a truck with a container to the village.</text>
   </string>
    <string id="o_bar_2">
-     <text>Какой рафик?</text>
+     <text>What truck?</text>
   </string>
    <string id="o_bar_3">
-     <text>Здесь, на базе стоит. Держи ключ. Отвезёшь контейнер, машину тоже оставишь на месте.</text>
+     <text>The one at the base, obviously! It's waiting outside. Here, take the keys. Leave the truck and the container there.</text>
   </string>
    <string id="o_bar_4">
-    <text>Меня кто-нибудь будет ждать на месте?</text>
+    <text>Will someone be waiting for me there?</text>
   </string>
    <string id="o_bar_5">
-     <text>Да, тебя встретит один человек. Мы тесно сотрудничаем с обычными сталкерами, но этот тип сноб. Если не захочет общаться, можешь связаться с ним по ПДА. Хотя это необязательно, основная задача - доставить груз на место.</text>
+     <text>Yes, a stalker will be waiting for you there.</text>
   </string>
    <string id="o_bar_6">
-    <text>Хорошо.</text>
+    <text>Understood.</text>
    </string>
   <string id="o_bar_7">
-    <text>Сильно не гони только, Мессер.</text>
+    <text>Just don't hit the gas too hard, Messer.</text>
   </string> 
 
    <string id="sahs_bar_0">
-     <text>Всё получилось, профессор. Замеры сделаны.</text>
+     <text>All the measurements are done, Professor.</text>
   </string>
    <string id="sahs_bar_1">
-     <text>Да, я получил результаты.</text>
+     <text>Yes, I've already received the results.</text>
   </string>
    <string id="sahs_bar_2">
-     <text>Что же дальше?</text>
+     <text>What do we do now?</text>
   </string>
    <string id="sahs_bar_3">
-     <text>Картина проясняется. Действительно, под центральным комплексом находится некая лаборатория, и нечто в ней создаёт пси-барьер. По результатам исследования я определил, что до этой пси-установки можно добраться и отключить её. Но дело в том, что все входы заблокированы пси-полем. Однако, на основе принесённых Вами приборов, я сконструировал пси-блокиратор, который поможет Вам проникнуть в один из входов лаборатории.</text>
+     <text>The entire thing is becoming clearer. There really is an underground complex beneath the lake, and something in that lab emits psi radiation. Based on the results, it appears that it is possible to reach that thing and turn it off. The thing is that all the entrances to the complex are blocked. That's why I've creating this sort of psi-blocking device which will reduce the amount of radiation you receive and will allow you to get into the lab.</text>
   </string>
    <string id="sahs_bar_4">
-    <text>Итак, Вы предлагаете отключить эту установку?</text>
+    <text>So you want me to turn that thing off?</text>
   </string>
    <string id="sahs_bar_5">
-    <text>Именно. Держите блокиратор излучения. Вход находится в большом ангаре погрузки, разрушенного давлением моста. Однако, точных координат комнаты управления нет, и Вам придётся искать её самому.</text>
+    <text>Exactly. Here's the psi-blocker. The entrance to the lab is located in the giant hangar at the complex. I don't have the exact coordinates of the control room, so you will have to find it yourself.</text>
   </string>
    <string id="sahs_bar_6">
-    <text>Я постараюсь.</text>
+    <text>I'll do my best, doc.</text>
    </string>
   <string id="sahs_bar_7">
-    <text>Отлично, я надеюсь на Вас, Мессер.</text>
+    <text>Great. You're our best hope, Messer.</text>
   </string> 
 
 
    <string id="sah_bar_0">
-     <text>Я от Бармена. Он сказал, что Вы можете помочь мне добраться до центра.</text>
+     <text>Greetings Professor, Barkeep sent me here. He said that you can help me get to the center of the Zone.</text>
   </string>
    <string id="sah_bar_1">
-     <text>Здравствуйте, Мессер. Да, Бармен связался с нами, мы обсудили с ним текущую обстановку дел. Теоретически, можно добраться до центра, но как известно, путь преграждают некие пси-установки.</text>
+     <text>Good day, Messer. Yes, Barkeep and I talked about that. Theoretically, you can get to the center, but as we all know the road is blocked by psi radiation emitted by some unknown device.</text>
   </string>
    <string id="sah_bar_2">
-     <text>Что от меня требуется?</text>
+     <text>Is there anything I can do to help?</text>
   </string>
    <string id="sah_bar_3">
-     <text>Мы находимся на одной из научных баз Зоны, наша цель - изучение этого места. Дело в том, что здесь где-то под землёй находится локальная пси-установка неизвестного происхождения. Её структура очень похожа на ту, что находится на севере. Если бы мы смогли изучить эту установку, то мы смогли бы сконструировать пси-блокиратор, который помог бы пробраться к центру. Итак, во многих участках Зоны проводились исследования в области пси-излучения. И дело в том, что люди, которые работали над этим исчезли. Однако, должны остаться их научные работы. Вам необходимо достать прототипы разработанные нашими сотрудниками, а также два образца гравитационного оружия. Первый прототип находится в лаборатории под Тёмной долиной в закрытой комнате управления лабораторией. Код от двери - 4678. Второй прототип находится в одной из квартир в городке Светлый луч, что на севере. Точнее Вы сможете узнать у лидера группировки "Свобода", он поддерживал связь с учёными. Что же касается гравитационного оружия - точно сказать мы не можем. Однако, есть сведения, что есть некое святилище карликов в лаборатории под Тёмной долиной, и у них есть то, что нам нужно...</text>
+     <text>We are located in one of the few science labs in the Zone, our goal is to study and better understand the Zone. There is an unknown psi-emitter located underground in this area. It's construction and mechanisms are very similar to the ones up north. If we could better know how it works, then we could develop psi-blockers allowing stalkers to get to the center of the Zone. Some time ago we started work on the blockers, many scientists in different regions of the Zone studied psionics and also worked on the blockers. Sadly, most of these men went missing, but their work should still be scattered around the Zone. From what I know they managed to make 2 psi-blocker prototypes. You need to bring them to me. The first one is in the lab under the Dark Valley. You'll find it in a locked room. The code to the locked door is 4678. The 2nd prototype is located in one of the apartments in the Shining Path, up north. You can get some more info from the Freedom leader, he and our colleagues worked together. We also need some sort of a gravitational contraption which has the ability of picking up and throwing things based on kinetic force. We don't have many information on that subject yet. You should search for that device at the Dark Valley lab, in the underground complex. The dwarves there have created some sort of sanctuary, and perhaps they know where you can find such a contraption.</text>
   </string>
    <string id="sah_bar_4">
-    <text>Договорились, я добуду прототипы.</text>
+    <text>OK, I'll get the prototypes.</text>
   </string>
    <string id="sah_bar_5">
-    <text>Отлично, Мессер. Будьте осторожны, на озере много источников излучения. Дорога в Светлый луч находится за одной из антенн на юге. Да, поговорите с лидером Чистого неба, у него наверняка будет для вас работа.</text>
+    <text>I'm glad to hear that, Messer. Now be careful around here, the lake is filled with hotspots of radiation. You'll reach the Shining Path by a way behind one of the antennas to the north. Also, speak to the leader of Clear Sky, he should have some extra work for you.</text>
   </string>
    <string id="sah_bar_6">
-    <text>Обязательно поговорю.</text>
+    <text>I'll talk to him.</text>
    </string>
   <string id="sah_bar_7">
-    <text>После мы решим, что делать дальше.</text>
+    <text>We'll decide what to do next later.</text>
   </string>  
 
 
    <string id="sahh_bar_0">
-     <text>Здравствуйте, профессор. Я добыл то, что Вы просили.</text>
+     <text>Good day Professor, I brought what you asked for.</text>
   </string>
    <string id="sahh_bar_1">
-     <text>Здравствуйте, Мессер. Давайте их сюда, сейчас посмотрим, что мы можем с этим сделать.</text>
+     <text>Greetings, Messer. Great, give them to me and see what we can do with them.</text>
   </string>
    <string id="sahh_bar_2">
-     <text>Ну, что скажете, профессор?</text>
+     <text>Well, what do you say?</text>
   </string>
    <string id="sahh_bar_3">
-     <text>Довольно интересные образцы. Однако, к сожалению, данные, находящиеся здесь, нуждаются в расшифровке. К тому же, необходимо произвести замеры пси-полей.</text>
+     <text>Interesting, interesting. Lots of useful stuff here. Sadly, the data here is encrypted. On top of that, you will need to measure the local psi-field.</text>
   </string>
    <string id="sahh_bar_4">
-    <text>Замеры пси-полей? Но я не умею делать никаких замеров.</text>
+    <text>Psi-field measurement? But I don't know how to make good measurements, especially of some psi-fields!</text>
   </string>
    <string id="sahh_bar_5">
-    <text>От Вас требуется только обеспечение безопасности нашего сотрудника, который и будет делать замеры. Тут, напротив нашей базы находится стоянка машин, идите ко входу стоянки, и Вы заметите его. Он будет идти со стороны севшей на мель баржи.</text>
+    <text>Yeah that's what I thought, that's why I ordered one of our men to help you do that. You'll need to protect him while he's doing the measurements. In front of our base is a car park, you'll meet him there. He should come from the direction of the grounded ark.</text>
   </string>
    <string id="sahh_bar_6">
-    <text>Уже выдвигаюсь.</text>
+    <text>Alright, I'll do that right away.</text>
    </string>
   <string id="sahh_bar_7">
-    <text>Будьте осторожны, в той местности замечена активность мутантов.</text>
+    <text>A lot of mutant activity was reported around there lately, so keep extra cautious.</text>
   </string>  
 
 
 <string id="zam_talk_0">
-		<text>Это Вы должны произвести замеры пси-поля?</text>
+		<text>Are you the guy who's supposed to measure the fields?</text>
 	</string>
 	<string id="zam_talk_1">
-		<text>Да, всё верно. План таков - выдвигаемся в сторону башни, что находится в районе деревни, после идём к левой стороне стоянки машин.</text>
+		<text>Yes, that is me. The plan goes like this - we'll go towards the tower located near the village, then we'll go to the left side of the car park.</text>
  
 	</string>
 	<string id="zam_talk_2">
-		<text>Ясно.</text>
+		<text>Alright.</text>
 	</string>
 	<string id="zam_talk_3">
-		<text>Кстати, вон подмога для лагеря приехала на БТР, видимо профессору удалось договориться с местными сталкерами. Что ж, в путь!</text>
+		<text>Oh and by the way, stalkers arrived in that BTR. I guess the Professor managed to get some extra protection after all. Anyways, let's go.</text>
 	</string>
 
 
@@ -327,17 +327,17 @@
 
 
 <string id="sah_talk_0">
-		<text>Скажите, что за выбросы энергии происходят здесь?</text>
+		<text>Tell me, what kind of emissions happen around here?</text>
 	</string>
 	<string id="sah_talk_1">
-		<text>Мы не знаем природу этих выбросов, однако известно, что они идут из-под земли.</text>
+		<text>We don't know their nature, we only know that they come from under the ground.</text>
  
 	</string>
 	<string id="sah_talk_2">
-		<text>Ясно.</text>
+		<text>Interesting.</text>
 	</string>
 	<string id="sah_talk_3">
-		<text>Однако, есть мнение, что их генерирует одна из пси-установок, что находится в лаборатории под главным комплексом.</text>
+		<text>We have a theory that those emissions are caused by the psi-emitter located under the complex.</text>
 	</string>
 
 
@@ -352,48 +352,48 @@
 
 
 <string id="oles_talk_0">
-		<text>Привет, кто ты?</text>
+		<text>Hello, who are you?</text>
 	</string>
 	<string id="oles_talk_1">
-		<text>Мы - группа сталкеров «Чистое небо», своеобразные сталкеры-экологи. Изучаем Зону, ищем метод излечить мир от этой язвы. Ко всем группировкам относимся нейтрально.</text>
+		<text>I am the leader of the "Clear Sky" faction. We are kind of like stalkers-ecologs. We study the Zone and try to rid the world of this pain in the ass. We're neutral to other factions.</text>
  
 	</string>
 	<string id="oles_talk_2">
-		<text>Ясно. Я вижу, вы сотрудничаете с учёными?</text>
+		<text>Alright. Do you work with the eggheads?</text>
 	</string>
 	<string id="oles_talk_3">
-		<text>Да. Нас, к сожалению, не так много. Мало кто разделяет наши взгляды.</text>
+		<text>Yes. We are a small grouping and not many people share our beliefs.</text>
 	</string>
 
 
 
 <string id="ohr_talk_0">
-		<text>Ты на базу? К учёным? Ну давай, проходи, только волыной не маши.</text>
+		<text>You want to enter the scientist base? Alright, go through, just don't wave that gun of yours around.</text>
 	</string>
 	<string id="ohr_talk_1">
-		<text>Я смотрю, нанялся базу яйцеголовых охранять?</text>
+		<text>I see that you've got yourself a security gig.</text>
  
 	</string>
 	<string id="ohr_talk_2">
-		<text>Да. А что, работа не пыльная.</text>
+		<text>Well yeah, what about it? Work is work - nothing special, really.</text>
 	</string>
 	<string id="ohr_talk_3">
-		<text>Хм... Не думал, что здесь может быть спокойно...</text>
+		<text>Hm... just don't think that this place is always this calm...</text>
 	</string>
 
 
 <string id="za1">
-		<text>Мессер! Тебе удалось. Чёрт, даже не знаю, что делать здесь дальше... Установка отключена. Думаю, есть смысл отправиться на север.</text>
+		<text>Messer! You've made it! God damn, I don't know what to do now... The installtion is off... maybe it's time to go north?</text>
 	</string>
 	<string id="za2">
-		<text>Здравствуй. Да, это было непросто. Ты идёшь на север? Не против объединиться?</text>
+		<text>Greetings. Yeah, it wasn't easy. You want to go north? How about we go together?</text>
  
 	</string>
 	<string id="za3">
-		<text>Нет, извини. Скорее всего, нам не по пути... Но, может, ещё увидимся! Ещё раз - спасибо за твой вклад в благое дело, Мессер.</text>
+		<text>Sorry, but I'm going on a slightly different path. Maybe our paths will cross again! Once again, thank you for your work, Messer.</text>
 	</string>
 	<string id="za4">
-		<text>Удачи тебе.</text>
+		<text>Best of luck to you.</text>
 	</string>
 
 
@@ -507,7 +507,7 @@
 		<text>Плевать, просто скажите всё, что знаете.</text>
 	</string>
 	<string id="yantar_general_ucheniy_talk_start_10144111">
-		<text>Ладно. Но я Вас предупреждал! Проблемой лаборатории занимался Васильев. Около недели назад они, вместе со сталкером по кличке Призрак, попытались проникнуть в лабораторию. Через несколько часов нас порядком тряхнуло, и излучение пропало, ещё через час получили сигнал от Васильева, сигнал шёл со стороны болот, но потом пропал. По всей видимости, вместе со смертью Васильева. Попробуй найти труп Васильева, у него была точная информация по лаборатории, где находится, и как туда попасть. Возможно, есть информация, и как отключить излучение. Вход в лабораторию, скорее всего, скрыт в подвале одного из зданий на заводской территории.</text>
+		<text>OK, but don't say I didn't warn you. Vasiliev worked on the laboratory problem. About a week ago, he and stalker by the name of Ghost attempted to get inside the laboratory. After several hours we felt a shake and emissions stopped; after another hour, we got a signal from Vasiliev, it was coming from the swamp but then vanished. By the looks of things, Vasiliev is gone. Try to find his body: he had accurate information about the laboratory - where it is and how to get in. He might have also known how to turn off the emissions. The laboratory entrance is most likely hidden in the basement of one of the buildings in the power plant area.</text>
 	</string>
 	<string id="yantar_general_ucheniy_talk_start_101441111">
 		<text>Вот и отлично. Держите документы.</text>
@@ -577,7 +577,7 @@
 		<text>OK.</text>
 	</string>
 	<string id="yantar_general_ucheniy_talk_start_21114">
-		<text>К чёрту замеры! Скажите, где Х-16, я пойду так.</text>
+		<text>Screw measurements! Tell me where X-16 is, I'll go there myself..</text>
 	</string>
 	<string id="yantar_general_ucheniy_talk_start_211141">
 		<text>You don't understand, there's an emitter. No one has been able to come closer than half a kilometer - it makes a zombie out of anyone. Going there without a suit is just like suicide, get it?</text>
@@ -751,22 +751,22 @@
 		<text>OK, I'll try. Take the documents.</text>
 	</string>
 	<string id="yantar_general_ucheniy_deadcity_map_0">
-		<text>Профессор, Вас карта Светлого луча не интересует?</text>
+		<text>Professor, are you by any chance interested in the map of the Shining Path?</text>
 	</string>
 	<string id="yantar_general_ucheniy_deadcity_map_1">
-		<text>Интересует. Я готов заплатить за неё 15000 рублей.</text>
+		<text>Of course I am. I'll pay you 15000RU.</text>
 	</string>
 	<string id="yantar_general_ucheniy_deadcity_map_11">
-		<text>Идёт. Карта Ваша.</text>
+		<text>OK, here is your map.</text>
 	</string>
 	<string id="yantar_general_ucheniy_deadcity_map_12">
-		<text>Как-нибудь в другой раз.</text>
+		<text>Maybe another time.</text>
 	</string>
 	<string id="yantar_help_scientist_101">
 		<text>There's no time...</text>
 	</string>
 	<string id="yantar_help_scientist_11">
-		<text>Yes, Marked One?</text>
+		<text>Yes, Messer?</text>
 	</string>
 	<string id="yantar_help_scientist_111">
 		<text>The professor asked me to take a trip to the measurement site.</text>
