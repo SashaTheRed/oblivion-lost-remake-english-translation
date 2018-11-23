@@ -99,7 +99,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_radar.xml](gamedata/config/text/eng/stable_dialogs_radar.xml)
 		- done
 	- [stable_dialogs_yantar.xml](gamedata/config/text/eng/stable_dialogs_yantar.xml)
-		- in progress
+		- done
 	- [stable_dialog_manager.xml](gamedata/config/text/eng/stable_dialog_manager.xml)
 		- in progress
 	- [stable_dialog_manager_uni.xml](gamedata/config/text/eng/stable_dialog_manager_uni.xml)
