@@ -87,7 +87,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_deadcity.xml](gamedata/config/text/eng/stable_dialogs_deadcity.xml)
 		- done
 	- [stable_dialogs_escape.xml](gamedata/config/text/eng/stable_dialogs_escape.xml)
-		- in progress
+		- done (needs revision)
 	- [stable_dialogs_garbage.xml](gamedata/config/text/eng/stable_dialogs_garbage.xml)
 		- done
 	- [stable_dialogs_labx18.xml](gamedata/config/text/eng/stable_dialogs_labx18.xml)
