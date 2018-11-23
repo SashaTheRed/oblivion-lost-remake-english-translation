@@ -705,16 +705,16 @@
 
 
  <string id="stader_0"> 
- <text>Here, I've got your container.</text> 
+ 	<text>Here, I've got your container.</text> 
  </string> 
  <string id="stader_1"> 
- <text>It seems like that you're worth your salt! I feel like that our cooperation together will be successful.</text> 
+ 	<text>It seems like that you're worth your salt! I feel like that our cooperation together will be successful.</text> 
  </string> 
  <string id="stader_2"> 
- <text>I think so too.</text> 
+ 	<text>I think so too.</text> 
  </string> 
  <string id="ds_kvest"> 
- <text>This is just the beginning, my friend.</text>  
+ 	<text>This is just the beginning, my friend.</text>  
  </string>
 
 
@@ -728,30 +728,30 @@
 
 
 <string id="bar_ohran_propusk_0">
-<text>Anything else?</text>
+	<text>Anything else?</text>
 </string>
 <string id="bar_ohran_propusk_1">
-<text>You handled your first task well! Here's your next mission: there's some sort of weird artifact at the tower on the railroad bridge. Due to the strong anomalous activity there, stalkers don't go there. I've got a feeling in my gut about you: you seem like someone who can get shit done.</text>
+	<text>You handled your first task well! Here's your next mission: there's some sort of weird artifact at the tower on the railroad bridge. Due to the strong anomalous activity there, stalkers don't go there. I've got a feeling in my gut about you: you seem like someone who can get shit done.</text>
 </string>
 <string id="bar_ohran_propusk_2">
-<text>What do you want me to do? Do you want me to the that artifact for you?</text>
+	<text>What do you want me to do? Do you want me to the that artifact for you?</text>
 </string>
 <string id="bar_ohran_propusk_3">
-<text>What do you think? Yes, I want you to get me that artifact. Here's some anti-radiation drugs, just in case. Oh, and you'll want this detector.</text>
+	<text>What do you think? Yes, I want you to get me that artifact. Here's some anti-radiation drugs, just in case. Oh, and you'll want this detector.</text>
 </string>
 
 
 <string id="bar_friend_propusk_0">
-<text>I have the artifact you wanted.</text>
+	<text>I have the artifact you wanted.</text>
 </string>
 <string id="bar_friend_propusk_1">
-<text>Hah, you did it. This tells me that aren't a rookie!</text>
+	<text>Hah, you did it. This tells me that aren't a rookie!</text>
 </string>
 <string id="bar_friend_propusk_2">
-<text>You might be right, but I don't remember anything!</text>
+	<text>You might be right, but I don't remember anything!</text>
 </string>
 <string id="bar_friend_propusk_3">
-<text>Alright, alright, let's stop talking about that. You've done the mission. Here's your reward.</text>
+	<text>Alright, alright, let's stop talking about that. You've done the mission. Here's your reward.</text>
 </string>
 
 
@@ -1019,12 +1019,7 @@
 	</string>
 
 	<string id="escape_talk_about_escape__10">
-		<text>This is the path to the Zone. In the the lit basement
-		that isn't blocked off here, you will find the local trader. I advise you not to
-		approach the blockpost and fight the soldiers - they're instructed to shoot without warning. Killing
-		military soldiers is not recommended, unless if it's a last resort. Every time you kill a soldier, the
-		trader has to pay compensation, so he won't be happy with you if you make trouble. Novices must be
-		careful here, there's herds of blind dogs moving around. You can find other mutants if you take the time to look for them.</text>
+		<text>This is the path to the Zone. In the the lit basement that isn't blocked off here, you will find the local trader. I advise you not to approach the blockpost and fight the soldiers - they're instructed to shoot without warning. Killing military soldiers is not recommended, unless if it's a last resort. Every time you kill a soldier, the trader has to pay compensation, so he won't be happy with you if you make trouble. Novices must be careful here, there's herds of blind dogs moving around. You can find other mutants if you take the time to look for them.</text>
 	</string>
 
 	<string id="escape_talk_about_escape__1">
@@ -1289,7 +1284,7 @@
 	</string>
 	<string id="escape_lager_guard_start_dialog_2121">
 		<text>What "death truck?" What are you talking about?</text>
-	</string>
+		</string>
 	<string id="escape_lager_guard_start_dialog_21211">
 		<text>Ah, hell only knows what it really is. But whatever it is, it's bad, about as bad as it gets. Why am I talking to you about this anyway! Maybe I'm just superstitious, but you, Messer, should really take a hike before something happens to you.</text>
 	</string>
@@ -1503,7 +1498,7 @@
     <string id="escape_lager_volk_job_0">
         <text>Got any work you need doing?</text>
     </string>
-    <string id="escape_lager_volk_job_1">
+     <string id="escape_lager_volk_job_1">
         <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. The last thing I want to do here is to leave a gift for one of my friends. My guys were on their way here, bringing him along, but the bandits had their way with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But you… You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. So… The bandits have settled down in the factory.</text>
     </string>
     <string id="escape_lager_volk_job_11">
@@ -1521,11 +1516,12 @@
     <string id="escape_lager_volk_job_121">
         <text>What, are you scared? Well, all right. I won't blame you.</text>
     </string>
+	
 	<string id="escape_shustryi_start_11">
 		<text>Thanks, brother! You did us a great service! I don't even know how to thank you…</text>
 	</string>
 	<string id="escape_shustryi_start_111">
-		<text>Don't get too excited. I'm just doing my job. Hey, how did you even end up here?</text>
+		<text>Don't get too excited, I'm just doing my job. Hey, how did you even end up here?</text>
 	</string>
 	<string id="escape_shustryi_start_1111">
 		<text>I was getting a stash for Wolf with the other guys, and these assholes… They were already waiting for us. I have no idea how they found out about us. And after that, you can guess where it went: we had a shootout, and I ended up here.</text>
@@ -1569,6 +1565,7 @@
 	<string id="escape_shustryi_start_512">
 		<text>Sorry. I can't help you.</text>
 	</string>
+	
 	<string id="escape_trader_deadcity_map_0">
 		<text>Toad, would a map of Shining Path interest you?</text>
 	</string>
@@ -1657,19 +1654,19 @@
 		<text>No. I've made my decision, and I don't need any of your help.</text>
 	</string>
 	<string id="escape_trader_jobs_6112121">
-		<text>Everything is clear with you, Messer. I gave a tip about you to Fox. You're glad to try to found out about your Strelok. Всё с тобой понятно, Меченый. Я тебе наводку на Лиса дал, а ты и рад стараться, узнал про своего Стрелка, а меня кинуть решил! Ну-ну... Топай, Зона ещё скажет своё слово, поверь. Вмиг ко мне прибежишь!</text>
+		<text>You're quite a stubborn one Messer! I gave you the coordinates to Fox, wanted to help you  find Strelok, and you tell me to fuck off! Alright, go. Just don't come back crawling to me when the Zone bites your ass off!</text>
 	</string>
 	<string id="escape_trader_jobs_61121211">
-		<text>То есть, как это, кинуть?! Ты, кажется, говорил, что за моё спасение я должен выполнить пару заданий для тебя, поправь, если я ошибаюсь! Артефакт - раз. Флешка Лиса - два. Ты что, считать разучился?</text>
+		<text>What do you mean 'stubborn'? You said that you want me to do a "couple" of jobs for you! Correct me if I'm wrong, but I think I can count! Artifact - one. Fox's pendrive - 2. Two is a couple! Did you fail kindergarten or something?<text>
 	</string>
 	<string id="escape_trader_jobs_611212111">
-		<text>Топай, топай! Умничать в другом месте будешь. А здесь, к твоему сведению, Зона отчуждения, полная всякой нечисти! Ну ничего, ещё узнаешь что это такое и каково здесь одному живётся, сразу по-другому заговоришь.</text>
+		<text>Go be a smartass somewhere else. For your information, the Zone is an unforgivable place. You'll see what it means to live in this place alone, and then you will see I was right?</text>
 	</string>
 	<string id="escape_trader_dynamite_0">
-		<text>What kind of work?</text>
+		<text>What kind of work is it?</text>
 	</string>
 	<string id="escape_trader_dynamite_1">
-		<text>I've heard that there's a stash of dynamites somewhere in the vehicle station. See, you need to bring that stash to me.</text>
+		<text>I've heard that there's a stash of dynamite somewhere in the ATP. See, you need to bring that stash to me.</text>
 	</string>
 	<string id="escape_trader_dynamite_11">
 		<text>OK, I agree.</text>
@@ -1687,10 +1684,10 @@
 		<text>Mission complete. Here's the dynamite.</text>
 	</string>
 	<string id="escape_trader_done_dynamite_1">
-		<text>Great job, Marked One! Here's your reward.</text>
+		<text>Great job, Messer! Here's your reward.</text>
 	</string>
 	<string id="escape_trader_start_dialog_111">
-		<text>Got a job for you, Marked One... I want you to find a stalker called Nimble, he was carrying some very important information. He disappeared somewhere near the bridge. Find him, dead or alive - I don't care, I need the flash drive with the info. Visit Wolf from the local camp, and ask him. He certainly knows where that guy can be.</text>
+		<text>Got a job for you, Messer... I want you to find a stalker called Nimble, he was carrying some very important information. He disappeared somewhere near the bridge. Find him, dead or alive - I don't care, I need the flash drive with the info. Visit Wolf from the local camp, and ask him. He certainly knows where that guy can be.</text>
 	</string>
 	<string id="escape_trader_start_dialog_1111">
 		<text>Is that it?</text>
@@ -1699,19 +1696,19 @@
 		<text>Hey Marked One, what's up?</text>
 	</string>
 	<string id="escape_trader_start_dialog_181">
-		<text>Меченый, ты чего здесь делаешь? Я же тебе ясно сказал - дуй к вагончику!</text>
+		<text>Messer, the hell are you doing there! I said run to the wagon!</text>
 	</string>
 	<string id="escape_trader_start_dialog_1811">
-		<text>Ну что, держи мой "первый" артефакт.</text>
+		<text>Here, the artifact <text>
 	</string>
 	<string id="escape_trader_start_dialog_18111">
-		<text>Меченый, в следующий раз внимательно слушай мои сообщения! За артефакт спасибо, но немедленно дуй к раненому. Держи аптечку, смотри не потеряй.</text>
+		<text>Messer, next time listen to my messages! Thanks for the artifact, but now quick, go help the wounded!</text>
 	</string>
 	<string id="escape_trader_start_dialog_18112">
-		<text>С артефактом справился, молодцом. Дуй быстрей к раненому. Там один Толик пока дышит. Остальные, судя по всему, уже в мире ином. И ещё, в следующий раз слушай мои приказы по рации!</text>
+		<text>Great job with the artifact. Now, quick, get to Tolik, he's heavily wounded. The rest is sadly in a better place right now. And next time listen to my messages!</text>
 	</string>
 	<string id="escape_trader_start_dialog_1812">
-		<text>Не знаю.</text>
+		<text>I don't know.</text>
 	</string>
 	<string id="escape_trader_start_dialog_18121">
 		<text>Меченый!!! Быстро дуй к вагончику возле дороги... Там раненые... Это сталкеры из лагеря - возвращались с моего задания. Чёрт их дернул вертолет обстрелять... Теперь, вон, SOS орут... Держи аптечку быстрей... И ещё, в следующий раз внимательно слушай мои сообщения по риции!</text>
@@ -1924,134 +1921,135 @@
         <text>Меченый, ты, часом, не зомбирован? Какой-то ты странный, ей богу! Я же тебе сказал: "Дуй искать артефакт!".</text>
     </string>
 	<string id="escape_trader_talk_info_0">
-		<text>Мне нужны ответы на кое-какие вопросы.</text>
+		<text>I want to ask some questions.</text>
 	</string>
 	<string id="escape_trader_talk_info_1">
-		<text>Спрашивай, только я ведь всего не знаю. Сам понимаешь, сижу тут целыми днями, а жизнь - она вся там, снаружи, в Зоне. Могу рассказать о Зоне вообще, а могу немного о ближайших окрестностях, где сам ходил.</text>
+		<text>Ask freely, but don't expect an answer for every question. You know, I sit here all day, and life takes place outside. I can tell something about the zone, and something about the local area, where I've been.</text>
 	</string>
 	<string id="escape_trader_talk_info_100">
-		<text>Расскажи мне в общих чертах о Зоне.</text>
+		<text>Tell me about the Zone.</text>
 	</string>
 	<string id="escape_trader_talk_info_101">
-		<text>Спрашивай.</text>
+		<text>Ask away.</text>
 	</string>
 	<string id="escape_trader_talk_info_2">
-		<text>Что в Зоне делают военные?</text>
+		<text>What is the army  doing in the Zone?</text>
 	</string>
 	<string id="escape_trader_talk_info_21">
-		<text>Охраняют, что ж ещё! То ли саму Зону, то ли остальной мир от неё - непонятно. Иногда сюда целые экспедиции проходят, ищут что-то... \nНо я тебе вот что скажу. Военные Зону не уважают, так она их за это тоже не любит. То и дело цинковые гробы увозят. Ну, что ещё сказать... Смотрят на всех свысока, как будто богами тут заделались. Сталкеровские законы не чтут, на помощь никогда не придут, хоть на глазах у них погибать будешь. Пристрелить могут - это да, запросто, не наказывают их за это... Правда, кое с кем я нашёл общий язык. Нужно же людям водку, журнальчики там разные где-то доставать? Ну, ты понимаешь, о чём я. Но попусту их не зли - смахнут и не заметят.</text>
+		<text>They're protecting, of course! We just don't know what they're protecting: the world from the Zone, or the Zone from the world. Sometimes entire expeditions come here, they're looking for something. \nNow here's the thing. The army doesn't respect the Zone, and she doesn't love them either. Everyday they're bringing out coffins out of here. What more is there to say... They look at everyone with inferiority, like if they were gods or something. They don't respect stalker law, so don't expect help from them even if you were dying in front of their eyes, in fact they're more likely to finish you off. I managed to  make peace with them: here I'll give them some vodka, here I'll give them some shitty artifact to play around with, you know what I mean. But it's better to not mess with them, they'll shoot you without even blinking.</text>
 	</string>
 	<string id="escape_trader_talk_info_3">
-		<text>Расскажи мне о Зоне.</text>
+		<text>Tell me what you know about the Zone itself.</text>
 	</string>
 	<string id="escape_trader_talk_info_31">
-		<text>Зона... Это, понимаешь, не просто круг в сколько-то там километров диаметром с центром у атомной станции... Это что-то странное. Очень странное. Знаешь, вряд ли кто-нибудь в нашем мире ответит тебе на этот вопрос. Я думаю, Зона - вообще не часть его. Отдельный, сам по себе, мир - опасный, странный... и чертовски привлекательный. А знаешь, почему? Да потому, что здесь каждый, если повезёт, может быстро разбогатеть. Причём, чем ближе к центру Зоны проберёшься, тем быстрее по деньгам поднимешься.</text>
+		<text>The Zone... you see, it's not only a perimeter of a few kilometers around the power plant... It's something strange. Really strange. I think that the Zone itself isn't even a part of our world. The Zone is a world of it's own, a world that is dangerous, strange and very interesting. Do you want to know why? Because everyone here, if lucky, can quickly get rich. And the closer they get to the center of the Zone, the quicker he'll get richer.</text>
 	</string>
 	<string id="escape_trader_talk_info_311">
-		<text>Чем опасен этот "отдельный мир"?</text>
+		<text>What dangers await me in this "strange world"?</text>
 	</string>
 	<string id="escape_trader_talk_info_3111">
-		<text>Кхм... Да, в общем, ничем - вот только подохнуть здесь можно на каждом шагу. И не только от пули тупого зольда, хотя военных сейчас много нагнали... Смерть от пули - это, считай, самая приятная смерть в Зоне. А вот аномалии - это, знаешь... Такая смерть - это да, это страшно. Их даже мутанты стороной обходят. Кстати, о мутантах: тоже дрянь редкостная, "дети" Зоны, так что без оружия тут лучше не ходить. А вообще, по поводу всяких опасностей, лучше других сталкеров тебе никто не расскажет.</text>
+		<text>Hm... well, how do I say this, you can die at every step here and in a million ways, not only from some private's bullet. To be fair, getting shot is the best way to die in the Zone. There's also the anomalies - death by them is terrifying. Even mutants avoid them. And about the mutants: horrifying creatures, "children" of the Zone, dangerous as hell so you better keep a gun with yourself at all times. Ask stalkers about more dangers.</text>
 	</string>
 	<string id="escape_trader_talk_info_312">
-		<text>Как здесь можно разбогатеть?</text>
+		<text>How do I get rich here?</text>
 	</string>
 	<string id="escape_trader_talk_info_3121">
-		<text>Ну, дружище, и крепко же тебя приложило! Забыл?!\nАртефакты - вот основа всего. За всякие непонятные игрушки из Зоны многие с Большой земли готовы отвалить целое состояние. Артефакты ценнее золота, бриллиантов и чистого плутония. Почему? Да потому, что ни одна драгоценность в мире не обладает такими сверхъестественными возможностями и делится ими со своим хозяином. Только прикинь: вешаешь ты, скажем, себе на пояс некую хрень - и пули начинают обходить тебя стороной! Что ещё? Ну, всякую мелочь можно часто встретить даже здесь, под боком. А вот за ценными экземплярами ходят только ближе к центру.</text>
+		<text>Oh my friend, you really don't remember anything, do you? Did you forget? \nArtifacts - they're the basics of everything. People outside the perimeter are ready to pay a lot of money for them. Artifacts are more valuable than gold, diamonds, and clear plutonium. Why? Because no metal or stone has the abilities of an artifact, not to mention the fact that arts share their properties with their carrier. Just imagine: you hang some shiny rock on your belt and suddenly bullets magically evade you! Anything else... uh... Oh yeah, the less valuable ones are available here - in the Cordon, but you'll need to go deeper to find the more valuable ones. </text>
 	</string>
 	<string id="escape_trader_talk_info_313">
-		<text>Кто-нибудь знает, что происходит в центре Зоны?</text>
+		<text>Does anybody know what's going on in the center of the Zone?</text>
 	</string>
 	<string id="escape_trader_talk_info_3131">
-		<text>Да разное болтают. Тебе потом столько всякой всячины расскажут... только я во всю эту потустороннюю чушь не верю. Вот во что я точно верю, так это в то, что в центре Зоны полно ценных артефактов. Только вот людей, которые смогли бы оттуда вернуться, пока не встречал.</text>
+		<text>Different people talk different things. Most will tell you a lot of things, some about the Wish Granter, some about some magical entity, but I don't believe any of that crap. What I believe is that in the center of the Zone is a lot of valuable artifacts. But I don't know anyone who managed to go there and came back alive, so I can't confirm that.</text>
 	</string>
 	<string id="escape_trader_talk_info_4">
-		<text>Не знаешь, что со мной случилось?</text>
+		<text>Do you know what happened to me?</text>
 	</string>
 	<string id="escape_trader_talk_info_41">
-		<text>Ну, брат, спросил! Тёмное это дело, понимаешь... \nНашли тебя в "грузовике смерти" - есть такие... труповозки, что ли? Время от времени из центра Зоны появляются, телами нагружены... Куда едут - никто толком не знает. Так один грузовик разбился, а тебя рядом нашли. И вот это дело - самый разудивительный факт. Разбитые труповозки находили и раньше, а вот живых рядом - ни разу... Извини, больше ничем помочь не могу. Разбираться тебе придётся самому.</text>
+		<text>That's quite a complicated thing, ya know? Nobody really knows the answer, anyways, here's what I know: \nThey found you in a death truck: it's some kind of hearse, or something. From time  to time they drive from the center of the zone, filled with corpses... Where are they driving - nobody knows. The car that they found you in crashed, and you were lying next to it. We found crashed death trucks before, but we never managed to find someone who came out of them alive. That's the most surprising fact by far. Sorry, but I dunno anything else. I guess you'll have to discover more info by yourself. </text>
 	</string>
 	<string id="escape_trader_talk_info_5">
-		<text>Кто такой Стрелок?</text>
+		<text>Who's Strelok?</text>
 	</string>
 	<string id="escape_trader_talk_info_51">
-		<text>Да вроде есть такой сталкер. По слухам, один из немногих, что к центру Зоны ходили и вернулись. Хотя чего-чего, а легенд про сталкеров-героев тут у нас предостаточно, поэтому гарантировать ничего не могу. Во всяком случае, лично я с ним дел не вёл - видно, у него свои каналы для сбыта... В общем, спрашивай у народа в Зоне - глядишь, кто-нибудь да и подскажет.</text>
+		<text>A stalker. I heard that he went to the center of the Zone and... came back. There are many legends of stalker-heroes, so I can't guarantee that his case is true. Anyways, I never met him personally - I guess he has his own contacts. You're better off asking people around the Zone, maybe they know something.</text>
 	</string>
 	<string id="escape_trader_talk_info_6">
-		<text>Какого сталкера называют Призраком?</text>
+		<text>Who's Ghost?</text>
 	</string>
 	<string id="escape_trader_talk_info_61">
-		<text>О, это ещё один человек-легенда. \nДавно о нём ничего не слышно. Наверное, сгинул где-то в глубине Зоны.</text>
+		<text>Another stalker-legend. \nI haven't heard anything about him in a while. I guess he died or something.</text>
 	</string>
 	<string id="escape_trader_talk_info_99">
-		<text>Что тут поблизости творится?</text>
+		<text>Can you tell me about the local area?</text>
 	</string>
 	<string id="escape_trader_talk_info_999">
-		<text>А! Ну, это предбанник Зоны. Армейский кордон. Относительно спокойно, разве военные иногда развлекаются, шмон наводят. Опытные сталкеры тут в редкость, только новички засиживаются, а кто и навечно остаётся, мда... Вот рядом совсем, на хуторе, лагерь новичков приютился. Смотри, нажимать на курок они тоже умеют, так ты не задирайся попусту. \nЧто ещё? Ну, хорошего хабара здесь не сыщешь. За дорогой - заброшенная фабрика какая-то. На севере, за железнодорожной насыпью - остатки деревни, а на юге - блокпост. Кстати, кое-где вояки мины расставили, так что поосторожнее. Ещё в центре мост был, да повалило его. Вот, вроде, и всё.</text>
+		<text>Oh, this is the entrance to the Zone. The army Cordon. Quite a peaceful area compared to the rest, sometimes the bored armymen go hunting stalkers for fun. Experienced stalkers are rare here, only rookies stay here, and some stay here forever... hehe. At this village we're currently in is a rookie camp. They know  how to pull the trigger, so don't make them mad. \nWhat else? You won't find any good shit here. Across the road is an abandoned factory. To the north, after the railbank - remains of a farm and some houses, and to the south you've got the army checkpoint. There's also a bridge in the centre.</text>
 	</string>
 	<string id="escape_trader_talk_info_9991">
-		<text>Расскажи побольше о блокпосте.</text>
+		<text>Tell me about the outpost.</text>
 	</string>
 	<string id="escape_trader_talk_info_99911">
-		<text>Несколько солдат с приказом стрелять без предупреждения, потому лучше обходи его стороной. Если их обидеть, то могут вызвать спецназовцев с дальнего кордона. Те наверху такой шмон наведут, что у меня потом месяц клиентов нет... Командира зольдов знаю немного: любит он за воротник заложить. Вот благодаря ему и держусь пока здесь.</text>
+		<text>A bunch of soldiers with the order to shoot on sight, so you better keep away from it. If they get angry, they can call in some Spetznaz operatives from the far Cordon. And they do such clean ups, that I have no clients for the next month or so. I know the commander only a bit: he likes to drink quite a lot, so we managed to find a familiar tongue.</text>
 	</string>
 	<string id="escape_trader_talk_info_9992">
-		<text>Расскажи побольше об мосте.</text>
+		<text>Tell me about the bridge.</text>
 	</string>
 	<string id="escape_trader_talk_info_99922">
-		<text>Да тут два шага в северном направлении - сразу и увидишь. Не знаю точно, но заметил, что сталкеры матёрые по железной дороге ходят иногда. Возможно, тропа у них там..</text>
+		<text>Yes, it's a few steps away to the north - you'll see it right away. I don't know exactly, but I noticed that stalkers go beyond the tracks. Maybe there's some path there, I dunno really.</text>
 	</string>
 	<string id="escape_trader_talk_info_9993">
-		<text>А о фабрике поподробнее можно?</text>
+		<text>Tell me about the factory.</text>
 	</string>
 	<string id="escape_trader_talk_info_99933">
-		<text>Как дорогу перейдёшь, там сразу её и увидишь - кирпичное такое здание. Что смогли украсть оттуда, уже давно украли, осталась одна коробка. Излюбленное место бандюков. Не знаю, есть ли они сейчас там, но на всякий случай поосторожнее. С тебя взять, конечно, пока нечего... только оно тебе надо - морока эта?</text>
+		<text>If you go across the road, you will see it right away - it's a building made out of bricks. What was there to steal was stolen a looong time ago. It's the bandits favorite spot. I dunno if they are there as of late, but be careful around there. Of course, they don't really have much to get out of you right now...</text>
 	</string>
 	<string id="escape_trader_talk_info_9994">
-		<text>Расскажи мне о деревне.</text>
+		<text>Tell me about the village.</text>
 	</string>
 	<string id="escape_trader_talk_info_99944">
-		<text>Ох ты и нудный! Ну деревня себе, как деревня. Алкаши все там ещё до перестройки все передохли.</text>
+		<text>Man, you're boring! Just a village, like any other. All the alcoholics here died before perestroika came around...</text>
 	</string>
 	<string id="escape_trader_talk_info_9995">
-		<text>Спасибо, это всё.</text>
+		<text>Thanks, that's all.</text>
 	</string>
 	<string id="escape_trader_talk_info_9996">
-		<text>Я бы хотел ещё кое-что узнать.</text>
+		<text>I'd like to know more.</text>
 	</string>
 	<string id="escape_trader_talk_level_0">
-		<text>Расскажи мне об этом месте.</text>
+		<text>Tell me about this place.</text>
 	</string>
 	<string id="escape_trader_talk_level_1">
-		<text>А! Ну, это предбанник Зоны. Армейский кордон. Относительно спокойно, разве военные иногда развлекаются, шмон наводят. Опытные сталкеры тут в редкость, только новички засиживаются, а кто и навечно остаётся, мда... Вот рядом совсем, на хуторе, лагерь новичков приютился. Смотри, нажимать на курок они тоже умеют, так ты не задирайся попусту.\nЧто ещё? Ну, хорошего хабара здесь не сыщешь. За дорогой - заброшенная фабрика какая-то. На севере, за железнодорожной насыпью - остатки фермы, а на юге - блокпост. Кстати, кое-где вояки мины расставили, так что поосторожнее. Ещё в центре мост был, да повалило его. Вот, вроде, и всё.</text>
+		<text>Oh, this is the entrance to the Zone. The army Cordon. Quite a peaceful area compared to the rest, sometimes the bored armymen go hunting stalkers for fun. Experienced stalkers are rare here, only rookies stay here, and some stay here forever... hehe. At this village we're currently in is a rookie camp. They know  how to pull the trigger, so don't make them mad. \nWhat else? You won't find any good shit here. Across the road is an abandoned factory. To the north, after the railbank - remains of a farm and some houses, and to the south you've got the army checkpoint. There's also a bridge in the centre.</text>
 	</string>
 	<string id="escape_trader_talk_level_10">
-		<text>Ладно, спасибо.</text>
+		<text>OK, thanks.</text>
 	</string>
 	<string id="escape_trader_talk_level_2">
-		<text>Расскажи побольше о блокпосте.</text>
+		<text>Tell me about the outpost.</text>
 	</string>
 	<string id="escape_trader_talk_level_21">
-		<text>Несколько солдат с приказом стрелять без предупреждения, так что лучше обходи его стороной. Если их обидеть, то могут вызвать спецназовцев с дальнего кордона. Те наверху такой шмон наведут, что у меня потом месяц клиентов нет... Командира зольдов знаю немного: любит он за воротник заложить. Вот благодаря ему и держусь пока здесь.</text>
+		<text>A bunch of soldiers with the order to shoot on sight, so you better keep away from it. If they get angry, they can call in some Spetznaz operatives from the far Cordon. And they do such clean ups, that I have no clients for the next month or so. I know the commander only a bit: he likes to drink quite a lot, so we managed to find a familiar tongue.</text>
 	</string>
 	<string id="escape_trader_talk_level_3">
-		<text>Расскажи побольше об упавшем мосте.</text>
+		<text>Tell me 'bout the bridge.</text>
 	</string>
 	<string id="escape_trader_talk_level_31">
-		<text>Да тут два шага в северном направлении - сразу и увидишь. Раньше там мост над дорогой был, а потом взял да и упал во время одного из выбросов. Военные там пост сделали и, вроде как, никого не пускают... Но подмазать если, вполне пропустят. Вообще, там лучше не светиться, разве только нагружен сильно или ранен.</text>
+		<text>Yes, it's a few steps away to the north - you'll see it right away. I don't know exactly, but I noticed that stalkers go beyond the tracks. Maybe there's some path there, I dunno really.</text>
 	</string>
 	<string id="escape_trader_talk_level_4">
-		<text>А о фабрике поподробнее можно?</text>
+		<text>Tell me about the factory.</text>
 	</string>
 	<string id="escape_trader_talk_level_41">
-		<text>Как дорогу перейдёшь, там сразу её и увидишь - кирпичное такое здание. Что смогли украсть оттуда, уже давно украли, осталась одна коробка. Излюбленное место бандюков. Не знаю, есть ли они сейчас там, но на всякий случай поосторожнее. С тебя взять, конечно, пока нечего... только оно тебе надо - морока эта?</text>
+		<text>If you go across the road, you will see it right away - it's a building made out of bricks. What was there to steal was stolen a looong time ago. It's the bandits favorite spot. I dunno if they are there as of late, but be careful around there. Of course, they don't really have much to get out of you right now...</text>
 	</string>
 	<string id="escape_trader_talk_level_5">
-		<text>Расскажи мне о ферме.</text>
+		<text>Tell me about the farm.</text>
 	</string>
 	<string id="escape_trader_talk_level_51">
-		<text>Ох ты и нудный! Ну ферма себе, как ферма. Свиньи там ещё до перестройки все передохли.</text>
+		<text>Man, you're boring! A farm just like any other. All the pigs there died before perestroika...</text>
 	</string>
+	
 	<string id="tutorial_wounded_give_medkit_1">
 		<text>I'm ok... bleeding all over though. Gimme a medkit, will ya?</text>
 	</string>
@@ -2106,6 +2104,7 @@
 	<string id="tutorial_wounded_give_medkit_91">
 		<text>You bastard! Don't you understand that next time you'll be in my place?!</text>
 	</string>
+	
 	<string id="esc_mechanic_dialog_0">
 		<text>Welcome! So do you have any complaints? Broke something?</text>
 	</string>
