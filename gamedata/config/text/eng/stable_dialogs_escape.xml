@@ -2112,7 +2112,7 @@
 		<text>What are you, a mechanic or something?</text>
 	</string>
 	<string id="esc_mechanic_dialog_11">
-		<text>Ye, a mechanic. I can fix your guns, but only uniques ones, there's already a bunch of common ones, ones you can buy from the usual traders. You can't buy unique guns.</text>
+		<text>Yes, a mechanic. I can fix your guns, but only uniques ones, there's already a bunch of common ones, ones you can buy from the usual traders. You can't buy unique guns.</text>
 	</string>
 	<string id="esc_mechanic_dialog_2">
 		<text>Could you fix the gun in my first slot?</text>
@@ -2139,7 +2139,7 @@
 		<text>Do you do armour repairs too?</text>
 	</string>
 	<string id="esc_mechanic_dialog_41">
-		<text>Ye, there's only one problem though, I don't have the neccasary tools for that. If you help me, I'll fix your suit up, but only if it's unique!</text>
+		<text>Yes, there's only one problem though, I don't have the neccasary tools for that. If you help me, I'll fix your suit up, but only if it's unique!</text>
 	</string>
 	<string id="esc_mechanic_dialog_411">
 		<text>Okay, I'm up for it. What do I need to do?</text>
@@ -2175,7 +2175,7 @@
 		<text>Wear it in good health!</text>
 	</string>
 	<string id="esc_mechanic_dialog_422">
-		<text>Sorry, Извини, I'm short on money. Maybe, some time later.</text>
+		<text>Sorry, I'm short on money. Maybe some time later.</text>
 	</string>
 	<string id="esc_mechanic_dialog_4221">
 		<text>It's okay, come back later.</text>
