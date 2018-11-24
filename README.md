@@ -258,7 +258,7 @@ A list of all files with detailed progress can be found below.
 	- [dmx_cars.script](gamedata/scripts/dmx_cars.script)
 		- done
 	- [meceniy_in_hell.script](gamedata/scripts/meceniy_in_hell.script)
-		- in progress
+		- done
 	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
 		- done (needs revision)
 	- [nd_news_main_data.script](gamedata/scripts/nd_news_main_data.script)
