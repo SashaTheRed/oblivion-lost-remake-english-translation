@@ -62,40 +62,40 @@ local tabl_reaction = {
 }
 
 local tabl_news = {
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Holy-moly!!! I like this! It's like I'm playing DOOM!!!\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Uh-uh!!! Who are you?!?! What do you want?!?! Let's go!!! The drunkards have already come to the Zone!!!\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Everyone take cover!!! It has started!!!\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]I've caught the beast! He tried to run away! Ha-ha-ha!\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Uh-uh... sol-sol-soldier... Mmm-miiiiiii ....\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Zombies!!! They're everywhere!!! Kill all of them!!!\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Messer! Help me, brother! Please!\n",
-	"%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]PEOPLE!!! THERE'S ZOMBIES EVERYWHERE!!! HELP ME OUT BROTHERS!!!\n",
-	"%c[255,160,160,160]Professor:\\n%c[255,255,128,128]Zombies have surrounded the bunker. Kruglov, if you hear this, then don't go through the swamps. You'll know why..\n",
-	"%c[255,160,160,160]Duty general:\\n%c[255,255,128,128]Fighters, this is another chance to prove that we are the BEST.. SMASH THIS EVIL.\n",
-	"%c[255,160,160,160]Freedom general:\\n%c[255,255,128,128]Brothers, wipe these freaks out.\n"
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Holy-moly!!! I like this! It's like I'm playing DOOM!!!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Hey!!! Who are you?!?! What do you want?!?! Let's get out of here!!! The drunkards have already come to the Zone!!!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Everyone take cover!!! It has started!!!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Speak of the devil and he'll appear!!! Hahaha!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Uhhh... Sol-sol-soldier... K-k-k-iiiilll....\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Zombies!!! They're everywhere!!! Kill them all!!!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Marked One!!! Bro!!! HELP!!!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]PEOPLE!!! THERE'S ZOMBIES EVERYWHERE!!! HELP ME OUT BROTHERS!!!\n",
+	"%c[255,160,160,160]Sakharov:\\n%c[255,255,128,128]Zombies have surrounded the bunker. Kruglov, if you hear this, then don't go through the swamps. You'll know why...\n",
+	"%c[255,160,160,160]Petrenko:\\n%c[255,255,128,128]Men, this is another chance to prove that we are the BEST.. SMASH THIS EVIL...\n",
+	"%c[255,160,160,160]Lukash:\\n%c[255,255,128,128]Brothers... Wipe out these freaks...\n"
 }
 
 local tabl_mess_begin = {
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Sanek, what's with the siren?\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]You'll find out next time...\n"},
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Sanyok, what's with the siren?\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]You'll find out next time...\n"},
 
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Ready or not, here I come! One, two, three, four, five - I'm going to turn on..\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]I'll try turning on this junk again. Man, this place is coming apart at the seams.\n"},
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Ready or not, here I come! One, two, three, four, five - I'm going to turn on...\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]I'll try turning on this junk again. Man, this place is coming apart at the seams...\n"},
 
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Laboratory assistant Sidorov! Today, you are a doctor! Turn on the device!\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Laboratory assistant Sidorov! Are you drunk? What's wrong!?\n"},
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Laboratory assistant Sidorov! Today, you are a doctor! Turn on the device!\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Laboratory assistant Sidorov! Are you drunk? What's wrong!?\n"},
 
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Doctor, it's time. Turn it on..\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Doctor, what's the matter? Why won't it turn on? Is your collider jammed again?!?!\n"},
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Doctor, it's time... Turn it on...\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Doctor, what's the matter? Why won't it turn on? Is your collider jammed again?!?!\n"},
 
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Lieutenant, take those men away if you want to stay with the soldiers... It's on...\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Lieutenant, we've had a breakdown - you and your men are lucky.\n"},
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Lieutenant, take those men away if you want to stay with the soldiers... It's on...\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Lieutenant, we've had a breakdown - you and your men are lucky.\n"},
 	 
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Okay, everyone, we're late! We won't make it!\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]I've done it. I've made it. Those freaks are a lot of trouble..\n"},
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]No... We won't make it... Send my wife a message from me!\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]That was close... I've made it... Those freaks are a lot of trouble...\n"},
 	 
-	{normal = "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Heh, today we will turn these thieves into something less than human. Doctor, we are ready.\n",
-	 fail 	= "%c[255,160,160,160]Shared Channel:\\n%c[255,255,128,128]Doctor! How many times must we do this?! You've failed again!!!\n"}
+	{normal = "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Heh, today we will turn these thieves into something less than human. Doctor, we are ready.\n",
+	 fail 	= "%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Doctor! How many times must we do this?! You've failed again!!!\n"}
 }
 
 local tabl_sound_spawn = {
