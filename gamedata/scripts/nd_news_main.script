@@ -11,10 +11,11 @@ local post_message_prob2 = 1 --продажа айтема
 local post_message_dolg = 1 --Сообщения от долговцев
 local post_message_freedom = 1 --Сообщения от свободовцев
 local post_message_random = 1
-
+local post_message_vubros = 0.2 
 
 -- Вспомогательные функции для новостей
 local m_post_message = ""
+--[[
 local messages_none ={
 "What the hell?",
 -- "Количество выбросов неумолимо растёт!",
@@ -29,7 +30,7 @@ local messages_none ={
 "Damn. Used up two magazines on a zombie. Those tough monsters!",
 "We're getting closer to the hideout now. Gonna rest up a bit. Well... Who do we have here? Aaaah, crap..."
 }
-
+--]]
 
 local dolg_news={
 "\\n%c[255,245,118,54]Duty\\n%c[255,245,118,54]Stalker! Join the Duty ranks! We'll protect the world from the Zone's evil!", 
@@ -48,7 +49,7 @@ noname_teamletes = {
 	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]Come in! Bandits are at the factory again. They're confiscating stuff from stalkers. We need someone with experience to scare them off. It'd be a great service.",
 	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]Saw a group of shady guys. Looked like Freedom. They're heading toward the Bar.",
 	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]A group of five are moving toward the Silent Hills; in all likelihood, it's the military. Take measures!",
-	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]To the east of the bridge at the outpost I saw a pack of dogs. 20 or 30 of them. Can you imagine that? God.",
+	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]To the east of the bridge at the outpost I saw a pack of dogs. Anywhere from 20 to 30 of them. Can you imagine that? God.",
 	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]I’m pinned down by raiders! Help",
 	"\\n%c[255,245,118,54]Unknown stalker\\n%c[255,245,118,54]I overheard some military talks. Seems like they're planning an op on Yantar.",
 	"\\n%c[255,245,118,54]Digger\\n%c[default]Toad, Duty's over at the farm again. Why?",
@@ -329,116 +330,123 @@ local news_text={
 "a load of new anomalies have showed up. Watch out!",
 }
 
-
+--[[
 function game_minutes()
 	local gtime = level.get_time_days()*60*24+level.get_time_hours()*60+level.get_time_minutes()  --время в игровых минутах	
 return gtime
 end
 
 monsters = { "псевдогигант", "зомби", "кровосос", "полтергейст", "бюрер", "химера", "зомби", "контроллёр", "псевдособака", "собака", "плоть", "карлик", "кабан", "крыса"}
+--]]
 
-
-function show_news_trade()
-if math.random() < post_message_prob2 then
-		trade_maseges = trade_templates[math.random(table.getn(trade_templates))]
+function show_news_trade(time)
+	if math.random() < post_message_prob2 then
+		m_post_message = trade_templates[math.random(table.getn(trade_templates))]
 	end
-if (trade_maseges ~= "") then
+	if (m_post_message ~= "") then
 		local fname = fnames[math.random(table.getn(fnames))]
 		local sname = snames[math.random(table.getn(snames))]
 		local from = fname.." "..sname
 		local what_trade = what_trade[math.random(table.getn(what_trade))]
             local where_trade = where_trade[math.random(table.getn(where_trade))]
-            local news_text = "%c[255,245,118,54]".. from ..":\\n%c[255,245,118,54]".. trade_maseges .. what_trade .. where_trade
-		db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(450,50,50,50), 0, 20000)
+            m_post_message = "%c[255,245,118,54]".. from ..":\\n%c[255,245,118,54]".. m_post_message .. what_trade .. where_trade .. "."
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(450,50,50,50), 0, 2000*time)
+		m_post_message = ""
 	end
 end
 
 -- Просто
-function show_news_another()
-if math.random() < post_message_prob then
+function show_news_another(time)
+	if math.random() < post_message_prob then
 		m_post_message = noname_teamletes[math.random(table.getn(noname_teamletes))]
 	end
           
-if (m_post_message ~= "") then
+	if (m_post_message ~= "") then
 		
-		local news_text = m_post_message
-		db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(400,150,50,50), 0, 20000)
-end
+		--local news_text = m_post_message
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(400,150,50,50), 0, 2000*time)
+		m_post_message = ""
+	end
 end                
 
 -- Долг
-function show_news_dolg()
-if math.random() < post_message_dolg then
-		m_post_dolg = dolg_news[math.random(table.getn(dolg_news))]
+function show_news_dolg(time)
+	if math.random() < post_message_dolg then
+		m_post_message = dolg_news[math.random(table.getn(dolg_news))]
 	end
 
-if (m_post_dolg ~= "") then
-		local news_text = m_post_dolg
-		db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(150,0,50,50), 0, 20000)
+	if (m_post_message ~= "") then
+		--local news_text = m_post_dolg
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(150,0,50,50), 0, 2000*time)
+		m_post_message = ""
 	end
 end
 
 
 -- Свобода
-function show_news_freedom()
-if math.random() < post_message_freedom then
-		m_post_freedom = freedom_news[math.random(table.getn(freedom_news))]
+function show_news_freedom(time)
+	if math.random() < post_message_freedom then
+		m_post_message = freedom_news[math.random(table.getn(freedom_news))]
 	end
-if (m_post_freedom ~= "") then
+	if (m_post_message ~= "") then
 		local news_text = m_post_freedom
-		db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(0,150,50,50), 0, 20000)
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(0,150,50,50), 0, 2000*time)
+		m_post_message = ""
 	end
 end
 
 -- Полностью рандомные
-function show_news_random()
-if math.random() < post_message_random then
-		news_random = news_when[math.random(table.getn(news_when))]
+function show_news_random(time)
+	if math.random() < post_message_random then
+		m_post_message = news_when[math.random(table.getn(news_when))]
 	end
 
-if (news_random ~= "") then
+	if (m_post_message ~= "") then
 		local fname = fnames[math.random(table.getn(fnames))]
 		local sname = snames[math.random(table.getn(snames))]
 		local from = fname.." "..sname
 		local where = where_trade[math.random(table.getn(where_trade))]
             local text = news_text[math.random(table.getn(news_text))]
-            local news_text = "%c[255,245,118,54]".. from ..":\\n%c[255,245,118,54]".. news_random .. where .. text
-		db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(400,150,50,50), 0, 20000)
+            m_post_message = "%c[255,245,118,54]".. from ..":\\n%c[255,245,118,54]".. m_post_message .. where .. " " .. text
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(400,150,50,50), 0, 2000*time)
+		m_post_message = ""
 	end
 end
 
 
 
-local blu_when = {
-"in two minutes!",
-"in just a moment!",
-"in a couple of minutes!"
-}
-local blu_message = {
-"Find some cover! A blowout is coming ",
-"The professor says his equipment estimates the appearance of an emission ",
-"When I was visiting the Professor, he mentioned an emission. It'll be here ",
-"There's gonna be a blowout ",
-"Attention! The eggheads are saying that there'll be a blowout "
-}
 
 
+--Фейк сообщения о выбросе - просто нервируем игрока
 function vubros_msg()
-if math.random() < post_message_prob then
-		bluw_msg = blu_message[math.random(table.getn(blu_message))]
+	local blu_when = {
+	"in two minutes.",
+	"in just a moment.",
+	"in a couple of minutes."
+		}
+	local blu_message = {
+	"Find some cover! A blowout is coming ",
+	"The professor says his equipment estimates the appearance of an emission ",
+	"When I was visiting the Professor, he mentioned an emission. It'll be here ",
+	"There's gonna be a blowout ",
+	"Attention! The eggheads are saying that there'll be a blowout "
+		}
+	if math.random() < post_message_vubros then
+		m_post_message = blu_message[math.random(table.getn(blu_message))]
 	end
           
-		if (bluw_msg ~= "") then
+	if (m_post_message ~= "") then
 		local fname = fnames[math.random(table.getn(fnames))]
-		local sname = snames[math.random(table.getn(snames))]
-		local from = fname.." "..sname
+		--local sname = snames[math.random(table.getn(snames))]
+		--local from = fname.." "..sname
 		local bluw_msg_when = blu_when[math.random(table.getn(blu_when))]
-            local news_text = "%c[255,255,0,0]"..":\\n%c[255,245,118,54]"..bluw_msg .. bluw_msg_when 
-	     db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(350,150,50,50), 0, 20000)
+            local news_text = "%c[255,255,0,0]".. fname ..":\\n%c[255,245,118,54]"..m_post_message .. bluw_msg_when 
+	     db.actor:give_game_news(news_text, "ui\\ui_icons_task", Frect():set(350,150,50,50), 0, 2000*time)
+		m_post_message = ""
       end
 end
 		
-
+--[[
 function isIsolatedLevel(level_name)
 	local ln = level_name
 	if (ln == "l03u_agr_underground" or ln ==  "l02_garbage" or ln == "l04u_labx18" or ln == "l08u_brainlab" or ln == "l10u_bunker") then
@@ -515,7 +523,7 @@ if leve_name  == "l10u_bunker" then
 nd_news_main_data.on_disconnect()
 end
 end
-
+--]]
 
 -------------------- Advanced Reconstruction Stalker Mod v0.5 --------------------
 --[[

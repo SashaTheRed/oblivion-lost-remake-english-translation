@@ -68,7 +68,7 @@
 		<text>Mercury</text>
 	</string>
 	<string id="af-fireball">
-		<text>Rose Ball</text>
+		<text>Transparent Ball</text>
 	</string>
 	<string id="af-fuzz-kolobok">
 		<text>Sharp Needles</text>
@@ -101,7 +101,7 @@
 		<text>Black Drops</text>
 	</string>
 	<string id="af-vyvert">
-		<text>Weaker Gravitational Artifact</text>
+		<text>Weak Gravitational Artifact</text>
 	</string>
 	<string id="Agroprom">
 		<text>"MedPribor" Institute</text>

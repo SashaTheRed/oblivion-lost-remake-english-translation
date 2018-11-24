@@ -150,11 +150,11 @@ end
 
 
 ------------------------------------------------------------------------------
--- morning сон ДО УТРА (будем считать утро с 5 до 8.59)
+-- morning сон ДО УТРА (будем считать утро с 6 до 9.59)
 function OldMenu:SleepTwelveHours()
 
         if xr_conditions.is_time_0() then
-	olr_func.sleep_main(5)
+	olr_func.sleep_main(6)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -166,7 +166,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_1() then
-	olr_func.sleep_main(4)
+	olr_func.sleep_main(5)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -179,7 +179,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_2() then
-	olr_func.sleep_main(3)
+	olr_func.sleep_main(4)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -191,7 +191,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_3() then
-	olr_func.sleep_main(2)
+	olr_func.sleep_main(3)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -215,12 +215,20 @@ function OldMenu:SleepTwelveHours()
 
 
 
-	-- c 5 до 8.59 уже утро, пропускаем
-
-	elseif xr_conditions.is_time_5() then
-        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
-        hidden_slots.inventory_close()
+        elseif xr_conditions.is_time_5() then
+	olr_func.sleep_main(1)
+	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
+
+		local dream = dream.sleep_video_name_callback ()
+		   if dream ~= "" then game.start_tutorial(dream)
+		   else
+		   --game.start_tutorial("without_dream")
+		   end
+
+
+
+-- c 6 до 9.59 уже утро, пропускаем
 
 	elseif xr_conditions.is_time_6() then
         news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
@@ -237,10 +245,13 @@ function OldMenu:SleepTwelveHours()
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
+	elseif xr_conditions.is_time_9() then
+        news_manager.send_tip(db.actor, "Неподходящее время для сна. Сейчас и так утро, болван.")
+        hidden_slots.inventory_close()
+	self:GetHolder():start_stop_menu(self, true)
+--
 
-
-	
-        elseif xr_conditions.is_time_9() then
+        elseif xr_conditions.is_time_10() then
 	olr_func.sleep_main(20)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -251,7 +262,7 @@ function OldMenu:SleepTwelveHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_10() then
+        elseif xr_conditions.is_time_11() then
 	olr_func.sleep_main(19)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -262,19 +273,8 @@ function OldMenu:SleepTwelveHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_11() then
-	olr_func.sleep_main(18)
-	hidden_slots.inventory_close()
-	self:GetHolder():start_stop_menu(self, true)
-
-		local dream = dream.sleep_video_name_callback ()
-		   if dream ~= "" then game.start_tutorial(dream)
-		   else
-		   --game.start_tutorial("without_dream")
-		   end
-
         elseif xr_conditions.is_time_12() then
-	olr_func.sleep_main(17)
+	olr_func.sleep_main(18)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -286,7 +286,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_13() then
-	olr_func.sleep_main(16)
+	olr_func.sleep_main(17)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -298,7 +298,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_14() then
-	olr_func.sleep_main(15)
+	olr_func.sleep_main(16)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -310,7 +310,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_15() then
-	olr_func.sleep_main(14)
+	olr_func.sleep_main(15)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -322,7 +322,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_16() then
-	olr_func.sleep_main(13)
+	olr_func.sleep_main(14)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -334,7 +334,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_17() then
-	olr_func.sleep_main(12)
+	olr_func.sleep_main(13)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -346,7 +346,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_18() then
-	olr_func.sleep_main(11)
+	olr_func.sleep_main(12)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -358,7 +358,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_19() then
-	olr_func.sleep_main(10)
+	olr_func.sleep_main(11)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -370,7 +370,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_20() then
-	olr_func.sleep_main(9)
+	olr_func.sleep_main(10)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -382,7 +382,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_21() then
-	olr_func.sleep_main(8)
+	olr_func.sleep_main(9)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -394,7 +394,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_22() then
-	olr_func.sleep_main(7)
+	olr_func.sleep_main(8)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -406,7 +406,7 @@ function OldMenu:SleepTwelveHours()
 
 
         elseif xr_conditions.is_time_23() then
-	olr_func.sleep_main(6)
+	olr_func.sleep_main(7)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -419,7 +419,7 @@ function OldMenu:SleepTwelveHours()
 
 
 	else
-        news_manager.send_tip(db.actor, "I can't sleep for some reason.")
+        news_manager.send_tip(db.actor, "Что-то не спится.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -435,7 +435,7 @@ end
 function OldMenu:SleepSixHours()
 
         if xr_conditions.is_time_0() then
-	olr_func.sleep_main(20)
+	olr_func.sleep_main(18)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -447,7 +447,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_1() then
-	olr_func.sleep_main(19)
+	olr_func.sleep_main(17)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -460,31 +460,6 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_2() then
-	olr_func.sleep_main(18)
-	hidden_slots.inventory_close()
-	self:GetHolder():start_stop_menu(self, true)
-
-		local dream = dream.sleep_video_name_callback ()
-		   if dream ~= "" then game.start_tutorial(dream)
-		   else
-		   --game.start_tutorial("without_dream")
-		   end
-
-
-
-        elseif xr_conditions.is_time_3() then
-	olr_func.sleep_main(17)
-	hidden_slots.inventory_close()
-	self:GetHolder():start_stop_menu(self, true)
-
-		local dream = dream.sleep_video_name_callback ()
-		   if dream ~= "" then game.start_tutorial(dream)
-		   else
-		   --game.start_tutorial("without_dream")
-		   end
-
-
-        elseif xr_conditions.is_time_4() then
 	olr_func.sleep_main(16)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -497,7 +472,7 @@ function OldMenu:SleepSixHours()
 
 
 
-        elseif xr_conditions.is_time_5() then
+        elseif xr_conditions.is_time_3() then
 	olr_func.sleep_main(15)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -509,7 +484,7 @@ function OldMenu:SleepSixHours()
 		   end
 
 
-        elseif xr_conditions.is_time_6() then
+        elseif xr_conditions.is_time_4() then
 	olr_func.sleep_main(14)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -520,7 +495,9 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_7() then
+
+
+        elseif xr_conditions.is_time_5() then
 	olr_func.sleep_main(13)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -531,7 +508,8 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_8() then
+
+        elseif xr_conditions.is_time_6() then
 	olr_func.sleep_main(12)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -542,7 +520,7 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_9() then
+        elseif xr_conditions.is_time_7() then
 	olr_func.sleep_main(11)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -553,7 +531,7 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_10() then
+        elseif xr_conditions.is_time_8() then
 	olr_func.sleep_main(10)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -564,7 +542,18 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_11() then
+        elseif xr_conditions.is_time_9() then
+	olr_func.sleep_main(10)
+	hidden_slots.inventory_close()
+	self:GetHolder():start_stop_menu(self, true)
+
+		local dream = dream.sleep_video_name_callback ()
+		   if dream ~= "" then game.start_tutorial(dream)
+		   else
+		   --game.start_tutorial("without_dream")
+		   end
+
+        elseif xr_conditions.is_time_10() then
 	olr_func.sleep_main(9)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -575,8 +564,19 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_12() then
+        elseif xr_conditions.is_time_11() then
 	olr_func.sleep_main(8)
+	hidden_slots.inventory_close()
+	self:GetHolder():start_stop_menu(self, true)
+
+		local dream = dream.sleep_video_name_callback ()
+		   if dream ~= "" then game.start_tutorial(dream)
+		   else
+		   --game.start_tutorial("without_dream")
+		   end
+
+        elseif xr_conditions.is_time_12() then
+	olr_func.sleep_main(7)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -588,17 +588,6 @@ function OldMenu:SleepSixHours()
 
 	
         elseif xr_conditions.is_time_13() then
-	olr_func.sleep_main(7)
-	hidden_slots.inventory_close()
-	self:GetHolder():start_stop_menu(self, true)
-
-		local dream = dream.sleep_video_name_callback ()
-		   if dream ~= "" then game.start_tutorial(dream)
-		   else
-		   --game.start_tutorial("without_dream")
-		   end
-
-        elseif xr_conditions.is_time_14() then
 	olr_func.sleep_main(6)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -609,7 +598,7 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_15() then
+        elseif xr_conditions.is_time_14() then
 	olr_func.sleep_main(5)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -620,7 +609,7 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-        elseif xr_conditions.is_time_16() then
+        elseif xr_conditions.is_time_15() then
 	olr_func.sleep_main(4)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -631,8 +620,7 @@ function OldMenu:SleepSixHours()
 		   --game.start_tutorial("without_dream")
 		   end
 
-
-        elseif xr_conditions.is_time_17() then
+        elseif xr_conditions.is_time_16() then
 	olr_func.sleep_main(3)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
@@ -644,8 +632,20 @@ function OldMenu:SleepSixHours()
 		   end
 
 
-        elseif xr_conditions.is_time_18() then
+        elseif xr_conditions.is_time_17() then
 	olr_func.sleep_main(2)
+	hidden_slots.inventory_close()
+	self:GetHolder():start_stop_menu(self, true)
+
+		local dream = dream.sleep_video_name_callback ()
+		   if dream ~= "" then game.start_tutorial(dream)
+		   else
+		   --game.start_tutorial("without_dream")
+		   end
+
+
+        elseif xr_conditions.is_time_18() then
+	olr_func.sleep_main(1)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -677,9 +677,9 @@ function OldMenu:SleepSixHours()
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
-
+----
         elseif xr_conditions.is_time_23() then
-	olr_func.sleep_main(21)
+	olr_func.sleep_main(19)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 

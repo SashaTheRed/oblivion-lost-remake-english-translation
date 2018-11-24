@@ -232,7 +232,7 @@
 </objective>
 
 <objective>
-<text>Bring the documents to Barkeep</text>
+<text>Bring the documents to the Barkeep</text>
 <map_location_type hint="Barkeep">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>bar_1_done</infoportion_complete> 

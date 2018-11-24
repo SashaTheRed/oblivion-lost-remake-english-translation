@@ -82,118 +82,118 @@
 
 
         <string id="zone_artifact_dezin_desc">
-		<text>Для трансмутации необходимы: артефакт "сильные иголки" и "двойная пустышка".</text>
+		<text>To transmutate, these artifacts are necessary: Sharp Needles and Double Shell.</text>
 	</string>
 
 
         <string id="name_zone_artifact_dezin">
-		<text>Дезинтегратор</text>
+		<text>Disintegrator</text>
 	</string>
 
 
         <string id="zone_artifact_af_electra_moonlight_glassbeads_spring_desc">
-		<text>Для трансмутации необходимы: артефакт "меркурий" и "жгучая вата".</text>
+		<text>To transmutate, these artifacts are necessary: Mercury and Burnt Wool.</text>
 	</string>
 
 
 
         <string id="name_zone_artifact_af_electra_moonlight">
-		<text>Электрический шар</text>
+		<text>Electric sphere</text>
 	</string>
 
 
 
         <string id="zone_artifact_af_dummy_glassbeads_spring_desc">
-		<text>Для трансмутации необходимы: артефакт "радиоактивный болт" и "ржавые волосы".</text>
+		<text>To transmutate, these artifacts are necessary: Radioactive Bolt and Rusty Hair.</text>
 	</string>
 
 
 
         <string id="name_zone_artifact_af_dummy_glassbeads">
-		<text>Мёртвая голова</text>
+		<text>Death's Head</text>
 	</string>
 
 
 
         <string id="zone_artifact_af_dummy_spring_desc">
-		<text>Для трансмутации необходимы: артефакт "жабий глаз" и "прозрачный шар".</text>
+		<text>To transmutate, these artifacts are necessary: Toad Eye and Transparent Ball.</text>
 	</string>
 
 
         <string id="name_zone_artifact_af_dummy_spring">
-		<text>Мочалка</text>
+		<text>Wisp</text>
 	</string>
 
 
 
         <string id="name_zone_artifact_af_soul">
-		<text>Чёрные капли</text>
+		<text>Black Drops</text>
 	</string>
 
 
 
         <string id="zone_artifact_af_soul_desc">
-		<text>Для трансмутации необходимы: артефакт "бублик" и "зуда".</text>
+		<text>To transmutate, these artifacts are necessary: Bagle and Itch.</text>
 	</string>
 
 
 
         <string id="recip_0">
-		<text>У меня есть трансмутатор для артефактов, меня интересуют рецепты для него.</text>
+		<text>I have an artifact transmuter. I'm interested in recipes for it.</text>
 	</string>
 
 
 
         <string id="recip_1">
-		<text>Хорошо, я могу продать тебе описания для трансмутации. Цена вопроса - 1000 деревянных. Описание будет у тебя в ПДА.</text>
+		<text>Okay. I can sell you recipes for transmutation. Each will cost you 1000 rubles. The recipes will get uploaded to your PDA.</text>
 	</string>
 
 
 
         <string id="Recepies_olr">
-		<text>Рецепты трансмутации</text>
+		<text>Transmutation recipes</text>
 	</string>
 
 
         <string id="name_rec_ribk">
-		<text>Сильный Гравитационный Артефакт</text>
+		<text>Stronger Gravitational Artifact</text>
 	</string>
 
 
         <string id="recept_ribka">
-		<text>Для трансмутации необходимы: артефакт "слабый гравитационный" и "гравитационный".</text>
+		<text>To transmutate, these artifacts are necessary: Weak Gravitational and Gravitational.</text>
 	</string>
 
 
 
         <string id="atifact_merger_desc">
-		<text>Экспериментальный скрещиватель артефактов. Разработка учёных с озера Янтарь, позволяет преобразовывать аномальные образования при наличии определённых рецептов слияния.</text>
+		<text>An experimental device used for artifact transmutation. Scientists from the Yantar lab have developed this device in order to make the transmutation of certain artifacts possible, provided the user has the recipes and artifacts to do so.</text>
 	</string>
 
 
 
         <string id="kanistra_benz_desc">
-		<text>Канистра с бензином для заправки автомобилей. Объём 15 литров.</text>
+		<text>A can of gasoline used to fuel vehicles. It contains 15 liters of gas.</text>
 	</string>
 
         <string id="kanistra_benz_name">
-		<text>Запас бензина</text>
+		<text>Gas can</text>
 	</string>
 
 
         <string id="mil_uchenis_za_nami">
-		<text>Учёные заложники: Кто-то пришёл! Неужели за нами? Эй! Сталкер! Ты от Профессора?!</text>
+		<text>Scientist hostages: Someone's here! Has he come for us? Hey! Stalker! Did the Professor send you?!</text>
 	</string>
 
 
 
 
         <string id="doki_dla_ch_opis">
-		<text>Кипа бумаг... Заметка -"лидеру Чистого Неба" ...Зона вздыбилась и расплескалась во все стороны, с бешеной скоростью увеличивая размеры пораженной земли, и города, попавшие под волны Выброса вымирали, а территория Зоны всё росла, расширяясь во все стороны. По всей Земле люди с ужасом смотрят на почерневшее небо, а съемки с орбиты показывают чудовищную чёрную кляксу, которая разрастается, поглощая Землю. Когда всё стихло, более 100 квадратных километров превратились в страшную Зону. Земля, растительность, постройки покрылись чёрной пылью. В воздух поднялись тонны радиоактивной пыли, которые разнес ураганный ветер на огромные территории, заражая чистые водоемы и плодородную почву...</text>
+		<text>A pile of papers. There's a note addressed to the leader of Clear Sky. It reads: "The Zone was created in a furious upheaval, and its radius spread around in all directions. It expanded at a furious rate, increasing the size of affected land. Cities that were hit by blowouts died out, and the territory of the Zone grew, expanding in all directions whenever blowouts happen. Across the Earth, people look with horror at the blackened sky, and photos taken from orbit shows a monstrous black blot that is growing, appearing as a black, cancerous tumor that is poisoning our home, Earth. When everything was quiet after everyone had either moved away or perished, the Zone was comprised of more than 100 square kilometers. Land, vegetation, and buildings were covered with black dust. Tons of radioactive dust was carried by the air, which caused many ecological crisis'.”</text>
 	</string>
 
         <string id="doki_dla_ch_name">
-		<text>Неизвестный документ</text>
+		<text>Pile of unknown documents</text>
 	</string>
 
 
@@ -204,26 +204,26 @@
 
 
         <string id="qulon_name_desc">
-		<text>Серебряный кулон карликов. Старейшина дал его в награду за помощь.</text>
+		<text>A silver pendant. The elder of the dwarves gave it as a reward for your help.</text>
 	</string>
 
 
 
         <string id="qulon_name">
-		<text>Серебряный кулон</text>
+		<text>Silver pendant</text>
 	</string>
 
 
         <string id="dnevnik_strelka_name">
-		<text>Дневник Стрелка</text>
+		<text>Arrow's diary</text>
 	</string>
 
 
         <string id="dnevnik_strelka_opis">
-		<text>Дневник легендарного сталкера по прозвищу Стрелок. Судя по внешнему виду дневника и записям, владелец дневника ведёт его уже очень давно. Есть записи о попытках прорыва в центр Зоны, какие-то схемы, карты, пометки.
-Записи похода к центру Зоны:
-Запись №1 
-Итак, дорога разведана, план составлен, припасы собраны, стволы вычищены до блеска. Спасибо Доктору, помог с медициной и провиантом, с ними у нас было худо в последнее время. Надеюсь, всё это не напрасно, и мы найдём ключ к разгадке того, что там происходит. Говорят, что у человека заложено так, что всё, что ему неизвестно, вызывает у него и любопытство и страх одновременно. Но я чувствую что-то ёщё, третье, нечто, словно... зов.</text>
+		<text>The journal of the legendary stalker known as Strelok. Judging by the appearance of the journal and the notes inside, its owner has kept it for a very long time. There are entries of attempts to break into the center of the Zone, as well as some schemes, maps, and notes.
+Campaign entries to the center of the Zone:
+Entry #1 
+So, road's explored, plan's ready, supplies are collected, guns are shined. Thanks to the Doctor, we have some more medicine and food. We've been having bad luck with finding it lately. I hope none of this is in vain and that we'll find a clue to what's happening there. They say a man feels both curiosity and fear at the same time to that which he does not know. But I feel something else, a third element, something like... a call.</text>
 	</string>
 
 
@@ -231,28 +231,28 @@
 
 
         <string id="jabin_holodilnik_desc">
-		<text>Контейнер с медикаментами для Доктора. Довольно тяжёлый.</text>
+		<text>A container of medicine for the Doctor. It's quite heavy.</text>
 	</string>
 
 
 
 
         <string id="jabin_holodilnik_name">
-		<text>Контейнер для Доктора</text>
+		<text>Container for Doctor</text>
 	</string>
 
 
 
 
         <string id="na_bolotah_toze_izluchenie">
-		<text>Мессер, это Профессор. Если Вы ещё не в курсе, крайняя часть болот находится под пси-излучением... Наши работники проводили испытания и здесь. Что с ними произошло, нам неизвестно уже давно, однако возможность отключить установку на болоте есть. Наши сотрудники проводили исследования в одном из здешних домов...</text>
+		<text>Messer, this is the Professor. I'm going to warn you about something: various parts of the swamp have been affected by psy-emissions. Our workers conducted tests here a long time ago. We don't know what happened to them, but you'll be able to disable the devices that are creating the psy-emissions. Some of our staff members conducted research in one of the houses here...</text>
 	</string>
 
 
 
 
         <string id="rostok_hm_kodovaya_dver">
-		<text>Хм... Кодовая дверь... Код...</text>
+		<text>Hmm... What's the code to the door?</text>
 	</string>
 
 
@@ -261,50 +261,50 @@
 
 
         <string id="rostok_znakomoe_mesto">
-		<text>Хм... Место кажется знакомым...</text>
+		<text>Hmm, this place seems familiar..</text>
 	</string>
 
 
         <string id="st_boloto_sos_greh_lider">
-		<text>Сообщение. Лидер "Греха": Хм, вот он где... Недалеко убежал... Прикончи его, сталкер. Он уже всё равно не жилец.</text>
+		<text>Message - Sin Leader: Well, here he is. He didn't manage to get far. Finish him off, stalker. He's not a tenant here anymore.</text>
 	</string>
 
 
         <string id="st_boloto_sos">
-		<text>Сигнал SOS: Кто-нибудь, помогите! Я в доме на болоте...</text>
+		<text>SOS signal: Somebody help! I'm in a house at the swamp..</text>
 	</string>
 
 
 
 
         <string id="zenado_0">
-		<text>Здрасьте...</text>
+		<text>Hello...</text>
 	</string>
 
         <string id="zenado_1">
-		<text>Чё тебе надо?! Вали отсюда, бля!</text>
+		<text>What do you want?! Get the fuck out!</text>
 	</string>
 
 
 
 
         <string id="olr_zablikov_doki_name">
-		<text>Приказ №3467</text>
+		<text>Order No. 3467</text>
 	</string>
 
 
         <string id="olr_zablikov_doki_opis">
-		<text>Главы администрации завода "Росток", Николаева О.Д.
-Приказ.
-Работник отдела сдачи продукции, Зябликов И.И., в связи с производственными необходимостями переведен из отдела сдачи продукции в научно-исследовательскую лабораторию №6
-Дата: 10.02.2005
-Минтруда Украины
-Подпись: Николаев О.Д.
+		<text>Head administration of the Rostok factory, Nikolayeva O.D.
+Order.
+Работник отдела сдачи продукции, Зябликов И.И., в связи с производственными необходимостями переведен из отдела сдачи продукции в научно-исследовательскую лабораторию #6
+Date: February 10, 2005
+Ministry of Labor of Ukraine
+Signature: Nikolayev O.D.
 </text>
 	</string>
 
         <string id="looks_like_arhiv_rostok">
-		<text>Хм... Похоже на отдел кадров заводоуправления. Или какой-то архив...</text>
+		<text>Hmm, this looks like the personnel management department of the plant, or some sort of archive..</text>
 	</string>
 
         <string id="enc_equipment_devic_device_pda_jan_one">
@@ -343,80 +343,80 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
         <string id="enc_equipment_pribor_zamery_zameryany">
-		<text>Прибор c картой аномального поля.</text>
+		<text>A device that records activity from anomalous fields.</text>
 	</string>
 
 
         <string id="pribor_zamery">
-		<text>Прибор</text>
+		<text>Anomaly recording device</text>
 	</string>
 
 
 
         <string id="enc_equipment_pribor_zamery">
-		<text>Прибор измеряющий аномальную активность. Для замера необходимо подойти к аномальной зоне и активировать прибор.</text>
+		<text>A device that records and measures activity from anomalous fields. In order for it to work, you need to approach an anomalous field and activate the device.</text>
 	</string>
 
 
         <string id="dead_crow_food">
-		<text>Мёртвая ворона</text>
+		<text>Dead crow</text>
 	</string>
 
         <string id="enc_crow_food">
-		<text>Тушка вороны. Вполне пригодна в пищу, однако довольно сильно радиоактивна.</text>
+		<text>A carcass of a crow. It's edible, but quite radioactive.</text>
 	</string>
 
 
         <string id="deads">
-		<text>Мертвецы</text>
+		<text>Corpse</text>
 	</string>
 
 
         <string id="laba_opis">
-		<text>Документы из заброшенной лаборатории. В них упоминается об экспериментах, проводимых в комплексе, в частности, над бюрерами, имеются ежемесячные отчёты работы научных отделов, списки всех научных работников, бюджеты проектов, инструкции по проведению стандартных процедур. Также говорится о передаче результатов экспериментов в другой комплекс. Судя по координатам, располагается где-то на Янтаре.</text>
+		<text>Documents from an abandoned laboratory. They mention experiments conducted in a complex that are related to 'burers'. There's also a monthly reports of work from research departments, lists of all scientists, project budgets, and instructions for carrying out standard procedures. There's also details related to a transfer of experimental projects to another complex. Judging by the coordinates, the project transfer was taken to somewhere at Yantar.</text>
 	</string>
 
 
         <string id="osveschenie_doma">
-		<text>Цифровое управление освещением. Коды управления: 1 - вкл, 2 - выкл.</text>
+		<text>A digital device used to control lights. Control codes: 1 - on, 2 - off.</text>
 	</string>
 
 
         <string id="tip_pnut_door">
-		<text>Кажется, заблокировано. Можно попытаться выбить.</text>
+		<text>This seems to be blocked. You can try to knock it down.</text>
 	</string>
 
 
         <string id="det_art_super">
-		<text>Детектор артефактов "SUPER"</text>
+		<text>"SUPER" Artifact Detector</text>
 	</string>
 	<string id="det_art_super_info">
-		<text>Детектор артефактов серии "SUPER". Данный детектор является последней разработкой местных учёных. Благодаря нанотехнологиям, чувствительность детектора увеличена до 1.5 километров. Наличие артефактов отображается метками на карте местности. Помимо мест их нахождения, детектор распознаёт типы артефактов, что делает данный прибор самым лучшим из всех серий детекторов.</text>
+		<text>A "SUPER" artifact detector. This detector is the latest result of technological development from scientists in the Zone. Thanks to nanotechnology, the sensitivity of the detector is increased to 1.5 kilometers. The presence of artifacts is indicated by markers on the map, and this device can also tell the user what type of artifacts they are. This is the best artifact detector that money can buy in the Zone.</text>
 	</string>
 	<string id="det_art_pro">
-		<text>Детектор артефактов "PRO"</text>
+		<text>"PRO" Artifact Detector</text>
 	</string>
 	<string id="det_art_pro_info">
-		<text>Детектор артефактов серии "PRO". Это улучшенная версия детектора артефактов "INDY", прошедший модернизацию у местных учёных. Добавлена карта местности с выводом меток на её поверхность. Радиус действия увеличен до 70 метров. В связи с приемлемой ценой и улучшенными характеристиками, его использование считается наиболее предпочтительным.</text>
+		<text>A "PRO" artifact detector. This is an improved version of the "INDY" artifact detector - various improvements have been applied to it by Zone scientists. Its main improvement is a digital map readout that provides the user with locations of artifacts within its detection range. Its detection range has also been increased to 70 meters. Due to its acceptable price and performance, this is one of the more commonly used detectors.</text>
 	</string>
 	<string id="det_art_indy">
-		<text>Детектор артефактов "INDY"</text>
+		<text>"INDY" Artifact Detector</text>
 	</string>
 	<string id="det_art_indy_info">
-		<text>Детектор артефактов серии "INDY". Это первый детектор артефактов, разработанный местными умельцами. Прибор малоэффективен, так как радиус действия его не превышает 40 метров, и наличие артефакта распознаётся только звуковым сигналом. Но в своё время, с помощью данного прибора было найдено более полутора тысяч артефактов.</text>
+		<text>A "INDY" artifact detector. This is the first artifact detector developed and built by local craftsmen. Compare to other detectors, it is ineffective, since its detection radius is only 40 meters, and its only method of signifying the user is a beep that increases in pitch and speed when the user gets closer to the artifact. However, thanks to this device, more than a thousand artifacts have been found and sold by stalkers.</text>
 	</string>
 
 
 
 
 	<string id="st_dead_comm">
-		<text>Группировка:</text>
+		<text>Faction:</text>
 	</string>
 	<string id="st_death_loc">
-		<text>Локация:</text>
+		<text>Location:</text>
 	</string>
 	<string id="st_death_msg">
-		<text>Имя:</text>
+		<text>Name:</text>
 	</string>
 
 
@@ -428,25 +428,25 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 <string id="enc_device_torch_bad">
-	<text>Нерабочий фонарь. Кажется, разрядились аккумуляторы.</text>
+	<text>Non-working flashlight. The batteries inside are empty.</text>
 </string>
 
 <string id="device_torch_bad">
-	<text>Нерабочий фонарь</text>
+	<text>Non-working flashlight</text>
 </string>
 
 
 
 <string id="off_ust">
-	<text>Отключить питание пси-установки.</text>
+	<text>Turn off the psy-device.</text>
 </string>
 
 <string id="off_cheno">
-	<text>Питание пси-установки выключено.</text>
+	<text>The psy-device has been turned off.</text>
 </string>
 
 <string id="enc_equipment_devic_device-pda2_ucheny">
-	<text>Данные повреждены. Последняя запись: Чёрт, кажется, нога сломана, ах... Видимо, оно засело в подвале и создаёт пси-блокаду.. Вниз, точно, не пробраться... Если только пробраться к пульту управлением "псионика" и попытаться блокировать его. Чёрт... код от двери 8620. Хорошо, что Профессор сказал его, на всякий случай.</text>
+	<text>The data on this PDA is corrupted, but the last entry is still readable: Damn, my leg seems to be broken. Just what I need.. apparently, the device creating the psy-blockade is in the basement. Going down there will be impossible, but if I find the psionic control console, I can disable it. I think the door code for room that has that console is 8620 - Professor told me that before I left his bunker.</text>
 </string>
 
 
@@ -457,73 +457,73 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 <string id="art_box_special">
-	<text>Контейнер артефактов (R2)</text>
+	<text>(R2) Artifact Container</text>
 </string>
 <string id="art_box_special_s">
-	<text>Контейнер артефактов (R2)</text>
+	<text>(R2) Artifact Container</text>
 </string>
  <string id="art_box_1special">
-	<text>Капсула (R1)</text>
+	<text>(R1) Capsule</text>
 </string>
 <string id="art_box_1special_s">
-	<text>Капсула (R1)</text>
+	<text>(R1) Capsule</text>
 </string>
  <string id="art_box_8special">
-	<text>Контейнер артефактов (R3)</text>
+	<text>(R3) Artifact Container</text>
 </string>
 <string id="art_box_8special_s">
-	<text>Контейнер артефактов (R3)</text>
+	<text>(R3) Artifact Container</text>
 </string>
 <string id="enc_arc_art_box_basic">
-	<text>Средний научный контейнер для артефактов. Предназначен для ручной переноски артефактов средней степени опасности. Несмотря на небольшие размеры, вполне обеспечивает необходимую защиту от среднего аномального и радиоактивного излучения. Изготовлен из специального сверхпрочного пластика, покрытого сверху слоем новейшего сплава металлов, полученного в лаборатории на озере Янтарь. Пользуется большим спросом у профессиональных добытчиков артефактов.</text>
+	<text>A medium-sized container for artifacts. Its been designed for transporting moderately dangerous artifacts easily. Despite its small size, it provides adequate protection against the radiation and potentially harmful anomalous effects from artifacts. It's made out of a special heavy-duty plastic that's coated on the outside with a layer of a protective metal alloy developed by scientists from the Yantar mobile lab. This container is in great demand among professional artifact collectors.</text>
 </string>
 <string id="enc_arc_art_box_8basic">
-	<text>Научный контейнер для артефактов. Предназначен для ручной переноски радиоактивных артефактов. Несмотря на небольшие размеры, вполне обеспечивает необходимую защиту от слабого радиоактивного излучения. Изготовлен из специального сверхпрочного пластика, покрытого сверху слоем новейшего сплава металлов, полученного в лаборатории на озере Янтарь. Пользуется большим спросом у профессиональных добытчиков артефактов.</text>
+	<text>A basic container for artifacts. Its been designed for transporting basic and non-dangerous artifacts easily. Despite its small size, it provides decent protection against low levels of radiation from artifacts. It's made out of a special heavy-duty plastic that's coated on the outside with a layer of a protective metal alloy developed by scientists from the Yantar mobile lab. This container is in great demand among professional artifact collectors.</text>
 </string>
 <string id="enc_arc_art_1box_basic">
-	<text>Специальный научный контейнер для артефактов. Предназначен для ручной переноски особо опасных или особо радиоактивных артефактов. Несмотря на небольшие размеры, вполне обеспечивает необходимую защиту от аномального и радиоактивного излучения. Изготовлен из специального сверхпрочного пластика, покрытого сверху слоем новейшего сплава металлов, полученного в лаборатории на озере Янтарь. Процесс изготовления держится в секрете, однако известно, жёсткое излучение любой интенсивности практически полностью экранируется стенками контейнера. Пользуется большим спросом у профессиональных добытчиков артефактов.</text>
+	<text>A specialized container for artifacts. Its been designed for transporting highly dangerous artifacts easily. Despite its small size, it provides excellent protection against more intensive radiation and harmful anomalous effects from higher-end artifacts. It's made out of a special heavy-duty plastic that's coated on the outside with a layer of a protective metal alloy developed by scientists from the Yantar mobile lab. The manufacturing process for this specific container is kept secret. This container is in great demand among professional artifact collectors.</text>
 </string>
  <string id="enc_arc_art_box_basic_1">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит один артефакт.</text>
+	<text>A special scientific container for artifacts. This container contains one artifact.</text>
 </string>
  <string id="enc_arc_art_box_basic_2">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит два артефакта.</text>
+	<text>A special scientific container for artifacts. This container contains two artifacts.</text>
 </string>
  <string id="enc_arc_art_box_basic_3">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит три артефакта.</text>
+	<text>A special scientific container for artifacts. This container contains three artifacts.</text>
 </string>
  <string id="enc_arc_art_box_basic_4">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит четыре артефакта.</text>
+	<text>A special scientific container for artifacts. This container contains four artifacts.</text>
 </string>
  <string id="enc_arc_art_box_basic_5">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит пять артефактов.</text>
+	<text>A special scientific container for artifacts. This container contains five artifacts.</text>
 </string>
  <string id="enc_arc_art_box_basic_6">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит шесть артефактов.</text>
+	<text>A special scientific container for artifacts. This container contains six artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_7">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит семь артефактов.</text>
+	<text>A special scientific container for artifacts. This container contains seven artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_8">
-	<text>Специальный научный контейнер для артефактов. Этот контейнер содержит восемь артефактов.</text>
+	<text>A special scientific container for artifacts. This container contains eight artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_9">
-	<text>Специальный научный контейнер для артефактов.</text>
+	<text>A special scientific container for artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_10">
-	<text>Специальный научный контейнер для артефактов.</text>
+	<text>A special scientific container for artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_11">
-	<text>Специальный научный контейнер для артефактов.</text>
+	<text>A special scientific container for artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_12">
-	<text>Специальный научный контейнер для артефактов.</text>
+	<text>A special scientific container for artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_13">
-	<text>Специальный научный контейнер для артефактов.</text>
+	<text>A special scientific container for artifacts.</text>
 </string>
 <string id="enc_arc_art_box_basic_14">
-	<text>Специальный научный контейнер для артефактов.</text>
+	<text>A special scientific container for artifacts.</text>
 </string>
 
 
@@ -531,37 +531,37 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 	<string id="dolg_base_marker">
-		<text>База "Долга"</text>
+		<text>"Duty" base</text>
 	</string>  
 
 
 <string id="enc_dead_rat">
-		<text>Мёртвая крыса. Немного фонит, однако может быть употреблена в пищу.</text>
+		<text>A dead rat. It's a little dirty, but you can eat it.</text>
 	</string>
 
 <string id="dead_rat">
-		<text>Крыса</text>
+		<text>Dead rat</text>
 	</string>
 
 <string id="dead_rat_s">
-		<text>Крыса</text>
+		<text>Dead rat</text>
 	</string>
 
 <string id="tre_ruck_s">
-		<text>Рюкзак.</text>
+		<text>Backpack</text>
 	</string>
 
 <string id="tre_ruck">
-		<text>Рюкзак.</text>
+		<text>Backpack</text>
 	</string>
 
 
 <string id="enc_tre_ruck">
-		<text>Рюкзак от сталкерского костюма. Можно сделать свой тайник в укромном месте.</text>
+		<text>A backpack from a stalker suit. You can hide your stuff in this somewhere where no one will look.</text>
 	</string>
 
 <string id="container_spam_sms">
-		<text>Проваливай отсюда, сталкер.</text>
+		<text>Get out of here, stalker.</text>
 	</string>
 
 
@@ -572,7 +572,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 <string id="enc_equipment_4r34devic_device-pda0">
-		<text>Держи. Приятного аппетита!</text>
+		<text>Take this. Enjoy your meal!</text>
 	</string>
 
 <string id="enc_equipment_4r34devic_device-pda1">
@@ -580,7 +580,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 <string id="enc_eq234uipment_devic_device-pda1">
-		<text>И всё, больше ничего не знаешь?</text>
+		<text>You don't know anything else?</text>
 	</string>
 
 <string id="enc_equipment_devic_de444vice-pda1">
@@ -589,25 +589,25 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 <string id="enc_equipment_devic_device-pda1">
-		<text>Персональный миниатюрный компьютер для хранения данных.</text>
+		<text>Small, personal hand-held computer for data storage.</text>
 	</string>
 
 
 <string id="mg_zobmie_hello">
-		<text>Эй, сталкер, подойди. Я тут, в доме на холме.</text>
+		<text>Hey, stalker, come here. I'm in the house on the hill.</text>
 	</string>
 
 
 <string id="dolg_spam_sms">
-		<text>Сталкер, ты находишься на территории группировки "Долг". Не вздумай стрелять здесь.</text>
+		<text>Stalker, you are in Duty territory. Don't make any trouble here.</text>
 	</string>
 
 <string id="jaba_hello_sms">
-		<text>Мессер, я тут на Холмах, зайди ко мне в бункер. Жаба.</text>
+		<text>Messer, I'm in at the Silent Hills, come to my bunker. Toad.</text>
 	</string>
 
 <string id="warfare">
-		<text>Так.. Мы думаем сделать рейд To the Silent Hills. Эти тёмные явно там что-то затевают, поэтому нам нужно сделать небольшую разведку. Деревня на западе холмов подходит для маскировки. Проблема в том, что там завёлся контроллёр. Его необходимо уничтожить.</text>
+		<text>So.. we're thinking of doing a raid at the Silent Hills. These "Sinners" are clearly up to something, so we need to do a little recon. The village to the west of the hills will give us the cover we need. There's one problem: there's a controller there. It must be killed.</text>
 	</string>
 
 <string id="lvl16_generators_level_changer">
@@ -784,7 +784,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 <string id="esc_kv_atr_1">
-		<text>Нужно забрать ящик для Жабы.</text>
+		<text>You need to pick up the box for Toad.</text>
 	</string>
 
 <string id="neutral">
@@ -792,12 +792,12 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 	</string>
 
 <string id="caes_barman">
-		<text>Сталкер, это Бармен. Даже не верится, что ты там, у станции. Если ты всё же решился пробраться внутрь к Монолиту, то слушай. Вход находится за станцией, с северной части. Двойные ворота. Надеюсь, ты знаешь, что делаешь...</text>
+		<text>Stalker, this is Barkeep. I can't believe you've made it to the reactor. If you do decide to go inside in order to get to the Monolith, then listen. The entrance is behind the reactor at the north. You'll see some double gates when you get there. I hope you know what you're doing...</text>
 	</string>
 
 
 <string id="chaes_barman">
-		<text>Сталкер, это Бармен. Даже не верится, что ты там, у станции. Если ты всё же решился пробраться внутрь к Монолиту, то слушай. Вход находится за станцией, с северной части. Двойные ворота. Надеюсь, ты знаешь, что делаешь..</text>
+		<text>Stalker, this is Barkeep. I can't believe you've made it to the reactor. If you do decide to go inside in order to get to the Monolith, then listen. The entrance is behind the reactor at the north. You'll see some double gates when you get there. I hope you know what you're doing...</text>
 	</string>
 
 	<string id="barman_kogo_tam">
@@ -806,19 +806,19 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
        <string id="final_olr_0">
-		<text>Здравствуй, Стрелок.</text>
+		<text>Hello, Strelok.</text>
 	</string>
 	<string id="final_olr_1">
-		<text>Что?!</text>
+		<text>What?!</text>
 	</string>
 	<string id="final_olr_2">
-		<text>Тихо, тихо, всё уже позади.</text>
+		<text>Shh, shh, it's over now.</text>
 	</string>
 	<string id="final_olr_3">
-		<text>Что? Кто ты?</text>
+		<text>What? Who are you?</text>
 	</string>
 	<string id="final_olr_5">
-		<text>Мужик, мне плевать, кто ты! Стой здесь, а я пойду, по Зоне погуляю.</text>
+		<text>I don't care who you are! Stay here while I go talk a walk around the Zone. I need to do some more errands.</text>
 	</string>
 
 	<string id="final_olr_6">
@@ -827,20 +827,20 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 	<string id="sliznyaki">
-		<text>Чёрные Слизни</text>
+		<text>Black Slugs</text>
 	</string>
 
 	<string id="lastday">
-		<text>Последний День</text>
+		<text>Last Day</text>
 	</string>
 
 	<string id="iskateli">
-		<text>Искатели</text>
+		<text>Seekers</text>
 	</string>
 
 
 	<string id="sin">
-		<text>Грех</text>
+		<text>Sin</text>
 	</string>
 
 <string id="hui_pizda">
@@ -849,7 +849,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 <string id="aaj_golova">
-		<text>Эй.., сталкер!</text>
+		<text>Hey, stalker!</text>
 	</string>
 
 	<string id="gen_find_exit_lab_d_name">
@@ -869,23 +869,23 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
         <string id="off_yan">
-		<text>Отключить установку</text>  
+		<text>Disable the device.</text>  
 	</string>
 
         <string id="off_yan1">
-		<text>Установка отключена</text> 
+		<text>The device has been disabled.</text> 
 	</string>
 
         <string id="off_swamp_rubilnik">
-		<text>Отключить установку</text>  
+		<text>Disable the device.</text>  
 	</string>
 
         <string id="off_swamp_rubilnik1">
-		<text>Установка отключена</text> 
+		<text>The device has been disabled.</text> 
 	</string>
 
         <string id="yan_sah_spam">
-		<text>Мессер! Показатели говорят о том, что Вы находитесь совсем рядом с установкой!</text> 
+		<text>Messer! Indicators say that you are very close to the installation!</text> 
 	</string>
 
 
@@ -1182,16 +1182,16 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 		<text>А?.. К... кхто?.. Кха...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1000">
-		<text>Эт-то кто это тут у нас?..</text>
+		<text>Who is here with us?</text>
 	</string>
 	<string id="aes_sergeant_diallog_1001">
-		<text>Помоги... Помоги-и...</text>
+		<text>Help... Help me...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1002">
 		<text>Оп-па... Да, служивый, покромсало тебя знатно...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1003">
-		<text>Перебьёшься!</text>
+		<text>Kill yourself!</text>
 	</string>
 	<string id="aes_sergeant_diallog_1004">
 		<text>Ты этот... монолитовец? Я слы... шал... так вас полкан называл...</text>
@@ -1203,10 +1203,10 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 		<text>Я... сержант... Василь "Невезучий"...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1007">
-		<text>Да уж, заметно.</text>
+		<text>Yes, I can see.</text>
 	</string>
 	<string id="aes_sergeant_diallog_1008">
-		<text>Кто... кто из наших ещё выжил?</text>
+		<text>Who... who else survived?</text>
 	</string>
 	<string id="aes_sergeant_diallog_1009">
 		<text>Похоже, никто... Чёрт, врача бы сюда. Аптечкой, брат, тебе, боюсь, не поможешь.</text>
@@ -1245,13 +1245,13 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 		<text>Может, кто из наших живой... закрепиться смог... У нас... задача была - захватить дорогу к Сарко... кх... кх... Саркофагу... если что, ждать подкреплений...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1021">
-		<text>Подкреплений?</text>
+		<text>Reinforcements?</text>
 	</string>
 	<string id="aes_sergeant_diallog_1022">
 		<text>Батя... полкан наш, говорил - отпора почти не будет... звери... уродов пара...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1023">
-		<text>Так что за подкрепления?</text>
+		<text>What kind of reinforcements?</text>
 	</string>
 	<string id="aes_sergeant_diallog_1024">
 		<text>Там спецназ... тоже: мы облажались, они начнут... Я думал, постреляем... кх... немного... а тут война... Не ходи прямо по дороге...</text>
@@ -1263,7 +1263,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 		<text>А-а, больно!.. А-а-а... домой меня... без вертушек тут хрен прорвёшься...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1027">
-		<text>Сержант!..</text>
+		<text>Sergeant!..</text>
 	</string>
 	<string id="aes_sergeant_diallog_1028">
 		<text>Так точно... сержант Василь Счастливенко... У противника... минимум три пулемётных точки, несколько снайперов... Мужик, ты не ходи... не ходи туда... кх... кх...</text>
@@ -1287,7 +1287,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 		<text>Я бы... тоже хотел глянуть... но, видно, не судьба... Возьми мой ПДА.... кх... там план захвата Саркофага...\nВсе наши группы... указаны... Может, тебе повезет... прорваться... и Монолит исполнит... твоё желание...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1035">
-		<text>Спасибо...</text>
+		<text>Thank you..</text>
 	</string>
 
 
@@ -1301,7 +1301,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 	<string id="garb_miliraty_docs_description_olr">
-		<text>Документы cодержащие сведения о крупномасштабном прорыве к центру Зоны. Возможно, торговцев заинтересует данная информация.</text>
+		<text>Documents containing information about a large-scale military breakthrough to the center of the Zone. Traders might be interested in this information.</text>
 	</string>
 
 
@@ -1331,7 +1331,7 @@ P.S. О поставках биоматериалов я договорюсь в ближайшее время.</text>
 
 
 	<string id="jornal_6_description_olr">
-		<text>Документы с Радара. Содержат информацию об испытаниях антенны, отчёт о работе персонала, описание Монолита, схему психотронного оружия. Cодержит отсылку к Припяти. Здание школы.</text>
+		<text>Various documents from the Radar area. They contain information about the tests of the antenna systems, a report detailing work progress reports from personnel, a description of the Monolith, and various psychotronic weapon schematics. There's also a reference to a specific school building in Pripyat.</text>
 	</string>
 
 
