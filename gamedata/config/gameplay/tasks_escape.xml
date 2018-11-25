@@ -191,8 +191,8 @@
 </objective>
 
 <objective>
-<text>Give the ammo to Ferret</text>
-<map_location_type hint="Ferret">blue_location</map_location_type>
+<text>Give the ammo to Weasel</text>
+<map_location_type hint="Weasel">blue_location</map_location_type>
 <icon height="50" width="50" x="100" y="50">ui\ui_icons_task</icon>
 <object_story_id>escape_provodnik</object_story_id>
 <infoportion_complete>olr_5_have</infoportion_complete>  
@@ -200,7 +200,7 @@
 </objective>
 
 <objective>
-<text>Bring Ferret's artifact</text>
+<text>Bring Weasel's artifact</text>
 <map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>olr_5_done</infoportion_complete> 
