@@ -7,11 +7,6 @@ A list of all files with detailed progress can be found below.
 - **[config](gamedata/config)**
 	- [localization.ltx](gamedata/config/localization.ltx)
 		- done
-- **[config\ui](gamedata/config/ui)**
-	- [ui_artefact_merger_wnd.xml](gamedata/config/ui/ui_artefact_merger_wnd.xml)
-		- done
-	- [ui_old_sleep_wnd.xml](gamedata/config/ui/ui_old_sleep_wnd.xml)
-		- done
 - **[config\gameplay](gamedata/config/gameplay)**
 	- [-character_desc_general_olr25.xml](gamedata/config/gameplay/-character_desc_general_olr25.xml)
 		- done
@@ -253,6 +248,11 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_others.xml](gamedata/config/text/eng/ui_st_others.xml)
 		- done
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
+		- done
+- **[config\ui](gamedata/config/ui)**
+	- [ui_artefact_merger_wnd.xml](gamedata/config/ui/ui_artefact_merger_wnd.xml)
+		- done
+	- [ui_old_sleep_wnd.xml](gamedata/config/ui/ui_old_sleep_wnd.xml)
 		- done
 - **[scripts](gamedata/scripts)**
 	- [dmx_cars.script](gamedata/scripts/dmx_cars.script)
