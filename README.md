@@ -124,7 +124,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_storyline_info_escape.xml](gamedata/config/text/eng/stable_storyline_info_escape.xml)
 		- in progress
 	- [stable_storyline_info_garbage.xml](gamedata/config/text/eng/stable_storyline_info_garbage.xml)
-		- in progress
+		- done
 	- [stable_storyline_info_military.xml](gamedata/config/text/eng/stable_storyline_info_military.xml)
 		- done
 	- [stable_storyline_info_pripyat.xml](gamedata/config/text/eng/stable_storyline_info_pripyat.xml)
@@ -144,13 +144,13 @@ A list of all files with detailed progress can be found below.
 	- [string_table_enc_mutants.xml](gamedata/config/text/eng/string_table_enc_mutants.xml)
 		- done (needs revision)
 	- [string_table_enc_social.xml](gamedata/config/text/eng/string_table_enc_social.xml)
-		- in progress
+		- done
 	- [string_table_enc_vehicles.xml](gamedata/config/text/eng/string_table_enc_vehicles.xml)
 		- done (needs revision)
 	- [string_table_enc_weapons.xml](gamedata/config/text/eng/string_table_enc_weapons.xml)
 		- done (needs revision)
 	- [string_table_enc_zone.xml](gamedata/config/text/eng/string_table_enc_zone.xml)
-		- in progress
+		- done
 	- [string_table_general.xml](gamedata/config/text/eng/string_table_general.xml)
 		- done
 	- [string_table_includes.xml](gamedata/config/text/eng/string_table_includes.xml)
