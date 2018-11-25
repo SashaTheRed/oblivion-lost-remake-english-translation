@@ -717,13 +717,13 @@
 		<text>Repair my suit.</text>
 	</string>
 	<string id="escape_trader_repair_5">
-		<text>Damn. I'm a little strapped for cash. I'll come by later.</text>
+		<text>Damn. I'm a little short on cash. I'll come by later.</text>
 	</string>
 	<string id="escape_trader_repair_6">
-		<text>I'll make it top notch quality!\nDone. You can collect it!</text>
+		<text>I'll make it top notch quality!\nDone. You can take it now!</text>
 	</string>
 	<string id="escape_trader_repair_7">
-		<text>Marked One, I see you've been slammed hard.\nSo... I had those armor plates somewhere... Here! Did everything I could!</text>
+		<text>Marked One, I see you've been slammed hard.\nHmm, I had some armor plates somewhere... Here! Did everything I could!</text>
 	</string>
 	<string id="escape_trader_repair_8">
 		<text>Great work, Toad! You weren't lying about being God's technician.</text>
@@ -797,10 +797,10 @@
 		<text>Repair my suit.</text>
 	</string>
 	<string id="yantar_trader_repair_5">
-		<text>Damn. I'm a little strapped for cash. I'll come by later.</text>
+		<text>Damn. I'm a little short on cash. I'll come by later.</text>
 	</string>
 	<string id="yantar_trader_repair_6">
-		<text>Wait just a moment...\nYou can take your item.</text>
+		<text>Wait just a moment...\nHere, I'm done. Take it.</text>
 	</string>
 	<string id="yantar_trader_repair_7">
 		<text>I've had a deficit of armor components, but I have a supply left. I'll work on it now...\nYou can take your item.</text>
@@ -843,13 +843,13 @@
 		<text>Changed a few parts, oiled it and cleaned it...\nUse it well!</text>
 	</string>
 	<string id="mil_trader_repair_7">
-		<text>Marked One, do you happen to have some kind of label that says "shoot here"? Whatever, hand it over... I'll fix it up...\nFor you, only fresh armor plates from the refrigerator! And I've also stuck on the label!</text>
+		<text>Messer, do you happen to have some kind of label that says "shoot here" on you? Whatever, hand it over... I'll fix it up...\nFor you, only fresh armor plates from the refrigerator! I've also torn off the label, haha.</text>
 	</string>
 	<string id="mil_trader_repair_8">
 		<text>Great work!</text>
 	</string>
 	<string id="mil_trader_repair_9">
-		<text>Real funny... Although... Looking at it is even nicer now!</text>
+		<text>Real funny... Although... Looking at it, it's even nicer now!</text>
 	</string>
 	<string id="mil_trader_repair_10">
 		<text>Can you fix something else?</text>
