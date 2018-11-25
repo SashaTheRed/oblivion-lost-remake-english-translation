@@ -23,7 +23,7 @@ local function give_news()
 		get_console():execute("unbind active_jobs")
 		get_console():execute("unbind map")
 		get_console():execute("unbind contacts")
-	--news_manager.send_tip(db.actor, "Связь со спутником потеряна", nil, "default", 5000)
+	--news_manager.send_tip(db.actor, "Satelite connection lost", nil, "default", 5000)
   		return false 
  	end
 --]]
@@ -133,16 +133,16 @@ end
 -- 04:30 - 07:00
 function show_morning_templates(time)
 	local morning_templates = {
-	"Мужики, рассветает... красиво-то как.",
-	"Рассветает...",
-	"Народ, тут это, рассветает - думаю, можно уже выдвигаться, мало ли на кого теперь натолкнёмся, не то что ночью.",
-	"Рассвело. Выдвигаемся, сейчас более-менее безопасно.",
-	"Мужики, подъём! Утро уже!",
-	"Эх, мужики! Наконец-то светает, а то устал уже я дрожать от страха в темноте. Уж лучше при свете дня... дрожать...",
-	"Меня кто-нибудь слышит? Сегодня ночью пропала группа наших ребят. Должны были вернуться к утру с Медприбора. До сих пор нет. Через час отправляемся на поиски. Присоединяйтесь.",
-	"Чёрт, кто придумал утро... Сегодня ж всю ночь пили...",
-	"Мужики, вы бы видели, какой тут на Янтаре рассвет. Это что-то...",
-	"О, вояки что-то всполошились, видать монстры с утречка решили блокпост снести! "
+	"Guys, it's morning... man, the sky looks so beautiful.",
+	"It's the morning...",
+	"Guys, it's the morning already - I think we can move now. We probably won't stumble upon anyone, compared to the night.",
+	"It's the morning. Let's go, it's a bit safer now.",
+	"Guys, let's go! It's dawn!!",
+	"Hey, guys! It's clearer, I'm tired of lying in the darkness in fear. It's better to lie out of fear in the light...",
+	"Can anyone hear me? This night a group of our guys dissapeared. They should've came by dawn from Med-Pribor. They didn't. We're going there in an hour, if you want you can go with us.",
+	"Damnit... who the hell invented the morning anyway? Especially after an all night drinking session...",
+	"Hey guys, did you see the dawn at Yantar? Man, it is stunning.",
+	"The army guys are cautious, looks like the creatures decided to do something at the outpost this morning!"
 	}
 	if math.random() < post_message_morning then
 		m_post_message = morning_templates[math.random(#morning_templates)]
@@ -157,13 +157,13 @@ end
 -- 20:30 - 22:00
 function show_evening_templates(time)
 	local evening_templates = {
-	"Чёрт, мужики, вы как хотите, а я за хабаром сегодня уже не пойду. Ночь скоро...",
-	"Не, не пойду я уже никуда. Поздно уже, скоро дряни всякой повылазит...",
-	"Так, закат уже... потихоньку возвращайтесь, сейчас в Зоне небезопасно.",
-	"Идите-ка вы, мужики... в ночь... на кровососов... одни. Экстремалы, блин.",
-	"Ну что? Кто со мной пойдёт валить стаю псевдособак?",
-	"Луна скоро взойдёт... Чёрт, не успеваю до лагеря добраться... Мужики есть кто поблизости? Чую, меня какая-то тварь уже преследует.",
-	"Всем внимание! Рейдеры сообщают о подозрительной активности мутантов на Свалке этой ночью."
+	"Guys, if you want to go do it by yourself. I ain't goin out in the night...",
+	"No, I won't go anywhere. It's late, and who knows what walks around at night...",
+	"The sun is coming down, come back to base, the Zone is more dangerous at night.",
+	"You're going in the night to hunt bloodsuckers? Fucking hardcore.",
+	"So, who wants to go with me and destroy a pseudodog lair?",
+	"Crap, the moon is about to go up. I don't have any chance of getting to the camp... Guys, is anyone nearby? I think some monster is following me...",
+	"Attention, everyone! Scouts are reporting that this night mutants at the Garbage are strangely active."
 	}
 	if math.random() < post_message_prob then
 		m_post_message = evening_templates[math.random(#evening_templates)]
