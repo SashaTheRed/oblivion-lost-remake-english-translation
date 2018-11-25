@@ -264,6 +264,6 @@ A list of all files with detailed progress can be found below.
 	- [nd_news_main_data.script](gamedata/scripts/nd_news_main_data.script)
 		- done
 	- [nick.script](gamedata/scripts/nick.script)
-		- in progress
+		- done
 	- [olr_sleep.script](gamedata/scripts/olr_sleep.script)
 		- done
