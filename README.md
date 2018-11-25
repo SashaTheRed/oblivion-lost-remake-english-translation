@@ -96,7 +96,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_dialogs_yantar.xml](gamedata/config/text/eng/stable_dialogs_yantar.xml)
 		- done
 	- [stable_dialog_manager.xml](gamedata/config/text/eng/stable_dialog_manager.xml)
-		- in progress
+		- done (needs revision from lines 286–334 and 705–end)
 	- [stable_dialog_manager_uni.xml](gamedata/config/text/eng/stable_dialog_manager_uni.xml)
 		- done
 	- [stable_game_credits.xml](gamedata/config/text/eng/stable_game_credits.xml)
@@ -122,7 +122,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_storyline_info_deadcity.xml](gamedata/config/text/eng/stable_storyline_info_deadcity.xml)
 		- done
 	- [stable_storyline_info_escape.xml](gamedata/config/text/eng/stable_storyline_info_escape.xml)
-		- in progress
+		- done
 	- [stable_storyline_info_garbage.xml](gamedata/config/text/eng/stable_storyline_info_garbage.xml)
 		- done
 	- [stable_storyline_info_military.xml](gamedata/config/text/eng/stable_storyline_info_military.xml)

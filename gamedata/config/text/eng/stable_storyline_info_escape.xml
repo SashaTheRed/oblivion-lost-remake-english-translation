@@ -83,18 +83,18 @@
 		<text>I left a small cache at the deserted farm. It's got some food and ammo. I'm way too weak to carry it now. I'm not sure if I can make it to the camp.</text>
 	</string>
 	<string id="tutorial_wounded_text">
-		<text>Торговец: живо дуй к вагончику возле дороги! Там раненые. Помоги выжившим.</text>
+		<text>Trader: Head to the train car by the road! There are wounded men there. Help the survivors.</text>
 	</string>
 	<string id="esc_volk_dynamite_text">
-		<text>Волк: "На последок подарок хочу оставить кое-кому из друзей. Мои ребята несли его мне, да бандиты их порешили. Так вот, подарочек надобно вернуть. Бандиты эти сейчас обосновались на фабрике. А подарок... да ничего особенного, ящик динамита...".</text>
+		<text>Wolf: "My final wish in this place is to leave a gift for one of my friends. My guys were on their way here, bringing him along, but the bandits had their way with them. So we have to return them the favor. The bandits have settled down in the factory. As for their gift… Nothing special. Just a pack of dynamites…".</text>
 	</string>
 	<string id="esc_mechanic_case_descr">
-		<text>Принести механику на Кордоне ящик с инструментами.</text>
+		<text>Bring a stash with tools to the technician in the Cordon.</text>
 	</string>
 	<string id="esc_blockpost_military_raport_name">
-		<text>Рапорт Л. Плюща</text>
+		<text>Report from L. Plyusch</text>
 	</string>
 	<string id="esc_blockpost_military_raport_descr">
-		<text>Дело было так... Шли мы, в общем, по периметру, недалеко от блокпоста. Увидели пару сталкеров, те околачивались около вагончика, перед дорогой. Ну решили мы их потрясти, повели "писать объяснительные", какого чёрта в Зоне и тому подобное. Ну, естественно, предложили другой выход из ситуации... В общем, у них был артефакт круглой формы, вроде как называют "Компасом"... Кароче, после того, как мы "сторговались", над нами пролетел вертолет, с виду военный, но точно не наш. Ну и, в общем, тех сталкеров он порешил около вагончика. Наверно. Хотя я слышал пару раз выстрелы, вроде из ПМа... Короче, мы не стали разбираться - свалили. Но артефакт на блокопост не понесли. Спрятали в схроне... Тащиться пришлось долго, но оно того стоило. В общем, "аномальное образование" будет лежать севернее АТП, около заваленного ЖД тоннеля, в камнях. Вроде, припрятал хорошо...\nКороче, это на рапорт никак не тянет - много "лишнего" написал. Но ты его прочитай, как будет время. И пароль от компа никому не давай.\nЛ. Плющ.</text>
+		<text>This is how things went... We went around the perimiter, not far from the outpost. Saw a couple of stalkers who were hanging around the train car by the road. We decided to shake 'em up, fill out an "accident report," things in the Zone and all that. So, naturally, предложили другой выход из ситуации... Basically, they had a circle-shaped artifact that they seem to call the "Compass"... Put simply, after we "bargained" with them, a helicopter flew by us, seemingly a military bird, but definitely not one of ours. And, basically, it finished off those stalkers by the train car. Probably. Though I did hear gunshots a couple of times, seemingly from a PM... So, we didn't hang around there and just ran. But we didn't bring the artifact to the outpost. We hid it in a stash... Took a long time to carry it, but it was worth it. Basically, the "anomalous formation" will be hidden north of the vehicle station, around the blocked-up railway tunnel, in the rocks. Think I hid it well...\nBasically, this ain't a good report at all - I wrote a lot of "personal" stuff. But you should read it when you get the time. And don't give the computer password to anybody.\nL. Plyusch.</text>
 	</string>
 	
