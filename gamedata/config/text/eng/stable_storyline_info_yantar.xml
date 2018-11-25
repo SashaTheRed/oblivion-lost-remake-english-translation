@@ -1,5 +1,5 @@
 	<string id="descr_yan_find_ghost_task">
-		<text>Профессор: необходимо найти два прототипа пси-оружия. Один находится в одной из квартир городка Светлый луч, точнее может сказать лидер Группировки "Свобода". Второй - в лаборатории под Тёмной долиной в одной из закрытых дверей комплекса. Код от двери - 4678. Также, учёным необходим гравитационный дробовик и Гравитационный Арт, который позволяет переносить с его помощью большие объекты.</text>
+		<text>Professor: You need to find 2 psi-protection prototypes. One is located in an apartment in the Shining Path, you can get more direct information from the leader of the Freedom. The 2nd one is located in the Dark Valley laboratory in one of the closed off rooms. The code to the door is 4678. Along with them, bring me the Gravishotgun and the kinetic Art.</text>
 	</string>
 	<string id="descr_yan_find_lab">
 		<text>Professor: "All you need to do is find Vasiliev's corpse and obtain accurate information about the location of the laboratory. Then get inside the laboratory and find Ghost. Ghost knew how to turn off the emission and how to get out of there afterwards."</text>
@@ -11,7 +11,7 @@
 		<text>Professor: "If you can take the measurements together with our associate, I will give you a calibrated prototype that will let you get inside the laboratory."</text>
 	</string>
 	<string id="descr_yan_kill_brain">
-		<text>Professor: "Отлично, Мессер, теперь есть возможность отключить установку под озером. Вход находится в погрузочном отсеке входа в лабораторию. Мы надеемся на Вас."</text>
+		<text>Professor: "Great job, Messer, now you can disable  the installation. The entrance is located at the loading bay of the laboratory. I am counting on you."</text>
 	</string>
 	<string id="descr_yan_kill_brain_2">
 		<text>The device is turned off. You will just have to get out of there alive.</text>
@@ -20,7 +20,7 @@
 		<text>Ghost: "Entry #257\n >>Guide, I am sending a man to meet you, we have important information for Doctor, help him out. \n >>Guide: "Good. But, Ghost, let's not repeat what happened last time. You make the trip yourself, I've wanted to have a chat with you for a while. I'll be waiting at the usual place, in the camp by the bridge. Don't get lost and don't let the army patrols get you."</text>
 	</string>
 	<string id="descr_yan_scientist_return_task">
-		<text>Sakharov: "What happened??? He's dead??? Take the measurements and return immediately!!!"</text>
+		<text>REMOVE ROCK  REMOVE ROCK YOU ARE WORST CULT</text>
 	</string>
 	<string id="journal_after_find_ghost">
 		<text>I'm shocked! Ghost is the same person as the man on the photo from the file attached to the mission to kill Strelok. I'm thoroughly confused. There must have been some mistake. But who made the mistake? There is no answer yet. From Ghost's records I learned the name of their "mutual acquaintance" - the fourth man in Strelok's group - Doctor. He has been helping the group for a long time playing the role of their "headquarters". He can be found through a stalker by the name of Guide, who frequents Cordon. Alright, Guide, just don't go dying all of a sudden... before we meet. On Ghost's dead body I also found documents regarding the "Psi-Brain" mechanism. The whole neigborhood was under the influence of that piece of trash - it zombified everyone who came within range. I learned that there is another mechanism in Lab X19, and that's what is likely to be the Brain Scorcher. I also learned that these mechanisms are not always operating at full strength. There are periods when their power is lowered to cool down the apparatus.</text>
