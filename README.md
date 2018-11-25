@@ -134,7 +134,7 @@ A list of all files with detailed progress can be found below.
 	- [stable_storyline_info_sarcofag.xml](gamedata/config/text/eng/stable_storyline_info_sarcofag.xml)
 		- done
 	- [stable_storyline_info_yantar.xml](gamedata/config/text/eng/stable_storyline_info_yantar.xml)
-		- in progress
+		- dOne
 	- [stable_task_manager.xml](gamedata/config/text/eng/stable_task_manager.xml)
 		- done
 	- [stable_treasure_manager.xml](gamedata/config/text/eng/stable_treasure_manager.xml)
