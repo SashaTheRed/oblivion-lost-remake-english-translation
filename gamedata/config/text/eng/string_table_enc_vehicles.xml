@@ -16,7 +16,7 @@
 
 	<string id="enc_vehicles_control">
 <text>
-Door - T\nTurn on/off - $$ACTION_turn_engine$$\nControl - $$ACTION_forward$$,$$ACTION_lstrafe$$,$$ACTION_back$$,$$ACTION_rstrafe$$\nGear shift - $$ACTION_crouch$$,$$ACTION_accel$$\nHandbrake - $$ACTION_jump$$\nHorn - O\nBTR headlights/hatches - $$ACTION_torch$$\nRadio cassette recorder - Y\nCamera control - $$ACTION_cam_1$$,$$ACTION_cam_2$$,$$ACTION_cam_3$$\nThe trunk is opened by pressing $$ACTION_use$$
+Door - T\nTurn on/off - $$ACTION_turn_engine$$\nControl - $$ACTION_forward$$,$$ACTION_lstrafe$$,$$ACTION_back$$,$$ACTION_rstrafe$$\nGear shift - $$ACTION_crouch$$,$$ACTION_accel$$\nHandbrake - $$ACTION_jump$$\nHorn - O\nBTR headlights/hatches - $$ACTION_torch$$\nRadio cassette player - Y\nCamera control - $$ACTION_cam_1$$,$$ACTION_cam_2$$,$$ACTION_cam_3$$\nThe trunk is opened by pressing $$ACTION_use$$
 </text>
 	</string>
 
