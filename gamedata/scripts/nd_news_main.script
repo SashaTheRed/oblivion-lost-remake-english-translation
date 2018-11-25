@@ -33,7 +33,7 @@ local messages_none ={
 --]]
 
 local dolg_news={
-"\\n%c[255,245,118,54]Duty\\n%c[255,245,118,54]Stalker! Join the Duty ranks! We'll protect the world from the Zone's evil!", 
+"\\n%c[255,245,118,54]Duty\\n%c[255,245,118,54]Stalker! Join the Duty ranks! We'll protect the world from the Zone's evil!",
 }
 
 local freedom_news={
@@ -327,7 +327,7 @@ local news_text={
 "we ran into an army patrol. Had to pop them. I don't recommend hanging around there. They're probably going on a raid.",
 "we stumbled on an army patrol. They weren't too competent. We took them out. I recommend against showing up there. They're most likely on a raid.",
 "I saw a zombie tear apart a stalker right before my eyes. The mutants are going freaking wild here... And right now it's chasing me. I need to get rid of this thing...",
-"a load of new anomalies have showed up. Watch out!",
+"a load of new anomalies have showed up. Watch out!"
 }
 
 --[[
@@ -336,7 +336,7 @@ function game_minutes()
 return gtime
 end
 
-monsters = { "псевдогигант", "зомби", "кровосос", "полтергейст", "бюрер", "химера", "зомби", "контроллёр", "псевдособака", "собака", "плоть", "карлик", "кабан", "крыса"}
+monsters = { "псевдогигант", "зомби", "кровосос", "полтергейст", "бюрер", "химера", "зомби", "контролёр", "псевдособака", "собака", "плоть", "карлик", "кабан", "крыса"}
 --]]
 
 function show_news_trade(time)
@@ -422,14 +422,14 @@ function vubros_msg()
 	local blu_when = {
 	"in two minutes.",
 	"in just a moment.",
-	"in a couple of minutes."
+	"in a couple of minutes.",
 		}
 	local blu_message = {
 	"Find some cover! A blowout is coming ",
 	"The professor says his equipment estimates the appearance of an emission ",
 	"When I was visiting the Professor, he mentioned an emission. It'll be here ",
 	"There's gonna be a blowout ",
-	"Attention! The eggheads are saying that there'll be a blowout "
+	"Attention! The eggheads are saying that there'll be a blowout ",
 		}
 	if math.random() < post_message_vubros then
 		m_post_message = blu_message[math.random(table.getn(blu_message))]
