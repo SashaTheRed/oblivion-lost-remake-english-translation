@@ -1,0 +1,193 @@
+--[[---------------------------------------------------------------------------------------------------------------------------------------------------------
+File: nd_news_main_data.script.
+Author: OGSE Team.
+Version: 1.0.
+Description: Вспомогательные функции для новостей.
+---------------------------------------------------------------------------------------------------------------------------------------------------------]]--
+ -- Вероятность срабатывания: 1 и больше - работают всегда, 0 и меньше - никогда
+local post_message_prob = 1
+local post_message_morning = 1
+local post_message_evening = 1
+--Отображение новостей на экране (сек)
+local time_show = 10
+
+local m_post_message = ""
+
+
+
+local time = time_global() + math.random(6000, 12000) --даём задержку при старте игры
+--функция даёт новость
+local function give_news()
+--[[ К чему здесь проверка на несуществующую инфопорцию?
+	if db.actor:has_info("surge_pda") then
+		get_console():execute("unbind active_jobs")
+		get_console():execute("unbind map")
+		get_console():execute("unbind contacts")
+	--news_manager.send_tip(db.actor, "Satelite connection lost", nil, "default", 5000)
+  		return false 
+ 	end
+--]]
+	if time <= time_global() then
+-- СКОРОСТЬ ПОЯВЛЕНИЯ РАНДОМНЫХ НОВОСТЕЙ
+
+-- default
+time = time + math.random(60000, 180000) -- default срабатывает рандомно (от 1 мин до 3), но всё же быстро
+
+-- в 2 раза реже
+--time = time + math.random(120000, 360000) -- срабатывает в 2 раза реже (от 2 мин до 6)
+
+-- в 3 раза реже
+--time = time + math.random(180000, 540000) -- срабатывает в 3 раза реже (от 3 мин до 9)
+
+
+		ft = { 
+		nd_news_main.show_news_trade,
+		nd_news_main.show_news_another,
+		nd_news_main.show_news_another,
+		nd_news_main.show_news_another,
+		nd_news_main.show_news_dolg,
+		nd_news_main.show_news_freedom,
+		nd_news_main.show_news_random,
+		nd_news_main.show_news_random,
+		nd_news_main.show_news_random,
+		}
+		local hours = level.get_time_hours()
+		if hours>4 and hours<7 then
+			ft[#ft+1] = show_morning_templates
+		elseif hours>20 and hours<22 then
+			ft[#ft+1] = show_evening_templates
+		else
+			ft[#ft+1] = nd_news_main.vubros_msg
+		end 
+		ft[math.random(table.getn(ft))](time_show)
+	end
+end
+
+local function hide_news() --новостей нет
+	return
+end
+
+--Главная функция
+
+function show_news_main()
+	if time <= time_global() then
+		time = time + math.random(6000, 12000)
+		isIsolatedLevel() -- проверка на подземелья
+	end
+end
+
+-- Вспомогательные функции
+--Статус соединения:
+function on_connect()
+	local connect_templates = {
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Signal found.",
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Network available.",
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Connected to network.",
+	}
+	if math.random() < post_message_prob then
+		m_post_message = connect_templates[math.random(table.getn(connect_templates))]
+	end
+
+
+  	if (m_post_message ~= "") then
+		
+		--local news_text = connect_templates
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(350,150,50,50), 0, 1000*time_show)
+		m_post_message = ""
+		show_news_main = give_news
+       end
+end
+
+function on_disconnect()
+	local disconnect_templates = {
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Insufficient signal level.",
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Connection interrupted.",
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Network unavailable.",
+	"\\n%c[255,255,128,128]PDA\\n%c[default]Signal not found.",                  
+	}
+	if math.random() < post_message_prob then
+		m_post_message = disconnect_templates[math.random(table.getn(disconnect_templates))]
+	end
+
+	if (m_post_message ~= "") then
+		
+		--local news_text = disconnect_templates
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(350,150,50,50), 0, time_show*1000)
+		m_post_message = ""
+		show_news_main = hide_news
+       end
+end
+
+--В подземках и на севере Зоны связь не работает
+function isIsolatedLevel()
+	--local result = false
+	local ln = level.name()
+	if (ln == "lvl12_radar_bunker" or ln == "lvl14_stancia" or ln == "lvl15_sarcofag" or ln == "lvl16_generators" or ln == "lvl17_warlab" or ln == "lvl4u_darklab") then
+		on_disconnect()
+	else
+		on_connect()
+	end
+end
+
+
+-- 04:30 - 07:00
+function show_morning_templates(time)
+	local morning_templates = {
+	"Guys, it's morning... man, the sky looks so beautiful.",
+	"It's the morning...",
+	"Guys, it's the morning already - I think we can move now. We probably won't stumble upon anyone, compared to the night.",
+	"It's the morning. Let's go, it's a bit safer now.",
+	"Guys, let's go! It's dawn!!",
+	"Hey, guys! It's clearer, I'm tired of lying in the darkness in fear. It's better to lie out of fear in the light...",
+	"Can anyone hear me? This night a group of our guys dissapeared. They should've came by dawn from Med-Pribor. They didn't. We're going there in an hour, if you want you can go with us.",
+	"Damnit... who the hell invented the morning anyway? Especially after an all night drinking session...",
+	"Hey guys, did you see the dawn at Yantar? Man, it is stunning.",
+	"The army guys are cautious, looks like the creatures decided to do something at the outpost this morning!"
+	}
+	if math.random() < post_message_morning then
+		m_post_message = morning_templates[math.random(#morning_templates)]
+	end
+
+	if (m_post_message ~= "") then
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(400,150,50,50), 0, 1000*time)
+		m_post_message = ""
+       end
+end
+
+-- 20:30 - 22:00
+function show_evening_templates(time)
+	local evening_templates = {
+	"Guys, if you want to go do it by yourself. I ain't goin out in the night...",
+	"No, I won't go anywhere. It's late, and who knows what walks around at night...",
+	"The sun is coming down, come back to base, the Zone is more dangerous at night.",
+	"You're going in the night to hunt bloodsuckers? Fucking hardcore.",
+	"So, who wants to go with me and destroy a pseudodog lair?",
+	"Crap, the moon is about to go up. I don't have any chance of getting to the camp... Guys, is anyone nearby? I think some monster is following me...",
+	"Attention, everyone! Scouts are reporting that this night mutants at the Garbage are strangely active."
+	}
+	if math.random() < post_message_prob then
+		m_post_message = evening_templates[math.random(#evening_templates)]
+	end
+
+	if (m_post_message ~= "") then
+		db.actor:give_game_news(m_post_message, "ui\\ui_icons_task", Frect():set(400,150,50,50), 0, 1000*time)
+		m_post_message = ""
+       end
+end
+
+-------------------- Advanced Reconstruction Stalker Mod v0.5 --------------------
+--[[
+
+If you're going to use the whole of this script or its parts in your own creative 
+developments for the S.T.A.L.K.E.R. game, please don't become such a goddamn 
+motherfucker like the notorious author of the ABC Mod - Carbrobro. Leave the 
+copyrights, note the real author(s) and don't claim others' ideas and their 
+realization to be your own ones. It's just simple Modmakers' Ethics. Thank you!
+
+Если вы собираетесь использовать данный скрипт целиком или частично в своих 
+разработках по игре S.T.A.L.K.E.R., пожалуйста не опускайтесь до уровня печально 
+известного автора ABC мода - Carbrobro. Не удаляйте копирайты, указывайте настоящего 
+автора(ов) и не выдавайте чужие идеи и их реализацию за свои. Ведь это элементарная 
+этика модостроителей! Спасибо за понимание.
+
+]]--
