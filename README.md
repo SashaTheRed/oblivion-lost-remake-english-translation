@@ -152,7 +152,7 @@ A list of all files with detailed progress can be found below.
 	- [string_table_enc_zone.xml](gamedata/config/text/eng/string_table_enc_zone.xml)
 		- in progress
 	- [string_table_general.xml](gamedata/config/text/eng/string_table_general.xml)
-		- in progress
+		- done
 	- [string_table_includes.xml](gamedata/config/text/eng/string_table_includes.xml)
 		- done
 	- [string_table_items.xml](gamedata/config/text/eng/string_table_items.xml)
