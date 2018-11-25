@@ -262,7 +262,7 @@ A list of all files with detailed progress can be found below.
 	- [nd_news_main.script](gamedata/scripts/nd_news_main.script)
 		- done (needs revision)
 	- [nd_news_main_data.script](gamedata/scripts/nd_news_main_data.script)
-		- in progress
+		- done
 	- [nick.script](gamedata/scripts/nick.script)
 		- in progress
 	- [olr_sleep.script](gamedata/scripts/olr_sleep.script)
