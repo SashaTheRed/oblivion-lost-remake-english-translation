@@ -4,15 +4,15 @@
 
 
 	<string id="Social/Military">
-		<text>Общества/Военизированные части</text>
+		<text>Factions/Military</text>
 	</string>
 
 	<string id="Social/Stalker-clans">
-		<text>Общества/Кланы сталкеров</text>
+		<text>Factions/Stalker clans</text>
 	</string>
 
 	<string id="Social/Scientists">
-		<text>Общества/Учёные</text>
+		<text>Factions/Scientists</text>
 	</string>
 
 	<string id="Army">
@@ -40,10 +40,10 @@
 		<text>Members of the criminal underworld who came to the Zone for different reasons: to make money by selling artifacts, hide from the law or trade in weapons. The Zone is full of bandits, ranging from common thugs to serious criminals, most of whom are members of one gang or another. Although the Zone gangs frequently fight among themselves, the criminal element still poses a serious problem for normal stalkers.</text>
 	</string>
 	<string id="enc_social_stalker-clans_duty">
-		<text>Считают своим долгом защитить мир от нашествия мутантов. Уничтожают гнёзда и ульи мутантов. Считают себя чернобыльскими ведьмаками и охотниками за вампирами.</text>
+		<text>They consider it their duty to protect the world from mutants. They routinely destroy mutant lairs. They consider themselves Chernobyl witchers and vampire hunters.</text>
 	</string>
 	<string id="enc_social_stalker-clans_freedom">
-		<text>Анархисты, борцы за свободу от любого контроля. Сражаются против армии и правительства, их цель – это Зона, свободный заповедник. They believe in sharing all information about the Zone with the rest of the world. Конфликт с группой «Монолит». Уничтожают экспедиции военных сталкеров.</text>
+		<text>Anarchists and freedom fighters outside of anyone's control. They fight against the army and the government, and their goal is the Zone as a natural reserve. They believe in sharing all information about the Zone with the rest of the world. At war with the "Monolith" faction. Routinely kill military stalker expeditions.</text>
 	</string>
 	<string id="enc_social_stalker-clans_killers">
 		<text>The most clandestine and secretive faction in the Zone; some don't even believe in its existence. There are those who regularly use the killers' services as they are true pros, able to quickly deal with any stalker and even annihilate a small group of opponents. Their services do not come cheap - the Mercs demand a king's ransom for their services in money or artifacts. The location of their base remains a secret, suggesting that it is deep inside the Zone.</text>
@@ -52,7 +52,7 @@
 		<text>Stalkers exploring the Zone on their own. Most stalkers work this way since being a member of a group takes precious time, and part of the loot. Then there are some who simply prefer solitude and independence.</text>
 	</string>
 	<string id="enc_social_stalker-clans_monolith">
-		<text>Группа сталкеров верит, что в центре Зоны лежит неземной эволюционный модуль, кристалл «Монолит». Конфликт с группами «Долг» и «Свобода».</text>
+		<text>Group of stalkers that believes that in the center of the Zone lies an ethereal evolutionary crystal, known as the "Monolith". At war with the groups "Duty" and "Freedom".</text>
 	</string>
 	<string id="enc_social_stalker-clans_zomstalkers">
 		<text>Poor souls subjected to prolonged exposure in Yantar and a few other heavily radiated sectors. Careless stalkers gone mad and turned into walking corpses. Many such corpses wander the Zone, some wander as far as the perimeter. They are beyond help because the destructive process is irreversible. Zombified stalkers are still able to use their weapons, but they are quite dumb and can be heard mumbling meaningless, fragmented sentences to themselves. They gradually lose all their skills and turn into zombies. They are usually very aggressive and can present a serious threat in large numbers.</text>
