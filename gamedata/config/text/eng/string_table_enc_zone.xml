@@ -161,7 +161,7 @@
 		<text>A true miracle of an anomaly: an area several meters in diameter where the time flow is significantly slower than usual. Appears to have no negative effect on human health. However, the Time Machine can be very difficult to get out of. Interestingly, removing the Death's Head - an artifact usually found in the center of the anomaly - causes the Time Machine to disappear.</text>
 	</string>
 	<string id="enc_zone_anomalies_zharka">
-		<text>While inactive, the anomaly manifests itself as a barely visible cloud of hot air. When triggered by an object or a living being it instantly heats up to lethal temperatures approaching 1500K. At nighttime, it can be revealed by powerful detectors or by throwing metal objects into the trigger area. Forms three types of artifacts: Itch, Rose Ball, and the Double Shell.</text>
+		<text>While inactive, the anomaly manifests itself as a barely visible cloud of hot air. When triggered by an object or a living being it instantly heats up to lethal temperatures approaching 1500K. At nighttime, it can be revealed by powerful detectors or by throwing metal objects into the trigger area. Forms three types of artifacts: Itch, Transparent Ball, and the Double Shell.</text>
 	</string>
 	<string id="enc_zone_artifact_af-ameba-mica">
 		<text>This artifact consists of a liquid metal of abnormal origin. It is formed after a blowout occurs. It doesn't last long - it evaporates after several hours.</text>
@@ -182,7 +182,7 @@
 		<text>Born in the Springboard anomaly. This artifact is found in only a few areas of the Zone. The bits of metallic compounds create a beautiful light play. It is very calming to study this artifact at night by the fire.</text>
 	</string>
 	<string id="enc_zone_artifact_af-drops">
-		<text>Formed in the anomaly “Burner” at high temperatures. From the exterior looks like a tear-like shade compound with a glossy surface, covered in cracks.</text>
+		<text>Formed in the anomaly Â“BurnerÂ” at high temperatures. From the exterior looks like a tear-like shade compound with a glossy surface, covered in cracks.</text>
 	</string>
 	<string id="enc_zone_artifact_af-dummy-battery">
 		<text>An artifact of electro-magnetic nature. It has a directional field of disintegration. The origin of this thing is shrouded in a veil of secrecy. It's clear that its composition includes dielectric elements, but the physical conditions that are required for the creation of this artifact are not known to science. This artifact allows you to carry an additional four kilograms.</text>
@@ -266,7 +266,7 @@
 		<text>This used to be a town built for engineers working at the Chernobyl NPP. Quite a big place once, it is a ghost town now with mutants and zombies as the only residents. There seems to be no way to get in there: the Brain Scorcher is blocking the way.</text>
 	</string>
 	<string id="enc_zone_locations_radar">
-		<text>A dreadful place. Easy to vanish without a trace there, no matter how lucky you have been in life so far. Whoever gets close to the Brain Scorcher immediately goes insane, turns into a zombie and starts stalking the Zone restlessly. A human shell is all that’s left. No-one has ever returned with a sound mind.</text>
+		<text>A dreadful place. Easy to vanish without a trace there, no matter how lucky you have been in life so far. Whoever gets close to the Brain Scorcher immediately goes insane, turns into a zombie and starts stalking the Zone restlessly. A human shell is all thatÂ’s left. No-one has ever returned with a sound mind.</text>
 	</string>
 	<string id="enc_zone_locations_rostok">
 		<text>The Wild Territory used to be the site of a rather large manufacturing plant, currently in ruins. Many stalkers met their death there: the place is swarming with all sorts of monsters. The beasts are literally streaming over there from the entire Zone. It is said that something of great importance is hidden at this site, so there are always plenty of daredevils willing to try their luck.</text>
@@ -275,7 +275,7 @@
 		<text>The site of the world-famous nuclear power plant. This is the heart of the Zone. If you believe the legends, this is also the site of the Monolith - a mysterious thing capable of granting any wish.</text>
 	</string>
 	<string id="enc_zone_locations_yantar">
-		<text>The legendary lake in the sector of the same name dried up a long ago, leaving a shallow swamp in its place. The place is morbid and sodden with death. Great dangers await any adventurous soul foolish enough to get near it. Anyone who dares to go too far goes insane. Zombie drones are rambling around the whole sector, waiting for new victims. If you walk around the lake and past the zombies, you’ll end up at the scientists' camp, where the eggheads brought there by choppers are doing some research. You can have a chat with them; they buy artifacts and could even send you on a mission.</text>
+		<text>The legendary lake in the sector of the same name dried up a long ago, leaving a shallow swamp in its place. The place is morbid and sodden with death. Great dangers await any adventurous soul foolish enough to get near it. Anyone who dares to go too far goes insane. Zombie drones are rambling around the whole sector, waiting for new victims. If you walk around the lake and past the zombies, youÂ’ll end up at the scientists' camp, where the eggheads brought there by choppers are doing some research. You can have a chat with them; they buy artifacts and could even send you on a mission.</text>
 	</string>
 	<string id="enc_zone_zone-story_story-2006">
 		<text>The contaminated zone was aglow with the brightest of lights, almost unbearable to the human eye. You could virtually see the clouds in the sky turning into vapor. After a moment of dead silence there came rattling thunder, and then the earth shook. People fell to the ground, screwing up their eyes and covering their ears. Those who could still stand ran for their lives. It looked as though all the nuclear fuel buried under the Sarcophagus had suddenly exploded. The next day the army cordoned off the new Zone. The satellites helped to establish that the epicenter of the explosion was not actually in the vicinity of the NPP reactors, but about half a kilometer away. It is believed that the personnel of the station died at once, though many people still remained within the cordoned area. The rescue operation soon proved a pointless endeavor, as all the people and machinery sent deep into the area would die or malfunction immediately. A little while after the disaster, the Zone diameter hopped out by a few more kilometers. Most of the government troops guarding the border line and the research teams stationed there perished instantly. Panic stricken, people took to flight. The residents of nearby towns and villages were hastily evacuated. An enormous danger is looming over the world and we can only guess what its full impact may be.</text>
