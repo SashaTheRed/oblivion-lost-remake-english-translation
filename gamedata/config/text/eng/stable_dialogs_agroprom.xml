@@ -4,7 +4,7 @@
 
 
 <string id="agr_propusk_0">
-<text>How are you, stalker? What are you doing here?</text>
+<text>How are you, stalker? Are you ok? What happened?</text>
 </string>
 <string id="agr_propusk_1">
 <text>A bloodsucker, damn it... Didn’t see it... while I was hunting... flesh... It crept up from behind... Agh, damn it... There’s a hidden stalker stash somewhere around the factory. Strelok. Have you heard that name? I’ve heard he was at the center, so I decided to check this place out.</text>
@@ -13,7 +13,7 @@
 <text>Enough yapping. Save your energy.</text>
 </string>
 <string id="agr_propusk_3">
-<text>Agh, damn, the mutants... Where did they come from? I barely escaped from them. They hurt me real bad... You probably don’t know about what happened here... It was half a year ago. Children from the closest villages all went to the Zone one morning. The authorities kept quiet about it. One guy worked on that... Everyone called him Journalist... I somehow met him... He said that the children went deep into the Zone. And he either hired a pro—a “stalker of God” by the name of Strelok, or he earned that title with time... Basically, he’s somehow connected to this Strelok... And Strelok also went deep into the Zone. But first, Journalist went looking for something in the MedPribor Research Institute... Documents...</text>
+<text>Agh, damn, the mutants... Where did they come from? I barely escaped from them. They hurt me real bad... You probably don’t know about what happened here... It was half a year ago. Children from the closest villages all went to the Zone one morning. The authorities kept quiet about it. One guy worked on that... Everyone called him Journalist... I somehow met him... He said that the children went deep into the Zone. And he either hired a pro - a “stalker of God” by the name of Strelok, or he earned that title with time... Basically, he’s somehow connected to this Strelok... And Strelok also went deep into the Zone. But first, Journalist went looking for something in the MedPribor Research Institute... Documents...</text>
 </string>
 
 
@@ -394,16 +394,16 @@
 		<text>Hi.</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_11">
-		<text>Äàâàé, âñïîìèíàé, êîìó íàñîëèòü ìîã...</text>
+		<text>You need to try to remember who you could've annoyed...</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_111">
 		<text>What do you mean? What are you getting at?</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_1111">
-		<text>Äà ê òîìó, ÷òî ïğîñèëè óáğàòü òåáÿ òèõî, áåç ëèøíåãî øóìà...</text>
+		<text>I was asked to remove you quietly, without any noise.</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_11111">
-		<text>You... You mean... remove it??? Re... Uh... And you...</text>
+		<text>You... You mean... remove me??? What.. Uh... And you...</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_111111">
 		<text>It all depends on you. So what do you say?</text>
@@ -424,7 +424,7 @@
 		<text>Guess I don’t have any choice... Okay. Here’s my PDA.</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_111111111111">
-		<text>Oh, and try not to make any noise</text>
+		<text>Oh, and try not to make any noise.</text>
 	</string>
 	<string id="agr_swamp_deserter_escape_1111111111111">
 		<text>Okay.</text>
