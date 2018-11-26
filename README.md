@@ -278,3 +278,13 @@ A list of all files with detailed progress can be found below.
 		- done
 	- [olr_sleep.script](gamedata/scripts/olr_sleep.script)
 		- done
+- **[textures\rw](gamedata/textures/rw)**
+	- [fin.ogm](gamedata/textures/rw/fin.ogm)
+		- done
+	- [psy_strelok.ogm](gamedata/textures/rw/psy_strelok.ogm)
+		- done
+- **[textures\rw_dreams](gamedata/textures/rw_dreams)**
+	- [karliki.ogm](gamedata/textures/rw_dreams/karliki.ogm)
+		- done
+	- [stancia.ogm](gamedata/textures/rw_dreams/stancia.ogm)
+		- done
