@@ -48,8 +48,16 @@ A list of all files with detailed progress can be found below.
 		- done
 	- [character_desc_zombied.xml](gamedata/config/gameplay/character_desc_zombied.xml)
 		- done
+	- [dialogs_bar.xml](gamedata/config/gameplay/dialogs_bar.xml)
+		- incomplete
 	- [dialogs_escape.xml](gamedata/config/gameplay/dialogs_escape.xml)
-		- done
+		- incomplete
+	- [dialogs_escape_1.xml](gamedata/config/gameplay/dialogs_escape_1.xml)
+		- incomplete
+	- [dialogs_escape_1_string.xml](gamedata/config/gameplay/dialogs_escape_1_string.xml)
+		- incomplete
+	- [dialogs_yantar.xml](gamedata/config/gameplay/dialogs_yantar.xml)
+		- incomplete
 	- [tasks_aes.xml](gamedata/config/gameplay/tasks_aes.xml)
 		- done
 	- [tasks_agroprom.xml](gamedata/config/gameplay/tasks_agroprom.xml)
@@ -64,6 +72,9 @@ A list of all files with detailed progress can be found below.
 		- done
 	- [tasks_yantar.xml](gamedata/config/gameplay/tasks_yantar.xml)
 		- done
+- **[config/misc](gamedata/config/misc)**
+	- [quest_items.ltx](gamedata/config/misc/quest_items.ltx)
+		- incomplete
 - **[config/text/eng](gamedata/config/text/eng)**
 	- [mp_st_speechmenu.xml](gamedata/config/text/eng/mp_st_speechmenu.xml)
 		- done
