@@ -344,7 +344,7 @@
  <text>Hey, how are you?</text> 
  </string> 
  <string id="mzdodddkz_1"> 
- <text>Who's there? A stalker? I need help. I.. came from the Radar. The radiation there.. is intense...</text> 
+ <text>Who's there? A stalker? I need help. I.. came from the Red Forest. The radiation there.. is intense...</text> 
  </string> 
  <string id="mzdodddkz_2"> 
  <text>There's a doctor nearby. I think he can help you.</text> 
@@ -356,7 +356,7 @@
 
 
  <string id="pdodddkz_0"> 
- <text>Doctor, I left him on your porch. He's halfway gone. He says he came from the Radar.</text> 
+ <text>Doctor, I left him on your porch. He's halfway gone. He says he came from the Red Forest.</text> 
  </string> 
  <string id="pdodddkz_1"> 
  <text>Let him rest there for a while. Go to him and find out where he's from, what faction he's with, and take a careful look at his equipment.</text> 
@@ -373,7 +373,7 @@
  <text>Who are you and where are you from?</text> 
  </string> 
  <string id="dopdodddkz_1"> 
- <text>Me? I'm Leary. I was part of a group of stalkers that was going from Shining Path to the Radar, and we decided to take a shortcut at the old military warehouses. But something's wrong there... If you go there, your brain gets cooked inside your skull. I don't remember how I got here. I recall seeing the destroyed bridge and having to swim...</text> 
+ <text>Me? I'm Leary. I was part of a group of stalkers that was going from Shining Path to the Red Forest, and we decided to take a shortcut near the old military warehouses. But something's wrong there... If you go there, your brain gets cooked inside your skull. I don't remember how I got here. I recall seeing the destroyed bridge and having to swim...</text> 
  </string> 
  <string id="dopdodddkz_2"> 
  <text>I see you have nothing interesting on you. You've got a gun and a radio... The Doctor needs something, so he can take you in. He'll sell one of your things for money for medicine, while I'll be taking the other as payment.</text> 
@@ -419,7 +419,7 @@
  <text>Listen, have you ever heard about Leary?</text> 
  </string> 
  <string id="zzhjopdodddkz_1"> 
- <text>Who? Ohhh, that guy. Yeah I know him. He disappeared along with a group at the Radar.</text> 
+ <text>Who? Ohhh, that guy. Yeah I know him. He disappeared along with a group at the Red Forest.</text> 
  </string> 
  <string id="zzhjopdodddkz_2"> 
  <text>He's alive and currently is at the swamp Doctor.</text> 
@@ -443,7 +443,7 @@
  <text>You wanted to share information related to someone I'm looking for, right?</text> 
  </string> 
  <string id="nnnnnikz_01"> 
- <text>Alright... You're looking for Strelok, right? Long story short, I heard from some stalker at the bar who was wearing some worn-out coat that Strelok had stashes all around the Zone. He supposedly had one at Med-Pribor and here, in the Rostok underground. Our boys are currently diggin' there and it is possible that the part of the tunnel that was closed before is now accessible. </text> 
+ <text>Alright... You're looking for Strelok, right? Long story short, I heard from some stalker at the bar who was wearing some worn-out coat that Strelok had stashes all around the Zone. He supposedly had one at MedPribor and here, in the Rostok underground. Our boys are currently diggin' there and it is possible that the part of the tunnel that was closed before is now accessible. </text> 
  </string> 
 
 
@@ -703,7 +703,7 @@
  <text>I think I did it, Barkeep.</text> 
  </string> 
  <string id="arpr122_1"> 
- <text>Hold on a second. Some stalkers brought someone from Radar. He seems to be... A bit insane. Still, I think we can get some useful information from him that might shed some light on what's going on over there.</text> 
+ <text>Hold on a second. Some stalkers brought someone from the Red Forest. He seems to be... A bit insane. Still, I think we can get some useful information from him that might shed some light on what's going on over there.</text> 
  </string> 
  <string id="arpr122_2"> 
  <text>Alright.</text> 
@@ -827,7 +827,7 @@
 		<text>Good.</text>
 	</string>
 	<string id="mil2_freedom_commander_common2_4">
-		<text>But when I approached the Rostok exit, a Bloodsucker appeared. It looks like he followed me...</text>
+		<text>But when I approached the Rostok exit, a bloodsucker appeared. It looks like he followed me...</text>
 	</string>
 	<string id="mil2_freedom_commander_common2_5">
 		<text>I see. Well, if it's like that, then I think we can get through to the factory.</text>
@@ -864,10 +864,10 @@
 	    <text>How was your group formed?</text>
 	</string>
 	<string id="bar_dolg_lider_di_1_3">
-	    <text>Why are you at war with "Freedom"?</text>
+	    <text>Why are you at war with Freedom?</text>
 	</string>
 	<string id="bar_dolg_lider_di_1_22">
-	    <text>When one of the first major expeditions was sent to the Zone, which included scientists and a military detachment, no one at that time knew what the outcome would be. The expedition failed, and one of the military generals, General Tachenko, founded "Duty". Many of his comrades died, so he vowed to destroy the Zone, which he regarded as a plague. We have been following this ideology for a long time, and we are not going to retreat.</text>
+	    <text>When one of the first major expeditions was sent to the Zone, which included scientists and a military detachment, no one at that time knew what the outcome would be. The expedition failed, and one of the military generals, General Tachenko, founded Duty. Many of his comrades died, so he vowed to destroy the Zone, which he regarded as a plague. We have been following this ideology for a long time, and we are not going to retreat.</text>
 	</string>
 	<string id="bar_dolg_lider_di_1_33">
 	    <text>That's simple - their ideology opposes ours, and therefore, our interests do not coincide. In the Zone, we resolve our differences with force.</text>
@@ -901,13 +901,13 @@
  </string>
 
         <string id="olr_barman_bar_monsters_tree">
-            <text>Kill the Bloodsuckers</text>
+            <text>Kill the bloodsuckers</text>
         </string>
         <string id="text_olr_barman_bar_monsters_tree">
-            <text>Listen, there's a bunch of Bloodsuckers behind the Rostok factory. People never go to there, but it's best if we get rid of them. Can you go kill them?</text>
+            <text>Listen, there's a bunch of bloodsuckers behind the Rostok factory. People never go to there, but it's best if we get rid of them. Can you go kill them?</text>
         </string>
         <string id="desc_olr_barman_bar_monsters_tree">
-            <text>Kill the Bloodsuckers.</text>
+            <text>Kill the bloodsuckers.</text>
         </string>
 
 
@@ -940,108 +940,108 @@
  <text>You got lucky. That blowout wasn't very strong.</text> 
  </string> 
  <string id="vibbar_2"> 
- <text>What? How? What do you mean by 'wasn't very strong'?</text> 
+ <text>What? How? What do you mean by "wasn't very strong"?</text> 
  </string> 
  <string id="vibbar_3"> 
  <text>These weaker types of blowouts do happen, but they don't happen often. The last time one of those happened was when a group of veteran stalkers managed to break through to the center of the Zone. I can't predict when the next blowout will happen because my equipment is acting up. Until my equipment is fixed, I can't give out any guesses.</text> 
  </string>
 
         <string id="olr_find_art_drunk_gun">
-            <text>Find a "LR-300" for the Dutyer</text>
+            <text>Find an LR-300 for the Dutyer</text>
         </string>
         <string id="text_olr_find_art_drunk_gun">
             <text>Can you please get me a specific gun? I'm looking for a LR-300. We have plenty of unused grenade launchers and optical sights in storage. We need some shooters to put them on.</text>
         </string>
         <string id="desc_olr_find_art_drunk_gun">
-            <text>Find a "LR-300" for the Dutyer.</text>
+            <text>Find an LR-300 for the Dutyer.</text>
         </string>
 
 
         <string id="olr_find_art_osved_rour">
-            <text>Find the "Disintegrator" artifact</text>
+            <text>Find the Disintegrator artifact</text>
         </string>
         <string id="text_olr_find_art_osved_rour">
             <text>A scientific research group has placed an order for the "Disintegrator" artifact. That artifact has strange properties that the majority of people don't understand, so traders don't pay much for them, but scientists are looking for them.</text>
         </string>
         <string id="desc_olr_find_art_osved_rour">
-            <text>Find the "Disintegrator" artifact for the informant.</text>
+            <text>Find the Disintegrator artifact for the informant.</text>
         </string>
 
 
         <string id="olr_find_art_drunk_dvaa">
-            <text>Find the "Mercury Ball" artifact</text>
+            <text>Find the Mercury Ball artifact</text>
         </string>
         <string id="text_olr_find_art_drunk_dvaa">
-            <text>I'm thinking of going to on a raid to the Garbage. It's not far from here, but as you probably know, the anomalies and radiation is there in abundance. I don't want to use up my remaining anti-radiation meds there. If you get me a "Mercury Ball" artifact from there, or from someplace else, I'll make it worth your while.</text>
+            <text>I'm thinking of going to on a raid to the Garbage. It's not far from here, but as you probably know, the anomalies and radiation is there in abundance. I don't want to use up my remaining anti-radiation meds there. If you get me a Mercury Ball artifact from there, or from someplace else, I'll make it worth your while.</text>
         </string>
         <string id="desc_olr_find_art_drunk_dvaa">
-            <text>Find the "Mercury Ball" artifact for the informant.</text>
+            <text>Find the Mercury Ball artifact for the informant.</text>
         </string>
 
 
         <string id="olr_find_art_drunk_ine">
-            <text>Find the "Mercury" artifact</text>
+            <text>Find the Mercury artifact</text>
         </string>
         <string id="text_olr_find_art_drunk_ine">
-            <text>I was sitting at the Duty camp in the Garbage, and I ran into a bunch of stalkers that had returned from a raid. One of them showed me something curious, and the stalker claimed he found it at the Radar. It was an artifact I've never seen before: a "Mercury". I asked him, "Where did you find it?", and he claimed that you can find them if you look hard enough. Can you find one for me? I'm amazed by how they look.</text>
+            <text>I was sitting at the Duty camp in the Garbage, and I ran into a bunch of stalkers that had returned from a raid. One of them showed me something curious, and the stalker claimed he found it in the Red Forest. It was an artifact I've never seen before: a Mercury. I asked him, "Where did you find it?", and he claimed that you can find them if you look hard enough. Can you find one for me? I'm amazed by how they look.</text>
         </string>
         <string id="desc_olr_find_art_drunk_ine">
-            <text>Find the "Mercury" artifact for the informant.</text>
+            <text>Find the Mercury artifact for the informant.</text>
         </string>
 
 
         <string id="olr_petr_tree_vert">
-            <text>Find a "Colt M1911" pistol</text>
+            <text>Find a Colt M1911 pistol</text>
         </string>
         <string id="text_olr_petr_tree_vert">
-            <text>Listen, I got an order here from one of our veterans. He wants an “Colt M1911". Those pistols are chambered for .45 ACP. Can you me one?</text>
+            <text>Listen, I got an order here from one of our veterans. He wants a Colt M1911. Those pistols are chambered for .45 ACP. Can you me one?</text>
         </string>
         <string id="desc_olr_petr_tree_vert">
-            <text>Find a "Colt M1911" pistol for the Duty trader.</text>
+            <text>Find a Colt M1911 pistol for the Duty trader.</text>
         </string>
 
 
         <string id="olr_petr_two_vert">
-            <text>Find a "Desert Eagle" pistol</text>
+            <text>Find a Desert Eagle pistol</text>
         </string>
         <string id="text_olr_petr_two_vert">
-            <text>Listen, I got an order here from one of our veterans. He wants an “Desert Eagle". Those pistols are chambered for .45 ACP. Can you me one?</text>
+            <text>Listen, I got an order here from one of our veterans. He wants a Desert Eagle. Those pistols are chambered for .45 ACP. Can you me one?</text>
         </string>
         <string id="desc_olr_petr_two_vert">
-            <text>Find a "Desert Eagle" pistol for the Duty trader.</text>
+            <text>Find a"Desert Eagle pistol for the Duty trader.</text>
         </string>
 
 
         <string id="olr_petr_one_vert">
-            <text>Find a "USP" pistol</text>
+            <text>Find a USP pistol</text>
         </string>
         <string id="text_olr_petr_one_vert">
             <text>Listen, I got an order here from one of our veterans. He wants an “USP". Those pistols are chambered for .45 ACP. Can you me one?</text>
         </string>
         <string id="desc_olr_petr_one_vert">
-            <text>Find a "USP" pistol for the Duty trader.</text>
+            <text>Find a USP pistol for the Duty trader.</text>
         </string>
 
 
         <string id="olr_kill_krovo_quest_vtor">
-            <text>Kill the Bloodsuckers</text>
+            <text>Kill the bloodsuckers</text>
         </string>
         <string id="text_olr_kill_krovo_quest_vtor">
-            <text>Some Bloodsuckers came over to the forest to the east of the Duty outpost in Garbage. Apparently, they migrated from the Dark Valley. Destroy them.</text>
+            <text>Some bloodsuckers came over to the forest to the east of the Duty outpost in Garbage. Apparently, they migrated from the Dark Valley. Destroy them.</text>
         </string>
         <string id="desc_olr_kill_krovo_quest_vtor">
-            <text>Kill the Bloodsuckers</text>
+            <text>Kill the bloodsuckers</text>
         </string>
 
 
         <string id="olr_tri_find_wpns">
-            <text>Find a "AIMS-74"</text>
+            <text>Find an AIMS-74</text>
         </string>
         <string id="text_olr_tri_find_wpns">
             <text>Have you seen the soldiers with those strange rifles? Rumors are going around that the Ukrainian government is buying rifles from Romania in bulk. Supposedly, they are quite lethal. I received an order one of those rifles. My sources tell me that only the soldiers carry them. Bring one and I'll exchange it for a new AK-74.</text>
         </string>
         <string id="desc_olr_tri_find_wpns">
-            <text>Find a "AIMS-74" for the informant.</text>
+            <text>Find an AIMS-74 for the informant.</text>
         </string>
 
 
@@ -1457,7 +1457,7 @@
  </string> 
 
  <string id="skay_0"> 
- <text>Greetings, Messer. I am a stalker from the Clear Sky faction. We aren't that great in numbers, so we work with loners. If you want to help us, come to the central complex of the Med-Pribor institute. Our guys are there. Help of someone like you will be of great use to them.</text> 
+ <text>Greetings, Messer. I am a stalker from the Clear Sky faction. We aren't that great in numbers, so we work with loners. If you want to help us, come to the central complex of the MedPribor institute. Our guys are there. Help of someone like you will be of great use to them.</text> 
  </string> 
  <string id="skay_1"> 
  <text>Clear Sky? That's the first time I hear about a faction like that. Alright, I'll meet with your people when the opportunity arrives.</text> 
@@ -1504,13 +1504,13 @@
      <text>Everything seems okay. The installation is off, there is no more psi-radiation at the lake.</text>
   </string>
    <string id="st_dialog_3">
-     <text>Great. Listen: according to the documents you brought from the Dark Valley laboratory, it seems that the Yantar installation generated a psi-field covering some other territory. Another, more powerful antenna: Duga-1, protecting the road to the north. In theory the road to that antenna is now clear.</text>
+     <text>Great. Listen: according to the documents you brought from the Dark Valley laboratory, it seems that the Yantar installation generated a psi-field covering some other territory. Another, more powerful antenna: the Duga-1, protecting the road to the north. In theory the road to that antenna is now clear.</text>
   </string>
    <string id="st_dialog_4">
     <text>Go on...</text>
   </string>
    <string id="st_dialog_5">
-    <text>On the Radar territory there is an entrance to an underground complex. Probably that's where the Duga-1 controls are located. You'll need to get down to that complex and turn off that thing. Then, the road to the north will be open.</text>
+    <text>Around the Red Forest, there is an entrance to an underground complex. That's probably where the Duga-1 controls are located. You'll need to get to that complex and turn off that thing. Then the road to the north will be open.</text>
   </string>
    <string id="st_dialog_6">
     <text>Hmmm...okay.</text>
@@ -1647,7 +1647,7 @@
 		<text>Listen, I am looking for someone. Name's Strelok. Do you know him?</text>
 	</string>
 	<string id="rat_story_info_1">
-		<text>Strelok... Yes, I know something. I saw him and his crew at Med-Pribor once. Rumor has it he's gone missing. Some say that he disappeared near the power plant, others say that he disappeared behind it. I don't know exactly. It's kind of a weird thing with that Strelok guy...</text>
+		<text>Strelok... Yes, I know something. I saw him and his crew at MedPribor once. Rumor has it he's gone missing. Some say that he disappeared near the power plant, others say that he disappeared behind it. I don't know exactly. It's kind of a weird thing with that Strelok guy...</text>
 	</string>
 	<string id="rat_story_info_100">
 		<text>Thanks.</text>
@@ -2026,8 +2026,8 @@
         <text>Какие правила?</text>
     </string>
     <string id="bar_arena_manager_rules_1">
-        <text>О, правила очень простые. Я их сам придумал. Есть клетка, в неё запускается мутант. Ты платишь деньги, а также выбираешь время, за которое ты убьёшь монстра. Если успеваешь - получаешь выигрыш. Если не успеваешь - деньги я оставляю себе. Если ты умрёшь - обещаю похоронить со всеми почестями. Чем меньше время, которое ты выберешь - тем больше выигрыш.</text> <!-- unused arena stuff -->
-	</string>
+        <text>О, правила очень простые. Я их сам придумал. Есть клетка, в неё запускается мутант. Ты платишь деньги, а также выбираешь время, за которое ты убьёшь монстра. Если успеваешь - получаешь выигрыш. Если не успеваешь - деньги я оставляю себе. Если ты умрёшь - обещаю похоронить со всеми почестями. Чем меньше время, которое ты выберешь - тем больше выигрыш.</text> <!-- end of unused arena stuff -->
+    </string>
 	<string id="bar_bar_barman_ecolog_flash_done_0">
 		<text>Here is the flash drive professor Kruglov gave me.</text>
 	</string>
@@ -3712,13 +3712,13 @@
 		<text>And to give my life in the name of justice and order on Earth!</text>
 	</string>
 	<string id="bar_dolg_leader_prisyaga_9">
-		<text>Congratulations! You are now a full member of Duty.</text>
+		<text>Congratulations! You are now a full-fledged member of Duty.</text>
 	</string>
 	<string id="bar_dolg_leader_quest_rg6_finish_0">
 		<text>I completed the mission. I brought the RG-6.</text>
 	</string>
 	<string id="bar_dolg_leader_quest_rg6_finish_1">
-		<text>Good job. This is what we exactly needed.\nMesser, you passed the test I were accepted into our clan. From  now on you are a Rookie fighter of Duty. I will get some missions for you. For each of them completed you will be rewarded and perhaps even promoted. But, you  also need to do our oath.</text>
+		<text>Good job. This is what we exactly needed.\nMesser, you passed the test. You are now accepted into our clan. From now on, you are a regular private of Duty. I will get some missions for you. For each of them completed, you will be rewarded and perhaps even promoted.\nTo officially become a part of our faction, you also need to swear our oath.</text>
 	</string>
 	<string id="bar_dolg_leader_quest_borov_finish_0">
         <text>Я выполнил свою миссию - Боров уничтожен, информацию принёс.</text>
@@ -3967,13 +3967,13 @@
 		<text>Thanks.</text>
 	</string>
 	<string id="bar_bar_psih_start_pain_11">
-		<text>There's something in my head... agh... what's going on... I don't understand...</text>
+		<text>There's something in my head... Agh... What's going on... I don't understand...</text>
 	</string>
 	<string id="bar_bar_psih_start_pain_21">
 		<text>Uhuh... and to think.... aaah....</text>
 	</string>
 	<string id="bar_bar_psih_start_pain_31">
-		<text>My head... it's full... it's full of some shit... ahh....</text>
+		<text>My head... It's full... It's full of shit... ahh....</text>
 	</string>
 	<string id="bar_bar_psih_start_pain_41">
 		<text>No.... why... I don't want it... I don't want it to...</text>
@@ -3982,7 +3982,7 @@
 		<text>No, it won't do it to me! It won't do it to me!</text>
 	</string>
 	<string id="bar_bar_psih_start_pain_61">
-		<text>I'm normal! I'm normal... I can push through this...</text>
+		<text>I'm okay! I'm okay... I can push through this...</text>
 	</string>
 	<string id="bar_bar_psih_start_pain_71">
 		<text>I can do this!</text>
@@ -3997,25 +3997,25 @@
 		<text>Spotty, can you hear me?</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_1">
-		<text>No.... why... I don't want it... I don't want it to...</text>
+		<text>No.... Why... I don't want it... I don't want it to...</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_11">
 		<text>Can you hear me?!</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_111">
-		<text>No, it won't do it to me! Not to me!</text>
+		<text>No! It won't do it to me! Not to me!</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_1111">
 		<text>Speak to me!</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_11111">
-		<text>My head... it's full... it's full of some shit... ahh....</text>
+		<text>My head... It's full... It's full of shit... ahh....</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_111111">
 		<text>Waste of time! I need a scientific medkit...</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_1111111">
-		<text>There's something in my head... agh... what's going on... I don't understand...</text>
+		<text>There's something in my head... Agh... What's going on... I don't understand...</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_11111111">
 		<text>Here, take this medkit!</text>
@@ -4024,16 +4024,16 @@
 		<text>I'm normal, I'm normal... I can do this!...</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_11111112">
-		<text>Shit! I don't have a medkit... need to ask Barkeep for one...</text>
+		<text>Shit! I don't have a medkit... Need to ask Barkeep for one...</text>
 	</string>
 	<string id="bar_bar_psih_talk_pain_111111121">
-		<text>My head... voices in my head... they're talking to me...</text>
+		<text>My head... Voices in my head... They're talking to me...</text>
 	</string>
 	<string id="bar_bar_psih_give_medkit_0">
 		<text>Here, take this medkit! It should help!</text>
 	</string>
 	<string id="bar_bar_psih_give_medkit_1">
-		<text>Gaah... my head... hurts...</text>
+		<text>Gaah... My head... hurts...</text>
 	</string>
 	<string id="bar_bar_psih_talk_gorbun_0">
 		<text>How are you feeling? Can you talk?</text>
@@ -4042,16 +4042,16 @@
 		<text>My vision is doubling...</text>
 	</string>
 	<string id="bar_bar_psih_talk_gorbun_11">
-		<text>So it helped... What do you know bout the scorcher? When is the radiation at it's weakest?</text>
+		<text>So it helped... What do you know bout the Scorcher? When is the radiation at its weakest?</text>
 	</string>
 	<string id="bar_bar_psih_talk_gorbun_111">
-		<text>Radiation... screw it! Hunchback, Hunchback is dead!</text>
+		<text>Radiation... Screw it! Hunchback! Hunchback is dead!</text>
 	</string>
 	<string id="bar_bar_psih_talk_gorbun_1111">
 		<text>Who the hell is Hunchback?</text>
 	</string>
 	<string id="bar_bar_psih_talk_gorbun_11111">
-		<text>A stalker... We went together to the Scorcher... Hunchback, me and Baldy...</text>
+		<text>A stalker... We went together to the Scorcher... Hunchback, Baldy and I...</text>
 	</string>
 	<string id="bar_bar_psih_talk_gorbun_111111">
 		<text>Baldy? Baldy was with you?</text>
@@ -4066,31 +4066,31 @@
 		<text>I talked to Baldy. He said you have some info about the Scorcher.</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_1">
-		<text>Yes... I do... it costed me quite a lot... and it wasn't completely true...</text>
+		<text>Yes... I do... It cost me quite a lot... and it wasn't completely true...</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_11">
 		<text>Tell me everything ya know.</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_111">
-		<text>I don't remember much... the radiation drops down sometimes... sometimes around the morning... sometimes around the high noon... it usually drops for an hour... sometimes more... Gahh... it's you...</text>
+		<text>I don't remember much... The radiation drops down sometimes... sometimes around the morning... sometimes around the high noon... It usually drops for an hour... sometimes more... Gahh... It's you...</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_1111">
 		<text>What?</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_11111">
-		<text>The voice... it's calling me... I need to go....</text>
+		<text>The voice... It's calling me... I need to go....</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_111111">
 		<text>What are you saying?</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_1111111">
-		<text>Gaah... my head... ahh... it's the voice again!</text>
+		<text>Gaah... My head... Ahh... It's the voice again!</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_11111111">
-		<text>Calm down friend, you're safe now.</text>
+		<text>Calm down, friend. You're safe now.</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_111111111">
-		<text>... whisper... whisper... and the creak of a swingset... My daughter... I want to see her again so much, but I can't... I can't. That THING in my head is a monster and it turned me into a monster. No, no! My friend, give this artifact to Barkeep. It's everything I got from the Radar, before that THING got into my head. Tell the Barkeep to give it to my daughter and wife, it's the least I can do for them...</text>
+		<text>...Whispers... Whispers... Creak of swings... My daughter... I want to see her again so much, but I can't... I can't. That THING in my head is a monster, and it turned me into a monster. No, no! My friend, give this artifact to Barkeep. It's all I found there before It got into my head. Tell the Barkeep to give it to my daughter and wife. It's the least I can do for them...</text>
 	</string>
 	<string id="bar_bar_psih_talk_lisiy_1111111111">
 		<text>Wait, what?</text>
@@ -4102,7 +4102,7 @@
 		<text>What artifact?</text>
 	</string>
 	<string id="bar_bar_barmen_actor_give_ryaboy_art_11">
-		<text>He gave me this artifact, he found it at the Radar. He told me to give it to you..</text>
+		<text>He gave me this artifact. He found it in the Red Forest. He told me to give it to you..</text>
 	</string>
 	<string id="bar_bar_barmen_actor_give_ryaboy_art_111">
 		<text>To me?</text>
