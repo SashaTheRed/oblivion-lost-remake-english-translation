@@ -84,7 +84,7 @@
    </string>
 
    <string id="zdenb_head_3">
-    <text>The stalker said that he came here from the Medpribor Institute.</text>
+    <text>The stalker said that he came here from the MedPribor Institute.</text>
    </string>
 
    <string id="zdenb_head_4">
@@ -122,7 +122,7 @@
    </string>
 
    <string id="den_head_2">
-    <text>What the? Another stalker? Damn! I thought it was over, that death was close... Imagine - I found an entrance to a tunnel in Medpribor. I was looking for it during the day for a long time. Maybe for two days? I do not remember. Somehow, I found this hatch and I thought that I was saved, that everything will be fine... and here you are! This doesn't make sense. As soon as I climbed down here, the hatch slammed shut, as if on purpose! And this room was sealed shut. Shit, where even are we?</text>
+    <text>What the? Another stalker? Damn! I thought it was over, that death was close... Imagine - I found an entrance to a tunnel in MedPribor. I was looking for it during the day for a long time. Maybe for two days? I do not remember. Somehow, I found this hatch and I thought that I was saved, that everything will be fine... and here you are! This doesn't make sense. As soon as I climbed down here, the hatch slammed shut, as if on purpose! And this room was sealed shut. Shit, where even are we?</text>
    </string>
 
    <string id="den_head_3">
@@ -193,7 +193,7 @@
 
 
    <string id="hooo_zzz">
-    <text>Yes! That's it! Thank you, stalker! Finally, I will be able to go to Medpribor!</text>
+    <text>Yes! That's it! Thank you, stalker! Finally, I will be able to go to MedPribor!</text>
    </string>
 
 
@@ -938,7 +938,7 @@
      <text>What's the job?</text>
   </string>
    <string id="6_dialog_1">
-     <text>I have received information about the Medpribor Institute. Someone told me about some documents there that may be helpful in reaching the center of the Zone. I'll pay you if you get them from there.</text>
+     <text>I have received information about the MedPribor Institute. Someone told me about some documents there that may be helpful in reaching the center of the Zone. I'll pay you if you get them from there.</text>
   </string>
    <string id="6_dialog_2">
      <text>Can you tell me about the center of the Zone?</text>
@@ -950,13 +950,13 @@
     <text>Strelok made it to the center?</text>
   </string>
    <string id="6_dialog_5">
-    <text>Yes, although personally I don't believe it. I'm giving you your first major task. You need to get into Medpribor and find these documents. Am I clear?</text>
+    <text>Yes, although personally I don't believe it. I'm giving you your first major task. You need to get into MedPribor and find these documents. Am I clear?</text>
   </string>
    <string id="6_dialog_6">
     <text>Not really, but I think I can handle it.</text>
    </string>
   <string id="6_dialog_7">
-    <text>I like your attitude. Alright, if you go north, you'll get to the Garbage. It's been pretty quiet there for now, though some bandits have been reported in that area. Be careful. From the Garbage to Medpribor, there are two routes to the west. One is a hole in a fence - the other is the main road, which is a little further north. All of the transitions for that area have marked on your minimap. Best of luck, stalker!</text>
+    <text>I like your attitude. Alright, if you go north, you'll get to the Garbage. It's been pretty quiet there for now, though some bandits have been reported in that area. Be careful. From the Garbage to MedPribor, there are two routes to the west. One is a hole in a fence - the other is the main road, which is a little further north. All of the transitions for that area have marked on your minimap. Best of luck, stalker!</text>
   </string> 
 
 
@@ -966,7 +966,7 @@
 
 
 <string id="6_propusk_0">
-<text>Hey, I found some kind of suitcase from Medpribor.</text>
+<text>Hey, I found some kind of suitcase from MedPribor.</text>
 </string>
 <string id="6_propusk_1">
 <text>You've found the documents. Let me review them for a minute.. hmm, this says this is the first part; the second is at the blockpost here in the Cordon.</text>
@@ -1214,7 +1214,7 @@
 		<text>What can you tell me about the Zone?</text>
 	</string>
 	<string id="escape_fox_hello_dialog_21111">
-		<text>That's all you wanna know? Take a week off and then come back to see me. Look, my time ain't cheap and I'm kinda busy right now. Here are the basics and then you're on your own. About three kilometers north of here, you'll find the Garbage. That's the place they used to dump all the radioactive waste from the station. High radiation levels, anomalies all over the place, so there are loads of artifacts to be found there... but not very valuable. Just beware of the gangs and don't cross the Duty patrols. West of the Garbage is the former Medpribor Research Institute. Little in terms of artifacts there, so you can skip it. And to the east, there's the Dark Valley. Who knows... That's a pretty weird place. It seems quiet enough, apart from a bunch of gangsters roaming around. But I got a feeling there's more to it than meets the eye. Oh, and there's the Rostok factory right beyond the Garbage. That's stalker territory. You'll find lots of clued-in folks there, they'll tell you the rest.</text>
+		<text>That's all you wanna know? Take a week off and then come back to see me. Look, my time ain't cheap and I'm kinda busy right now. Here are the basics and then you're on your own. About three kilometers north of here, you'll find the Garbage. That's the place they used to dump all the radioactive waste from the station. High radiation levels, anomalies all over the place, so there are loads of artifacts to be found there... but not very valuable. Just beware of the gangs and don't cross the Duty patrols. West of the Garbage is the former MedPribor Research Institute. Little in terms of artifacts there, so you can skip it. And to the east, there's the Dark Valley. Who knows... That's a pretty weird place. It seems quiet enough, apart from a bunch of gangsters roaming around. But I got a feeling there's more to it than meets the eye. Oh, and there's the Rostok factory right beyond the Garbage. That's stalker territory. You'll find lots of clued-in folks there, they'll tell you the rest.</text>
 	</string>
 	<string id="escape_fox_hello_dialog_211111">
 		<text>What's there to be wary of in the Zone?</text>

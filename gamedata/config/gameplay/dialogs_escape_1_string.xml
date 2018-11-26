@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
     <string id="New_0">
-        <text>Привет</text>
+        <text>Hi</text>
     </string>
     <string id="New_1">
-        <text>Расскажи о Стрелке</text>
+        <text>Tell me about Strelok</text>
     </string>
     <string id="New_11">
-        <text>Стрелок - очень модный штрих. Нашел путь к центру и пропал.</text>
+        <text>Strelok's a unique stalker. He found a way to the center and disappeared.</text>
     </string>
     <string id="New_111">
-        <text>К центру?</text>
+        <text>To the center?</text>
     </string>
     <string id="New_1111">
-        <text>Да, к центру</text>
+        <text>Yes, to the center</text>
     </string>
     <string id="New_112">
-        <text>Пропал?</text>
+        <text>Disappeared?</text>
     </string>
     <string id="New_1121">
-        <text>Да, пропал</text>
+        <text>Yes, disappeared</text>
     </string>
     <string id="New_113">
-        <text>Спасибо за инфу</text>
+        <text>Thanks for the info</text>
     </string>
     <string id="New_2">
-        <text>Что нового в Зоне?</text>
+        <text>What's new in the Zone?</text>
     </string>
     <string id="New_21">
-        <text>Дождик капает</text>
+        <text>It looks like rain</text>
     </string>
     <string id="New_21">
-        <text>Дождик капает</text>
+        <text>It looks like rain</text>
     </string>
     <string id="New_3">
-        <text>Пойду я, пожалуй</text>
+        <text>I think I'll go</text>
     </string>
 </string_table>

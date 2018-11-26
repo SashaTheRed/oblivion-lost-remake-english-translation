@@ -70,7 +70,7 @@
  <next>1</next> 
  </phrase> 
  <phrase id="1"> 
- <text>Нет проблем.</text> 	
+ <text>No problem.</text> 	
  </phrase> 
  </phrase_list> 
  </dialog>
@@ -634,11 +634,11 @@
 <has_info>sosovetz_military_pogovorili</has_info>
 <phrase_list>
 <phrase id="0">
-<text>Что со мной..</text>
+<text>What's wrong with me?...</text>
 <next>1</next>
 </phrase>
 <phrase id="1">
-<text>Думаю, тебе лучше в Бар отправиться.</text>	
+<text>I think you should head to the Bar.</text>	
 </phrase>
 </phrase_list>
 </dialog>
@@ -1435,19 +1435,19 @@
  <dont_has_info>serogas_svob_have</dont_has_info> 
  <phrase_list> 
  <phrase id="0"> 
- <text>Привет.</text> 
+ <text>Hello.</text> 
  <next>1</next> 
  </phrase> 
  <phrase id="1"> 
- <text>Так, так, так.. Всё же принёс.</text> 
+ <text>Well, well, well... You brought it after all.</text> 
  <next>2</next> 
  </phrase> 
  <phrase id="2"> 
- <text>Так это ваших рук дело?</text>
+ <text>So this is your doing?</text>
  <next>3</next> 
  </phrase> 
  <phrase id="3"> 
- <text>Да. Он знал слишком много.. Пришлось его убрать. Молодец, что принёс, давай её сюда. Наш снайпер не смог бы подобраться к складу Долга и забрать её. Вот, держи своё. А теперь вали.</text> 
+ <text>Yes. He knew too much... We had to remove him. Good job on bringing it here. Give it to me. Our sniper wouldn't be able to get to Duty's warehouse and get it. Here's your cut. Now go away.</text> 
  <next>4</next>
  <give_info>serogas_svob_have</give_info> 
  <action>nick.give_pzrk</action>
@@ -2379,15 +2379,15 @@
     <dialog id="kollstory_blou"> 
         <phrase_list> 
             <phrase id="0"> 
-                <text>Здарова, сталкер. Это ты отключил установку на Янтаре? Что тебе надо?</text> 
+                <text>Hey there, stalker. You the one who turned off the installation at Yantar? What do you need?</text> 
                 <next>1</next> 
             </phrase> 
  <phrase id="1"> 
- <text>Да. Я ищу кое-кого.. Кто ты?</text> 	
+ <text>Yeah. I'm looking for someone... Who are you?</text> 	
  <next>2</next> 
  </phrase> 
  <phrase id="2"> 
- <text>Я последний из группировки "Последний день"... Скрываюсь здесь... Иди куда шёл, сталкер...</text>
+ <text>I'm the last surviving member of the faction known as "Final Day"... I'm hiding here... Move along, stalker...</text>
  </phrase> 
  </phrase_list> 
  </dialog>
@@ -2395,15 +2395,15 @@
  <dialog id="hello_dialog_iskatel"> 
  <phrase_list> 
  <phrase id="0"> 
- <text>Здарова, сталкер. Что надо?</text> 
+ <text>Hey, stalker. What do you want?</text> 
  <next>1</next> 
  </phrase> 
  <phrase id="1"> 
- <text>Ничего.</text> 	
+ <text>Nothing.</text> 	
  <next>2</next> 
  </phrase> 
  <phrase id="2"> 
- <text>Ну тогда пока.</text>
+ <text>Then goodbye.</text>
  </phrase> 
  </phrase_list> 
  </dialog>
@@ -2413,7 +2413,7 @@
  <has_info>find_docs_rostok_done</has_info> 
  <phrase_list> 
  <phrase id="0"> 
- <text>Есть ещё работа?</text> 
+ <text>Got any more work?</text> 
  <next>1</next> 
  </phrase> 
  <phrase id="1"> 
@@ -2421,7 +2421,7 @@
  <next>2</next> 
  </phrase> 
  <phrase id="2"> 
- <text>Хорошо, я сделаю это.</text>
+ <text>Okay. I'll do it.</text>
  <give_info>bar_kvest_dolg2_start</give_info> 
  </phrase> 
  </phrase_list> 
@@ -2432,15 +2432,15 @@
  <has_info>bar_kvest_dolg2_have</has_info> 
  <phrase_list> 
  <phrase id="0"> 
- <text>Контроллёр мёртв.</text> 
+ <text>The controller's dead.</text> 
  <next>1</next> 
  </phrase> 
  <phrase id="1"> 
- <text>Отлично. Ты очень помог делу Долга. Отныне, можешь ожидать от нас максимально хорошего отношения.</text> 	
+ <text>Great. You've really helped Duty. From now on, expect the best relationship between us.</text> 	
  <next>2</next> 
  </phrase> 
  <phrase id="2"> 
- <text>Хорошо.</text> 	 
+ <text>Okay.</text> 	 
   <give_info>bar_kvest_dolg2_done</give_info>
  <action>esc.give_art_spiral_bablo</action>
  </phrase> 
@@ -2491,15 +2491,15 @@
  <has_info>find_docs_rostok_have</has_info> 
  <phrase_list> 
  <phrase id="0"> 
- <text>Привет. Вроде нашёл что-то. Какой-то дневник.</text> 
+ <text>Hey. I think I found something. Some journal.</text> 
  <next>1</next> 
  </phrase> 
  <phrase id="1"> 
- <text>Отлично. Да, это то, что нужно. Ничего необычного не видел?</text> 	
+ <text>Excellent. Yes, this is what I need. Saw anything peculiar?</text> 	
  <next>2</next> 
  </phrase> 
  <phrase id="2"> 
- <text>Хех.. было жарко..</text>
+ <text>Heh... It was hot...</text>
   <action>esc.give_docs_rostok</action>	 
   <give_info>find_docs_rostok_done</give_info>
   <action>esc.give_art_spiral_bablo</action>
@@ -2797,23 +2797,23 @@
 <dialog id="wather_bar_2">
         <phrase_list>
 <phrase id="0">
-<text>Что нужно?</text>
+<text>What do you need?</text>
 <next>1</next>
 </phrase>
 <phrase id="1">
-<text>Здарова. Что высматриваешь?</text>
+<text>Hey. What are you looking for?</text>
 <next>2</next>
 </phrase>
 <phrase id="2">
-<text>Послушай, я занят.. Уйди отсюда.</text>
+<text>Listen, I'm busy.. Get out of here.</text>
 <next>3</next>
 </phrase>
 <phrase id="3">
-<text>Хорошо, не кипятись.</text>
+<text>Okay. Chill.</text>
 <next>4</next>
 </phrase>
 <phrase id="4">
-<text>Давай, давай.</text>
+<text>Move along, move along.</text>
 </phrase>
 </phrase_list>
 </dialog>
@@ -2826,23 +2826,23 @@
 <dialog id="wather_bar">
         <phrase_list>
 <phrase id="0">
-<text>Чего тебе?</text>
+<text>What?</text>
 <next>1</next>
 </phrase>
 <phrase id="1">
-<text>Ты что-нибудь о Стрелке слышал?</text>
+<text>Have you heard anything about Strelok?</text>
 <next>2</next>
 </phrase>
 <phrase id="2">
-<text>Не знаю такого.</text>
+<text>Don't know him.</text>
 <next>3</next>
 </phrase>
 <phrase id="3">
-<text>А о Журналисте?</text>
+<text>What about Journalist?</text>
 <next>4</next>
 </phrase>
 <phrase id="4">
-<text>Нет, не слышал. Не мешай.</text>
+<text>I don't know him either. Stop bothering me.</text>
 </phrase>
 </phrase_list>
 </dialog>

@@ -42,7 +42,7 @@
 
  <phrase id="2"> 
  <dont_has_info>artm_af_gold_fish</dont_has_info>
- <text>Сильный гравитационный артефакт</text>
+ <text>Strong gravitational artifact</text>
  <precondition>nick.black_angel_have</precondition> 
  <action>nick.akim_give_money</action>	
  <give_info>artm_af_gold_fish</give_info>
@@ -50,7 +50,7 @@
 
 <phrase id="33"> 
  <dont_has_info>artm_af_soul</dont_has_info>
- <text>Чёрные капли</text>
+ <text>Black Drops</text>
  <precondition>nick.black_angel_have</precondition> 
  <action>nick.akim_give_money</action>	
  <give_info>artm_af_soul</give_info>
@@ -59,7 +59,7 @@
 
 <phrase id="333"> 
  <dont_has_info>artm_af_dummy_spring</dont_has_info>
- <text>Мочалка</text>
+ <text>Wisp</text>
  <precondition>nick.black_angel_have</precondition> 
  <action>nick.akim_give_money</action>	
  <give_info>artm_af_dummy_spring</give_info>
@@ -67,7 +67,7 @@
 
 <phrase id="3333"> 
  <dont_has_info>artm_af_dummy_glassbeads</dont_has_info>
- <text>Мёртвая голова</text>
+ <text>Death's Head</text>
  <precondition>nick.black_angel_have</precondition> 
  <action>nick.akim_give_money</action>	
  <give_info>artm_af_dummy_glassbeads</give_info>
@@ -76,7 +76,7 @@
 
 <phrase id="33333"> 
  <dont_has_info>artm_af_electra_moonlight</dont_has_info>
- <text>Электрический шар</text>
+ <text>Electric Ball</text>
  <precondition>nick.black_angel_have</precondition> 
  <action>nick.akim_give_money</action>
  <give_info>artm_af_electra_moonlight</give_info>
@@ -84,7 +84,7 @@
 
 
  <phrase id="3"> 
- <text>Я передумал.</text> 
+ <text>I changed my mind.</text> 
  <action>dialogs.break_dialog</action> 
  </phrase> 
  </phrase_list> 
@@ -199,19 +199,19 @@
 <dialog id="ohr_yan_olr_nooo">
 <phrase_list>
 <phrase id="0">
-<text>Здарова, сталкер. Ну как тебе тут? Весело?</text>
+<text>Hey, stalker. How do you feel about this place? Having fun?</text>
 <next>1</next>
 </phrase>
 <phrase id="1">
-<text>Да не сказал бы.</text>
+<text>I wouldn't say that.</text>
 <next>2</next>
 </phrase>
 <phrase id="2">
-<text>Слизень не сказал, что после того, как сюда кто-либо входит, включается система защиты, и выход закрывается. Пришлось, так сказать, тебя выручать. Гы.</text>
+<text>Slug didn't tell you that the protection system turns on and the exit closes whenever someone walks in here. Had to save you there. Heh.</text>
 <next>3</next>
 </phrase>
 <phrase id="3">
-<text>Хех, ну дела... Спасибо.</text>       
+<text>Heh. Well, then... Thanks.</text>       
 </phrase>
 </phrase_list>
 </dialog>
@@ -1013,34 +1013,34 @@
 <dialog id="dark_laboratory_scientist_dialog">
         <phrase_list>
             <phrase id="0">
-                <text>Много я всего интересного знаю. Поведал бы и тебе. Но для этого, тебе надо немного поработать.</text>
+                <text>I know many interesting things. I'd tell you. But for that, you'll need to work a bit.</text>
                 <next>1</next>
                 <next>2</next>
             </phrase>
             <phrase id="1">
-                <text>Ну расскажи хоть что-нибудь! Ты не знаешь дорогу на север Зоны?</text> 
+                <text>Well, tell me something at least! Don't you know the way to the northern part of the Zone?</text> 
                 <action>nick.money_give</action>
                 <action>nick.heal_actor</action>
                 <next>3</next>
             </phrase>
             <phrase id="2">
-                <text>Я и сам всё знаю, обойдусь без твоей помощи!</text>
+                <text>I know everything myself! I'll do just fine without your help!</text>
                 <next>4</next>
             </phrase>
             <phrase id="3">
-                <text>Я же тебе сказал, что ничего не расскажу. А эта тема мне и самому интересна.</text>
+                <text>I've told you that I won't share anything with you. And that's what interests me the most.</text>
                 <next>5</next>
             </phrase>
             <phrase id="4">
-                <text>Ну как хочешь.</text>
+                <text>As you say.</text>
                 <next>5</next>
             </phrase>
             <phrase id="5">
-	            <text>Пока.</text>
+	            <text>Bye.</text>
                 <next>6</next>
             </phrase>
             <phrase id="6">
-            <text>Давай.</text>
+            <text>Continue.</text>
             </phrase>
         </phrase_list>
     </dialog>
