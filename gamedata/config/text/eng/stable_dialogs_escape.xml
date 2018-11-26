@@ -102,7 +102,7 @@
    </string>
 
    <string id="denb_head_2">
-    <text>Messer? Phew, I'm glad to see you. Alright, I got to the Bar quietly. If anything, IвЂ™ve told the people that youвЂ™re a good guy. By the way, I saw three guys in blue suits when I left the lab. I don't think they saw me. Also, at the entrance I met a gopnik who demanded payment for a way out of the lab, and therefore I had to give him my hard-earned goods. The bandits have gone insane!</text>
+    <text>Messer? Phew, I'm glad to see you. Alright, I got to the Bar quietly. If anything, I’ve told the people that you’re a good guy. By the way, I saw three guys in blue suits when I left the lab. I don't think they saw me. Also, at the entrance I met a gopnik who demanded payment for a way out of the lab, and therefore I had to give him my hard-earned goods. The bandits have gone insane!</text>
    </string>
 
    <string id="denb_head_3">
@@ -640,7 +640,7 @@
  <text>Toad, I found these documents at the hanger in the Garbage. They're about some sort of large-scale military operation in the center of the Zone.</text> 
  </string> 
  <string id="pr_1"> 
- <text>What?! Did anybody see you take them? Do you have them with you? Hell, if the military finds out, you and I could get into trouble. Listen, I donвЂ™t need these documents, but the Barkeep at the "Stalker" bar may be interested in them. Talk about the documents with him when you get there.</text> 
+ <text>What?! Did anybody see you take them? Do you have them with you? Hell, if the military finds out, you and I could get into trouble. Listen, I don’t need these documents, but the Barkeep at the "Stalker" bar may be interested in them. Talk about the documents with him when you get there.</text> 
  </string> 
  <string id="pr_2"> 
  <text>Okay. I'll go and talk to him.</text> 
@@ -1031,7 +1031,7 @@
 	</string>
 
 	<string id="escape_talk_about_escape__21">
-		<text>The Garbage, thatвЂ™s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking.</text>
+		<text>The Garbage, that’s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking.</text>
 	</string>
 
 
@@ -1121,7 +1121,7 @@
 		<text>What's further up North beyond the army outpost?</text>
 	</string>
 	<string id="esc_stalker_talk_level_21">
-		<text>The Garbage, thatвЂ™s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking.</text>
+		<text>The Garbage, that’s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking.</text>
 	</string>
 	<string id="escape_factory_assault_start_31">
 		<text>Hello. Wolf has already sent word of you. You got any questions?</text>
@@ -1313,13 +1313,13 @@
 		<text>What happened to you?</text>
 	</string>
 	<string id="escape_lager_leader_hello_111111">
-		<text>I only remember a bright flash.. It happened about two, maybe three months ago. Perhaps even more. I woke up in the Doctor's shack in the swamps. I was with him for two weeks. He said I was caught by a powerful blowout, and I was miraculously saved by something, or someone. Now I'm hiding here. There are very few people here; ordinary stalkers seldom look in here, and besides a few dogs, thereвЂ™s nothing here except... There was a good man here in the city: Journalist. I visited him a couple of times. He was looking for something here; he carried some documents on him.</text>
+		<text>I only remember a bright flash.. It happened about two, maybe three months ago. Perhaps even more. I woke up in the Doctor's shack in the swamps. I was with him for two weeks. He said I was caught by a powerful blowout, and I was miraculously saved by something, or someone. Now I'm hiding here. There are very few people here; ordinary stalkers seldom look in here, and besides a few dogs, there’s nothing here except... There was a good man here in the city: Journalist. I visited him a couple of times. He was looking for something here; he carried some documents on him.</text>
 	</string>
 	<string id="escape_lager_leader_hello_1111111">
 		<text>Can you tell me more about Doctor?</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111111">
-		<text>Look, I've been here a week, and I haven't eaten anything but rats. If you bring me real food, say: two loaves of bread, I'll tell you everything I know. I would do this myself, but the Freedomers here donвЂ™t like me, you know?</text>
+		<text>Look, I've been here a week, and I haven't eaten anything but rats. If you bring me real food, say: two loaves of bread, I'll tell you everything I know. I would do this myself, but the Freedomers here don’t like me, you know?</text>
 	</string>
 	<string id="escape_lager_leader_hello_111111111">
 		<text>Alright.</text>
@@ -1328,7 +1328,7 @@
 		<text>Bye.</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111121">
-		<text>ThatвЂ™s sad. Well, come back sometime..</text>
+		<text>That’s sad. Well, come back sometime..</text>
 	</string>
 	<string id="escape_lager_leader_hello_21">
 		<text>Well?</text>
@@ -1499,16 +1499,16 @@
         <text>Got any work you need doing?</text>
     </string>
      <string id="escape_lager_volk_job_1">
-        <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. My final wish in this place is to leave a gift for one of my friends. My guys were on their way here, bringing him along, but the bandits had their way with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But youвЂ¦ You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. SoвЂ¦ The bandits have settled down in the factory.</text>
+        <text>I've been in the Zone for a long time. I'm fed up with all of it. I've decided to quit my line of work, and I have things to do in the "outside world" as well. My final wish in this place is to leave a gift for one of my friends. My guys were on their way here, bringing him along, but the bandits had their way with them. So we have to return them the favor. I don't want to risk my hide right before going back home. But you… You're a newbie. You probably want to earn some money. And I'm paying a couple thousand for this. So… The bandits have settled down in the factory.</text>
     </string>
     <string id="escape_lager_volk_job_11">
         <text>Okay. We have a deal. Just tell me what I need to bring them.</text>
     </string>
     <string id="escape_lager_volk_job_111">
-        <text>It's settled, then. As for their giftвЂ¦ Nothing special. Just a pack of dynamitesвЂ¦ If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. You already have a weapon, so go. Get moving.</text>
+        <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. You already have a weapon, so go. Get moving.</text>
     </string>
     <string id="escape_lager_volk_job_112">
-        <text>It's settled, then. As for their giftвЂ¦ Nothing special. Just a pack of dynamitesвЂ¦ If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. Here's a pistol and some ammo for you. Now go. Get moving.</text>
+        <text>It's settled, then. As for their gift… Nothing special. Just a pack of dynamites… If you need help, my guys are next to the factory, keeping watch on the bandits and waiting to start an ambush. Go meet up with them; they'll help you out. Here's a pistol and some ammo for you. Now go. Get moving.</text>
     </string>
     <string id="escape_lager_volk_job_12">
         <text>Hand them the "gift" by yourself.</text>
@@ -1518,13 +1518,13 @@
     </string>
 	
 	<string id="escape_shustryi_start_11">
-		<text>Thanks, brother! You did us a great service! I don't even know how to thank youвЂ¦</text>
+		<text>Thanks, brother! You did us a great service! I don't even know how to thank you…</text>
 	</string>
 	<string id="escape_shustryi_start_111">
 		<text>Don't get too excited, I'm just doing my job. Hey, how did you even end up here?</text>
 	</string>
 	<string id="escape_shustryi_start_1111">
-		<text>I was getting a stash for Wolf with the other guys, and these assholesвЂ¦ They were already waiting for us. I have no idea how they found out about us. And after that, you can guess where it went: we had a shootout, and I ended up here.</text>
+		<text>I was getting a stash for Wolf with the other guys, and these assholes… They were already waiting for us. I have no idea how they found out about us. And after that, you can guess where it went: we had a shootout, and I ended up here.</text>
 	</string>
 	<string id="escape_shustryi_start_11111">
 		<text>I see. What will you do now?</text>
@@ -1711,214 +1711,214 @@
 		<text>I don't know.</text>
 	</string>
 	<string id="escape_trader_start_dialog_18121">
-		<text>ГЊГҐГ·ГҐГ­Г»Г©!!! ГЃГ»Г±ГІГ°Г® Г¤ГіГ© ГЄ ГўГ ГЈГ®Г­Г·ГЁГЄГі ГўГ®Г§Г«ГҐ Г¤Г®Г°Г®ГЈГЁ... Г’Г Г¬ Г°Г Г­ГҐГ­Г»ГҐ... ГќГІГ® Г±ГІГ Г«ГЄГҐГ°Г» ГЁГ§ Г«Г ГЈГҐГ°Гї - ГўГ®Г§ГўГ°Г Г№Г Г«ГЁГ±Гј Г± Г¬Г®ГҐГЈГ® Г§Г Г¤Г Г­ГЁГї. Г—ВёГ°ГІ ГЁГµ Г¤ГҐГ°Г­ГіГ« ГўГҐГ°ГІГ®Г«ГҐГІ Г®ГЎГ±ГІГ°ГҐГ«ГїГІГј... Г’ГҐГЇГҐГ°Гј, ГўГ®Г­, SOS Г®Г°ГіГІ... Г„ГҐГ°Г¦ГЁ Г ГЇГІГҐГ·ГЄГі ГЎГ»Г±ГІГ°ГҐГ©... Г€ ГҐГ№Вё, Гў Г±Г«ГҐГ¤ГіГѕГ№ГЁГ© Г°Г Г§ ГўГ­ГЁГ¬Г ГІГҐГ«ГјГ­Г® Г±Г«ГіГёГ Г© Г¬Г®ГЁ Г±Г®Г®ГЎГ№ГҐГ­ГЁГї ГЇГ® Г°ГЁГ¶ГЁГЁ!</text>
+		<text>Меченый!!! Быстро дуй к вагончику возле дороги... Там раненые... Это сталкеры из лагеря - возвращались с моего задания. Чёрт их дернул вертолет обстрелять... Теперь, вон, SOS орут... Держи аптечку быстрей... И ещё, в следующий раз внимательно слушай мои сообщения по риции!</text>
 	</string>
 	<string id="escape_trader_start_dialog_18122">
-		<text>ГЃГ«ГЁГ­, Г­Гі ГІГ» ГІГіГЇГ®Г©! Г„Г ГўГ Г© ГЎГҐГЈГ®Г¬ ГЄ Г°Г Г­ГҐГ­Г»Г¬!</text>
+		<text>Блин, ну ты тупой! Давай бегом к раненым!</text>
 	</string>
 	<string id="escape_trader_start_dialog_191">
-		<text>ГЌГі Г·ГІГ®, ГЎГ»Г« Гў Г•18? Г„Г®ГЄГіГ¬ГҐГ­ГІГ» ГЇГ°ГЁГ­ВёГ±?</text>
+		<text>Ну что, был в Х18? Документы принёс?</text>
 	</string>
 	<string id="escape_trader_start_dialog_1911">
-		<text>ГЃГ»Г«. Г‚Г®ГІ Г®Г­ГЁ, Г¤Г®ГЄГіГ¬ГҐГ­ГІГ».</text>
+		<text>Был. Вот они, документы.</text>
 	</string>
 	<string id="escape_trader_start_dialog_19111">
-		<text>Г’Г -Г ГЄ... Г ГЈГ ... ГЂ ГўГ®ГІ ГЅГІГ® Г®Г·ГҐГ­Гј Г¤Г Г¦ГҐ ГЁГ­ГІГҐГ°ГҐГ±Г­Г®! ГђГ Г±Г±ГЄГ Г¦Гі - Г­ГҐ ГЇГ®ГўГҐГ°ГїГІ. Г•Г¬-Г¬... ГіГЈГі... Г® ГЄГ ГЄ! Г’Г» Г±Г¬Г®ГІГ°ГЁ! Г„Г Г¦ГҐ ГЁ Г­ГҐ ГЇГ°ГҐГ¤ГЇГ®Г«Г ГЈГ Г« ГІГ ГЄГ®ГЈГ®... ГЄГ ГЄ ГўГ±Вё Г§Г ГЇГіГ№ГҐГ­Г®-ГІГ®... ГЌГі, Г«Г Г¤Г­Г®. Г„ГҐГ°Г¦ГЁ Г®ГЎГ°Г ГІГ­Г®. ГќГІГ® ГўГ±Вё Г­ГіГ¦Г­Г® Г®ГІГ¤Г ГІГј ГЃГ Г°Г¬ГҐГ­Гі, Г  ГІГҐГЎГҐ Г§Г  ГІГ°ГіГ¤Г» ГЇГ°ГЁГ·ГЁГІГ ГҐГІГ±Гї!</text>
+		<text>Та-ак... ага... А вот это очень даже интересно! Расскажу - не поверят. Хм-м... угу... о как! Ты смотри! Даже и не предполагал такого... как всё запущено-то... Ну, ладно. Держи обратно. Это всё нужно отдать Бармену, а тебе за труды причитается!</text>
 	</string>
 	<string id="escape_trader_start_dialog_199">
-		<text>Г‘ГІГ®Г©. Г‚Г®ГІ, Г¤ГҐГ°Г¦ГЁ ГЇГЁГ±ГІГ®Г«ГҐГІ ГЁ ГЇГ ГІГ°Г®Г­Г». Г’Г» Г·ГІГ®, ГЎГҐГ§ Г®Г°ГіГ¦ГЁГї Гў Г‡Г®Г­ГҐ Г­Г  Г°Г Г§ ГЇГ°Г®ГЇГ Г¤ВёГёГј! ГЉГ±ГІГ ГІГЁ, ГЄГ®ГЈГ¤Г  ГІГҐГЎГї ГЇГ°ГЁГўГ®Г«Г®ГЄГ«ГЁ, Гі ГІГҐГЎГї ГЇГ°ГЁ Г±ГҐГЎГҐ Г­Г®Г¦ ГЎГ»Г«. Гџ ГҐГЈГ® ГЇГ°ГЁГЎГ°Г Г«, Г  ГІГ® Г¬Г Г«Г® Г«ГЁ - ГўГ¤Г°ГіГЈ Гі ГІГҐГЎГї Г± ГЎГ ГёГЄГ®Г© Г­ГҐГµГ®Г°Г®ГёГ®? Г’ГҐГЇГҐГ°Гј ГўГЁГ¦Гі, Г·ГІГ® ГўГ±Вё ГўГ°Г®Г¤ГҐ Гў Г­Г®Г°Г¬ГҐ, ГІГ ГЄ Г·ГІГ® ГЇГ®Г«ГіГ·Г Г© Г±ГўГ®Гѕ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГј Г®ГЎГ°Г ГІГ­Г®.</text>
+		<text>Стой. Вот, держи пистолет и патроны. Ты что, без оружия в Зоне на раз пропадёшь! Кстати, когда тебя приволокли, у тебя при себе нож был. Я его прибрал, а то мало ли - вдруг у тебя с башкой нехорошо? Теперь вижу, что всё вроде в норме, так что получай свою собственность обратно.</text>
 	</string>
 	<string id="escape_trader_start_dialog_1999">
-		<text>Г‘ГЇГ Г±ГЁГЎГ®.</text>
+		<text>Спасибо.</text>
 	</string>
 	<string id="escape_trader_start_dialog_200">
-		<text>ГЌГі Г·ГІГ®, ГЊГҐГ·ГҐГ­Г»Г©? ГЏГ® Г­Г ГёГЁГ¬ Г¤ГҐГ«Г Г¬ Г­ГЁГ·ГҐГЈГ® Г­ГҐ ГЇГ°Г®Г¤ГўГЁГ­ГіГ«Г®Г±Гј?</text>
+		<text>Ну что, Меченый? По нашим делам ничего не продвинулось?</text>
 	</string>
 	<string id="escape_trader_start_dialog_211">
-		<text>ГЌГі, ГЊГҐГ·ГҐГ­Г»Г©, Г± Г·ГҐГ¬ ГЇГ®Г¦Г Г«Г®ГўГ Г«? Г‡Г ГЎГ»Г«, ГЄГіГ¤Г  ГЁГ¤ГІГЁ?</text>
+		<text>Ну, Меченый, с чем пожаловал? Забыл, куда идти?</text>
 	</string>
 	<string id="escape_trader_start_dialog_2111">
-		<text>Г‡Г Г¤Г Г­ГЁГҐ ГўГ»ГЇГ®Г«Г­ГЁГ«. Г‚Г®ГІ Г Г°ГІГҐГґГ ГЄГІ.</text>
+		<text>Задание выполнил. Вот артефакт.</text>
 	</string>
 	<string id="escape_trader_start_dialog_21111">
-		<text>ГЌГЁГ·ГҐГЈГ® Г±ГҐГЎГҐ! ГЃГ»Г±ГІГ°Г»Г© ГІГ», Г®Г¤Г­Г ГЄГ®. ГЌГі, Гї ГІГҐГЎГҐ, ГЇГ Г°Гі Г±ГҐГЄГіГ­Г¤ Г­Г Г§Г Г¤ Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ Г®ГІГЇГ°Г ГўГЁГ«, Г±ГЄГ®Г°Г® Г¤Г®Г«Г¦Г­Г® ГЇГ°ГЁГ©ГІГЁ. Г‘Г«ГіГёГ Г© ГўГ­ГЁГ¬Г ГІГҐГ«ГјГ­Г®!</text>
+		<text>Ничего себе! Быстрый ты, однако. Ну, я тебе, пару секунд назад сообщение отправил, скоро должно прийти. Слушай внимательно!</text>
 	</string>
 	<string id="escape_trader_start_dialog_221">
-		<text>ГЌГі Г·ГІГ®, ГЇГ°ГЁГ­ВёГ± Г Г°ГІГҐГґГ ГЄГІ?</text>
+		<text>Ну что, принёс артефакт?</text>
 	</string>
 	<string id="escape_trader_start_dialog_2211">
-		<text>ГЌГҐГІ ГЇГ®ГЄГ .</text>
+		<text>Нет пока.</text>
 	</string>
 	<string id="escape_trader_start_dialog_22111">
-		<text>Г‡Г­Г Г·ГЁГІ, ГЇГ®ГЄГ  Г­ГҐ ГЇГ°ГЁГ­ГҐГ±ВёГёГј, ГЈГ®ГўГ®Г°ГЁГІГј Г­Г Г¬ Г­ГҐ Г® Г·ГҐГ¬. Г“ГїГ±Г­ГЁГ«?</text>
+		<text>Значит, пока не принесёшь, говорить нам не о чем. Уяснил?</text>
 	</string>
 	<string id="escape_trader_start_dialog_222">
-		<text>ГЌГі Г·ГІГ® Г­Г®ГўГ®ГЈГ® Г°Г Г±Г±ГЄГ Г¦ГҐГёГј?</text>
+		<text>Ну что нового расскажешь?</text>
 	</string>
 	<string id="escape_trader_start_dialog_2221">
-		<text>Г‡Г Г¤Г Г­ГЁГҐ ГўГ»ГЇГ®Г«Г­ГЁГ«. Г‚Г®ГІ Г Г°ГІГҐГґГ ГЄГІ.</text>
+		<text>Задание выполнил. Вот артефакт.</text>
 	</string>
 	<string id="escape_trader_start_dialog_22211">
-		<text>ГЋГІГ«ГЁГ·Г­Г®, ГЊГҐГ·ГҐГ­Г»Г©. Г…Г№Вё Г®Г¤Г­Г  Г¬ГҐГ«ГЄГ Гї ГіГ±Г«ГіГЈГ  - ГЁ Г¬Г» Г± ГІГ®ГЎГ®Г© Гў Г°Г Г±Г·ВёГІГҐ.</text>
+		<text>Отлично, Меченый. Ещё одна мелкая услуга - и мы с тобой в расчёте.</text>
 	</string>
 	<string id="escape_trader_start_dialog_222111">
-		<text>ГЉГ ГЄГ Гї ГіГ±Г«ГіГЈГ ?</text>
+		<text>Какая услуга?</text>
 	</string>
 	<string id="escape_trader_start_dialog_223">
-		<text>ГЊГҐГ·ГҐГ­Г»Г©, Гї ГІГҐГЎГҐ ГіГ¦ГҐ ГўГ±Вё Г±ГЄГ Г§Г Г«. Г—ГҐГёГЁ Г®ГІГ±ГѕГ¤Г ! Г€ ГЎГҐГ§ Г Г°ГІГҐГґГ ГЄГІГ  Г­ГҐ ГўГ®Г§ГўГ°Г Г№Г Г©Г±Гї!</text>
+		<text>Меченый, я тебе уже всё сказал. Чеши отсюда! И без артефакта не возвращайся!</text>
 	</string>
 	<string id="escape_trader_start_dialog_231">
-		<text>ГЏГ°ГЁГўГҐГІ, ГЊГҐГ·ГҐГ­Г»Г©. Г’ГіГІ ГЄГ ГЄ Г°Г Г§ ГҐГ±ГІГј Г¤ГҐГ«ГјГ¶ГҐ Г®Г¤Г­Г® Г¤Г«Гї ГІГҐГЎГї.</text>
+		<text>Привет, Меченый. Тут как раз есть дельце одно для тебя.</text>
 	</string>
 	<string id="escape_trader_start_dialog_2311">
-		<text>Г—ГІГ® Г§Г  Г¤ГҐГ«ГјГ¶ГҐ?</text>
+		<text>Что за дельце?</text>
 	</string>
 	<string id="escape_trader_start_dialog_23111">
-		<text>Гџ ГІГіГІ ГЇГ°Г®ГўГ®Г¦Гі ГЄГ®ГҐ-ГЄГ ГЄГ®ГҐ Г°Г Г±Г±Г«ГҐГ¤Г®ГўГ Г­ГЁГҐ. ГЏГ®Г§Г¦ГҐ Г°Г Г±Г±ГЄГ Г¦Гі. ГЉГ®Г°Г®Г·ГҐ, ГІГ» Г¤Г®Г«Г¦ГҐГ­ ГўГ±ГІГ°ГҐГІГЁГІГј Г·ГҐГ«Г®ГўГҐГЄГ , ГЄГ®ГІГ®Г°Г»Г© Г­ГҐГ±ВёГІ Г¬Г­ГҐ ГўГ Г¦Г­ГіГѕ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ. Г‡Г®ГўГіГІ ГҐГЈГ® Г‹ГЁГ±. Г‘ГўГҐГІГЁГІГјГ±Гї Гі Г¬ГҐГ­Гї Г®Г­ Г­ГҐ ГµГ®Г·ГҐГІ, ГІГ ГЄ Г·ГІГ® ГўГ±ГІГ°ГҐГІГЁГІГҐГ±Гј Г± Г­ГЁГ¬ Г­Г  ГµГіГІГ®Г°ГҐ Г§Г  Г¬Г®Г±ГІГ®Г¬. ГЉГ®Г®Г°Г¤ГЁГ­Г ГІГ» Гї ГІГҐГЎГҐ Г±ГЄГЁГ­Гі. ГЉГ±ГІГ ГІГЁ, ГЊГҐГ·ГҐГ­Г»Г©, Г·ГҐГ«Г®ГўГҐГЄ ГЅГІГ®ГІ Г¤Г Г«ГҐГЄГ® Г­ГҐ Г­Г®ГўГЁГ·Г®ГЄ, Г¬Г­Г®ГЈГ® Г§Г­Г ГҐГІ, ГІГ ГЄ Г·ГІГ® Г¬Г®Г¦ГҐГёГј Г°Г Г±Г±ГЇГ°Г®Г±ГЁГІГј ГҐГЈГ® Г® Г±ГўГ®ВёГ¬ Г‘ГІГ°ГҐГ«ГЄГҐ. Г‚Г±Вё, Г¤ГіГ© ГЄ Г­ГҐГ¬Гі.</text>
+		<text>Я тут провожу кое-какое расследование. Позже расскажу. Короче, ты должен встретить человека, который несёт мне важную информацию. Зовут его Лис. Светиться у меня он не хочет, так что встретитесь с ним на хуторе за мостом. Координаты я тебе скину. Кстати, Меченый, человек этот далеко не новичок, много знает, так что можешь расспросить его о своём Стрелке. Всё, дуй к нему.</text>
 	</string>
     <string id="escape_trader_start_dialog_231111">
-        <text>ГЌГі, Гї ГЇГ®ГЎВёГЈ.</text>
+        <text>Ну, я побёг.</text>
     </string>
     <string id="escape_trader_start_dialog_2311111">
-        <text>Г‘ГІГ®Г©. Г’Г» Г·ГІГ®, ГЎГҐГ§ Г®Г°ГіГ¦ГЁГї Гў Г‡Г®Г­ГҐ Г­Г  Г°Г Г§ ГЇГ°Г®ГЇГ Г¤ВёГёГј! Г‚Г®ГІ, Г¤ГҐГ°Г¦ГЁ ГЇГЁГ±ГІГ®Г«ГҐГІ ГЁ ГЇГ ГІГ°Г®Г­Г». ГЉГ±ГІГ ГІГЁ, ГЄГ®ГЈГ¤Г  ГІГҐГЎГї ГЇГ°ГЁГўГ®Г«Г®ГЄГ«ГЁ, Гі ГІГҐГЎГї ГЇГ°ГЁ Г±ГҐГЎГҐ Г­Г®Г¦ ГЎГ»Г«. Гџ ГҐГЈГ® ГЇГ°ГЁГЎГ°Г Г«, Г  ГІГ® Г¬Г Г«Г® Г«ГЁ - ГўГ¤Г°ГіГЈ Гі ГІГҐГЎГї Г± ГЎГ ГёГЄГ®Г© Г­ГҐГµГ®Г°Г®ГёГ®? Г’ГҐГЇГҐГ°Гј ГўГЁГ¦Гі, Г·ГІГ® ГўГ±Вё ГўГ°Г®Г¤ГҐ Гў Г­Г®Г°Г¬ГҐ, ГІГ ГЄ Г·ГІГ® ГЇГ®Г«ГіГ·Г Г© Г±ГўГ®Гѕ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГј Г®ГЎГ°Г ГІГ­Г®.</text>
+        <text>Стой. Ты что, без оружия в Зоне на раз пропадёшь! Вот, держи пистолет и патроны. Кстати, когда тебя приволокли, у тебя при себе нож был. Я его прибрал, а то мало ли - вдруг у тебя с башкой нехорошо? Теперь вижу, что всё вроде в норме, так что получай свою собственность обратно.</text>
     </string>
     <string id="escape_trader_start_dialog_2311112">
-        <text>Г‘ГІГ®Г©. ГѓГ«ГїГ¦Гі, Г®Г°ГіГ¦ГЁГҐГ¬ ГІГ» ГіГ¦ГҐ Г®ГЎГ§Г ГўВёГ«Г±Гї. Г‚ Г®ГЎГ№ГҐГ¬, ГЄГ®ГЈГ¤Г  ГІГҐГЎГї ГЇГ°ГЁГўГ®Г«Г®ГЄГ«ГЁ, Гі ГІГҐГЎГї ГЇГ°ГЁ Г±ГҐГЎГҐ Г­Г®Г¦ ГЎГ»Г«. Гџ ГҐГЈГ® ГЇГ°ГЁГЎГ°Г Г«, Г  ГІГ® Г¬Г Г«Г® Г«ГЁ - ГўГ¤Г°ГіГЈ Гі ГІГҐГЎГї Г± ГЎГ ГёГЄГ®Г© Г­ГҐГµГ®Г°Г®ГёГ®? Г’ГҐГЇГҐГ°Гј ГўГЁГ¦Гі, Г·ГІГ® ГўГ±Вё ГўГ°Г®Г¤ГҐ Гў Г­Г®Г°Г¬ГҐ, ГІГ ГЄ Г·ГІГ® ГЇГ®Г«ГіГ·Г Г© Г±ГўГ®Гѕ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГј Г®ГЎГ°Г ГІГ­Г®.</text>
+        <text>Стой. Гляжу, оружием ты уже обзавёлся. В общем, когда тебя приволокли, у тебя при себе нож был. Я его прибрал, а то мало ли - вдруг у тебя с башкой нехорошо? Теперь вижу, что всё вроде в норме, так что получай свою собственность обратно.</text>
     </string>
     <string id="escape_trader_start_dialog_23111111">
-        <text>Г‘ГЇГ Г±ГЁГЎГ®! ГЌГі Гї ГЇГ®ГёВёГ«.</text>
+        <text>Спасибо! Ну я пошёл.</text>
     </string>
     <string id="escape_trader_start_dialog_231111111">
-        <text>Г„Г ГўГ Г©. Г“Г¤Г Г·ГЁ!</text>
+        <text>Давай. Удачи!</text>
     </string>
     <string id="escape_trader_start_dialog_231112">
-        <text>ГЂГЈГ ... Г“Г¦ГҐ... ГЊГҐГІГ­ГіГ«Г±Гї ГЄГ ГЎГ Г­Г·ГЁГЄГ®Г¬. Г’Г» Г¬ГҐГ­Гї Г±Г®ГўГ±ГҐГ¬ ГіГ¦ГҐ Г§Г  ГёГҐГ±ГІВёГ°ГЄГі Г¤ГҐГ°Г¦ГЁГёГј? Г‚ Г¤Г°ГіГЈГ®Г© Г°Г Г§.</text>
+        <text>Ага... Уже... Метнулся кабанчиком. Ты меня совсем уже за шестёрку держишь? В другой раз.</text>
     </string>
     <string id="escape_trader_start_dialog_2311121">
-        <text>ГЌГі ГЄГ ГЄ Г§Г­Г ГҐГёГј, Гї Г¤ГіГ¬Г Г« ГІГҐГЎГҐ Г¤ГҐГ©Г±ГІГўГЁГІГҐГ«ГјГ­Г® ГўГ Г¦Г­Г® ГіГ§Г­Г ГІГј, ГЄГІГ® ГІГ», ГЁ Г·ГІГ® Г± ГІГ®ГЎГ®Г© Г±ГІГ°ГїГ±Г«Г®Г±Гј.</text>
+        <text>Ну как знаешь, я думал тебе действительно важно узнать, кто ты, и что с тобой стряслось.</text>
     </string>
     <string id="escape_trader_start_dialog_241">
-        <text>Г’Г» Г·ГІГ® ГІГіГІ Г§Г ГЎГ»Г«?! Г„Г ГўГ Г© ГЎГҐГЈГ®Г¬ ГЄ Г‹ГЁГ±Гі!</text>
+        <text>Ты что тут забыл?! Давай бегом к Лису!</text>
     </string>
     <string id="escape_trader_start_dialog_251">
-        <text>Г”Г«ГҐГёГЄГ  Г± ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГҐГ© ГЈГ¤ГҐ?</text>
+        <text>Флешка с информацией где?</text>
     </string>
     <string id="escape_trader_start_dialog_2511">
-        <text>ГЌГҐГІГі ГҐВё Гі Г¬ГҐГ­Гї.</text>
+        <text>Нету её у меня.</text>
     </string>
     <string id="escape_trader_start_dialog_25111">
-        <text>ГќГІГ® Г¦Г Г«Гј, ГЊГҐГ·ГҐГ­Г»Г©. ГќГІГ® Г®Г·ГҐГ­Гј Г¤Г Г¦ГҐ Г¦Г Г«Гј. Г“Г·ГІГЁ, ГЇГ®ГЄГ  ГІГ» Г¬Г­ГҐ ГҐВё Г­ГҐ ГЇГ°ГЁГ­ГҐГ±ГҐГёГј, Г±ГҐГ°ГјВёГ§Г­Г®ГЈГ® Г°Г Г§ГЈГ®ГўГ®Г°Г  Г­ГҐ ГЎГіГ¤ГҐГІ...</text>
+        <text>Это жаль, Меченый. Это очень даже жаль. Учти, пока ты мне её не принесешь, серьёзного разговора не будет...</text>
     </string>
     <string id="escape_trader_start_dialog_261">
-        <text>ГЏГ°ГЁГўГҐГІГ±ГІГўГіГѕ ГЊГҐГ·ГҐГ­Г®ГЈГ®! ГЉГ ГЄ ГіГ±ГЇГҐГµГЁ?</text>
+        <text>Приветствую Меченого! Как успехи?</text>
     </string>
     <string id="escape_trader_start_dialog_2611">
-        <text>Г‚Г®ГІ, ГІГҐГЎГҐ Г‹ГЁГ± ГЇГҐГ°ГҐГ¤Г Г«.</text>
+        <text>Вот, тебе Лис передал.</text>
     </string>
     <string id="escape_trader_start_dialog_26111">
-        <text>ГЋГІГ«ГЁГ·Г­Г®, ГІГҐГЇГҐГ°Гј ГЄГ Г°ГІГЁГ­Г  Г­Г Г·Г Г«Г  ГЇГ°Г®ГїГ±Г­ГїГІГјГ±Гї.</text>
+        <text>Отлично, теперь картина начала проясняться.</text>
     </string>
     <string id="escape_trader_start_dialog_261111">
-        <text>Г—ГІГ® ГІГ Г¬ ГІГ ГЄГ®ГЈГ® ГўГ Г¦Г­Г®ГЈГ®? Гџ, ГҐГ±Г«ГЁ Г·ГҐГ±ГІГ­Г®, Г­ГЁГ·ГҐГЈГ® Г­ГҐ ГЇГ®Г­ГїГ«.</text>
+        <text>Что там такого важного? Я, если честно, ничего не понял.</text>
     </string>
     <string id="escape_trader_start_dialog_2611111">
-        <text>Г„Г  Г«Г Г¤Г­Г®, Г§Г ГЎГҐГ©. ГЏГ°ГЁГ¤ВёГІ ГўГ°ГҐГ¬Гї, ГЁ ГІГ» Г±Г Г¬ ГўГ±Вё ГіГ§Г­Г ГҐГёГј. ГЂ ГЇГ®ГЄГ  Г¬Г®ГЈГі Г±ГЄГ Г§Г ГІГј ГўГ®ГІ Г·ГІГ®: ГўГ®ГҐГ­Г­Г»ГҐ Г·ГІГ®-ГІГ® Г°Г Г±ГЄГ®ГЇГ Г«ГЁ Гў Г§Г ГЎГ°Г®ГёГҐГ­Г­Г®Г¬ ГЌГ€Г€ "ГЊГҐГ¤ГЏГ°ГЁГЎГ®Г°". Гџ Г­ГҐ Г§Г­Г Гѕ, Г·ГІГ® ГІГ Г¬, Г­Г® ГҐГ±Г«ГЁ ГЅГІГ® Г§Г ГЁГ­ГІГҐГ°ГҐГ±Г®ГўГ Г«Г® Г Г°Г¬ГЁГѕ, ГІГ® ГЅГІГ® ГЁГ­ГІГҐГ°ГҐГ±Г­Г® ГЁ Г¬Г­ГҐ. Г„ГҐГІГ Г«ГЁ Гї ГІГҐГЎГҐ Г±Г®Г®ГЎГ№Гі ГЇГ®Г§Г¦ГҐ, ГЄГ ГЄ ГІГ®Г«ГјГЄГ® Г±Г Г¬ ГЇГ®Г©Г¬Гі, Г·ГІГ® ГЄ Г·ГҐГ¬Гі. ГЂ ГЇГ®ГЄГ  Г¬Г®Г¦ГҐГёГј ГЁГ¤ГІГЁ, ГЇГ°Г®ГЈГіГ«ГїГІГјГ±Гї.</text>
+        <text>Да ладно, забей. Придёт время, и ты сам всё узнаешь. А пока могу сказать вот что: военные что-то раскопали в заброшенном НИИ "МедПрибор". Я не знаю, что там, но если это заинтересовало армию, то это интересно и мне. Детали я тебе сообщу позже, как только сам пойму, что к чему. А пока можешь идти, прогуляться.</text>
     </string>
     <string id="escape_trader_start_dialog_271">
-        <text>ГЊГҐГ·ГҐГ­Г»Г©, Гї ГҐГ№Вё Г± ГґГ«ГҐГёГЄГ®Г© Г­ГҐ Г°Г Г§Г®ГЎГ°Г Г«Г±Гї, ГЁГ¤ГЁ, ГЇГ®ГЈГіГ«ГїГ©. ГЉГ ГЄ ГІГ®Г«ГјГЄГ® ГЇГ®Г©Г¬Гі, Г·ГІГ® ГЄ Г·ГҐГ¬Гі, Гї ГІГҐГЎГї ГЇГ®Г§Г®ГўГі.</text>
+        <text>Меченый, я ещё с флешкой не разобрался, иди, погуляй. Как только пойму, что к чему, я тебя позову.</text>
     </string>
 	<string id="escape_trader_start_dialog_3">
-		<text>Г‡Г­Г Г·ГЁГІ, ГўГ»ГЎГЁГ°Г Г©, ГЄГ ГЄ Г¬Г» Г± ГІГ®ГЎГ®Г© ГЇГ®Г±ГІГіГЇГЁГ¬: Г«ГЁГЎГ® Гї ГІГҐГЎГҐ Г±ГҐГ©Г·Г Г± Г¬Г®Г§ГЈГЁ ГЎГіГ¤Гі ГЇГ Г°ГЁГІГј, ГЄГ ГЄ Г®ГЎГ»Г·Г­Г® ГўГ±ГҐГ¬ Г­Г®ГўГЁГ·ГЄГ Г¬ Г¤ГҐГ«Г Гѕ, Г«ГЁГЎГ®, ГЄГ ГЄ Г± Г®ГЇГ»ГІГ­Г»Г¬ Г±ГІГ Г«ГЄГҐГ°Г®Г¬ - ГЇГ®Г«ГіГ·Г ГҐГёГј Г§Г Г¤Г Г­ГЁГҐ, ГЁ ГўГЇГҐГ°ВёГ¤.</text>
+		<text>Значит, выбирай, как мы с тобой поступим: либо я тебе сейчас мозги буду парить, как обычно всем новичкам делаю, либо, как с опытным сталкером - получаешь задание, и вперёд.</text>
 	</string>
 	<string id="escape_trader_start_dialog_300">
-		<text>ГЏГ°ГЁГўГҐГІ, ГЊГҐГ·ГҐГ­Г»Г©. Г’ГіГІ ГЄГ ГЄ Г°Г Г§ ГҐГ±ГІГј Г¤ГҐГ«ГјГ¶ГҐ Г®Г¤Г­Г® Г¤Г«Гї ГІГҐГЎГї.</text>
+		<text>Привет, Меченый. Тут как раз есть дельце одно для тебя.</text>
 	</string>
 	<string id="escape_trader_start_dialog_31">
-		<text>Г„Г ГўГ Г© ГЄГ ГЄ Г± Г­Г®ГўГЁГ·ГЄГ®Г¬. ГЌГЁГµГ°ГҐГ­Г  Г­ГҐ ГЇГ®Г¬Г­Гѕ.</text>
+		<text>Давай как с новичком. Нихрена не помню.</text>
 	</string>
 	<string id="escape_trader_start_dialog_32">
-		<text>Г„Г ГўГ Г© ГЄГ ГЄ Г± Г®ГЇГ»ГІГ­Г»Г¬, Г¬Г­ГҐ ГҐГ№Вё Г­ГҐ Г±Г®ГўГ±ГҐГ¬ ГЇГ Г¬ГїГІГј Г®ГІГёГЁГЎГ«Г®.</text>
+		<text>Давай как с опытным, мне ещё не совсем память отшибло.</text>
 	</string>
 	<string id="escape_trader_start_dialog_151">
-		<text>Г’ГўГ®Вё ГЇГҐГ°ГўГ®ГҐ Г§Г Г¤Г Г­ГЁГҐ: \n Г’ГіГІ Г°ГїГ¤Г®Г¬ - ГЇГ®Г«ГҐ Г Г­Г®Г¬Г Г«ГЁГ© "ГЊГїГ±Г®Г°ГіГЎГЄГ ". ГЂГ°ГІГҐГґГ ГЄГІ Гў ГҐГЈГ® Г¶ГҐГ­ГІГ°ГҐ. ГЊГҐГ±ГІГ­Г»ГҐ Г­Г®ГўГЁГ·ГЄГЁ ГЁГ§ Г«Г ГЈГҐГ°Гї Г§Г  Г­ГЁГ¬ Г«ГҐГ§ГІГј ГЎГ®ГїГІГјГ±Гї. Г‚Г®ГІ Г®Г­ ГЁ ГўГ Г«ГїГҐГІГ±Гї ГІГ Г¬ ГіГ¦ГҐ Г­ГҐГ¤ГҐГ«Гѕ. ГЂ Гі ГІГҐГЎГї Г­Г  Г¬Г®Г°Г¤ГҐ Г­Г ГЇГЁГ±Г Г­Г®, Г·ГІГ® ГІГ» Г­ГҐ Г­Г®ГўГЁГ·Г®ГЄ, ГµГ®ГІГј ГЁ Г­ГҐ ГЇГ®Г¬Г­ГЁГёГј Г­ГЁГµГ°ГҐГ­Г . Г’Г ГЄ Г·ГІГ®, Г¤Г Г¦ГҐ Г± Г®ГІГёГЁГЎГ«ГҐГ­Г­Г»Г¬ГЁ Г¬Г®Г§ГЈГ Г¬ГЁ ГІГ» ГҐГЈГ® Г¤Г®ГЎГіГ¤ГҐГёГј. \nГ‚Г±Вё. Г‡Г  Г°Г ГЎГ®ГІГі. ГЉГ®Г®Г°Г¤ГЁГ­Г ГІГ» Г¬ГҐГ±ГІГ  Г§Г Г¤Г Г­ГЁГї Гї Г±ГЄГЁГ­ГіГ« Г­Г  ГІГўГ®Г© ГЉГЏГЉ ГўГ¬ГҐГ±ГІГҐ Г± ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГҐГ© ГЇГ® Г¬ГїГ±Г®Г°ГіГЎГЄГҐ ГЁ ГҐВё Г Г°ГІГҐГґГ ГЄГІГ Г¬... Г„Г , ГЄГ±ГІГ ГІГЁ, Гў Г«Г ГЈГҐГ°Гј ГІГҐГЎГї ГЇГіГ±ГЄГ ГІГј Г­ГҐ ГµГ®ГІГїГІ. ГЌГҐ Г¤Г®ГўГҐГ°ГїГѕГІ Г®Г­ГЁ ГІГҐГЎГҐ, Г¤Г  ГЁ Гї, Гў Г®ГЎГ№ГҐГ¬-ГІГ®, ГІГ®Г¦ГҐ. ГЏГ®Г±Г¬Г®ГІГ°ГЁГ¬, ГЄГ ГЄГ®Г© ГІГ» Гў Г¤ГҐГ«ГҐ. Г…Г±Г«ГЁ Г± ГЈГ®Г«Г®ГўГ®Г© Гі ГІГҐГЎГї ГўГ±Вё Гў ГЇГ®Г°ГїГ¤ГЄГҐ, ГІГ® Г§Г Г¬Г®Г«ГўГ«Гѕ Г§Г  ГІГҐГЎГї Г±Г«Г®ГўГҐГ·ГЄГ®. ГЂ ГЇГ®ГЄГ  Г¤Г Г¦ГҐ ГЁ Г­ГҐ ГЇГ»ГІГ Г©Г±Гї Г§Г Г©ГІГЁ Гў Г«Г ГЈГҐГ°Гј - ГЇГ°ГЁГ±ГІГ°ГҐГ«ГїГІ!</text>
+		<text>Твоё первое задание: \n Тут рядом - поле аномалий "Мясорубка". Артефакт в его центре. Местные новички из лагеря за ним лезть бояться. Вот он и валяется там уже неделю. А у тебя на морде написано, что ты не новичок, хоть и не помнишь нихрена. Так что, даже с отшибленными мозгами ты его добудешь. \nВсё. За работу. Координаты места задания я скинул на твой КПК вместе с информацией по мясорубке и её артефактам... Да, кстати, в лагерь тебя пускать не хотят. Не доверяют они тебе, да и я, в общем-то, тоже. Посмотрим, какой ты в деле. Если с головой у тебя всё в порядке, то замолвлю за тебя словечко. А пока даже и не пытайся зайти в лагерь - пристрелят!</text>
 	</string>
 	<string id="escape_trader_start_dialog_321">
-		<text>ГЋ! ГќГІГ® ГЇГ®-Г­Г ГёГҐГ¬Гі. Г‡Г­Г Г·ГЁГІ, Г±Г«ГіГёГ Г©: \n Г’ГіГІ Г°ГїГ¤Г®Г¬ - ГЇГ®Г«ГҐ Г Г­Г®Г¬Г Г«ГЁГ© "ГЊГїГ±Г®Г°ГіГЎГЄГ ". ГЂГ°ГІГҐГґГ ГЄГІ Гў ГҐГЈГ® Г¶ГҐГ­ГІГ°ГҐ. ГЊГҐГ±ГІГ­Г»ГҐ Г­Г®ГўГЁГ·ГЄГЁ ГЁГ§ Г«Г ГЈГҐГ°Гї Г§Г  Г­ГЁГ¬ Г«ГҐГ§ГІГј ГЎГ®ГїГІГјГ±Гї. Г‚Г®ГІ Г®Г­ ГЁ ГўГ Г«ГїГҐГІГ±Гї ГІГ Г¬ ГіГ¦ГҐ Г­ГҐГ¤ГҐГ«Гѕ. ГЂ Гі ГІГҐГЎГї Г­Г  Г¬Г®Г°Г¤ГҐ Г­Г ГЇГЁГ±Г Г­Г®, Г·ГІГ® ГІГ» Г­ГҐ Г­Г®ГўГЁГ·Г®ГЄ, ГµГ®ГІГј ГЁ Г­ГҐ ГЇГ®Г¬Г­ГЁГёГј Г­ГЁГµГ°ГҐГ­Г . Г’Г ГЄ Г·ГІГ®, Г¤Г Г¦ГҐ Г± Г®ГІГёГЁГЎГ«ГҐГ­Г­Г»Г¬ГЁ Г¬Г®Г§ГЈГ Г¬ГЁ ГІГ» ГҐГЈГ® Г¤Г®ГЎГіГ¤ГҐГёГј. \nГ‚Г±Вё. Г‡Г  Г°Г ГЎГ®ГІГі. ГЉГ®Г®Г°Г¤ГЁГ­Г ГІГ» Г¬ГҐГ±ГІГ  Г§Г Г¤Г Г­ГЁГї Гї Г±ГЄГЁГ­ГіГ« Г­Г  ГІГўГ®Г© ГЉГЏГЉ ГўГ¬ГҐГ±ГІГҐ Г± ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГҐГ© ГЇГ® Г¬ГїГ±Г®Г°ГіГЎГЄГҐ ГЁ ГҐВё Г Г°ГІГҐГґГ ГЄГІГ Г¬... Г„Г , ГЄГ±ГІГ ГІГЁ, Гў Г«Г ГЈГҐГ°Гј ГІГҐГЎГї ГЇГіГ±ГЄГ ГІГј Г­ГҐ ГµГ®ГІГїГІ. ГЌГҐ Г¤Г®ГўГҐГ°ГїГѕГІ Г®Г­ГЁ ГІГҐГЎГҐ, Г¤Г  ГЁ Гї, Гў Г®ГЎГ№ГҐГ¬-ГІГ®, ГІГ®Г¦ГҐ. ГЏГ®Г±Г¬Г®ГІГ°ГЁГ¬, ГЄГ ГЄГ®Г© ГІГ» Гў Г¤ГҐГ«ГҐ. Г…Г±Г«ГЁ Г± ГЈГ®Г«Г®ГўГ®Г© Гі ГІГҐГЎГї ГўГ±Вё Гў ГЇГ®Г°ГїГ¤ГЄГҐ, ГІГ® Г§Г Г¬Г®Г«ГўГ«Гѕ Г§Г  ГІГҐГЎГї Г±Г«Г®ГўГҐГ·ГЄГ®. ГЂ ГЇГ®ГЄГ  Г¤Г Г¦ГҐ ГЁ Г­ГҐ ГЇГ»ГІГ Г©Г±Гї Г§Г Г©ГІГЁ Гў Г«Г ГЈГҐГ°Гј - ГЇГ°ГЁГ±ГІГ°ГҐГ«ГїГІ!</text>
+		<text>О! Это по-нашему. Значит, слушай: \n Тут рядом - поле аномалий "Мясорубка". Артефакт в его центре. Местные новички из лагеря за ним лезть бояться. Вот он и валяется там уже неделю. А у тебя на морде написано, что ты не новичок, хоть и не помнишь нихрена. Так что, даже с отшибленными мозгами ты его добудешь. \nВсё. За работу. Координаты места задания я скинул на твой КПК вместе с информацией по мясорубке и её артефактам... Да, кстати, в лагерь тебя пускать не хотят. Не доверяют они тебе, да и я, в общем-то, тоже. Посмотрим, какой ты в деле. Если с головой у тебя всё в порядке, то замолвлю за тебя словечко. А пока даже и не пытайся зайти в лагерь - пристрелят!</text>
 	</string>
 	<string id="escape_trader_start_dialog_3211">
-		<text>Г„Г®ГЈГ®ГўГ®Г°ГЁГ«ГЁГ±Гј. Г—ГІГ®-Г­ГЁГЎГіГ¤Гј ГҐГ№Вё?</text>
+		<text>Договорились. Что-нибудь ещё?</text>
 	</string>
 	<string id="escape_trader_start_dialog_32111">
-		<text>Г„Г  ГўГ±Вё ГЇГ®ГЄГ . ГЏГ°ГЁГ­ГҐГ±ВёГёГј Г¬Г­ГҐ Г Г°ГІГҐГґГ ГЄГІ, ГЁ ГЎГіГ¤ГҐГ¬ Г±Г·ГЁГІГ ГІГј, Г·ГІГ® Г·Г Г±ГІГЁГ·Г­Г® Г§Г  Г±ГўГ®Вё Г±ГЇГ Г±ГҐГ­ГЁГҐ ГІГ» Г°Г Г±ГЇГ«Г ГІГЁГ«Г±Гї. \nГ•Г®ГІГї, Г±ГІГ®Г©. Г‚Г®Г§ГјГ¬ГЁ ГЅГІГ®ГІ Г¤ГҐГІГҐГЄГІГ®Г°, Г®Г­ ГЇГ®Г¬Г®Г¦ГҐГІ ГІГҐГЎГҐ Г¤Г®Г±ГІГ ГІГј Г Г°ГІГҐГґГ ГЄГІ. ГЌГ® ГЇГ®ГІГ®Г¬ ГўГҐГ°Г­ВёГёГј.</text>
+		<text>Да всё пока. Принесёшь мне артефакт, и будем считать, что частично за своё спасение ты расплатился. \nХотя, стой. Возьми этот детектор, он поможет тебе достать артефакт. Но потом вернёшь.</text>
 	</string>
 	<string id="escape_trader_start_dialog_321111">
-		<text>Г•Г®Г°Г®ГёГ®, Г¦Г¤ГЁ.</text>
+		<text>Хорошо, жди.</text>
 	</string>
 	<string id="escape_trader_start_dialog_4">
-		<text>Г‡Г¤Г Г°Г®ГўГ , ГЊГҐГ·ГҐГ­Г»Г©. ГђГ Г¤ ГўГЁГ¤ГҐГІГј ГІГҐГЎГї Г¦ГЁГўГ»Г¬.</text>
+		<text>Здарова, Меченый. Рад видеть тебя живым.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5">
-		<text>ГЏГ°ГЁГўГҐГІГ±ГІГўГіГѕ ГЊГҐГ·ГҐГ­Г®ГЈГ®! ГЉГ ГЄ ГіГ±ГЇГҐГµГЁ?</text>
+		<text>Приветствую Меченого! Как успехи?</text>
 	</string>
 	<string id="escape_trader_start_dialog_51">
-		<text>Г‡Г Г¤Г Г­ГЁГҐ ГўГ»ГЇГ®Г«Г­ГЁГ«. Г‚Г®ГІ Г Г°ГІГҐГґГ ГЄГІ.</text>
+		<text>Задание выполнил. Вот артефакт.</text>
 	</string>
 	<string id="escape_trader_start_dialog_511">
-		<text>ГЋГІГ«ГЁГ·Г­Г®, ГЊГҐГ·ГҐГ­Г»Г©. Г…Г№Вё Г®Г¤Г­Г  Г¬ГҐГ«ГЄГ Гї ГіГ±Г«ГіГЈГ  - ГЁ Г¬Г» Г± ГІГ®ГЎГ®Г© Гў Г°Г Г±Г·ВёГІГҐ.</text>
+		<text>Отлично, Меченый. Ещё одна мелкая услуга - и мы с тобой в расчёте.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5111">
-		<text>ГЉГ ГЄГ Гї ГіГ±Г«ГіГЈГ ?</text>
+		<text>Какая услуга?</text>
 	</string>
 	<string id="escape_trader_start_dialog_52">
-		<text>Г‘ГЁГІГіГ Г¶ГЁГї ГЇГ°Г®ГїГ±Г­ГЁГ«Г Г±Гј.</text>
+		<text>Ситуация прояснилась.</text>
 	</string>
 	<string id="escape_trader_start_dialog_52111">
-		<text>Г”Г«ГҐГёГЄГ -ГІГ® Г± ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГҐГ© ГЈГ¤ГҐ?</text>
+		<text>Флешка-то с информацией где?</text>
 	</string>
 	<string id="escape_trader_start_dialog_521111">
-		<text>Г‚Г®ГІ Г®Г­Г .</text>
+		<text>Вот она.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5211111">
-		<text>ГЋГІГ«ГЁГ·Г­Г®.</text>
+		<text>Отлично.</text>
 	</string>
 	<string id="escape_trader_start_dialog_521112">
-		<text>ГЌГҐГІ Гі Г¬ГҐГ­Гї ГҐВё.</text>
+		<text>Нет у меня её.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5211121">
-		<text>ГќГІГ® Г¦Г Г«Гј, ГЊГҐГ·ГҐГ­Г»Г©. ГќГІГ® Г®Г·ГҐГ­Гј Г¤Г Г¦ГҐ Г¦Г Г«Гј. Г“Г·ГІГЁ, ГЇГ®ГЄГ  ГІГ» Г¬Г­ГҐ ГҐВё Г­ГҐ ГЇГ°ГЁГ­ГҐГ±ГҐГёГј, Г±ГҐГ°ГјВёГ§Г­Г®ГЈГ® Г°Г Г§ГЈГ®ГўГ®Г°Г  Г­ГҐ ГЎГіГ¤ГҐГІ...</text>
+		<text>Это жаль, Меченый. Это очень даже жаль. Учти, пока ты мне её не принесешь, серьёзного разговора не будет...</text>
 	</string>
 	<string id="escape_trader_start_dialog_521211">
-		<text>Г‚Г®ГІ Г®Г­Г , Г¤ГҐГ°Г¦ГЁ.</text>
+		<text>Вот она, держи.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5212111">
-		<text>Г•Г®Г°Г®ГёГ®... ГЃГіГ¤ГҐГ¬ Г±Г·ГЁГІГ ГІГј, Г·ГІГ® ГЇГ°Г®ГўГҐГ°ГЄГі ГІГ» ГЇГ°Г®ГёВёГ«. Г‚ Г«Г ГЈГҐГ°Гј Г­Г®ГўГЁГ·ГЄГ®Гў Г§Г ГїГўГ«ГїГІГјГ±Гї Г­ГҐ Г°ГҐГЄГ®Г¬ГҐГ­Г¤ГіГѕ.</text>
+		<text>Хорошо... Будем считать, что проверку ты прошёл. В лагерь новичков заявляться не рекомендую.</text>
 	</string>
 	<string id="escape_trader_start_dialog_56">
-		<text>ГЏГ®ГЄГ  Г­ГЁГЄГ ГЄ.</text>
+		<text>Пока никак.</text>
 	</string>
 	<string id="escape_trader_start_dialog_571">
-		<text>ГЌГі Г·ГІГ®, ГЇГ°ГЁГ­ВёГ± Г Г°ГІГҐГґГ ГЄГІ?</text>
+		<text>Ну что, принёс артефакт?</text>
 	</string>
 	<string id="escape_trader_start_dialog_5711">
-		<text>ГЌГҐГІ ГЇГ®ГЄГ .</text>
+		<text>Нет пока.</text>
 	</string>
 	<string id="escape_trader_start_dialog_57111">
-		<text>Г‡Г­Г Г·ГЁГІ, ГЇГ®ГЄГ  Г­ГҐ ГЇГ°ГЁГ­ГҐГ±ВёГёГј, ГЈГ®ГўГ®Г°ГЁГІГј Г­Г Г¬ Г­ГҐ Г® Г·ГҐГ¬. Г“ГїГ±Г­ГЁГ«?</text>
+		<text>Значит, пока не принесёшь, говорить нам не о чем. Уяснил?</text>
 	</string>
 	<string id="escape_trader_start_dialog_6">
-		<text>ГЊГҐГ·ГҐГ­Г»Г©, Гї ГІГҐГЎГҐ ГіГ¦ГҐ ГўГ±Вё Г°Г Г±Г±ГЄГ Г§Г Г«. Г—ГҐГёГЁ Г®ГІГ±ГѕГ¤Г !</text>
+		<text>Меченый, я тебе уже всё рассказал. Чеши отсюда!</text>
 	</string>
 	<string id="escape_trader_start_dialog_661">
-		<text>ГЌГі, ГЊГҐГ·ГҐГ­Г»Г©, Г·ГІГ® Г­Г®ГўГҐГ­ГјГЄГ®ГЈГ® Г°Г Г±Г±ГЄГ Г¦ГҐГёГј?</text>
+		<text>Ну, Меченый, что новенького расскажешь?</text>
 	</string>
     <string id="escape_trader_start_dialog_161">
-        <text>ГЊГҐГ·ГҐГ­Г»Г©, Гї ГІГҐГЎГҐ ГіГ¦ГҐ ГўГ±Вё Г±ГЄГ Г§Г Г«, Г¤ГіГ© Г­Г  Г§Г Г¤Г Г­ГЁГҐ!</text>
+        <text>Меченый, я тебе уже всё сказал, дуй на задание!</text>
     </string>
     <string id="escape_trader_start_dialog_162">
-        <text>ГЊГҐГ·ГҐГ­Г»Г©, ГўГ Г«ГЁ Г­Г  Г§Г Г¤Г Г­ГЁГҐ, Г­ГҐ ГІГҐГ°ГїГ© ГўГ°ГҐГ¬Гї!</text>
+        <text>Меченый, вали на задание, не теряй время!</text>
     </string>
     <string id="escape_trader_start_dialog_163">
-        <text>ГЊГҐГ·ГҐГ­Г»Г©, ГІГ», Г·Г Г±Г®Г¬, Г­ГҐ Г§Г®Г¬ГЎГЁГ°Г®ГўГ Г­? ГЉГ ГЄГ®Г©-ГІГ® ГІГ» Г±ГІГ°Г Г­Г­Г»Г©, ГҐГ© ГЎГ®ГЈГі! Гџ Г¦ГҐ ГІГҐГЎГҐ Г±ГЄГ Г§Г Г«: "Г„ГіГ© ГЁГ±ГЄГ ГІГј Г Г°ГІГҐГґГ ГЄГІ!".</text>
+        <text>Меченый, ты, часом, не зомбирован? Какой-то ты странный, ей богу! Я же тебе сказал: "Дуй искать артефакт!".</text>
     </string>
 	<string id="escape_trader_talk_info_0">
 		<text>I want to ask some questions.</text>
