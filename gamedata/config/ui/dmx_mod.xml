@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<window>
+    <!-- КПК -->
+    <btn_pda_exit x="99320" y="0" width="67" height="20" hint="Activate PDA"/>
+	
+	<btn_pda_options x="673" y="40" width="50" height="25" hint="Activate notebook">
+		<text font="letterica16">Notepad</text>
+        <text_color>
+			<t r="231" g="168" b="12"/><d r="181" g="170" b="148"/><e r="127" g="127" b="127"/><h r="255" g="255" b="255"/>
+	    </text_color>
+	</btn_pda_options>
+	
+	<btn_pda_separator x="652" y="145" width="13" height="13">
+	    <texture x="63" y="770" width="14" height="14">ui\amk_pda</texture>
+		<text align="l" x="-16" y="-2" font="graffiti22" a="215" r="97" g="92" b="92">//</text>
+	</btn_pda_separator>
+	
+	<pda_bar_anim_static x="99240" y="682" width="32" height="32" frames="16" duration="1000" columns="8" frame_width="32" frame_height="32" cyclic="1" autoplay="1">
+        <texture>ui\ui_pda_anims_04</texture>
+    </pda_bar_anim_static>
+	
+	<pda_bar_reminder x="99300" y="685" width="30" height="30" hint="Use text as reminder">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2">M</text>
+    </pda_bar_reminder>
+	
+	<pda_bar_minus10 x="380" y="685" width="30" height="30" hint="Ten notes back">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2"/>
+    </pda_bar_minus10>
+	
+	<pda_bar_minus1 x="410" y="685" width="30" height="30" hint="One note back">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2"/>
+    </pda_bar_minus1>
+	
+	<pda_bar_plus1 x="470" y="685" width="30" height="30" hint="One note forward">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2"/>
+    </pda_bar_plus1>
+	
+	<pda_bar_plus10 x="500" y="685" width="30" height="30" hint="Ten notes forward">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2"/>
+    </pda_bar_plus10>
+	
+	<pda_bar_ruslat x="580" y="685" width="30" height="30" hint="Layout">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2"/>
+    </pda_bar_ruslat>
+	
+	<pda_bar_volume_down x="660" y="685" width="30" height="30" hint="Decrease volume">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2">-</text>
+    </pda_bar_volume_down>
+	
+	<pda_bar_volume_up x="690" y="685" width="30" height="30" hint="Increase volume">
+        <texture x="178" y="775" width="26" height="27">ui\ui_pda_notepad</texture>
+		<text align="c" x="-2">+</text>
+    </pda_bar_volume_up>
+	
+	<pda_bar_record_number x="438" y="685" width="30" height="30" hint="Current note"/>
+	
+	<!-- Пауза после загрузки -->
+	<game_load_window x="0" y="0" width="1024" height="768" light_anim="ui_slow_blinking_alpha" la_texture="0" la_alpha="1">
+	    <texture>ui\ui_load_pause</texture>
+		<text y="695" align="c" font="graffiti22" r="159" g="142" b="126">Press any key to play</text>
+	</game_load_window>
+</window>

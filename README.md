@@ -261,12 +261,16 @@ A list of all files with detailed progress can be found below.
 	- [ui_st_pda.xml](gamedata/config/text/eng/ui_st_pda.xml)
 		- done
 - **[config\ui](gamedata/config/ui)**
+	- [dmx_mod.xml](gamedata/config/ui/dmx_mod.xml)
+		- done
 	- [ui_artefact_merger_wnd.xml](gamedata/config/ui/ui_artefact_merger_wnd.xml)
 		- done
 	- [ui_old_sleep_wnd.xml](gamedata/config/ui/ui_old_sleep_wnd.xml)
 		- done
 - **[scripts](gamedata/scripts)**
 	- [dmx_cars.script](gamedata/scripts/dmx_cars.script)
+		- done
+	- [dmx_pda_notepad.script](gamedata/scripts/dmx_pda_notepad.script)
 		- done
 	- [meceniy_in_hell.script](gamedata/scripts/meceniy_in_hell.script)
 		- done
