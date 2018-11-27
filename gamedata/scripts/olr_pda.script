@@ -1,0 +1,594 @@
+--Oblivion Lost Remake (2014)
+--(c) proger_Dencheek
+--Общение через КПК
+
+local TEXTURE_UI = "ui\\ui_pda_talking"
+local on_contacts_click = 180
+
+local npc_ini = ini_file("pda_dialogs\\npc.ltx") --Список диалогов, принадлежащих НПЦ
+local dialogs_ini = ini_file("pda_dialogs\\dialogs.ltx") --Свойства диалогов
+local ignore_ini = ini_file("pda_dialogs\\ignore_npc.ltx") --НПЦ, которые не участвуют в диалогах
+
+local ui_obj = nil --Объект текущего интерфейса
+local is_wide_16 = (
+	device().width/device().height > (1024/768+0.01)
+)	--Формат экрана определен
+
+--Вызывать как "olr_pda.reinit(self.object)"
+function reinit(obj)
+	obj:set_callback(on_contacts_click, on_press, obj)
+end
+
+--Вызывать как "olr_pda.net_destroy(self.object)"
+function net_destroy(obj)
+	obj:set_callback(on_contacts_click, nil)
+end
+
+--Вызывать как "olr_pda.Update()"
+function Update()
+	if ui_obj ~= nil then
+		if ui_obj.time ~= nil then
+			ui_obj.time:SetText(tostring(ui_obj:GetTime()))
+		end
+		if ui_obj.object == nil or (
+			ui_obj.object ~= nil and not ui_obj.object:alive() and 
+			not xr_wounded.is_heavy_wounded_by_id(ui_obj.object:id())
+		) then
+			news_manager.send_tip(db.actor, "Connection lost!")
+			ui_obj:Exit()
+		end
+	end
+end
+
+--Коллбек на нажатие по элементу в списке контактов
+function on_press(actor, id)
+	local obj = level.object_by_id(id)
+	
+	if obj == nil then
+		return nil
+	end
+	
+	for i=0, ignore_ini:line_count("main") - 1 do
+		local _, val = ignore_ini:r_line("main", i, "", "")
+		if obj:profile_name() == val then
+			news_manager.send_tip(db.actor, "Connection failed!")
+			return nil
+		end
+	end
+	
+	local pda = level.main_input_receiver()
+	if pda ~= nil then
+		level.start_stop_menu(pda, false)
+	end
+	
+	ui_obj = pda_talk(id, get_hud())
+	Hide(ui_obj)
+end
+
+-----------------------------------------
+--Класс элемента списка(история выговоренных фраз)
+class "story_list_item" (CUIListItemEx)
+
+function story_list_item:__init(item_name, clr) super()
+	self.item_name = item_name
+	self.text_item = CUIStatic()
+	self:AttachChild(self.text_item)
+	self.text_item:SetFont(GetFontLetterica18Russian())
+	self.text_item:SetTextColor(clr.a,clr.b,clr.g,clr.r)
+	self.text_item:SetText(self.item_name)
+end
+
+function story_list_item:__finalize()
+end
+
+-----------------------------------------
+--Класс элемента списка(фразы)
+class "phrase_list_item" (CUIListItemEx)
+
+function phrase_list_item:__init(item_name, num) super()
+	self.num = num
+	self.item_name = item_name
+	self.text_item = CUIStatic()
+	self:AttachChild(self.text_item)
+	self.text_item:SetFont(GetFontLetterica18Russian())
+	self.text_item:SetTextColor(255,216,186,140)
+	
+	local text_path = ("p%d:text"):format(self.num)
+	
+	if dialogs_ini:section_exist(item_name) and
+		dialogs_ini:line_exist(item_name, text_path) then
+		self.text_item:SetText(
+			game.translate_string(
+				dialogs_ini:r_string(item_name, text_path)
+			)
+		)
+	else
+		self.text_item:SetText(
+			game.translate_string(
+				("%s_%d"):format(item_name, self.num)
+			)
+		)
+	end
+	
+end
+
+function phrase_list_item:__finalize()
+end
+
+-----------------------------------------
+--Интерфейс
+class "pda_talk" (CUIScriptWnd)
+
+function pda_talk:__init(npc_id, owner) super()
+	self.owner = owner
+	self.npc_id = npc_id
+	self.object = level.object_by_id(npc_id)
+	if self.object ~= nil then
+		self:InitControls()
+		self:InitCallBacks()
+		self:InitDialogs()
+	else
+		self:Exit()
+	end
+end
+
+function pda_talk:__finalize()
+end
+
+function pda_talk:OnKeyboard(dik, keyboard_action)  --virtual function
+	CUIScriptWnd.OnKeyboard(self,dik,keyboard_action)
+	local bind = dik_to_bind(dik)
+	local console = get_console()
+	
+	if keyboard_action == ui_events.WINDOW_KEY_PRESSED then
+		if dik == DIK_keys.DIK_ESCAPE or dik == DIK_keys.DIK_P then
+			self:Exit()
+		end
+		
+	end
+	
+	return true
+end
+
+function pda_talk:InitControls()
+	self:Init(0,0,1024,768)
+	
+	local xml = CScriptXmlInit()
+	
+	if is_wide_16 then
+		xml:ParseFile("pda_talk_16.xml")
+	else
+		xml:ParseFile("pda_talk.xml")
+	end
+	
+	self.frame_back = xml:InitStatic("frame:frame_back", self)
+	self.frame = xml:InitStatic("frame", self)
+	
+	self.frame:InitTexture(TEXTURE_UI)
+	self.frame:SetOriginalRect(123, 108, 782, 536)
+	
+	xml:InitFrame("frame:phrase_list_frame", self.frame)
+	
+	self.phrase_list = xml:InitList("frame:phrase_list", self.frame)
+	self.phrase_list:ShowSelectedItem(true)
+	self:Register(self.phrase_list, "phrase_list")
+	
+	local texture = true
+	local text = false
+	
+	local tbl = {
+		icon = {"ui\\ui_pdatalk_icon", texture},
+		rank = {self.object:character_rank(), text},
+		community = {self.object:character_community(), text, true},
+		relation = {self:GetObjectRelation(), text, true},
+		time = {self:GetTime(), text},
+		--story = {},
+		npc_name = {self.object:character_name(), text, true, true}
+	}
+	
+	for key,val in pairs(tbl) do
+		local _val = ""
+		if val[4] == true then
+			_val = key
+		else
+			_val = ("frame:%s"):format(key)
+		end
+		self[key] = xml:InitStatic(_val, self.frame)
+		if val[2] == texture then
+			self[key]:InitTexture(val[1])
+		elseif val[2] == text then
+			if val[3] == true then
+				self[key]:SetText(game.translate_string(tostring(val[1])))
+			else
+				self[key]:SetText(tostring(val[1]))
+			end
+		end
+	end
+	
+	self.story = xml:InitList("frame:story", self.frame)
+	self.story:ShowSelectedItem(true)
+	self:Register(self.story, "story")
+	
+	self:Register(xml:Init3tButton("frame:exit_btn", self.frame), "exit_btn")
+
+end
+
+function pda_talk:InitCallBacks()
+	self:AddCallback(
+		"exit_btn",
+		ui_events.BUTTON_CLICKED,
+		self.exit_btn_button_clicked,
+		self
+	)
+	self:AddCallback(
+		"phrase_list",
+		ui_events.LIST_ITEM_CLICKED,
+		self.phrase_clicked,
+		self
+	)
+end
+
+function pda_talk:InitDialogs()
+	local dialog_section = ""
+	local PhraseList = {}
+	
+	if npc_ini:section_exist(self.object:profile_name()) then
+		dialog_section = self.object:profile_name()
+	else
+		dialog_section = "default"
+	end
+	
+	PhraseList.o = {}
+	PhraseList.p = true
+	
+	for i=0, npc_ini:line_count(dialog_section) - 1 do
+		local _, id = npc_ini:r_line(dialog_section, i, "", "")
+		local prior = 1
+		if dialogs_ini:line_exist(id, "prior") then
+			prior = dialogs_ini:r_float(id, "prior")
+		end
+		
+		local f = true
+		local condlist_name = "cond"
+		if dialogs_ini:line_exist(id, condlist_name) then
+			f = (
+				this.cheek_condlist(
+					dialogs_ini:r_string(id, condlist_name),
+					nil,
+					self.object
+				)
+			) ~= nil
+		end
+		
+		-- if dialogs_ini:line_exist(id, "on_use") then
+			-- this.cheek_condlist(
+				-- dialogs_ini:r_string(id, "on_use"),
+				-- nil,
+				-- self.object
+			-- )
+		-- end
+		
+		if f == true then
+			table.insert(PhraseList.o, {id, 0, prior})
+		end
+	end
+	
+	self:InitPhraseList(PhraseList)
+end
+
+function pda_talk:InitPhraseList(PhraseList, is_npc)
+self.phrase_list:RemoveAll()
+	if PhraseList.p == true then
+		table.sort(
+			PhraseList.o,
+			function (a ,b)
+				return a[3] > b[3]
+			end
+		)
+	end
+	if is_npc == true then
+		local val = PhraseList.o[math.random(1, #PhraseList.o)]
+		local item_name = val[1]
+		local num = val[2]
+		
+		local text_path = ("p%d:text"):format(num)
+	
+		if dialogs_ini:section_exist(item_name) and
+			dialogs_ini:line_exist(item_name, text_path) then
+			self:SendTip(
+				game.translate_string(
+					dialogs_ini:r_string(item_name, text_path)
+				),
+				"npc"
+			)
+		else
+			self:SendTip(
+				game.translate_string(
+					("%s_%d"):format(item_name, num)
+				),
+				"npc"
+			)
+		end
+		
+		local condlist_path = ("p%d:on_use"):format(num)
+		if dialogs_ini:line_exist(item_name, condlist_path) then
+			local condlist = dialogs_ini:r_string(item_name, condlist_path)
+			this.cheek_condlist(condlist, nil, self.object)
+		end
+		
+		local line_name = ("p%d:next"):format(num)
+		PhraseList = self:GetNextPhrase(item_name, line_name, false)
+			
+		self:InitPhraseList(PhraseList)
+	
+	else
+		if next(PhraseList.o) ~= nil then
+			for _, val in ipairs(PhraseList.o) do
+				--den.cout(val[1].." "..val[2])
+				self:AddItemTo_phrase_list(val[1], val[2])
+			end
+		else
+			self:InitDialogs()
+			--den.cout("self:InitDialogs()")
+		end
+	end
+end
+
+function pda_talk:GetObjectRelation()
+	local rel = self.object:relation(db.actor)
+	if rel == game_object.neutral then
+		return "neutral"
+	elseif rel == game_object.friend then
+		return "friend"
+	elseif rel == game_object.enemy then
+		return "enemy"
+	else
+		return ""
+	end
+end
+
+function pda_talk:GetTime()
+	local objCT = game.get_game_time()
+	local tbl = {
+		Y = 0, M = 0, D = 0, h = 0, m = 0, s = 0, n = 0
+	}
+	tbl.Y, tbl.M, tbl.D, tbl.h, tbl.m, tbl.s, tbl.n = objCT:get(
+		tbl.Y, tbl.M, tbl.D, tbl.h, tbl.m, tbl.s, tbl.n
+	)
+	return ("%d:%d %d/%d/%d"):format(tbl.h, tbl.m, tbl.D, tbl.M, tbl.Y)
+end
+
+--Добавление элемента в список phrase_list
+function pda_talk:AddItemTo_phrase_list(item_name, num)
+	local _itm = phrase_list_item(item_name, num)
+	self.phrase_list:AddItem(_itm)
+end
+
+--Добавление элемента в список story
+function pda_talk:AddItemTo_story(item_name, clr)
+	local _itm = story_list_item(item_name, clr)
+	self.story:AddItem(_itm)
+end
+
+function pda_talk:GetNextPhrase(phrase_name, line_name, _p)
+	local PhraseList = {
+		o = {}, p = _p
+	}
+	if dialogs_ini:line_exist(phrase_name, line_name) then
+		local tbl = this.str_explode(
+			",",
+			dialogs_ini:r_string(phrase_name, line_name),
+			true
+		)
+		if next(tbl) ~= nil then
+			for _,val in ipairs(tbl) do
+				local f = true
+				local _n = (val:gsub("p", "")):gsub(" ", "")
+				local condlist_name = ("p%s:cond"):format(_n)
+				if dialogs_ini:line_exist(phrase_name, condlist_name) then
+					f = (
+						this.cheek_condlist(
+							dialogs_ini:r_string(phrase_name, condlist_name),
+							nil,
+							self.object
+						)
+					) ~= nil
+				end
+				if f == true then
+					table.insert(
+						PhraseList.o,
+						{
+							phrase_name,
+							tonumber(_n)
+						}
+					)
+				end
+			end
+		end
+	end
+	return PhraseList
+end
+
+function pda_talk:phrase_clicked()
+	local PhraseList = {}
+	local otvets = {}
+	if self.phrase_list:GetSize() == 0 then
+		return nil
+	end
+	local index = self.phrase_list:GetSelectedItem()
+	if index == -1 or index == nil then
+		return nil
+	end
+	
+	local phrase_name = self.phrase_list:GetItem(index).item_name
+	local phrase_num = self.phrase_list:GetItem(index).num
+	local line_name = ("p%d:next"):format(phrase_num)
+	
+	self:SendTip(self.phrase_list:GetItem(index).text_item:GetText(), "actor")
+	
+	local condlist_path = ("p%d:on_use"):format(phrase_num)
+	if dialogs_ini:line_exist(phrase_name, condlist_path) then
+		local condlist = dialogs_ini:r_string(phrase_name, condlist_path)
+		this.cheek_condlist(condlist, nil, self.object)
+	end
+	
+	if phrase_name ~= nil and phrase_num ~= nil then
+		if dialogs_ini:section_exist(phrase_name) and
+			dialogs_ini:line_exist(phrase_name, line_name) then
+			PhraseList = self:GetNextPhrase(phrase_name, line_name, false)
+			
+			self:InitPhraseList(PhraseList, true)
+			return nil
+		elseif dialogs_ini:line_exist(
+			phrase_name, ("p%d:break"):format(phrase_num)
+		) and dialogs_ini:r_bool(
+			phrase_name, ("p%d:break"):format(phrase_num)
+		) == true then
+			self:BreakDialog()
+			return nil
+		--else
+		--	self:InitDialogs()
+		--	den.cout("self:InitDialogs()")
+		--	return nil
+		end
+		
+	end
+end
+
+function pda_talk:SendTip(str, who)
+	if who == "actor" then
+		self:AddItemTo_story(
+			db.actor:character_name(),
+			fcolor():set(255, 128, 0, 255)
+		)
+		self:AddItemTo_story(
+			(" %s"):format(str),
+			fcolor():set(255, 216, 186, 140)
+		)
+		this.send_tip(db.actor, str)
+		self:AddItemTo_story("", fcolor():set(0, 0, 0, 0))
+		this.send_tip(db.actor, str)
+	elseif who == "npc" then
+		self:AddItemTo_story(
+			self.object:character_name(),
+			fcolor():set(255, 128, 0, 255)
+		)
+		self:AddItemTo_story(
+			(" %s"):format(str),
+			fcolor():set(255, 216, 186, 140)
+		)
+		self:AddItemTo_story("", fcolor():set(0, 0, 0, 0))
+		this.send_tip(
+			db.actor,
+			str,
+			nil,
+			game.translate_string(self.object:character_name()),
+			nil
+		)
+	end
+end
+
+function pda_talk:exit_btn_button_clicked()
+	self:Exit()
+end
+
+function pda_talk:BreakDialog()
+	self:Exit()
+end
+
+function pda_talk:Exit()
+	--self:GetHolder():start_stop_menu(self, false)
+	level.start_stop_menu(self, false)
+	ui_obj = nil
+end
+
+function Hide(obj)
+	--self:GetHolder():start_stop_menu(self, true)
+	level.start_stop_menu(obj, true)
+end
+
+function str_explode(div, str, clear)
+	local tbl = {}
+	local cpt = str:find(div, 1, true)
+	local trim = function(_str)
+		return _str:gsub("^%s*(.-)%s*$", "%1")
+	end
+	if cpt ~= nil then
+		repeat
+			if clear == true then
+				tbl[#tbl+1] = trim(str:sub(1, cpt-1))
+			else
+				tbl[#tbl+1] = str:sub(1, cpt-1)
+			end
+			str = str:sub(cpt + div:len())
+			cpt = str:find(div, 1, true)
+		until (cpt == nil)
+	end
+	if clear == true then
+		tbl[#tbl+1] = trim(str)
+	else
+		tbl[#tbl+1] = str
+	end
+	return tbl
+end
+
+function send_tip(actor, news_id, timeout, sender, showtime)
+	if news_id == nil then
+		return false
+	end
+
+	if timeout == nil then
+		timeout = 0
+	end
+	if showtime == nil then
+		showtime = 5000
+	end
+
+	--' Играем дефолтный звук
+	news_manager.pda_tips:play(actor, timeout, sound_object.s2d)
+
+	if sender == nil then
+		sender = actor:character_name()
+	end
+	
+	local news_text = ("%s%s%s%s%s"):format(
+		"%c[255,160,160,160]",
+		game.translate_string(sender),
+		"\\n",
+		"%c[default]",
+		game.translate_string(news_id)
+	)
+	actor:give_game_news(
+		news_text,
+		"ui\\ui_iconsTotal",
+		Frect():set(0, 658,83,47),
+		timeout*1000,
+		showtime
+	)
+	return true
+end
+
+function cheek_condlist(condlist, npc1, npc2, npc3, section, field)
+local condlist_t = {}
+	if npc1 == nil then
+		npc1 = db.actor
+	end
+	if npc2 == nil then
+		npc2 = db.actor
+	end
+	if section == nil then
+		section = "section"
+	end
+	if field == nil then
+		field = "condlist"
+	end
+	if type(condlist) == "table" then
+		condlist_t = condlist
+	else
+		condlist_t = xr_logic.parse_condlist(npc3, section, field, condlist)
+	end
+return xr_logic.pick_section_from_condlist(npc1, npc2, condlist_t)
+end
+
+
+

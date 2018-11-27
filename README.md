@@ -276,6 +276,8 @@ A list of all files with detailed progress can be found below.
 		- done
 	- [nick.script](gamedata/scripts/nick.script)
 		- done
+	- [olr_pda.script](gamedata/scripts/olr_pda.script)
+		- done
 	- [olr_sleep.script](gamedata/scripts/olr_sleep.script)
 		- done
 - **[textures\rw](gamedata/textures/rw)**
