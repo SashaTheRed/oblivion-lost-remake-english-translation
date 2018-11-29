@@ -24,20 +24,19 @@ readme: 2019 edition
 
 
 
-УСТАНОВКА:
+INSTALLATION:
 
-1. Установите на любой диск, например как C:\STALKER-OLR25 или D:\GAMES\STALKER-OLR25 и т.п.
+1. Install on any disk, such as C:\STALKER-OLR25 or D:\GAMES\STALKER-OLR25 etc.
 
-На системах с VISTA/WIN7/WIN8/WIN10 и т.д. установка в Program Files или Program Files(x86) запрещена.
+On systems running Windows Vista, 7, 8, 10, etc., the mod should not be installed in the Program Files or Program Files (x86) folders.
 
-2. ОБЯЗАТЕЛЬНО один раз запустите configurator.cmd или в OLR_Launcher выберите пункт "Configurator" и пройдите по всем меню. То есть в каждом меню нажимать цифру понравившегося или рекомендованного пункта и Enter.
+2. Run configurator.cmd or choose the “Configurator” option in OLR_Launcher.exe. Select the options that apply to you by entering the appropriate digits as you go through it.
 
-3. Обязательно прочитайте readme_olr.txt.
+3. Read through readme_olr.txt.
 
-4. Запустите игру, в видеоопциях выберите желаемое разрешение экрана.
+4: Start the game and set the graphical presets, including the resolution, to what you desire.
 
-5. На системах с WIN10 не рекомендуется вообще устанавливать на диск C:
-   Если игра начнет вылетать при загрузке сохранений, перенесите (скопируйте) её на другой диск (например D:) или на внешний hdd, либо на флешку и запускайте оттуда.
+5. Windows 10 users may experience issues, such as crashes when loading saves. If you do, try installing the mod onto a different hard drive if you have one, or run it on a USB flash drive.
 
 
 
@@ -322,7 +321,7 @@ dsound.dll в случае повторной установки EnvFX.
 
 
 
-ОБ АВТОРАХ:
+ABOUT THE AUTHORS:
 
 OLR 2.5 crew:
 hi_flyer - Автор проекта, сюжет, квесты, заселение, СДК, компиляция, скрипты, шейдеры.
@@ -411,3 +410,11 @@ Advanced Reconstruction Stalker Mod.
 В автомагнитоле использована песня гуппы "Високосный год" - "Тихий огонёк".
 
 Коммерческое распространение запрещено.
+
+English translation team (Genies of the Zone (https://www.moddb.com/company/genies-of-the-zone)):
+
+Cameron M. Hunter
+Fermented Bread Water
+guciopl
+PapaOscarWhiskey
+Sasha Red
