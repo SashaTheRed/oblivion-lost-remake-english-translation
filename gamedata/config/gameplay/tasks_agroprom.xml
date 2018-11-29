@@ -10,7 +10,7 @@
 
 <objective>
 <text>Respond to the distress signal</text>
-<map_location_type hint="SOS Source">blue_location</map_location_type>
+<map_location_type hint="SOS source">blue_location</map_location_type>
 <object_story_id>agr_krot</object_story_id>
 <infoportion_complete>agr_olr_1_done</infoportion_complete>  
 </objective>
@@ -20,7 +20,7 @@
 
 
 <game_task id="agr_olr_2">
-<title>Find Strelokâ€™s stash</title>
+<title>Find Strelok’s stash</title>
 <objective>
 <text>Find the stash</text>
 <icon>ui_iconsTotal_storyline_eliminate_gunslinger</icon>

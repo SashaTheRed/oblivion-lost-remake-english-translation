@@ -798,11 +798,11 @@
 	</string>
 
         <string id="grav_shot_wpn">
-		<text>Gravity-powered zip gun</text>
+		<text>Gravity-powered shotgun</text>
 	</string>
 
         <string id="grav_shot_wpn_short">
-		<text>Gravity-powered zip gun</text>
+		<text>Gravity-powered shotgun</text>
 	</string>
 
         <string id="grav_shot_wpn_descr">
@@ -836,6 +836,6 @@
 		<text>Gravitational artifact</text>
 	</string>
 	<string id="enc_weapons1_wpn-art">
-		<text>A gravitational artifact that has been modified so that it can be used by someone with ease. The forces that power this weapon is the same force that the gravitational zip gun uses.</text>
+		<text>A gravitational artifact that has been modified so that it can be used by someone with ease. The forces that power this weapon is the same force that the gravitational shotgun uses.</text>
 	</string>
 </string_table>

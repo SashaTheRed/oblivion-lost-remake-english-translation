@@ -1355,7 +1355,7 @@ end
 
 
 function kol()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Unknown stalker:".."\\n".."%c[255,160,160,160]Stalker, come see me at the school. We need to talk.".."".."\n", nil, "default", 30000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Unknown stalker:".."\\n".."%c[255,160,160,160]Stalker, come see me in the school. We need to talk.".."".."\n", nil, "default", 30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\geiger_8]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end

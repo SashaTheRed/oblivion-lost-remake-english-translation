@@ -47,7 +47,7 @@
  <text>Yeah? What do you need?</text> 
  </string> 
  <string id="stgraugdhs_2"> 
- <text>The gravity-powered zip gun. I think only you can make it...</text> 
+ <text>The gravity-powered shotgun. I think only you can make it...</text> 
  </string> 
  <string id="stgraugdhs_3"> 
  <text>Yeah, okay. I need a specific artifact - one of those stronger gravity-based artifacts. Bring it here, and we'll talk.</text> 
@@ -60,7 +60,7 @@
  <text>I've got the artifact.</text> 
  </string> 
  <string id="ribkaprstugdhs_1"> 
- <text>For the zip gun? Alright, let me put this together.. there you go.</text> 
+ <text>For the shotgun? Alright, let me put this together... There you go.</text> 
  </string> 
  <string id="ribkaprstugdhs_2"> 
  <text>...</text> 
@@ -1114,16 +1114,16 @@
  </string>
 
       <string id="karbar_0"> 
- <text>Hey you, don't you get it?</text> 
+ <text>Are you dumb or something?</text> 
  </string> 
  <string id="karbar_1"> 
- <text>Calm down, what is going on here?</text> 
+ <text>Hey, calm down. What's going on here?</text> 
  </string> 
  <string id="karbar_2"> 
- <text>This is your last warning, stalker!</text> 
+ <text>This is your last warning, stalker.</text> 
  </string> 
  <string id="karbar_3"> 
- <text>Go to hell!</text> 
+ <text>Go to hell...</text> 
  </string>
 
 
