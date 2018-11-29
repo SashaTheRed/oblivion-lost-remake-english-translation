@@ -415,6 +415,6 @@ English translation team (Genies of the Zone (https://www.moddb.com/company/geni
 
 Cameron M. Hunter
 Fermented Bread Water
-guciopl
+Glucio PL
 PapaOscarWhiskey
 Sasha Red
