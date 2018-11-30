@@ -55,7 +55,6 @@ if "%var%"=="5" del /F /Q "_bin_olr_\d3d9.dll"
 
 if "%var%"=="6" cls
 if "%var%"=="6" start http://www.gameru.net/forum/index.php?showtopic=54066
-if "%var%"=="6" start http://ap-pro.ru/forum/35-23236-1
 if "%var%"=="6" exit
 
 
@@ -142,16 +141,16 @@ if "%var%"=="2" copy /y "_appdata_\configi\optic2_wide.zzz" "gamedata.dbn"
 @echo           	      SELECT BREAKS FOR MENU
 @echo.
 @echo With strong graphics cards, deactivating vertical synchronization
-@echo in the menu can bring the FPS up into the thousands and lead to overheating.
-@echo Breaks will help reduce the chance of overheating in the menu without deactivating
-@echo vertical synchronization. On weak/office/integrated graphics cards,
-@echo you should not turn on the breaks in order to avoid unnecessary slowdowns in the menu.
-@echo.
+@echo in the menu can bring the FPS up into the thousands and lead to malfunctions.
+@echo Breaks will help reduce the risk of malfunctioning in the menu without deactivating
+@echo vertical synchronization. On weak/office/integrated graphics cards, you should
+@echo not turn on the breaks in order to avoid unnecessary slowdowns in the menu.
+@echo Do activate this option if using a strong graphics card in order to avoid overheating.
 @echo.
 @echo Select breaks for the main menu, options menu, and loading screen.
 @echo.
-@echo 1 - without breaks
-@echo 2 - with breaks (requires a strong graphics card)
+@echo 1 - without breaks (for weak graphics cards)
+@echo 2 - with breaks (for strong graphics cards)
 @echo.
 @echo ===============================================================================
 @echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
@@ -202,7 +201,7 @@ if "%var%"=="2" copy /y "_bin_olr_\-d3d9.dll" "_bin_olr_\d3d9.dll"
 @echo           	        SELECT GRASS MODE
 @echo.
 @echo Use alternate grass from OLR 1.0/2.0 for a number of levels? 
-@echo It is thicker than the standard grass, and may significantly
+@echo It is thicker than the standard grass, but may significantly
 @echo reduce performance on weaker graphics cards.
 @echo.
 @echo.

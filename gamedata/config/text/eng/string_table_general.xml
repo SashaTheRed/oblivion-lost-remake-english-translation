@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="windows-1251" ?>     
 <string_table> 
 
+	<string id="st_pda">
+		<text>PDA</text>
+	</string>
+
 
 	<string id="ui_mm_gamma1">
 		<text>Standard</text>
@@ -14,11 +18,9 @@
 		<text>Purchased Moskvich</text>
 	</string>
 
-
 	<string id="car_task_lada_tx">
 		<text>Purchased Lada</text>
 	</string>
-
 
 	<string id="car_task_zapor_tx">
 		<text>Purchased Zaporozhets</text>
@@ -271,7 +273,7 @@ So, road's explored, plan's ready, supplies are collected, guns are shined. Than
 
 
         <string id="st_boloto_sos">
-		<text>SOS signal: Somebody help! I'm in a house at the swamp..</text>
+		<text>SOS signal: Somebody help! I'm in a hut in the swamp..</text>
 	</string>
 
 

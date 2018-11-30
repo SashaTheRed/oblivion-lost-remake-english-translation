@@ -56,7 +56,7 @@ function OldMenu:InitControls()
 	current_time = CUIStatic()
 	current_time:Init(625, 591, 50, 50)
 
-	current_time:SetText("Current Time:"..msg)
+	current_time:SetText("Тек. Время:"..msg)
 	current_time:SetTextColor(255,238,155,23)
 	current_time:SetFont(GetFontGraffiti22Russian())
 	self:AttachChild(current_time)
@@ -246,7 +246,7 @@ function OldMenu:SleepTwelveHours()
 	self:GetHolder():start_stop_menu(self, true)
 
 	elseif xr_conditions.is_time_9() then
-        news_manager.send_tip(db.actor, "Неподходящее время для сна. Сейчас и так утро, болван.")
+        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 --
@@ -419,7 +419,7 @@ function OldMenu:SleepTwelveHours()
 
 
 	else
-        news_manager.send_tip(db.actor, "Что-то не спится.")
+        news_manager.send_tip(db.actor, "I can't sleep for some reason.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -435,7 +435,7 @@ end
 function OldMenu:SleepSixHours()
 
         if xr_conditions.is_time_0() then
-	olr_func.sleep_main(18)
+	olr_func.sleep_main(19)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -447,7 +447,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_1() then
-	olr_func.sleep_main(17)
+	olr_func.sleep_main(18)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -460,7 +460,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_2() then
-	olr_func.sleep_main(16)
+	olr_func.sleep_main(17)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -473,7 +473,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_3() then
-	olr_func.sleep_main(15)
+	olr_func.sleep_main(16)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -485,7 +485,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_4() then
-	olr_func.sleep_main(14)
+	olr_func.sleep_main(15)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -498,7 +498,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_5() then
-	olr_func.sleep_main(13)
+	olr_func.sleep_main(14)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -510,7 +510,7 @@ function OldMenu:SleepSixHours()
 
 
         elseif xr_conditions.is_time_6() then
-	olr_func.sleep_main(12)
+	olr_func.sleep_main(13)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -521,7 +521,7 @@ function OldMenu:SleepSixHours()
 		   end
 
         elseif xr_conditions.is_time_7() then
-	olr_func.sleep_main(11)
+	olr_func.sleep_main(12)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -532,7 +532,7 @@ function OldMenu:SleepSixHours()
 		   end
 
         elseif xr_conditions.is_time_8() then
-	olr_func.sleep_main(10)
+	olr_func.sleep_main(11)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
@@ -679,7 +679,7 @@ function OldMenu:SleepSixHours()
 
 ----
         elseif xr_conditions.is_time_23() then
-	olr_func.sleep_main(19)
+	olr_func.sleep_main(20)
 	hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 

@@ -58,7 +58,8 @@ function on_press(actor, id)
 	
 	local pda = level.main_input_receiver()
 	if pda ~= nil then
-		level.start_stop_menu(pda, false)
+        
+		--level.start_stop_menu(pda, false) -- из-за этого пункта сам ПДА закрывался при открытии списка контактов для чата
 	end
 	
 	ui_obj = pda_talk(id, get_hud())

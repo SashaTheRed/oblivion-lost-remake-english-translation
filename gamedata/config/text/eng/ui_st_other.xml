@@ -198,6 +198,9 @@
 	<string id="st_bolt">
 		<text>Bolt</text>
 	</string>
+	<string id="wpn-bolt_desc">
+		<text>A regular iron bolt. Used by stalkers for detecting anomalies.</text>
+	</string>
 	<string id="st_items">
 		<text>Items</text>
 	</string>

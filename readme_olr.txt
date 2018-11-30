@@ -1,5 +1,5 @@
 
-              S.T.A.L.K.E.R. OBLIVION LOST REMAKE 2.5 (OLR 2.5 + FIXX 23)
+              S.T.A.L.K.E.R. OBLIVION LOST REMAKE 2.5 (OLR 2.5 + FIXX 29)
 
 
 
@@ -140,7 +140,7 @@ IMPORTANT POINTS RELATED TO VARIOUS QUESTS AND SAVING:
 2. When you move to a level changer, an autosave is created. If this autosave crashes when you load it, use a save from earlier The X-Ray Engine can be a very curious anomaly that can give the Zone pause sometimes. 
 3. Keep persisting with the game. It's unlikely, but some quest givers can die, or you can become hostile to them somehow, so save OFTEN.
 4. Some quests may be disrupted due to the ALife AI system having a meltdown. If you experience something like this, reload an earlier save.
-5. Sometimes, if you search corpses at MedPribor or the Swamps, the game might crash. Take things one at a time instead of all at once in these areas if you experience crashes.
+5. Sometimes, if you search corpses at MedPribor or the Swamps, the game might crash. Take things one at a time instead of all at once in these areas if you experience crashes. (This may have been fixed in fixx 25.)
 6. The game can't be started if there are more than 1500 saves (engine limit).
 7. Don't sell or use the ammo given to you by Toad for Weasel. If you do, the quest will fail, and you will have to reload an earlier save. Additionally, don't sell the artifact Weasel gives you - you need to do the quest turn-in with it. 
 8. How do you complete the first task? You need to be stealthy. Try sneaking through the bushes, and watch the soldiers with your binoculars. When the sentry guard isn't looking, run to the next bush. Don't forget about the patrol on the road.
@@ -243,8 +243,8 @@ FOV регулирует угол обзора из глаз. Чем больш�
 Эти проблемы присущи не только AMD Radeon R9 200-ой, но могут проявляться вообще на всех мощных видеокартах последних лет.
 Наибольшая нагрузка на видеокарту идет в главном и прочих меню. Часто можно слышать свист из системного блока.
 Начиная с "неофициального фикса 10 для OLR 2.5" вертикальнaя синхронизация включается/выключается из меню видеоопций игры.
-Начиная с "неофициального фикса 12 для OLR 2.5" для меню через конфигуратор можно включать тормозилки, снижающие вероятность
-перегрева при нахождении в главном меню, в меню загрузки и опций.
+Начиная с "неофициального фикса 12 для OLR 2.5" для меню через конфигуратор можно включать тормозилки, снижающие перегрев 
+в главном меню, в меню загрузки и опций.
 
 
 
@@ -338,7 +338,7 @@ proger_Dencheek - Скриптер версии 2.5. Реализация скр
 
 Спасибо:
 NoisesofMind - доработка вариантов музыкальных фонов на уровнях
-av661194 - обновленная новостная схема в фиксе 19.7, карта Ростока, другие правки.
+av661194 - обновленная новостная схема в фиксе 19.7, карта Ростока, визуализация падения ворон, правка отключения музыки на Баре
 DarkBlaze - правка источников света под ногами НПС в фиксе 19.6
 Стримерам с ютуба. Многие проблемы выявились благодаря их эфирам с прохождениями мода.
 Стример 1RIDDICK11 - озвучка Старейшины
@@ -369,7 +369,10 @@ LostWave - версия худа из билда 1472.
 K.D. - за отменные утилиты для быстрой правки шейдеров, спавнов, материалов и травы. 
 OLR_Launcher основан на Menu v4.2.4.87 от ABCSoft (автор Алексей Барышев).
 
+
 Использованы наработки:
+RvP - xrLua Fix
+demover123 - новые скриптовые функции мутантов
 Мерцающий - ошибка вылезания текста из диалогового окна на широкоформатниках
 Ulman - модель разрушенного БТР-босса на бульваре в Припяти
 Новостные скрипты из Advanced Reconstruction Stalker Mod v0.5.
@@ -406,6 +409,7 @@ MaxOFF92
 Modoskea
 Advanced Reconstruction Stalker Mod.
 Использованы музыкальные композиции с www.sovmusic.ru
+Использованы музыкальные композиции MoozE.
 Использованы музыкальные композиции Lustmord.
 В автомагнитоле использована песня гуппы "Високосный год" - "Тихий огонёк".
 
@@ -419,3 +423,6 @@ Kazemeka
 Glucio PL
 PapaOscarWhiskey
 Sasha Red
+
+
+Macron & hi_flyer (2018)
