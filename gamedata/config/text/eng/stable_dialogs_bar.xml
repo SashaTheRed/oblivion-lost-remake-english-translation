@@ -21,13 +21,13 @@
 
 
  <string id="gravartsmnb_0"> 
- <text>What kind of artifacts do you have here?</text> 
+ <text>What kind of stuff do you have here?</text> 
  </string> 
  <string id="gravartsmnb_1"> 
- <text>Yes, I have a special device... It's for artifact transmutation: if you take this device and put the required artifacts inside it it will turn them into a new artifact, but it currently has only a recipe for a strong gravitational artifact. I can provide the ingredients for the conversion; you only need the device itself and 5000 rubles.</text> 
+ <text>Well, I've got a bunch of gravity artifacts and a single recipe code for an artifact transmutator device. If you use this device and put the required artifacts inside, it'll turn them into a new artifact, but I only have a recipe for strong gravitational artifacts. I can provide the ingredients for the conversion; you'll need to only provide the device itself and 5000 rubles.</text> 
  </string> 
  <string id="gravartsmnb_2"> 
- <text>After I get the artifacts?</text> 
+ <text>I need to get the artifact transmutator and some money?</text> 
  </string> 
  <string id="gravartsmnb_3"> 
  <text>That's right.</text> 
@@ -72,16 +72,16 @@
 
 
  <string id="grartgraugdhs_0"> 
- <text>Mmh, I need something. I need a gravity-based artfiact.</text> 
+ <text>Mmh, I need something. Do you remember that artifact that you gave me that could easily manipulate heavy objects? I need one of those.</text> 
  </string> 
  <string id="grartgraugdhs_1"> 
- <text>We have it, and we can give it to you, but you need to give me a reason for me to give it to you.</text> 
+ <text>We have one of those, and we can give it to you, but you need to give me a reason for me to give it to you.</text> 
  </string> 
  <string id="grartgraugdhs_2"> 
  <text>What do you want?</text> 
  </string> 
  <string id="grartgraugdhs_3"> 
- <text>The artifact I need - one of those stronger gravity-based artifacts. Bring it here, and we'll talk. It'll be a fair trade.</text> 
+ <text>I need an artifact - one of those stronger gravity-based ones. Bring it here, and I'll give you what you want. It'll be a fair trade.</text> 
  </string>
 
 
@@ -315,7 +315,7 @@
  <text>Yes. I'm interested in something...</text> 
  </string> 
  <string id="svdodddkz_2"> 
- <text>You're interested in something? So am I. Those egghead bastards placed a radiation field from their damn psy-rig right in front of our base. Some of our comrades say that the radiation field is expanding, and it seems it'll reach our base soon. Those eggheads have some weird shit going on... We've traced the source to a house that's left to one of the roads at Silent Hills. I don't want to send any of my men there. The radiation there is so intense that all the grass has faded and evaporated. Go there and see if you can turn that shit off. We'll talk afterwards.</text> 
+ <text>You're interested in something? So am I. Those egghead bastards placed a radiation field from their damn psy-rig right in front of our base. Some of our comrades say that the radiation field is expanding, and it seems it'll reach our base soon. Those eggheads have some weird shit going on... We've traced the source to a house that's left to one of the roads here. I don't want to send any of my men there. The radiation there is so intense that all the grass has faded and evaporated. Go there and see if you can turn that shit off. We'll talk afterwards.</text> 
  </string> 
  <string id="svdodddkz_01"> 
  <text>Damn... okay, I'll do it.</text> 
