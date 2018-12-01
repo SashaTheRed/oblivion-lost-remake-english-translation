@@ -57,7 +57,7 @@
 
 
  <string id="ribkaprstugdhs_0"> 
- <text>I've got the artifact.</text> 
+ <text>I've got the artifact for the shotgun.</text> 
  </string> 
  <string id="ribkaprstugdhs_1"> 
  <text>For the shotgun? Alright, let me put this together... There you go.</text> 
@@ -86,7 +86,7 @@
 
 
  <string id="ribk22prstugdhs_0"> 
- <text>I have a question about the artifact you need.</text> 
+ <text>I've got the artifact that's needed for artifact that can handle heavy objects.</text> 
  </string> 
  <string id="ribk22prstugdhs_1"> 
  <text>Got it? Okay, there you go...</text> 
