@@ -56,6 +56,8 @@ A list of all files with detailed progress can be found below.
 		- done
 	- [dialogs_escape_1_string.xml](gamedata/config/gameplay/dialogs_escape_1_string.xml)
 		- done
+	- [dialogs_military.xml](gamedata/config/gameplay/dialogs_military.xml)
+		- done
 	- [dialogs_yantar.xml](gamedata/config/gameplay/dialogs_yantar.xml)
 		- done
 	- [tasks_aes.xml](gamedata/config/gameplay/tasks_aes.xml)
