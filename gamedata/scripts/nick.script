@@ -1140,7 +1140,7 @@ end
 function zaba_ab_note()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Toad\\nOh, and by the way... There's a notepad in your PDA. You can put stuff there if you find anything interesting...","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(5000, 15000),15000)
+cactor:give_game_news("Toad\\nOh, and by the way... There's a notepad in your PDA. You can put stuff there if you find anything interesting...","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(5000, 15000),30000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1151,7 +1151,12 @@ end
 function barm_sms_prcpntr()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Professor\\nStalker, there is a lot of psy-activity in the city, in turn blocking access to the power plant. We have detected a large group of controllers in the city center. It is possible that they are the ones blocking the way. I recommend using the Death's Head artifact (or a few of them) in that region.","ui\\ui_iconsTotal",Frect():set(660,108,165,108),math.random(1000, 13000),15000)
+cactor:give_game_news("Professor\\nStalker, there is a lot of psy-activity in the city, in turn blocking access to the power plant. We have detected a large group of controllers in the city center. It is possible that they are the ones blocking the way. I recommend using the Death's Head artifact (or a few of them) in that region.","ui\\ui_iconsTotal",Frect():set(333,501,48,48),math.random(1000, 13000),25000)
+
+
+
+
+
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1185,7 +1190,7 @@ end
 function a_cod_dvery_ros()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Strelok\\Hm... I think I just remembered the code to my Rostok stash. Code: 3781","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Strelok\\nHm... I think I just remembered the code to my Rostok stash. Code: 3781","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1193,7 +1198,7 @@ end
 
 
 function prisad_nahui()
---news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Мессер:".."\\n".."%c[255,160,160,160]Присядь пока, приятель..".."".."\n", nil, "default", 10000)
+--news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Messer:".."\\n".."%c[255,160,160,160]Sit down for a bit, buddy...".."".."\n", nil, "default", 10000)
 news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Messer:".."\\n".."%c[255,160,160,160]Doctor, Doctor...".."".."\n", nil, "default", 10000)
 end
 
@@ -1286,7 +1291,7 @@ end
 
 
 function car_olr()
-news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Transport:".."\\n".."%c[255,180,180,180]Door - T.\\nTurn on/off - K.\\nControl - W,A,S,D.\\nGear shift - LCtrl,LShift.\\nHandbrake - Space.\\nHorn - O.\\nBTR headlights/hatches - L.\\nRadio cassette player - Y.\\nCamera control - F1, F2, F3.\\nThe trunk is opened by pressing F. ".."".."\n", nil, "default", 80000)
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Transport:".."\\n".."%c[255,180,180,180]Door - T.\\nTurn on/off - K.\\nControl - W, A, S, D.\\nGear shift - LCtrl,LShift.\\nHandbrake - Space.\\nHorn - O.\\nHeadlights/BTR hatches - L.\\nRadio cassette player - Y.\\nCamera control - F1, F2, F3.\\nThe trunk is opened by pressing F outside the vehicle. ".."".."\n", nil, "default", 80000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1348,7 +1353,9 @@ end
 function radar_ant_off_sms()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Barkeep\\nBarkeep speaking! Dosimeters up north aren't noting radiation. The road to Pripyat is clear. Messer, if you come by our bar, know that we appreciate what you've done. Come see me if you can.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Barkeep\\nBarkeep speaking! Dosimeters up north aren't noting radiation. The road to Pripyat is clear. Messer, if you come by our bar, know that we appreciate what you've done. Come see me if you can.","ui\\ui_npc_unique",Frect():set(856,2,103,103),math.random(1000, 3000),25000)
+
+
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1379,7 +1386,7 @@ end
 function tele()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Journalist\\nDon't let yourself get tempted, Strelok. Remember, the Monolith is only an illusion. There's a teleporter in the room with the magic rock that leads to the Generators. Find it and get into it.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Journalist\\nDon't let yourself get tempted, Strelok. Remember, the Monolith is only an illusion. There's a teleporter in the room with the magic rock that leads to the Generators. Find it and get into it.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),25000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1403,7 +1410,7 @@ end
 function jurnl()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Journalist\\nI'll be in Freedom territory. You'll find in me in one of the houses on the city bounds.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),15000)
+cactor:give_game_news("Journalist\\nI'll be in Freedom territory. You'll find in me in one of the houses on the city bounds.","ui\\ui_iconsTotal",Frect():set(486,486,50,50),math.random(1000, 3000),25000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1433,7 +1440,7 @@ end
 function zaba_art_garb()
 local sactor = alife():actor()
 local cactor = level.object_by_id(sactor.id)
-cactor:give_game_news("Toad\\nMesser, there's a certain artifact in a hangar in the warehouse areas. Bring it to me.","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(1000, 3000),5000)
+cactor:give_game_news("Toad\\nMesser, there's a certain artifact in a hangar in the warehouse areas. Bring it to me.","ui\\ui_iconsTotal",Frect():set(332,950,50,50),math.random(1000, 3000),20000)
 local snd_obj = xr_sound.get_safe_sound_object([[olr_pda\pda_objective]])
 snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
 end
@@ -1637,3 +1644,19 @@ function del_journals()
 	end
 end
 ---------------------------------------
+function trash_yantar()
+--http://ap-pro.ru/forum/114-2719-1
+--alife():create("vedro",vector():set(координаты X,Y,Z),level_vertex_id,game_vertex_id) 
+--объект yantar_pregrada в конце config\misc\items.ltx
+alife():create("yantar_pregrada",vector():set(147.20,-11.27,-46.92),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.20,-10.87,-49.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.60,-10.87,-51.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.20,-10.87,-53.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.60,-10.87,-55.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.20,-10.87,-57.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.60,-10.87,-59.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.20,-10.87,-61.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.60,-10.87,-63.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.20,-10.87,-65.32),500161 ,1908)
+alife():create("yantar_pregrada",vector():set(147.60,-10.87,-66.92),500161 ,1908)
+end

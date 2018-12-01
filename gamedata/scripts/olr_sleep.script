@@ -56,7 +56,7 @@ function OldMenu:InitControls()
 	current_time = CUIStatic()
 	current_time:Init(625, 591, 50, 50)
 
-	current_time:SetText("Тек. Время:"..msg)
+	current_time:SetText("Current time:"..msg)
 	current_time:SetTextColor(255,238,155,23)
 	current_time:SetFont(GetFontGraffiti22Russian())
 	self:AttachChild(current_time)
@@ -231,22 +231,22 @@ function OldMenu:SleepTwelveHours()
 -- c 6 до 9.59 уже утро, пропускаем
 
 	elseif xr_conditions.is_time_6() then
-        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
+        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, blockhead.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
 	elseif xr_conditions.is_time_7() then
-        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
+        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, blockhead.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
 	elseif xr_conditions.is_time_8() then
-        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
+        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, blockhead.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 
 	elseif xr_conditions.is_time_9() then
-        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, idiot.")
+        news_manager.send_tip(db.actor, "Not a good time to sleep. It's morning, blockhead.")
         hidden_slots.inventory_close()
 	self:GetHolder():start_stop_menu(self, true)
 --

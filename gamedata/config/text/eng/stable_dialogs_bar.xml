@@ -5,7 +5,7 @@
 
 
  <string id="gravartsmnb2_0"> 
- <text>I need a strong gravitational artifact..</text> 
+ <text>I need a strong gravitational artifact...</text> 
  </string> 
  <string id="gravartsmnb2_1"> 
  <text>Alright. Give me the device and the money.</text> 
@@ -57,7 +57,7 @@
 
 
  <string id="ribkaprstugdhs_0"> 
- <text>I've got the artifact for the shotgun.</text> 
+ <text>I've got the artifact.</text> 
  </string> 
  <string id="ribkaprstugdhs_1"> 
  <text>For the shotgun? Alright, let me put this together... There you go.</text> 
@@ -86,7 +86,7 @@
 
 
  <string id="ribk22prstugdhs_0"> 
- <text>I've got the artifact that's needed for artifact that can handle heavy objects.</text> 
+ <text>I have a question about the artifact you need.</text> 
  </string> 
  <string id="ribk22prstugdhs_1"> 
  <text>Got it? Okay, there you go...</text> 
@@ -285,7 +285,7 @@
  <text>No problem, buddy.</text> 
  </string> 
  <string id="nzombar_koshak_start_01"> 
- <text>T-t-t-th-eee sci-sci-scientists w-were he-he-here earli-li-er. I saw th-them at th-the co-co-cottage..</text> 
+ <text>T-t-t-th-eee sci-sci-scientists w-were he-he-here earli-li-er. I saw th-them at th-the co-co-cottage...</text> 
  </string> 
 
 
@@ -300,7 +300,7 @@
  <text>What do you want?</text> 
  </string> 
  <string id="zombar_koshak_start_01"> 
- <text>I ha-ha-had a c-c-cat, a b-bi-bi-big on-one. S-she was mu-my best fr-friend. Sh-she al-al-alwa-always hel-he-helped me. I lo-lost h-he-her. Fi-fin-find he-her, pl-pl-plea-please.</text> 
+ <text>I ha-ha-had a c-c-cat, a b-bi-bi-big on-one. S-she was mu-my best fr-friend. Sh-she al-al-alwa-always hel-he-helped me. I lo-lost h-he-her. Fi-fin-find he-her, pl-pl-plea-please. Here... Somewhere in one of the co-co-cottages...</text> 
  </string> 
 
 
@@ -1183,7 +1183,6 @@
 
 
 
- <!--Тексты диалогов с Барменом-->
 <!--Тексты диалогов с Барменом-->
 	<string id="bar_about_killers_0">
 	    <text>We need to talk.</text>
@@ -2044,7 +2043,7 @@
 		<text>I accomplished my mission. Here is Tyran's PDA.</text>
 	</string>
 	<string id="bar_bar_barman_killer_ambush_1">
-		<text>Wow, Marked One! Great job! What can I say? You made me happy, man. I wasn't sure you'd manage, to be honest...but you're alive and they're not!</text>
+		<text>Wow, Messer! Great job! What can I say? You made me happy, man. I wasn't sure you'd manage, to be honest...but you're alive and they're not!</text>
 	</string>
 	<string id="bar_bar_barman_killer_ambush_2">
 		<text>What about my reward?</text>
@@ -2056,7 +2055,7 @@
 		<text>Here is Lucky's PDA. I did what you asked.</text>
 	</string>
 	<string id="bar_bar_barman_veterans_finish_1">
-		<text>Nice, Marked One. Great job! What can I say? You made me happy, man. I wasn't sure you'd manage, to be honest...but you're alive and they're not!</text>
+		<text>Nice, Messer. Great job! What can I say? You made me happy, man. I wasn't sure you'd manage, to be honest...but you're alive and they're not!</text>
 	</string>
 	<string id="bar_bar_barman_veterans_finish_11">
 		<text>What about the reward?</text>
@@ -2167,13 +2166,13 @@
 		<text>OK.</text>
 	</string>
 	<string id="bar_bar_barmen_start_131">
-		<text>Well, Marked One, now we just need to deal with the Scorcher and open the way North! You ready to go now?</text>
+		<text>Well, Messer, now we just need to deal with the Scorcher and open the way North! You ready to go now?</text>
 	</string>
 	<string id="bar_bar_barmen_start_1312">
 		<text>Yes.</text>
 	</string>
 	<string id="bar_bar_barmen_start_13121">
-		<text>OK, Marked One, you’ve got the protective prototype so you’ll be safe from the emissions. I have the bunker coordinates. Don’t forget that the prototype won’t protect you forever, so you need to get to the bunker ASAP and turn off the Scorcher. I don’t know what will happen after that but I am sure it will be worth it. The only thing we can be sure of is that the road to the Zone’s center will be open.</text>
+		<text>OK, Messer, you’ve got the protective prototype so you’ll be safe from the emissions. I have the bunker coordinates. Don’t forget that the prototype won’t protect you forever, so you need to get to the bunker ASAP and turn off the Scorcher. I don’t know what will happen after that but I am sure it will be worth it. The only thing we can be sure of is that the road to the Zone’s center will be open.</text>
 	</string>
 	<string id="bar_bar_barmen_start_1313">
 		<text>Go on.</text>
@@ -2191,7 +2190,7 @@
 		<text>No, I'm not ready yet.</text>
 	</string>
 	<string id="bar_bar_barmen_start_1321">
-		<text>Get ready, Marked One! This task can't wait.</text>
+		<text>Get ready, Messer! This task can't wait.</text>
 	</string>
 	<string id="bar_bar_barmen_start_141">
 		<text>Меченый, иди, покури пока, придёшь через полчаса. А я тем временем бумажки с "МедПрибора" почитаю.</text>
@@ -2218,13 +2217,13 @@
 		<text>Отлично!</text>
 	</string>
 	<string id="bar_bar_barmen_start_161">
-		<text>What do you want, Marked One?</text>
+		<text>What do you want, Messer?</text>
 	</string>
 	<string id="bar_bar_barmen_start_162">
-		<text>Hey, Marked One! Times change but you don't still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...</text>
+		<text>Hey, Messer! Times change but you don't still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...</text>
 	</string>
 	<string id="bar_bar_barmen_start_171">
-		<text>So, Marked One, how are things coming along?</text>
+		<text>So, Messer, how are things coming along?</text>
 	</string>
 	<string id="bar_bar_barmen_start_172">
 		<text>Я вернулся, задание выполнено.</text>
@@ -2254,10 +2253,10 @@
 		<text>Хорошо.</text>
 	</string>
 	<string id="bar_bar_barmen_start_181">
-		<text>What do you want, Marked One?</text>
+		<text>What do you want, Messer?</text>
 	</string>
 	<string id="bar_bar_barmen_start_182">
-		<text>Hey, Marked One! Times change but you don't still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...</text>
+		<text>Hey, Messer! Times change but you don't still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...</text>
 	</string>
 	<string id="bar_bar_barmen_start_191">
 		<text>Я тут с документами пока разбираюсь. Хотел чего?</text>
@@ -2278,7 +2277,7 @@
 		<text>Here are the documents from the Institute.</text>
 	</string>
 	<string id="bar_bar_barmen_start_221">
-		<text>Great work, Marked One! We have the documents at last. Похоже, в таких делах на тебя можно положиться. Заходи почаще, у меня ещё есть парочка интересных дел.\n Так... I need to have a look at them now and maybe I’ll work out how to get North. While I do that, if you have problems with money, you can fight at the Arena. The owner of the Arena is Arni, I've uploaded his coordinates.</text>
+		<text>Great work, Messer! We have the documents at last. Похоже, в таких делах на тебя можно положиться. Заходи почаще, у меня ещё есть парочка интересных дел.\n Так... I need to have a look at them now and maybe I’ll work out how to get North. While I do that, if you have problems with money, you can fight at the Arena. The owner of the Arena is Arni, I've uploaded his coordinates.</text>
 	</string>
 	<string id="bar_bar_barmen_start_2211">
 		<text>OK.</text>
@@ -2290,7 +2289,7 @@
 		<text>Рано ещё, я с расшифровками пока не разобрался.</text>
 	</string>
 	<string id="bar_bar_barmen_start_3">
-		<text>What do you want, Marked One?</text>
+		<text>What do you want, Messer?</text>
 	</string>
 	<string id="bar_bar_barmen_start_4">
 		<text>Привет, Меченый. Время идет, а ты не меняешься, всё такой же нелюдимый. Садись выпей, может подобреешь чуток.</text>
@@ -2596,7 +2595,7 @@
 		<text>I work as a dealer of information. I sell important info, and I can tell you some interesting rumors. My information is valuable and very useful to the one who possesses it!</text>
 	</string>
 	<string id="bar_bar_osvedomitel_start_21">
-		<text>Hello, Marked One. You helped Freedom and made the right choice. Your fate is now tied with that of Freedom and Duty has you in its sights. I'd suggest you go to the abandoned military base and join Freedom - they need good fighters.</text>
+		<text>Hello, Messer. You helped Freedom and made the right choice. Your fate is now tied with that of Freedom and Duty has you in its sights. I'd suggest you go to the abandoned military base and join Freedom - they need good fighters.</text>
 	</string>
 	<string id="bar_bar_osvedomitel_start_211">
 		<text>I'll think about it.</text>
@@ -3487,38 +3486,38 @@
 		<text>I think it deserves some attention.</text>
 	</string>
 	<string id="bar_dolg_base_guard_acces_0">
-        <text>Почему вы не пускаете чужаков?</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_1">
-        <text>Хех... Ты откуда вылез, такой наивный? У нас война идёт, понимаешь? С бандитами Свободы. Регулярные стычки с ихними боевиками на "Дикой территории".</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_11">
-        <text>Война с группировкой "Свободы"? Почему?</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_111">
-        <text>Потому что бандитам Свободы нет места в Зоне, они должны быть уничтожены. Если тебе интересно, то спроси Бармена, он тебе всё объяснит, а я слишком занят для этого.</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_12">
-        <text>А если я хочу вступить в Долг? Как мне быть?</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_121">
-        <text>Плати взнос 10000 рублей, и получишь пропуск. С ним иди к администратору Долга, он тебе назначит проверки.</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_1211">
-        <text>Хорошо, вот деньги.</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_12111">
-        <text>Вот и отлично, держи пропуск, и дуй с ним к администратору Петренко, я тебе отметил на карте. И ещё, не вздумай в бункер заходить, пока не получишь пропуск от Иванцова.</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_1212">
-        <text>Нет, я передумал.</text>
-    </string>
-    <string id="bar_dolg_base_guard_acces_12121">
-        <text>Ну дело твоё, бывай.</text>
-    </string>
+		<text>Why don't you let strangers through?</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_1">
+		<text>Hah... Where did you come from? Are you really that naive? We're fighting a war, you understand? With the bandits of Freedom. Got regular skirmishes with their gunmen in the Wild Territory.</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_11">
+		<text>A war with Freedom? Why?</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_111">
+		<text>Becauase there's no place for the Freedom bandits in the Zone. They must be destroyed. If you're interested, ask the Barkeep. He'll explain everything to you. I'm too busy to tell you anything.</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_12">
+		<text>And if I want to join Duty? What should I do</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_121">
+		<text>The payment fee is 10,000 rubles. You'll recieve an entry permit. Go to the Duty administrator with it, and he'll appoint an inspection..</text>
+	</string>
+    	<string id="bar_dolg_base_guard_acces_1211">
+        <text>Okay. Here's the money.</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_12111">
+		<text>Great. Take the permit. Head to administrator Petrenko. I've marked him on your map. Also, don't think about going into the bunker until you get a permit from Ivantsov.</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_1212">
+		<text>No. I changed my mind.</text>
+	</string>
+	<string id="bar_dolg_base_guard_acces_12121">
+		<text>Your choice. Bye.</text>
+	</string>
 	<string id="bar_dolg_base_guard_acces_13">
-        <text>Спасибо.</text>
-    </string>
+		<text>Thank you.</text>
+	</string>
 	<string id="bar_dolg_base_guard_acces_14">
         <text>I need to see your boss.</text>
     </string>
@@ -3583,10 +3582,10 @@
 		<text>Halt! Only members can go in there! We can't let you inside the bunker without a special pass. If you want to get one go see Colonel Petrenko. He's in the administration area across the yard.</text>
 	</string>
 	<string id="bar_dolg_guard_bunker_start_111">
-		<text>Почему вы не пускаете меня в бункер?</text>
+		<text>Why won't you let me into the bunker?</text>
 	</string>
 	<string id="bar_dolg_guard_bunker_start_1111">
-		<text>Пропуск, если хочешь, чтобы мы тебя пропустили, получи специальный пропуск. Сходи к Петренко, он тебе всё объяснит.</text>
+		<text>Because you have no entry permit. If you want us to let you through, get a special permit. Head to Petrenko and he'll tell you everything.</text>
 	</string>
 	<string id="bar_dolg_guard_bunker_start_21">
 		<text>What are you standing there for? Keep moving.</text>
@@ -3595,16 +3594,16 @@
 		<text>Go on. Remember: Duty's mission is to cleanse.</text>
 	</string>
 	<string id="bar_dolg_ivancov_join_0">
-        <text>Хочу вступить в группировку "Долг".</text>
+		<text>I want to join Duty.</text>
     </string>
     <string id="bar_dolg_ivancov_join_1">
-        <text>Иди к Петренко, он тебе всё объяснит.</text>
+		<text>Go see Petrenko. He'll explain everything..</text>
     </string>
     <string id="bar_dolg_ivancov_join_11">
-        <text>А где он?</text>
+		<text>Where is he?</text>
     </string>
     <string id="bar_dolg_ivancov_join_111">
-        <text>В администрации, через дворик отсюда.</text>
+		<text>In the administration building. Through the courtyard from here.</text>
     </string>
 	<string id="bar_dolg_ivancov_start_11">
 		<text>What do you want?</text>
@@ -3616,10 +3615,10 @@
 		<text>Hello, friend.</text>
 	</string>
 	<string id="bar_dolg_ivancov_deadcity_map_0">
-        <text>Мне нужно встретиться с вашим лидером.</text>
+		<text>I need to meet with your leader.</text>
     </string>
 	<string id="bar_dolg_ivancov_deadcity_map_1">
-        <text>Для чего?</text>
+        <text>What for?</text>
     </string>
 	<string id="bar_dolg_ivancov_deadcity_map_11">
         <text>У меня есть карта Светлого луча. Думаю, она вас интересует.</text>
@@ -3652,46 +3651,46 @@
         <text>Превосходно, будем считать, что ты прошёл проверку. Держи допуск в бункер. Теперь иди к генералу Воронину, только он может принять тебя в группировку.</text>
     </string>
     <string id="bar_dolg_ivancov_test_finish_11">
-        <text>Спасибо.</text>
+		<text>Thank you.</text>
     </string>
 	<string id="bar_dolg_leader_job_0">
 		<text>What can I do for Duty?</text>
 	</string>
 	<string id="bar_dolg_leader_job_1">
-		<text>That's a good question, Marked One and there's an equally good answer to it - kill Freedom anarchists. You'll get a reward for every PDA of theirs you bring and you might get promoted too. Take all the PDAs you get to Colonel Petrenko - he gives out the rewards. КПК наших бойцов тоже неси ему, чтобы информация не попала в чужие руки.</text>
+		<text>That's a good question, Messer and there's an equally good answer to it - kill Freedom anarchists. You'll get a reward for every PDA of theirs you bring and you might get promoted too. Take all the PDAs you get to Colonel Petrenko - he gives out the rewards. КПК наших бойцов тоже неси ему, чтобы информация не попала в чужие руки.</text>
 	</string>
 	<string id="bar_dolg_leader_join_0">
-        <text>Я хочу вступить в группировку "Долг".</text>
-    </string>
-    <string id="bar_dolg_leader_join_1">
-        <text>Похвальное желание. Полковник Петренко и капитан Иванцов мне уже доложили о тебе. Прежде, чем принять тебя, я хочу попросить выполнить одно дело. Лично для меня, понимаешь?</text>
-    </string>
-    <string id="bar_dolg_leader_join_11">
-        <text>Думаю, что понимаю. Что я должен сделать?</text>
-    </string>
-    <string id="bar_dolg_leader_join_111">
-        <text>Видишь ли, тут такое дело. Сейчас у нас идут территориальные боевые действия с группой Свободы, и нам не хватает оружия помощней того, что у нас есть. У Свободы есть несколько отличных гранатометов РГ-6. Если бы у тебя получилось проникнуть на территорию Свободы и выкрасть хотя бы один такой гранатомет, то я бы с удовольствием принял такого отважного сталкера в нашу группировку. Пока ты не в группировке, ты легко можешь втереться в доверие к Свободе и при удачном раскладе спереть РГ-6. Ну, что думаешь?</text>
-    </string>
-    <string id="bar_dolg_leader_join_1111">
-        <text>Хорошо, я возьмусь выкрасть РГ-6 у Свободы.</text>
-    </string>
-    <string id="bar_dolg_leader_join_11111">
-        <text>Ну вот и отлично. Я скину тебе информацию по местонахождению складов на территории военной базы, на которой сейчас размещена Свобода. И ещё совет - у нас есть информация на некоего Повара, члена группы "Свободы", он знает, где именно хранится РГ-6. Он слаб на выпивку, поэтому постарайся его опоить. Короче говоря, возьми побольше водки. Хе-хе. Пригодится.</text>
-    </string>
-    <string id="bar_dolg_leader_join_1112">
-        <text>Нет, я пока не готов к таким подвигам.</text>
-    </string>
-    <string id="bar_dolg_leader_join_11121">
-        <text>Дело твоё.</text>
-    </string>
+		<text>I want to join Duty.</text>
+	</string>
+	<string id="bar_dolg_leader_join_1">
+		<text>An admirable choice. Colonel Petrenko and Captain Ivantsov have already told me about you. Before accepting you, I'd like to ask you to do something. Something personal, okay?</text>
+	</string>
+	<string id="bar_dolg_leader_join_11">
+		<text>I think I understand. What needs to be done?</text>
+	</string>
+	<string id="bar_dolg_leader_join_111">
+		<text>You see, here's the thing. We're at war with Freedom over territory, and our firepower is too weak. Freedom has a number of excellent RG-6 launchers. If you can find a way to break through to Freedom territory and retrieve at least one such launcher, I would be happy to accept you into our faction. While you're not an official member, you can easily gain Freedom's trust and get a hold of an RG-6 at the right moment. What do you think?</text>
+	</string>
+	<string id="bar_dolg_leader_join_1111">
+		<text>Okay. I'll try to return an RG-6 from Freedom.</text>
+	</string>
+	<string id="bar_dolg_leader_join_11111">
+		<text>Excellent. I'll send you information on the warehouse locations in the military base that Freedom is occupying right now. And another thing: we have information on a certain Cook, a member of Freedom. He knows exactly where the RG-6 is being held. He's not the type to turn down a drink, so try to get him under the influence. So, bring vodka. Haha. It'll come in handy.</text>
+	</string>
+	<string id="bar_dolg_leader_join_1112">
+		<text>No. I'm not ready for such deeds.</text>
+	</string>
+	<string id="bar_dolg_leader_join_11121">
+		<text>Your choice.</text>
+	</string>
 	<string id="bar_dolg_leader_prisyaga_0">
 		<text>I am ready to swear the oath.</text>
 	</string>
 	<string id="bar_dolg_leader_prisyaga_1">
-		<text>Good man! Repeat after me: "I, a stalker known as the Marked One, swear to defend the goals and ideals of Duty."</text>
+		<text>Good man! Repeat after me: "I, a stalker known as Messer, swear to defend the goals and ideals of Duty."</text>
 	</string>
 	<string id="bar_dolg_leader_prisyaga_2">
-		<text>I, a stalker known as the Marked One, swear to defend the goals and ideals of Duty.</text>
+		<text>I, a stalker known as Messer, swear to defend the goals and ideals of Duty.</text>
 	</string>
 	<string id="bar_dolg_leader_prisyaga_3">
 		<text>To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.</text>
@@ -3739,7 +3738,7 @@
         <text>Невероятно, Меченый. Ты уничтожил лидера анархистов Свободы. Это приведёт к скорому распаду группировки. Война ещё не закончена, но исход её уже предрешен. Твоя заслуга очень велика, мы этого не забудем. За твои заслуги перед Долгом, я повышаю тебя в звании до мастера Долга. Иди к Петренко, он выдаст тебе награду.</text>
     </string>
 	<string id="bar_dolg_leader_quest_start_0">
-        <text>Какие мои текущие задачи?</text>
+		<text>What are my current tasks?</text>
     </string>
 	<string id="bar_dolg_leader_quest_start_1">
         <text>Твоя задача отправиться в Тёмную долину, уничтожить Борова и вернуть важную информацию. \nНедавно люди Борова взяли моего разведчика, который нёс важную информацию о лаборатории X18. Вероятно, его уже расстреляли. Сейчас мы не готовы к широкомасштабной войне с бандитами, поэтому твоя цель - это Боров и информация. Найди его, убей, затем доставь мне информацию о лаборатории X18.</text>
@@ -3751,7 +3750,7 @@
         <text>Война со Свободой близится к концу, Меченый. Ты внёс вклад в общее дело, и теперь я хочу поставить точку в этой войне. Я хочу, чтобы ты уничтожил лидера Свободы.</text>
     </string>
 	<string id="bar_dolg_leader_quest_start_4">
-        <text>Пока новых задач не имеется.</text>
+		<text>There are no new tasks available for now.</text>
     </string>
 	<string id="bar_dolg_leader_start_11">
 		<text>I'm listening.</text>
@@ -3766,13 +3765,13 @@
 		<text>Yes, here is the RG-6.</text>
 	</string>
 	<string id="bar_dolg_leader_start_3111">
-		<text>Good work, stalker. This is exactly what we need. Well, Marked One, you carried out my request, and in return you can take this suit. I think you'll like it.</text>
+		<text>Good work, stalker. This is exactly what we need. Well, Messer, you carried out my request, and in return you can take this suit. I think you'll like it.</text>
 	</string>
 	<string id="bar_dolg_leader_start_41">
 		<text>What brought you to me, brother?</text>
 	</string>
 	<string id="bar_dolg_leader_start_51">
-		<text>The war with Freedom is coming to an end, Marked One. You played your part in fighting for the cause and now I want to finish this war. I want you to kill the Freedom leader.</text>
+		<text>The war with Freedom is coming to an end, Messer. You played your part in fighting for the cause and now I want to finish this war. I want you to kill the Freedom leader.</text>
 	</string>
 	<string id="bar_dolg_leader_start_81">
 		<text>Что привело тебя ко мне, брат? Ты уничтожил лидера анархистов Свободы, что привело к распаду группировки. Война ещё не закончена, но исход ее уже предрешен. Твоя заслуга очень велика, мы этого не забудем.</text>
@@ -3814,7 +3813,7 @@
 		<text>Hello, stalker. Join Duty! We need good fighters! I only joined recently and look at the cool uniform they gave me!</text>
 	</string>
 	<string id="bar_dolg_newbie_start_21">
-		<text>Hello, Marked One. I'm glad you're with us. Duty is really going to need good fighters soon.</text>
+		<text>Hello, Messer. I'm glad you're with us. Duty is really going to need good fighters soon.</text>
 	</string>
 	<string id="bar_dolg_novice_start_2">
 		<text>Hey, fellow stalker.</text>
@@ -4201,7 +4200,7 @@
 		<text>Unfortunately I have to go. Good luck.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_101">
-		<text>Marked One, stop them or they'll kill us!</text>
+		<text>Messer, stop them or they'll kill us!</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_1011">
 		<text>Sit tight. We'll deal with them.</text>
@@ -4225,7 +4224,7 @@
 		<text>Thank you, stalker. I am not much of a fighter but I know the way so I'll lead and you cover us.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_112">
-		<text>No, меня под пули лезть не особо тянет. Try to get out of here yourself.</text>
+		<text>No, I don't feel like getting shot. Try to get out of here yourself.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_1121">
 		<text>No. I am sure you don't mean that. I'll never make it out of here alone. If you change your mind, I'll be here...if I live.</text>
@@ -4300,7 +4299,7 @@
 		<text>Yes, we're here.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_3111">
-		<text>Marked One, if you visit our mobile laboratory, we will give you a scientific suit.</text>
+		<text>Messer, if you visit our mobile laboratory, we will give you a scientific suit.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_31111">
 		<text>We'll see.</text>
@@ -4309,7 +4308,7 @@
 		<text>Hello, stalker. Allow me to express my gratitude on behalf of global science!</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_51">
-		<text>Marked One, stop them or they'll kill us!</text>
+		<text>Messer, stop them or they'll kill us!</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_511">
 		<text>Sit tight. We'll deal with them.</text>
@@ -4324,7 +4323,7 @@
 		<text>Let's go.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_61">
-		<text>Marked One, stop them or they'll kill us!</text>
+		<text>Messer, stop them or they'll kill us!</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_611">
 		<text>Sit tight. We'll deal with them.</text>
@@ -4339,13 +4338,13 @@
 		<text>OK, let's hurry.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_71">
-		<text>Be careful with the Burner, Marked One. My suit will protect me but you'd best avoid it.</text>
+		<text>Be careful with the Burner, Messer. My suit will protect me but you'd best avoid it.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_711">
 		<text>Thanks for your advice.</text>
 	</string>
 	<string id="bar_ecolog_crush_professor_start_91">
-		<text>Hurry, Marked One. Now is not the time to talk.</text>
+		<text>Hurry, Messer. Now is not the time to talk.</text>
 	</string>
 	<string id="bar_ecolog_dialog_11">
 		<text>Stalker, talk to professor Kruglov, help him get out.</text>
@@ -4564,28 +4563,28 @@
         <text>«Псы» - это моя гордость, отряд Свободы, для особых операций. Идут за мной в огонь и в воду, за нами только трупы и руины остаются. Каждого бойца лично отбирал. Если ты хочешь к нам податься, то сильно постараться придётся. Я кого попало в отряд не беру, только лучших из лучших.</text>
     </string>
     <string id="bar_svoboda_volkodav_info_dp_1311">
-        <text>Ясно.</text>
+        <text>I understand.</text>
     </string>
     <string id="bar_svoboda_volkodav_info_dp_14">
-        <text>Я передумал.</text>
+        <text>I changed my mind.</text>
     </string>
 	<string id="ros_bandit_stranger_11">
-        <text>Мужик, помоги, а?! Тут такое дело, в общем, мы нашли гору артефактов разных, а унести не можем. А у тебя, я гляжу, рюкзак есть. Давай, ты нам поможешь донести артефакты до нужного места, а мы тебе на выбор любой артефакт отдадим. Идёт?</text>
+        <text>Help us out here, dude! We found a mountain of different artifacts, but we can't carry them. And I see you have a back pack. Come on, help us bring the artifacts to where we need 'em, and we'll give you any of them as a reward. Cool?</text>
     </string>
 	<string id="ros_bandit_stranger_21">
-        <text>Артефакты там, где я отметил тебе на карте.</text>
+        <text>The artifacts are on your map marker.</text>
     </string>
 	<string id="ros_bandit_stranger_111">
-        <text>Хорошо, я согласен. Куда идти?</text>
+        <text>Okay, I'll do it. Where do I go?</text>
     </string>
 	<string id="ros_bandit_stranger_1111">
-        <text>Отлично, я тебе отметил на карте.</text>
+        <text>Great. I've marked it on your map.</text>
     </string>
 	<string id="ros_bandit_stranger_112">
-        <text>Нет, не сейчас.</text>
+        <text>No, not now.</text>
     </string>
 	<string id="ros_bandit_stranger_1121">
-        <text>Надумаешь, подходи.</text>
+        <text>If you change your mind, come back.</text>
     </string>
 
 </string_table>

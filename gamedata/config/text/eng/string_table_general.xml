@@ -5,7 +5,6 @@
 		<text>PDA</text>
 	</string>
 
-
 	<string id="ui_mm_gamma1">
 		<text>Standard</text>
 	</string>
@@ -263,7 +262,7 @@ So, road's explored, plan's ready, supplies are collected, guns are shined. Than
 
 
         <string id="rostok_znakomoe_mesto">
-		<text>Hmm, this place seems familiar..</text>
+		<text>Hmm, this place seems familiar...</text>
 	</string>
 
 
@@ -273,7 +272,7 @@ So, road's explored, plan's ready, supplies are collected, guns are shined. Than
 
 
         <string id="st_boloto_sos">
-		<text>SOS signal: Somebody help! I'm in a hut in the swamp..</text>
+		<text>SOS signal: Somebody help! I'm in a hut in the swamp...</text>
 	</string>
 
 
@@ -1198,7 +1197,7 @@ April 16, 2008. 13-40</text>
 		<text>Are you that... Monolith guy? I hea... rd... the colonel called you...</text>
 	</string>
 	<string id="aes_sergeant_diallog_1005">
-		<text>If I were one of them, you wouldn't be speaking anymore... I'm the Marked One. Stalker. And you... Who the hell are you?</text>
+		<text>If I were one of them, you wouldn't be speaking anymore... I'm Messer. Stalker. And you... Who the hell are you?</text>
 	</string>
 	<string id="aes_sergeant_diallog_1006">
 		<text>I'm... Sergeant... Vasil "the Unlucky"...</text>

@@ -169,7 +169,6 @@
 
 
 
-
 <dialog id="karlik_quest_one">
 <dont_has_info>karlik_quest_one_start</dont_has_info>
 <phrase_list>
@@ -466,7 +465,7 @@
   <next>3</next> 
  </phrase> 
  <phrase id="3"> 
- <text>Great..</text> 
+ <text>Great...</text> 
  <give_info>monkey_gone_heaven</give_info>  
  </phrase> 
  </phrase_list> 

@@ -418,7 +418,7 @@ end
 
 
 --Фейк сообщения о выбросе - просто нервируем игрока
-function vubros_msg()
+function vubros_msg(time)
 	local blu_when = {
 	"in two minutes.",
 	"in just a moment.",

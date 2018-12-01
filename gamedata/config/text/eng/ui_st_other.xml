@@ -231,6 +231,9 @@
 	<string id="ui_st_load_game_confirm">
 		<text>Loading game will cause losing non-saved data. Proceed?</text>
 	</string>
+	<string id="ui_st_invalid_saved_game">
+		<text>SAVE CORRUPTED</text>
+	</string>
 	<string id="ui_mm_r2_tonemap">
 	    <text>Vision adaption</text>
     </string>

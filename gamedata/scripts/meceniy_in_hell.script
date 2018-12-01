@@ -68,7 +68,7 @@ local tabl_news = {
 	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Speak of the devil and he'll appear!!! Hahaha!\n",
 	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Uhhh... Sol-sol-soldier... K-k-k-iiiilll....\n",
 	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Zombies!!! They're everywhere!!! Kill them all!!!\n",
-	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Marked One!!! Bro!!! HELP!!!\n",
+	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]Messer!!! Bro!!! HELP!!!\n",
 	"%c[255,160,160,160]General Channel:\\n%c[255,255,128,128]PEOPLE!!! THERE'S ZOMBIES EVERYWHERE!!! HELP ME OUT BROTHERS!!!\n",
 	"%c[255,160,160,160]Sakharov:\\n%c[255,255,128,128]Zombies have surrounded the bunker. Kruglov, if you hear this, then don't go through the swamps. You'll know why...\n",
 	"%c[255,160,160,160]Petrenko:\\n%c[255,255,128,128]Men, this is another chance to prove that we are the BEST.. SMASH THIS EVIL...\n",
