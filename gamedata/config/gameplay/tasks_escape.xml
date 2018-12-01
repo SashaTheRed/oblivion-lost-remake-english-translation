@@ -169,7 +169,7 @@
 
 <objective>
 <text>Talk to Toad</text>
-<map_location_type hint="toaD">blue_location</map_location_type>
+<map_location_type hint="Toad">blue_location</map_location_type>
 <object_story_id>Escape_Trader</object_story_id>
 <infoportion_complete>kv_4_done</infoportion_complete> 
 </objective>
