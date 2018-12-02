@@ -679,19 +679,19 @@
 
 
    <string id="stader_dialog_0">
-     <text>What's wrong with me? My head is killing me.. where am I?</text>
+     <text>What's wrong with me? My head is killing me... Where am I?</text>
   </string>
    <string id="stader_dialog_1">
-     <text>Ah, you've waken up. Look around my boy, you're in the Zone! I see that you don't remember anything about who you are, or where you are.</text>
+     <text>Ah, you've woken up. Look around my boy, you're in the Zone! I see that you don't remember anything about who you are, or where you are.</text>
   </string>
    <string id="stader_dialog_2">
-     <text>No, I don't. Who you you?</text>
+     <text>No, I don't. Who are you?</text>
   </string>
    <string id="stader_dialog_3">
      <text>I am Toad, a local trader. Buying and selling is my trade. A stalker found you near the Death Truck and brought you to me. What's your name?</text>
   </string>
    <string id="stader_dialog_4">
-    <text>I don't.. remember. Was there anything with me?</text>
+    <text>I don't... remember. Was there anything with me?</text>
   </string>
    <string id="stader_dialog_5">
     <text>The only things you had on yourself was a PDA with a task of "Kill Strelok" written in it and a knife... Yeah, if you don't remember anything, then you probably don't know where you are either. You are in the Zone, my friend! Don't you remember anything? Well, I guess you will get used to things with time, now let's get to work. I saved you, so you must pay off your debt. You'll do some jobs for me, and once you're done, we're even. You have no choice. Without supplies you won't last a day here, and I am the boss of the only store in this area. For good work I will give you equipment, and maybe some useful information. Alright, let's go to work. First things first, you will go to the military checkpoint. You need to leave a decoy metal container there, near the barbed wire, and you need to pick up another one. I'll mark the spot on your PDA. Don't show yourself to the soldiers, unless if your childhood dream was being a living target. Feel up for it?</text>
@@ -812,7 +812,7 @@
  <text>You know, this PM isn't enough for the entirety of the Zone. Are there any other jobs you want me to do so I can earn better equipment?</text> 
  </string> 
  <string id="33_tader_3"> 
- <text>There is something..</text>  
+ <text>There is something...</text>  
  </string>
 
 
@@ -851,7 +851,7 @@
  <text>Are you the commander? What happened here?</text> 
  </string> 
  <string id="44_tader_1"> 
- <text>Agh.. damn.. how did that thing get here, stalker?</text> 
+ <text>Agh... damn... How did that thing get here, stalker?</text> 
  </string> 
  <string id="44_tader_2"> 
  <text>What "thing"?</text> 
@@ -888,7 +888,7 @@
  <text>I'm listening.</text> 
  </string> 
  <string id="55_tader_1"> 
- <text>This is a more complicated job. You will go to a house behind the bridge. There's a stalker there, and he owes me an artifact that he stole from me. You have to get the artifact from him in exchange for some bullets I'm going to give you. That stalker rubs me off as.. odd. He stares out into the distance a lot. You should be careful about what you say to him - if he drags you into trouble, no one will save you this time. I don't need any more grief, so, like I said, be careful with him.</text> 
+ <text>This is a more complicated job. You will go to a house behind the bridge. There's a stalker there, and he owes me an artifact that he stole from me. You have to get the artifact from him in exchange for some bullets I'm going to give you. That stalker rubs me off as... odd. He stares out into the distance a lot. You should be careful about what you say to him - if he drags you into trouble, no one will save you this time. I don't need any more grief, so, like I said, be careful with him.</text> 
  </string> 
  <string id="55_tader_2"> 
  <text>Alright, I'm leaving. I'll go see him.</text> 
@@ -969,13 +969,13 @@
 <text>Hey, I found some kind of suitcase from MedPribor.</text>
 </string>
 <string id="6_propusk_1">
-<text>You've found the documents. Let me review them for a minute.. hmm, this says this is the first part; the second is at the blockpost here in the Cordon.</text>
+<text>You've found the documents. Let me review them for a minute... Hmm, this says this is the first part; the second is at the outpost here in the Cordon.</text>
 </string>
 <string id="6_propusk_2">
 <text>What do you suggest?</text>
 </string>
 <string id="6_propusk_3">
-<text>You haven't figured it out? You have to steal a second suitcase from the blockpost station that leads into the Cordon. I suggest you wait until night, when most of the soldiers are asleep. The case should be with the commanding officer. I want you to do this carefully - do not make any noise and or confusion, because I will put my foot up your ass if you do. I don't want any trouble with the army.</text>
+<text>You haven't figured it out? You have to steal a second suitcase from the outpost that leads into the Cordon. I suggest you wait until night, when most of the soldiers are asleep. The case should be with the commanding officer. I want you to do this carefully - do not make any noise and or confusion, because I will put my foot up your ass if you do. I don't want any trouble with the army.</text>
 </string>
 
 
@@ -999,7 +999,7 @@
 <text>Here, take this suitcase.</text>
 </string>
 <string id="77_propusk_1">
-<text>Perfect! It's all starting to come together. The army is clearly looking for something here.. yeah, they've collected a lot of scientific papers and maps. I think you have to show these documents to Barkeep.</text>
+<text>Perfect! It's all starting to come together. The army is clearly looking for something here... Yeah, they've collected a lot of scientific papers and maps. I think you have to show these documents to Barkeep.</text>
 </string>
 <string id="77_propusk_2">
 <text>'Barkeep'? Where can I find him?</text>
@@ -1136,7 +1136,7 @@
 		<text>Let's go. Round up your men.</text>
 	</string>
 	<string id="escape_factory_assault_start_311111">
-		<text>No, we do not risk their asses, and we never will. Just don't think we're afraid. We're not afraid of anything. Well, maybe sometimes.. perhaps it won't go well Okay, we are afraid of how hellish this fight is going to be. Would you be afraid to take on the bandits? You know, if you on rely on vodka for courage, please share some.</text>
+		<text>No, we do not risk their asses, and we never will. Just don't think we're afraid. We're not afraid of anything. Well, maybe sometimes... Perhaps it won't go well. Okay, we are afraid of how hellish this fight is going to be. Would you be afraid to take on the bandits? You know, if you on rely on vodka for courage, please share some.</text>
 	</string>
 	<string id="escape_factory_assault_start_3111111">
 		<text>Keep the bottle. And be ready to attack at any moment!</text>
@@ -1307,13 +1307,13 @@
 		<text>What the?! Who are you? Are you alive?</text>
 	</string>
 	<string id="escape_lager_leader_hello_1111">
-		<text>'Alive'.. heh. I don't know what to tell you. I can't tell if this is the Zone, or the afterlife.</text>
+		<text>'Alive'... Heh. I don't know what to tell you. I can't tell if this is the Zone or the afterlife.</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111">
 		<text>What happened to you?</text>
 	</string>
 	<string id="escape_lager_leader_hello_111111">
-		<text>I only remember a bright flash.. It happened about two, maybe three months ago. Perhaps even more. I woke up in the Doctor's shack in the swamps. I was with him for two weeks. He said I was caught by a powerful blowout, and I was miraculously saved by something, or someone. Now I'm hiding here. There are very few people here; ordinary stalkers seldom look in here, and besides a few dogs, there’s nothing here except... There was a good man here in the city: Journalist. I visited him a couple of times. He was looking for something here; he carried some documents on him.</text>
+		<text>I only remember a bright flash... It happened about two, maybe three months ago. Perhaps even more. I woke up in the Doctor's shack in the swamps. I was with him for two weeks. He said I was caught by a powerful blowout, and I was miraculously saved by something, or someone. Now I'm hiding here. There are very few people here; ordinary stalkers seldom look in here, and besides a few dogs, there’s nothing here except... There was a good man here in the city: Journalist. I visited him a couple of times. He was looking for something here; he carried some documents on him.</text>
 	</string>
 	<string id="escape_lager_leader_hello_1111111">
 		<text>Can you tell me more about Doctor?</text>
@@ -1328,7 +1328,7 @@
 		<text>Bye.</text>
 	</string>
 	<string id="escape_lager_leader_hello_11111121">
-		<text>That’s sad. Well, come back sometime..</text>
+		<text>That’s sad. Well, come back sometime...</text>
 	</string>
 	<string id="escape_lager_leader_hello_21">
 		<text>Well?</text>
@@ -1466,7 +1466,7 @@
 		<text>We went over the car park with a fine-toothed comb. It's all clear now.</text>
 	</string>
 	<string id="escape_lager_volk_talk_2121">
-		<text>Wow! My men tell me you gave them a real beating! Here, take this money.. Just a memento, not counting our huge gratitude. Plus, I got something else for you here...</text>
+		<text>Wow! My men tell me you gave them a real beating! Here, take this money... Just a memento, not counting our huge gratitude. Plus, I got something else for you here...</text>
 	</string>
 	<string id="escape_lager_volk_talk_21211">
 		<text>Hey.</text>
@@ -1600,22 +1600,22 @@
 		<text>Go on.</text>
 	</string>
 	<string id="escape_trader_jobs_511">
-		<text>Sneak into the outpost quietly and "recover" the box. Do that and I'll pay you anything...within reason. Will you do it?</text>
+		<text>Sneak into the outpost quietly and "recover" the box. Do that and I'll pay you anything... within reason. Will you do it?</text>
 	</string>
 	<string id="escape_trader_jobs_5111">
 		<text>I'll try.</text>
 	</string>
 	<string id="escape_trader_jobs_51111">
-		<text>I'll get the cash ready - you haven't let me down once. Just one other thing... keep it low profile. If the military gets pissed off we're all in for a lot of trouble..</text>
+		<text>I'll get the cash ready - you haven't let me down once. Just one other thing... keep it low profile. If the military gets pissed off we're all in for a lot of trouble...</text>
 	</string>
 	<string id="escape_trader_jobs_52">
 		<text>No, I can't take it on yet.</text>
 	</string>
 	<string id="escape_trader_jobs_521">
-		<text>C'mon man, it's not as bad as it sounds. A bunch of drunk recruits green as grass with a single NCO...Well, OK, but I was really counting on you, Marked One...</text>
+		<text>C'mon man, it's not as bad as it sounds. A bunch of drunk recruits green as grass with a single NCO... Well, OK, but I was really counting on you, Messer...</text>
 	</string>
 	<string id="escape_trader_jobs_6">
-		<text>Listen, Marked One... I've done some thinking, and here's what I'd like to offer... Generally speaking, what you really need is to find Strelok. Right?</text>
+		<text>Listen, Messer... I've done some thinking, and here's what I'd like to offer... Generally speaking, what you really need is to find Strelok. Right?</text>
 	</string>
 	<string id="escape_trader_jobs_61">
 		<text>Let's assume I do.</text>
@@ -1693,13 +1693,13 @@
 		<text>Is that it?</text>
 	</string>
 	<string id="escape_trader_start_dialog_171">
-		<text>Hey Marked One, what's up?</text>
+		<text>Hey, Messer. What's up?</text>
 	</string>
 	<string id="escape_trader_start_dialog_181">
 		<text>Messer, the hell are you doing there! I said run to the wagon!</text>
 	</string>
 	<string id="escape_trader_start_dialog_1811">
-		<text>Here, the artifact </text>
+		<text>Here, the artifact.</text>
 	</string>
 	<string id="escape_trader_start_dialog_18111">
 		<text>Messer, next time listen to my messages! Thanks for the artifact, but now quick, go help the wounded!</text>
@@ -1828,97 +1828,97 @@
         <text>Меченый, я ещё с флешкой не разобрался, иди, погуляй. Как только пойму, что к чему, я тебя позову.</text>
     </string>
 	<string id="escape_trader_start_dialog_3">
-		<text>Значит, выбирай, как мы с тобой поступим: либо я тебе сейчас мозги буду парить, как обычно всем новичкам делаю, либо, как с опытным сталкером - получаешь задание, и вперёд.</text>
+		<text>The choice is yours. Either I brainwash you like I usually do with all the rookies or I treat you like a real stalker and give you a mission straight away.</text>
 	</string>
 	<string id="escape_trader_start_dialog_300">
-		<text>Привет, Меченый. Тут как раз есть дельце одно для тебя.</text>
+		<text>Hey, Messer! Good timing, I've got a little job for you.</text>
 	</string>
 	<string id="escape_trader_start_dialog_31">
-		<text>Давай как с новичком. Нихрена не помню.</text>
+		<text>Treat me like a rookie, I don't remember shit.</text>
 	</string>
 	<string id="escape_trader_start_dialog_32">
-		<text>Давай как с опытным, мне ещё не совсем память отшибло.</text>
+		<text>Just give me a mission.</text>
 	</string>
 	<string id="escape_trader_start_dialog_151">
-		<text>Твоё первое задание: \n Тут рядом - поле аномалий "Мясорубка". Артефакт в его центре. Местные новички из лагеря за ним лезть бояться. Вот он и валяется там уже неделю. А у тебя на морде написано, что ты не новичок, хоть и не помнишь нихрена. Так что, даже с отшибленными мозгами ты его добудешь. \nВсё. За работу. Координаты места задания я скинул на твой КПК вместе с информацией по мясорубке и её артефактам... Да, кстати, в лагерь тебя пускать не хотят. Не доверяют они тебе, да и я, в общем-то, тоже. Посмотрим, какой ты в деле. Если с головой у тебя всё в порядке, то замолвлю за тебя словечко. А пока даже и не пытайся зайти в лагерь - пристрелят!</text>
+		<text>Your first task is this: \n There is a Whirligig anomaly field close by. There is an artifact in its center. The local rookies from the camp are afraid of going around there. It appeared about a week ago. And I can see on your face that you're not a rookie, even if you don't remember anything. I think that even with battered brains, you can do it. \nOkay, let's get to work. I've sent the area coordinates to your PDA along with information on the Whirligig anomaly and its artifacts... And, by the way, you won't be let into the camp. They don't trust you, and to be frank, neither do I. Let's see how you do with a real job. If your head's still right, I'll put in a word for you. But until then, don't even try getting into the camp - they'll shoot you!</text>
 	</string>
 	<string id="escape_trader_start_dialog_321">
-		<text>О! Это по-нашему. Значит, слушай: \n Тут рядом - поле аномалий "Мясорубка". Артефакт в его центре. Местные новички из лагеря за ним лезть бояться. Вот он и валяется там уже неделю. А у тебя на морде написано, что ты не новичок, хоть и не помнишь нихрена. Так что, даже с отшибленными мозгами ты его добудешь. \nВсё. За работу. Координаты места задания я скинул на твой КПК вместе с информацией по мясорубке и её артефактам... Да, кстати, в лагерь тебя пускать не хотят. Не доверяют они тебе, да и я, в общем-то, тоже. Посмотрим, какой ты в деле. Если с головой у тебя всё в порядке, то замолвлю за тебя словечко. А пока даже и не пытайся зайти в лагерь - пристрелят!</text>
+		<text>Now that's what I like to hear! So, listen: \n There is a Whirligig anomaly field close by. There is an artifact in its center. The local rookies from the camp are afraid of going around there. It appeared about a week ago. And I can see on your face that you're not a rookie, even if you don't remember anything. I think that even with battered brains, you can do it. \nOkay, let's get to work. I've sent the area coordinates to your PDA along with information on the Whirligig anomaly and its artifacts... And, by the way, you won't be let into the camp. They don't trust you, and to be frank, neither do I. Let's see how you do with a real job. If your head's still right, I'll put in a word for you. But until then, don't even try getting into the camp - they'll shoot you!</text>
 	</string>
 	<string id="escape_trader_start_dialog_3211">
-		<text>Договорились. Что-нибудь ещё?</text>
+		<text>Go on.</text>
 	</string>
 	<string id="escape_trader_start_dialog_32111">
-		<text>Да всё пока. Принесёшь мне артефакт, и будем считать, что частично за своё спасение ты расплатился. \nХотя, стой. Возьми этот детектор, он поможет тебе достать артефакт. Но потом вернёшь.</text>
+		<text>That's all for now. Bring me the flash drive and we'll consider the fact that you've partially paid me for saving you.\nActually, wait a second. Take this detector. It'll help you find any anomalies. But you'll return it later.</text>
 	</string>
 	<string id="escape_trader_start_dialog_321111">
-		<text>Хорошо, жди.</text>
+		<text>OK, I'll try.</text>
 	</string>
 	<string id="escape_trader_start_dialog_4">
-		<text>Здарова, Меченый. Рад видеть тебя живым.</text>
+		<text>Hey, Messer. Glad to see you alive.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5">
-		<text>Приветствую Меченого! Как успехи?</text>
+		<text>Greetings, Messer! Did you manage?</text>
 	</string>
 	<string id="escape_trader_start_dialog_51">
-		<text>Задание выполнил. Вот артефакт.</text>
+		<text>Task complete. Here's the artifact.</text>
 	</string>
 	<string id="escape_trader_start_dialog_511">
-		<text>Отлично, Меченый. Ещё одна мелкая услуга - и мы с тобой в расчёте.</text>
+		<text>Great, Messer. One more little favor and we're even.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5111">
-		<text>Какая услуга?</text>
+		<text>What favor?</text>
 	</string>
 	<string id="escape_trader_start_dialog_52">
-		<text>Ситуация прояснилась.</text>
+		<text>The situation has become clear.</text>
 	</string>
 	<string id="escape_trader_start_dialog_52111">
-		<text>Флешка-то с информацией где?</text>
+		<text>Where's the flash drive with the info?</text>
 	</string>
 	<string id="escape_trader_start_dialog_521111">
-		<text>Вот она.</text>
+		<text>Here it is.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5211111">
-		<text>Отлично.</text>
+		<text>Great.</text>
 	</string>
 	<string id="escape_trader_start_dialog_521112">
-		<text>Нет у меня её.</text>
+		<text>I don't have it.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5211121">
-		<text>Это жаль, Меченый. Это очень даже жаль. Учти, пока ты мне её не принесешь, серьёзного разговора не будет...</text>
+		<text>That's a pity, Messer, a real pity. We can't talk business until you bring it to me...</text>
 	</string>
 	<string id="escape_trader_start_dialog_521211">
-		<text>Вот она, держи.</text>
+		<text>Here, take it.</text>
 	</string>
 	<string id="escape_trader_start_dialog_5212111">
-		<text>Хорошо... Будем считать, что проверку ты прошёл. В лагерь новичков заявляться не рекомендую.</text>
+		<text>Good... We'll consider that you passed the test. I'd suggest you avoid going to the rookie camp.</text>
 	</string>
 	<string id="escape_trader_start_dialog_56">
-		<text>Пока никак.</text>
+		<text>Nothing yet.</text>
 	</string>
 	<string id="escape_trader_start_dialog_571">
-		<text>Ну что, принёс артефакт?</text>
+		<text>So, did you bring the artifact?</text>
 	</string>
 	<string id="escape_trader_start_dialog_5711">
-		<text>Нет пока.</text>
+		<text>Not yet.</text>
 	</string>
 	<string id="escape_trader_start_dialog_57111">
-		<text>Значит, пока не принесёшь, говорить нам не о чем. Уяснил?</text>
+		<text>Well, until you bring it, we've got nothing to talk about. Got it?</text>
 	</string>
 	<string id="escape_trader_start_dialog_6">
-		<text>Меченый, я тебе уже всё рассказал. Чеши отсюда!</text>
+		<text>Messer, I've told you everything already. Get outta here!</text>
 	</string>
 	<string id="escape_trader_start_dialog_661">
-		<text>Ну, Меченый, что новенького расскажешь?</text>
+		<text>So Messer, any news?</text>
 	</string>
     <string id="escape_trader_start_dialog_161">
-        <text>Меченый, я тебе уже всё сказал, дуй на задание!</text>
+        <text>Messer, I've already told you everything! Get to work!</text>
     </string>
     <string id="escape_trader_start_dialog_162">
-        <text>Меченый, вали на задание, не теряй время!</text>
+        <text>Messer, carry out your job! Stop wasting time!</text>
     </string>
     <string id="escape_trader_start_dialog_163">
-        <text>Меченый, ты, часом, не зомбирован? Какой-то ты странный, ей богу! Я же тебе сказал: "Дуй искать артефакт!".</text>
+        <text>Messer, you're not a zombie, are you? You're weird, that's for sure! I told you already: "Get to work!"</text>
     </string>
 	<string id="escape_trader_talk_info_0">
 		<text>I want to ask some questions.</text>
@@ -2066,7 +2066,7 @@
 		<text>What the hell happened? Are you bored of being alive?! Why did you guys start shooting at that chopper?</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_2111">
-		<text>A group of helicopters were coming back from a job... We thought that they were after us. So we started shooting at it. Who could've known, that it was simply flying back to base? Although... It didn't appear from the right side of the blockpost.... \nAnd those damn soldiers, with their own "payments" to stay in the zone. They took out the last ones, assholes.</text>
+		<text>A group of helicopters were coming back from a job... We thought that they were after us. So we started shooting at it. Who could've known, that it was simply flying back to base? Although... It didn't appear from the right side of the blockpost... \nAnd those damn soldiers, with their own "payments" to stay in the zone. They took out the last ones, assholes.</text>
 	</string>
 	<string id="tutorial_wounded_give_medkit_21111">
 		<text>No way! What kind of mission would require to send a helicopter to pursue? And what did the soldiers took away?</text>

@@ -565,7 +565,7 @@
 		<text>We'll wait. But not for long.</text>
 	</string>
 	<string id="mil_dolg_skull_dialog_200">
-		<text>Thanks for your help, Marked One. Here is your reward.</text>
+		<text>Thanks for your help, Messer. Here is your reward.</text>
 	</string>
 	<string id="mil_dolg_skull_dialog_201">
 		<text>Thank you.</text>
@@ -637,7 +637,7 @@
 		<text>There we go, great.</text>
 	</string>
 	<string id="mil_dolg_skull_dialog_601">
-		<text>Don't interfere, Marked One.</text>
+		<text>Don't interfere, Messer.</text>
 	</string>
 	<string id="mil_dolg_skull_dialog_602">
 		<text>OK.</text>
@@ -739,10 +739,10 @@
 		<text>Thank you.</text>
 	</string>
 	<string id="mil_freedom_commander_3003">
-		<text>Good luck, Marked One!</text>
+		<text>Good luck, Messer!</text>
 	</string>
 	<string id="mil_freedom_commander_4001">
-		<text>Hey, Marked One! Did Lukash send you?</text>
+		<text>Hey, Messer! Did Lukash send you?</text>
 	</string>
 	<string id="mil_freedom_commander_4002">
 		<text>Yes. He asked me to help you.</text>
@@ -757,7 +757,7 @@
 		<text>Thank you.</text>
 	</string>
 	<string id="mil_freedom_commander_5003">
-		<text>Good luck, Marked One.</text>
+		<text>Good luck, Messer.</text>
 	</string>
 	<string id="mil_freedom_commander_common2_0">
 		<text>Hi. Who are you?</text>
@@ -1030,7 +1030,7 @@
 		<text>Got it.</text>
 	</string>
 	<string id="mil_leader_start_dialog_16001">
-		<text>Какого хрена! Что у вас там произошло?! Ты, случаем, не долговский шпион?! Значит так, ты один пойдёшь на хутор и разберёшься с долговцами, иначе я разберусь с тобой!</text>
+		<text>Damn it! What happened there?! Are you a Duty spy or something?! I'm sending you to the farm alone to deal with the Duty boys, or I'll deal with you!</text>
 	</string>
 	<string id="mil_leader_start_dialog_2001">
 		<text>I told you to go talk to Max.</text>
@@ -1039,7 +1039,7 @@
 		<text>So, the assignment is complete... Good, good. I've got another one for you!</text>
 	</string>
 	<string id="mil_leader_start_dialog_30011">
-		<text>Значит, ты не долговский шпион. Гм... Да и в одиночку всех положил! Интересно... Значит, на тебя можно положиться. В таком случае у меня для тебя есть работа.</text>
+		<text>So you're not a Duty spy. Hm... And you took out them all by yourself! Interesting... That means I can rely on you. In that case, I've got some work for you.</text>
 	</string>
 	<string id="mil_leader_start_dialog_3002">
 		<text>Hrm... What is it?</text>
@@ -1054,7 +1054,7 @@
 		<text>You're still here?</text>
 	</string>
 	<string id="mil_leader_start_dialog_5001">
-		<text>Great job, Marked One! Here, take this... your payment for taking care of the snitch. From now on, you are a member of the Freedom faction. Congratulations. You can to rest on our territory whenever you want and you can also count on our help. \nI suggest you go stock up on ammo in the armory below. There's one more business I'd like you to do for me. Are you not too tired?</text>
+		<text>Great job, Messer! Here, take this... your payment for taking care of the snitch. From now on, you are a member of the Freedom faction. Congratulations. You can to rest on our territory whenever you want and you can also count on our help. \nI suggest you go stock up on ammo in the armory below. There's one more business I'd like you to do for me. Are you not too tired?</text>
 	</string>
 	<string id="mil_leader_start_dialog_5002">
 		<text>What exactly?</text>
@@ -1063,10 +1063,10 @@
 		<text>If you feel up to it, go to the outpost near the Red Forest exit. We've had reports claiming that either mutants or Monolith are planning a new attempt to break through there. The guys need help.</text>
 	</string>
 	<string id="mil_leader_start_dialog_5004">
-		<text>Great job, Marked One! Here, take this... your payment for taking care of the snitch. From now on, you are a member of the Freedom faction. Congratulations. You can to rest on our territory whenever you want and you can also count on our help. \nYou did help the guys at the Barrier, so - relax. You can come into the base whenever you want, stock up on ammo in the armory below and chill.</text>
+		<text>Great job, Messer! Here, take this... your payment for taking care of the snitch. From now on, you are a member of the Freedom faction. Congratulations. You can to rest on our territory whenever you want and you can also count on our help. \nYou did help the guys at the Barrier, so - relax. You can come into the base whenever you want, stock up on ammo in the armory below and chill.</text>
 	</string>
 	<string id="mil_leader_start_dialog_5005">
-		<text>Great job, Marked One! Here, take this... your payment for taking care of the snitch. From now on, you are a member of the Freedom faction. Congratulations. You can to rest on our territory whenever you want and you can also count on our help. \nRight now, I suggest you go stock up on ammo in the armory below.</text>
+		<text>Great job, Messer! Here, take this... your payment for taking care of the snitch. From now on, you are a member of the Freedom faction. Congratulations. You can to rest on our territory whenever you want and you can also count on our help. \nRight now, I suggest you go stock up on ammo in the armory below.</text>
 	</string>
 	<string id="mil_leader_start_dialog_6001">
 		<text>Relax. There's no work right now.</text>
@@ -1237,10 +1237,10 @@
 		<text>Good luck, then. Don't forget - there's an old minefield, but with the help of a few good old bolts you can go around any mine.</text>
 	</string>
 	<string id="mil_max_dialog_4008">
-        <text>А сам чего не сходишь?</text>
+        <text>Why don't you go there yourself?</text>
     </string>
     <string id="mil_max_dialog_4009">
-        <text>Лукаш запретил к нему соваться - людей и так мало.</text>
+        <text>Not enough manpower. And Lukash told us to stay away from there.</text>
     </string>
 	<string id="mil_max_dialog_5001">
 		<text>So, what did you learn? What happened to that psycho?</text>
@@ -1273,55 +1273,55 @@
 		<text>OK.</text>
 	</string>
     <string id="mil_max_dialog_common1_0">
-        <text>Расскажи мне о деревне.</text>
+        <text>Tell me about the village.</text>
     </string>
     <string id="mil_max_dialog_common1_1">
-        <text>Деревня? Мерзкое место. Раньше там водились кабаны, собаки, плоти, в общем - всякая мелюзга. Мы туда за артефактами ходили. Сейчас мало кто знает, что там творится. Откуда-то пролезли кровососы, это точно известно, по ночам там вообще находиться противопоказано. Последняя наша экспедиция туда погибла в полном составе, за исключением одного парня, у которого полностью сорвало крышу.</text>
+        <text>The village? It's a terrible place. Previously, you could see boars, dogs, flesh there - all kinds of mutated creatures. We went there to look for artifacts. And now hardly anyone knows what's going on there. Almost no one goes there. Bloodsuckers started showing up from somewhere, not only at night but also during daytime. It's scary to go there. Our entire last expedition died there, except for one guy who went completely nuts.</text>
     </string>
     <string id="mil_max_dialog_common2_0">
-        <text>Что тут за местность?</text>
+        <text>What kind of place is that?</text>
     </string>
     <string id="mil_max_dialog_common2_1">
-        <text>Да всего понемногу. Деревня заброшенная, болото, поле артефактов... А что тебя интересует?</text>
+        <text>It's got a little bit of everything. A ruined village, a swamp, artifact fields... And what interests you?</text>
     </string>
     <string id="mil_max_dialog_common2_100">
-        <text>Ну, ты же сам видел.</text>
+        <text>Well, you've seen it.</text>
     </string>
     <string id="mil_max_dialog_common2_2">
-        <text>Что за деревня?</text>
+        <text>What kind of village?</text>
     </string>
     <string id="mil_max_dialog_common2_3">
-        <text>Деревня? Мерзкое место. Раньше там водились кабаны, собаки, плоти, в общем - всякая мелюзга. Мы туда за артефактами ходили. Сейчас мало кто знает, что там творится. Откуда-то пролезли кровососы, это точно известно, по ночам там вообще находиться противопоказано. Последняя наша экспедиция туда погибла в полном составе, за исключением одного парня, у которого полностью сорвало крышу.</text>
+        <text>The village? It's a terrible place. Previously, you could see boars, dogs, flesh there - all kinds of mutated creatures. We went there to look for artifacts. And now hardly anyone knows what's going on there. Almost no one goes there. Bloodsuckers started showing up from somewhere, not only at night but also during daytime. It's scary to go there. Our entire last expedition died there, except for one guy who went completely nuts.</text>
     </string>
     <string id="mil_max_dialog_common2_4">
-        <text>Болото? И что там?</text>
+        <text>Swamp? What swamp?</text>
     </string>
     <string id="mil_max_dialog_common2_5">
-        <text>Когда-то было озером, рыба там водилась, а сейчас в болото превратилось. Радиация там неслабая, никакая защита не помогает. Последний, кто туда совался, помер в мучениях, такую дозу схлопотал.</text>
+        <text>It used to be a lake. There were fish there, but now it's turned into an overgrown swamp. The radiation there is so strong that no amount of protection helps. The last guy who went there died in agony. His radiation dose was huge.</text>
     </string>
     <string id="mil_max_dialog_common2_6">
-        <text>А чего он попёр на болото?</text>
+        <text>Why did he go to the swamp?</text>
     </string>
     <string id="mil_max_dialog_common2_7">
-        <text>Да сидит там браток один, совершенно без башни. Выжил в деревне ночью, вот крыша и сорвалась. Он каким-то чудом туда прошёл, там вояки когда-то заминировали всё, а он как-то прошёл к домику на болоте и сидит там - отстреливает всех, кто смеет приближаться.</text>
+        <text>There's this guy hiding there who's completely crazy. He survived a night in the village and lashed out. I don't know what he saw there. By some miracle, he managed to pass through the minefield that the military set up a while ago. He somehow got to the shack in the swamp, and he's been hiding there since - he fires at anyone who gets too close.</text>
     </string>
     <string id="mil_max_dialog_common2_8">
-        <text>Артефакты? Интересно. Это где?</text>
+        <text>Artifacts? Interesting. Where?</text>
     </string>
     <string id="mil_max_dialog_common2_80">
-        <text>На северо-западе от базы, в деревне. Но не советую туда соваться, там появились кровососы. Могут попробовать тебя на обед.</text>
+        <text>To the northwest of the base in the village. It's a dangerous place, though, so don't go there if you value your life. Bloodsuckers started showing up around there recently. They'll happily make dinner out of you..</text>
     </string>
     <string id="mil_max_dialog_common2_9">
-        <text>А куда дороги ведут?</text>
+        <text>What about this road?</text>
     </string>
     <string id="mil_max_dialog_common2_90">
-        <text>Отсюда можно на "Росток" попасть, да ты, наверное, оттуда и пришёл. К северу выход на Радар, но туда мало кто ходит - никто не хочет закончить свою жизнь в качестве растения. Неподалёку дорога, раньше вела в Светлый луч – базу наёмников, но после очередного выброса, дорогу завалило, теперь туда не пройти. Перед выходом остался пост наёмников, стреляют, кого ни увидят, там есть чем поживиться.</text>
+        <text>From here, you can get to Rostok, although that's probably where you came from in the first place. To the north, the road leads to the Radar, but few people ever go there. No one wants to spend the rest of their life as a shell of a man. The road nearby used to lead to Shining Path, the mercenary base, but after the last blowout, the road was blocked and there's no way through. Mercenaries have lined up around the entrance, and they shoot anyone who goes near.</text>
     </string>
     <string id="mil_max_dialog_common3_0">
-        <text>А где тут можно патроны купить или ствол?</text>
+        <text>Where I can buy weapons and ammo?</text>
     </string>
     <string id="mil_max_dialog_common3_1">
-        <text>В главном здании, на первом этаже, слева сидит Скряга. Он у нас занимается всей торговлей. Можешь ему также и артефакты предложить.</text>
+        <text>In the main building on the first floor. You'll find Skinflint to the left. He does all the trading. He also buys artifacts, if you want to make some money.</text>
     </string>
 	<string id="mil_patrol_dialog1_0">
 		<text>Man, you're in the Freedom base! Relax, make yourself at home!</text>
@@ -1645,7 +1645,7 @@
 		<text>OK, you can go.</text>
 	</string>
 	<string id="mil_zoneguard_dialog_2">
-		<text>Как дела?</text>
+		<text>What's up?</text>
 	</string>
 	<string id="mil_zoneguard_dialog_20">
 		<text>So-so. Keep out, don't bother me.</text>

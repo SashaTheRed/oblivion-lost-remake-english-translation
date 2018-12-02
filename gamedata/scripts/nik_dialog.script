@@ -1,0 +1,2340 @@
+local math_random = math.random
+
+
+local items_count=0
+local itemin=nil
+
+function item_much(itm,need_namber)
+local actor=db.actor
+items_count=0
+itemin=itm
+actor:iterate_inventory(cheking_item,actor)
+	if items_count>=need_namber then
+		return true
+	else
+		return false
+	end
+end	
+function cheking_item(actor,item)
+local items=item:section()
+	if items==itemin then
+		items_count=items_count+1
+	end
+end
+function create_items(npc,section,number)
+        for i=1,number do
+			alife():create(section, 
+            npc:position(),
+            npc:level_vertex_id(),  
+            npc:game_vertex_id(),
+            npc:id())
+        end 
+end
+
+local reloc_params={}
+local stalk
+
+function out_item_much(itm_section,need_number)
+	reloc_params.itm_section=itm_section
+	reloc_params.itm_cnt=need_number
+	reloc_params.itm_cnt_found=0
+	db.actor:iterate_inventory(checkout_items_count,db.actor)
+	reloc_params.itm_cnt_found=0
+	if reloc_params.itm_cnt_found<=reloc_params.itm_cnt then
+		db.actor:iterate_inventory(out_items_count,db.actor)
+	end
+	news_manager.relocate_item(db.actor, "out", itm_section)
+	reloc_params={}
+end
+
+function checkout_items_count(actor,item)
+	if item.section and item:section()==reloc_params.itm_section then
+		reloc_params.itm_cnt_found = reloc_params.itm_cnt_found + 1
+	end
+end
+function out_items_count(actor,item)
+	if item.section and item:section()==reloc_params.itm_section and reloc_params.itm_cnt_found<reloc_params.itm_cnt then
+		amk.remove_item_from_inventory(item, actor)
+		reloc_params.itm_cnt_found = reloc_params.itm_cnt_found + 1
+	end
+end
+
+--------------------------------------------- OLR 2 -------------------------------------------local snd_obj = xr_sound.get_safe_sound_object ([[characters_voice\scenario\bar\dolg_voronin\dolg_voronin\duty_voronin_6]])  
+
+function lesnik1_hello()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\zver]])                                                                    
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+function zver()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\zver]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function death_lodyr()
+local snd_obj = xr_sound.get_safe_sound_object ([[ambient\random\rnd_scr9]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function death_lodyr2()
+local snd_obj = xr_sound.get_safe_sound_object ([[ambient\random\rnd_scr5]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function ruki()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\ruki]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function ruki2()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\ruki2]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function ak_muzon()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\ak203]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function v_put()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\v_put]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function kosty_v_put()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\kostya]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function aver_kruglov_musik()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\kruglov_musik]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+--------------------------------------------- OLR 2 ----------------------------------------------------------
+
+
+--' проверим наличие финансов
+function lesnik1_doki_x18_100000(actor,npc)
+    return actor:money() > 100000
+end
+
+--' нож Доктора
+function doktor_nozhi_dal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_nifen","in")
+end
+
+function sahar_shpriz_dal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "shpriz","in")
+end
+
+--' отдадим деньги леснику за доки х-18
+function lesnik1_give_doki_x18_100000(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,100000,"out")
+end
+
+
+--' проверим наличие финансов для Воронина
+function voronin_babki_proverit(actor,npc)
+    return actor:money() > 2000000
+end
+
+--' отдадим деньги Воронину
+function voronin_2000000(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,2000000,"out")
+end
+
+function bino_have()
+     return lesnik_dialog.item_much("wpn_binoc",1) ~= false 
+end
+function peredatchik_nayti_have()
+     return lesnik_dialog.item_much("x_ray_antenna",1) ~= false and
+   lesnik_dialog.item_much("af_simbion",1) ~= false
+end
+function dimak_stvol_nayti_have()
+     return lesnik_dialog.item_much("ammo_balon",2) ~= false and
+     lesnik_dialog.item_much("wpn_ognemet",1) ~= false 
+end
+function dok_stvol_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_aks74m", "out")
+end
+function dok_ammo_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_fmj", "out")
+end
+function krot_stvol_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_aks74m", "out")
+end
+function krot_ammo_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap", "out")
+end
+function have_dok_stvol()
+     return lesnik_dialog.item_much("ammo_5.45x39_fmj",1) ~= false and
+     lesnik_dialog.item_much("wpn_aks74m",1) ~= false 
+end
+function have_krot_stvol()
+     return lesnik_dialog.item_much("ammo_5.45x39_ap",1) ~= false and
+     lesnik_dialog.item_much("wpn_aks74m",1) ~= false 
+end
+function raf_ognemet_have()
+     return lesnik_dialog.item_much("wpn_flame",1) ~= false    
+end
+function raf_ognemet_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_flame", "out")
+end
+function raf_reming_have()
+     return lesnik_dialog.item_much("wpn_rem870_magnum",1) ~= false 
+end
+function raf_reming_otdal (first_speaker, second_speaker)
+    dialogs.relocate_item_section(second_speaker, "wpn_rem870_magnum", "out")
+end
+function raf_pkm_have()
+     return lesnik_dialog.item_much("wpn_ak104",1) ~= false 
+end
+function ari_pkm_have()
+     return lesnik_dialog.item_much("wpn_ak203",1) ~= false 
+end
+function raf_pkm_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_ak104", "out")
+end
+function fena_pkm_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_ak203", "out")
+end
+function ded_stvol_nayti_have()
+     return lesnik_dialog.item_much("wpn_crossbow",1) ~= false
+     
+end
+function yan_laba_diaktiv_have()
+     return lesnik_dialog.item_much("pda_diaktiv",1) ~= false
+     
+end
+function disk_sahara_have()
+     return lesnik_dialog.item_much("disk_sahara",1) ~= false
+     
+end
+function misul_nychka_have()
+     return lesnik_dialog.item_much("wpn_svd_m1",1) ~= false
+     
+end
+function protivojadie_have()
+     return lesnik_dialog.item_much("shpriz",1) ~= false
+     
+end
+function baza_absolut_nayti_have()
+     return lesnik_dialog.item_much("af_dummy_vertyshka",1) ~= false and
+     lesnik_dialog.item_much("af_dummy_star_monolith",1) ~= false and
+     lesnik_dialog.item_much("af_dummy_quill",1) ~= false and
+     lesnik_dialog.item_much("af_dummy_wool",1) ~= false and
+     lesnik_dialog.item_much("af_dummy_bonanza",1) ~= false
+end
+
+--отдали передатчик Василине
+function peredatchik_otdal()
+lesnik_dialog.out_item_much("x_ray_antenna",1)
+lesnik_dialog.out_item_much("af_simbion",1)
+end
+function disk_saharu_otdal()
+lesnik_dialog.out_item_much("disk_sahara",1)
+end
+function dimak_stvol_otdal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_ognemet", "out")
+end
+function dimak_stvol_otdal_ok()
+lesnik_dialog.out_item_much("ammo_balon",2)
+end
+function skrjaga_shpriz_otdal()
+lesnik_dialog.out_item_much("shpriz",1)
+end
+
+
+function kostya_dialog_done()
+lesnik_dialog.out_item_much("af_dummy_vertyshka",1)
+lesnik_dialog.out_item_much("af_dummy_star_monolith",1)
+lesnik_dialog.out_item_much("af_dummy_quill",1)
+lesnik_dialog.out_item_much("af_dummy_wool",1)
+lesnik_dialog.out_item_much("af_dummy_bonanza",1)
+end
+
+function avans_voronin(first_speaker, second_speaker)
+    dialogs.relocate_money(second_speaker, 100000, "in")
+end
+function bablo_voronin(first_speaker, second_speaker)
+    dialogs.relocate_money(second_speaker, 400000, "in")
+end
+function bablo_saharov(first_speaker, second_speaker)
+    dialogs.relocate_money(second_speaker, 50000, "in")
+end
+function lukash_kvest_babki_dal(first_speaker, second_speaker)
+    dialogs.relocate_money(second_speaker, 30000, "in")
+end
+function lukash_skr_dengi_dal(first_speaker, second_speaker)
+    dialogs.relocate_money(second_speaker, 300000, "in")
+end
+function voronin_klinika_babki_dal(first_speaker, second_speaker)
+    dialogs.relocate_money(second_speaker, 500000, "in")
+end
+
+--' удаляем vdv с авера
+function delete_vdv()
+  local se_obj = alife():object("aver_vdv")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+--' Удаляем друзей с авера
+function delete_drugi()
+local se_obj = alife():object("aver_dima")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("aver_tor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end 
+local se_obj = alife():object("aver_kuz")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("aver_baba")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("aver_demon")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("aver_buusty")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("aver_dimak")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+--' Удаляем друзей с ВП
+function delete_drugi1()
+local se_obj = alife():object("pri_dima")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("pri_tor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end 
+local se_obj = alife():object("pri_kuz")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("pri_baba")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("pri_demon")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("pri_buusty")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("pri_dimak")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function esc_bratva_del()
+local se_obj = alife():object("esc_tango")
+  if se_obj then
+    alife():release(se_obj, true)
+  end 
+local se_obj = alife():object("esc_vdv")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("esc_demon")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("esc_baba")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("esc_dimak")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_demon()
+local se_obj = alife():object("upiter_demon")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_baba()
+local se_obj = alife():object("up_baba")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_kuz()
+local se_obj = alife():object("up_kuz")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_buusty()
+local se_obj = alife():object("up_buusty")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_dimak()
+local se_obj = alife():object("up_dimak")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_vdv()
+local se_obj = alife():object("up_vdv")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_dryka()
+local se_obj = alife():object("up_demon2")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_dima()
+local se_obj = alife():object("up_dima")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_tor()
+local se_obj = alife():object("up_tor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_demon1()
+local se_obj = alife():object("up_demon1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_baba1()
+local se_obj = alife():object("up_baba1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_kuz1()
+local se_obj = alife():object("up_kuz1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_buusty1()
+local se_obj = alife():object("up_buusty1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_up_dimak1()
+local se_obj = alife():object("up_dimak1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_aver_vita()
+local se_obj = alife():object("vit_pjan")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_agr_buusty()
+local se_obj = alife():object("agr_buusty")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_gar_star_monolit_zone()
+local se_obj = alife():object("gar_star_monolit_zone_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_esc_dima()
+local se_obj = alife():object("esc_dima")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_sniper_fanat()
+local se_obj = alife():object("esc_sniper_fanat")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_val_pulja()
+local se_obj = alife():object("pulja")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_gar_star_strelok()
+local se_obj = alife():object("gar_star_strelok")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_door_pri()
+local se_obj = alife():object("pri_b304_physic_door_0012")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_bar_drugi()
+local se_obj = alife():object("bar_bar_lisiy")
+  if se_obj then
+    alife():release(se_obj, true)
+  end 
+local se_obj = alife():object("bar_demon")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("bar_vita")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("bar_bar_drunk_dolg")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("bar_tango")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_esc_trader()
+local se_obj = alife():object("escape_trader")
+  if se_obj then
+    alife():release(se_obj, true)
+  end 
+local se_obj = alife():object("trader_door")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("trader_physic_object0014")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("trader_physic_object0013")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("physic_object0025")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_yan_smert_zone() 
+local se_obj = alife():object("yan_saharov_new")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("yan_kruglov_new")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_yan_dimon() 
+local se_obj = alife():object("yan_dima")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("yantar_ecolog_general")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("yan_kruglov_old")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_yan_sahar_door() 
+local se_obj = alife():object("door_trader_0000")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("door_trader")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_aver_kruglov()
+local se_obj = alife():object("aver_kruglov")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_ros_kruglov()
+local se_obj = alife():object("bar_ecolog_professor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_ros_lebedev()
+local se_obj = alife():object("bar_freedom_attacker_commander")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_agr_lebedev()
+local se_obj = alife():object("und_lebedev")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function delete_x10_uch()
+local se_obj = alife():object("x10_uch")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function delete_kostya1()
+local se_obj = alife():object("marsh_golo")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function delete_skr_zombi()
+local se_obj = alife():object("mil_stalker0012")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function delete_arni()
+local se_obj = alife():object("bar_arena_man")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_vdv_bar_nast()
+local se_obj = alife():object("bar_vdv_nast")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("bar_arni_new")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("esc_sniper_fanat")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_lodyr()
+local se_obj = alife():object("lodyr")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("gar_dima")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_perehod_na_svalku()
+local se_obj = alife():object("exit_to_garbage_02")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_pred_val()
+local se_obj = alife():object("pred_heli_sdoh")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_as_raf_koster()
+local se_obj = alife():object("as_raf_koster_ogon")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_bar_arni_kill_restrictor()
+local se_obj = alife():object("bar_arni_kill_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_lukash_kvest_restrictor()
+local se_obj = alife():object("lukash_kvest_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_dveri_peshera()
+local se_obj = alife():object("pred_peshera_restr")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_pred_doktor_restriktor()
+local se_obj = alife():object("pred_doktor_kill_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_pred_krot_restriktor()
+local se_obj = alife():object("pred_krot_kill_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_krot_pred()
+local se_obj = alife():object("agr_krot")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_doktor_pred()
+local se_obj = alife():object("doktor1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_val_baks()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"dog_baks") then
+        alife():release(obj,true)
+        end
+    end
+end
+function del_borov_bratva()
+local se_obj = alife():object("gar_bur")
+  if se_obj then
+    alife():release(se_obj, true)
+  end 
+local se_obj = alife():object("gar_bandos")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("gar_bandos2")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("gar_bandos3")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("gar_bandos4")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function v_dorogu_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG TANGO:".."\\n".."%c[255,255,128,128]Well, that men, who will go in the hard way! Walking very far and one chance - a knock at vertuhaya voenstalkerov. I'm going for sure. We got blood and sweat money ...".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function v_dorogu_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,255,128,128]I'm going for sure! We must break this gadёnysha as a heating pad, if only to recapture vertuhaya in voenstalkerov. They flew over our heads, but we napadёm first ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]Try to repel vertuhaya voenstalkerov have, because we are not frail replenishment. It is necessary to get Airborne, no turning back, otherwise Airborne 2 hours bye-bye in Vorkuta! ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Jora Dalnoboy:".."\\n".."%c[255,255,128,128]Dimaki, stay in the camp with his son, all the same just met ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,255,128,128]No, just my father said, I will go with him ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,255,128,128]I will go, and you stay in the camp Oleg in charge ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms7()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Kuzma:".."\\n".."%c[255,255,128,128]I'll go too, do not have a kid ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms8()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DAEMON:".."\\n".."%c[255,255,128,128]About me, I have forgotten? I'm not staying here ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms9()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Victor hairdo:".."\\n".."%c[255,255,128,128]Guys, just the holiday started, and you are already in a fight ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms10()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,255,128,128]Vitya, while celebrating Airborne Forces will on the mainland after 2 hours to celebrate for our money. I go and do not persuade ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu_sms11()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG:".."\\n".."%c[255,255,128,128]Everything is decided! Once rvёtes so persuaded. I'll stay. Losers Go, demon, Dimaki, Dimon, Anya, Torych, Scar and Kuzma. The road! Uraaaaaa! ...".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function muzlo_vdv()
+ local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vdv_dostat]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function muzlo_vdv1()
+ local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vdv_dostat1]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_pri1_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]Ha, people! Oleg, head! His plan worked. Our vertuhaya, so that the cargo ...".."".."\n", nil, nil, 40000)
+end
+function na_pri1_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,255,128,128]Excellent Dimaki! Jump! .....".."".."\n", nil, nil, 40000)
+end
+function na_pri1_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,255,128,128]Scar, let's at the helm. Look on the map mark the transition. Right in the transition Fly ....".."".."\n", nil, nil, 40000)
+end
+function na_up_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]Well, enough fuel! ...".."".."\n", nil, nil, 40000)
+end
+function na_up_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Before Jupiter could reach exactly! .....".."".."\n", nil, "shram", 40000)
+end
+function na_up_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,255,128,128]Hail to Jupiter! Hooray!!!!!!!!....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG:".."\\n".."%c[255,255,128,128]Hello brother Zhora! Go to our hut! ....".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function privet_goga_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Jora Dalnoboy:".."\\n".."%c[255,255,128,128]Welcome boys and girls! ....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]Zhorik, how are you always in time! ....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Jora Dalnoboy:".."\\n".."%c[255,255,128,128]Airborne again on Strom got? ....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Kuzma:".."\\n".."%c[255,255,128,128]But he just did not have a match before pulling everyone's got ....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,255,128,128]People, Dimaki son back! Dimon salute! Thumps all night! Father and son met! VDV come down with strёma. Airborne where are you? ....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms7()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]People son back! Synulya priveeeeeeeeet! Buchau at my expense! VDV come down with strёma. Airborne where are you there? ....".."".."\n", nil, nil, 40000)
+end
+function privet_goga_sms8()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Listen Oleg, Airborne gone somewhere - else? Count up, he's not on the lookout .....".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function privet_goga_sms9()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG:".."\\n".."%c[255,255,128,128]How I lost? I go take a look and check nychku for one thing, and you ask if the scar does not scrap the son Dimaki Dimona. It's just that come can meet him on the road? He could not go to the west, we would have seen it .....".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function aver_vdv_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,255,128,128]Well, goats, lost me? Can you happy, case with the money I have. I have the money on a large enough ground to a ripe old age, and you will die alone in this filthy Zone ...".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,255,128,128]Dimych not fool come back and return the money .....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,255,128,128]I thought a fool? on the lookout huh? - Prick you great to me ....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Jora Dalnoboy:".."\\n".."%c[255,255,128,128]You ... goblin, just not done! ....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Kuzma:".."\\n".."%c[255,255,128,128]Airborne, the cha-cho, tower demolished? Come back, you fool changed his mind ....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG:".."\\n".."%c[255,255,128,128]You're a freak .. We'll clean up the louse! You are not VDV, and DVD ....".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function aver_vdv_sms7()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,255,128,128]This is possible as long as you ate yesterday vodyaru at the bar, I agreed and passed spice up your camp and you have a couple of minutes Strip itself, so long as idiots .....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms8()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DAEMON:".."\\n".."%c[255,255,128,128]You know that we are in the valley none vertuhaya not take ....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms9()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Victor hairdo:".."\\n".."%c[255,255,128,128]Airborne ... hung up, the guys are very angry ....".."".."\n", nil, nil, 40000)
+end
+function aver_vdv_sms10()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,255,128,128]Idiots which helicopters? I removed the camp coordinates for teleportation specialists and not only. I am now on the East of Pripyat and 2 hours flying away, so goodbye! Enjoy hardcore! ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu1_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,255,128,128]Damn it! Only PDA or VDV any case ... he conned us!".."".."\n", nil, nil, 40000)
+end
+function v_dorogu1_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,255,128,128]What do we do?.....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu1_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,255,128,128]Take your pants off and running! Dick to you, rather than case! Found a PDA, now look like morons you will tear the monsters. I think I'm stupid? I have no else can. Look me in the lokam and vertuhaya On approaching. Ciao! ...".."".."\n", nil, nil, 40000)
+end
+function v_dorogu1_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Helicopter pilot:".."\\n".."%c[255,255,128,128]Irbis, answer 343 - mu. Where are you? ....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu1_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,255,128,128]Where! In trande! Idiot, I pay for that? On Jupiter's me! In the South - Eastern part. Cop masquerade see? Take a landmark on it .....".."".."\n", nil, nil, 40000)
+end
+function v_dorogu1_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]In, a moron? He surrendered himself. We run to vertuhaya. Lets go faster.....".."".."\n", nil, nil, 40000)
+end
+function vdv_net_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,255,128,128] No, not here. Hike us to the other side .... !!!!!!!!".."".."\n", nil, nil, 40000)
+end
+function vdv_koresh_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."MILITARY:".."\\n".."%c[255,255,128,128] Base! Base! Oh Shit ... Figasebefamilny commander killed! where your help !!!!!!!! We do not want to die here ....".."".."\n", nil, nil, 40000)
+end
+function vdv_koresh_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BASE:".."\\n".."%c[255,255,128,128] IRBIS! Marines thrown into the Zone ....".."".."\n", nil, nil, 40000)
+end
+function na_up1_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,1,255,1]Hell, vertuhaya to shreds and Dimaki without a parachute ....".."".."\n", nil, nil, 40000)
+end
+function na_up1_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,1,255,1]And the fuck I need, fact around swamps! .....".."".."\n", nil, nil, 40000)
+end
+function na_up1_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]Sorry, the fuel is not enough, and vertuhaya pokotsali an anomaly! Like all intact? ....".."".."\n", nil, "shram", 40000)
+end
+function na_up1_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,1,255,1]Scars, MORE SO LOW do not fly! Retractable TIME ..".."".."\n", nil, nil, 40000)
+end
+function na_up1_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DAEMON:".."\\n".."%c[255,1,255,1]Hell, ME In Zhelezyaka SOMETHING skidded. Rescues man! Unspecified resettled. EXIT protected teleport .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_demon]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up1_sms7()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,1,255,1]Oh, hell demons Zhelezyaka WHAT? ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_demon]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up1_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,1,255,1]THERE AS I REMEMBER BIG COMPLEX BUT THAT THERE WAS NOT KNOW ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_demon]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up1_sms8()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,1,255,1]HELP!....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_baba]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up1_sms9()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Kuzma:".."\\n".."%c[255,1,255,1]WHAT garbage! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_kuz]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up1_sms10()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,1,255,1]OH SHIT! Man, it's LUVUSHKA! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_tor]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up1_sms11()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,1,255,1]OH SHIT! WHAT Mysticism? ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_demon]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function na_up2_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,1,255,1]HERE AND COMPLEX! ...".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,1,255,1]Must find time to turntables. The TRAP WHAT GUYS please? ALIVE ARE THEY? .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up1]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,1,255,1]Time is running out. YET STAY HERE, AND I FOR EXPLORATION .... !!!!!!!!".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up2]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."PILOT 343-GO:".."\\n".."%c[255,1,255,1]IRBIS - Answers 343-ME .. where are you ....?".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up3]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Airborne:".."\\n".."%c[255,1,255,1]IDIOT! Fire, fire you see? ROUND sit moron .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up4]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."PILOT 343-GO:".."\\n".."%c[255,1,255,1]We did not agree !!! WHERE mercenaries ???? It put !!!!!!! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up5]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms7()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DRYKA:".."\\n".."%c[255,1,255,1]THIS IS NOT A framed, IT You set - Farewell my friend !!! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up6]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms8()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DRYKA:".."\\n".."%c[255,1,255,1]Catch THAT Casey! RUN freak LOHONITES NOT THIS TIME ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\vertuha_up7]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_up2_sms9()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,1,255,1]Scars run to the complex - the father, too, fall into the trap ....".."".."\n", nil, nil, 40000)
+end
+function up_up2_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SECURITY SYSTEM:".."\\n".."%c[255,1,255,1]DEADLY ZONE eliminated! ...".."".."\n", nil, nil, 40000)
+end
+function up_up2_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,1,255,1]SCAR EXCELLENT! WENT to the fire .....".."".."\n", nil, nil, 40000)
+end
+function up_up2_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,1,255,1]SCAR THANK YOU! ....".."".."\n", nil, nil, 40000)
+end
+function vdv_zhaba()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,255,128,1]Kranti Airborne YOU! ....".."".."\n", nil, nil, 40000)
+end
+function dryka_sms_poka()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DRYKA:".."\\n".."%c[255,255,128,1]Finally we sat down. Keeping the way to Wolf's Lair. Go look at the map ..".."".."\n", nil, nil, 40000)
+end
+function cho_za_huynja()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]Uh, GASTELLO that during garbage? Baska circle ....".."".."\n", nil, "shram", 40000)
+end
+function gastello_huy()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]GASTELLO! If you do not burn in the fire THEN YOU I drown in the swamp ... Damn, Baska circle! ....".."".."\n", nil, "shram", 40000)
+end
+function stul_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."FAIRY:".."\\n".."%c[255,1,255,1]You see, there is a chair! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\del_up_demon]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function stul_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]Mysticism some! Me dreaming? ....".."".."\n", nil, "shram", 40000)
+end
+function stul_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."FAIRY:".."\\n".."%c[255,1,255,1]NO not dreaming! Now there is no chair! ....".."".."\n", nil, nil, 40000)
+end
+function pri_vdv_pda()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."TORYCH:".."\\n".."%c[255,1,255,1]With the signal appeared PDA running ..! ....".."".."\n", nil, nil, 40000)
+end
+function na_up3_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]PEOPLE WHERE LOVUSHKA7 what shall we do? ....".."".."\n", nil, "shram", 40000)
+end
+function na_up3_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Losers:".."\\n".."%c[255,1,255,1] Here, two garages, but close does not fit ... what to tell you this freak? .....".."".."\n", nil, nil, 40000)
+end
+function na_up3_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]He told me to let him go with a case for 300 meters, then it is disabled TRAP !!!!! ....".."".."\n", nil, "shram", 40000)
+end
+function na_up3_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,1,255,1]I thought you were not commit stupid? IF what he said, the circuit breaker in the case, So look CASE SCAR! ....".."".."\n", nil, nil, 40000)
+end
+function na_up3_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."KUZMA:".."\\n".."%c[255,1,255,1] LOOK CASE scars, AND WE TRY to build a 2 Teleport ONLY HERE! .....".."".."\n", nil, nil, 40000)
+end
+function na_up3_sms6()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]Hell, WHERE SEARCH THIS CASE? TIME IS RUNNING OUT!!!!!....".."".."\n", nil, "shram", 40000)
+end
+function na_up3_sms7()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Anya BEYVRAGA:".."\\n".."%c[255,1,255,1]Scars, including logic! IF ITS COVER hiring suddenly far away HIDE He could not! He could only throw HIS somewhere !!! SEE OR ON THE ROOF OR FOR FENCES, OR SOMEWHERE ELSE .....".."".."\n", nil, nil, 40000)
+end
+function dveri_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,1,255,1]WHO IS THERE breaking uninvited? ....".."".."\n", nil, "trader", 40000)
+local snd_obj = xr_sound.get_safe_sound_object ([[abs_news\bashka]])                                                                     
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function dveri_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1] I was with you here 2 years ago and you were more hospitable! .....".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function dveri_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,1,255,1]SOMETHING YOU DO NOT REMEMBER two years ago !!!!! VALLE WHERE COME! ....".."".."\n", nil, "trader", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function dveri_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,1,255,1]Vidal BRAINS aged strengths and sharpen SCLEROSIS! Okay .... YOU CAN NOT OPEN".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function dveri_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,1,255,1] ... I have grown old? Oh, you brat! I'm .. Okay Sunset UNTIL I GOOD! .....".."".."\n", nil, "trader", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_gar_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,255,128,128]Well, I try to open a passage! ...".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_gar_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,255,128,128]Done Scar! Jump .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_kor_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]Well, I try to open a passage! ...".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_kor_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Dimaki:".."\\n".."%c[255,255,128,128]Done! Jump .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_gar_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]That is great!!!!!!!! Damn chump! ....".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function uch_doma_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."VASILINA:".."\\n".."%c[255,255,128,128]It seems established a satellite link! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function uch_doma_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."IGOR Misiulia:".."\\n".."%c[255,255,128,128]Very favorite! ....".."".."\n", nil, "misul", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function uch_doma_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SOLVADOR:".."\\n".."%c[255,255,128,128] Okay, let's discuss the fire, and I froze you tutttttttt ..... kordddddd on-one. Vrodddddd de South Zone! .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sniper_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Finally I'm on the tube! Igor is not a bad position, but I'm not 15 years old to crawl around on the attic and roof, in fact, that just does not make for the sake of science! ...".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sniper_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."IGOR Misiulia:".."\\n".."%c[255,255,128,128]Excellent Scar! It is necessary sometimes to fall into adolescence? Haha, and do not forget about the common cause. See the killer in both! ....".."".."\n", nil, "misul", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sniper_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Do not distract! ....".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sniper_ubil_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."IGOR Misiulia:".."\\n".."%c[255,255,128,128]Damn, I killed the reptile fans! ...".."".."\n", nil, "misul", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sniper_ubil_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Proshlyapil idiot ....".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sniper_ubilb_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SNIPER:".."\\n".."%c[255,255,128,128]Farewell fuckers! ....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function pogovorit_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG TANGO:".."\\n".."%c[255,255,128,128]It seems to have reached! Scar, come, let us discuss the Khoi-what! ....".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function esc_demon_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DAEMON:".."\\n".."%c[255,255,128,128]The position occupied! I hear the noise of propellers ....".."".."\n", nil, nil, 40000)
+end
+function esc_demon_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DAEMON:".."\\n".."%c[255,255,128,128]Both-on, they are teleported to vertuhaya ... Catch lemon bitches ....".."".."\n", nil, nil, 40000)
+end
+function esc_tango_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG TANGO:".."\\n".."%c[255,255,128,128]The demon takes the position! ....".."".."\n", nil, "tango", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function esc_blokpost_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."COMMANDER checkpoints:".."\\n".."%c[255,255,128,128]Stalkers help! Mercenaries attacked by a swamp. Need your help! The debt will not stay .....".."".."\n", nil, "komandir", 40000)
+end
+function borov_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."HOG:".."\\n".."%c[255,255,128,128]You cho bathing there? Bring down all! ....".."".."\n", nil, "abc_ban", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function prapor_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."ensign:".."\\n".."%c[255,255,128,128]You okay? No shit myself! ....".."".."\n", nil, "abc_dol", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function bur_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BOER:".."\\n".."%c[255,255,128,128]e, the checkpoint! Who will bazaar? ....".."".."\n", nil, "bur", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function voronin_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."General Voronin:".."\\n".."%c[255,255,128,128]Stalker Scarface - you come to find me a bar. Talk you need ... At the expense of ensign, you were absolutely right. Greed has ruined it ....".."".."\n", nil, "abc_dar", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function na_ros_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."round:".."\\n".."%c[255,255,128,128]Done Scar! We jump on the Wild .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function val_poz_zanjal_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]The position occupied, although it is not the most successful, but there is no choice ....".."".."\n", nil, "shram", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function val_blizko_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BULLET:".."\\n".."%c[255,255,128,128]Hell, I told you - do not come any closer! All depart to move .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function val_na_gar_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BULLET:".."\\n".."%c[255,255,128,128]Go to the lair of Forestry opened - Happily Scar! See you at the dump ......".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function val_zavalil_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BULLET:".."\\n".."%c[255,255,128,128]Nice shot Scar! All run to move .......".."".."\n", nil, nil, 40000)
+end
+function val_zavalil_proval_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BULLET:".."\\n".."%c[255,255,128,128]No shit myself, it exploded ........".."".."\n", nil, nil, 40000)
+end
+function val_zavalil_proval_ohr_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."BULLET:".."\\n".."%c[255,255,128,128]TFA damn you! You're his guard podranil. All run to move .......".."".."\n", nil, nil, 40000)
+end
+function ros_lebedev_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Lebedev:".."\\n".."%c[255,255,128,128]What killed him? haha. Lake Yantar, in your face frostbitten guest with a scar on his cheek goes. Be careful! He put a bunch of my fighters. With him the professor, so production itself into your hands ........".."".."\n", nil, nil, 40000)
+end
+function yan_hozjain_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."MASTER:".."\\n".."%c[255,255,128,128]Great news chief. We are waiting for the goat, can not wait. Sakharov did not want to work. It's time to fill it .......".."".."\n", nil, nil, 40000)
+end
+function ros_lebedev_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Lebedev:".."\\n".."%c[255,255,128,128]Sakharov until you bring down. I quite seriously. For you sent former mercenary Schram, so watch out .......".."".."\n", nil, nil, 40000)
+end
+function yan_hozjain_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."MASTER:".."\\n".."%c[255,255,128,128]Clearly chef. We have the scar that shiner that blanche. To bring down anyone who does not want us to work, ha ha! .......".."".."\n", nil, nil, 40000)
+end
+function ros_kruglov_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."round:".."\\n".."%c[255,255,128,128]Heck! History repeats itself. Prior to this, I have a stalker Shooter delivered to Lake Yantar, and then I feel not we reach .......".."".."\n", nil, nil, 40000)
+end
+function ros_kruglov_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Do not croaked! Okay, not to expose only .......".."".."\n", nil, "shram", 40000)
+end
+function ros_kruglov_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Lebedev:".."\\n".."%c[255,255,128,128]Aw, Snap, production itself directly in the hands. Here you do not Agroprom, so that scar, or on my side of the transition, or both of you will go nuts .......".."".."\n", nil, nil, 40000)
+end
+function ros_kruglov_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Scar:".."\\n".."%c[255,255,128,128]We'll see who will go nuts! So you're here already fucking bird? .......".."".."\n", nil, "shram", 40000)
+end
+function na_yan_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]For a long time I was not on the Lake Yantar! .....".."".."\n", nil, "shram", 40000)
+end
+function sidor_sebal_s_kordona_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,255,128,128]All currencies in the dick from this cordon! No life and business smarku. Bullseye, Scar, Tagged, Scar! How to have all flowed like clockwork! .....".."".."\n", nil, "trader", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sidor_sebal_s_kordona_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."GASTELLO:".."\\n".."%c[255,255,128,128]Sidrych! Doors why would you? You oherel! I feel sorry for the technique, the more I'm sober today! .....".."".."\n", nil, "gastello", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sidor_sebal_s_kordona_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,255,128,128]More would have been drunk! It is a pity at the bees, and I'm an idiot grandmother crying, and their doors will not leave .....".."".."\n", nil, "trader", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sidor_sebal_s_kordona_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."UNKNOWN STALKER:".."\\n".."%c[255,255,128,128]Sidrych! Idiot! Ha-ha-ha! Doors took a bunker during a moron! .....".."".."\n", nil, nil, 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_8]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function sidor_sebal_s_kordona_sms5()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,255,128,128]Come all - to the goat in the crack! Sami idiots .....".."".."\n", nil, "trader", 40000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+
+
+
+function actor_trup_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Voronin:".."\\n".."%c[255,255,128,128]Scar, run out, quickly !!!".."".."\n", nil, "abc_dar", 35000)
+local snd_obj = xr_sound.get_safe_sound_object([[characters_voice\human_03\stalker\talk\leave\leave_75]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function yan_sm_zone_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Done! Guard cleared out! Professor, let's quickly teleport, and disable protection your mother! .......".."".."\n", nil, "shram", 40000)
+end
+function baks_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Bucks !!! Take Deactivate !!! .......".."".."\n", nil, "shram", 40000)
+end
+function baks_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Bucks !!! Take Deactivate !!! .......".."".."\n", nil, "shram", 40000)
+end
+function baks_sms3()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Bucks !!! Take Deactivate !!! .......".."".."\n", nil, "shram", 40000)
+end
+function baks_sms4()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Excellent Bucks !!! To move !!! .......".."".."\n", nil, "shram", 40000)
+end
+function agr_lebedev_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Lebedev:".."\\n".."%c[255,255,128,128]What people!!! Mercenary Scar with himself! Talking to you is, my dear friend !. Fell not think the transition activator do not look, I have it. At the landfill, I blocked the passage. Look for me in the South-Western part of the agricultural industry .......".."".."\n", nil, nil, 40000)
+end
+function agr_lebedev_sms1()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Lebedev:".."\\n".."%c[255,255,128,128]Well, I killed? Last time offer go to my side and back absolutes .......".."".."\n", nil, nil, 40000)
+end
+function kozly_kamaz()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Jora Dalnoboy:".."\\n".."%c[255,255,128,128]Freaks, answer me for tachilu! .......".."".."\n", nil, nil, 40000)
+end
+function doktor_ubit()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Information System:".."\\n".."%c[255,255,128,128]Swamp Doctor killed! .......".."".."\n", nil, nil, 40000)
+end
+function krot_ubit()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Information System:".."\\n".."%c[255,255,128,128]Mole is killed! .......".."".."\n", nil, nil, 40000)
+end
+function yan_dimon_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."DIMON:".."\\n".."%c[255,255,128,128]Scar, I has withdrawn professor of the cordon! The transition point from Lake Yantar to Agroprom - in your PDA .......".."".."\n", nil, nil, 40000)
+end
+function mar_gastello_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."GASTELLO:".."\\n".."%c[255,255,128,128]Scar bratello! Congratulate me with the new crocodile! Let's fry in the swamps! .......".."".."\n", nil, "gastello", 40000)
+end
+function mar_gastello2_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."GASTELLO:".."\\n".."%c[255,255,128,128]Planted on the church, only bandits roast! Ah, if only God had not seen or closed his eyes! .......".."".."\n", nil, "gastello", 40000)
+end
+function mar_gastello3_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Gastello, Th for the garbage? Vertuhaya caught on the dome, or dick knows what! .......".."".."\n", nil, "shram", 40000)
+end
+function mar_gastello4_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."GASTELLO:".."\\n".."%c[255,255,128,128]Heck! The scar on the shoot vertuhaya! The only way that God did not see haha! .......".."".."\n", nil, "gastello", 40000)
+end
+function mar_gastello5_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]What are you an idiot! Fry it? .......".."".."\n", nil, "shram", 40000)
+end
+function mar_gastello6_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."GASTELLO:".."\\n".."%c[255,255,128,128]Yes, I do not have to vertuhaya! .......".."".."\n", nil, "gastello", 40000)
+end
+function mar_gastello7_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]Gastello son of a bitch, I'll kill you! .......".."".."\n", nil, "shram", 40000)
+end
+function val_gastello_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."GASTELLO:".."\\n".."%c[255,255,128,128]SCAR son of a bitch, well bro! Today, only a little drunk. Skins on the hill behind the fence near the ZIL 131 th .......".."".."\n", nil, "gastello", 40000)
+end
+function videnie_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SCAR:".."\\n".."%c[255,255,128,128]What did not prividitsya! Well, just like with a hangover, colorful dreams - eshkin cat .......!".."".."\n", nil, "shram", 40000)
+end
+function arni_zlodey_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."ARNI:".."\\n".."%c[255,255,128,128]Ha-ha! And I thought Shooter granted to guards Raven! He then permanently grandmother cut down, and you have a chance to die on my stage. No one has the right to close it, even Voronin with his bitch! As master, who here is always the winners, too, they were dissatisfied. So much for the law to give a chance to fight with them, and I'll go and finish their job. So that you uncle Khan .......".."".."\n", nil, "arena", 80000)
+end
+function voronin_bar_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."General Voronin:".."\\n".."%c[255,255,128,128]Excellent work Scar! Come on, talk .......".."".."\n", nil, "abc_dar", 80000)
+end
+function poleteli_voronin_bar_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."OLEG TANGO:".."\\n".."%c[255,255,128,128]Not only flew on crocodiles. In the newspaper I get up, my head is spinning. Scar, watch the car at the end of the cordon, about where we were. NIWA Can you still come in handy. It seems to work! .......".."".."\n", nil, "tango", 80000)
+local snd_obj = xr_sound.get_safe_sound_object([[detectors\contact_1]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+function aver_sidor_sms()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,255,128,128]Scar samogonych with me! I came nerd, hacker, chemist, his mother! So, Come, I will share a secret .......".."".."\n", nil, "trader", 80000)
+end
+function aver_sidor_sms2()
+news_manager.send_tip(db.actor, "%c[255,160,160,160]".."SIDOROVICH:".."\\n".."%c[255,255,128,128]Gyy, a botanist at the landfill, near the cemetery art settled, let's see what he would do next. So that scar, if it comes to me, then do not forget, I keep my word .......".."".."\n", nil, nil, 80000)
+end
+
+function del_time_sms_vdv()
+local se_obj = alife():object("up_vdv_space_restrictor_timer1")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("up_vdv_space_restrictor_timer")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_vdv") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "teleport trap disabled", nil, nil, 30000)
+     end
+   end
+end
+function del_sm_zone_vdv(story_id)
+local se_obj = alife():story_object(15043)
+if se_obj then
+alife():release(se_obj)
+  end
+end
+function del_sniper_fanat_restr()
+local se_obj = alife():object("esc_sniper_kill_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("esc_sniper_kill_zone_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_sniper_kill_zone_restr()
+local se_obj = alife():object("val_sniper_kill_zone_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+local se_obj = alife():object("val_sniper_zone_restrictor")
+  if se_obj then
+    alife():release(se_obj, true)
+  end
+end
+function del_zone_val()
+local se_obj = alife():object("val_space_restrictor_vzryv")
+  if se_obj then
+    alife():release(se_obj, true)
+news_manager.send_tip(db.actor, "Hog Zone vnature disabled", nil, nil, 30000)
+  end
+end
+--' проверим наличие финансов за наводку на Сивого
+function lesnik_siviy_1_100000(actor,npc)
+    return actor:money() > 100000
+end
+
+--' отдадим деньги леснику за наводку на Сивого
+function lesnik_siviy_100000(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,100000,"out")
+end
+
+--' проверим наличие финансов за винт пантеры
+function lesnik_helicopter_1_100000(actor,npc)
+    return actor:money() > 100000
+end
+
+--' отдадим деньги леснику за винт пантеры
+function lesnik_helicopter_100000(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,100000,"out")
+end
+
+--' проверим наличие финансов за телепорт монолита
+function lesnik_samopisez_1_100000(actor,npc)
+    return actor:money() > 100000
+end
+
+--' отдадим деньги леснику за телепорт монолита
+function lesnik_samopisez_100000(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then
+npc=t2
+end
+dialogs.relocate_money(npc,100000,"out")
+end
+
+function oleg_keys_nayti_have() 
+return lesnik_dialog.item_much("oleg_keys",1) ~= false
+end
+
+function tango_babki_dal(first_speaker, second_speaker)
+dialogs.relocate_money(first_speaker, 500000,"in")
+end
+
+function tango_babki_her(first_speaker, second_speaker)
+dialogs.relocate_money(first_speaker, 10000,"in")
+end
+
+--' отдадим кейс Олегу
+function oleg_tango_keys_done()
+lesnik_dialog.out_item_much("oleg_keys",1)
+end
+
+function zhora_kamaz()
+local obj = alife():create("veh_gaz",vector():set(-329.625,-22.349,203.756),303419,2891)
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\veh_kavz]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function baks_spizdil_deaktiv()
+local snd_obj = xr_sound.get_safe_sound_object ([[abc_news\iron]])                                                                     
+                  snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+function aver_mon()
+local obj = alife():create("aver_mon_1",vector():set(-312.950,-15.222,163.174),333159,2891)
+local obj = alife():create("aver_mon_2",vector():set(-312.850,-15.222,163.174),333159,2891)
+local obj = alife():create("aver_mon_3",vector():set(-328.550,-13.222,139.174),284945,2889)
+local obj = alife():create("aver_mon_4",vector():set(-340.550,-3.222,133.174),284944,2889)
+local obj = alife():create("aver_mon_5",vector():set(-362.350,3.392,130.574),245224,2889)
+local obj = alife():create("aver_mon_6",vector():set(-371.069,6.396,131.674),230755,2889)
+local obj = alife():create("aver_mon_7",vector():set(-377.069,6.396,136.174),220167,2889)
+local obj = alife():create("aver_mon_8",vector():set(-382.069,6.396,146.174),211389,2889)
+local obj = alife():create("aver_mon_9",vector():set(-380.769,0.396,163.174),213911,2889)
+local obj = alife():create("aver_mon_10",vector():set(-378.769,-4.396,181.174),217744,2891)
+end
+
+function arhara_ognemet1()
+local obj = alife():create("zombie_babka_strong",vector():set(-99.438,-16.462,-6.173),1721,761)
+local obj = alife():create("zombie_babka_strong",vector():set(-99.473,-16.462,-22.385),1698,760)
+local obj = alife():create("zombie_babka_strong",vector():set(-106.796,-16.486,-39.662),826,756)
+local obj = alife():create("zombie_babka_strong",vector():set(-114.712,-16.480,-50.657),292,757)
+local obj = alife():create("zombie_babka_strong",vector():set(-105.844,-16.470,-64.870),977,751)
+local obj = alife():create("bibliotekar",vector():set(-90.884,-16.449,-101.168),2146,783)
+local obj = alife():create("bloodsucker_hell",vector():set(-102.716,-4.473,-143.390),1288,808)
+local obj = alife():create("bloodsucker_hell",vector():set(-97.404,-4.513,-143.222),1854,807)
+local obj = alife():create("bloodsucker_hell",vector():set(-86.994,-4.531,-143.504),2362,806)
+local obj = alife():create("bloodsucker_hell",vector():set(-78.558,-4.479,-143.509),2898,805)
+local obj = alife():create("bloodsucker_tor",vector():set(-78.558,-4.479,-143.509),2898,805)
+local obj = alife():create("bloodsucker_tor",vector():set(-78.558,-4.479,-143.509),2898,805)
+end
+function ari_monstr_spawn()
+local obj = alife():create("vodjanoj",vector():set(-274.235,-22.134,290.511),64632,1832)
+local obj = alife():create("bloodsucker_hell",vector():set(-274.235,-22.134,290.511),64632,1832)
+local obj = alife():create("bloodsucker_tor",vector():set(-274.235,-22.134,290.511),64632,1832)
+local obj = alife():create("bloodsucker_tor",vector():set(-274.235,-22.134,290.511),64632,1832)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+end
+function ari_monstr_spawn2()
+local obj = alife():create("vodjanoj",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("bloodsucker_hell",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("bloodsucker_tor",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+end
+function ari_monstr_spawn3()
+local obj = alife():create("wolk",vector():set(-234.393,-21.637,211.637),97455,1764)
+local obj = alife():create("wolk",vector():set(-234.393,-21.637,211.637),97455,1764)
+local obj = alife():create("wolk",vector():set(-234.393,-21.637,211.637),97455,1764)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+local obj = alife():create("cat_strong",vector():set(-283.355,-22.637,252.022),57032,1796)
+end
+function koshak_baks_spawn()
+local obj = alife():create("cat_strong",vector():set(78.362,0.012,-67.102),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.462,0.012,-67.102),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.562,0.012,-67.102),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.662,0.012,-67.102),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.762,0.012,-67.122),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.362,0.012,-67.142),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.362,0.012,-67.152),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.362,0.012,-67.172),270602,991)
+local obj = alife():create("cat_strong",vector():set(78.362,0.012,-67.182),270602,991)
+end
+
+function mar_vodjan_spawn()
+local obj = alife():create("mar_vodjan",vector():set(187.865,0.661,-144.635),249143,3486)
+local obj = alife():create("mar_vodjan1",vector():set(187.965,0.661,-144.635),249143,3486)
+local obj = alife():create("mar_vodjan2",vector():set(187.765,0.661,-144.635),249143,3486)
+local obj = alife():create("mar_vodjan3",vector():set(187.665,0.661,-144.635),249143,3486)
+end
+
+function as_raf_kvest_spawn()
+local obj = alife():create("vodjan",vector():set(84.362,-13.205,50.591),381725,1558)
+local obj = alife():create("vodjan1",vector():set(84.372,-13.205,50.591),381725,1558)
+local obj = alife():create("vodjan2",vector():set(84.392,-13.205,50.591),381725,1558)
+end
+
+function esc_babki_trus_spawn()
+local obj = alife():create("zombie_babka_weak",vector():set(-22.431,2.478,71.945),254793,87)
+end
+
+
+function veh_mashinki()
+local obj = alife():create("veh_niva",vector():set(271.607,1.523,17.306),432407,693)
+local obj = alife():create("veh_niva2",vector():set(49.023,9.5,623.804),333718,212)
+end
+function spawn_esc_niva()
+local obj = alife():create("veh_niva",vector():set(120.607,40.523,730.306),293566,209)
+end
+function spawn_dark_niva()
+local obj = alife():create("veh_niva",vector():set(122.013,-1.096,49.650),318978,910)
+end
+function spawn_up_niva()
+local obj = alife():create("veh_niva",vector():set(-392.611,3.266,-185.867),55444,3700)
+end
+
+
+
+--' спавним тайники Плюшкина
+function vdv_plushkin_taynik()
+local se_obj = alife():create("m_inventory_vdv", vector():set(-357.750,-19.256,206.726),254279,2891)
+local se_obj = alife():create("m_inventory_vdv1", vector():set(-322.573,-17.941,180.822),321740,2891)
+end
+
+function yan_laba_diaktiv()
+local se_obj = alife():create("m_inventory_laba_diaktiv", vector():set(-6.062,10.217,-6.338),37046,1525)
+end
+
+function stvol_nychka()
+local se_obj = alife():create("m_inventory_dimak", vector():set(90.686,-0.007,67.026),47207,1270)
+end
+
+function misul_nychka()
+local se_obj = alife():create("m_inventory_misul", vector():set(-111.829,-22.306,-368.255),142102,23)
+end
+
+function taynik_kostya()
+local se_obj = alife():create("m_inventory_kostya", vector():set(-124.128,6.932,-316.030),79041,3374)
+local se_obj = alife():create("m_inventory_kostya2", vector():set(-176.509,5.273,-272.515),52379,3368)
+end
+
+function taynik_strelokk()
+local se_obj = alife():create("m_inventory_strelokk", vector():set(140.426,9.408,39.509),372860,496)
+end
+
+function taynik_strelok()
+local se_obj = alife():create("m_inventory_strelok", vector():set(127.546,16.946,67.045),361525,495)
+end
+
+function spawn_stul()
+local se_obj = alife():create("telka_stul", vector():set(-339.740,-26.771,177.694),286240,2891)
+end
+
+function pda_diaktiv_val()
+local se_obj = alife():create("pda_diaktiv_1", vector():set(-193.886,3.730,-191.783),1039,861)
+end
+
+
+function spawn_controller_demon()
+local obj = alife():create("controller_demon_new", vector():set(-5.356,-8.931,-12.503),38975,1461)
+end
+
+function del_stul()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"telka_stul") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "Chair invisible", nil, nil, 30000)
+        end
+    end
+end
+function delete_sidor_mun()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_sidor_mun") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "Teleport Sidor, disabled", nil, nil, 30000)
+        end
+    end
+end
+function delete_yan_mun()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_sahar_zaebalo") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "Teleport to scientists bunker off", nil, nil, 30000)
+        end
+    end
+end
+function delete_yan_mun_2()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_sahar_zaebalo1") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "Teleport from scientists hopper off", nil, nil, 30000)
+        end
+    end
+end
+function delete_teleport_x10()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_x10") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "Teleport to x10, disabled", nil, nil, 30000)
+        end
+    end
+end
+function delete_teleport_x10_1()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_x10_1") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "The second teleport in x10, disabled", nil, nil, 30000)
+        end
+    end
+end
+function delete_kostya_teleport()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_kostya_teleport") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "teleport technique, disabled", nil, nil, 30000)
+        end
+    end
+end
+function del_teleport_tynik()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_strelok_teleport") then
+        alife():release(obj,true)
+elseif obj and string.find(obj:name(),"m_strelok_teleport_zashita") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "Teleport protection disabled", nil, nil, 30000)
+        end
+    end
+end
+function del_teleport_dvd()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_vdv") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "teleport trap disabled", nil, nil, 30000)
+        end
+    end
+end
+function del_teleport_dvd_new()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"m_teleport_vdv_new") then
+        alife():release(obj,true)
+   news_manager.send_tip(db.actor, "second teleport trap disabled", nil, nil, 30000)
+        end
+    end
+end
+function pri_vdv_trup()
+local obj = alife():create("vdv_pda",vector():set(-227.813,-1.338,31.512),8897,3750)
+end
+
+function pri_vdv_trup_have() 
+return lesnik_dialog.item_much("vdv_pda",1) ~= false
+end
+
+function dimak_balon()
+local obj = alife():create("ammo_balon",vector():set(-210.546,-4.294,129.634),360281,3707)
+local obj = alife():create("ammo_balon",vector():set(-209.698,-4.292,134.609),361481,3707)
+local obj = alife():create("ammo_balon",vector():set(-209.185,-4.290,139.721),362667,3707)
+local obj = alife():create("ammo_balon",vector():set(-204.684,-4.285,138.556),371114,3707)
+local obj = alife():create("ammo_balon",vector():set(-198.251,-4.285,142.341),381565,3707)
+local obj = alife():create("ammo_balon",vector():set(-193.190,-4.286,149.384),389650,3717)
+local obj = alife():create("ammo_balon",vector():set(-192.541,-4.285,159.422),388523,3717)
+local obj = alife():create("ammo_balon",vector():set(-197.537,-4.286,160.940),382750,3717)
+local obj = alife():create("ammo_balon",vector():set(-201.126,-4.285,165.150),376980,3717)
+local obj = alife():create("ammo_balon",vector():set(-206.411,-4.284,166.465),367547,3717)
+local obj = alife():create("ammo_balon",vector():set(-206.475,-4.285,171.683),367554,3717)
+local obj = alife():create("ammo_balon",vector():set(-420.647,-2.938,205.702),17588,3701)
+local obj = alife():create("ammo_balon",vector():set(-426.225,-2.937,198.243),12163,3701)
+local obj = alife():create("ammo_balon",vector():set(-427.954,-2.949,181.174),10981,3701)
+local obj = alife():create("ammo_balon",vector():set(-416.488,-2.898,164.108),20885,3701)
+local obj = alife():create("ammo_balon",vector():set(-415.025,-2.907,155.860),24251,3701)
+local obj = alife():create("ammo_balon",vector():set(-411.178,-2.849,159.554),29635,3701)
+end
+function ari_ak_bashnja()
+local obj = alife():create("wpn_ak203",vector():set(-246.011,-6.048,292.315),87658,1797)
+end
+function spawn_hell()
+local obj = alife():create("bloodsucker_strong",vector():set(15.272,16.461,683.889),293566,209)
+local obj = alife():create("bloodsucker_strong",vector():set(15.272,16.461,683.889),293566,209)
+local obj = alife():create("bloodsucker_hell",vector():set(15.272,16.461,683.889),293566,209)
+local obj = alife():create("bloodsucker_tor",vector():set(15.278,16.461,683.889),293566,209)
+end
+
+function bloodtor_spawn()
+local obj = alife():create("bloodsucker_tor",vector():set(58.828,-13.231,-183.638),970368,2908)
+local obj = alife():create("bloodsucker_tor",vector():set(18.571,-20.552,-159.346),898021,2908)
+end
+
+function gar_star_spawn()
+local obj = alife():create("gar_star_bandit_kamaz",vector():set(135.969,0.742,-70.580),967474,4299)
+local obj = alife():create("gar_star_bandit_kamaz2",vector():set(134.774,0.742,-66.867),964842,4299)
+local obj = alife():create("gar_star_bandit_kamaz3",vector():set(142.436,-0.259,-66.416),979500,4299)
+local obj = alife():create("gar_star_bandit_kamaz2",vector():set(134.974,0.742,-66.867),964842,4299)
+local obj = alife():create("gar_star_bandit_kamaz3",vector():set(142.636,-0.259,-66.416),979500,4299)
+end
+
+function aver_kontrik_spawn()
+local obj = alife():create("aver_kontrik1",vector():set(18.501,-20.552,-159.346),898021,2908)
+local obj = alife():create("aver_kontrik2",vector():set(26.908,-22.989,-177.809),913203,2897)
+end
+
+function dolina_zvery_spawn()
+local obj = alife():create("cat_strong",vector():set(127.776,-1.224,72.978),325520,911)
+local obj = alife():create("cat_strong",vector():set(127.776,-1.224,72.978),325520,911)
+local obj = alife():create("bloodsucker_hell",vector():set(126.776,-1.224,72.978),325520,911)
+local obj = alife():create("bloodsucker_tor",vector():set(125.776,-1.224,72.978),325520,911)
+local obj = alife():create("burer_strong",vector():set(125.676,-1.224,72.978),325520,911)
+local obj = alife():create("burer_normal",vector():set(125.576,-1.224,72.978),325520,911)
+local obj = alife():create("controller_demon",vector():set(125.476,-1.224,72.978),325520,911)
+local obj = alife():create("chimera_strong",vector():set(125.376,-1.224,72.978),325520,911)
+local obj = alife():create("wolk",vector():set(125.276,-1.224,72.978),325520,911)
+local obj = alife():create("wolk",vector():set(125.176,-1.224,72.978),325520,911)
+local obj = alife():create("wolk",vector():set(125.076,-1.224,72.978),325520,911)
+local obj = alife():create("wolk",vector():set(124.076,-1.224,72.978),325520,911)
+local obj = alife():create("veh_zil_131",vector():set(215.575,19.183,-20.962),239827,818)
+end
+
+function val_baks_spawn()
+local obj = alife():create("dog_baks",vector():set(45.881,0.081,-78.196),232761,977)
+end
+function spawn_peredatchik()
+local obj = alife():create("x_ray_antenna",vector():set(64.234,16.600,14.814),242414,391)
+end
+function spawn_perehod_na_kor()
+local obj = alife():create("pda_diaktiv_2",vector():set(-152.062,-0.250,-304.540),85694,447)
+end
+function spawn_metka_kostya()
+local obj = alife():create("metka_kostya",vector():set(-181.805,5.205,536.410),46788,3361)
+end
+
+function dinamit_tra_do(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+end
+
+function dinamit_tra(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "outfit_specnaz_m1","in")
+dialogs.relocate_item_section(second_speaker, "timer","in")
+end
+
+function misul_agr_dal_do(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_addon_scope","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "wpn_ak74","in")
+end
+
+function misul_agr_dal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "ammo_5.45x39_ap","in")
+dialogs.relocate_item_section(second_speaker, "super_outfit","in")
+end
+
+function kostya_art_dal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "af_electra_teleport","in")
+end
+
+function misul_done(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "af_simbion","in")
+dialogs.relocate_item_section(second_speaker, "neytral_novice_outfit_cam_3","in")
+end
+
+function misul_dal_svd(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_svd","in")
+end
+
+function sahar_shlem_dal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "good_psy_helmet","in")
+end
+
+function vdv_teleport()
+    local se_obj = alife():create("m_teleport_vdv",vector():set(161.64535107422,24.363530883789,-449.9514477539),991329,3734)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15044
+        amk.set_anomaly_data(t, se_obj)
+end
+function new_vdv_teleport()
+    local se_obj = alife():create("m_teleport_vdv_new",vector():set(169.872573852539,24.162589263916,-450.299987792969),1005085,3734)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15050
+        amk.set_anomaly_data(t, se_obj)
+end
+function sahar_zaebalo()
+    local se_obj = alife():create("m_teleport_sahar_zaebalo",vector():set(173.747735107422,5.440530883789,-247.80314477539),133204,1438)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 13003
+        amk.set_anomaly_data(t, se_obj)
+end
+function sahar_zaebalo1()
+    local se_obj = alife():create("m_teleport_sahar_zaebalo1",vector():set(25.35435107422,-11.717530883789,-271.49014477539),51615,1480)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 13004
+        amk.set_anomaly_data(t, se_obj)
+end
+function bar_teleport()
+    local se_obj = alife():create("m_teleport_bar",vector():set(204.257473852539,-0.000019263916,-40.760987792969),49172,1265)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15072
+        amk.set_anomaly_data(t, se_obj)
+end
+function x10_teleport_spawn()
+    local se_obj = alife():create("m_teleport_x10",vector():set(6.36040830612183,-21.3469467163086,15.1088361740112),5833,2661)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15113
+        amk.set_anomaly_data(t, se_obj)
+end
+function x10_1_teleport_spawn()
+    local se_obj = alife():create("m_teleport_x10_1",vector():set(7.30040830612183,-23.4354467163086,12.8348361740112),7695,2773)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15114
+        amk.set_anomaly_data(t, se_obj)
+end
+function kostya_teleport()
+    local se_obj = alife():create("m_kostya_teleport",vector():set(22.90240830612183,1.9244467163086,-282.0418361740112),150468,3436)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15117
+        amk.set_anomaly_data(t, se_obj)
+end
+function strelok_teleport()
+    local se_obj = alife():create("m_strelok_teleport",vector():set(-47.52040830612183,5.2234467163086,48.9078361740112),201021,672)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15123
+        amk.set_anomaly_data(t, se_obj)
+ news_manager.send_tip(db.actor, "Teleport is activated Arrow", nil, nil, 30000)
+end
+function strelok_teleport_zashita()
+    local se_obj = alife():create("m_strelok_teleport_zashita",vector():set(-76.71340830612183,0.3874467163086,12.5918361740112),165301,699)
+	  local t = amk.get_anomaly_data(se_obj) 
+        t.sid = 15124
+        amk.set_anomaly_data(t, se_obj)
+ news_manager.send_tip(db.actor, "Teleport protection activated", nil, nil, 30000)
+end
+
+
+function arhara_ognemet(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_ognemet","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+dialogs.relocate_item_section(second_speaker, "ammo_balon","in")
+end
+
+function fena_dala(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_ak104","in")
+dialogs.relocate_money(second_speaker, 20000, "in")
+end
+
+function food_spawn()
+local obj = alife():create("box_food",vector():set(206.83917236328,-0.39853,204.41589),261202,2219)
+end
+
+function esc_lebed_ataka_ok_have(task, info)
+    if db.actor and db.actor:has_info("esc_ubludki_sdohli") and db.actor:has_info("esc_ubludki_sdohli2")
+ and db.actor:has_info("esc_ubludki_sdohli3") and db.actor:has_info("esc_ubludki_sdohli4")
+ and db.actor:has_info("esc_ubludki_sdohli5") and db.actor:has_info("esc_ubludki_sdohli6")
+ and db.actor:has_info("esc_ubludki_sdohli7") and db.actor:has_info("esc_ubludki_sdohli8")
+ and db.actor:has_info("esc_ubludki_sdohli9") ~= nil then
+  return db.actor:give_info_portion("esc_lebed_ataka_ok_have") ~= nil   
+  end
+return false
+end
+
+function agr_lebed_ataka_have(task, info)
+    if db.actor and db.actor:has_info("agr_ubludki_sdohli") and db.actor:has_info("agr_ubludki_sdohli2")
+ and db.actor:has_info("agr_ubludki_sdohli3") and db.actor:has_info("agr_ubludki_sdohli4")
+ and db.actor:has_info("agr_ubludki_sdohli5") and db.actor:has_info("agr_ubludki_sdohli6")
+ and db.actor:has_info("agr_ubludki_sdohli7") and db.actor:has_info("agr_ubludki_sdohli8")  and db.actor:has_info("agr_ubludki_sdohli9") 
+ and db.actor:has_info("agr_ubludki_sdohli10")~= nil then
+  return db.actor:give_info_portion("agr_lebed_ataka_have") ~= nil   
+  end
+return false
+end
+
+function esc_lebed_ataka_ok2_have(task, info)
+    if db.actor and db.actor:has_info("esc_ubludki2_sdohli") and db.actor:has_info("esc_ubludki2_sdohli2")
+ and db.actor:has_info("esc_ubludki2_sdohli3") and db.actor:has_info("esc_ubludki2_sdohli4")
+ and db.actor:has_info("esc_ubludki2_sdohli5") and db.actor:has_info("esc_ubludki2_sdohli6")
+ and db.actor:has_info("esc_ubludki2_sdohli7") and db.actor:has_info("esc_ubludki2_sdohli8") ~= nil then
+  return db.actor:give_info_portion("esc_lebed_ataka_ok2_have") ~= nil   
+  end
+return false
+end
+
+function gar_band_dead_have(task, info)
+    if db.actor and db.actor:has_info("gar_bandos_dead") and db.actor:has_info("gar_bandos2_dead")
+ and db.actor:has_info("gar_bandos3_dead") and db.actor:has_info("gar_bandos4_dead")
+ and db.actor:has_info("gar_bur_dead") ~= nil then
+  return db.actor:give_info_portion("gar_bur_dead_ok") ~= nil   
+  end
+return false
+end
+
+function yan_hozjain_plen_have(task, info)
+    if db.actor and db.actor:has_info("yan_hozjain_plen_dead") and db.actor:has_info("yan_hozjain_plen2_dead") then
+  return db.actor:give_info_portion("yan_hozjain_plen_dead_ok")   
+  end
+return false
+end
+
+function yan_hozjain_have(task, info)
+    if db.actor and db.actor:has_info("yan_hozjain2_dead") and db.actor:has_info("yan_hozjain3_dead") and db.actor:has_info("yan_hozjain4_dead") and db.actor:has_info("yan_hozjain5_dead") and db.actor:has_info("yan_hozjain6_dead") then
+  return db.actor:give_info_portion("yan_hozjain_done")   
+  end
+return false
+end
+
+
+function friend_dolg(actor, npc)
+if db.actor ~= nil then
+db.actor:set_character_community("stalker", 0, 0)
+local chkgoodwill = relation_registry.community_goodwill("dolg", db.actor:id())
+if chkgoodwill < 0 then 
+chkgoodwill = chkgoodwill + 1700
+relation_registry.set_community_goodwill ("dolg", db.actor:id(), chkgoodwill)
+else
+relation_registry.set_community_goodwill ("dolg", db.actor:id(), 1700)
+end
+end
+end
+
+function vecher (actor, npc)
+    return level.get_time_hours() >= 20 and level.get_time_hours() < 21
+end
+
+function strely_spawn()
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117926147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117826147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117726147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117626147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117526147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117426147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117326147461),608688,2894)
+local obj=alife():create("wpn_crossbow",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+end
+
+function disk_saharova_spawn()
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117926147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117826147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117726147461),608688,2894)
+local obj=alife():create("ammo_arbolt",vector():set(-152.114443481445,-1.2030434417725,-112.117626147461),608688,2894)
+--local obj=alife():create("nebo_exo_outfit",vector():set(7.093443481445,-22.5230434417725,7.631426147461),7689,2703)
+local obj=alife():create("monolit_exoskeleton",vector():set(7.838443481445,-22.6230434417725,7.585426147461),7689,2703)
+local obj=alife():create("x10_doki_door",vector():set(7.40040830612183,-23.4354467163086,12.8348361740112),7695,2773)
+local obj=alife():create("disk_sahara",vector():set(7.30040830612183,-23.4354467163086,12.8348361740112),7695,2773)
+end
+
+function chudo_spawn()
+local obj=alife():create("chudo_udo",vector():set(-198.352,-54.062,-192.243),529483,2892)
+end
+
+function tarakan_spawn()
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+local obj=alife():create("tarakan",vector():set(-185.932443481445,-54.9290434417725,-186.002926147461),549427,2897)
+end
+
+function set_metka_chudo()
+ for a=1,65534 do
+  local obj = alife():object(a)
+  if obj then
+   if obj:section_name()=="wpn_crossbow" then
+    amk.add_spot_on_map(obj.id,"crlc_big","The approximate location of the crossbow in the Wetlands")
+    return
+   end
+  end
+ end
+end
+
+function remove_metka_chudo()
+ for a=1,65534 do
+  local obj = alife():object(a)
+  if obj then
+   if obj:section_name()=="wpn_crossbow" then
+    level.map_remove_object_spot(obj.id,"crlc_big")
+    break
+   end
+  end
+ end
+end
+
+function set_metka_baks()
+ for a=1,65534 do
+  local obj = alife():object(a)
+  if obj then
+   if obj:section_name()=="metka_kostya" then
+    amk.add_spot_on_map(obj.id,"crlc_big","The approximate location of the SOS signal")
+    return
+   end
+  end
+ end
+end
+
+function remove_metka_baks()
+ for a=1,65534 do
+  local obj = alife():object(a)
+  if obj then
+   if obj:section_name()=="metka_kostya" then
+    level.map_remove_object_spot(obj.id,"crlc_big")
+    break
+   end
+  end
+ end
+end
+
+function set_metka_pulja()
+ for a=1,65534 do
+  local obj = alife():object(a)
+  if obj then
+   if obj:section_name()=="metka_pulja" then
+    amk.add_spot_on_map(obj.id,"crlc_big","Location shooting")
+    return
+   end
+  end
+ end
+end
+
+function remove_metka_pulja()
+ for a=1,65534 do
+  local obj = alife():object(a)
+  if obj then
+   if obj:section_name()=="metka_pulja" then
+    level.map_remove_object_spot(obj.id,"crlc_big")
+    break
+   end
+  end
+ end
+end
+
+function chudo_udo_have(task, info)
+    if db.actor and db.actor:has_info("chudo_udo_dead") then
+  return db.actor:give_info_portion("chudo_udo_have")    
+  end
+return false
+end
+
+function aver_kontrik_have(task, info)
+    if db.actor and db.actor:has_info("aver_kontrik1_dead") and db.actor:has_info("aver_kontrik2_dead") then
+  return db.actor:give_info_portion("aver_kontrik_have")  
+  end
+return false
+end
+
+function as_vodjan_have(task, info)
+    if db.actor and db.actor:has_info("vodjan_dead") and db.actor:has_info("vodjan_dead1") and db.actor:has_info("vodjan_dead2") then
+  return db.actor:give_info_portion("as_vodjan_have")
+  end
+return false
+end
+
+
+function chudo_udo_done(first_speaker, second_speaker)
+dialogs.relocate_money(first_speaker, 50,"in")
+end
+
+--------------------------SAK---------------------------------------------
+
+function zombie_checkup()
+	if db.actor ~= nil then
+		if math_random() > 0.7 then
+		local a=math_random()
+		local h = hit()
+                h.draftsman = db.actor
+		h.type = hit.telepatic
+		h.power = 0.1+a/2
+                h.impulse = 1.0
+                db.actor:hit(h)
+		h.type = hit.strike
+		db.actor:hit(h)
+                h.type = hit.wound
+                db.actor:hit(h)
+                 h:bone("bip01_spine")
+		amk_particle.amk_particle({
+				particle="amk\\zomb_explode",
+				pos=db.actor:position(),
+				sound=[[weapons\t_f1_explosion]]
+			})
+level.add_cam_effector("camera_effects\\fusker.anm",959,false,"")
+		local rnd=math_random(1,6)
+		local snd_obj
+			if rnd==1 then
+			snd_obj = 	xr_sound.get_safe_sound_object([[characters_voice\human_01\stalker\fight\hit\hit_1]])
+			elseif rnd==2 then
+			snd_obj = 	xr_sound.get_safe_sound_object([[characters_voice\human_01\stalker\fight\hit\hit_2]])
+			elseif rnd==3 then
+			snd_obj = 	xr_sound.get_safe_sound_object([[characters_voice\human_01\stalker\fight\hit\hit_3]])
+			elseif rnd==4 then
+			snd_obj = 	xr_sound.get_safe_sound_object([[characters_voice\human_01\stalker\fight\hit\hit_6]])
+			elseif rnd==5 then
+			snd_obj = 	xr_sound.get_safe_sound_object([[characters_voice\human_01\stalker\fight\hit\hit_7]])
+			elseif rnd==6 then
+			snd_obj = 	xr_sound.get_safe_sound_object([[characters_voice\human_01\stalker\fight\hit\hit_8]])
+			end
+			snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+		end
+	end
+end
+
+function v3f(x,y,z)
+	return vector():set(x,y,z)
+end
+------------------------------------------SAK----------------------------------------------------
+---------------------------------------Наборы мастеров ТТ2--------------------------------------------
+function spawn_kostya2()
+local obj=alife():create("kostya2",vector():set(28.571,3.097,-235.967),153673,3433)
+	level.add_cam_effector("camera_effects\\prison_1.anm", 25, false, "")
+	level.add_pp_effector("yantar_underground_psi.ppe", 2007, false)
+	level.add_pp_effector("total_recall.ppe", 2008, false)
+local snd_obj = xr_sound.get_safe_sound_object([[new\mandra]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+	level.add_cam_effector("camera_effects\\hit_back_left.anm", 26, false, "")
+end
+function spawn_skr_normal()
+	level.add_cam_effector("camera_effects\\prison_1.anm", 25, false, "")
+	level.add_pp_effector("yantar_underground_psi.ppe", 2007, false)
+	level.add_pp_effector("total_recall.ppe", 2008, false)
+local snd_obj = xr_sound.get_safe_sound_object([[new\mandra]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+	level.add_cam_effector("camera_effects\\hit_back_left.anm", 26, false, "")
+end
+function tanker_x10()
+local obj=alife():create("tanker",vector():set(7.488999084473,-23.43479994277954,13.011),7695,2773)
+	level.add_cam_effector("camera_effects\\prison_1.anm", 25, false, "")
+	level.add_pp_effector("yantar_underground_psi.ppe", 2007, false)
+	level.add_pp_effector("total_recall.ppe", 2008, false)
+local snd_obj = xr_sound.get_safe_sound_object([[new\mandra]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+	level.add_cam_effector("camera_effects\\hit_back_left.anm", 26, false, "")
+end
+
+function monolit_deretsa()
+--local obj=alife():create("tanker",vector():set(7.488999084473,-23.43479994277954,13.011),7695,2773)
+	level.add_cam_effector("camera_effects\\prison_1.anm", 25, false, "")
+	level.add_pp_effector("yantar_underground_psi.ppe", 2007, false)
+	level.add_pp_effector("total_recall.ppe", 2008, false)
+local snd_obj = xr_sound.get_safe_sound_object([[new\mandra]])
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+	level.add_cam_effector("camera_effects\\hit_back_left.anm", 26, false, "")
+end
+---------------------------------------------------------------------------------------
+
+function delete_kostya2()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"kostya2") then
+        alife():release(obj,true)
+        end
+    end
+end 
+function delete_mar_gas()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"mar_gastell") then
+        alife():release(obj,true)
+news_manager.send_tip(db.actor, "Scar, I currencies in the dressing room - Gastello", nil, "gastello", 30000)
+        end
+    end
+end
+function trup_mina()
+	if db.actor ~= nil then
+		if math_random() > 0.7 then
+		local a=math_random()
+                local h = hit()
+                h.draftsman = db.actor
+		h.type = hit.telepatic
+		h.power = 0.1+a/2
+                h.impulse = 1.0
+                db.actor:hit(h)
+		h.type = hit.strike
+		db.actor:hit(h)
+                h.type = hit.wound
+                db.actor:hit(h)
+                 h:bone("bip01_spine")
+		amk_particle.amk_particle({
+				particle="amk\\zomb_explode",
+				pos=db.actor:position(),
+				sound=[[weapons\t_f1_explosion]]
+			})
+	level.add_cam_effector("camera_effects\\fusker.anm",959,false,"")
+		end
+	end
+end
+function wish_give_med(trader, actor)
+   db.storage[db.actor:id()].pstor["wish_zombied"] = "no"
+   db.storage[db.actor:id()].pstor["count_zombie "] = 0
+   db.actor:set_character_community("actor", 0, 0)
+   dialogs.relocate_money(actor, 1500, "out")
+   level.remove_pp_effector (1986)
+   level.remove_pp_effector (1987)
+   level.add_pp_effector ("deadcity_wake1.ppe", 1976, false)
+   dialogs.break_dialog(trader, actor)
+end
+function wish_give_med_zone()
+db.storage[db.actor:id()].pstor["wish_zombied"] = "yes"
+db.storage[db.actor:id()].pstor["count_zombie "] = 0		
+end
+
+function pred_tele( actor, npc)
+   level.add_pp_effector ("blink.ppe", 234, false)       
+   level.add_pp_effector("teleport.ppe", 2006, false) 
+   db.actor:set_actor_position(patrol("pred_actor_tele_walk"):point(0))
+   local dir = patrol("pred_actor_tele_look"):point(0):sub(patrol("pred_actor_tele_look"):point(0))
+   db.actor:set_actor_direction(-dir:getH())
+end
+function bar_tele( actor, npc)
+   level.add_pp_effector ("blink.ppe", 234, false)       
+   level.add_pp_effector("teleport.ppe", 2006, false) 
+   db.actor:set_actor_position(patrol("bar_actor_tele_walk"):point(0))
+   local dir = patrol("bar_actor_tele_look"):point(0):sub(patrol("bar_actor_tele_look"):point(0))
+   db.actor:set_actor_direction(-dir:getH())
+end
+----------------------------antreg function----------------------------
+function kislota(obj)
+	local particle_blow = particles_object([[amik\monsters\water_zombi_explo]])
+	particle_blow:play_at_pos(obj:bone_position("bip01_spine1"))
+	local id = obj:id()
+	local pos = obj:position()
+	local lvid = obj:level_vertex_id()
+	local gvid = obj:game_vertex_id()
+	level.add_pp_effector("rename.ppe", 1001, false)
+        level.add_cam_effector("water_blow.anm", 1002, false, "")
+        for i = 1,6 do
+	local pos1 = obj:position():add(vector():set((math.random()*2-1),1,(math.random()*2-1)))
+end
+end
+
+function del_vodjan()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"vodjan") then
+        alife():release(obj,true)
+        end
+    end
+end
+function del_vodjan1()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"vodjan1") then
+        alife():release(obj,true)
+        end
+    end
+end
+function del_vodjan2()
+    for a=10,65635,1 do
+    local obj=alife():object(a)
+        if obj and string.find(obj:name(),"vodjan2") then
+        alife():release(obj,true)
+        end
+    end
+end
+function arena_monstr_spawn()
+local obj = alife():create("wolk",vector():set(152.492,-21.037,118.046),40607,1212)
+local obj = alife():create("bloodsucker_hell",vector():set(152.492,-21.037,118.046),40607,1212)
+local obj = alife():create("bloodsucker_tor",vector():set(152.492,-21.037,118.046),40607,1212)
+local obj = alife():create("chimera_strong",vector():set(152.392,-21.037,118.046),40607,1212)
+end
+ 

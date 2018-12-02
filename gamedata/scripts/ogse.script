@@ -1,0 +1,523 @@
+-------------Функции,взятые из разных модов----------------
+-------------------В основном из OGSE----------------------
+-----------------И некоторые функции мода-------------------
+
+
+
+-- Сохранение текущих координат актора в форматированном фиде(в виде одной строки)
+function log_coords()
+local lvid, gvid = db.actor:level_vertex_id(), db.actor:game_vertex_id()
+local pos = db.actor:position()
+this.dbglog("("..pos.x..","..pos.y..","..pos.z.."),"..lvid..","..gvid)
+end
+
+-- Вывод отладочной информации
+function dbglog(fmt,...)
+	local msg = string.format(fmt, ...)
+	local msg_no_ws = string.gsub(msg, "%s", "_")
+	get_console():execute("load ~:" .. msg_no_ws)
+	get_console():execute("flush")		
+end
+
+-- Функция спавна предметов в рюкзак ГГ
+function give_object_to_actor(obj, count)
+	local i = 1
+	if count == nil then count=1 end
+	for i = 1, count do
+		alife():create(obj,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id())
+	end
+end
+
+-- Функция спавна патронов в рюкзак ГГ
+function give_ammo_to_actor(obj, count)
+  if count == nil then count = 1 end
+  alife():create_ammo(obj,db.actor:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id(),db.actor:id(),count)
+end
+
+--Фунция спавна неписей рядом с гг полукругом(5 человек)
+local angle = 0
+function spawn_new(section)
+local pos = db.actor:position()
+local dir = db.actor:direction()
+local lv = db.actor:level_vertex_id()
+local gv = db.actor:game_vertex_id()
+for i=1, 5 do
+if (angle > 360) then
+angle = angle - 360
+end
+local new_dir = vector_rotate_y (dir, angle)
+pos = pos:add(new_dir:mul(5)) 
+alife():create(section, pos, lv, gv)
+angle=angle+20 
+end
+end
+
+--Функция спавна за спиной ГГ доработанная
+--prob - вероятность спавна в процентах
+--long - как далеко от спины актора будет спавниться непись (0 - близко, 3 - далеко, 1 и 2 - средне)
+--section - секция непися, который спаунится 
+function SpawnAfterHead(long,prob,section)
+    if math.random (1,100) < prob then
+        local ArLong = {
+            [0] = 2.5,
+            [1] = 3.5,
+            [2] = 4.5,
+            [3] = 9
+        }
+        obj = db.actor
+        local dir = vector()
+        local pos = vector()
+        pos = obj:position()
+        dir = obj:direction()
+        pos.x = pos.x - dir.x * ArLong[long]
+        pos.z = pos.z - dir.z * ArLong[long]
+        alife():create(section,pos,db.actor:level_vertex_id(),db.actor:game_vertex_id())
+    end
+end
+
+--Функция спавна предмета на заданном расстоянии от ГГ
+--вызывать так ogse.spawn_item("physic_krovat_01", 5)
+--так через 5 метров появиться кровать
+function spawn_item(spawn_item, dist)
+		local	pos = db.actor:position()
+		local	dir = db.actor:direction()
+		pos = pos:add(dir:mul(dist))
+		alife():create(spawn_item, pos, 1, db.actor:game_vertex_id())
+end
+
+--запись в лог координат столбиком
+function show_actor_position()
+  if level.present() and (db.actor ~= nil) then
+	  local text
+	  local vid, gvid
+	  local a = vector()
+	  a = db.actor:position()
+	  vid = db.actor:level_vertex_id()
+	  gvid = db.actor:game_vertex_id()
+	  get_console():execute("load "..a.x)
+	  get_console():execute("load "..a.y)
+	  get_console():execute("load "..a.z)
+	  get_console():execute("load "..gvid)
+	  get_console():execute("load "..vid)
+	  get_console():execute("flush")
+	end
+end
+
+--Функция убийства всех сталкеров на локации(не проверял)
+function kill()
+	local obj = level.object("m_stalker_e")
+	obj:kill(obj)
+end
+
+-- Функция спавна с возможностью указания количества
+-- Использовать примерно так = ogse.spawn_test("zat_freedom_respawn_svo", 8, db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
+-- Так рядом с ГГ появиться восемь сталкеров
+function spawn_test(section,count,position,level_vertex_id,game_vertex_id)
+	local i = 1
+	if count == nil then count=1 end
+	for i = 1, count do
+	alife():create(section,position,level_vertex_id,game_vertex_id)
+	end
+end
+
+--ПРОВЕРКА КОЛ_ВА ОДИНАКОВЫХ ПРЕДМЕТОВ У АКТЕРА
+function has_func(section,count)
+       local item_sections = {section} 
+       local needed = count 
+       local count = 0
+       local item_section
+   local function calc(temp, item)
+       if item:section() == item_section then
+       count = count + 1
+end 
+   for k,v in pairs(item_sections) do
+   item_section = v
+   get_story_object("actor"):iterate_inventory(calc, actor)
+end
+   return count >= needed
+end
+end
+
+--Проверка на взятие нескольких разных предметов и выдача инфопоршня:
+local t_wpn = {"THING1", "THING1", "THING1"}
+function search_ALL_weapons_complete()
+local gg = db.actor
+if gg then
+for i=1,#t_wpn do
+if not gg:object(t_wpn[i]) then
+return false
+end
+end
+gg:give_info_portion("PISTON")
+return true
+end
+return false
+end
+
+--проигрыш звука
+--из LWR(Ирбис)
+--вызывать так = ogse.PlaySound([[папка\звук(без расширения ogf!!!)]])
+function PlaySound(sound,obj)
+	if obj == nil then obj = db.actor end
+	snd = xr_sound.get_safe_sound_object(sound)
+	snd:play_no_feedback(obj, sound_object.s2d, 0, vector(), 1.0)
+end
+
+-- Medic support(Лечим ГГ)
+function medic_magic_potion()
+	db.actor.health = 1
+	db.actor.power = 1
+	db.actor.radiation = -1
+        db.actor.bleeding = -1
+end
+
+--Функция удаления всего по имени(рестрикторы,аномалии в том числе)
+function delete_haker_stalker(section)
+for a=10,65635,1 do
+local obj=alife():object(a)
+if obj and string.find(obj:name(),section) then
+alife():release(obj,true)
+end
+end
+end
+
+--Создание предмета в рюкзаке НПС.
+function give_object_to_npc(obj,npc)
+  if obj~=nil then
+     alife():create(obj,npc:position(),npc:level_vertex_id(),npc:game_vertex_id(),npc:id())
+  end
+end
+
+--проигрыш звука(работает)
+function play_sounds_test(snd_obj)
+local snd_obj = xr_sound.get_safe_sound_object()
+snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+end
+
+-- играть звук от указанного объекта по его стори-ай-ди
+-- пример:sounder_active([[ambient\earthquake]],98)
+function sounder_active(snrnd,sid)
+	local snd_obj = xr_sound.get_safe_sound_object(snrnd)
+	local obj     = level_object_by_sid(sid)
+	snd_obj:play_no_feedback(obj, sound_object.s3d, 0, obj:position(), 1.0)
+end
+
+-- рандомная награда
+function rnd_give(first_speaker, second_speaker)
+      local miss_list = {"af_medusa","medkit_army","af_blood","af_vyvert"}
+      local k = ""
+      k = miss_list[math.random(table.getn(miss_list))]
+      dialogs.relocate_item_section(second_speaker, (k), "in")
+end
+
+-- установить ранк актера
+function set_actor_rank(rank)
+	if rank == "novice" then
+		db.actor:set_character_rank(0)
+	elseif rank == "stalker" then
+		db.actor:set_character_rank(300)
+	elseif rank == "veteran" then
+		db.actor:set_character_rank(600)
+	elseif rank == "master" then
+		db.actor:set_character_rank(900)
+	end
+end
+
+-- Вступления в группировки
+function join_bandit (actor, npc)
+    printf ("ACTOR NOW IN BANDIT COMMUNITY")
+    if db.actor then
+       db.actor:set_character_community ("bandit", 0, 0)
+    end
+end
+
+function join_military (actor, npc)
+    printf ("ACTOR NOW IN MILITARY COMMUNITY")
+    if db.actor then
+       db.actor:set_character_community ("military", 0, 0)
+    end
+end
+
+function join_csky (actor, npc)
+    printf ("ACTOR NOW IN CSKY COMMUNITY")
+    if db.actor then
+       db.actor:set_character_community ("csky", 0, 0)
+    end
+end
+
+function join_killer (actor, npc)
+    printf ("ACTOR NOW IN KILLER COMMUNITY")
+    if db.actor then
+       db.actor:set_character_community ("killer", 0, 0)
+    end
+end
+
+function join_ecolog (actor, npc)
+    printf ("ACTOR NOW IN ECOLOG COMMUNITY")
+    if db.actor then
+       db.actor:set_character_community ("ecolog", 0, 0)
+    end
+end
+
+function join_monolith (actor, npc)
+    printf ("ACTOR NOW IN MONOLITH COMMUNITY")
+    if db.actor then
+       db.actor:set_character_community ("monolith", 0, 0)
+    end
+end
+
+--универсальная проверка на деньги
+function have_money(cost)
+	local actor_money = db.actor:money(cost)
+	return actor_money and cost and actor_money >= cost
+end
+
+--Квестовые функции
+-- Выдать предмет
+function give(item)
+dialogs.relocate_item_section(first_speaker, item, "in")
+end
+-- Удалить предмет
+function relese(item)
+dialogs.relocate_item_section(first_speaker, item, "out")
+end
+-- Удаляем что-то из инвенторя
+function remove_item(item_section)
+alife():release(alife():object(db.actor:object(item_section):id()), true)
+end
+-- Удаляем ЧТО_ТО
+function remove_obj(obj_id)
+alife():release(alife():object(obj_id), true)
+end
+-- Функции для работы с инфопоршнями
+function have_info(info)
+return db.actor:has_info(info)
+end
+function dont_info(info)
+return db.actor:dont_has_info(info)
+end
+function give_info(info)
+return db.actor:give_info_portion(info)
+end
+function dis_info(info)
+return db.actor:disable_info_portion(info)
+end
+
+--проверка на наличие определенного предмета у актера
+--function name()
+--return ogse.actor_has_object(actor, "krot_flash")
+--end
+function actor_has_object(actor, obj_name)
+local actor = db.actor
+	return actor:object(obj_name) ~= nil
+end
+
+--проверка на наличие определенного предмета у актера(2)
+function actor_has_object_add(obj_name)
+if db.actor:object(obj_name) then
+       return true
+   end
+   return false
+end
+
+--функция для проверки нахождения ГГ в определенной области
+--Пример = if distance_to_point ("l01_escape", -210.632614135742, -20.050708770752, -142.461120605469, 10) then
+function distance_to_point (lname, pos_x, pos_y, pos_z, dist)
+    local actor = db.actor
+-- определим текущую локацию, дабы не определять гейм и левел вертексы, хотя можно и их
+    local lev_name = level.name()
+-- зададим точке наши координаты
+    local point = vector:set(pos_x, pos_y, pos_z)
+-- проверим существует ли актор и находится ли он на нужной локации
+    if actor and lev_name == lname then
+    -- определим координаты актора
+        local actor_pos = actor:position()
+    -- чтобы сэконимить ресурсы ПК проверим квадрат расстояния между ГГ и точкой
+        if point:distance_to_sqr(actor_pos) <= dist*dist then
+            return true
+        end
+        return false
+    end
+end
+
+--Функция УДАЛЕНИЯ предмета из рюкзака актора
+function Delete_from_Actor(section)
+local oItem = db.actor:object(section) --/ определяем предмет у ГГ
+if oItem then --/ у ГГ есть предмет
+db.actor:drop_item(oItem) --/ выбрасываем предмет (опционально)
+alife():release(alife():object(oItem:id()), true) --/ удаляем из игры
+end
+end
+
+--Функция выдачи новостей
+--пример ogse.update_spam("Как же красиво в Зоне утром.")
+function update_spam(tips)
+   news_manager.send_tip(db.actor, tips, nil, nil, 10000)  
+end
+
+--* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+-- *			                         Inventory					       *
+--* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+--Проверка на количество предметов в инвентаре гг
+function inventory_search(itemS, n)
+	local  actor = db.actor
+	local  count = 0
+	actor:iterate_inventory(function (dummy, item) if item:section()== itemS then count=count+1 end end, nil)
+	if count >= n then
+		return true
+	else
+		return false
+	end
+end
+
+--Проверка на предмет в инвентаре гг
+function have_a_item(itemS)
+    local actor = db.actor
+    if actor ~= nil and actor:object(itemS) ~= nil then
+		return true
+	else
+		return false
+	end
+end
+
+--Проверка на предмет в инветаре и выдачу инфопоршена
+function have_a_item_info(itemS, info)
+    local actor = db.actor
+    if actor ~= nil and actor:object(itemS) ~= nil and actor:dont_has_info(info) then
+		actor:give_info_portion(info)
+	end
+end
+
+--Проверка инфопоршенов
+function have_a_info(info_has, not_info_has)
+	local actor = db.actor
+	if has_alife_info(info_has) and not has_alife_info(not_info_has) then
+		return true
+	else
+		return false
+	end
+end
+
+--Проверка денег у гг
+function actor_has_money(money)
+	local actor = db.actor
+	if actor:money() >= money then
+		return true
+	else
+		return false
+	end
+end
+
+--* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+-- *			                         Transfers					       *
+--* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+--Трансфер денег между гг и нпс
+function actor_give_money(npcObj, actorObj, money, Type)
+	local actor, npc
+	if db.actor and db.actor:id() == npc:id() then
+		actor = npcObj
+		npc = actorObj
+	else
+		actor = actorObj
+		npc = npcObj
+	end
+	
+	if Type == "out" then
+		dialogs.relocate_money(npc, money, "out")
+	elseif Type == "in" then 
+		dialogs.relocate_money(npc, money, "in")
+	end
+end
+
+--Трансфер предмета между гг и нпс
+function actor_give_item(npcObj, actorObj, itemS, Type)
+	local actor, npc
+	if db.actor and db.actor:id() == npc:id() then
+		actor = npcObj
+		npc = actorObj
+	else
+		actor = actorObj
+		npc = npcObj
+	end
+	
+	if 	   Type == "out" then
+		dialogs.relocate_item_section(npc, itemS, "out")
+	elseif Type == "in" then 
+		dialogs.relocate_item_section(npc, itemS, "in")
+	end
+end
+
+--Трансфер предметов между гг и нпс
+function relocate_n_items_section(victim, section, Type, count)
+    if db.actor and victim then
+		if Type == "in" then
+			for i=1, n do
+                alife():create(section,
+					db.actor:position(),
+					db.actor:level_vertex_id(),
+					db.actor:game_vertex_id(),
+					db.actor:id())
+			end
+		elseif Type == "out" then
+			db.actor:iterate_inventory(function (dummy,item) if item:section() == section and count > 0 then 
+			db.actor:transfer_item(item, victim) count = count - 1 end end, nil)
+		end
+		news_manager.relocate_item(db.actor, Type, section)
+    end
+end
+-----------Разные функции мода ----------------------------------------------------
+--спавн проводника после смерти
+function baza_mar_stalker_death()
+     if del_so(baza_mar_stalker) then
+     local obj = alife():create("baza_mar_stalker_resp",vector():set(-132.619338989258,0.473305732011795,-291.608489990234),79648,3381)
+     local params = amk.read_stalker_params(obj)
+     params.custom = "[logic]\ncfg = scripts\\marsh\\baza_mar_stalker.ltx"
+     amk.write_stalker_params(params,obj)
+     end
+end
+
+function bonus_give(first_speaker, second_speaker)
+dialogs.relocate_money(second_speaker, 450000, "in")
+end
+
+--СТАРТОВЫЙ КВЕСТ
+--спавн документов с грузовика
+function spawn_spas_doc()
+local obj = alife():create("esc_spas_document",vector():set(117.62727355957,1.7974047660828,471.56616210938),423410,222)
+end
+
+--проверка на взятие документов
+--if has_alife_info("bar_dolg_propusk_start") and 
+--not has_alife_info("bar_dolg_propusk_done") then
+
+function item_take (obj)
+if obj and obj:section() == "wpn_pm" then 
+db.actor:give_info_portion("bar_dolg_propusk_have")
+end
+return true
+end
+
+--передача документов
+function esc_doc_lost(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "wpn_pm", "out")
+end
+
+--получение награды
+function esc_spas_done(first_speaker, second_speaker)
+dialogs.relocate_money(second_speaker, 8500, "in")
+dialogs.relocate_item_section(second_speaker, "medkit", "in")
+dialogs.relocate_item_section(second_speaker, "medkit", "in")
+dialogs.relocate_item_section(second_speaker, "medkit", "in")
+dialogs.relocate_item_section(second_speaker, "bandage", "in")
+spawn.heli("mi24",-356.30456542969,15.556171417236,231.61962890625,613,66,"esc_railroad_patrol")
+end
+
+
+function bar_dolg_propusk_have(task, objective) 
+if db.actor ~= nil then 
+return db.actor:object("wpn_pm") ~= nil
+end
+return false
+end

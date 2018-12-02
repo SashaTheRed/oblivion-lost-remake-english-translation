@@ -1,0 +1,36 @@
+--Oblivion Lost Remake (2014)
+--(c) proger_Dencheek
+--Использование топлива
+
+--Коллбек на использование предмета
+function on_use(obj)
+local ini = system_ini()
+	if ini:line_exist(obj:section(), "inc_fuel") then
+		local fuel = ini:r_float(obj:section(), "inc_fuel")
+		for i=1,65535 do
+			local car = level.object_by_id(i)
+
+
+				if car ~= nil and car:clsid() == clsid.car_s and car:position():distance_to(db.actor:position()) < 5 then
+
+				    	--проверяем, может бензобак уже полный, и случится баг заправки "в никуда"
+					--заправляем только если объем текущего топлива в бензобаке меньше объема бензобака
+		      		      	if car:get_fuel_tank() > car:get_fuel() then 		--if car:get_fuel_tank() ~= car:get_fuel() then
+
+						car:set_fuel(car:get_fuel() + fuel)
+						break
+
+				    	else
+						news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Car:".."\\n".."%c[255,150,15,15]Tank is full. ".."".."\n", nil, "default", 10000)
+						--news_manager.send_tip(db.actor, "storyline_vasilyev_tip", nil, "ecolog", nil, 903)
+		      		    	end
+
+
+				elseif i == 65535 then
+					amk.spawn_item_in_inv(obj:section())
+				end
+
+
+		end
+	end
+end

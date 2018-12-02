@@ -1,0 +1,1360 @@
+--[[-----------------------------------------------------------------------------------------------
+ File         : dmx_mod.script
+ Description  : Служебные и квестовые функции
+ Copyright    : DMX MOD
+ Author       : Shadows & Co
+ Date         : 01.09.2009
+ Last edit    : 14.08.2012
+--]]-----------------------------------------------------------------------------------------------
+
+function dmx_use(obj)
+	use_sound_items(obj)
+	use_radiation_detector(obj)
+	use_silencers_box(obj)
+	use_bolt_box(obj)
+	use_item_ammo_flame_transfer(obj)
+	bolt_ending.on_actor_use(obj)
+	hidden_slots.on_eat(obj:section())
+	dmx_medicines.use(obj:section())
+	dmx_cars.car_repair(obj)
+end
+
+function dmx_item_take(obj)
+    dmx_treasure.on_item_take(obj)
+    dmx_inv_weight_static.item_take(obj)
+    dmx_fast_use_slots.OnItemTake(obj:section())
+    bolt_ending.on_item_take(obj)
+    m_bar.take_item(obj)
+	cube_take(obj)
+	visual_fix(obj)
+	dmx_pda_notepad.mapspot_remove(obj)
+end
+
+function dmx_item_drop(obj)
+    razgruzka_v.lose_item(obj)
+    dmx_inv_weight_static.on_item_drop(obj)
+    dmx_fast_use_slots.OnItemDrop(obj:section())
+    bolt_ending.on_item_drop(obj)
+    m_bar.drop_item(obj)
+end
+
+local last_health = 0
+local time_100, time_300, time_1200 = 0, 0, 0
+function dmx_update(delta)
+	actor_killed()
+	blood_hud_update()
+	bolt_ending.update()
+	dmx_medicines.update()
+	keylogger.update()
+	wpn_explode_update()
+	dualweapon.main()
+	rx_shoot_enable.shoot_effect()
+	blowout_wave()
+	local time = time_global()
+	if time_100 < time then time_100 = time + 100
+		dmx_fast_use_slots.FastUseSlotsHud()
+		hidden_slots.on_update()
+		if time_300 < time then time_300 = time + 300
+			bunker_cooling_sound()
+			hud_sleep_static()
+			if time_1200 < time then time_1200 = time + 1200
+				dmx_inv_weight_static.update()
+				xr_giditara.guitar_update()
+				xr_garmon.garmoshka_update()
+				xr_smoking.smoking_update(delta)
+				xr_racya.radio_update()
+				--zoom_update()
+			end
+		end
+	end
+	if last_health > db.actor.health + 0.008 then
+		dmx_hit_callback(last_health - db.actor.health, db.actor:who_hit_name(), db.actor:who_hit_section_name())
+	end
+	last_health = db.actor.health
+end
+
+function dmx_hit_callback(amount, who_name, who_section_name)
+	if who_section_name == "zone_mine_field" or who_section_name == "zone_mine_electra" then
+		amk.start_timer("remove_mine_timer", 2, who_name)
+	end
+end
+
+function dmx_net_spawn()
+    max.update()
+    hidden_slots.net_spawn()
+    dmx_treasure.net_spawn()
+    bolt_ending.net_spawn()
+	dmx_medicines.net_spawn()
+	marsh_frogs_sound()
+	labirint_fix()
+	amk.start_timer("pause_menu_timer", 0.2)
+	get_console():execute("cam_inert 0.45")
+	get_console():execute("r1_tf_mipbias -0.5")
+	get_console():execute("r2_tf_mipbias -0.5")
+	get_console():execute("r2_parallax_h 0.04")
+	get_console():execute("r2_gloss_factor 2.5")
+	get_console():execute("r2_sun_near_border 1")
+end
+
+function dmx_net_destroy()
+    bolt_ending.net_destroy()
+end
+
+function dmx_start_spawn()
+    syslov_spawn()
+	place_of_sleep_spawn()
+	poisonous_fog_spawn()
+	special_effects_spawn()
+	dmx_cars.car_spawn()
+    dmx_cars.car_spawn_new_locations()
+	pripyat_cop_to_pripyat_1()
+	pripyat_cop_to_pripyat_2()
+	lab_x8_to_pripyat_cop()
+	turret_spawn.kordon_spawn_turret()
+	turret_spawn.agroprom_spawn_turret()
+	turret_spawn.tspawn3()
+end
+------------------------------------------------------------------------------------------------------------------------
+-- СПАВН ПЕРСОНАЖЕЙ
+-- Суслов на Болотах
+function syslov_spawn()
+    local obj = alife():create("syslov",vector():set(-178.59976196289,0.929643034935,-320.59954833984),51819,3365) 
+    local tbl = amk.read_stalker_params(obj)
+    tbl.sid = 97120
+    amk.write_stalker_params(tbl, obj)
+end
+
+-- Комбат на Кордоне
+function kombat_spawn() 
+alife():create("kombat",vector():set(183.67390441895,1.8403881788254,360.74264526367),484425,230) 
+end
+------------------------------------------------------------------------------------------------------------------------
+-- МЕТКИ ПЕРСОНАЖЕЙ
+-- Установка меток
+function mapspot_npc(sid,id)
+    if sid==9504 then level.map_add_object_spot(id, "repair_npc_mapspot", "Technician")  -- Долговязый
+    elseif level.object_by_id(id) and level.object_by_id(id):profile_name()=="marsh_remont" then level.map_add_object_spot(id, "repair_npc_mapspot", "Technician") -- Василий 
+    elseif sid==9501 then level.map_add_object_spot(id, "repair_npc_mapspot", "Technician") -- Сяк
+    elseif sid==507 then level.map_add_object_spot(id, "boss_npc_mapspot", "Chief of \"Duty\"")
+    elseif sid==707 then level.map_add_object_spot(id, "boss_npc_mapspot", "Chief of \"Freedom\"")
+    elseif sid==14000 then level.map_add_object_spot(id, "boss_npc_mapspot", "Chief of \"Clear Sky\"")
+    elseif sid==003 then level.map_add_object_spot(id, "trader_npc_mapspot", "Trader") -- Сидорович
+    elseif sid==500 then level.map_add_object_spot(id, "trader_npc_mapspot", "Trader") -- Бармен
+    elseif sid==97120 then level.map_add_object_spot(id, "trader_npc_mapspot", "Trader") -- Суслов
+    elseif sid==902 then level.map_add_object_spot(id, "trader_npc_mapspot", "Trader") -- Сахаров
+    elseif sid==734 then level.map_add_object_spot(id, "trader_npc_mapspot", "Trader") -- Скряга
+    elseif sid==9903 then level.map_add_object_spot(id, "trader_npc_mapspot", "Trader") -- Адреналин
+    end
+end
+
+-- Удаление меток в оффлайне
+function remove_mapspot_npc(sid,id)
+    if sid==9504 then level.map_remove_object_spot(id, "repair_npc_mapspot")  -- Долговязый
+    elseif level.object_by_id(id) and level.object_by_id(id):profile_name()=="marsh_remont" then level.map_remove_object_spot(id, "repair_npc_mapspot") -- Василий 
+    elseif sid==9501 then level.map_remove_object_spot(id, "repair_npc_mapspot") -- Сяк
+    elseif sid==507 then level.map_remove_object_spot(id, "boss_npc_mapspot") -- Воронин
+    elseif sid==707 then level.map_remove_object_spot(id, "boss_npc_mapspot") -- Лукаш
+    elseif sid==14000 then level.map_remove_object_spot(id, "boss_npc_mapspot") -- Свиблов
+    elseif sid==003 then level.map_remove_object_spot(id, "trader_npc_mapspot") -- Сидорович
+    elseif sid==500 then level.map_remove_object_spot(id, "trader_npc_mapspot") -- Бармен
+    elseif sid==97120 then level.map_remove_object_spot(id, "trader_npc_mapspot") -- Суслов
+    elseif sid==902 then level.map_remove_object_spot(id, "trader_npc_mapspot") -- Сахаров
+    elseif sid==734 then level.map_remove_object_spot(id, "trader_npc_mapspot") -- Скряга
+    elseif sid==9903 then level.map_remove_object_spot(id, "trader_npc_mapspot") -- Адреналин
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- СТАТЬИ ПРО ЛОКАЦИИ
+-- проверим наличие денег для статей
+function syslov_moral_many(actor,npc)
+return actor:money() > 1500
+end
+
+-- отдадим деньги за статьи
+function syslov_moral_many_dal(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then npc=t2 end
+dialogs.relocate_money(npc,1500,"out")
+end
+------------------------------------------------------------------------------------------------------------------------
+-- АПГРЕЙД СКАТа
+-- проверим наличие СКАТ-15 с 3-мя блоками апгрейдера
+function syslov_skat15_have()
+return sak.have_item_namber("exo_mil_exoskeleton_addrs",1) ~= false
+end
+
+-- проверим наличие артефакта Капля души
+function skat15up_art_have()
+return sak.have_item_namber("af_spirit_1",1) ~= false
+end
+
+-- проверим наличие денег 
+function skat15up_moral_many(actor,npc)
+return actor:money() > 45000
+end
+
+-- отдадим деньги
+function skat15up_moral_many_dal(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then npc=t2 end
+dialogs.relocate_money(npc,45000,"out")
+end
+
+-- отдадим артефакт и дадим ГГ апгрейдер
+function upgrader_berem_otdal_art(first_speaker, second_speaker)
+sak.out_item_namber("af_spirit_1",1)
+dialogs.relocate_item_section(second_speaker, "dmx_skat15_upgrade","in")
+end
+------------------------------------------------------------------------------------------------------------------------
+-- БАРТЕР ЖРАТВЫ У ХОЛОДА
+-- Сигареты
+-- проверим наличие 2 пачек Мечты
+function holod_dmx_food_mechta_prov()
+return sak.have_item_namber("mechta",2) ~= false
+end
+
+-- отдадим эти две пачки и получим сигареты соли
+function mechta_otdal_pol_col(first_speaker, second_speaker)
+sak.out_item_namber("mechta",2)
+dialogs.relocate_item_section(second_speaker, "sigaret","in")
+end
+
+-- проверим наличие 3 сигар
+function holod_dmx_food_sigara_prov()
+return sak.have_item_namber("cigara",3) ~= false
+end
+
+-- отдадим эти сигары и получим сигареты соли
+function sigara_otdal_pol_col(first_speaker, second_speaker)
+sak.out_item_namber("cigara",3)
+dialogs.relocate_item_section(second_speaker, "sigaret","in")
+end
+
+-- ВОДКА
+-- проверим наличие 2 пузырей Абсолюта
+function holod_absolut_prov()
+return sak.have_item_namber("absolut_vodka",2) ~= false
+end
+
+-- отдадим 2 пузыря и получим Казаков
+function absolut_otdal_pol_kaz(first_speaker, second_speaker)
+sak.out_item_namber("absolut_vodka",2)
+dialogs.relocate_item_section(second_speaker, "vodka","in")
+end
+
+-- проверим наличие одного пузыря Смирнофф
+function holod_smirnoff_prov()
+return sak.have_item_namber("smirnoff_vodka",1) ~= false
+end
+
+-- проверим наличие ста рублей
+function holod_dialog_many_food_prov(actor,npc)
+return actor:money() > 100
+end
+
+-- отдадим Смирнофф и получим Казаков
+function smirnoff_otdal_pol_kaz(first_speaker, second_speaker)
+sak.out_item_namber("smirnoff_vodka",1)
+dialogs.relocate_item_section(second_speaker, "vodka","in")
+end
+
+-- отдадим сто рублей
+function holod_dialog_many_food_otdal(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then npc=t2 end
+dialogs.relocate_money(npc,100,"out")
+end
+
+-- КОЛБАСА
+-- проверим наличие двух палок Докторской
+function holod_kolbasadmx_prov()
+return sak.have_item_namber("kolbasadmx",2) ~= false
+end
+
+-- отдадим их и получим обычную колбаску
+function kolbasa_dmx_dal_pol_kolba(first_speaker, second_speaker)
+sak.out_item_namber("kolbasadmx",2)
+dialogs.relocate_item_section(second_speaker, "kolbasa","in")
+end
+
+-- проверим наличие пива Черниговского
+function holod_chernigov_prov()
+return sak.have_item_namber("pivo",1) ~= false
+end
+
+-- отдадим пиво и получим обычную колбаску
+function chernigov_otdal_pol_kol(first_speaker, second_speaker)
+sak.out_item_namber("pivo",1)
+dialogs.relocate_item_section(second_speaker, "kolbasa","in")
+end
+------------------------------------------------------------------------------------------------------------------------
+-- СТАРТОВЫЙ ДИАЛОГ У ХОЛОДА
+-- дадим ГГ водку Немирофф
+function nemiroff_vodka_berem(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "nemiroff_vodka","in")
+end
+
+-- дадим ГГ водку Абсолют
+function absolut_vodka_berem(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "absolut_vodka","in")
+end
+
+-- дадим ГГ водку Смирнофф
+function smirnoff_vodka_berem(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "smirnoff_vodka","in")
+end
+------------------------------------------------------------------------------------------------------------------------
+-- SOUL CUBE
+-- проверим барахло
+function shadows_cube_prov()
+return new_dialog.item_much("nemiroff_vodka",5) ~= false and
+new_dialog.item_much("irp-b",2) ~= false and
+new_dialog.item_much("yantar",3) ~= false and
+new_dialog.item_much("nuts",5) ~= false and
+new_dialog.item_much("pivo",3) ~= false and
+new_dialog.item_much("energy_ad_rush",5) ~= false and
+new_dialog.item_much("merc_scientific_outfit",1) ~= false and
+new_dialog.item_much("wpn_rpd",1) ~= false
+end
+
+-- отдадим барахло за Куб
+function shadows_cube_otdal(first_speaker, second_speaker)
+sak.out_item_namber("nemiroff_vodka",5)
+sak.out_item_namber("irp-b",2)
+sak.out_item_namber("yantar",3)
+sak.out_item_namber("nuts",5)
+sak.out_item_namber("pivo",3)
+sak.out_item_namber("energy_ad_rush",5)
+sak.out_item_namber("merc_scientific_outfit",1)
+sak.out_item_namber("wpn_rpd",1)
+end
+
+-- дадим ГГ денег если он не хочет находить Куб
+function shadows_cube_many_25000(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then npc=t2 end
+dialogs.relocate_money(npc,25000,"in")
+end
+
+-- заспавним Shadows`a
+function shadows_spawn()
+    local obj = alife():create("shadows",vector():set(-279.516,0.972,35.288),7088,3351)
+    local tbl = amk.read_stalker_params(obj)
+    tbl.sid = 97121
+    amk.write_stalker_params(tbl, obj)
+end
+
+-- Shadows - враг
+function shadows_enemy(first_speaker, second_speaker)
+second_speaker:set_relation(game_object.enemy, first_speaker)
+db.actor:change_character_reputation(db.actor:character_reputation() - 40)
+end
+
+-- даем фейковый Куб
+function fake_cube_dal(first_speaker, second_speaker)
+dialogs.relocate_item_section(second_speaker, "fake_cube","in")
+end
+
+-- забираем фейковый Куб
+function fake_cube_otdal(first_speaker, second_speaker)
+sak.out_item_namber("fake_cube",1)
+end
+
+-- немного оживим Припять
+function cube_pripyat_spawn() 
+alife():create("m_controller_normal",vector():set(287.109,-0.371,266.864),474028,3769)
+alife():create("fracture_swamp",vector():set(287.109,-0.371,266.864),474028,3769)
+alife():create("fracture_master",vector():set(132.561,-0.238,216.951),359942,3769)
+alife():create("fracture_karlik",vector():set(149.252,-0.052,211.248),378888,3769)
+alife():create("cop_prip_treasure_cube",vector():set(131.672,29.114,240.428),359193,3769)
+alife():create("item_doc_x8",vector():set(136.492,29.332,239.402),365077,3769)
+alife():create("dmx_military_map",vector():set(132.064,28.907,235.955),359964,3769)
+alife():create("cop_kvartira_music",vector():set(131.227,30.029,236.661),358426,3769)
+alife():create("wpn_protecta_col",vector():set(6.984,5.361,269.103),205983,3760)
+alife():create("wpn_pkm_tactic",vector():set(35.739,-2.883,-58.234),245226,3766)
+alife():create("bloodsucker_strong",vector():set(-49.974,-0.507,-71.471),139443,3759)
+alife():create("werewolf",vector():set(-49.974,-0.507,-71.471),139443,3759)
+alife():create("werewolf",vector():set(-49.974,-0.507,-71.471),139443,3759)
+alife():create("werewolf",vector():set(-49.974,-0.507,-71.471),139443,3759)
+alife():create("m_poltergeist_normal_tele",vector():set(-62.949,4.224,-94.039),126481,3759)
+alife():create("pseudodog_strong",vector():set(-160.217,-0.506,-252.603),47519,3748)
+alife():create("pseudodog_strong",vector():set(-146.134,-0.507,-271.362),56480,3751)
+alife():create("af_babka_3",vector():set(-77.910,25.093,87.284),112218,3755)
+monolith_kbo_spawn()
+labx8_cube_spawn()
+labx8_spawn_trup_ps()
+end
+
+function monolith_kbo_spawn()
+alife():create("kbo_monolit1",vector():set(-42.540,0.400,81.989),146270,3755)
+alife():create("kbo_monolit3",vector():set(-43.463,0.401,110.734),145710,3755)
+alife():create("kbo_monolit4",vector():set(-82.692,0.399,96.015),107366,3754)
+alife():create("kbo_monolit6",vector():set(-41.787,4.500,84.167),147056,3755)
+alife():create("kbo_monolit7",vector():set(-42.601,4.500,105.050),146450,3755)
+alife():create("kbo_monolit8",vector():set(-63.459,4.497,86.316),125948,3754)
+alife():create("kbo_monolit10",vector():set(-82.731,4.500,83.071),107276,3754)
+alife():create("kbo_monolit12",vector():set(-76.615,8.600,74.130),113517,3754)
+alife():create("kbo_monolit13",vector():set(-45.919,8.602,94.610),143029,3755)
+alife():create("kbo_monolit15",vector():set(-46.727,12.700,110.448),142386,3755)
+alife():create("kbo_monolit17",vector():set(-61.830,16.801,104.961),128245,3755)
+alife():create("kbo_monolit1",vector():set(-42.900,20.900,115.329),146501,3755)
+end
+
+-- подбираем блокнот в квартире и спавним Библиотекаря
+function cube_take(obj)
+    if obj:section()=="item_doc_x8" then
+	    if level.name()=="pripyat" and not has_alife_info("cop_prip_info_take_doc") then
+	        db.actor:give_info_portion("cop_prip_info_take_doc")
+            alife():create("bibliotekar",vector():set(140.922,-0.367,220.575),370139,3769)
+		    amk.send_tip("I got to the apartment. Cuba Shadows and Aleksandrov was not in it. But I found an interesting notes about the incident the night in the lab ... Karoche after everything that happened, our friend went back to the lab. Apparently, it did not come out of there ...\\nBy the way, then there's a receiver some strange - Entry is constantly repeated. On the record conversation like the military ...\\nWhat do you think?", "Tagged: private channel", 10, 20, "actor_sms")
+		    amk.send_tip("I think that's what - you have to molt. We have a problem - our last conversation overheard. And maybe someone else knew about Cuba ... Maybe the one you give me a tip ...\\nGenerally in the eastern part of the Pripyat is now coming mercenary squad. They know what you are looking for Cube in the apartment ...\\nWe must make them believe in the opposite. You do not want trouble? You can try to merge the disinformation network stalker ...\\nTry to write in the chat via the PDA: \"Sale Cube Shadow, inexpensive meet on the cordon around the perimeter..\"\\nWrite exactly as I wrote, then they decide it is possible that you have picked up ... Try Cube.", "Shadows: private channel", 30, 50)
+		    pripyat_base_spawn()
+		end
+    end
+end
+
+-- заселение прачечной
+function pripyat_base_spawn()
+    local obj = alife():create("mudri",vector():set(144.298,-0.096,-192.662),375712,3765)
+    local tbl = amk.read_stalker_params(obj)
+    tbl.sid = 97122
+    amk.write_stalker_params(tbl, obj)
+alife():create("grozn",vector():set(136.787,4.905,-191.870),364574,3765)
+alife():create("alex",vector():set(130.497,-0.297,-182.324),356345,3765)
+alife():create("cop_base_music",vector():set(156.453,0.493,-179.119),384599,3765)
+alife():create("medkit_army",vector():set(143.582,0.822,-185.929),373572,3765)
+end
+
+-- употребляем водку
+function actor_drinking_vodka()
+    local oItem = db.actor:object("vodka") or db.actor:object("absolut_vodka") or db.actor:object("nemiroff_vodka") or db.actor:object("smirnoff_vodka")
+	if oItem then
+	    db.actor:eat(oItem)
+	else
+		local sobj = amk.spawn_item_in_inv("vodka")
+        level.client_spawn_manager():add(sobj.id,0,spawn_vodka_callback,true)
+	end
+end
+
+function spawn_vodka_callback(arg,id,item)
+    db.actor:eat(item)
+    amk.remove_item(item)
+end
+
+-- пару монстров по квесту поиска карты Припяти
+function monsters_quest_spawn() 
+alife():create("zombie_ghost",vector():set(184.295,0.674,47.489),414274,3770)
+alife():create("bloodsucker_strong",vector():set(199.468,2.501,-8.367),427539,3768)
+alife():create("zombie_ghost",vector():set(234.454,0.547,22.189),452741,3768)
+alife():create("zombie_swamp",vector():set(234.454,0.547,22.189),452741,3768)
+alife():create("dmx_pripyat_map",vector():set(205.422,5.444,-25.960),433226,3768)
+end
+
+-- подбираем карту Припяти
+function dmx_pripyat_map_have()
+    return sak.have_item_namber("dmx_pripyat_map",1) ~= false
+end
+
+-- даем переход в Х-8
+function next_labx8()
+    amk.send_tip("I knew where the entrance to the laboratory X-8. I go there.", "Tagged: private channel", 10, 20, "actor_sms")
+	amk.send_tip("Good. Hopefully Pavel alive ... It is a lot of things can tell us.", "Shadows: private channel", 30, 20)
+	device_torch_bad()
+	labx8_ghost()
+	pripyat_cop_to_lab_x8()
+end
+
+-- испортился фонарь
+function device_torch_bad()
+    local oItem = db.actor:object("device_torch") or db.actor:object("fake_device_torch")
+    if oItem then
+        --db.actor:drop_item(oItem)
+        alife():release(alife():object(oItem:id()), true)
+		amk.spawn_item_in_inv("device_torch_bad")
+    end
+end
+
+-- заселение лаборатории Х-8
+function labx8_cube_spawn()
+alife():create("lab_x8_treasure",vector():set(-43.313,-20.517,72.710),6747,3850)
+alife():create("burer_strong",vector():set(-83.113,-15.939,108.460),2780,3837)
+alife():create("snork_strong",vector():set(-98.249,-18.130,86.008),919,3838)
+alife():create("burer_strong",vector():set(-86.267,-20.021,82.081),2259,3838)
+alife():create("tushkano_normal",vector():set(-105.451,-32.377,77.411),453,3830)
+alife():create("tushkano_normal",vector():set(-108.119,-32.401,85.121),359,3832)
+alife():create("tushkano_normal",vector():set(-105.451,-32.377,77.411),453,3830)
+alife():create("tushkano_normal",vector():set(-108.119,-32.401,85.121),359,3832)
+alife():create("antirad",vector():set(-110.974,-31.502,90.253),259,3832)
+alife():create("ammo_5.45x39_izomorf",vector():set(-87.835,-31.175,80.502),1942,3844)
+alife():create("ammo_5.45x39_izomorf",vector():set(-87.835,-31.175,80.502),1942,3844)
+alife():create("rat_strong",vector():set(-74.285,-36.714,85.643),4481,3844)
+alife():create("item_doc_x8_2",vector():set(-58.532,-16.653,100.163),6181,3840)
+alife():create("radiation_detector",vector():set(-54.697,-20.974,91.194),6433,3840)
+alife():create("zone_grost",vector():set(-56.302,-22.017,87.185),6352,3840)
+alife():create("tarakan_normal",vector():set(-76.451,-23.858,61.195),3957,3845)
+alife():create("af_armor_4",vector():set(-76.451,-23.858,61.195),3957,3845)
+alife():create("m_poltergeist_normal_tele",vector():set(-78.942,-24.323,87.381),3412,3839)
+alife():create("snork_strong",vector():set(-78.755,-28.446,72.607),3362,3840)
+alife():create("rat_strong",vector():set(-72.487,-20.166,64.236),4730,3847)
+alife():create("ammo_og-7b",vector():set(-75.058,-10.367,56.259),4219,3843)
+alife():create("ammo_og-7b",vector():set(-75.058,-10.367,56.259),4219,3843)
+alife():create("wpn_rpg7_m1",vector():set(-75.058,-10.367,56.259),4219,3843)
+alife():create("rat_strong",vector():set(-78.422,-16.005,71.539),3507,3838)
+alife():create("rat_strong",vector():set(-78.422,-16.005,71.539),3507,3838)
+alife():create("snork_strong",vector():set(-90.291,-15.977,78.629),1634,3831)
+alife():create("burer_strong",vector():set(-76.541,-28.470,64.181),3970,3842)
+alife():create("energy_stalker",vector():set(-56.601,-15.558,103.241),6292,3840)
+alife():create("zone_cockroach",vector():set(-75.565,-16.003,72.270),4116,3848)
+end
+
+-- спавним труп ученого
+function labx8_spawn_trup_ps()
+    local obj = alife():create("pavel_sergeevich",vector():set(-56.302,-22.017,87.185),6352,3840)
+    local tbl = amk.read_stalker_params(obj)
+    tbl.sid = 97124
+    tbl.health = 0
+    tbl.updhealth = 0
+    amk.write_stalker_params(tbl, obj)
+end
+
+-- проверяем наличее Куба Теней в рюкзаке
+function wpn_soulcube_have()
+    return sak.have_item_namber("wpn_soulcube",1) ~= false
+end
+
+-- таймер появления призрака и контролера
+function labx8_cube_take() amk.start_timer("ghost_timer",4,"") end
+
+-- блуждающий призрак
+function labx8_ghost() amk.start_timer("ghost_strong_timer",10,"") end
+
+-- есть ли карта АС в рюкзаке
+function dmx_military_map_have()
+    return sak.have_item_namber("dmx_military_map",1) ~= false
+end
+
+-- есть ли дневник в рюкзаке
+function item_doc_x8_have()
+    return sak.have_item_namber("item_doc_x8",1) ~= false
+end
+
+-- есть ли документы из Х-8 в рюкзаке
+function item_doc_x8_2_have()
+    return sak.have_item_namber("item_doc_x8_2",1) ~= false
+end
+
+-- отдадим карту Припяти
+function give_dmx_pripyat_map(first_speaker, second_speaker)
+    sak.out_item_namber("dmx_pripyat_map", 1)
+end
+
+-- отдадим карту АС
+function give_dmx_military_map(first_speaker, second_speaker)
+    sak.out_item_namber("dmx_military_map", 1)
+end
+
+-- отдадим документы из Х-8
+function give_item_doc_x8_2(first_speaker, second_speaker)
+    sak.out_item_namber("item_doc_x8_2", 1)
+end
+
+-- отдадим дневник
+function give_item_doc_x8(first_speaker, second_speaker)
+    sak.out_item_namber("item_doc_x8", 1)
+end
+
+-- дадим ГГ 500 руб за каждый итем
+function dal_many_500(t1,t2)
+local npc=t1
+if npc:id()==db.actor:id() then npc=t2 end
+dialogs.relocate_money(npc,500,"in")
+end
+------------------------------------------------------------------------------------------------------------------------
+-- ИНСТРУМЕНТЫ ДЛЯ МУДРЕЦА
+-- спавним инструменты и контрошу
+function instruments_spawn() 
+alife():create("mudrec_instruments",vector():set(-188.578,0.582,-209.861),29111,3748)
+alife():create("m_controller_normal",vector():set(-182.600,-0.283,-205.787),32993,3748)
+end
+
+-- проверим есть ли инструменты в рюкзаке
+function cop_pripyat_instruments_have()
+    return sak.have_item_namber("mudrec_instruments",1) ~= false
+end
+
+-- отдадим инструменты Мудрецу
+function give_cop_pripyat_instruments(first_speaker, second_speaker)
+    sak.out_item_namber("mudrec_instruments", 1)
+end
+------------------------------------------------------------------------------------------------------------------------
+-- ВТОРОЙ СПОСОБ ПОПАСТЬ НА БЛОКПОСТ
+function actor_blockpost_propusk()
+	if dmx_cars.inside_section_car() == "vehicle_uaz469_uniq" and level.name() == "l01_escape" and not has_alife_info("actor_uaz_input_info") then
+		local outfit = db.actor:get_current_outfit()
+		if outfit and string.find(outfit:section(), "specops_outfit") then
+			amk.start_timer("blockpost_propusk_timer", 120, db.actor:character_community())
+			db.actor:set_character_community("military", 0, 0)
+			amk.send_tip("Bullseye, circumstances have changed! One of the soldiers that was with Colonel survived! Just saw it on the way to the checkpoint. Faster to whip until he told about what had happened.", "Sidorovich", 5, 20, "trader")
+			db.actor:give_info_portion("actor_propusk_info")
+			db.actor:give_info_portion("actor_uaz_input_info")
+		end
+	end
+end
+
+-- проверка наличия Берилла
+function specops_outfit_have()
+    return sak.have_item_namber("specops_outfit",1) ~= false
+end
+
+-- спавн машины около фермы
+function blockpost_quest_spawn()
+    local obj = alife():create("vehicle_uaz469_uniq",vector():set(1.253,2.480,72.038),278071,89)
+    amk.add_spot_on_map(obj.id,"green_location","Military Uazik")
+end
+
+-- даем удостоверение и ключи от машины
+function give_certificate_and_key(first_speaker, second_speaker)
+    dialogs.relocate_item_section(second_speaker, "item_certificate","in")
+	dialogs.relocate_item_section(second_speaker, "car_key","in")
+end
+
+-- забираем удостоверение и ключи от машины
+function give_items_blockpost_quest(first_speaker, second_speaker)
+    sak.out_item_namber("item_certificate", 1)
+	sak.out_item_namber("car_key", 1)
+end
+------------------------------------------------------------------------------------------------------------------------
+-- OTHERS SPAWN
+-- Спавн мест для сна
+function place_of_sleep_spawn()
+alife():create("place_of_sleep",vector():set(-210.765,-22.881,-122.198),42632,59) -- Кордон - в подвале деревни
+alife():create("place_of_sleep",vector():set(47.043,1.567,243.461),219251,359) -- Свалка - на заставе Долга
+alife():create("place_of_sleep_vid",vector():set(42.121,7.499,-17.377),279888,664) -- Агропром - около Адреналина
+alife():create("place_of_sleep",vector():set(27.627,-10.949,-280.456),54978,1480) -- Янтарь - в бункере
+alife():create("place_of_sleep",vector():set(9.233,-7.186,20.183),316476,1582) -- АС - в бараках
+alife():create("place_of_sleep",vector():set(99.587,4.333,131.124),210226,2171) -- Припять - в квартире Стрелка
+alife():create("place_of_sleep",vector():set(146.228,5.035,-172.466),375746,3765) -- Восток Припяти - прачечная
+alife():create("place_of_sleep",vector():set(36.312,-3.370,-48.361),22448,1996) -- Радар - в доме Сяка
+alife():create("place_of_sleep_vid",vector():set(-410.158,0.771,69.751),162553,2889) -- НЗ - Лазарет
+alife():create("place_of_sleep",vector():set(-68.412,-6.368,-68.965),3552,717) -- Подземка Агропрома - тайник
+alife():create("place_of_sleep_vid",vector():set(-172.368,-2.678,-72.607),1765,2863) -- Пещера - У Шахтера
+alife():create("place_of_sleep",vector():set(48.180,1.101,-59.024),235536,1083) -- ТД - У бандитов
+alife():create("place_of_sleep",vector():set(-135.309,1.424,-318.204),77666,3374) -- Болота - база ЧН
+alife():create("place_of_sleep_vid",vector():set(19.020,9.701,29.558),19080,3330) -- Старая Деревня - В Штабе
+alife():create("place_of_sleep",vector():set(-122.429,38.783,-523.148),194437,3089) -- Генераторы - деревня нейтралов
+alife():create("place_of_sleep",vector():set(12.903,0.268,-39.544),74533,3290) -- Рыжий Лес - вагончик около Лесника
+alife():create("place_of_sleep",vector():set(-45.021,-0.778,-252.296),4671,2994) -- Лиманск - дом на углу
+alife():create("place_of_sleep",vector():set(-213.998,1.396,91.526),122710,3600) -- МГ - дом Парфюмера
+alife():create("place_of_sleep_vid",vector():set(-31.129,0.556,-129.076),162684,2882) -- Забытый Лес - в лагере Креста
+alife():create("place_of_sleep",vector():set(138.037,-6.541,-73.337),575214,2830) -- АТП - в центре
+alife():create("place_of_sleep",vector():set(117.971,0.206,66.106),34340,1252) -- Бар - комната около Захара
+end
+
+-- Спавн болотного тумана
+function poisonous_fog_spawn()
+	-- Свалка
+	for i=1,2 do
+        alife():create("zone_tuman_cop",vector():set(97.482,-2.070,-164.105),263672,412)
+	    alife():create("zone_tuman_cop",vector():set(86.652,-2.261,-169.430),254679,412)
+	    alife():create("zone_tuman_cop",vector():set(121.531,-2.175,-158.125),283733,408)
+	    alife():create("zone_tuman_cop",vector():set(114.223,-2.318,-150.951),277586,408)
+	    alife():create("zone_tuman_cop",vector():set(108.215,-2.289,-141.143),272848,408)
+	    alife():create("zone_tuman_cop",vector():set(108.712,-2.265,-130.778),272858,408)
+	    alife():create("zone_tuman_cop",vector():set(106.333,-0.333,-117.006),271168,396)
+	    alife():create("zone_tuman_cop",vector():set(100.657,-2.714,-105.159),266590,395)
+	end
+	-- Агропром
+	alife():create("zone_tuman_cop",vector():set(-163.313,1.123,21.829),74297,675)
+	alife():create("zone_tuman_cop",vector():set(-174.509,1.124,15.079),62654,675)
+	alife():create("zone_tuman_cop",vector():set(-185.625,1.124,27.122),51360,537)
+	alife():create("zone_tuman_cop",vector():set(-176.380,1.123,38.283),60578,675)
+	alife():create("zone_tuman_cop",vector():set(-163.260,1.122,44.034),74329,531)
+	alife():create("zone_tuman_cop",vector():set(-170.563,1.124,54.766),66409,674)
+	alife():create("zone_tuman_cop",vector():set(-162.946,1.118,33.639),74314,531)
+	alife():create("zone_tuman_cop",vector():set(-172.725,1.113,28.307),64169,675)
+	alife():create("zone_tuman_cop",vector():set(-169.308,1.119,18.844),67795,675)
+	alife():create("zone_tuman_cop",vector():set(-181.345,1.123,20.011),55580,675)
+	alife():create("zone_tuman_cop",vector():set(-185.820,1.124,38.382),51376,674)
+	alife():create("zone_tuman_cop",vector():set(-172.641,1.123,46.626),64188,674)
+end
+
+function special_effects_spawn()
+alife():create("zone_fog_cigarette",vector():set(139.75,-3.12,28.88),36058,1236) -- Сигаретный дым в Баре
+alife():create("zone_fog_cigarette",vector():set(150.71,0.72,-242.03),349148,958) -- Сигаретный дым на стоянке бандитов на входе в Х-18
+alife():create("zone_fog_indoor",vector():set(-76.48,-16.29,-112.51),2998,785) -- Облако пара в подземельи Агропрома-1
+alife():create("zone_fog_indoor",vector():set(-117.9,-14.95,-34.03),166,758) -- Облако пара в подземельи Агропрома-2
+alife():create("zone_fog_indoor",vector():set(6.27,4.19,-18.26),3613,1115) -- Облако испарений в Х18-1
+alife():create("zone_fog_indoor",vector():set(-42.74,-13,-19.6),156,1153) -- Облако испарений в Х18-2
+alife():create("zone_fog_indoor",vector():set(-12.41,-12.39,11.67),4660,1156) -- Облако испарений в Х18-3
+alife():create("zone_fog_indoor",vector():set(-39.22,-10.9,12.23),327,1148) -- Облако испарений в Х18-4
+alife():create("zone_fog_indoor",vector():set(-21.86,-16.34,75.66),5829,1163) -- Облако испарений в Х18-5
+alife():create("zone_fog_indoor",vector():set(-28.51,-9.55,-6.08),2204,2778) -- Облако испарений в подземельи Радара-1
+alife():create("zone_fog_indoor",vector():set(-55.85,-21.89,28.32),562,2725) -- Облако испарений в подземельи Радара-2
+alife():create("zone_fog_indoor",vector():set(7.33,-23.52,25.22),7575,2767) -- Облако испарений в подземельи Радара-3
+alife():create("zone_fog_indoor",vector():set(-141.2,-13.1,-376.1),45279,1311) -- Туман возле перехода с ДТ на Янтарь
+alife():create("zone_fog_indoor",vector():set(-113.54,-0.001,118.68),13277,1305) -- Туман возле перехода с Бара на ДТ 1
+alife():create("zone_fog_indoor",vector():set(-125.99,-0.001,119.97),13277,1305) -- Туман возле перехода с Бара на ДТ 2
+alife():create("zone_fog_indoor",vector():set(-127.7,-0.036,131.9),13277,1305) -- Туман возле перехода с Бара на ДТ 3
+alife():create("zone_fog_indoor",vector():set(127.58,-0.039,143),12024,1304) -- Туман возле перехода с Бара на ДТ 4
+alife():create("zone_fog_indoor",vector():set(-114.36,0.998,151),12062,1304) -- Туман возле перехода с Бара на ДТ 5
+alife():create("zone_fog_indoor",vector():set(-140.14,-0.009,142.59),11401,1304) -- Туман возле перехода с Бара на ДТ 6
+alife():create("zone_fog_indoor",vector():set(-89.23,0.1,133.67),13884,1305) -- Туман возле перехода с Бара на ДТ 8
+alife():create("zone_fog_indoor",vector():set(284.16,6.4,-289.05),141391,1460) -- Туман возле перехода с Янтаря на Росток
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Проигрывание звука при использовании предмета
+-- Author - Gun12 and Charsi
+local snd_obj
+function use_sound_items(obj)
+local sound_table = {
+    ['bread'] = [[inventory\inv_food]],
+    ['kolbasa'] = [[inventory\inv_food]],
+    ['conserva'] = [[inventory\inv_food]],
+    ['vodka'] = [[inventory\inv_vodka]],
+    ['antirad'] = [[inventory\inv_medic]],
+    ['medkit'] = [[inventory\inv_medic]],
+    ['medkit_army'] = [[inventory\inv_medic]],
+    ['medkit_scientic'] = [[inventory\inv_medic]],
+    ['energy_drink'] = [[inventory\inv_drinking]],
+    ['bandage'] = [[inventory\inv_bandage]],
+    -- Солянка
+    ['sandwich'] = [[inventory\inv_food]],
+    ['beer_a'] = [[inventory\inv_drinking]],
+    ['flaska'] = [[inventory\inv_drinking]],
+    ['sweetness'] = [[inventory\inv_food]],
+    ['matras'] = [[inventory\inv_sleeping]],
+    ['suvorotka'] = [[inventory\inv_pills]],
+    ['shaxter_tele'] = [[inventory\inv_drinking]],
+    ['snotvornoe_tele'] = [[inventory\inv_drinking]],
+    ['bezoar'] = [[inventory\inv_food]],
+    ['mozg'] = [[inventory\inv_food]],
+    ['vorona_egg'] = [[inventory\inv_food]],
+    ['mushroom'] = [[inventory\inv_food]],
+	['antizombie'] = [[inventory\inv_medic]],
+    -- DMX MOD
+    ['pivo'] = [[inventory\inv_drinking]],
+    ['irp-b'] = [[inventory\inv_food]],
+    ['voda'] = [[inventory\inv_drinking]],
+    ['tuchenka'] = [[inventory\inv_food]],
+    ['yantar'] = [[inventory\inv_food]],
+    ['sardina'] = [[inventory\inv_food]],
+    ['ogursi'] = [[inventory\inv_food]],
+    ['sholad'] = [[inventory\inv_food]],
+    ['kolbasadmx'] = [[inventory\inv_food]],
+    ['olives'] = [[inventory\inv_food]],
+    ['nuts'] = [[inventory\inv_food]],
+    ['absolut_vodka'] = [[inventory\inv_vodka]],
+    ['nemiroff_vodka'] = [[inventory\inv_vodka]],
+    ['smirnoff_vodka'] = [[inventory\inv_vodka]],
+    ['mineral_water'] = [[inventory\inv_drinking]],
+    ['energy_stalker'] = [[inventory\inv_drinking]],
+    ['energy_non_stop'] = [[inventory\inv_drinking]],
+    ['energy_ad_rush'] = [[inventory\inv_drinking]],
+    ['energy_red_bull'] = [[inventory\inv_drinking]],
+    ['pivo_baltika'] = [[inventory\inv_drinking]],
+    ['sok'] = [[inventory\inv_drinking]],
+    ['syh_pay_gde_3'] = [[inventory\inv_food]],
+    ['syh_pay_spp5'] = [[inventory\inv_food]],
+    ['pervitin'] = [[inventory\inv_drugs]],
+    ['amfetamin'] = [[inventory\inv_drugs]],
+    ['zhgut'] = [[inventory\inv_bandage]],
+    ['antiseptic'] = [[inventory\inv_bandage]],
+    ['medkit_elite'] = [[inventory\inv_medic]],
+    ['bandage_dmx'] = [[inventory\inv_bandage]],
+    ['tab'] = [[inventory\inv_pills]],
+    ['razgruzka'] = [[inventory\inv_razgruzka]],
+	['psy_blockade'] = [[inventory\inv_medic]],
+	['barvinok'] = [[inventory\inv_medic]],
+	['gercules'] = [[inventory\inv_drinking]]}
+    local snd = sound_table[obj:section()]
+    if snd then
+        if snd_obj and snd_obj:playing() then snd_obj:stop() end
+        snd_obj = xr_sound.get_safe_sound_object(snd)
+        snd_obj:play_at_pos(db.actor, vector(), 0, sound_object.s2d)
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Прибор точного измерения радиации
+-- Идея взята из мода LWR
+function use_radiation_detector(obj)
+    if obj:section() == "radiation_detector" then
+	    play_sound([[inventory\inv_radiation_detector]])
+        local rad = math.floor(db.actor.radiation * 600)
+        news_manager.send_tip(db.actor, "Evaluation of dose infestation 0 to 600 rem.\\nThe degree of infestation of the body "..rad.." Baer.", nil, "detector", 15000)
+        amk.spawn_item_in_inv("radiation_detector")
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Сообщения о появлении заметок в энциклопедии
+-- Author - OGSE Team
+function encyclopedy_news(group, name)
+	if group == "Diary" then
+		news_manager.send_encyclopedy("diary", group)
+		amk.send_tip(game.translate_string(name), "Note in the diary:", nil, 7, "encyclopedy_icon")
+	elseif group == "Mutants" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Note about mutants:", nil, 7, "encyclopedy_icon")
+	elseif group == "Social" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Info about faction:", nil, 7, "encyclopedy_icon")
+	elseif group == "Artifacts" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Note about artifacts:", nil, 7, "encyclopedy_icon")
+	elseif group == "Anomalies" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Note about anomalies:", nil, 7, "encyclopedy_icon")
+	elseif group == "Locations" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Info about location:", nil, 7, "encyclopedy_icon")
+	elseif group == "Zone-story" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "History of the Zone:", nil, 7, "encyclopedy_icon")
+	elseif group == "Stories" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Local folklore:", nil, 7, "encyclopedy_icon")
+	elseif group == "memuars" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Private note:", nil, 7, "encyclopedy_icon")
+	elseif group == "Vehicles" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Information about truck:", nil, 7, "encyclopedy_icon")
+	elseif group == "Found_PDA" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Data uploaded:", nil, 7, "encyclopedy_icon")
+	elseif group == "st_operation_agroprom" or group == "LabX18_information" or group == "aes_military_task" then
+		news_manager.send_encyclopedy("encyclopedy", group)
+		amk.send_tip(game.translate_string(name), "Note in the diary:", nil, 7, "encyclopedy_icon")
+	end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Звук охладителя в Х-10
+local cooling_snd
+function bunker_cooling_sound()
+	if level.name() == "l10u_bunker" then
+		if not has_alife_info("bar_deactivate_radar_done") then
+			if not (cooling_snd and cooling_snd:playing()) then
+				cooling_snd = sound_object("ambient\\cooling_run")
+				cooling_snd:play_at_pos(db.actor, vector():set(0,0,1), 0, sound_object.s2d + sound_object.looped)
+			end
+		elseif cooling_snd then
+			cooling_snd:stop() cooling_snd = nil
+		end
+	end
+end
+
+-- Звук выключения охладителя
+function bunker_cooling_sound_stop()
+	sound_object("ambient\\cooling_stop"):play_at_pos(db.actor, vector():set(0,0,1), 0, sound_object.s2d)
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Звук лягушек на Болоте
+local frogs_snd
+function marsh_frogs_sound()
+	if level.name() == "marsh" then
+		frogs_snd = sound_object("ambient\\outdoors\\frogs_choir_"..math.random(3))
+		frogs_snd:play_at_pos(db.actor, vector():set(0,0,1), 0, sound_object.s2d + sound_object.looped)
+	end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Эффект крови на экране при убийстве НПС и монстров
+local blood = 255
+function blood_hud_will(victim)
+	if db.actor:see(victim) and db.actor:position():distance_to(victim:position()) < 5 and not get_hud():GetCustomStatic("blood_hud_static") then
+		get_hud():AddCustomStatic("blood_hud_static", true):wnd():InitTexture("hud\\hud_blood_"..math.random(7))
+		amk.start_timer("blood_hud_timer", 8)
+		blood = 255
+	end
+end
+
+function blood_hud_update()
+	local custom_static = get_hud():GetCustomStatic("blood_hud_static")
+	if custom_static and blood > 0 then
+		custom_static:wnd():SetColor(GetARGB(blood,255,255,255))
+		blood = blood - 3
+	end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Волна при Выбросе
+wave_playing = false
+wave_play_dist = 250
+local wave_play_timer = 0
+function blowout_wave()
+	if wave_playing and wave_play_dist > -250 then
+		if wave_play_timer < time_global() then
+			local position = db.actor:position()
+			local x, y, z = position.x, position.y / 2, position.z + wave_play_dist
+			particles_object([[crommcruac\blowout_wave_blend]]):play_at_pos(vector():set(x,y,z))
+			sound_object([[ambient\blowout_lightning_]]..math.random(5)):play_at_pos(db.actor, vector():set(x,y,z))
+			wave_play_dist = wave_play_dist - 10
+			wave_play_timer = time_global() + 750
+		end
+	end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Смерть ГГ от первого лица
+-- Author - SkyLoader
+local dead, dead_timer, cam_inert = false, 0, 0
+function actor_killed()
+	if not db.actor:alive() then
+		if dead then
+			if time_global() > dead_timer then
+				get_console():execute("cam_inert "..cam_inert)
+				level.add_pp_effector("deadcity_wake.ppe", 4467, false)
+				level.enable_input()
+				dead_timer = time_global() + 1000
+			end
+		else
+			local dir = device().cam_dir
+			db.actor:set_actor_direction(dir.x, dir.y, 0)
+			cam_inert = get_console():get_float("cam_inert")
+			get_console():execute("cam_inert 0")
+			level.add_cam_effector("camera_effects\\surge_02.anm", 2532, false, "")
+			level.add_pp_effector("surge_fade.ppe", 2011, false)
+			level.disable_input()
+			level.hide_indicators()
+			if dmx_pda_buttons.OrganizerMenu then dmx_pda_buttons.OrganizerMenu:OrganizerQuit() end
+			dead_timer = time_global() + 1750
+			dead = true
+		end
+	end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Вывод в лог
+function dbglog(txt)
+	get_console():execute("load ~~~ DMX DEBUG >> "..tostring(txt))
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Получение координат иконки предмета
+function get_icon_data(section)
+	local ini = system_ini()
+	local x = ini:r_u32(section, "inv_grid_x") * 50
+	local y = ini:r_u32(section, "inv_grid_y") * 50
+	local width = ini:r_u32(section, "inv_grid_width") * 50
+	local height = ini:r_u32(section, "inv_grid_height") * 50
+	return x, y, width, height
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Получение количества предметов в инвентаре ГГ
+function count_item_by_section(section)
+	local count = 0
+	db.actor:iterate_inventory(function (dummy, item)
+		if item:section() == section then
+			count = count + 1
+		end
+	end)
+	return count
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Возвращает копию строки маленькими буквами (с поддержкой кириллицы)
+-- Author - Charsi
+function string_lower(s)
+	local lower = ""
+	local a = [[йцукенгшщзхъфывапролджэячсмитьбюqwertyuiopasdfghjklzxcvbnm]]
+	local A = [[ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮQWERTYUIOPASDFGHJKLZXCVBNM]]
+	for i = 1, #s do
+		local character = string.sub(s, i, i)
+		for j = 1, #A do
+			if character == string.sub(A, j, j) then character = string.sub(a, j, j) break end
+		end
+		lower = lower..character
+	end
+	return lower
+end
+
+-- Склонение слов в зависимости от числа
+-- Author - Charsi
+function string_declension(n, a, b, c)
+	return (n%10 == 1 and n%100 ~= 11) and (tostring(n).." "..a) or (n%10 >= 2 and n%10 <= 4 and (n%100 < 10 or n%100 >= 20) and (tostring(n).." "..b) or (tostring(n).." "..c))
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Исправление сброса визуала ГГ
+-- Author - Charsi
+function visual_fix(obj)
+	if obj:clsid() == clsid.equ_stalker_s or obj:clsid() == clsid.equ_exo then
+		local outfit = db.actor:get_current_outfit()
+		if outfit and outfit:id() ~= obj:id() then
+			db.actor:transfer_item(outfit, db.actor)
+		end
+	end
+end
+
+-- Принудительное выполнение задания по убийству Шныры
+function shnura_fix(obj)
+	if level.name() == "atp_for_test22" and obj:profile_name() == "atp_bandit_shnura" then
+		if not has_alife_info("kalinin_zadan_done") then
+			db.actor:give_info_portion("kalinin_zadan_done")
+		end
+	end
+end
+
+-- Исправление вылетов в Лабиринте
+function labirint_fix()
+	if level.name() == "av_peshera" then
+		local se_obj = alife():object("av_pesh_tornado2")
+		if se_obj then
+			alife():release(se_obj, true)
+		end
+	end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Генератор огнесмеси
+-- Author - Charsi
+function use_item_ammo_flame_transfer(obj)
+    if obj:section() == "item_ammo_flame_transfer" then
+        amk.spawn_item_in_inv("item_ammo_flame_transfer")
+		play_sound([[device\pda\pda_sos]])
+		local flame=db.actor:object("wpn_flame")
+            if flame then
+            local ballon=db.actor:object("amk_ballon")
+            local kanistra=db.actor:object("amk_kanistra")
+                if ballon and kanistra then
+                local ammo_elapsed = flame:get_ammo_in_magazine() + 150
+                    if ammo_elapsed > 1150 then -- кабздец огнемету
+                    amk.remove_item(flame)
+                    local pos=db.actor:position():add(db.actor:direction():mul(1)) -- спавним детали
+                    local lv=db.actor:level_vertex_id()
+                    local gv=db.actor:game_vertex_id()
+                    alife():create("gorelka",pos,lv,gv)
+                    alife():create("manometr",pos,lv,gv)
+                    alife():create("trubka",pos,lv,gv)
+                    alife():create("flamethrower_bad",pos,lv,gv)
+                    db.actor.health = -0.3 -- понижаем хп
+                    play_sound([[weapons\t_f1_explosion]]) -- звук взрыва
+                    level.add_cam_effector("camera_effects\\fusker.anm",959,false,"") -- камэффектор удара в лицо
+                else
+                if ammo_elapsed > 1000 then amk.send_tip("Dangerous! Critical pressure!", "Generator ognesmesi", nil, 10, "inv_icon") end
+                    amk.remove_item(ballon)
+                    amk.remove_item(kanistra)
+                    flame:set_ammo_elapsed(ammo_elapsed)
+                end
+            else
+                amk.send_tip("Unable to generate ognesmes without the presence of colloidal gas or gasoline!", "Generator ognesmesi", nil, 10, "inv_icon")
+            end
+        else
+            amk.send_tip("No flamethrower to fill it!", "Generator ognesmesi", nil, 10, "inv_icon")
+        end
+    end
+end 
+------------------------------------------------------------------------------------------------------------------------
+-- Сумка с глушителями
+function use_silencers_box(obj)
+    if obj:section() == "silencers_box" then
+        amk.spawn_item_in_inv("wpn_addon_silencer")
+		amk.spawn_item_in_inv("wpn_9mm_nato_silencer")
+		amk.spawn_item_in_inv("wpn_addon_silencer_pistol")
+		amk.spawn_item_in_inv("wpn_addon_sil_9_p")
+		amk.spawn_item_in_inv("wpn_addon_sil_45")
+		amk.spawn_item_in_inv("wpn_addon_sil_762x39")
+		amk.spawn_item_in_inv("wpn_addon_sil_86x70")
+		amk.spawn_item_in_inv("wpn_addon_sil_9x39")
+		amk.spawn_item_in_inv("wpn_addon_sil_556_ar")
+		amk.spawn_item_in_inv("wpn_addon_sil_762_ar")
+		amk.spawn_item_in_inv("wpn_sil74")
+		amk.spawn_item_in_inv("wpn_addon_9x39silencer")
+		amk.spawn_item_in_inv("wpn_addon_sil_57")
+		amk.spawn_item_in_inv("wpn_addon_sil_bramit")
+    end
+end
+
+-- Ящик с болтами
+function use_bolt_box(obj)
+    if obj:section() == "bolt_box" then
+        local tab_items = {{[10]="fake_bolt"}}
+        local tab_where = "actor"
+        this.SpawnToNpcOrToLocation(tab_items,tab_where)
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Взрыв оружия при сильном износе
+-- Author - OGSE Team, адаптация - Charsi
+local stored_ammo_num = nil
+local stored_it_id = nil
+function wpn_explode_update()
+    local aitem = db.actor:active_item()
+	local aslot = db.actor:active_slot()
+    if aitem and (aslot==1 or aslot==2) and isWeapon(aitem) then
+        local it_id = aitem:id()
+        local ammo_num = aitem:get_ammo_in_magazine()
+        if stored_it_id ~= nil and stored_ammo_num ~= nil then
+        if stored_it_id == it_id and ammo_num < stored_ammo_num and aitem:condition() < 0.25 and math.random()*0.5 > aitem:condition() then
+            db.actor.health = -0.5
+            amk.remove_item(aitem)
+            play_sound([[weapons\t_f1_explosion]])
+            particles_object("amik\\explosion\\explosion_f1"):play_at_pos(aitem:position())
+            end
+        end
+        stored_ammo_num = ammo_num
+        stored_it_id = it_id
+    else
+        stored_it_id = nil
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Сообщения о надвигающимся Выбросе
+-- Author - Shadows
+local blowout_phrase = {"Attention! Approaching Burst! All seek safe shelter!", "Achtung! Burst on the way! All burrows who want to live ...", "Attention, coming Burst!", "Based on the data from the instrument, in a few minutes will Burst!"}
+function blowout_phrases()
+	sound_object("ambient\\blowout_sms_"..math.random(6)):play_no_feedback(db.actor, sound_object.s2d, 10, vector(), 1.0)
+	amk.send_tip(blowout_phrase[math.random(#blowout_phrase)], "Important message", 10, 20, "blowout_sms")
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Воспроизводим звук
+-- Author - Real Wolf
+function play_sound(sound,obj)
+	if obj == nil then obj = db.actor end
+	xr_sound.get_safe_sound_object(sound):play_no_feedback(obj, sound_object.s2d, 0, vector(), 1.0)
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Выкидываем предмет из слота в инвентарь
+function drop_item_to_inventory(number)
+    local actor=db.actor
+    local item = actor:item_in_slot(number)
+    if item then
+        actor:drop_item(item)
+        local sobj=alife():create(item:section(),actor:position(),actor:level_vertex_id(),actor:game_vertex_id(),0)
+        actor:transfer_item(item,actor)
+        alife():release(sobj,true)
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Рисуем нужные статики худа поверх костюмов
+-- Author - Charsi
+function hidden_static()
+local cs_names = {"hud_show_time", "inv_weight_static", "sleep_static", "hud_speedometer_background", "hud_speedometer_pointer", "car_equalize", "anabiotic_static", "radioprotector_static", "psy_blockade_static", "gercules_static", "medkit_static"}
+local hud = get_hud()
+for k,v in pairs(cs_names) do
+    if hud:GetCustomStatic(v) then
+        hud:RemoveCustomStatic(v)
+        hud:AddCustomStatic(v)
+    end
+end
+cs_names = {"caption_medkit", "caption_antirad", "caption_bandage", "caption_vodka", "caption_button", "caption_value_1", "caption_value_2", "caption_value_3", "caption_value_4"}
+for k,v in pairs(cs_names) do
+    hud:RemoveCustomStatic(v)
+end
+	biodetector.biodetectorRemove()
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Универсальная функция спавна
+-- Author - erlik
+function SpawnToNpcOrToLocation(tab_items,tab_where)
+    local count = 0
+    local pos, lvid, gvid, id, obj
+    local function Compare(id)
+    obj = alife():object(id)
+        return obj and obj.profile_name and obj:profile_name() == tab_where 
+    end
+    for k, v in pairs(tab_items) do
+        if type(tab_where)=='table' then
+            for k, v in pairs (tab_items[k]) do
+                count = k
+                for i=1, count do
+                    alife():create(v,vector():set(tab_where['x'],
+                    tab_where['y'],tab_where['z']),
+                    tab_where['lv'],tab_where['gv'])
+                end
+            end
+        elseif type(tab_where)=='string' then
+            if tab_where =="actor" then
+                obj = alife():actor()
+            else
+                for i=1, 65534 do
+                    local predicate = Compare(i)
+                    if predicate then
+                        break
+                    end
+                end
+            end
+        if obj == nil then return end
+            for k, v in pairs (tab_items[k]) do
+                count = k
+                for i=1, count do
+                    alife():create(v, obj.position, obj.m_level_vertex_id, obj.m_game_vertex_id, obj.id)
+                end
+            end
+        elseif type(tab_where)=='number' then
+            obj = level_object_by_sid(tab_where)
+            if obj ~= nil then
+                id, pos, lvid, gvid= obj:id(), obj:position(), obj:level_vertex_id(), obj:game_vertex_id()
+            elseif obj == nil then
+                obj = alife():story_object(tab_where)
+                id, pos, lvid, gvid = obj.id, obj.position, obj.m_level_vertex_id, obj.m_game_vertex_id
+                for k, v in pairs (tab_items[k]) do
+                    count = k
+                    for i=1, count do
+                        alife():create(v, pos, lvid, gvid, id)
+                    end
+                end
+            end
+        end
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Индикатор сна
+function hud_sleep_static()
+local hud = get_hud()
+    if bind_stalker.scopeUsed then hud:RemoveCustomStatic("sleep_static")
+    elseif hud:GetCustomStatic("sleep_static")==nil and amk.load_variable("gg_need_sleep",0)>300 then
+        hud:AddCustomStatic("sleep_static", true)
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Для проверки кратности бинокля
+-- Author - Charsi
+-- 37.125\5.625 (min\max)
+local st
+function zoom_update()
+    local item = db.actor:active_item()
+    if item and (item:section()=="wpn_binoc" or item:section()=="wpn_arm_binoc") then
+        if not fov then fov=device().fov end
+	    local z=fov/device().fov
+        if st then
+	        if z>1.01 then z=z+0.05
+		        local t=math.floor(z)
+		        local r=math.floor((z-t)*10)
+		        st:SetText("fov="..fov.." df="..device().fov)
+	        end
+	        if z<1.01 then st:SetText("") end
+        else
+	        st=CUIStatic()
+	        st:Init(1024/2,-300+768/2,200,200)	-- координаты где рисовать
+	        st:Show(true)
+	        get_hud():AddDialogToRender(st)
+        end
+    end
+end
+------------------------------------------------------------------------------------------------------------------------
+-- Level changer
+-- Author - singapur22
+function create_level_changer(
+    p_story_id,   -- STORY_ID нового level_changer (понадобится нам позже)
+    p_position,   -- вектор, координаты точки, в которой будет располагаться центр нового level_changer
+    p_lvertex_id, -- level_vertext_id - идентифицируют уровень, на котором будет создан level_changer
+    p_gvertex_id, -- game_vertext_id 
+    p_dest_lv,    -- level_vertex_id - идентифицируют уровень, на будет перебрасывать игрока 
+    p_dest_gv,    -- game_vertex_id
+    p_dest_pos,   -- координаты точки, в которой на новом уровне окажется игрок
+    p_dest_dir,   -- направрение взгляда игрока
+    p_dest_level, -- название уровня, например "L11_Pripyat"
+    p_silent,     -- следует задать 1, чтобы подавить вопрос о смене уровня (автоматический переход)
+    p_spot,       -- метка перехода
+    p_hint        -- подсказка на метке
+    )
+    local obj = alife():create("level_changer", p_position, p_lvertex_id, p_gvertex_id)
+    if p_spot and p_hint then level.map_add_object_spot(obj.id, p_spot, p_hint) end
+    local packet = net_packet()
+    obj:STATE_Write(packet)
+    -- свойства cse_alife_object
+    local game_vertex_id = packet:r_u16()
+    local cse_alife_object__unk1_f32 = packet:r_float()
+    local cse_alife_object__unk2_u32 = packet:r_u32()
+    local level_vertex_id = packet:r_u32()
+    local object_flags = packet:r_u32()
+    local custom_data = packet:r_stringZ()
+    local story_id = packet:r_u32()
+    local spawn_story_id = packet:r_u32()
+    -- свойства cse_shape
+    local shape_count = packet:r_u8()
+    for i=1,shape_count do
+    local shape_type = packet:r_u8()
+    if shape_type == 0 then
+    -- sphere
+    local center = packet:r_vec3()
+    local radius = packet:r_float()
+    else
+    -- box
+    local axis_x_x = packet:r_float()
+    local axis_x_y = packet:r_float()
+    local axis_x_z = packet:r_float()
+    local axis_y_x = packet:r_float()
+    local axis_y_y = packet:r_float()
+    local axis_y_z = packet:r_float()
+    local axis_z_x = packet:r_float()
+    local axis_z_y = packet:r_float()
+    local axis_z_z = packet:r_float()
+    local offset_x = packet:r_float()
+    local offset_y = packet:r_float()
+    local offset_z = packet:r_float()
+    end
+    end
+    -- свойства cse_alife_space_restrictor
+    local restrictor_type = packet:r_u8()
+    -- свойства cse_level_changer
+    local dest_game_vertex_id = packet:r_u16() 
+    local dest_level_vertex_id = packet:r_u32() 
+    local dest_position = packet:r_vec3()
+    local dest_direction = packet:r_vec3()
+    local dest_level_name = packet:r_stringZ()
+    local dest_graph_point = packet:r_stringZ()
+    local silent_mode = packet:r_u8()
+    packet:w_begin(game_vertex_id) -- game_vertex_id
+    packet:w_float(cse_alife_object__unk1_f32)
+    packet:w_u32(cse_alife_object__unk2_u32) 
+    packet:w_u32(level_vertex_id) -- level_vertex_id
+    packet:w_u32( bit_not(193) )  -- object_flags = -193 = 0xFFFFFF3E
+    packet:w_stringZ(custom_data)
+    packet:w_u32(p_story_id) -- story_id
+    packet:w_u32(spawn_story_id)
+    packet:w_u8(1)    -- количество фигур
+    packet:w_u8(1)    -- тип фигуры: box
+    packet:w_float(2) -- axis_x_x
+    packet:w_float(0) -- axis_x_y
+    packet:w_float(0) -- axis_x_z
+    packet:w_float(0) -- axis_y_x
+    packet:w_float(4) -- axis_y_y
+    packet:w_float(0) -- axis_y_z
+    packet:w_float(0) -- axis_z_x
+    packet:w_float(0) -- axis_z_y
+    packet:w_float(4) -- axis_z_z
+    packet:w_float(0) -- offset_x
+    packet:w_float(0) -- offset_y
+    packet:w_float(0) -- offset_z
+    packet:w_u8(3)    -- restrictor_type
+    packet:w_u16(p_dest_gv)   -- destination game_vertex_id
+    packet:w_u32(p_dest_lv)   -- destination level_vertex_id
+    packet:w_vec3(p_dest_pos) -- destination position
+    packet:w_vec3(p_dest_dir) -- destination direction (направление взгляда)
+    packet:w_stringZ(p_dest_level) -- destination level name
+    packet:w_stringZ("start_actor_99") -- some string, always const
+    packet:w_u8(p_silent)     -- 1 for silent level changing
+    packet:r_seek(0)
+    obj:STATE_Read(packet, packet:w_tell())
+end
+
+--[[Направления взгляда
+(0.0,0.0,-1.0) смотрим на север
+(0.0,1.56,-1.0) смотрим на запад
+(0.0,-1.58,-1.0) смотрим на восток
+(0.0,-3.15,-1.0) смотрим на юг]]
+
+-- С центральной Припяти в восточную
+function pripyat_to_cop_pripyat()
+	create_level_changer(97115, vector():set(189.497,-2.115,233.149), 259791, 2149,
+	176155, 3760, vector():set(-15.765,-0.496,307.323), vector():set(0.0,-1.58,-1.0), "pripyat", 0, "level_changer_right", "to_east_pripyat")
+	amk.send_tip("Center of Pripyat -\u003e East of Pripyat", "New way!", 2, 25, "pda_icon")
+end
+
+-- С восточной части в центральную №1
+function pripyat_cop_to_pripyat_1()
+	create_level_changer(97116, vector():set(-22.476,-0.491,306.534), 167535, 3760,
+	257147, 2149, vector():set(180.800,-2.205,233.571), vector():set(0.0,1.56,-1.0), "l11_pripyat", 0, "level_changer_left", "to_pripyat")
+end
+
+-- С восточной части в центральную №2
+function pripyat_cop_to_pripyat_2()
+	create_level_changer(97117, vector():set(-158.014,-0.435,-395.872), 48713, 3753,
+	145457, 2269, vector():set(35.081,-2.281,-291.484), vector():set(0.0,1.56,-1.0), "l11_pripyat", 0, "level_changer_left", "to_pripyat")
+end
+
+-- С восточной Припяти в Х-8
+function pripyat_cop_to_lab_x8()
+	create_level_changer(97118, vector():set(-78.298,0.303,100.377), 111629, 3754,
+	3750, 3838, vector():set(-77.974,-7.753,94.387), vector():set(0.0,-3.15,-1.0), "labx8", 0)
+	amk.send_tip("East of Pripyat -\u003e Laboratory X-8", "New way!", 2, 25, "pda_icon")
+end
+
+-- Из Х-8 в восточную Припять
+function lab_x8_to_pripyat_cop()
+	create_level_changer(97119, vector():set(-78.048,-7.902,99.385), 3764, 3838,
+	112273, 3754, vector():set(-77.719,0.400,96.113), vector():set(0.0,-3.15,-1.0), "pripyat", 0)
+end
