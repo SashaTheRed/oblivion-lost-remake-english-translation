@@ -115,45 +115,45 @@
 		<text>A rare mutant seen near to the center of the Zone. Bears a superficial resemblance of a humanoid with a disproportionately big head. Possesses a good perception, and an ability to control the behavior of less developed creatures. Mature specimen are capable of taking control over human's head. This is a ferocious enemy, and even the most experienced stalkers are afraid of meeting it.</text>
 	</string>
 	<string id="mutant_zombie_hand">
-		<text>Рука Зомби</text>
+		<text>Zombie hand</text>
 	</string>
 	<string id="mutant_zombie_hand_description">
-		<text>Учёные пытаются понять, как в таком прогнившем теле смогли сохраниться мышцы, которые позволяют Зомби наносить столь сильные удары.</text>
+		<text>A hand from a zombie. Scientists are still trying to understand how a zombie's decayed body could retain the strength needed that allow zombies to cause strong blows.</text>
 	</string>
 	<string id="mutant_burer_hand">
-		<text>Рука Бюрера</text>
+		<text>Burer hand</text>
 	</string>
 	<string id="mutant_burer_hand_description">
-		<text>Рука бюрера представляет большой интерес для учёных. Своей рукой бюрер может наносить как физический, так и телекинетический урон.</text>
+		<text>The burer's hand is of great interest to scientists. With this hand, a burer can cause both physical and telekinetic damage.</text>
 	</string>
 	<string id="Burer">
-		<text>Бюрер</text>
+		<text>Burer</text>
 	</string>
 	<string id="enc_mutant_burer_general">
-		<text>Очень редкий мутант. Есть мнение, что это результат генетических экспериментов, проводимых спецслужбами над преступниками, по программе развития в человеке телекинетических способностей. Толстяк с гипертрофированными чертами лица, в остатках одежды. В изношенной форме. Живёт в основном в мрачных, тёмных подземельях. К человеку относится враждебно. Бюрер атакует мощными конечностями, наносит невидимый телекинетический удар. Может создавать гравитационное поле, защищающее его от пуль и взрывов. Резкий свет на некоторое время ослепляет бюрера.</text>
+		<text>The result of secret Soviet genetic experiments on criminals and political outcasts, under the program of human telekinesis development. A humanoid creature of hypertrophied complexion, clad in shreds of shabby overalls. Afraid of bright light, the Burer dwells in dark and gloomy undergrounds and caves. Feeds on dead bodies.</text>
 	</string>
 	<string id="Chimera">
-		<text>Химера</text>
+		<text>Chimera</text>
 	</string>
 	<string id="enc_mutant_chimera_general">
-		<text>Очень редкий мутант. Ходят слухи, что это результат генетических экспериментов по программе «универсальное животное-защитник». Очень умная, сильная и быстрая тварь. Прячется, обходит со спины. Дублированная система внутренних органов и дополнительный мозг делает процесс её умерщвления весьма проблематичным. Сильные удары когтистыми лапами. В движении напоминает пантеру.</text>
+		<text>A very rare mutant. Rumor has it that this mutant is the result of genetic experiments from the "universal animal-defender" program. Chimera's are very smart, and they are strong and fast. They are known to attack their targets by moving around stealthily and closing in from behind. Chimera's have redundant organs, including a second brain, which makes them very hardy and tough to kill. They normally attack with their clawed hands, and the way a Chimera moves around is very similar to a panther.</text>
 	</string>
 	<string id="Rat">
-		<text>Крыса</text>
+		<text>Rat</text>
 	</string>
 	<string id="enc_mutant_rat_general">
-		<text>Крысы - это не выходцы из подземных лабораторных комплексов, они истинные хозяева Зоны. Сложно представить более приспособленный организм. Известная устойчивость крыс к воздействию радиации, объясняется эффективностью работы их репарационных систем ДНК. Быстрые темпы размножения и большое количество потомков позволяют им быстро приспосабливаться к новым условиям среды.</text>
+		<text>Rats are not natives of underground laboratory complexes. They are the true owners of the Zone. It is difficult to imagine an organism that has adapted well to the dangerous conditions of the Zone like the rat has. Rats have high resistance to radiation because of how efficient of their DNA repair systems are. They reproduce rapidly, so they have a large number of descendants that adapt quickly to new environmental conditions.</text>
 	</string>
 	<string id="Fracture">
-		<text>Излом</text>
+		<text>Izlom</text>
 	</string>
 	<string id="enc_mutant_fracture_general">
-		<text>Малоизученный мутант. То ли результат экспериментов, то ли результат воздействия Зоны на оставшихся людей. Имеются гипертрофированные конечности. Лицо близко к человеческому. Сутулится. Издали напоминает горбатого бродягу. Нападает на людей. Ест трупы. Сильный удар гипертрофированной рукой.</text>
+		<text>A little-known mutant that lives in the Zone. People don't know if Izloms are the result of experiments, or visible examples of the Zone's corruption of people. Izloms are easy to mistake for normal people since their faces look normal. They walk around in a hunched-back manner, so they're easy to mistake for humped up bums. They have hypertrophied limbs, but one of their arms has superhuman strength. Izloms are cannibalistic, so they attack people in order to kill and eat them.</text>
 	</string>
 	<string id="Cat">
-		<text>Кошка</text>
+		<text>Cat</text>
 	</string>
 	<string id="enc_mutant_cat_general">
-		<text>Дикая кошка-мутант. Встречается, в основном, ближе к центру «Зоны». По размеру значительно больше обычной кошки и может достигать размеров «слепого пса». Обитает в старых заброшенных домах. Питается грызунами, но может напасть и на человека.</text>
+		<text>A wild cat-mutant. They mostly live close to the center of the Zone, and their size is much bigger than the average house cat. They tend to live in abandoned houses, and they feed on rodents. Be careful around these mutant-cats, they aggressively attack anyone that intrudes their territory.</text>
 	</string>
 </string_table>
