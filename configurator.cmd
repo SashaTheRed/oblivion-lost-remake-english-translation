@@ -1,14 +1,17 @@
 rem color 0a
 
 @echo off
-@del /F /Q fixx185.txt
-@del /F /Q fixx186.txt
-@del /F /Q fixx187.txt
 @del /F /Q gamedata.dbf
 @del /F /Q gamedata.dbi
 @del /F /Q gamedata.dbo
 @del /F /Q gamedata.dbm
 @del /F /Q "_appdata_\configi\news2_off.zzz"
+@del /F /Q "_appdata_\configi\bat7_16core.zmd"
+@del /F /Q "_appdata_\configi\bat8_32core.zmd"
+@del /F /Q "_appdata_\configi\bat9_32core.zmd"
+@del /F /Q "_appdata_\configi\user_original.ltx"
+@del /F /Q "_appdata_\configi\user_low_1920.ltx"
+@del /F /Q "_appdata_\configi\user_orig_1920.ltx"
 @del /F /Q "_bin_olr_\log.log"
 rem @taskkill.exe /f /im xr_3da.exe /t
 @cls
@@ -21,7 +24,13 @@ rem @taskkill.exe /f /im xr_3da.exe /t
 @echo  If it is installed there, immediately close the configurator window, move the game
 @echo  to, for example, in C:\STALKER-OLR or D:\GAMES\STALKER-OLR and launch the CONFIGURATOR again.
 @echo.
-@echo          RESET ORIGINAL CONFIGS (USER.LTX, EFX.INI, SMAA=off)?
+@echo          RESTORE ORIGINAL CONFIGS (USER.LTX, EFX.INI, SMAA=off)?
+@echo.
+@echo 1 - NO                               4 - YES, LOW SETTINGS  HD 1280x720
+@echo 2 - YES, LOW SETTINGS  1280x1024     5 - YES, HIGH SETTINGS HD 1280x720
+@echo 3 - YES, HIGH SETTINGS 1280x1024     6 - YES, LOW SETTINGS  FULLHD 1920x1080
+@echo 8 - SUPPORT and UPDATE               7 - YES, HIGH SETTINGS FULLHD 1920x1080
+@echo.
 @echo.
 @echo Reset game options (and deactivate SMAA anti-aliasing support)?
 @echo.
@@ -37,25 +46,33 @@ rem @taskkill.exe /f /im xr_3da.exe /t
 if not defined var goto :menu2
 if "%var%"=="1" goto :menu2
 
-if "%var%"=="2" copy /y "_appdata_\configi\user_original.ltx" "_appdata_\user.ltx"
+if "%var%"=="2" copy /y "_appdata_\configi\user_low.ltx" "_appdata_\user.ltx"
 if "%var%"=="2" copy /y "_bin_olr_\efx_orig.ini" "_bin_olr_\efx.ini"
 if "%var%"=="2" del /F /Q "_bin_olr_\d3d9.dll"
 
-if "%var%"=="3" copy /y "_appdata_\configi\user_orig_1920.ltx" "_appdata_\user.ltx"
+if "%var%"=="3" copy /y "_appdata_\configi\user_hi.ltx" "_appdata_\user.ltx"
 if "%var%"=="3" copy /y "_bin_olr_\efx_orig.ini" "_bin_olr_\efx.ini"
 if "%var%"=="3" del /F /Q "_bin_olr_\d3d9.dll"
 
-if "%var%"=="4" copy /y "_appdata_\configi\user_low.ltx" "_appdata_\user.ltx"
+if "%var%"=="4" copy /y "_appdata_\configi\user_low_hd.ltx" "_appdata_\user.ltx"
 if "%var%"=="4" copy /y "_bin_olr_\efx_orig.ini" "_bin_olr_\efx.ini"
 if "%var%"=="4" del /F /Q "_bin_olr_\d3d9.dll"
 
-if "%var%"=="5" copy /y "_appdata_\configi\user_low_1920.ltx" "_appdata_\user.ltx"
+if "%var%"=="5" copy /y "_appdata_\configi\user_hi_hd.ltx" "_appdata_\user.ltx"
 if "%var%"=="5" copy /y "_bin_olr_\efx_orig.ini" "_bin_olr_\efx.ini"
 if "%var%"=="5" del /F /Q "_bin_olr_\d3d9.dll"
 
-if "%var%"=="6" cls
-if "%var%"=="6" start http://www.gameru.net/forum/index.php?showtopic=54066
-if "%var%"=="6" exit
+if "%var%"=="6" copy /y "_appdata_\configi\user_low_fullhd.ltx" "_appdata_\user.ltx"
+if "%var%"=="6" copy /y "_bin_olr_\efx_orig.ini" "_bin_olr_\efx.ini"
+if "%var%"=="6" del /F /Q "_bin_olr_\d3d9.dll"
+
+if "%var%"=="7" copy /y "_appdata_\configi\user_hi_fullhd.ltx" "_appdata_\user.ltx"
+if "%var%"=="7" copy /y "_bin_olr_\efx_orig.ini" "_bin_olr_\efx.ini"
+if "%var%"=="7" del /F /Q "_bin_olr_\d3d9.dll"
+
+if "%var%"=="8" cls
+if "%var%"=="8" start http://www.gameru.net/forum/index.php?showtopic=54066
+if "%var%"=="8" exit
 
 
 
@@ -65,6 +82,17 @@ if "%var%"=="6" exit
 @echo MENU B
 @echo.
 @echo                         SELECT EAX EFFECTS POWER
+@echo.
+@echo.
+@echo 1 - DEFAULT (RECOMMENDED)
+@echo 2 - MAXIMUM
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
 @echo.
 @echo Select the intensity of EAX effects.
 @echo Using the intensified version is not recommended.
@@ -90,7 +118,17 @@ if "%var%"=="2" copy /y "_appdata_\configi\eax2_max.zzz" "gamedata.dbk"
 @echo.
 @echo            SELECT FONT SIZE FOR MAIN MENU, DIALOGS AND INVENTORY
 @echo.
-@echo Select a font size for menus, dialogues, and the inventory.
+@echo.
+@echo.
+@echo 1 - BUILD
+@echo 2 - DEFAULT
+@echo 3 - 1024x768 OPTIMIZED
+@echo 4 - 1280x1024 OPTIMIZED
+@echo.
+@echo.
+@echo.
+@echo.
+@echo Select a font size for menus, dialogues, and the inventory
 @echo.
 @echo.1 - build (small)
 @echo 2 - standard (large)
@@ -117,7 +155,19 @@ if "%var%"=="4" copy /y "_appdata_\configi\font4_1280.zzz" "gamedata.dbe"
 @echo.
 @echo           		  SELECT SCOPE SIZE
 @echo.
-@echo Select a scope size.
+@echo.
+@echo 1 - DEFAULT
+@echo 2 - WIDE SCREEN OPTIMIZED (16:9, HD, FULLHD)
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo Select a scope size
 @echo.
 @echo 1 - standard
 @echo 2 - optimized for widescreen (16:9)
@@ -139,6 +189,11 @@ if "%var%"=="2" copy /y "_appdata_\configi\optic2_wide.zzz" "gamedata.dbn"
 @echo MENU E
 @echo.
 @echo           	      SELECT BREAKS FOR MENU
+@echo.
+@echo.
+@echo 1 - OFF
+@echo 2 - WITH BREAKS
+@echo.
 @echo.
 @echo With strong graphics cards, deactivating vertical synchronization
 @echo in the menu can bring the FPS up into the thousands and lead to malfunctions.
@@ -170,6 +225,11 @@ if "%var%"=="2" copy /y "_appdata_\configi\tormoz2_on.zzz" "gamedata.dbp"
 @echo.
 @echo           	      SELECT SMAA ANTIALIASING
 @echo.
+@echo.
+@echo 1 - OFF (DEFAULT)
+@echo 2 - ON
+@echo.
+@echo.
 @echo As you may know, S.T.A.L.K.E.R.'s built-in antialiasing is useless.
 @echo Here, you can turn on an injected form of SMAA anti-aliasing.
 @echo It can be toggled on and off in-game by pressing F10.
@@ -200,6 +260,11 @@ if "%var%"=="2" copy /y "_bin_olr_\-d3d9.dll" "_bin_olr_\d3d9.dll"
 @echo.
 @echo           	        SELECT GRASS MODE
 @echo.
+@echo.
+@echo 1 - DEFAULT
+@echo 2 - ALTERNATIVE
+@echo.
+@echo.
 @echo Use alternate grass from OLR 1.0/2.0 for a number of levels? 
 @echo It is thicker than the standard grass, but may significantly
 @echo reduce performance on weaker graphics cards.
@@ -228,12 +293,24 @@ if "%var%"=="2" copy /y "_appdata_\configi\grass2_high.zzz" "gamedata.dbd93"
 @cls
 @echo MENU H
 @echo.
-@echo           	         SELECT ACTOR ANIMATIONS
+@echo           	        SELECT TREES MODE
 @echo.
-@echo Select actor animations when using the third person camera with F2/F3:
 @echo.
-@echo 1 - build animations (may look clumsy - only for true fans)
-@echo 2 - closer to the final version of Shadow of Chernobyl
+@echo 1 - DEFAULT
+@echo 2 - ANIMATE
+@echo.
+@echo.
+@echo Should pseudo-animated foliage be used for trees?
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo Choose the type of foliage:
+@echo.
+@echo 1 - standard
+@echo 2 - animated
 @echo.
 @echo ===============================================================================
 @echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
@@ -241,8 +318,8 @@ if "%var%"=="2" copy /y "_appdata_\configi\grass2_high.zzz" "gamedata.dbd93"
 @set "var="
 @Set /p var="Enter: "
 if not defined var goto :menu9
-if "%var%"=="1" copy /y "_appdata_\configi\anims1_build.zzz" "gamedata.dbd94"
-if "%var%"=="2" copy /y "_appdata_\configi\anims2_soc.zzz" "gamedata.dbd94"
+if "%var%"=="1" copy /y "_appdata_\configi\trees1_def.zzz" "gamedata.dbu"
+if "%var%"=="2" copy /y "_appdata_\configi\trees2_anm.zzz" "gamedata.dbu"
 
 
 
@@ -251,9 +328,21 @@ if "%var%"=="2" copy /y "_appdata_\configi\anims2_soc.zzz" "gamedata.dbd94"
 @cls
 @echo MENU I
 @echo.
-@echo          SELECT WATER FOR CORDON/SILENT HILLS/SWAMP LEVELS ON STATIC LIGHTING 
+@echo                SELECT WATER FOR KORDON/MILITARY/SWAMP LEVELS 
 @echo.
-@echo Select a type of water in the Cordon/Silent Hills/Swamp (only for static lighting):
+@echo.
+@echo.
+@echo 1 - Build mode (RECOMMENDED)
+@echo 2 - Default
+@echo.
+@echo. 
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo Select a type of water in the Cordon/Silent Hills/Swamp:
 @echo.
 @echo 1 - build version (with duckweed; slightly reflects the sky)
 @echo 2 - standard (without duckweed; strongly reflects the sky)
@@ -274,14 +363,24 @@ if "%var%"=="2" copy /y "_appdata_\configi\swamp2_def.zzz" "gamedata.dbr"
 @cls
 @echo MENU J
 @echo.
-@echo           	       SELECT FREQUENCY OF DYNAMIC NEWS
+@echo                SELECT WEATHER FOR GARBAGE/DARK VALLEY LEVELS 
 @echo.
-@echo Select the frequency of on-screen dynamic news:
 @echo.
-@echo 1 - on (appears often)
-@echo 2 - on (appears 2x less often)
-@echo 3 - on (appears 3x less often)
-@echo 4 - off
+@echo.
+@echo 1 - Build mode
+@echo 2 - Default (RECOMMENDED)
+@echo.
+@echo. 
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo Select the weather for Garbage/Dark Valley:
+@echo.
+@echo 1 - build (always cloudy)
+@echo 2 - standard (full cycle weather)
 @echo.
 @echo ===============================================================================
 @echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
@@ -289,10 +388,8 @@ if "%var%"=="2" copy /y "_appdata_\configi\swamp2_def.zzz" "gamedata.dbr"
 @set "var="
 @Set /p var="Enter: "
 if not defined var goto :menu11
-if "%var%"=="1" copy /y "_appdata_\configi\news1_on.zzz" "gamedata.dbq"
-if "%var%"=="2" copy /y "_appdata_\configi\news2_on_x2.zzz" "gamedata.dbq"
-if "%var%"=="3" copy /y "_appdata_\configi\news3_on_x3.zzz" "gamedata.dbq"
-if "%var%"=="4" copy /y "_appdata_\configi\news4_off.zzz" "gamedata.dbq"
+if "%var%"=="1" copy /y "_appdata_\configi\garb1_build.zzz" "gamedata.dbt"
+if "%var%"=="2" copy /y "_appdata_\configi\garb2_def.zzz" "gamedata.dbt"
 
 
 
@@ -301,7 +398,89 @@ if "%var%"=="4" copy /y "_appdata_\configi\news4_off.zzz" "gamedata.dbq"
 @cls
 @echo MENU K
 @echo.
-@echo           	   SELECT NEWS TIME ON HUD
+@echo           	        SELECT ACTOR ANIMATIONS
+@echo.
+@echo.
+@echo.
+@echo 1 - Build mode (RECOMMENDED)
+@echo 2 - Shadow of Chernobyl mode
+@echo.
+@echo. 
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo.
+@echo Select actor animations when using the third person camera with F2/F3:
+@echo.
+@echo 1 - build animations (may look clumsy - only for true fans)
+@echo 2 - closer to the final version of Shadow of Chernobyl
+@echo.
+@echo ===============================================================================
+@echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
+@echo.
+@set "var="
+@Set /p var="Enter: "
+if not defined var goto :menu12
+if "%var%"=="1" copy /y "_appdata_\configi\anims1_build.zzz" "gamedata.dbd94"
+if "%var%"=="2" copy /y "_appdata_\configi\anims2_soc.zzz" "gamedata.dbd94"
+
+
+
+
+:menu12
+@cls
+@echo MENU L
+@echo.
+@echo           	       SELECT NEWS APPEAR MODE
+@echo.
+@echo.
+@echo 1 - ON (OFTEN)
+@echo 2 - ON (2x RARE)
+@echo 3 - ON (3x RARE)
+@echo 4 - OFF
+@echo 5 - ONLY NEWS ABOUT STALKER DEATHS
+@echo.
+@echo.
+@echo.
+@echo Select the frequency of on-screen dynamic news:
+@echo.
+@echo 1 - on (appears often)
+@echo 2 - on (appears 2x less often)
+@echo 3 - on (appears 3x less often)
+@echo 4 - off
+@echo 5 - only news about deaths of stalkers
+@echo.
+@echo ===============================================================================
+@echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
+@echo.
+@set "var="
+@Set /p var="Enter: "
+if not defined var goto :menu13
+if "%var%"=="1" copy /y "_appdata_\configi\news1_on.zzz" "gamedata.dbq"
+if "%var%"=="2" copy /y "_appdata_\configi\news2_on_x2.zzz" "gamedata.dbq"
+if "%var%"=="3" copy /y "_appdata_\configi\news3_on_x3.zzz" "gamedata.dbq"
+if "%var%"=="4" copy /y "_appdata_\configi\news4_off.zzz" "gamedata.dbq"
+if "%var%"=="5" copy /y "_appdata_\configi\news5_off_dea.zzz" "gamedata.dbq"
+
+
+
+:menu13
+@cls
+@echo MENU M
+@echo.
+@echo           	   SELECT NEWS TIME ON HUD MODE
+@echo.
+@echo.
+@echo.
+@echo 1 - 20 seconds (DEFAULT)
+@echo 2 - 15 seconds 
+@echo 3 - 10 seconds 
+@echo 4 - 5 seconds
+@echo.
+@echo.
+@echo.
 @echo.
 @echo Select the duration of news on-screen:
 @echo.
@@ -315,7 +494,7 @@ if "%var%"=="4" copy /y "_appdata_\configi\news4_off.zzz" "gamedata.dbq"
 @echo.
 @set "var="
 @Set /p var="Enter: "
-if not defined var goto :menu12
+if not defined var goto :menu14
 if "%var%"=="1" copy /y "_appdata_\configi\ntime1_20.zzz" "gamedata.dbs"
 if "%var%"=="2" copy /y "_appdata_\configi\ntime2_15.zzz" "gamedata.dbs"
 if "%var%"=="3" copy /y "_appdata_\configi\ntime3_10.zzz" "gamedata.dbs"
@@ -324,11 +503,22 @@ if "%var%"=="4" copy /y "_appdata_\configi\ntime4_5.zzz" "gamedata.dbs"
 
 
 
-:menu12
+:menu14
 @cls
-@echo MENU L
+@echo MENU N
 @echo.
 @echo           	         SELECT RAIN MODE
+@echo.
+@echo.
+@echo.
+@echo 1 - DEFAULT
+@echo 2 - OPTIMIZED (RECOMMENDED)
+@echo 3 - RANGE x3 (can reduce fps significantly)
+@echo. 
+@echo.
+@echo.
+@echo.
+@echo.
 @echo.
 @echo Select rain mode:
 @echo.
@@ -341,7 +531,7 @@ if "%var%"=="4" copy /y "_appdata_\configi\ntime4_5.zzz" "gamedata.dbs"
 @echo.
 @set "var="
 @Set /p var="Enter: "
-if not defined var goto :menu13
+if not defined var goto :menu15
 if "%var%"=="1" copy /y "_appdata_\configi\rain1_def.exa" "_bin_olr_\XR_3DA.exe"
 if "%var%"=="2" copy /y "_appdata_\configi\rain2_pwr.exa" "_bin_olr_\XR_3DA.exe"
 if "%var%"=="3" copy /y "_appdata_\configi\rain3_x3.exa" "_bin_olr_\XR_3DA.exe"
@@ -349,29 +539,35 @@ if "%var%"=="3" copy /y "_appdata_\configi\rain3_x3.exa" "_bin_olr_\XR_3DA.exe"
 
 
 
-:menu13
+:menu15
 @cls
-@echo MENU M
+@echo MENU O
 @echo.
 @echo           	    SELECT CPU OPTIMIZATION MODE
 @echo.
-@echo Select optimization for multicore processors:
+@echo 1 - DEFAULT               
+@echo 2 - for 2 threads CPU     10 - for 24 threads CPU
+@echo 3 - for 3 threads CPU     11 - for 28 threads CPU
+@echo 4 - for 4 threads CPU     12 - for 32 threads CPU
+@echo 5 - for 6 threads CPU     13 - for 36 threads CPU
+@echo 6 - for 8 threads CPU     14 - for 40 threads CPU
+@echo 7 - for 12 threads CPU    15 - for 44 threads CPU
+@echo 8 - for 16 threads CPU    16 - for 48 threads CPU
+@echo 9 - for 20 threads CPU    17 - for 64 threads CPU
 @echo.
-@echo 1 - DEFAULT
-@echo 2 - for 2 core CPUs
-@echo 3 - for 3 core CPUs
-@echo 4 - for 4 core CPUs
-@echo 5 - for 6 core CPUs
-@echo 6 - for 8 core CPUs
-@echo 7 - for 12 core CPUs
-@echo 8 - for 16 core CPUs
-@echo 9 - for 32 core CPUs
+@echo Choose the type of optimization for processor:
+@echo.
+@echo 1 - standard (no optimization)
+@echo 2 - for two threads
+@echo 3 - for three threads
+@echo 4 - for 4 threads
+@echo 5,6,7,8,9,10,11,12,13,14,15,16,17 - for others
 @echo ===============================================================================
 @echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
 @echo.
 @set "var="
 @Set /p var="Enter: "
-if not defined var goto :menu14
+if not defined var goto :menu16
 if "%var%"=="1" copy /y "_appdata_\configi\bat1_def.zmd" "stalker_OLR.cmd"
 
 if "%var%"=="2" copy /y "_appdata_\configi\bat2_2core.zmd" "stalker_OLR.cmd"
@@ -388,7 +584,58 @@ if "%var%"=="7" copy /y "_appdata_\configi\bat7_12core.zmd" "stalker_OLR.cmd"
 
 if "%var%"=="8" copy /y "_appdata_\configi\bat8_16core.zmd" "stalker_OLR.cmd"
 
-if "%var%"=="9" copy /y "_appdata_\configi\bat9_32core.zmd" "stalker_OLR.cmd"
+if "%var%"=="9" copy /y "_appdata_\configi\bat9_20core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="10" copy /y "_appdata_\configi\bat10_24core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="11" copy /y "_appdata_\configi\bat11_28core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="12" copy /y "_appdata_\configi\bat12_32core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="13" copy /y "_appdata_\configi\bat13_36core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="14" copy /y "_appdata_\configi\bat14_40core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="15" copy /y "_appdata_\configi\bat15_44core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="16" copy /y "_appdata_\configi\bat16_48core.zmd" "stalker_OLR.cmd"
+
+if "%var%"=="17" copy /y "_appdata_\configi\bat17_64core.zmd" "stalker_OLR.cmd"
+
+
+
+
+:menu16
+@cls
+@echo MENU P
+@echo.
+@echo           	        SELECT YOUTUBE MODE
+@echo.
+@echo.
+@echo 1 - ALL MUSIC ON (DEFAULT)
+@echo 2 - RADIO AND INTRO MUSIC DISABLED
+@echo 3 - RADIO, INTRO AND AUTORADIO MUSIC DISABLED
+@echo.
+@echo.
+@echo In order for shittube to not block your videos and streams with the game, it is necessary in advance
+@echo to disable the music (only applies to radios and car radios
+@echo and the final intros). Background music can be disabled in the audio options in the game's menu.
+@echo.
+@echo Select youtube compatibility mode:
+@echo.
+@echo 1 - all music is available (standard)
+@echo 2 - music from radios and intros disabled
+@echo 3 - music from radios, intros and car radios disabled
+@echo.
+@echo ===============================================================================
+@echo Enter a number and press ENTER or press ENTER to skip this step, and close this window to cancel
+@echo.
+@set "var="
+@Set /p var="Enter: "
+if not defined var goto :menu17
+if "%var%"=="1" copy /y "_appdata_\configi\mus1_on.zzz" "gamedata.dbv"
+if "%var%"=="2" copy /y "_appdata_\configi\mus2_off.zzz" "gamedata.dbv"
+if "%var%"=="3" copy /y "_appdata_\configi\mus3_off.zzz" "gamedata.dbv"
 
 
 @cls
@@ -398,5 +645,5 @@ EXIT
 @cls
 
 
-:menu14
+:menu17
 EXIT
