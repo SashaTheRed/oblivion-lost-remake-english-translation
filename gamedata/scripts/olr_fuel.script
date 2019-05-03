@@ -3,34 +3,103 @@
 --Использование топлива
 
 --Коллбек на использование предмета
+this.car_id = nil --id ближайшей машины
+
+--закрыть инвентарь
+local function inventory_off()
+	if db.actor:has_info("ui_inventory") then
+		local inventory_window = level.main_input_receiver()
+		if inventory_window and inventory_window:IsShown() then
+        		level.start_stop_menu(inventory_window, true)
+    		end
+	end
+end
+
 function on_use(obj)
-local ini = system_ini()
-	if ini:line_exist(obj:section(), "inc_fuel") then
+	local ini = system_ini()
+	local section = obj:section()
+	if ini:line_exist(section, "inc_fuel") then
 		local fuel = ini:r_float(obj:section(), "inc_fuel")
-		for i=1,65535 do
-			local car = level.object_by_id(i)
-
-
-				if car ~= nil and car:clsid() == clsid.car_s and car:position():distance_to(db.actor:position()) < 5 then
-
-				    	--проверяем, может бензобак уже полный, и случится баг заправки "в никуда"
-					--заправляем только если объем текущего топлива в бензобаке меньше объема бензобака
-		      		      	if car:get_fuel_tank() > car:get_fuel() then 		--if car:get_fuel_tank() ~= car:get_fuel() then
-
-						car:set_fuel(car:get_fuel() + fuel)
-						break
-
-				    	else
-						news_manager.send_tip(db.actor, "%c[255,160,160,160]".."Car:".."\\n".."%c[255,150,15,15]Tank is full. ".."".."\n", nil, "default", 10000)
+		if car_id then
+			local car = level.object_by_id(car_id)
+			if car ~= nil and car:clsid() == clsid.car_s then
+				inventory_off()
+				--проверяем, может бензобак уже полный, и случится баг заправки "в никуда"
+				--заправляем только если объем текущего топлива в бензобаке меньше объема бензобака
+				local fuel_tank = car:get_fuel_tank()
+				local car_fuel = car:get_fuel()
+				local fuel_in_car = car_fuel + fuel
+--1-й вариант - делаем так,чтобы объём топлива в машине после заправки не превышал объём бака
+		      		if fuel_tank > car_fuel then
+					--if fuel_in_car > fuel_tank then
+					--	fuel_in_car = fuel_tank
+					--end
+					car:set_fuel(fuel_in_car)
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]The fuel has been poured into the tank " .. math.floor(fuel_in_car) .. " л.", nil, "default", 10000)
+					--спавним в инвентарь пустую канистру
+					amk.spawn_item_in_inv("kanistra_empty")
+					return
+				else
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]The gas tank is full.", nil, "default", 10000)
+		      		end
+---------------------------------------------------------------------------------
+--[[
+--Второй вариант - не даём заправлять машину, если топливо из канистры не помещается в бак
+		      		if fuel_tank <= fuel_in_car then
+					car:set_fuel(fuel_in_car)
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]The fuel has been poured into the tank " .. math.floor(fuel_in_car) .. " л.", nil, "default", 10000)
+					amk.spawn_item_in_inv("kanistra_empty")
+					return
+				else
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]The tank is full.", nil, "default", 10000)
 						--news_manager.send_tip(db.actor, "storyline_vasilyev_tip", nil, "ecolog", nil, 903)
-		      		    	end
-
-
-				elseif i == 65535 then
-					amk.spawn_item_in_inv(obj:section())
-				end
-
-
+		      		end
+-------------------------------------------------------------------------------]]
+			end
 		end
+		amk.spawn_item_in_inv(section)
+--toolkit
+	elseif ini:line_exist(section, "car_repair") then
+		local repair = ini:r_float(obj:section(), "car_repair")
+		local min_cond = ini:r_float(obj:section(), "min_car_condition")
+		local max_cond = ini:r_float(obj:section(), "max_car_condition")
+		if car_id then
+			local car = level.object_by_id(car_id)
+			if car ~= nil and car:clsid() == clsid.car_s then
+				inventory_off()
+				local health = car:get_car():GetfHealth()
+		      		if health > min_cond and health < max_cond then
+					health = health + (1 - health)*repair/100
+					if health > 1 then
+						health = 1
+					end
+					car:get_car():SetfHealth(health)
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]Repair finished.", nil, "default", 10000)
+					return
+				else
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]The vehicle cannot be repaired with this kit.", nil, "default", 10000)
+		      		end
+			end
+		end
+		amk.spawn_item_in_inv(section)
+	elseif section == "kanistra_empty" then
+		local fuel = ini:r_float("kanistra_benz", "inc_fuel")
+		if car_id then
+			local car = level.object_by_id(car_id)
+			if car ~= nil and car:clsid() == clsid.car_s then
+				inventory_off()
+				local fuel_tank = car:get_fuel_tank()
+				local car_fuel = car:get_fuel()
+		      		if car_fuel >= fuel then
+					car:set_fuel(car_fuel - fuel)
+					amk.spawn_item_in_inv("kanistra_benz")
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]Fuel has been poured into the tank. " .. math.floor(car_fuel - fuel) .. " л.", nil, "default", 10000)
+					return
+				else
+				news_manager.send_tip(db.actor, "%c[255,160,160,160]Транспорт:\\n%c[255,150,15,15]There is too little fuel in the tank.", nil, "default", 10000)
+		      		end
+			end
+		end
+		amk.spawn_item_in_inv(section)
 	end
 end

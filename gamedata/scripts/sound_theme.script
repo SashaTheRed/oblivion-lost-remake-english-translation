@@ -76,23 +76,28 @@ ph_snd_themes["siren"] =  { "ambient\\siren2" }
 ph_snd_themes["bomb"] = {"detectors\\bomb_timer"}
 ph_snd_themes["detector"] = {"detectors\\da-2_beep1"}
 
-ph_snd_themes["cordon_radio"] = {"characters_voice\\scenario\\bar\\radio_music\\radio_music_1",
-	                        "characters_voice\\scenario\\bar\\radio_music\\radio_music_5",
-	                        "characters_voice\\scenario\\bar\\radio_music\\radio_music_6",
-	                        "characters_voice\\scenario\\bar\\radio_music\\radio_music_7",
-	                        "characters_voice\\scenario\\bar\\radio_music\\10_leontiev",
-	                        "characters_voice\\scenario\\bar\\radio_music\\18_lavanda",
-	                        "characters_voice\\scenario\\bar\\radio_music\\23_malinovka",
-	                        "characters_voice\\scenario\\bar\\radio_music\\32_pesnyaar",
-	                        "characters_voice\\scenario\\bar\\radio_music\\34_s12932",
-	                        "characters_voice\\scenario\\bar\\radio_music\\35_shkras",
-	                        "characters_voice\\scenario\\bar\\radio_music\\36_tachanka",
-	                        "characters_voice\\scenario\\bar\\radio_music\\37_marshta2",
-	                        "characters_voice\\scenario\\bar\\radio_music\\41_ulica",
-	                        "characters_voice\\scenario\\bar\\radio_music\\42_sneg",
-				"characters_voice\\scenario\\bar\\radio_music\\47_rabochii"
+--для кордона отдельно правим файлы, чтобы дальность не превышала 22 метров (1-1.5-22-1), кладем в scripts\\radio_kordon\\
+ph_snd_themes["radio_kordon"] = 
+				{
+				"scripts\\radio_kordon\\radio_music_1_kor",
+	                        "scripts\\radio_kordon\\radio_music_5_kor",
+	                        "scripts\\radio_kordon\\radio_music_6_kor",
+	                        "scripts\\radio_kordon\\radio_music_7_kor",
+	                        "scripts\\radio_kordon\\10_leontiev_kor",
+	                        "scripts\\radio_kordon\\18_lavanda_kor",
+	                        "scripts\\radio_kordon\\23_malinovka_kor",
+	                        "scripts\\radio_kordon\\34_s12932_kor",
+	                        "scripts\\radio_kordon\\35_shkras_kor",
+	                        "scripts\\radio_kordon\\42_sneg_kor",
+				"scripts\\radio_kordon\\47_rabochii_kor",
+				"scripts\\radio_kordon\\51_komarovo_kor"
 	                        }
 
+ph_snd_themes["radio_military1"] = {"scripts\\magnitofon\\magnitofon_7"
+	                        }
+
+ph_snd_themes["radio_military2"] = {"olr\\mil_radio"
+	                        }
 
 ph_snd_themes["radio_music"] = {"characters_voice\\scenario\\bar\\radio_music\\radio_music_1",
 	                        "characters_voice\\scenario\\bar\\radio_music\\radio_music_2",
@@ -105,7 +110,7 @@ ph_snd_themes["radio_music"] = {"characters_voice\\scenario\\bar\\radio_music\\r
 	                        "characters_voice\\scenario\\bar\\radio_music\\radio_music_9",
 	                        "characters_voice\\scenario\\bar\\radio_music\\10_leontiev",
 	                        "characters_voice\\scenario\\bar\\radio_music\\11_pesnyaol",
-	                        "characters_voice\\scenario\\bar\\radio_music\\12_paul_robeson",
+	                     -- "characters_voice\\scenario\\bar\\radio_music\\12_paul_robeson",
 	                        "characters_voice\\scenario\\bar\\radio_music\\13_boyarskiy_cvety",
 	                        "characters_voice\\scenario\\bar\\radio_music\\14_boyarskiy_kon",
 	                        "characters_voice\\scenario\\bar\\radio_music\\15_karachencov",
@@ -146,6 +151,8 @@ ph_snd_themes["radio_music"] = {"characters_voice\\scenario\\bar\\radio_music\\r
 				"characters_voice\\scenario\\bar\\radio_music\\50_tri_poradi",
 				"characters_voice\\scenario\\bar\\radio_music\\51_komarovo"
 	                        }
+
+ph_snd_themes["radio_music_off"] = {"silence"}
 
 ph_snd_themes["zombie_bred"] = {"monsters\\zombie_swamp\\zombie_die_0",
 				"monsters\\zombie_swamp\\zombie_die_1",
